@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-`include "flipflop.v"
+`include "../flipflop.v"
 
 module flipfloptb;
 
