@@ -33,6 +33,15 @@ module tb;
     cin=0;
     x=4'b0000;
     y=4'b0000;
+
+    #5 clk=~clk;
+       res=1;
+       cin=0;
+       x=4'b0001;
+       y=4'b0010;
+    #5 clk=~clk;
+    #5 clk=~clk;  
+
   end 
   
   initial 
