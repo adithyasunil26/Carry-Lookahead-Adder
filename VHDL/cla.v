@@ -24,7 +24,7 @@ module cla(clk,x1,x2,x3,x4,y1,y2,y3,y4,cin,z1,z2,z3,z4,cout);
   output z2;
   output z3;
   output z4;
-  output reg cout;
+  output cout;
 
   wire p1;
   wire p2;
@@ -101,41 +101,41 @@ module cla(clk,x1,x2,x3,x4,y1,y2,y3,y4,cin,z1,z2,z3,z4,cout);
     .p4 (p4) ,
     .g4 (g4) ,
     .cin(cin),
-    .c4 (c4)
+    .c4 (cout)
   );
 
 
   sum sum1 (
      .p(p1),
      .g(g1),
-     .c(c1),
+     .c(cin),
      .z(z1)
   );
 
   sum sum2 (
      .p(p2),
      .g(g2),
-     .c(c2),
+     .c(c1),
      .z(z2)
   );
 
   sum sum3 (
      .p(p3),
      .g(g3),
-     .c(c3),
+     .c(c2),
      .z(z3)
   );
 
   sum sum4 (
      .p(p4),
      .g(g4),
-     .c(c4),
+     .c(c3),
      .z(z4)
   );
 
-  always@(*)
-  begin
-    cout=c4;
-  end
+  // always@(*)
+  // begin
+  //   cout=c4;
+  // end
 
 endmodule

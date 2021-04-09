@@ -44,7 +44,7 @@ module toplevel(clk,res,x,y,cin,cout,z);
   wire z3;
   wire z4;
 
-  always@(*)
+  always@(posedge clk)
   begin
     x1=x[1];
     x2=x[2];

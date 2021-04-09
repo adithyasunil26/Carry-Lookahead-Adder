@@ -36,7 +36,7 @@ module tb;
     #100 clk=~clk;
     #100 clk=~clk;cin=0;x=4'b0011;y=4'b0010;   
     #100 clk=~clk;
-    #100 clk=~clk;  
+    #100 clk=~clk;cin=0;x=4'b0010;y=4'b0010;    
     #100 clk=~clk;
     #100 clk=~clk;  
     #100 clk=~clk;
