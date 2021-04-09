@@ -25,8 +25,8 @@ module tb;
   );
 
   initial begin 
-    $dumpfile("test.vcd");
-    $dumpvars(0,tb);
+    // $dumpfile("test.vcd");
+    // $dumpvars(0,tb);
     
     clk=0;
     res=0;
