@@ -132,7 +132,7 @@ module toplevel(clk,res,x,y,cin,cout,z);
   );
 
   ff  ffz1(
-    .D  (z10),
+    .D  (z1o),
     .clk(clk),
     .res(res),
     .Q  (z1)
@@ -159,7 +159,7 @@ module toplevel(clk,res,x,y,cin,cout,z);
     .Q  (z4)
   );
   
-  always@(*)
+  always@(posedge clk)
   begin
     z[1] = z1;
     z[2] = z2;
