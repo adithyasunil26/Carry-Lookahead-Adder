@@ -7,9 +7,8 @@
 `include "clg3.v"
 `include "clg4.v"
 
-module cla(clk,x1,x2,x3,x4,y1,y2,y3,y4,cin,z1,z2,z3,z4,cout);
+module cla(x1,x2,x3,x4,y1,y2,y3,y4,cin,z1,z2,z3,z4,cout);
 
-  input clk;
   input x1;
   input x2;
   input x3;

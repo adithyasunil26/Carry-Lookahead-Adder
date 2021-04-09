@@ -11,7 +11,7 @@ module toplevel(clk,res,x,y,cin,cout,z);
   input [4:1] y;
   input cin;
   
-  output reg cout;
+  output cout;
   output reg [4:1] z;
 
   reg x1;
@@ -44,69 +44,69 @@ module toplevel(clk,res,x,y,cin,cout,z);
   wire z3;
   wire z4;
 
-  always@(posedge clk)
-  begin
-    x1=x[1];
-    x2=x[2];
-    x3=x[3];
-    x4=x[4];
-    y1=y[1];
-    y2=y[2];
-    y3=y[3];
-    y4=y[4];
-  end
+  // always@(*)
+  // begin
+  //   x1=x[1];
+  //   x2=x[2];
+  //   x3=x[3];
+  //   x4=x[4];
+  //   y1=y[1];
+  //   y2=y[2];
+  //   y3=y[3];
+  //   y4=y[4];
+  // end
 
   ff  ffx1(
-    .D  (x1),
+    .D  (x[1]),
     .clk(clk),
     .res(res),
     .Q  (x1in)
   );
 
   ff  ffx2(
-    .D  (x2),
+    .D  (x[2]),
     .clk(clk),
     .res(res),
     .Q  (x2in)
   );
 
   ff  ffx3(
-    .D  (x3),
+    .D  (x[3]),
     .clk(clk),
     .res(res),
     .Q  (x3in)
   );
 
   ff  ffx4(
-    .D  (x4),
+    .D  (x[4]),
     .clk(clk),
     .res(res),
     .Q  (x4in)
   );
 
   ff  ffy1(
-    .D  (y1),
+    .D  (y[1]),
     .clk(clk),
     .res(res),
     .Q  (y1in)
   );
 
   ff  ffy2(
-    .D  (y2),
+    .D  (y[2]),
     .clk(clk),
     .res(res),
     .Q  (y2in)
   );
 
   ff  ffy3(
-    .D  (y3),
+    .D  (y[3]),
     .clk(clk),
     .res(res),
     .Q  (y3in)
   );
 
   ff  ffy4(
-    .D  (y4),
+    .D  (y[4]),
     .clk(clk),
     .res(res),
     .Q  (y4in)
@@ -114,7 +114,6 @@ module toplevel(clk,res,x,y,cin,cout,z);
   
   
   cla cla1(
-    .clk (clk ),
     .x1  (x1in),
     .x2  (x2in),
     .x3  (x3in),
@@ -128,7 +127,7 @@ module toplevel(clk,res,x,y,cin,cout,z);
     .z2  (z2o ),
     .z3  (z3o ),
     .z4  (z4o ),
-    .cout(couto)
+    .cout(cout)
   );
 
   ff  ffz1(
@@ -159,12 +158,11 @@ module toplevel(clk,res,x,y,cin,cout,z);
     .Q  (z4)
   );
   
-  always@(posedge clk)
+  always@(*)
   begin
     z[1] = z1;
     z[2] = z2;
     z[3] = z3;
     z[4] = z4;
-    cout = couto;
   end
 endmodule
