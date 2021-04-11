@@ -111,11 +111,14 @@ module cla(x1,x2,x3,x4,y1,y2,y3,y4,cin,z1,z2,z3,z4,cout);
   or or3 (c4,o3,n3);
   xor xor4 (z4,c4,k4);
 
-  nand nand2 (po,l2,l4);
+  nand nand2 (ponot,l2,l4);
   and and3 (o4,l4,n2);
-  nor nor2 (go,o4,n4);
+  nor nor2 (gonot,o4,n4);
+
+  not not2 (go,gonot);
+  not not3 (po,ponot);
 
   and and4 (o5,cin,po);
-  or or4 (cout,g0,o5); 
+  or or4 (cout,go,o5); 
 
 endmodule
