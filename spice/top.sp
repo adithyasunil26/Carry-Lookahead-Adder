@@ -3,21 +3,24 @@
 .param SUPPLY=1.8V
 .param LAMBDA=0.09u
 .param length={2*LAMBDA}
-.param w={10*LAMBDA}
+.param w={6*LAMBDA}
 .global gnd vdd
 
 Vdd vdd gnd 'SUPPLY'
 
 vclk clk gnd pulse 1.8 0 0ps 1ps 1ps 200ps 4ns
 * vx1 x1in gnd pulse 0 1.8 0ps 1ps 1ps 10ns 20ns
+
 vx1 x1in gnd pulse 0 1.8 0ps 1ps 1ps 1ns 2ns
 vx2 x2in gnd pulse 0 1.8 0ps 1ps 1ps 20ns 40ns
 vx3 x3in gnd pulse 0 1.8 0ps 1ps 1ps 40ns 80ns
 vx4 x4in gnd pulse 0 1.8 0ps 1ps 1ps 80ns 160ns
+
 vy1 y1in gnd pulse 0 1.8 0ps 1ps 1ps 160ns 320ns
 vy2 y2in gnd pulse 0 1.8 0ps 1ps 1ps 320ns 740ns
 vy3 y3in gnd pulse 0 1.8 0ps 1ps 1ps 1080ns 2160ns
 vy4 y4in gnd pulse 0 1.8 0ps 1ps 1ps 2160ns 4320ns
+
 vcin cin gnd pulse 0 1.8 0ps 1ps 1ps 4320ns 8640ns
 
 .subckt nand_ckt y a b w vdd gnd
@@ -27,19 +30,19 @@ vcin cin gnd pulse 0 1.8 0ps 1ps 1ps 4320ns 8640ns
   M2 y b vdd vdd CMOSP W={2*w} L={length} AS={5*2*w*LAMBDA} 
   + PS={10*LAMBDA+2*2*w} AD={5*2*w*LAMBDA} PD={10*LAMBDA+2*2*w}
 
-  M3 y a l gnd CMOSN W={w} L={length} AS={5*w*LAMBDA} 
-  + PS={10*LAMBDA+2*w} AD={5*w*LAMBDA} PD={10*LAMBDA+2*w}
+  M3 y a l gnd CMOSN W={2*w} L={length} AS={5*2*w*LAMBDA} 
+  + PS={10*LAMBDA+2*2*w} AD={5*2*w*LAMBDA} PD={10*LAMBDA+2*2*w}
 
-  M4 l b gnd gnd CMOSN W={w} L={length} AS={5*w*LAMBDA} 
-  + PS={10*LAMBDA+2*w} AD={5*w*LAMBDA} PD={10*LAMBDA+2*w}
+  M4 l b gnd gnd CMOSN W={2*w} L={length} AS={5*2*w*LAMBDA} 
+  + PS={10*LAMBDA+2*2*w} AD={5*2*w*LAMBDA} PD={10*LAMBDA+2*2*w}
 .ends nand_ckt
 
 .subckt nor_ckt y a b w vdd gnd
-  M1 l a vdd vdd CMOSP W={2*w} L={length} AS={5*2*w*LAMBDA} 
-  + PS={10*LAMBDA+2*2*w} AD={5*2*w*LAMBDA} PD={10*LAMBDA+2*2*w}
+  M1 l a vdd vdd CMOSP W={4*w} L={length} AS={5*4*w*LAMBDA} 
+  + PS={10*LAMBDA+2*4*w} AD={5*4*w*LAMBDA} PD={10*LAMBDA+2*4*w}
 
-  M2 y b l vdd CMOSP W={2*w} L={length} AS={5*2*w*LAMBDA} 
-  + PS={10*LAMBDA+2*2*w} AD={5*2*w*LAMBDA} PD={10*LAMBDA+2*2*w}
+  M2 y b l vdd CMOSP W={4*w} L={length} AS={5*4*w*LAMBDA} 
+  + PS={10*LAMBDA+2*4*w} AD={5*4*w*LAMBDA} PD={10*LAMBDA+2*4*w}
 
   M3 y a gnd gnd CMOSN W={w} L={length} AS={5*w*LAMBDA} 
   + PS={10*LAMBDA+2*w} AD={5*w*LAMBDA} PD={10*LAMBDA+2*w}
@@ -49,8 +52,8 @@ vcin cin gnd pulse 0 1.8 0ps 1ps 1ps 4320ns 8640ns
 .ends nor_ckt
 
 .subckt inv y x w vdd gnd
-  M1 y x vdd vdd CMOSP W={2.5*w} L={length} AS={5*2.5*w*LAMBDA} 
-  + PS={10*LAMBDA+2*2.5*w} AD={5*2.5*w*LAMBDA} PD={10*LAMBDA+2*2.5*w}
+  M1 y x vdd vdd CMOSP W={2*w} L={length} AS={5*2*w*LAMBDA} 
+  + PS={10*LAMBDA+2*2*w} AD={5*2*w*LAMBDA} PD={10*LAMBDA+2*2*w}
 
   M2 y x gnd gnd CMOSN W={w} L={length} AS={5*w*LAMBDA} 
   + PS={10*LAMBDA+2*w} AD={5*w*LAMBDA} PD={10*LAMBDA+2*w}
@@ -150,6 +153,13 @@ C3 z3o gnd 4ff
 C4 z4o gnd 4ff
 
 .tran 100p 10n
+
+.measure tran tpdr1
++TRIG v(x1) VAL='0.50*SUPPLY' RISE=1 TARG v(z1o) VAL='0.50*SUPPLY' RISE=1
+.measure tran tpdf1
++TRIG v(x1) VAL='0.50*SUPPLY' FALL=1 TARG v(z1o) VAL='0.50*SUPPLY' FALL=1
+.measure tran tpd1 
++param='(tpdr1+tpdf1)/2' goal=0
 
 .control
 set hcopypscolor = 1 

@@ -30,19 +30,19 @@ vcin cin gnd pulse 0 1.8 0ns 10ps 10ps 4320ns 8640ns
   M2 y b vdd vdd CMOSP W={2*w} L={length} AS={5*2*w*LAMBDA} 
   + PS={10*LAMBDA+2*2*w} AD={5*2*w*LAMBDA} PD={10*LAMBDA+2*2*w}
 
-  M3 y a l gnd CMOSN W={w} L={length} AS={5*w*LAMBDA} 
-  + PS={10*LAMBDA+2*w} AD={5*w*LAMBDA} PD={10*LAMBDA+2*w}
+  M3 y a l gnd CMOSN W={2*w} L={length} AS={5*2*w*LAMBDA} 
+  + PS={10*LAMBDA+2*2*w} AD={5*2*w*LAMBDA} PD={10*LAMBDA+2*2*w}
 
-  M4 l b gnd gnd CMOSN W={w} L={length} AS={5*w*LAMBDA} 
-  + PS={10*LAMBDA+2*w} AD={5*w*LAMBDA} PD={10*LAMBDA+2*w}
+  M4 l b gnd gnd CMOSN W={2*w} L={length} AS={5*2*w*LAMBDA} 
+  + PS={10*LAMBDA+2*2*w} AD={5*2*w*LAMBDA} PD={10*LAMBDA+2*2*w}
 .ends nand_ckt
 
 .subckt nor_ckt y a b w vdd gnd
-  M1 l a vdd vdd CMOSP W={2*w} L={length} AS={5*2*w*LAMBDA} 
-  + PS={10*LAMBDA+2*2*w} AD={5*2*w*LAMBDA} PD={10*LAMBDA+2*2*w}
+  M1 l a vdd vdd CMOSP W={4*w} L={length} AS={5*4*w*LAMBDA} 
+  + PS={10*LAMBDA+2*4*w} AD={5*4*w*LAMBDA} PD={10*LAMBDA+2*4*w}
 
-  M2 y b l vdd CMOSP W={2*w} L={length} AS={5*2*w*LAMBDA} 
-  + PS={10*LAMBDA+2*2*w} AD={5*2*w*LAMBDA} PD={10*LAMBDA+2*2*w}
+  M2 y b l vdd CMOSP W={4*w} L={length} AS={5*4*w*LAMBDA} 
+  + PS={10*LAMBDA+2*4*w} AD={5*4*w*LAMBDA} PD={10*LAMBDA+2*4*w}
 
   M3 y a gnd gnd CMOSN W={w} L={length} AS={5*w*LAMBDA} 
   + PS={10*LAMBDA+2*w} AD={5*w*LAMBDA} PD={10*LAMBDA+2*w}
@@ -52,8 +52,8 @@ vcin cin gnd pulse 0 1.8 0ns 10ps 10ps 4320ns 8640ns
 .ends nor_ckt
 
 .subckt inv y x w vdd gnd
-  M1 y x vdd vdd CMOSP W={2.5*w} L={length} AS={5*2.5*w*LAMBDA} 
-  + PS={10*LAMBDA+2*2.5*w} AD={5*2.5*w*LAMBDA} PD={10*LAMBDA+2*2.5*w}
+  M1 y x vdd vdd CMOSP W={2*w} L={length} AS={5*2*w*LAMBDA} 
+  + PS={10*LAMBDA+2*2*w} AD={5*2*w*LAMBDA} PD={10*LAMBDA+2*2*w}
 
   M2 y x gnd gnd CMOSN W={w} L={length} AS={5*w*LAMBDA} 
   + PS={10*LAMBDA+2*w} AD={5*w*LAMBDA} PD={10*LAMBDA+2*w}

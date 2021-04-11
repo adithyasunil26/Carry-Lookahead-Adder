@@ -21,16 +21,16 @@ vclk clk gnd pulse 0 1.8 0ns 10ps 10ps 20ns 40ns
   M2 y b vdd vdd CMOSP W={2*w} L={length} AS={5*2*w*LAMBDA} 
   + PS={10*LAMBDA+2*2*w} AD={5*2*w*LAMBDA} PD={10*LAMBDA+2*2*w}
 
-  M3 y a l gnd CMOSN W={w} L={length} AS={5*w*LAMBDA} 
-  + PS={10*LAMBDA+2*w} AD={5*w*LAMBDA} PD={10*LAMBDA+2*w}
+  M3 y a l gnd CMOSN W={2*w} L={length} AS={5*2*w*LAMBDA} 
+  + PS={10*LAMBDA+2*2*w} AD={5*2*w*LAMBDA} PD={10*LAMBDA+2*2*w}
 
-  M4 l b gnd gnd CMOSN W={w} L={length} AS={5*w*LAMBDA} 
-  + PS={10*LAMBDA+2*w} AD={5*w*LAMBDA} PD={10*LAMBDA+2*w}
+  M4 l b gnd gnd CMOSN W={2*w} L={length} AS={5*2*w*LAMBDA} 
+  + PS={10*LAMBDA+2*2*w} AD={5*2*w*LAMBDA} PD={10*LAMBDA+2*2*w}
 .ends nand_ckt
 
 .subckt inv y x w vdd gnd
-  M1 y x vdd vdd CMOSP W={2.5*w} L={length} AS={5*2.5*w*LAMBDA} 
-  + PS={10*LAMBDA+2*2.5*w} AD={5*2.5*w*LAMBDA} PD={10*LAMBDA+2*2.5*w}
+  M1 y x vdd vdd CMOSP W={2*w} L={length} AS={5*2*w*LAMBDA} 
+  + PS={10*LAMBDA+2*2*w} AD={5*2*w*LAMBDA} PD={10*LAMBDA+2*2*w}
 
   M2 y x gnd gnd CMOSN W={w} L={length} AS={5*w*LAMBDA} 
   + PS={10*LAMBDA+2*w} AD={5*w*LAMBDA} PD={10*LAMBDA+2*w}
