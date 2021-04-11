@@ -8,19 +8,17 @@
 
 Vdd vdd gnd 'SUPPLY'
 
-vclk clk gnd pulse 1.8 0 0ns 10ps 10ps 5ns 10ns
-
-vx1 x1in gnd pulse 0 1.8 0ns 10ps 10ps 10ns 20ns
-vx2 x2in gnd pulse 0 1.8 0ns 10ps 10ps 20ns 40ns
-vx3 x3in gnd pulse 0 1.8 0ns 10ps 10ps 40ns 80ns
-vx4 x4in gnd pulse 0 1.8 0ns 10ps 10ps 80ns 160ns
-
-vy1 y1in gnd pulse 0 1.8 0ns 10ps 10ps 160ns 320ns
-vy2 y2in gnd pulse 0 1.8 0ns 10ps 10ps 320ns 740ns
-vy3 y3in gnd pulse 0 1.8 0ns 10ps 10ps 1080ns 2160ns
-vy4 y4in gnd pulse 0 1.8 0ns 10ps 10ps 2160ns 4320ns
-
-vcin cin gnd pulse 0 1.8 0ns 10ps 10ps 4320ns 8640ns
+vclk clk gnd pulse 1.8 0 0ps 1ps 1ps 200ps 4ns
+* vx1 x1in gnd pulse 0 1.8 0ps 1ps 1ps 10ns 20ns
+vx1 x1in gnd pulse 0 1.8 0ps 1ps 1ps 1ns 2ns
+vx2 x2in gnd pulse 0 1.8 0ps 1ps 1ps 20ns 40ns
+vx3 x3in gnd pulse 0 1.8 0ps 1ps 1ps 40ns 80ns
+vx4 x4in gnd pulse 0 1.8 0ps 1ps 1ps 80ns 160ns
+vy1 y1in gnd pulse 0 1.8 0ps 1ps 1ps 160ns 320ns
+vy2 y2in gnd pulse 0 1.8 0ps 1ps 1ps 320ns 740ns
+vy3 y3in gnd pulse 0 1.8 0ps 1ps 1ps 1080ns 2160ns
+vy4 y4in gnd pulse 0 1.8 0ps 1ps 1ps 2160ns 4320ns
+vcin cin gnd pulse 0 1.8 0ps 1ps 1ps 4320ns 8640ns
 
 .subckt nand_ckt y a b w vdd gnd
   M1 y a vdd vdd CMOSP W={2*w} L={length} AS={5*2*w*LAMBDA} 
@@ -146,8 +144,12 @@ x112 z2o z2not z2 clk w vdd gnd flipflop
 x113 z3o z3not z3 clk w vdd gnd flipflop
 x114 z4o z4not z4 clk w vdd gnd flipflop
 
+C1 z1o gnd 4ff
+C2 z2o gnd 4ff
+C3 z3o gnd 4ff
+C4 z4o gnd 4ff
 
-.tran 1n 100n
+.tran 100p 10n
 
 .control
 set hcopypscolor = 1 
