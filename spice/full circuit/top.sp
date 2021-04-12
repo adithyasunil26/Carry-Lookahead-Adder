@@ -8,27 +8,27 @@
 
 Vdd vdd gnd 'SUPPLY'
 
-vclk clk gnd pulse 0 1.8 0ns 10ps 10ps 5ns 10ns
+vclk clk gnd pulse 1.8 0 0ns 10ps 10ps 5ns 10ns
 
-vcin cinin gnd pulse 1.8 0 0ns 10ps 10ps 10ns 20ns
-vy1 y1in gnd pulse 1.8 0 0ns 10ps 10ps 20ns 40ns
-vy2 y2in gnd pulse 1.8 0 0ns 10ps 10ps 40ns 80ns
-vy3 y3in gnd pulse 1.8 0 0ns 10ps 10ps 80ns 160ns
-vy4 y4in gnd pulse 1.8 0 0ns 10ps 10ps 160ns 320ns
-vx1 x1in gnd pulse 1.8 0 0ns 10ps 10ps 320ns 740ns
-vx2 x2in gnd pulse 1.8 0 0ns 10ps 10ps 1080ns 2160ns
-vx3 x3in gnd pulse 1.8 0 0ns 10ps 10ps 2160ns 4320ns
-vx4 x4in gnd pulse 1.8 0 0ns 10ps 10ps 4320ns 8640ns
+* vcin cinin gnd pulse 1.8 0 0ns 10ps 10ps 10ns 20ns
+* vy1 y1in gnd pulse 1.8 0 0ns 10ps 10ps 20ns 40ns
+* vy2 y2in gnd pulse 1.8 0 0ns 10ps 10ps 40ns 80ns
+* vy3 y3in gnd pulse 1.8 0 0ns 10ps 10ps 80ns 160ns
+* vy4 y4in gnd pulse 1.8 0 0ns 10ps 10ps 160ns 320ns
+* vx1 x1in gnd pulse 1.8 0 0ns 10ps 10ps 320ns 740ns
+* vx2 x2in gnd pulse 1.8 0 0ns 10ps 10ps 1080ns 2160ns
+* vx3 x3in gnd pulse 1.8 0 0ns 10ps 10ps 2160ns 4320ns
+* vx4 x4in gnd pulse 1.8 0 0ns 10ps 10ps 4320ns 8640ns
 
-* vy1 y1in gnd 1.8
-* vy2 y2in gnd 0
-* vy3 y3in gnd 0
-* vy4 y4in gnd 0
-* vx1 x1in gnd 0
-* vx2 x2in gnd 0
-* vx3 x3in gnd 0
-* vx4 x4in gnd 0
-* vcin cinin gnd 0
+vy1 y1in gnd 1.8
+vy2 y2in gnd 0
+vy3 y3in gnd 0
+vy4 y4in gnd 0
+vx1 x1in gnd 0
+vx2 x2in gnd 0
+vx3 x3in gnd 0
+vx4 x4in gnd 0
+vcin cinin gnd 0
 
 .subckt nand_ckt y a b w vdd gnd
   M1 y a vdd vdd CMOSP W={2*w} L={length} AS={5*2*w*LAMBDA} 
@@ -201,11 +201,15 @@ set color1=black
 run
 set curplottitle="Adithya-2019102005-full-circuit"
 
-hardcopy clk.eps v(clk)
-hardcopy z1.eps v(z1o) v(x1in) v(y1in) v(cin)
-hardcopy z2.eps v(z2o)
-hardcopy z3.eps v(z3o)
-hardcopy z4.eps v(z4o)
-hardcopy cout.eps v(cout)
+plot v(clk)
+plot v(y1in) 
+plot v(z1o) 
+
+* hardcopy clk.eps v(clk)
+* hardcopy z1.eps v(z1o) v(x1in) v(y1in) v(cin)
+* hardcopy z2.eps v(z2o)
+* hardcopy z3.eps v(z3o)
+* hardcopy z4.eps v(z4o)
+* hardcopy cout.eps v(cout)
 
 .endc
