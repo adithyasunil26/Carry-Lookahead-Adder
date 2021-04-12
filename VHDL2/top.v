@@ -11,7 +11,7 @@ module toplevel(clk,res,x,y,cin,cout,z);
   input [4:1] y;
   input cin;
   
-  output cout;
+  output reg cout;
   output reg [4:1] z;
 
   reg x1;
@@ -32,6 +32,7 @@ module toplevel(clk,res,x,y,cin,cout,z);
   wire y3in;
   wire y4in;
 
+  wire coutoo;
   wire couto;
 
   wire z1o;
@@ -55,6 +56,12 @@ module toplevel(clk,res,x,y,cin,cout,z);
   //   y3=y[3];
   //   y4=y[4];
   // end
+  ff  ffcin(
+    .D  (cin),
+    .clk(clk),
+    .res(res),
+    .Q  (cinin)
+  );
 
   ff  ffx1(
     .D  (x[1]),
@@ -122,12 +129,12 @@ module toplevel(clk,res,x,y,cin,cout,z);
     .y2  (y2in),
     .y3  (y3in),
     .y4  (y4in),
-    .cin (cin ),
+    .cin (cinin),
     .z1  (z1o ),
     .z2  (z2o ),
     .z3  (z3o ),
     .z4  (z4o ),
-    .cout(cout)
+    .cout(coutoo)
   );
 
   ff  ffz1(
@@ -157,6 +164,13 @@ module toplevel(clk,res,x,y,cin,cout,z);
     .res(res),
     .Q  (z4)
   );
+
+  ff ffcout(
+    .D  (coutoo),
+    .clk(clk),
+    .res(res),
+    .Q  (couto)
+  );
   
   always@(*)
   begin
@@ -164,5 +178,6 @@ module toplevel(clk,res,x,y,cin,cout,z);
     z[2] = z2;
     z[3] = z3;
     z[4] = z4;
+    cout=couto;
   end
 endmodule
