@@ -3,10 +3,9 @@
 `include "cla.v"
 `include "ff.v"
 
-module toplevel(clk,res,x,y,cin,cout,z);
+module toplevel(clk,x,y,cin,cout,z);
   
   input clk;
-  input res;
   input [4:1] x;
   input [4:1] y;
   input cin;
@@ -59,63 +58,54 @@ module toplevel(clk,res,x,y,cin,cout,z);
   ff  ffcin(
     .D  (cin),
     .clk(clk),
-    .res(res),
     .Q  (cinin)
   );
 
   ff  ffx1(
     .D  (x[1]),
     .clk(clk),
-    .res(res),
     .Q  (x1in)
   );
 
   ff  ffx2(
     .D  (x[2]),
     .clk(clk),
-    .res(res),
     .Q  (x2in)
   );
 
   ff  ffx3(
     .D  (x[3]),
     .clk(clk),
-    .res(res),
     .Q  (x3in)
   );
 
   ff  ffx4(
     .D  (x[4]),
     .clk(clk),
-    .res(res),
     .Q  (x4in)
   );
 
   ff  ffy1(
     .D  (y[1]),
     .clk(clk),
-    .res(res),
     .Q  (y1in)
   );
 
   ff  ffy2(
     .D  (y[2]),
     .clk(clk),
-    .res(res),
     .Q  (y2in)
   );
 
   ff  ffy3(
     .D  (y[3]),
     .clk(clk),
-    .res(res),
     .Q  (y3in)
   );
 
   ff  ffy4(
     .D  (y[4]),
     .clk(clk),
-    .res(res),
     .Q  (y4in)
   );
   
@@ -140,35 +130,30 @@ module toplevel(clk,res,x,y,cin,cout,z);
   ff  ffz1(
     .D  (z1o),
     .clk(clk),
-    .res(res),
     .Q  (z1)
   );
 
   ff  ffz2(
     .D  (z2o),
     .clk(clk),
-    .res(res),
     .Q  (z2)
   );
 
   ff  ffz3(
     .D  (z3o),
     .clk(clk),
-    .res(res),
     .Q  (z3)
   );
 
   ff  ffz4(
     .D  (z4o),
     .clk(clk),
-    .res(res),
     .Q  (z4)
   );
 
   ff ffcout(
     .D  (coutoo),
     .clk(clk),
-    .res(res),
     .Q  (couto)
   );
   
