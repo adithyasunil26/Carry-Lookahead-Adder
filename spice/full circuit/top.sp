@@ -8,7 +8,7 @@
 
 Vdd vdd gnd 'SUPPLY'
 
-vclk clk gnd pulse 1.8 0 0ns 10ps 10ps 10ns 20ns
+vclk clk gnd pulse 0 1.8 0ns 10ps 10ps 5ns 10ns
 
 vcin cinin gnd pulse 1.8 0 0ns 10ps 10ps 10ns 20ns
 vy1 y1in gnd pulse 1.8 0 0ns 10ps 10ps 20ns 40ns
@@ -202,7 +202,7 @@ run
 set curplottitle="Adithya-2019102005-full-circuit"
 
 hardcopy clk.eps v(clk)
-hardcopy z1.eps v(z1o)
+hardcopy z1.eps v(z1o) v(x1in) v(y1in) v(cin)
 hardcopy z2.eps v(z2o)
 hardcopy z3.eps v(z3o)
 hardcopy z4.eps v(z4o)
