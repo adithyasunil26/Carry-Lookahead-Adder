@@ -1,9 +1,9 @@
-.include TSMC_180nm.txt
+.include ../TSMC_180nm.txt
 * D G S B
 .param SUPPLY=1.8V
 .param LAMBDA=0.09u
 .param length={2*LAMBDA}
-.param w={10*LAMBDA}
+.param w={6*LAMBDA}
 .global gnd vdd
 
 Vdd vdd gnd 'SUPPLY'
@@ -54,7 +54,9 @@ set color0=white
 set color1=black 
 
 run
-set curplottitle="Adithya-2019102005"
+set curplottitle="Adithya-2019102005-flipflop"
 
-hardcopy test.eps v(q) v(qnot) 
+hardcopy clk.eps v(clk)
+hardcopy d.eps v(d) 
+hardcopy q.eps v(q) 
 .endc
