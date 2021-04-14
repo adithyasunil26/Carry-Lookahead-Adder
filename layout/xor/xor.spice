@@ -1,0 +1,97 @@
+* SPICE3 file created from xor.ext - technology: scmos
+
+.option scale=0.09u
+
+M1000 inv_0/op a gnd Gnd nfet w=6 l=2
++  ad=30 pd=22 as=180 ps=112
+M1001 inv_0/op a vdd inv_0/w_0_6# pfet w=12 l=2
++  ad=60 pd=34 as=360 ps=184
+M1002 inv_1/op b gnd Gnd nfet w=6 l=2
++  ad=30 pd=22 as=0 ps=0
+M1003 inv_1/op b vdd inv_1/w_0_6# pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1004 a_7_8# a_1_n12# vdd w_n6_2# pfet w=24 l=2
++  ad=120 pd=58 as=0 ps=0
+M1005 a_28_8# a_25_3# op w_n6_2# pfet w=24 l=2
++  ad=120 pd=58 as=288 ps=72
+M1006 op a_11_3# a_7_8# w_n6_2# pfet w=24 l=2
++  ad=0 pd=0 as=0 ps=0
+M1007 a_7_n32# a_1_n12# gnd Gnd nfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1008 op a_11_n19# a_7_n32# Gnd nfet w=12 l=2
++  ad=144 pd=48 as=0 ps=0
+M1009 a_28_n32# a_25_n19# op Gnd nfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1010 gnd a_29_n5# a_28_n32# Gnd nfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1011 vdd a_29_n5# a_28_8# w_n6_2# pfet w=24 l=2
++  ad=0 pd=0 as=0 ps=0
+C0 a_11_n19# b 0.04fF
+C1 a_11_n19# op 0.04fF
+C2 m4_n15_10# a_29_n5# 0.00fF
+C3 b a_25_3# 0.02fF
+C4 inv_1/op a_1_n12# 0.02fF
+C5 op a_25_3# 0.05fF
+C6 a inv_1/op 0.12fF
+C7 a_25_n19# a_29_n5# 0.04fF
+C8 inv_1/op a_11_3# 0.01fF
+C9 m4_n15_10# m3_n15_10# 0.02fF
+C10 op a_29_n5# 0.14fF
+C11 vdd inv_1/op 0.15fF
+C12 a gnd 0.42fF
+C13 w_n6_2# a_1_n12# 0.06fF
+C14 m4_n15_10# b 0.10fF
+C15 inv_1/w_0_6# b 0.08fF
+C16 op m4_n15_10# 0.00fF
+C17 inv_0/w_0_6# a 0.08fF
+C18 w_n6_2# a_11_3# 0.09fF
+C19 op a_25_n19# 0.10fF
+C20 a a_1_n12# 0.02fF
+C21 vdd w_n6_2# 0.09fF
+C22 inv_0/op gnd 0.12fF
+C23 op b 0.12fF
+C24 inv_0/w_0_6# vdd 0.06fF
+C25 a_1_n12# a_11_3# 0.04fF
+C26 w_n6_2# a_25_3# 0.09fF
+C27 m4_n15_10# inv_1/op 0.24fF
+C28 inv_1/w_0_6# inv_1/op 0.04fF
+C29 a vdd 0.03fF
+C30 inv_0/w_0_6# inv_0/op 0.04fF
+C31 a_11_n19# a_1_n12# 0.04fF
+C32 a_25_n19# inv_1/op 0.01fF
+C33 w_n6_2# a_29_n5# 0.06fF
+C34 b inv_1/op 0.34fF
+C35 op inv_1/op 0.08fF
+C36 a inv_0/op 0.08fF
+C37 b gnd 0.13fF
+C38 vdd inv_0/op 0.15fF
+C39 m4_n15_10# a_1_n12# 0.00fF
+C40 b w_n6_2# 0.07fF
+C41 m4_n15_10# a 0.04fF
+C42 op w_n6_2# 0.02fF
+C43 a_25_3# a_29_n5# 0.04fF
+C44 b a_1_n12# 0.00fF
+C45 inv_1/op gnd 0.12fF
+C46 a b 0.07fF
+C47 vdd inv_1/w_0_6# 0.06fF
+C48 inv_1/op w_n6_2# 0.00fF
+C49 op a_11_3# 0.04fF
+C50 m4_n15_10# inv_0/op 0.01fF
+C51 vdd b 0.03fF
+C52 m3_n15_10# inv_0/op 0.02fF
+C53 m4_n15_10# Gnd 0.04fF **FLOATING
+C54 m3_n15_10# Gnd 0.00fF **FLOATING
+C55 a_25_n19# Gnd 0.09fF
+C56 a_11_n19# Gnd 0.09fF
+C57 op Gnd 0.13fF
+C58 a_29_n5# Gnd 0.20fF
+C59 a_1_n12# Gnd 0.20fF
+C60 w_n6_2# Gnd 1.88fF
+C61 gnd Gnd 0.38fF
+C62 inv_1/op Gnd 0.22fF
+C63 b Gnd 1.27fF
+C64 inv_1/w_0_6# Gnd 0.58fF
+C65 inv_0/op Gnd 0.18fF
+C66 vdd Gnd 0.23fF
+C67 a Gnd 0.88fF
+C68 inv_0/w_0_6# Gnd 0.58fF
