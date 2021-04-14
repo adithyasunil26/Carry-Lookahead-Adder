@@ -1,10 +1,20 @@
 * SPICE3 file created from inv.ext - technology: scmos
+.include TSMC_180nm.txt
+* D G S B
+.param SUPPLY=1.8V
+.param LAMBDA=0.09u
+.param length={2*LAMBDA}
+.param w={6*LAMBDA}
+.global gnd vdd
+
+Vdd vdd gnd 'SUPPLY'
+vin in gnd 0
 
 .option scale=0.09u
 
-M1000 op in gnd Gnd nfet w=6 l=2
+M1000 op in gnd Gnd CMOSN w=6 l=2
 +  ad=30 pd=22 as=30 ps=22
-M1001 op in vdd w_0_6# pfet w=12 l=2
+M1001 op in vdd w_0_6# CMOSP w=12 l=2
 +  ad=60 pd=34 as=60 ps=34
 C0 w_0_6# op 0.04fF
 C1 w_0_6# in 0.08fF
@@ -19,3 +29,17 @@ C9 op Gnd 0.05fF
 C10 vdd Gnd 0.05fF
 C11 in Gnd 0.12fF
 C12 w_0_6# Gnd 0.58fF
+
+.tran 100p 10n
+
+.control
+set hcopypscolor = 1 
+set color0=white 
+set color1=black 
+
+run
+set curplottitle="Adithya-2019102005-full-circuit"
+
+hardcopy op.eps v(op)
+
+.endc
