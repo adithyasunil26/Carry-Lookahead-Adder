@@ -26,6 +26,7 @@ module tb;
     $dumpfile("test.vcd");
     $dumpvars(0,tb);
     clk=0;
+    x=4'b0000; y=4'b0000; cin=0;
     // #3 cin=0;x=4'b0000;y=4'b0000; clk=~clk; #3 clk=~clk;
     // #3 cin=1;x=4'b0001;y=4'b0010; clk=~clk; #3 clk=~clk;
     // #3 cin=0;x=4'b0011;y=4'b0010; clk=~clk; #3 clk=~clk;
