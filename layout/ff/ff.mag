@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1618378306
+timestamp 1618408169
 << metal1 >>
 rect 24 89 27 90
 rect 18 86 27 89
@@ -15,68 +15,69 @@ rect 156 60 168 63
 rect 202 60 205 63
 rect 70 59 73 60
 rect 21 52 27 55
-rect 21 4 24 52
+rect 21 7 24 52
 rect 119 59 122 60
 rect 165 59 168 60
 rect 120 52 122 55
-rect 61 27 73 30
-rect 107 27 122 30
-rect 156 27 168 30
-rect -13 1 -6 4
-rect 18 1 27 4
-rect -12 -41 -9 1
-rect 109 4 110 6
-rect 109 3 122 4
-rect 107 1 122 3
-rect 26 -6 27 -3
-rect 70 -4 73 -3
-rect 61 -7 73 -4
-rect 107 -7 110 1
-rect 120 -6 122 -3
-rect 165 -4 168 -3
-rect 156 -7 168 -4
-rect 202 -7 205 -4
-rect 18 -26 24 -23
-rect 21 -31 24 -26
-rect 21 -34 29 -31
-rect 61 -34 73 -31
-rect 107 -34 122 -31
-rect 156 -34 168 -31
-rect -12 -44 115 -41
+rect 61 30 73 31
+rect 61 28 76 30
+rect 107 28 122 31
+rect 156 28 168 31
+rect -13 4 -6 7
+rect 18 4 27 7
+rect -12 -38 -9 4
+rect 109 7 110 9
+rect 109 6 122 7
+rect 107 4 122 6
+rect 26 -3 27 0
+rect 70 -1 73 0
+rect 61 -4 73 -1
+rect 107 -4 110 4
+rect 120 -3 122 0
+rect 165 -1 168 0
+rect 156 -4 168 -1
+rect 202 -4 205 -1
+rect 18 -23 24 -20
+rect 21 -28 24 -23
+rect 21 -31 29 -28
+rect 61 -31 73 -28
+rect 107 -31 122 -28
+rect 156 -31 168 -28
+rect -12 -41 115 -38
 << m2contact >>
 rect -13 54 -8 59
 rect 68 51 73 56
 rect 115 50 120 55
 rect 163 50 168 55
-rect 104 3 109 8
-rect 21 -7 26 -2
-rect 115 -8 120 -3
-rect 199 -4 204 1
-rect 115 -45 120 -40
+rect 104 6 109 11
+rect 21 -4 26 1
+rect 115 -5 120 0
+rect 199 -1 204 4
+rect 115 -42 120 -37
 << metal2 >>
-rect -12 29 -9 54
-rect -12 26 24 29
-rect 21 -2 24 26
-rect 69 24 72 51
-rect 69 21 108 24
-rect 105 8 108 21
-rect 116 -3 119 50
-rect 165 25 168 50
-rect 165 22 202 25
-rect 199 1 202 22
-rect 116 -40 119 -8
+rect -12 32 -9 54
+rect -12 29 24 32
+rect 21 1 24 29
+rect 69 27 72 51
+rect 69 24 108 27
+rect 105 11 108 24
+rect 116 0 119 50
+rect 165 28 168 50
+rect 165 25 202 28
+rect 199 4 202 25
+rect 116 -37 119 -5
 << m123contact >>
 rect 104 55 109 60
 rect 199 55 204 60
-rect 68 0 73 5
-rect 163 0 168 5
+rect 68 3 73 8
+rect 163 3 168 8
 << metal3 >>
 rect 104 34 107 55
 rect 199 34 202 55
 rect 69 31 107 34
 rect 165 31 202 34
-rect 69 5 72 31
-rect 165 5 168 31
+rect 69 8 72 31
+rect 165 8 168 31
 use inv  inv_0
 timestamp 1618372098
 transform 1 0 -6 0 1 56
@@ -87,11 +88,11 @@ transform 1 0 27 0 1 63
 box 0 -35 34 27
 use inv  inv_1
 timestamp 1618372098
-transform 1 0 -6 0 -1 7
+transform 1 0 -6 0 -1 10
 box 0 -14 24 33
 use nand  nand_2
 timestamp 1618370031
-transform 1 0 27 0 -1 -7
+transform 1 0 27 0 -1 -4
 box 0 -35 34 27
 use nand  nand_1
 timestamp 1618370031
@@ -99,7 +100,7 @@ transform 1 0 73 0 1 63
 box 0 -35 34 27
 use nand  nand_3
 timestamp 1618370031
-transform 1 0 73 0 -1 -7
+transform 1 0 73 0 -1 -4
 box 0 -35 34 27
 use nand  nand_4
 timestamp 1618370031
@@ -107,7 +108,7 @@ transform 1 0 122 0 1 63
 box 0 -35 34 27
 use nand  nand_5
 timestamp 1618370031
-transform 1 0 122 0 -1 -7
+transform 1 0 122 0 -1 -4
 box 0 -35 34 27
 use nand  nand_6
 timestamp 1618370031
@@ -115,6 +116,11 @@ transform 1 0 168 0 1 63
 box 0 -35 34 27
 use nand  nand_7
 timestamp 1618370031
-transform 1 0 168 0 -1 -7
+transform 1 0 168 0 -1 -4
 box 0 -35 34 27
+<< labels >>
+rlabel metal1 -14 59 -14 62 3 d
+rlabel metal1 205 60 205 63 7 q
+rlabel metal1 -13 4 -13 7 3 clk
+rlabel metal1 205 -4 205 -1 7 qnot
 << end >>
