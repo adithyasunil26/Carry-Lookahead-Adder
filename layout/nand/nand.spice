@@ -2,22 +2,21 @@
 
 .option scale=0.09u
 
-** SOURCE/DRAIN TIED
-M1000 gnd a gnd Gnd nfet w=12 l=2
-+  ad=156 pd=74 as=0 ps=0
+M1000 a_13_n26# a gnd Gnd nfet w=12 l=2
++  ad=96 pd=40 as=60 ps=34
 M1001 vdd b out w_0_0# pfet w=12 l=2
 +  ad=120 pd=68 as=96 ps=40
 M1002 out a vdd w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1003 out b gnd Gnd nfet w=12 l=2
+M1003 out b a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-C0 vdd w_0_0# 0.07fF
+C0 b a 0.21fF
 C1 w_0_0# a 0.06fF
-C2 out w_0_0# 0.04fF
-C3 w_0_0# b 0.06fF
-C4 a b 0.21fF
-C5 out b 0.13fF
-C6 gnd Gnd 0.13fF
+C2 out b 0.13fF
+C3 w_0_0# out 0.04fF
+C4 w_0_0# vdd 0.07fF
+C5 w_0_0# b 0.06fF
+C6 gnd Gnd 0.11fF
 C7 out Gnd 0.07fF
 C8 vdd Gnd 0.06fF
 C9 b Gnd 0.20fF
