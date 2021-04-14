@@ -8,8 +8,8 @@
 
 Vdd vdd gnd 'SUPPLY'
 
-va d gnd pulse 0 1.8 0ns 10ps 10ps 10ns 20ns
-vclk clk gnd pulse 0 1.8 0ns 10ps 10ps 20ns 40ns
+vd d gnd pulse 0 1.8 0ns 10ps 10ps 20ns 40ns
+vclk clk gnd pulse 1.8 0 0ns 10ps 10ps 10ns 20ns
 
 * va a gnd 0
 * va a gnd 0
@@ -37,16 +37,22 @@ vclk clk gnd pulse 0 1.8 0ns 10ps 10ps 20ns 40ns
 .ends inv
 
 .subckt flipflop q qnot d clk w vdd gnd  
-  x1 dnot d  w vdd gnd inv
-  x2 y1   d    clk  w vdd gnd nand_ckt
-  x3 y2   dnot clk  w vdd gnd nand_ckt
-  x4 q    y1   qnot w vdd gnd nand_ckt
-  x5 qnot y2   q    w vdd gnd nand_ckt
+  x11 dnot d  w vdd gnd inv
+  x12 clknot clk w vdd gnd inv 
+  x2 y1   d    clknot  w vdd gnd nand_ckt
+  x3 y2   dnot clknot  w vdd gnd nand_ckt
+  x4 y3   y1   y4      w vdd gnd nand_ckt
+  x5 y4   y2   y3      w vdd gnd nand_ckt
+
+  x6 y5   y3   clk  w vdd gnd nand_ckt
+  x7 y6   y4   clk  w vdd gnd nand_ckt
+  x8 q    y5   qnot w vdd gnd nand_ckt
+  x9 qnot y6   q    w vdd gnd nand_ckt
 .ends flipflop
 
 x1 q qnot d clk w vdd gnd flipflop
 
-.tran 10p 100n
+.tran 100p 200n
 
 .control
 set hcopypscolor = 1 

@@ -8,19 +8,19 @@
 
 Vdd vdd gnd 'SUPPLY'
 
-vclk clk gnd pulse 1.8 0 0ns 10ps 10ps 5ns 10ns
+vclk clk gnd pulse 1.8 0 0ns 10ps 10ps   10ns 20ns
 
-* vcin cinin gnd pulse 1.8 0 0ns 10ps 10ps 10ns 20ns
-* vy1 y1in gnd pulse 1.8 0 0ns 10ps 10ps 20ns 40ns
-* vy2 y2in gnd pulse 1.8 0 0ns 10ps 10ps 40ns 80ns
-* vy3 y3in gnd pulse 1.8 0 0ns 10ps 10ps 80ns 160ns
-* vy4 y4in gnd pulse 1.8 0 0ns 10ps 10ps 160ns 320ns
-* vx1 x1in gnd pulse 1.8 0 0ns 10ps 10ps 320ns 740ns
-* vx2 x2in gnd pulse 1.8 0 0ns 10ps 10ps 1080ns 2160ns
-* vx3 x3in gnd pulse 1.8 0 0ns 10ps 10ps 2160ns 4320ns
-* vx4 x4in gnd pulse 1.8 0 0ns 10ps 10ps 4320ns 8640ns
+vcin cinin gnd pulse 1.8 0 0ns 10ps 10ps 20ns 40ns
+* vy1 y1in   gnd pulse 1.8 0 0ns 10ps 10ps 80ns 160ns
+* vy2 y2in   gnd pulse 1.8 0 0ns 10ps 10ps 160ns 320ns
+* vy3 y3in   gnd pulse 1.8 0 0ns 10ps 10ps 320ns 740ns
+* vy4 y4in   gnd pulse 1.8 0 0ns 10ps 10ps 1080ns 2160ns
+* vx1 x1in   gnd pulse 1.8 0 0ns 10ps 10ps 2160ns 4320ns
+* vx2 x2in   gnd pulse 1.8 0 0ns 10ps 10ps 4320ns 8640ns
+* vx3 x3in   gnd pulse 1.8 0 0ns 10ps 10ps 8640ns 17280ns
+* vx4 x4in   gnd pulse 1.8 0 0ns 10ps 10ps 8640ns 17280ns
 
-vy1 y1in gnd 1.8
+vy1 y1in gnd 0
 vy2 y2in gnd 0
 vy3 y3in gnd 0
 vy4 y4in gnd 0
@@ -28,7 +28,7 @@ vx1 x1in gnd 0
 vx2 x2in gnd 0
 vx3 x3in gnd 0
 vx4 x4in gnd 0
-vcin cinin gnd 0
+* vcin cinin gnd 0
 
 .subckt nand_ckt y a b w vdd gnd
   M1 y a vdd vdd CMOSP W={2*w} L={length} AS={5*2*w*LAMBDA} 
@@ -96,12 +96,26 @@ vcin cinin gnd 0
   + PS={10*LAMBDA+2*2*w} AD={5*2*w*LAMBDA} PD={10*LAMBDA+2*2*w}
 .ends xor_ckt
 
+* .subckt flipflop q qnot d clk w vdd gnd  
+*   x1 dnot d  w vdd gnd inv
+*   x2 y1   d    clk  w vdd gnd nand_ckt
+*   x3 y2   dnot clk  w vdd gnd nand_ckt
+*   x4 q    y1   qnot w vdd gnd nand_ckt
+*   x5 qnot y2   q    w vdd gnd nand_ckt
+* .ends flipflop
+
 .subckt flipflop q qnot d clk w vdd gnd  
-  x1 dnot d  w vdd gnd inv
-  x2 y1   d    clk  w vdd gnd nand_ckt
-  x3 y2   dnot clk  w vdd gnd nand_ckt
-  x4 q    y1   qnot w vdd gnd nand_ckt
-  x5 qnot y2   q    w vdd gnd nand_ckt
+  x11 dnot d  w vdd gnd inv
+  x12 clknot clk w vdd gnd inv 
+  x2 y1   d    clknot  w vdd gnd nand_ckt
+  x3 y2   dnot clknot  w vdd gnd nand_ckt
+  x4 y3   y1   y4      w vdd gnd nand_ckt
+  x5 y4   y2   y3      w vdd gnd nand_ckt
+
+  x6 y5   y3   clk  w vdd gnd nand_ckt
+  x7 y6   y4   clk  w vdd gnd nand_ckt
+  x8 q    y5   qnot w vdd gnd nand_ckt
+  x9 qnot y6   q    w vdd gnd nand_ckt
 .ends flipflop
 
 .subckt pggen p g k x y w vdd gnd  
@@ -184,7 +198,23 @@ C2 z2o gnd 4ff
 C3 z3o gnd 4ff
 C4 z4o gnd 4ff
 
-.tran 1n 100n
+.tran 1n 200n
+.ic v(x1) 0 
+.ic v(x2) 0 
+.ic v(x3) 0 
+.ic v(x4) 0 
+.ic v(y1) 0
+.ic v(y2) 0
+.ic v(y3) 0
+.ic v(y4) 0
+.ic v(z1) 0  
+.ic v(z2) 0  
+.ic v(z3) 0  
+.ic v(z4) 0  
+.ic v(cin) 0 
+.ic v(couto) 0 
+
+
 
 * .measure tran tpdr1
 * +TRIG v(x1) VAL='0.50*SUPPLY' RISE=2 TARG v(z1o) VAL='0.50*SUPPLY' RISE=2
@@ -201,12 +231,11 @@ set color1=black
 run
 set curplottitle="Adithya-2019102005-full-circuit"
 
-plot v(clk)
-plot v(y1in) 
-plot v(z1o) 
-
-* hardcopy clk.eps v(clk)
-* hardcopy z1.eps v(z1o) v(x1in) v(y1in) v(cin)
+hardcopy clk.eps v(clk)
+hardcopy z1.eps v(z1o) 
+hardcopy x1.eps v(x1in) 
+hardcopy y1.eps v(y1in) 
+hardcopy cin.eps v(cinin) 
 * hardcopy z2.eps v(z2o)
 * hardcopy z3.eps v(z3o)
 * hardcopy z4.eps v(z4o)
