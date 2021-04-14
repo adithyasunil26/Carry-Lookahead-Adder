@@ -149,28 +149,18 @@ x41 cout coutnot w vdd gnd inv
 .tran 1n 100n
 
 .control
-set hcopypscolor = 1 
-set color0=white 
-set color1=black 
+set hcopypscolor = 0
+* set color0=white 
+* set color1=black 
 
 run
 set curplottitle="Adithya-2019102005-cla"
 
+hardcopy x.eps v(x1) v(x2)+2 v(x3)+4 v(x4)+6
+hardcopy y.eps v(y1) v(y2)+2 v(y3)+4 v(y4)+6
+hardcopy z.eps v(z1) v(z2)+2 v(z3)+4 v(z4)+6
 hardcopy cin.eps v(cin)
-hardcopy x1.eps v(x1)
-hardcopy x2.eps v(x2)
-hardcopy x3.eps v(x3)
-hardcopy x4.eps v(x4)
-
-hardcopy y1.eps v(y1)
-hardcopy y2.eps v(y2)
-hardcopy y3.eps v(y3)
-hardcopy y4.eps v(y4)
-
-hardcopy z1.eps v(z1)
-hardcopy z2.eps v(z2)
-hardcopy z3.eps v(z3)
-hardcopy z4.eps v(z4)
 hardcopy cout.eps v(cout)
+
 
 .endc

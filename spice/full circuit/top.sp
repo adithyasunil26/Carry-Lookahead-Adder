@@ -8,26 +8,26 @@
 
 Vdd vdd gnd 'SUPPLY'
 
-vclk clk gnd pulse 1.8 0 0ns 10ps 10ps   10ns 20ns
+vclk clk gnd pulse 0 1.8 0ns 10ps 10ps 10ns 20ns
 
 vcin cinin gnd pulse 1.8 0 0ns 10ps 10ps 20ns 40ns
-* vy1 y1in   gnd pulse 1.8 0 0ns 10ps 10ps 80ns 160ns
-* vy2 y2in   gnd pulse 1.8 0 0ns 10ps 10ps 160ns 320ns
-* vy3 y3in   gnd pulse 1.8 0 0ns 10ps 10ps 320ns 740ns
-* vy4 y4in   gnd pulse 1.8 0 0ns 10ps 10ps 1080ns 2160ns
-* vx1 x1in   gnd pulse 1.8 0 0ns 10ps 10ps 2160ns 4320ns
-* vx2 x2in   gnd pulse 1.8 0 0ns 10ps 10ps 4320ns 8640ns
-* vx3 x3in   gnd pulse 1.8 0 0ns 10ps 10ps 8640ns 17280ns
-* vx4 x4in   gnd pulse 1.8 0 0ns 10ps 10ps 8640ns 17280ns
+vy1 y1in   gnd pulse 1.8 0 0ns 10ps 10ps 40ns 80ns
+vy2 y2in   gnd pulse 1.8 0 0ns 10ps 10ps 80ns 160ns
+vy3 y3in   gnd pulse 1.8 0 0ns 10ps 10ps 160ns 320ns
+vy4 y4in   gnd pulse 1.8 0 0ns 10ps 10ps 320ns 640ns
+vx1 x1in   gnd pulse 1.8 0 0ns 10ps 10ps 640ns 1280ns
+vx2 x2in   gnd pulse 1.8 0 0ns 10ps 10ps 1280ns 2560ns
+vx3 x3in   gnd pulse 1.8 0 0ns 10ps 10ps 2560ns 5120ns
+vx4 x4in   gnd pulse 1.8 0 0ns 10ps 10ps 5120ns 10240ns
 
-vy1 y1in gnd 0
-vy2 y2in gnd 0
-vy3 y3in gnd 0
-vy4 y4in gnd 0
-vx1 x1in gnd 0
-vx2 x2in gnd 0
-vx3 x3in gnd 0
-vx4 x4in gnd 0
+* vy1 y1in gnd 1.8
+* vy2 y2in gnd 0
+* vy3 y3in gnd 0
+* vy4 y4in gnd 0
+* vx1 x1in gnd 0
+* vx2 x2in gnd 0
+* vx3 x3in gnd 0
+* vx4 x4in gnd 0
 * vcin cinin gnd 0
 
 .subckt nand_ckt y a b w vdd gnd
@@ -96,15 +96,7 @@ vx4 x4in gnd 0
   + PS={10*LAMBDA+2*2*w} AD={5*2*w*LAMBDA} PD={10*LAMBDA+2*2*w}
 .ends xor_ckt
 
-* .subckt flipflop q qnot d clk w vdd gnd  
-*   x1 dnot d  w vdd gnd inv
-*   x2 y1   d    clk  w vdd gnd nand_ckt
-*   x3 y2   dnot clk  w vdd gnd nand_ckt
-*   x4 q    y1   qnot w vdd gnd nand_ckt
-*   x5 qnot y2   q    w vdd gnd nand_ckt
-* .ends flipflop
-
-.subckt flipflop q qnot d clk w vdd gnd  
+.subckt flipflopo q qnot d clk w vdd gnd  
   x11 dnot d  w vdd gnd inv
   x12 clknot clk w vdd gnd inv 
   x2 y1   d    clknot  w vdd gnd nand_ckt
@@ -116,7 +108,21 @@ vx4 x4in gnd 0
   x7 y6   y4   clk  w vdd gnd nand_ckt
   x8 q    y5   qnot w vdd gnd nand_ckt
   x9 qnot y6   q    w vdd gnd nand_ckt
-.ends flipflop
+.ends flipflopo
+
+.subckt flipflopin q qnot d clk w vdd gnd  
+  x11 dnot d  w vdd gnd inv
+  x12 clknot clk w vdd gnd inv 
+  x2 y1   d    clk     w vdd gnd nand_ckt
+  x3 y2   dnot clk     w vdd gnd nand_ckt
+  x4 y3   y1   y4      w vdd gnd nand_ckt
+  x5 y4   y2   y3      w vdd gnd nand_ckt
+
+  x6 y5   y3   clknot  w vdd gnd nand_ckt
+  x7 y6   y4   clknot  w vdd gnd nand_ckt
+  x8 q    y5   qnot    w vdd gnd nand_ckt
+  x9 qnot y6   q       w vdd gnd nand_ckt
+.ends flipflopin
 
 .subckt pggen p g k x y w vdd gnd  
   x1 p x y w vdd gnd nor_ckt
@@ -124,22 +130,21 @@ vx4 x4in gnd 0
   x3 k x y w vdd gnd xor_ckt
 .ends pggen
 
-x101 x1 x1not x1in clk w vdd gnd flipflop
-x102 x2 x2not x2in clk w vdd gnd flipflop
-x103 x3 x3not x3in clk w vdd gnd flipflop
-x104 x4 x4not x4in clk w vdd gnd flipflop
-x105 y1 y1not y1in clk w vdd gnd flipflop
-x106 y2 y2not y2in clk w vdd gnd flipflop
-x107 y3 y3not y3in clk w vdd gnd flipflop
-x108 y4 y4not y4in clk w vdd gnd flipflop
-x109 cin cinnot cinin clk w vdd gnd flipflop
+x101 x1 x1not x1in clk w vdd gnd flipflopin
+x102 x2 x2not x2in clk w vdd gnd flipflopin
+x103 x3 x3not x3in clk w vdd gnd flipflopin
+x104 x4 x4not x4in clk w vdd gnd flipflopin
+x105 y1 y1not y1in clk w vdd gnd flipflopin
+x106 y2 y2not y2in clk w vdd gnd flipflopin
+x107 y3 y3not y3in clk w vdd gnd flipflopin
+x108 y4 y4not y4in clk w vdd gnd flipflopin
+x109 cin cinnot cinin clk w vdd gnd flipflopin
 
 x1 p1 g1 k1 x1 y1 w vdd gnd pggen
 x2 p2 g2 k2 x2 y2 w vdd gnd pggen
 x3 p3 g3 k3 x3 y3 w vdd gnd pggen
 x4 p4 g4 k4 x4 y4 w vdd gnd pggen
 
-x5 cinnot cin w vdd gnd inv
 x6 o1 cinnot p1 w vdd gnd nor_ckt
 x7 o2 o1 w vdd gnd inv
 x8 n1 o2 g1 w vdd gnd nand_ckt
@@ -187,18 +192,19 @@ x39 o16 o15 w vdd gnd inv
 x40 coutnot go o16 w vdd gnd nor_ckt
 x41 cout coutnot w vdd gnd inv
 
-x111 z1o z1not z1 clk w vdd gnd flipflop
-x112 z2o z2not z2 clk w vdd gnd flipflop
-x113 z3o z3not z3 clk w vdd gnd flipflop
-x114 z4o z4not z4 clk w vdd gnd flipflop
-x115 couto coutnoto cout clk w vdd gnd flipflop
+x111 z1o z1not z1 clk w vdd gnd flipflopo
+x112 z2o z2not z2 clk w vdd gnd flipflopo
+x113 z3o z3not z3 clk w vdd gnd flipflopo
+x114 z4o z4not z4 clk w vdd gnd flipflopo
+x115 couto coutnoto cout clk w vdd gnd flipflopo
 
 C1 z1o gnd 4ff
 C2 z2o gnd 4ff
 C3 z3o gnd 4ff
 C4 z4o gnd 4ff
 
-.tran 1n 200n
+.tran 1n 10240n
+
 .ic v(x1) 0 
 .ic v(x2) 0 
 .ic v(x3) 0 
@@ -207,10 +213,22 @@ C4 z4o gnd 4ff
 .ic v(y2) 0
 .ic v(y3) 0
 .ic v(y4) 0
+.ic v(x1in) 0 
+.ic v(x2in) 0 
+.ic v(x3in) 0 
+.ic v(x4in) 0 
+.ic v(y1in) 0
+.ic v(y2in) 0
+.ic v(y3in) 0
+.ic v(y4in) 0
 .ic v(z1) 0  
 .ic v(z2) 0  
 .ic v(z3) 0  
 .ic v(z4) 0  
+.ic v(z1o) 0 
+.ic v(z2o) 0 
+.ic v(z3o) 0 
+.ic v(z4o) 0 
 .ic v(cin) 0 
 .ic v(couto) 0 
 
@@ -224,21 +242,27 @@ C4 z4o gnd 4ff
 * +param='(tpdr1+tpdf1)/2' goal=0
 
 .control
-set hcopypscolor = 1 
+set hcopypscolor = 0 
 set color0=white 
 set color1=black 
 
 run
 set curplottitle="Adithya-2019102005-full-circuit"
 
-hardcopy clk.eps v(clk)
-hardcopy z1.eps v(z1o) 
-hardcopy x1.eps v(x1in) 
-hardcopy y1.eps v(y1in) 
-hardcopy cin.eps v(cinin) 
+* hardcopy clk.eps v(clk)
+* hardcopy z1.eps v(z1o) 
+* hardcopy x1.eps v(x1in) 
+* hardcopy y1.eps v(y1in) 
+* hardcopy cin.eps v(cinin) 
 * hardcopy z2.eps v(z2o)
 * hardcopy z3.eps v(z3o)
 * hardcopy z4.eps v(z4o)
 * hardcopy cout.eps v(cout)
+
+hardcopy x.eps v(x1in) v(x2in)+2 v(x3in)+4 v(x4in)+6 v(clk)+8
+hardcopy y.eps v(y1in) v(y2in)+2 v(y3in)+4 v(y4in)+6 v(clk)+8 
+hardcopy z.eps v(z1o) v(z2o)+2 v(z3o)+4 v(z4o)+6 v(clk)+8
+hardcopy cin.eps  v(cinin)  v(clk)+2
+hardcopy cout.eps v(couto)  v(clk)+2
 
 .endc

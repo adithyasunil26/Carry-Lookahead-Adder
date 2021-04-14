@@ -8,7 +8,7 @@
 
 Vdd vdd gnd 'SUPPLY'
 
-vd d gnd pulse 0 1.8 0ns 10ps 10ps 20ns 40ns
+vd d gnd pulse 1.8 0 0ns 10ps 10ps 20ns 40ns
 vclk clk gnd pulse 1.8 0 0ns 10ps 10ps 10ns 20ns
 
 * va a gnd 0
@@ -53,16 +53,15 @@ vclk clk gnd pulse 1.8 0 0ns 10ps 10ps 10ns 20ns
 x1 q qnot d clk w vdd gnd flipflop
 
 .tran 100p 200n
+.ic v(q) 0
 
 .control
-set hcopypscolor = 1 
+set hcopypscolor = 0 
 set color0=white 
 set color1=black 
 
 run
 set curplottitle="Adithya-2019102005-flipflop"
 
-hardcopy clk.eps v(clk)
-hardcopy d.eps v(d) 
-hardcopy q.eps v(q) 
+hardcopy ff.eps v(clk)+4 v(d)+2 v(q) 
 .endc
