@@ -1,0 +1,25 @@
+* SPICE3 file created from nand.ext - technology: scmos
+
+.option scale=0.09u
+
+** SOURCE/DRAIN TIED
+M1000 gnd a gnd Gnd nfet w=12 l=2
++  ad=156 pd=74 as=0 ps=0
+M1001 vdd b out w_0_0# pfet w=12 l=2
++  ad=120 pd=68 as=96 ps=40
+M1002 out a vdd w_0_0# pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1003 out b gnd Gnd nfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+C0 vdd w_0_0# 0.07fF
+C1 w_0_0# a 0.06fF
+C2 out w_0_0# 0.04fF
+C3 w_0_0# b 0.06fF
+C4 a b 0.21fF
+C5 out b 0.13fF
+C6 gnd Gnd 0.13fF
+C7 out Gnd 0.07fF
+C8 vdd Gnd 0.06fF
+C9 b Gnd 0.20fF
+C10 a Gnd 0.17fF
+C11 w_0_0# Gnd 0.82fF
