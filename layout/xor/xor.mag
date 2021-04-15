@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1618516755
+timestamp 1618516977
 << nwell >>
 rect -6 2 49 38
 << ntransistor >>
@@ -17,9 +17,8 @@ rect 36 8 38 32
 rect 0 -29 5 -21
 rect 4 -33 5 -29
 rect 7 -33 13 -21
-rect 15 -25 19 -21
-rect 23 -25 28 -21
-rect 15 -33 28 -25
+rect 15 -33 19 -21
+rect 23 -33 28 -21
 rect 30 -33 36 -21
 rect 38 -29 43 -21
 rect 38 -33 39 -29
@@ -27,19 +26,18 @@ rect 38 -33 39 -29
 rect 4 28 5 32
 rect 0 8 5 28
 rect 7 8 13 32
-rect 15 12 28 32
-rect 15 8 19 12
-rect 23 8 28 12
+rect 15 8 19 32
+rect 23 8 28 32
 rect 30 8 36 32
 rect 38 28 39 32
 rect 38 8 43 28
 << ndcontact >>
 rect 0 -33 4 -29
-rect 19 -25 23 -21
+rect 19 -33 23 -21
 rect 39 -33 43 -29
 << pdcontact >>
 rect 0 28 4 32
-rect 19 8 23 12
+rect 19 8 23 32
 rect 39 28 43 32
 << polysilicon >>
 rect 5 32 7 35
