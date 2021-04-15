@@ -1,30 +1,41 @@
 * SPICE3 file created from xor.ext - technology: scmos
-
+.include ../TSMC_180nm.txt
+* D G S B
+.param SUPPLY=1.8V
+.param LAMBDA=0.09u
+.param length={2*LAMBDA}
+.param w={6*LAMBDA}
+.global gnd vdd
 .option scale=0.09u
 
-M1000 inv_0/op a gnd Gnd nfet w=6 l=2
+Vdd vdd gnd 'SUPPLY'
+
+va a gnd pulse 1.8 0 0ns 10ps 10ps 10ns 20ns
+vb b gnd pulse 1.8 0 0ns 10ps 10ps 20ns 40ns
+
+M1000 inv_0/op a gnd Gnd CMOSN w=6 l=2
 +  ad=30 pd=22 as=180 ps=112
-M1001 inv_0/op a vdd inv_0/w_0_6# pfet w=12 l=2
+M1001 inv_0/op a vdd inv_0/w_0_6# CMOSP w=12 l=2
 +  ad=60 pd=34 as=360 ps=184
-M1002 inv_1/op b gnd Gnd nfet w=6 l=2
+M1002 inv_1/op b gnd Gnd CMOSN w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1003 inv_1/op b vdd inv_1/w_0_6# pfet w=12 l=2
+M1003 inv_1/op b vdd inv_1/w_0_6# CMOSP w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1004 a_7_8# a_1_n12# vdd w_n6_2# pfet w=24 l=2
+M1004 a_7_8# a_1_n12# vdd w_n6_2# CMOSP w=24 l=2
 +  ad=120 pd=58 as=0 ps=0
-M1005 a_28_8# a_25_3# op w_n6_2# pfet w=24 l=2
+M1005 a_28_8# a_25_3# op w_n6_2# CMOSP w=24 l=2
 +  ad=120 pd=58 as=288 ps=72
-M1006 op a_11_3# a_7_8# w_n6_2# pfet w=24 l=2
+M1006 op a_11_3# a_7_8# w_n6_2# CMOSP w=24 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1007 a_7_n32# a_1_n12# gnd Gnd nfet w=12 l=2
+M1007 a_7_n32# a_1_n12# gnd Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1008 op a_11_n19# a_7_n32# Gnd nfet w=12 l=2
+M1008 op a_11_n19# a_7_n32# Gnd CMOSN w=12 l=2
 +  ad=144 pd=48 as=0 ps=0
-M1009 a_28_n32# a_25_n19# op Gnd nfet w=12 l=2
+M1009 a_28_n32# a_25_n19# op Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1010 gnd a_29_n5# a_28_n32# Gnd nfet w=12 l=2
+M1010 gnd a_29_n5# a_28_n32# Gnd CMOSN w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1011 vdd a_29_n5# a_28_8# w_n6_2# pfet w=24 l=2
+M1011 vdd a_29_n5# a_28_8# w_n6_2# CMOSP w=24 l=2
 +  ad=0 pd=0 as=0 ps=0
 C0 a_11_n19# b 0.04fF
 C1 a_11_n19# op 0.04fF
@@ -79,8 +90,8 @@ C49 op a_11_3# 0.04fF
 C50 m4_n15_10# inv_0/op 0.01fF
 C51 vdd b 0.03fF
 C52 m3_n15_10# inv_0/op 0.02fF
-C53 m4_n15_10# Gnd 0.04fF **FLOATING
-C54 m3_n15_10# Gnd 0.00fF **FLOATING
+C53 m4_n15_10# Gnd 0.04fF 
+C54 m3_n15_10# Gnd 0.00fF 
 C55 a_25_n19# Gnd 0.09fF
 C56 a_11_n19# Gnd 0.09fF
 C57 op Gnd 0.13fF
@@ -95,3 +106,16 @@ C65 inv_0/op Gnd 0.18fF
 C66 vdd Gnd 0.23fF
 C67 a Gnd 0.88fF
 C68 inv_0/w_0_6# Gnd 0.58fF
+
+.tran 100p 40n
+
+.control
+set hcopypscolor = 0 
+set color0=white 
+set color1=black 
+
+run
+set curplottitle="Adithya-2019102005-xor"
+
+hardcopy xor.eps v(op) v(b)+2 v(a)+4
+.endc
