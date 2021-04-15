@@ -16,81 +16,80 @@ M1005 a_28_8# a_25_3# op w_n6_2# pfet w=24 l=2
 +  ad=120 pd=58 as=288 ps=72
 M1006 op a_11_3# a_7_8# w_n6_2# pfet w=24 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1007 a_7_n32# a_1_n12# gnd Gnd nfet w=12 l=2
+M1007 a_7_n33# a_1_n12# gnd Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1008 op a_11_n19# a_7_n32# Gnd nfet w=12 l=2
+M1008 op a_11_n20# a_7_n33# Gnd nfet w=12 l=2
 +  ad=144 pd=48 as=0 ps=0
-M1009 a_28_n32# a_25_n19# op Gnd nfet w=12 l=2
+M1009 a_28_n33# a_25_n20# op Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1010 gnd a_29_n5# a_28_n32# Gnd nfet w=12 l=2
+M1010 gnd a_29_n5# a_28_n33# Gnd nfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
 M1011 vdd a_29_n5# a_28_8# w_n6_2# pfet w=24 l=2
 +  ad=0 pd=0 as=0 ps=0
-C0 a inv_0/op 0.08fF
-C1 gnd inv_0/op 0.12fF
-C2 b op 0.10fF
-C3 a m3_n15_10# 0.04fF
-C4 a_1_n12# w_n6_2# 0.06fF
-C5 w_n6_2# vdd 0.09fF
-C6 inv_1/w_0_6# vdd 0.06fF
-C7 inv_1/op m3_n15_10# 0.24fF
-C8 inv_0/w_0_6# inv_0/op 0.04fF
-C9 a_1_n12# a 0.02fF
+C0 a_29_n5# op 0.14fF
+C1 inv_0/op vdd 0.15fF
+C2 vdd b 0.03fF
+C3 a_1_n12# w_n6_2# 0.06fF
+C4 inv_1/op a_25_n20# 0.03fF
+C5 a m3_n15_10# 0.04fF
+C6 a_25_3# op 0.05fF
+C7 a_29_n5# m3_n15_10# 0.00fF
+C8 inv_0/op a 0.08fF
+C9 a b 0.06fF
 C10 a_11_3# inv_1/op 0.07fF
-C11 a vdd 0.03fF
-C12 a_29_n5# op 0.14fF
+C11 vdd a 0.03fF
+C12 inv_0/op inv_0/w_0_6# 0.04fF
 C13 a_25_3# b 0.02fF
 C14 a_1_n12# inv_1/op 0.02fF
-C15 inv_1/op vdd 0.15fF
-C16 m3_n15_10# b 0.04fF
-C17 inv_1/op a_25_n19# 0.01fF
-C18 inv_0/w_0_6# vdd 0.06fF
-C19 a_25_3# op 0.05fF
-C20 gnd a 0.42fF
-C21 w_n6_2# inv_1/op 0.09fF
-C22 inv_1/w_0_6# inv_1/op 0.04fF
-C23 m3_n15_10# op 0.01fF
-C24 a_1_n12# a_11_n19# 0.04fF
-C25 inv_1/op a 0.12fF
-C26 a_1_n12# b 0.00fF
-C27 gnd inv_1/op 0.12fF
-C28 a_29_n5# a_25_3# 0.04fF
-C29 inv_0/w_0_6# a 0.08fF
-C30 vdd b 0.03fF
-C31 a_29_n5# m3_n15_10# 0.00fF
-C32 w_n6_2# b 0.07fF
-C33 inv_1/w_0_6# b 0.08fF
-C34 a_25_n19# op 0.10fF
-C35 w_n6_2# op 0.02fF
-C36 a b 0.07fF
-C37 gnd b 0.13fF
-C38 m3_n15_10# inv_0/op 0.02fF
-C39 a_29_n5# a_25_n19# 0.04fF
-C40 inv_1/op b 0.42fF
-C41 m2_n15_10# inv_0/op 0.02fF
-C42 a_29_n5# w_n6_2# 0.06fF
-C43 m3_n15_10# m2_n15_10# 0.02fF
-C44 inv_1/op op 0.10fF
-C45 inv_0/op vdd 0.15fF
-C46 a_1_n12# m3_n15_10# 0.00fF
-C47 a_11_3# a_1_n12# 0.04fF
-C48 a_25_3# w_n6_2# 0.09fF
-C49 a_11_n19# b 0.04fF
+C15 op a_11_n20# 0.04fF
+C16 vdd inv_0/w_0_6# 0.06fF
+C17 w_n6_2# inv_1/op 0.09fF
+C18 w_n6_2# op 0.02fF
+C19 a_1_n12# m3_n15_10# 0.00fF
+C20 a inv_0/w_0_6# 0.08fF
+C21 b a_11_n20# 0.04fF
+C22 a_1_n12# b 0.00fF
+C23 gnd inv_1/op 0.12fF
+C24 a_29_n5# a_25_3# 0.04fF
+C25 a_29_n5# a_25_n20# 0.06fF
+C26 m3_n15_10# m2_n15_10# 0.02fF
+C27 inv_0/op m2_n15_10# 0.02fF
+C28 inv_1/w_0_6# inv_1/op 0.04fF
+C29 w_n6_2# b 0.07fF
+C30 inv_1/op op 0.22fF
+C31 a a_1_n12# 0.02fF
+C32 vdd w_n6_2# 0.09fF
+C33 inv_0/op gnd 0.12fF
+C34 gnd b 0.13fF
+C35 inv_1/op m3_n15_10# 0.24fF
+C36 inv_1/w_0_6# b 0.08fF
+C37 inv_1/op b 0.43fF
+C38 m3_n15_10# op 0.01fF
+C39 a_29_n5# w_n6_2# 0.06fF
+C40 b op 0.10fF
+C41 inv_1/w_0_6# vdd 0.06fF
+C42 vdd inv_1/op 0.15fF
+C43 a gnd 0.42fF
+C44 a_11_3# a_1_n12# 0.04fF
+C45 a_25_3# w_n6_2# 0.09fF
+C46 inv_0/op m3_n15_10# 0.02fF
+C47 b m3_n15_10# 0.04fF
+C48 a inv_1/op 0.12fF
+C49 a_1_n12# a_11_n20# 0.04fF
 C50 a_11_3# w_n6_2# 0.08fF
-C51 a_11_n19# op 0.04fF
-C52 m3_n15_10# Gnd 0.07fF **FLOATING
-C53 m2_n15_10# Gnd 0.09fF **FLOATING
-C54 a_25_n19# Gnd 0.09fF
-C55 a_11_n19# Gnd 0.09fF
-C56 op Gnd 0.13fF
-C57 a_29_n5# Gnd 0.20fF
-C58 a_1_n12# Gnd 0.20fF
-C59 w_n6_2# Gnd 1.88fF
-C60 gnd Gnd 0.38fF
-C61 inv_1/op Gnd 0.25fF
-C62 b Gnd 1.24fF
-C63 inv_1/w_0_6# Gnd 0.58fF
-C64 inv_0/op Gnd 0.08fF
-C65 vdd Gnd 0.23fF
-C66 a Gnd 0.88fF
-C67 inv_0/w_0_6# Gnd 0.58fF
+C51 m3_n15_10# Gnd 0.07fF **FLOATING
+C52 m2_n15_10# Gnd 0.09fF **FLOATING
+C53 a_25_n20# Gnd 0.09fF
+C54 a_11_n20# Gnd 0.09fF
+C55 op Gnd 0.13fF
+C56 a_29_n5# Gnd 0.21fF
+C57 a_1_n12# Gnd 0.21fF
+C58 w_n6_2# Gnd 1.88fF
+C59 gnd Gnd 0.38fF
+C60 inv_1/op Gnd 0.38fF
+C61 b Gnd 1.26fF
+C62 inv_1/w_0_6# Gnd 0.58fF
+C63 inv_0/op Gnd 0.08fF
+C64 vdd Gnd 0.23fF
+C65 a Gnd 0.88fF
+C66 inv_0/w_0_6# Gnd 0.58fF
