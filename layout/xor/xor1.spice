@@ -21,14 +21,18 @@ M1002 inv_1/op b gnd Gnd CMOSN w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
 M1003 inv_1/op b vdd inv_1/w_0_6# CMOSP w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
+
 M1004 a_7_8# a_1_n12# vdd w_n6_2# CMOSP w=24 l=2
 +  ad=120 pd=58 as=0 ps=0
-M1005 a_28_8# a_25_3# op w_n6_2# CMOSP w=24 l=2
-+  ad=120 pd=58 as=288 ps=72
 M1006 op a_11_3# a_7_8# w_n6_2# CMOSP w=24 l=2
 +  ad=0 pd=0 as=0 ps=0
+
+M1005 a_28_8# a_25_3# op w_n6_2# CMOSP w=24 l=2
++  ad=120 pd=58 as=288 ps=72
+
 M1007 a_7_n32# a_1_n12# gnd Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
+
 M1008 op a_11_n19# a_7_n32# Gnd CMOSN w=12 l=2
 +  ad=144 pd=48 as=0 ps=0
 M1009 a_28_n32# a_25_n19# op Gnd CMOSN w=12 l=2
@@ -37,6 +41,7 @@ M1010 gnd a_29_n5# a_28_n32# Gnd CMOSN w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
 M1011 vdd a_29_n5# a_28_8# w_n6_2# CMOSP w=24 l=2
 +  ad=0 pd=0 as=0 ps=0
+
 C0 a_11_n19# b 0.04fF
 C1 a_11_n19# op 0.04fF
 C2 m4_n15_10# a_29_n5# 0.00fF
