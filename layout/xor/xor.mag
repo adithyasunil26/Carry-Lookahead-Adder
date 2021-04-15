@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1618516247
+timestamp 1618516755
 << nwell >>
 rect -6 2 49 38
 << ntransistor >>
@@ -49,9 +49,9 @@ rect 36 32 38 35
 rect 5 -8 7 8
 rect 13 7 15 8
 rect 28 7 30 8
-rect 12 3 16 7
-rect 36 -1 38 8
-rect 35 -5 39 -1
+rect 11 2 16 7
+rect 36 0 38 8
+rect 35 -5 40 0
 rect 6 -13 7 -8
 rect 5 -21 7 -13
 rect 27 -20 32 -15
@@ -92,6 +92,7 @@ rect -49 -2 -10 1
 rect -13 -8 -10 -2
 rect 16 -8 23 -6
 rect 27 -8 30 2
+rect 35 -5 40 0
 rect -13 -11 1 -8
 rect -48 -14 -17 -11
 rect 13 -11 30 -8
@@ -115,13 +116,12 @@ rect -6 -24 -3 -8
 rect 13 -9 30 -8
 rect 27 -15 30 -9
 rect -10 -27 -3 -24
-<< m234contact >>
-rect 35 -5 40 0
 << metal4 >>
 rect -13 -2 -10 10
 rect -13 -5 35 -2
 << m345contact >>
 rect -15 10 -10 15
+rect 35 -5 40 0
 use inv  inv_0
 timestamp 1618367270
 transform 1 0 -42 0 1 8
