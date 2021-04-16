@@ -1,111 +1,78 @@
 * SPICE3 file created from xor.ext - technology: scmos
-.include ../TSMC_180nm.txt
-* D G S B
-.param SUPPLY=1.8V
-.param LAMBDA=0.09u
-.param length={2*LAMBDA}
-.param w={6*LAMBDA}
-.global gnd vdd
 
 .option scale=0.09u
 
-Vdd vdd gnd 'SUPPLY'
-
-va a gnd pulse 1.8 0 0ns 10ps 10ps 10ns 20ns
-vb b gnd pulse 1.8 0 0ns 10ps 10ps 20ns 40ns
-
-M1000 inv_0/op a gnd Gnd CMOSN w=6 l=2
+M1000 inv_0/op a gnd Gnd nfet w=6 l=2
 +  ad=30 pd=22 as=180 ps=112
-M1001 inv_0/op a vdd inv_0/w_0_6# CMOSP w=12 l=2
+M1001 inv_0/op a vdd inv_0/w_0_6# pfet w=12 l=2
 +  ad=60 pd=34 as=360 ps=184
-M1002 inv_1/op inv_1/in gnd Gnd CMOSN w=6 l=2
+M1002 inv_1/op b gnd Gnd nfet w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1003 inv_1/op inv_1/in vdd inv_1/w_0_6# CMOSP w=12 l=2
+M1003 inv_1/op b vdd inv_1/w_0_6# pfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-
-M1004 vdd a_13_n18# a_10_10# w_n3_4# CMOSP w=24 l=2
+M1004 vdd a_13_n18# a_10_10# w_n3_4# pfet w=24 l=2
 +  ad=0 pd=0 as=432 ps=180
-M1005 op a_13_n18# a_10_n43# Gnd CMOSN w=12 l=2
+M1005 op a_13_n18# a_10_n43# Gnd nfet w=12 l=2
 +  ad=192 pd=56 as=96 ps=40
-M1006 gnd inv_1/op a_38_n43# Gnd CMOSN w=12 l=2
+M1006 gnd inv_1/op a_38_n43# Gnd nfet w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1007 a_10_10# inv_1/op op w_n3_4# CMOSP w=24 l=2
+M1007 a_10_10# inv_1/op op w_n3_4# pfet w=24 l=2
 +  ad=0 pd=0 as=192 ps=64
-M1008 a_10_n43# a gnd Gnd CMOSN w=12 l=2
+M1008 a_10_n43# a gnd Gnd nfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1009 a_38_n43# inv_0/op op Gnd CMOSN w=12 l=2
+M1009 a_38_n43# inv_0/op op Gnd nfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1010 a_10_10# a vdd w_n3_4# CMOSP w=24 l=2
+M1010 a_10_10# a vdd w_n3_4# pfet w=24 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1011 op inv_0/op a_10_10# w_n3_4# CMOSP w=24 l=2
+M1011 op inv_0/op a_10_10# w_n3_4# pfet w=24 l=2
 +  ad=0 pd=0 as=0 ps=0
-
-
-C0 b inv_1/op 0.09fF
-C1 inv_0/w_0_6# a 0.06fF
-C2 gnd b 0.05fF
-C3 inv_0/op vdd 0.15fF
-C4 op w_n3_4# 0.02fF
-C5 a vdd 0.11fF
-C6 vdd inv_1/in 0.02fF
-C7 b a_13_n18# 0.09fF
-C8 vdd inv_1/op 0.15fF
-C9 gnd vdd 0.25fF
-C10 op inv_0/op 0.06fF
-C11 op inv_1/op 0.50fF
-C12 vdd a_10_10# 0.93fF
-C13 op gnd 0.10fF
-C14 inv_1/in inv_1/w_0_6# 0.06fF
-C15 inv_1/op inv_1/w_0_6# 0.03fF
-C16 vdd b 0.10fF
-C17 op a_10_10# 0.45fF
-C18 inv_0/w_0_6# vdd 0.09fF
-C19 inv_0/op w_n3_4# 0.06fF
-C20 a w_n3_4# 0.06fF
-C21 w_n3_4# inv_1/op 0.06fF
-C22 b inv_1/w_0_6# 0.17fF
-C23 a inv_0/op 0.27fF
-C24 w_n3_4# a_13_n18# 0.06fF
-C25 inv_0/op inv_1/op 0.08fF
-C26 inv_0/op gnd 0.17fF
-C27 w_n3_4# a_10_10# 0.16fF
-C28 a inv_1/op 0.06fF
-C29 vdd inv_1/w_0_6# 0.06fF
-C30 a gnd 0.22fF
-C31 inv_1/in inv_1/op 0.04fF
-C32 gnd inv_1/in 0.05fF
-C33 inv_0/op a_13_n18# 0.06fF
-C34 gnd inv_1/op 0.20fF
-C35 a a_13_n18# 0.02fF
-C36 inv_1/op a_13_n18# 0.12fF
-C37 inv_0/op b 0.07fF
-C38 w_n3_4# vdd 0.12fF
-C39 a b 0.00fF
-C40 inv_0/w_0_6# inv_0/op 0.03fF
-C41 a_10_10# a_13_n18# 0.06fF
-C42 inv_1/in b 0.00fF
-C44 op Gnd 0.03fF
-C45 a_10_10# Gnd 0.01fF
-C46 a_13_n18# Gnd 0.27fF
-C47 w_n3_4# Gnd 1.14fF
-C48 gnd Gnd 0.72fF
-C49 inv_1/op Gnd 0.49fF
-C50 vdd Gnd 0.59fF
-C51 inv_1/in Gnd 0.14fF
-C52 inv_1/w_0_6# Gnd 0.58fF
-C53 inv_0/op Gnd 0.51fF
-C54 a Gnd 1.25fF
-C55 inv_0/w_0_6# Gnd 0.58fF
-
-.tran 100p 40n
-
-.control
-set hcopypscolor = 0
-set color0=white 
-set color1=black 
-
-run
-set curplottitle="Adithya-2019102005-nand-layout"
-
-hardcopy xor.eps v(a)+4 v(b)+2 v(op)
-.endc
+C0 inv_0/op inv_0/w_0_6# 0.03fF
+C1 inv_1/op inv_1/w_0_6# 0.03fF
+C2 vdd b 0.10fF
+C3 inv_0/op op 0.06fF
+C4 a gnd 0.22fF
+C5 vdd inv_1/w_0_6# 0.06fF
+C6 inv_0/op a_13_n18# 0.06fF
+C7 a w_n3_4# 0.06fF
+C8 gnd op 0.10fF
+C9 a inv_0/w_0_6# 0.06fF
+C10 inv_1/op inv_0/op 0.08fF
+C11 b inv_1/w_0_6# 0.23fF
+C12 w_n3_4# op 0.02fF
+C13 vdd inv_0/op 0.15fF
+C14 a a_13_n18# 0.02fF
+C15 inv_1/op gnd 0.20fF
+C16 w_n3_4# a_13_n18# 0.06fF
+C17 b inv_0/op 0.07fF
+C18 inv_1/op a 0.06fF
+C19 inv_1/op w_n3_4# 0.06fF
+C20 vdd gnd 0.25fF
+C21 vdd a 0.11fF
+C22 inv_1/op op 0.50fF
+C23 vdd w_n3_4# 0.12fF
+C24 b gnd 0.11fF
+C25 w_n3_4# a_10_10# 0.16fF
+C26 b a 0.00fF
+C27 vdd inv_0/w_0_6# 0.09fF
+C28 inv_1/op a_13_n18# 0.12fF
+C29 a_10_10# op 0.45fF
+C30 a_13_n18# a_10_10# 0.06fF
+C31 inv_1/op vdd 0.15fF
+C32 b a_13_n18# 0.09fF
+C33 inv_0/op gnd 0.17fF
+C34 inv_0/op a 0.27fF
+C35 inv_1/op b 0.13fF
+C36 inv_0/op w_n3_4# 0.06fF
+C37 vdd a_10_10# 0.93fF
+C38 op Gnd 0.03fF
+C39 a_10_10# Gnd 0.01fF
+C40 a_13_n18# Gnd 0.27fF
+C41 w_n3_4# Gnd 1.14fF
+C42 gnd Gnd 0.72fF
+C43 inv_1/op Gnd 0.49fF
+C44 vdd Gnd 0.59fF
+C45 b Gnd 1.03fF
+C46 inv_1/w_0_6# Gnd 0.58fF
+C47 inv_0/op Gnd 0.51fF
+C48 a Gnd 1.25fF
+C49 inv_0/w_0_6# Gnd 0.58fF
