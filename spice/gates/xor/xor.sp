@@ -54,14 +54,12 @@ x1 y a b w vdd gnd xor_ckt
 .tran 100p 40n
 
 .control
-set hcopypscolor = 1 
+set hcopypscolor = 0
 set color0=white 
 set color1=black 
 
 run
 set curplottitle="Adithya-2019102005-xor"
 
-hardcopy xor.eps v(y) 
-hardcopy a.eps v(a) 
-hardcopy b.eps v(b)
+hardcopy xor.eps v(y) v(a)+4 v(b)+2
 .endc
