@@ -10,116 +10,75 @@ M1002 inv_1/op inv_1/in gnd Gnd nfet w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
 M1003 inv_1/op inv_1/in vdd inv_1/w_0_6# pfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1004 vdd a_39_n5# a_34_8# w_n3_2# pfet w=24 l=2
-+  ad=0 pd=0 as=144 ps=60
-M1005 a_34_n33# a_31_n20# op Gnd nfet w=12 l=2
-+  ad=72 pd=36 as=168 ps=52
-M1006 a_10_8# a_5_n13# vdd w_n3_2# pfet w=24 l=2
-+  ad=144 pd=60 as=0 ps=0
-M1007 a_10_n33# a_5_n13# gnd Gnd nfet w=12 l=2
-+  ad=72 pd=36 as=0 ps=0
-M1008 gnd a_39_n5# a_34_n33# Gnd nfet w=12 l=2
+M1004 vdd a_13_n18# a_10_10# w_n3_4# pfet w=24 l=2
++  ad=0 pd=0 as=432 ps=180
+M1005 op a_13_n18# a_10_n43# Gnd nfet w=12 l=2
++  ad=192 pd=56 as=96 ps=40
+M1006 gnd inv_1/op a_38_n43# Gnd nfet w=12 l=2
++  ad=0 pd=0 as=96 ps=40
+M1007 a_10_10# inv_1/op op w_n3_4# pfet w=24 l=2
++  ad=0 pd=0 as=192 ps=64
+M1008 a_10_n43# a gnd Gnd nfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1009 op a_14_2# a_10_8# w_n3_2# pfet w=24 l=2
-+  ad=336 pd=76 as=0 ps=0
-M1010 op a_14_n20# a_10_n33# Gnd nfet w=12 l=2
+M1009 a_38_n43# inv_0/op op Gnd nfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1011 a_34_8# a_30_2# op w_n3_2# pfet w=24 l=2
+M1010 a_10_10# a vdd w_n3_4# pfet w=24 l=2
 +  ad=0 pd=0 as=0 ps=0
-C0 vdd w_n3_2# 0.14fF
-C1 inv_0/op gnd 0.10fF
-C2 m3_n10_n50# b 0.03fF
-C3 m2_n10_36# m3_n10_n50# 0.01fF
-C4 op inv_1/op 0.19fF
-C5 m2_n10_n50# m3_n10_n50# 0.01fF
-C6 m2_39_n5# m3_n18_10# 0.02fF
-C7 m3_n18_10# a_39_n5# 0.01fF
-C8 m2_n10_36# vdd 0.04fF
-C9 a_39_n5# a_30_2# 0.04fF
-C10 m2_n10_n50# vdd 0.02fF
-C11 a gnd 0.54fF
-C12 w_n3_2# a_30_2# 0.08fF
-C13 a_5_n13# a_14_2# 0.04fF
-C14 inv_1/w_0_6# inv_1/op 0.03fF
-C15 m3_n18_10# b 0.04fF
-C16 b a_30_2# 0.03fF
-C17 op gnd 0.04fF
-C18 m3_n18_10# a_5_n13# 0.00fF
-C19 m3_n10_n50# vdd 0.07fF
-C20 inv_1/in inv_1/op 0.04fF
-C21 b a 0.06fF
-C22 op a_39_n5# 0.06fF
-C23 op w_n3_2# 0.02fF
-C24 m3_n10_n50# m3_n18_10# 0.07fF
-C25 op b 0.21fF
-C26 a a_5_n13# 0.04fF
-C27 inv_0/w_0_6# vdd 0.06fF
-C28 inv_1/in gnd 0.05fF
-C29 vdd inv_0/op 0.15fF
-C30 m1_39_n5# m2_39_n5# 0.01fF
-C31 m1_39_n5# a_39_n5# 0.04fF
-C32 m3_n10_n50# a 0.03fF
-C33 m3_n18_10# inv_0/op 0.02fF
-C34 inv_0/w_0_6# inv_0/op 0.03fF
-C35 a vdd 0.02fF
-C36 b inv_1/in 0.05fF
-C37 a_31_n20# inv_1/op 0.03fF
-C38 op vdd 0.03fF
-C39 m3_n18_10# a 0.04fF
-C40 inv_0/w_0_6# a 0.06fF
-C41 a inv_0/op 0.04fF
-C42 inv_1/op gnd 0.29fF
-C43 vdd inv_1/w_0_6# 0.06fF
-C44 op m3_n18_10# 0.01fF
-C45 a_14_n20# b 0.03fF
-C46 inv_1/op w_n3_2# 0.08fF
-C47 vdd inv_1/in 0.02fF
-C48 m1_39_n5# m3_n18_10# 0.00fF
-C49 a_31_n20# a_39_n5# 0.04fF
-C50 b inv_1/op 0.40fF
-C51 a_14_n20# a_5_n13# 0.04fF
-C52 inv_1/op a_5_n13# 0.00fF
-C53 b gnd 0.16fF
-C54 m2_39_n5# a_39_n5# 0.00fF
-C55 m3_n10_n50# inv_1/op 0.04fF
-C56 a_39_n5# w_n3_2# 0.06fF
-C57 a inv_1/in 0.01fF
-C58 inv_1/op a_14_2# 0.03fF
-C59 op m1_39_n5# 0.07fF
-C60 vdd inv_1/op 0.15fF
-C61 m2_39_n5# b 0.01fF
-C62 b w_n3_2# 0.08fF
-C63 m3_n10_n50# gnd 0.01fF
-C64 m3_n18_10# inv_1/op 0.25fF
-C65 w_n3_2# a_5_n13# 0.06fF
-C66 inv_1/w_0_6# inv_1/in 0.06fF
-C67 b a_5_n13# 0.00fF
-C68 m2_n18_10# m3_n18_10# 0.02fF
-C69 m3_n18_10# gnd 0.01fF
-C70 a inv_1/op 0.16fF
-C71 m2_n18_10# inv_0/op 0.02fF
-C72 w_n3_2# a_14_2# 0.08fF
-C73 m3_n18_10# Gnd 0.07fF **FLOATING
-C74 m3_n10_n50# Gnd 0.37fF **FLOATING
-C75 m2_n10_n50# Gnd 0.09fF **FLOATING
-C76 m2_39_n5# Gnd 0.08fF **FLOATING
-C77 m2_n18_10# Gnd 0.09fF **FLOATING
-C78 m2_n10_36# Gnd 0.07fF **FLOATING
-C79 m1_39_n5# Gnd 0.02fF **FLOATING
-C80 b Gnd 0.89fF **FLOATING
-C81 a_31_n20# Gnd 0.09fF
-C82 a_14_n20# Gnd 0.09fF
-C83 op Gnd 0.11fF
-C84 a_39_n5# Gnd 0.19fF
-C85 a_30_2# Gnd 0.01fF
-C86 a_14_2# Gnd 0.01fF
-C87 a_5_n13# Gnd 0.19fF
-C88 w_n3_2# Gnd 1.05fF
-C89 gnd Gnd 0.54fF
-C90 inv_1/op Gnd 0.30fF
-C91 inv_1/in Gnd 0.14fF
-C92 inv_1/w_0_6# Gnd 0.58fF
-C93 inv_0/op Gnd 0.08fF
-C94 vdd Gnd 0.29fF
-C95 a Gnd 0.98fF
-C96 inv_0/w_0_6# Gnd 0.58fF
+M1011 op inv_0/op a_10_10# w_n3_4# pfet w=24 l=2
++  ad=0 pd=0 as=0 ps=0
+C0 b inv_1/op 0.09fF
+C1 inv_0/w_0_6# a 0.06fF
+C2 gnd b 0.05fF
+C3 inv_0/op vdd 0.15fF
+C4 op w_n3_4# 0.02fF
+C5 a vdd 0.11fF
+C6 vdd inv_1/in 0.02fF
+C7 b a_13_n18# 0.09fF
+C8 vdd inv_1/op 0.15fF
+C9 gnd vdd 0.25fF
+C10 op inv_0/op 0.06fF
+C11 op inv_1/op 0.50fF
+C12 vdd a_10_10# 0.93fF
+C13 op gnd 0.10fF
+C14 inv_1/in inv_1/w_0_6# 0.06fF
+C15 inv_1/op inv_1/w_0_6# 0.03fF
+C16 vdd b 0.10fF
+C17 op a_10_10# 0.45fF
+C18 inv_0/w_0_6# vdd 0.09fF
+C19 inv_0/op w_n3_4# 0.06fF
+C20 a w_n3_4# 0.06fF
+C21 w_n3_4# inv_1/op 0.06fF
+C22 b inv_1/w_0_6# 0.17fF
+C23 a inv_0/op 0.27fF
+C24 w_n3_4# a_13_n18# 0.06fF
+C25 inv_0/op inv_1/op 0.08fF
+C26 inv_0/op gnd 0.17fF
+C27 w_n3_4# a_10_10# 0.16fF
+C28 a inv_1/op 0.06fF
+C29 vdd inv_1/w_0_6# 0.06fF
+C30 a gnd 0.22fF
+C31 inv_1/in inv_1/op 0.04fF
+C32 gnd inv_1/in 0.05fF
+C33 inv_0/op a_13_n18# 0.06fF
+C34 gnd inv_1/op 0.20fF
+C35 a a_13_n18# 0.02fF
+C36 inv_1/op a_13_n18# 0.12fF
+C37 inv_0/op b 0.07fF
+C38 w_n3_4# vdd 0.12fF
+C39 a b 0.00fF
+C40 inv_0/w_0_6# inv_0/op 0.03fF
+C41 a_10_10# a_13_n18# 0.06fF
+C42 inv_1/in b 0.00fF
+C43 b Gnd 0.61fF **FLOATING
+C44 op Gnd 0.03fF
+C45 a_10_10# Gnd 0.01fF
+C46 a_13_n18# Gnd 0.27fF
+C47 w_n3_4# Gnd 1.14fF
+C48 gnd Gnd 0.72fF
+C49 inv_1/op Gnd 0.49fF
+C50 vdd Gnd 0.59fF
+C51 inv_1/in Gnd 0.14fF
+C52 inv_1/w_0_6# Gnd 0.58fF
+C53 inv_0/op Gnd 0.51fF
+C54 a Gnd 1.25fF
+C55 inv_0/w_0_6# Gnd 0.58fF
