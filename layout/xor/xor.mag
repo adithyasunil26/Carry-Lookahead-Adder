@@ -1,70 +1,70 @@
 magic
 tech scmos
-timestamp 1618588165
+timestamp 1618588318
 << nwell >>
-rect -3 2 52 38
+rect -3 2 53 38
 << ntransistor >>
 rect 8 -33 10 -21
 rect 16 -33 18 -21
-rect 31 -33 33 -21
-rect 39 -33 41 -21
+rect 32 -33 34 -21
+rect 40 -33 42 -21
 << ptransistor >>
 rect 8 8 10 32
 rect 16 8 18 32
-rect 31 8 33 32
-rect 39 8 41 32
+rect 32 8 34 32
+rect 40 8 42 32
 << ndiffusion >>
 rect 7 -33 8 -21
 rect 10 -33 16 -21
-rect 18 -33 22 -21
-rect 26 -33 31 -21
-rect 33 -33 39 -21
-rect 41 -33 42 -21
+rect 18 -33 23 -21
+rect 27 -33 32 -21
+rect 34 -33 40 -21
+rect 42 -33 43 -21
 << pdiffusion >>
 rect 7 8 8 32
 rect 10 8 16 32
-rect 18 8 22 32
-rect 26 8 31 32
-rect 33 8 39 32
-rect 41 8 42 32
+rect 18 8 23 32
+rect 27 8 32 32
+rect 34 8 40 32
+rect 42 8 43 32
 << ndcontact >>
 rect 3 -33 7 -21
-rect 22 -33 26 -21
-rect 42 -33 46 -21
+rect 23 -33 27 -21
+rect 43 -33 47 -21
 << pdcontact >>
 rect 3 8 7 32
-rect 22 8 26 32
-rect 42 8 46 32
+rect 23 8 27 32
+rect 43 8 47 32
 << polysilicon >>
 rect 8 32 10 35
 rect 16 32 18 35
-rect 31 32 33 35
-rect 39 32 41 35
+rect 32 32 34 35
+rect 40 32 42 35
 rect 8 -8 10 8
 rect 16 7 18 8
-rect 31 7 33 8
+rect 32 7 34 8
 rect 14 2 19 7
-rect 29 2 34 7
-rect 39 0 41 8
-rect 38 -5 43 0
+rect 30 2 35 7
+rect 40 0 42 8
+rect 39 -5 44 0
 rect 5 -13 10 -8
 rect 8 -21 10 -13
 rect 14 -20 19 -15
-rect 30 -20 35 -15
+rect 31 -20 36 -15
 rect 16 -21 18 -20
-rect 31 -21 33 -20
-rect 39 -21 41 -5
+rect 32 -21 34 -20
+rect 40 -21 42 -5
 rect 8 -36 10 -33
 rect 16 -36 18 -33
-rect 31 -36 33 -33
-rect 39 -36 41 -33
+rect 32 -36 34 -33
+rect 40 -36 42 -33
 << metal1 >>
 rect -18 41 -12 43
-rect -18 40 52 41
-rect -15 38 52 40
+rect -18 40 53 41
+rect -15 38 53 40
 rect -10 36 -5 38
 rect 3 32 6 38
-rect 43 32 46 38
+rect 44 32 47 38
 rect -51 10 -50 13
 rect -45 11 -42 14
 rect -18 10 -13 15
@@ -73,19 +73,19 @@ rect -51 -21 -50 -18
 rect -18 -21 -12 -18
 rect -15 -23 -12 -21
 rect -5 -37 -2 -5
-rect 23 -8 26 8
-rect 38 -5 43 0
-rect 23 -11 52 -8
-rect 23 -21 26 -11
+rect 24 -8 27 8
+rect 39 -5 44 0
+rect 24 -11 53 -8
+rect 24 -21 27 -11
 rect 3 -37 6 -33
-rect 43 -37 46 -33
-rect -5 -40 52 -37
+rect 44 -37 47 -33
+rect -5 -40 53 -37
 rect -10 -47 -5 -45
 rect -18 -50 -5 -47
 << m2contact >>
 rect -50 9 -45 14
 rect -50 -22 -45 -17
-rect 29 2 34 7
+rect 30 2 35 7
 rect 5 -13 10 -8
 rect 14 -20 19 -15
 << metal2 >>
@@ -94,12 +94,12 @@ rect -18 10 -13 15
 rect -49 1 -46 9
 rect -49 -2 -10 1
 rect -13 -8 -10 -2
-rect 19 -8 26 -6
-rect 30 -8 33 2
-rect 38 -5 43 0
+rect 19 -8 27 -6
+rect 31 -8 34 2
+rect 39 -5 44 0
 rect -13 -11 5 -8
 rect -48 -14 -17 -11
-rect 16 -11 33 -8
+rect 16 -11 34 -8
 rect -48 -17 -45 -14
 rect -20 -15 -17 -14
 rect 16 -15 19 -11
@@ -109,23 +109,23 @@ rect -3 -20 14 -18
 rect -10 -50 -5 -45
 << m123contact >>
 rect 14 2 19 7
-rect 30 -20 35 -15
+rect 31 -20 36 -15
 rect -15 -28 -10 -23
 << metal3 >>
 rect 16 -5 19 2
 rect -3 -6 19 -5
-rect -3 -8 33 -6
+rect -3 -8 34 -6
 rect -3 -24 0 -8
-rect 16 -9 33 -8
-rect 30 -15 33 -9
+rect 16 -9 34 -8
+rect 31 -15 34 -9
 rect -10 -27 0 -24
 << metal4 >>
 rect -13 -2 -10 13
-rect -13 -5 38 -2
+rect -13 -5 39 -2
 << m345contact >>
 rect -10 36 -5 41
 rect -18 10 -13 15
-rect 38 -5 43 0
+rect 39 -5 44 0
 rect -10 -50 -5 -45
 << metal5 >>
 rect -9 -45 -6 36
@@ -140,7 +140,7 @@ box 0 -15 24 33
 << labels >>
 rlabel metal1 -51 -21 -51 -18 3 b
 rlabel metal1 -51 10 -51 13 3 a
-rlabel metal1 24 40 24 40 5 vdd!
-rlabel metal1 25 -39 25 -39 1 gnd!
-rlabel metal1 52 -11 52 -8 7 op
+rlabel metal1 25 40 25 40 5 vdd!
+rlabel metal1 26 -39 26 -39 1 gnd!
+rlabel metal1 53 -11 53 -8 7 op
 << end >>
