@@ -1,41 +1,42 @@
 magic
 tech scmos
-timestamp 1618538720
+timestamp 1618581915
 << metal1 >>
-rect 29 55 42 58
-rect 47 55 61 58
-rect 58 38 61 55
+rect 29 55 35 58
+rect 32 38 35 55
+rect 32 35 42 38
 rect 96 38 99 39
-rect 58 35 65 38
-rect -25 27 -5 30
-rect 29 28 61 31
+rect 47 35 65 38
+rect -25 26 -5 29
 rect -34 -20 -33 -17
-rect -25 -29 -22 27
+rect -25 -29 -22 26
+rect 29 25 61 28
 rect -15 20 -5 23
 rect -15 -16 -12 20
 rect 42 -4 45 14
-rect 58 10 61 28
-rect 58 7 65 10
-rect 123 8 124 11
+rect 58 9 61 25
+rect 58 6 65 9
+rect 96 8 99 10
+rect 123 7 124 10
 rect 59 0 65 3
 rect -34 -32 -22 -29
-rect -25 -54 -22 -32
-rect -15 -48 -12 -21
-rect 59 -30 62 0
+rect -25 -56 -22 -32
+rect -15 -50 -12 -21
+rect 59 -31 62 0
 rect 99 -24 102 -9
-rect 26 -33 32 -30
-rect 56 -33 62 -30
-rect 26 -48 29 -33
+rect 26 -34 32 -31
+rect 56 -34 62 -31
+rect -15 -53 -9 -50
+rect 26 -51 29 -34
 rect 65 -47 68 -24
-rect -15 -51 -9 -48
-rect 25 -51 29 -48
+rect 25 -54 29 -51
 rect 56 -50 68 -47
-rect -25 -57 -9 -54
-rect 32 -73 35 -52
-rect 25 -76 35 -73
+rect -25 -59 -9 -56
+rect 32 -75 35 -52
+rect 25 -78 35 -75
 << m2contact >>
 rect -5 55 0 60
-rect 42 54 47 59
+rect 42 34 47 39
 rect -33 -21 -28 -16
 rect 41 14 46 19
 rect 24 -4 29 1
@@ -44,32 +45,32 @@ rect -17 -21 -12 -16
 rect 32 -52 37 -47
 << metal2 >>
 rect -3 -7 0 55
-rect 43 19 46 54
+rect 43 19 46 34
 rect -28 -20 -17 -17
 rect 26 -47 29 -4
 rect 26 -50 32 -47
 use nand  nand_0
-timestamp 1618370031
+timestamp 1618580231
 transform 1 0 -5 0 1 31
 box 0 -35 34 27
 use nor  nor_0
-timestamp 1618371503
+timestamp 1618580541
 transform 1 0 -9 0 1 -48
-box 0 -28 34 39
+box 0 -30 34 39
 use inv  inv_0
-timestamp 1618536408
+timestamp 1618579805
 transform 1 0 32 0 1 -35
 box 0 -15 24 33
 use nand  nand_1
-timestamp 1618370031
+timestamp 1618580231
 transform 1 0 65 0 1 11
 box 0 -35 34 27
 use inv  inv_1
-timestamp 1618536408
+timestamp 1618579805
 transform 1 0 99 0 1 6
 box 0 -15 24 33
 << labels >>
-rlabel metal1 124 8 124 11 7 op
 rlabel metal1 -34 -32 -34 -29 3 b
 rlabel metal1 -34 -20 -34 -17 3 a
+rlabel metal1 124 7 124 10 7 op
 << end >>
