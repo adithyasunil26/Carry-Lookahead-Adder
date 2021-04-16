@@ -1,0 +1,89 @@
+* SPICE3 file created from xor.ext - technology: scmos
+
+.option scale=0.09u
+
+M1000 nand_1/a_13_n26# nand_1/a gnd Gnd nfet w=12 l=2
++  ad=96 pd=40 as=240 ps=156
+M1001 vdd inv_0/op inv_1/in inv_1/w_0_6# pfet w=12 l=2
++  ad=480 pd=262 as=96 ps=40
+M1002 inv_1/in nand_1/a vdd inv_1/w_0_6# pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1003 inv_1/in inv_0/op nand_1/a_13_n26# Gnd nfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1004 nand_0/a_13_n26# nand_0/a gnd Gnd nfet w=12 l=2
++  ad=96 pd=40 as=0 ps=0
+M1005 vdd nand_0/b nand_1/a nand_0/w_0_0# pfet w=12 l=2
++  ad=0 pd=0 as=96 ps=40
+M1006 nand_1/a nand_0/a vdd nand_0/w_0_0# pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1007 nand_1/a nand_0/b nand_0/a_13_n26# Gnd nfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1008 inv_0/op inv_0/in gnd Gnd nfet w=6 l=2
++  ad=30 pd=22 as=0 ps=0
+M1009 inv_0/op inv_0/in vdd inv_0/w_0_6# pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1010 inv_1/op inv_1/in gnd Gnd nfet w=6 l=2
++  ad=30 pd=22 as=0 ps=0
+M1011 inv_1/op inv_1/in vdd inv_1/w_0_6# pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1012 inv_0/in nor_0/b nor_0/a_13_6# nor_0/w_0_0# pfet w=24 l=2
++  ad=120 pd=58 as=192 ps=64
+M1013 nor_0/a_13_6# nor_0/a vdd nor_0/w_0_0# pfet w=24 l=2
++  ad=0 pd=0 as=0 ps=0
+M1014 gnd nor_0/b inv_0/in Gnd nfet w=6 l=2
++  ad=0 pd=0 as=48 ps=28
+M1015 inv_0/in nor_0/a gnd Gnd nfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+C0 inv_1/w_0_6# inv_1/in 0.11fF
+C1 inv_0/w_0_6# inv_0/in 0.06fF
+C2 nand_0/w_0_0# vdd 0.35fF
+C3 nand_1/a vdd 0.09fF
+C4 nand_0/a nand_0/b 0.21fF
+C5 inv_1/w_0_6# vdd 0.11fF
+C6 nand_0/a vdd 0.06fF
+C7 inv_1/in gnd 0.04fF
+C8 inv_1/w_0_6# inv_1/op 0.02fF
+C9 nand_0/b vdd 0.06fF
+C10 inv_0/op inv_0/w_0_6# 0.02fF
+C11 vdd gnd 0.17fF
+C12 inv_1/in inv_1/op 0.04fF
+C13 inv_0/op inv_0/in 0.04fF
+C14 gnd nor_0/w_0_0# 0.10fF
+C15 vdd nor_0/w_0_0# 0.46fF
+C16 inv_1/op gnd 0.05fF
+C17 gnd nor_0/a 0.03fF
+C18 vdd nor_0/a 0.06fF
+C19 nor_0/w_0_0# nor_0/a 0.06fF
+C20 vdd nor_0/b 0.06fF
+C21 inv_0/w_0_6# vdd 0.04fF
+C22 nand_1/a inv_0/op 0.28fF
+C23 nor_0/w_0_0# nor_0/b 0.09fF
+C24 inv_0/in gnd 0.18fF
+C25 inv_0/op inv_1/w_0_6# 0.06fF
+C26 nor_0/a nor_0/b 0.24fF
+C27 nand_1/a nand_0/w_0_0# 0.04fF
+C28 inv_0/in nor_0/w_0_0# 0.03fF
+C29 inv_0/op inv_1/in 0.13fF
+C30 nand_1/a inv_1/w_0_6# 0.06fF
+C31 nand_0/w_0_0# nand_0/a 0.06fF
+C32 inv_0/in nor_0/a 0.02fF
+C33 inv_0/op gnd 0.21fF
+C34 inv_0/op vdd 0.04fF
+C35 nand_0/w_0_0# nand_0/b 0.06fF
+C36 nand_1/a nand_0/b 0.13fF
+C37 inv_0/in nor_0/b 0.17fF
+C38 nor_0/b Gnd 0.16fF
+C39 nor_0/a Gnd 0.17fF
+C40 nor_0/w_0_0# Gnd 1.23fF
+C41 gnd Gnd 1.38fF
+C42 inv_1/op Gnd 0.05fF
+C43 vdd Gnd 1.60fF
+C44 inv_1/in Gnd 0.20fF
+C45 inv_1/w_0_6# Gnd 1.40fF
+C46 inv_0/in Gnd 0.23fF
+C47 inv_0/w_0_6# Gnd 0.58fF
+C48 nand_0/b Gnd 0.20fF
+C49 nand_0/a Gnd 0.17fF
+C50 nand_0/w_0_0# Gnd 0.82fF
+C51 inv_0/op Gnd 0.37fF
+C52 nand_1/a Gnd 0.37fF

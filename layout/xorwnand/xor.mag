@@ -1,10 +1,36 @@
 magic
 tech scmos
-timestamp 1618537183
-<< error_s >>
-rect 26 -4 29 -2
-rect 26 -7 29 -5
-rect 29 -32 35 -29
+timestamp 1618538100
+<< metal1 >>
+rect 29 55 42 58
+rect 47 55 61 58
+rect 58 38 61 55
+rect 96 38 99 39
+rect 58 35 65 38
+rect 29 28 61 31
+rect 8 -7 11 -4
+rect 42 -4 45 14
+rect 58 10 61 28
+rect 58 7 65 10
+rect 59 0 65 3
+rect 59 -30 62 0
+rect 99 -24 102 -9
+rect 29 -35 32 -30
+rect 56 -33 62 -30
+rect 65 -47 68 -24
+rect 56 -50 68 -47
+<< m2contact >>
+rect -5 55 0 60
+rect 42 54 47 59
+rect 41 14 46 19
+rect 24 -8 29 -3
+rect 32 -52 37 -47
+rect -5 -76 0 -71
+<< metal2 >>
+rect -3 -71 0 55
+rect 43 19 46 54
+rect 26 -47 29 -8
+rect 26 -50 32 -47
 use nand  nand_0
 timestamp 1618370031
 transform 1 0 -5 0 1 31
@@ -14,7 +40,15 @@ timestamp 1618371503
 transform 1 0 -5 0 -1 -35
 box 0 -28 34 39
 use inv  inv_0
-timestamp 1618372098
-transform 1 0 29 0 1 -38
-box 0 -14 24 33
+timestamp 1618536408
+transform 1 0 32 0 1 -35
+box 0 -15 24 33
+use nand  nand_1
+timestamp 1618370031
+transform 1 0 65 0 1 11
+box 0 -35 34 27
+use inv  inv_1
+timestamp 1618536408
+transform 1 0 99 0 1 6
+box 0 -15 24 33
 << end >>
