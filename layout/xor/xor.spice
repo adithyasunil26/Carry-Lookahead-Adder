@@ -12,19 +12,19 @@ M1003 inv_1/op b vdd inv_1/w_0_6# pfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 M1004 vdd a_35_n5# a_30_8# w_n6_2# pfet w=24 l=2
 +  ad=0 pd=0 as=144 ps=60
+M1011 a_30_8# b op w_n6_2# pfet w=24 l=2
++  ad=0 pd=0 as=0 ps=0
 M1005 a_7_8# a vdd w_n6_2# pfet w=24 l=2
 +  ad=144 pd=60 as=0 ps=0
-M1006 a_30_n33# a_27_n20# op Gnd nfet w=12 l=2
-+  ad=72 pd=36 as=156 ps=50
 M1007 op a_11_2# a_7_8# w_n6_2# pfet w=24 l=2
 +  ad=312 pd=74 as=0 ps=0
+M1006 a_30_n33# a_27_n20# op Gnd nfet w=12 l=2
++  ad=72 pd=36 as=156 ps=50
 M1008 gnd a_35_n5# a_30_n33# Gnd nfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
 M1009 a_7_n33# a gnd Gnd nfet w=12 l=2
 +  ad=72 pd=36 as=0 ps=0
 M1010 op b a_7_n33# Gnd nfet w=12 l=2
-+  ad=0 pd=0 as=0 ps=0
-M1011 a_30_8# b op w_n6_2# pfet w=24 l=2
 +  ad=0 pd=0 as=0 ps=0
 C0 m3_n15_10# m2_n15_10# 0.02fF
 C1 b m3_n15_10# 0.04fF
