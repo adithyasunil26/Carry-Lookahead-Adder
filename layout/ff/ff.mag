@@ -1,9 +1,8 @@
 magic
 tech scmos
-timestamp 1618408169
+timestamp 1618536590
 << metal1 >>
-rect 24 89 27 90
-rect 18 86 27 89
+rect 18 87 27 90
 rect 61 87 73 90
 rect 107 87 122 90
 rect 156 87 168 90
@@ -37,8 +36,8 @@ rect 120 -3 122 0
 rect 165 -1 168 0
 rect 156 -4 168 -1
 rect 202 -4 205 -1
-rect 18 -23 24 -20
-rect 21 -28 24 -23
+rect 18 -24 24 -21
+rect 21 -28 24 -24
 rect 21 -31 29 -28
 rect 61 -31 73 -28
 rect 107 -31 122 -28
@@ -79,17 +78,17 @@ rect 165 31 202 34
 rect 69 8 72 31
 rect 165 8 168 31
 use inv  inv_0
-timestamp 1618372098
-transform 1 0 -6 0 1 56
-box 0 -14 24 33
+timestamp 1618536408
+transform 1 0 -6 0 1 57
+box 0 -15 24 33
 use nand  nand_0
 timestamp 1618370031
 transform 1 0 27 0 1 63
 box 0 -35 34 27
 use inv  inv_1
-timestamp 1618372098
-transform 1 0 -6 0 -1 10
-box 0 -14 24 33
+timestamp 1618536408
+transform 1 0 -6 0 -1 9
+box 0 -15 24 33
 use nand  nand_2
 timestamp 1618370031
 transform 1 0 27 0 -1 -4
