@@ -1,14 +1,26 @@
 * SPICE3 file created from nand.ext - technology: scmos
+.include ../TSMC_180nm.txt
+* D G S B
+.param SUPPLY=1.8V
+.param LAMBDA=0.09u
+.param length={2*LAMBDA}
+.param w={6*LAMBDA}
+.global gnd vdd
 
 .option scale=0.09u
 
-M1000 a_13_n26# a gnd Gnd nfet w=12 l=2
+Vdd vdd gnd 'SUPPLY'
+
+va a gnd pulse 1.8 0 0ns 10ps 10ps 10ns 20ns
+vb b gnd pulse 1.8 0 0ns 10ps 10ps 20ns 40ns
+
+M1000 a_13_n26# a gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=60 ps=34
-M1001 vdd b out w_0_0# pfet w=12 l=2
+M1001 vdd b out w_0_0# CMOSP w=12 l=2
 +  ad=120 pd=68 as=96 ps=40
-M1002 out a vdd w_0_0# pfet w=12 l=2
+M1002 out a vdd w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1003 out b a_13_n26# Gnd nfet w=12 l=2
+M1003 out b a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 C0 vdd w_0_0# 0.10fF
 C1 b a 0.24fF
@@ -26,3 +38,16 @@ C12 vdd Gnd 0.06fF
 C13 b Gnd 0.20fF
 C14 a Gnd 0.17fF
 C15 w_0_0# Gnd 0.82fF
+
+.tran 100p 40n
+
+.control
+set hcopypscolor = 0
+set color0=white 
+set color1=black 
+
+run
+set curplottitle="Adithya-2019102005-nand-layout"
+
+hardcopy nand.eps v(a)+4 v(b)+2 v(out)
+.endc
