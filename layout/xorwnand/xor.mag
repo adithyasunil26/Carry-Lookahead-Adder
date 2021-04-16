@@ -1,0 +1,20 @@
+magic
+tech scmos
+timestamp 1618537183
+<< error_s >>
+rect 26 -4 29 -2
+rect 26 -7 29 -5
+rect 29 -32 35 -29
+use nand  nand_0
+timestamp 1618370031
+transform 1 0 -5 0 1 31
+box 0 -35 34 27
+use nor  nor_0
+timestamp 1618371503
+transform 1 0 -5 0 -1 -35
+box 0 -28 34 39
+use inv  inv_0
+timestamp 1618372098
+transform 1 0 29 0 1 -38
+box 0 -14 24 33
+<< end >>
