@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1618581404
+timestamp 1618613567
 << metal1 >>
 rect 18 87 27 90
 rect 61 87 73 90
@@ -14,6 +14,7 @@ rect 61 57 64 58
 rect 109 58 122 61
 rect 156 58 168 61
 rect 156 57 159 58
+rect 204 55 207 58
 rect 21 52 27 55
 rect 21 8 24 52
 rect 120 52 122 55
@@ -35,6 +36,7 @@ rect 107 -4 110 4
 rect 156 1 159 2
 rect 120 -2 122 1
 rect 156 -2 168 1
+rect 204 -1 207 2
 rect 18 -24 24 -21
 rect 21 -28 24 -24
 rect 21 -31 29 -28
@@ -130,4 +132,6 @@ box 0 -35 34 27
 << labels >>
 rlabel metal1 -13 5 -13 8 3 clk
 rlabel metal1 -14 58 -14 61 3 d
+rlabel metal1 207 -1 207 2 7 qbar
+rlabel metal1 207 55 207 58 7 q
 << end >>
