@@ -1,161 +1,161 @@
 * SPICE3 file created from ffo.ext - technology: scmos
 
-.option scale=0.01u
+.option scale=0.09u
 
-M1000 nand_1/a_13_n26# nand_1/a gnd Gnd nfet w=108 l=18
-+  ad=7776 pd=360 as=43740 ps=2844
-M1001 vdd nand_1/b nand_3/b nand_1/w_0_0# pfet w=108 l=18
-+  ad=87480 pd=5508 as=7776 ps=360
-M1002 nand_3/b nand_1/a vdd nand_1/w_0_0# pfet w=108 l=18
+M1000 nand_1/a_13_n26# nand_1/a gnd Gnd nfet w=12 l=2
++  ad=96 pd=40 as=540 ps=316
+M1001 vdd nand_1/b nand_3/b nand_1/w_0_0# pfet w=12 l=2
++  ad=1080 pd=612 as=96 ps=40
+M1002 nand_3/b nand_1/a vdd nand_1/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1003 nand_3/b nand_1/b nand_1/a_13_n26# Gnd nfet w=108 l=18
-+  ad=4860 pd=306 as=0 ps=0
-M1004 nand_0/a_13_n26# inv_0/op gnd Gnd nfet w=108 l=18
-+  ad=7776 pd=360 as=0 ps=0
-M1005 vdd nand_0/b nand_1/a nand_0/w_0_0# pfet w=108 l=18
-+  ad=0 pd=0 as=7776 ps=360
-M1006 nand_1/a inv_0/op vdd nand_0/w_0_0# pfet w=108 l=18
+M1003 nand_3/b nand_1/b nand_1/a_13_n26# Gnd nfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1004 nand_0/a_13_n26# inv_0/op gnd Gnd nfet w=12 l=2
++  ad=96 pd=40 as=0 ps=0
+M1005 vdd nand_0/b nand_1/a nand_0/w_0_0# pfet w=12 l=2
++  ad=0 pd=0 as=96 ps=40
+M1006 nand_1/a inv_0/op vdd nand_0/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1007 nand_1/a nand_0/b nand_0/a_13_n26# Gnd nfet w=108 l=18
-+  ad=4860 pd=306 as=0 ps=0
-M1008 nand_2/a_13_n26# d gnd Gnd nfet w=108 l=18
-+  ad=7776 pd=360 as=0 ps=0
-M1009 vdd nand_0/b nand_3/a nand_2/w_0_0# pfet w=108 l=18
-+  ad=0 pd=0 as=7776 ps=360
-M1010 nand_3/a d vdd nand_2/w_0_0# pfet w=108 l=18
+M1007 nand_1/a nand_0/b nand_0/a_13_n26# Gnd nfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1008 nand_2/a_13_n26# d gnd Gnd nfet w=12 l=2
++  ad=96 pd=40 as=0 ps=0
+M1009 vdd nand_0/b nand_3/a nand_2/w_0_0# pfet w=12 l=2
++  ad=0 pd=0 as=96 ps=40
+M1010 nand_3/a d vdd nand_2/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1011 nand_3/a nand_0/b nand_2/a_13_n26# Gnd nfet w=108 l=18
-+  ad=4860 pd=306 as=0 ps=0
-M1012 nand_3/a_13_n26# nand_3/a gnd Gnd nfet w=108 l=18
-+  ad=7776 pd=360 as=0 ps=0
-M1013 vdd nand_3/b nand_1/b nand_3/w_0_0# pfet w=108 l=18
-+  ad=0 pd=0 as=7776 ps=360
-M1014 nand_1/b nand_3/a vdd nand_3/w_0_0# pfet w=108 l=18
+M1011 nand_3/a nand_0/b nand_2/a_13_n26# Gnd nfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1012 nand_3/a_13_n26# nand_3/a gnd Gnd nfet w=12 l=2
++  ad=96 pd=40 as=0 ps=0
+M1013 vdd nand_3/b nand_1/b nand_3/w_0_0# pfet w=12 l=2
++  ad=0 pd=0 as=96 ps=40
+M1014 nand_1/b nand_3/a vdd nand_3/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1015 nand_1/b nand_3/b nand_3/a_13_n26# Gnd nfet w=108 l=18
-+  ad=4860 pd=306 as=0 ps=0
-M1016 nand_4/a_13_n26# nand_3/b gnd Gnd nfet w=108 l=18
-+  ad=7776 pd=360 as=0 ps=0
-M1017 vdd clk nand_6/a nand_4/w_0_0# pfet w=108 l=18
-+  ad=0 pd=0 as=7776 ps=360
-M1018 nand_6/a nand_3/b vdd nand_4/w_0_0# pfet w=108 l=18
+M1015 nand_1/b nand_3/b nand_3/a_13_n26# Gnd nfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1016 nand_4/a_13_n26# nand_3/b gnd Gnd nfet w=12 l=2
++  ad=96 pd=40 as=0 ps=0
+M1017 vdd clk nand_6/a nand_4/w_0_0# pfet w=12 l=2
++  ad=0 pd=0 as=96 ps=40
+M1018 nand_6/a nand_3/b vdd nand_4/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1019 nand_6/a clk nand_4/a_13_n26# Gnd nfet w=108 l=18
-+  ad=4860 pd=306 as=0 ps=0
-M1020 nand_5/a_13_n26# clk gnd Gnd nfet w=108 l=18
-+  ad=7776 pd=360 as=0 ps=0
-M1021 vdd nand_1/b nand_7/a nand_5/w_0_0# pfet w=108 l=18
-+  ad=0 pd=0 as=7776 ps=360
-M1022 nand_7/a clk vdd nand_5/w_0_0# pfet w=108 l=18
+M1019 nand_6/a clk nand_4/a_13_n26# Gnd nfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1020 nand_5/a_13_n26# clk gnd Gnd nfet w=12 l=2
++  ad=96 pd=40 as=0 ps=0
+M1021 vdd nand_1/b nand_7/a nand_5/w_0_0# pfet w=12 l=2
++  ad=0 pd=0 as=96 ps=40
+M1022 nand_7/a clk vdd nand_5/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1023 nand_7/a nand_1/b nand_5/a_13_n26# Gnd nfet w=108 l=18
-+  ad=4860 pd=306 as=0 ps=0
-M1024 nand_6/a_13_n26# nand_6/a gnd Gnd nfet w=108 l=18
-+  ad=7776 pd=360 as=0 ps=0
-M1025 vdd q qbar nand_6/w_0_0# pfet w=108 l=18
-+  ad=0 pd=0 as=7776 ps=360
-M1026 qbar nand_6/a vdd nand_6/w_0_0# pfet w=108 l=18
+M1023 nand_7/a nand_1/b nand_5/a_13_n26# Gnd nfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1024 nand_6/a_13_n26# nand_6/a gnd Gnd nfet w=12 l=2
++  ad=96 pd=40 as=0 ps=0
+M1025 vdd q qbar nand_6/w_0_0# pfet w=12 l=2
++  ad=0 pd=0 as=96 ps=40
+M1026 qbar nand_6/a vdd nand_6/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1027 qbar q nand_6/a_13_n26# Gnd nfet w=108 l=18
-+  ad=4860 pd=306 as=0 ps=0
-M1028 nand_7/a_13_n26# nand_7/a gnd Gnd nfet w=108 l=18
-+  ad=7776 pd=360 as=0 ps=0
-M1029 vdd qbar q nand_7/w_0_0# pfet w=108 l=18
-+  ad=0 pd=0 as=7776 ps=360
-M1030 q nand_7/a vdd nand_7/w_0_0# pfet w=108 l=18
+M1027 qbar q nand_6/a_13_n26# Gnd nfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1028 nand_7/a_13_n26# nand_7/a gnd Gnd nfet w=12 l=2
++  ad=96 pd=40 as=0 ps=0
+M1029 vdd qbar q nand_7/w_0_0# pfet w=12 l=2
++  ad=0 pd=0 as=96 ps=40
+M1030 q nand_7/a vdd nand_7/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1031 q qbar nand_7/a_13_n26# Gnd nfet w=108 l=18
-+  ad=4860 pd=306 as=0 ps=0
-M1032 inv_0/op d gnd Gnd nfet w=54 l=18
-+  ad=2430 pd=198 as=0 ps=0
-M1033 inv_0/op d vdd inv_0/w_0_6# pfet w=108 l=18
-+  ad=4860 pd=306 as=0 ps=0
-M1034 nand_0/b clk gnd Gnd nfet w=54 l=18
-+  ad=2430 pd=198 as=0 ps=0
-M1035 nand_0/b clk vdd inv_1/w_0_6# pfet w=108 l=18
-+  ad=4860 pd=306 as=0 ps=0
-C0 nand_1/b nand_3/w_0_0# 0.04fF
-C1 vdd nand_3/w_0_0# 0.11fF
-C2 inv_0/w_0_6# inv_0/op 0.03fF
-C3 d nand_0/b 0.40fF
-C4 nand_0/w_0_0# nand_0/b 0.06fF
-C5 nand_7/w_0_0# vdd 0.10fF
-C6 gnd nand_7/a 0.03fF
-C7 nand_3/b nand_3/w_0_0# 0.06fF
-C8 vdd nand_3/a 0.30fF
-C9 vdd nand_2/w_0_0# 0.10fF
-C10 vdd inv_0/op 0.17fF
-C11 inv_0/w_0_6# d 0.06fF
-C12 nand_6/w_0_0# nand_6/a 0.06fF
-C13 nand_5/w_0_0# nand_7/a 0.04fF
-C14 nand_6/w_0_0# q 0.06fF
-C15 q nand_7/a 0.00fF
-C16 nand_3/b nand_3/a 0.31fF
-C17 nand_1/b nand_1/w_0_0# 0.06fF
-C18 vdd nand_1/w_0_0# 0.10fF
-C19 gnd nand_3/a 0.03fF
-C20 vdd d 0.04fF
-C21 vdd nand_0/w_0_0# 0.10fF
-C22 gnd inv_0/op 0.10fF
-C23 q nand_7/w_0_0# 0.04fF
-C24 nand_3/b nand_1/w_0_0# 0.04fF
-C25 vdd nand_0/b 0.15fF
-C26 gnd d 0.16fF
-C27 qbar vdd 0.28fF
-C28 inv_0/w_0_6# vdd 0.06fF
-C29 clk nand_0/b 0.04fF
+M1031 q qbar nand_7/a_13_n26# Gnd nfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1032 inv_0/op d gnd Gnd nfet w=6 l=2
++  ad=30 pd=22 as=0 ps=0
+M1033 inv_0/op d vdd inv_0/w_0_6# pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1034 nand_0/b clk gnd Gnd nfet w=6 l=2
++  ad=30 pd=22 as=0 ps=0
+M1035 nand_0/b clk vdd inv_1/w_0_6# pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+C0 d nand_2/w_0_0# 0.06fF
+C1 gnd nand_1/a 0.03fF
+C2 nand_3/a nand_2/w_0_0# 0.04fF
+C3 inv_0/op d 0.04fF
+C4 nand_3/a nand_3/w_0_0# 0.06fF
+C5 vdd nand_0/w_0_0# 0.10fF
+C6 nand_0/b nand_0/w_0_0# 0.06fF
+C7 qbar gnd 0.34fF
+C8 nand_6/a nand_6/w_0_0# 0.06fF
+C9 nand_7/a qbar 0.31fF
+C10 qbar q 0.32fF
+C11 vdd nand_1/a 0.30fF
+C12 vdd inv_0/w_0_6# 0.06fF
+C13 nand_1/a nand_1/b 0.31fF
+C14 nand_1/a nand_0/b 0.13fF
+C15 nand_1/a nand_3/b 0.00fF
+C16 nand_7/w_0_0# qbar 0.06fF
+C17 qbar vdd 0.28fF
+C18 nand_7/a gnd 0.03fF
+C19 inv_0/op nand_0/w_0_0# 0.06fF
+C20 gnd q 0.52fF
+C21 nand_7/a nand_5/w_0_0# 0.04fF
+C22 gnd clk 0.17fF
+C23 inv_0/w_0_6# d 0.06fF
+C24 nand_1/a nand_1/w_0_0# 0.06fF
+C25 nand_5/w_0_0# clk 0.06fF
+C26 nand_7/a q 0.00fF
+C27 vdd gnd 0.03fF
+C28 gnd nand_1/b 0.26fF
+C29 vdd nand_5/w_0_0# 0.10fF
 C30 gnd nand_0/b 0.38fF
-C31 nand_1/b vdd 0.31fF
-C32 gnd qbar 0.34fF
-C33 nand_1/b clk 0.45fF
-C34 nand_3/b nand_1/b 0.32fF
-C35 nand_1/a nand_1/w_0_0# 0.06fF
-C36 clk vdd 1.49fF
-C37 nand_3/b vdd 0.39fF
-C38 nand_0/w_0_0# nand_1/a 0.04fF
-C39 nand_1/b gnd 0.26fF
-C40 qbar nand_6/a 0.00fF
-C41 gnd vdd 0.03fF
-C42 nand_7/a nand_7/w_0_0# 0.06fF
-C43 q qbar 0.32fF
-C44 nand_3/w_0_0# nand_3/a 0.06fF
-C45 nand_1/b nand_5/w_0_0# 0.06fF
-C46 nand_3/b clk 0.33fF
-C47 nand_5/w_0_0# vdd 0.10fF
-C48 nand_1/a nand_0/b 0.13fF
-C49 nand_4/w_0_0# vdd 0.10fF
-C50 clk gnd 0.17fF
-C51 vdd nand_6/a 0.30fF
-C52 nand_3/b gnd 0.35fF
-C53 q vdd 0.28fF
-C54 clk nand_5/w_0_0# 0.06fF
-C55 inv_1/w_0_6# nand_0/b 0.03fF
-C56 nand_4/w_0_0# clk 0.06fF
-C57 nand_2/w_0_0# nand_3/a 0.04fF
-C58 nand_3/b nand_4/w_0_0# 0.06fF
-C59 clk nand_6/a 0.13fF
-C60 gnd nand_6/a 0.03fF
-C61 gnd q 0.52fF
-C62 nand_1/b nand_1/a 0.31fF
-C63 vdd nand_1/a 0.30fF
-C64 nand_4/w_0_0# nand_6/a 0.04fF
-C65 nand_2/w_0_0# d 0.06fF
-C66 nand_6/w_0_0# qbar 0.04fF
-C67 inv_0/op d 0.04fF
-C68 inv_0/op nand_0/w_0_0# 0.06fF
-C69 nand_7/a qbar 0.31fF
-C70 q nand_6/a 0.31fF
-C71 inv_1/w_0_6# vdd 0.06fF
-C72 nand_3/b nand_1/a 0.00fF
-C73 gnd nand_1/a 0.03fF
-C74 nand_0/b nand_3/a 0.13fF
-C75 nand_2/w_0_0# nand_0/b 0.06fF
-C76 nand_6/w_0_0# vdd 0.10fF
-C77 nand_1/b nand_7/a 0.13fF
-C78 inv_0/op nand_0/b 0.32fF
-C79 clk inv_1/w_0_6# 0.06fF
-C80 nand_7/w_0_0# qbar 0.06fF
-C81 nand_7/a vdd 0.30fF
+C31 gnd nand_3/b 0.35fF
+C32 inv_1/w_0_6# clk 0.06fF
+C33 inv_0/w_0_6# inv_0/op 0.03fF
+C34 nand_7/a nand_7/w_0_0# 0.06fF
+C35 qbar nand_6/a 0.00fF
+C36 nand_5/w_0_0# nand_1/b 0.06fF
+C37 nand_7/w_0_0# q 0.04fF
+C38 nand_7/a vdd 0.30fF
+C39 nand_4/w_0_0# clk 0.06fF
+C40 vdd q 0.28fF
+C41 vdd inv_1/w_0_6# 0.06fF
+C42 nand_7/a nand_1/b 0.13fF
+C43 gnd d 0.16fF
+C44 vdd clk 1.49fF
+C45 vdd nand_4/w_0_0# 0.10fF
+C46 gnd nand_3/a 0.03fF
+C47 inv_1/w_0_6# nand_0/b 0.03fF
+C48 qbar nand_6/w_0_0# 0.04fF
+C49 clk nand_1/b 0.45fF
+C50 nand_0/b clk 0.04fF
+C51 nand_7/w_0_0# vdd 0.10fF
+C52 nand_3/b clk 0.33fF
+C53 nand_6/a gnd 0.03fF
+C54 nand_4/w_0_0# nand_3/b 0.06fF
+C55 nand_1/a nand_0/w_0_0# 0.04fF
+C56 vdd nand_1/b 0.31fF
+C57 vdd nand_0/b 0.15fF
+C58 vdd nand_3/b 0.39fF
+C59 gnd inv_0/op 0.10fF
+C60 nand_3/b nand_1/b 0.32fF
+C61 nand_6/a q 0.31fF
+C62 nand_6/a clk 0.13fF
+C63 vdd d 0.04fF
+C64 nand_6/a nand_4/w_0_0# 0.04fF
+C65 vdd nand_3/a 0.30fF
+C66 vdd nand_1/w_0_0# 0.10fF
+C67 nand_0/b d 0.40fF
+C68 nand_6/w_0_0# q 0.06fF
+C69 nand_3/a nand_0/b 0.13fF
+C70 vdd nand_6/a 0.30fF
+C71 nand_3/a nand_3/b 0.31fF
+C72 nand_1/w_0_0# nand_1/b 0.06fF
+C73 nand_1/w_0_0# nand_3/b 0.04fF
+C74 vdd nand_2/w_0_0# 0.10fF
+C75 vdd nand_3/w_0_0# 0.11fF
+C76 vdd inv_0/op 0.17fF
+C77 nand_0/b nand_2/w_0_0# 0.06fF
+C78 nand_3/w_0_0# nand_1/b 0.04fF
+C79 vdd nand_6/w_0_0# 0.10fF
+C80 nand_3/w_0_0# nand_3/b 0.06fF
+C81 inv_0/op nand_0/b 0.32fF
 C82 inv_1/w_0_6# Gnd 0.58fF
 C83 inv_0/w_0_6# Gnd 0.58fF
 C84 gnd Gnd 1.75fF
