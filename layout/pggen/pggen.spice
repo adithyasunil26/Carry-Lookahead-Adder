@@ -1,46 +1,57 @@
 * SPICE3 file created from pggen.ext - technology: scmos
-
+.include ../TSMC_180nm.txt
+* D G S B
+.param SUPPLY=1.8V
+.param LAMBDA=0.09u
+.param length={2*LAMBDA}
+.param w={6*LAMBDA}
+.global gnd vdd
 .option scale=0.09u
 
-M1000 nand_0/a_13_n26# x gnd Gnd nfet w=12 l=2
+Vdd vdd gnd 'SUPPLY'
+
+vx x gnd pulse 1.8 0 0ns 10ps 10ps 10ns 20ns
+vy y gnd pulse 1.8 0 0ns 10ps 10ps 20ns 40ns
+
+M1000 nand_0/a_13_n26# x gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=300 ps=190
-M1001 vdd y g nand_0/w_0_0# pfet w=12 l=2
+M1001 vdd y g nand_0/w_0_0# CMOSP w=12 l=2
 +  ad=600 pd=310 as=96 ps=40
-M1002 g x vdd nand_0/w_0_0# pfet w=12 l=2
+M1002 g x vdd nand_0/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1003 g y nand_0/a_13_n26# Gnd nfet w=12 l=2
+M1003 g y nand_0/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1004 xor_0/inv_0/op x gnd Gnd nfet w=6 l=2
+M1004 xor_0/inv_0/op x gnd Gnd CMOSN w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1005 xor_0/inv_0/op x vdd xor_0/inv_0/w_0_6# pfet w=12 l=2
+M1005 xor_0/inv_0/op x vdd xor_0/inv_0/w_0_6# CMOSP w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1006 xor_0/inv_1/op y gnd Gnd nfet w=6 l=2
+M1006 xor_0/inv_1/op y gnd Gnd CMOSN w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1007 xor_0/inv_1/op y vdd xor_0/inv_1/w_0_6# pfet w=12 l=2
+M1007 xor_0/inv_1/op y vdd xor_0/inv_1/w_0_6# CMOSP w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1008 vdd y xor_0/a_10_10# xor_0/w_n3_4# pfet w=24 l=2
+M1008 vdd y xor_0/a_10_10# xor_0/w_n3_4# CMOSP w=24 l=2
 +  ad=0 pd=0 as=432 ps=180
-M1009 k y xor_0/a_10_n43# Gnd nfet w=12 l=2
+M1009 k y xor_0/a_10_n43# Gnd CMOSN w=12 l=2
 +  ad=120 pd=68 as=96 ps=40
-M1010 gnd xor_0/inv_1/op xor_0/a_38_n43# Gnd nfet w=12 l=2
+M1010 gnd xor_0/inv_1/op xor_0/a_38_n43# Gnd CMOSN w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1011 xor_0/a_10_10# xor_0/inv_1/op k xor_0/w_n3_4# pfet w=24 l=2
+M1011 xor_0/a_10_10# xor_0/inv_1/op k xor_0/w_n3_4# CMOSP w=24 l=2
 +  ad=0 pd=0 as=192 ps=64
-M1012 xor_0/a_10_n43# x gnd Gnd nfet w=12 l=2
+M1012 xor_0/a_10_n43# x gnd Gnd CMOSN w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1013 xor_0/a_38_n43# xor_0/inv_0/op k Gnd nfet w=12 l=2
+M1013 xor_0/a_38_n43# xor_0/inv_0/op k Gnd CMOSN w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1014 xor_0/a_10_10# x vdd xor_0/w_n3_4# pfet w=24 l=2
+M1014 xor_0/a_10_10# x vdd xor_0/w_n3_4# CMOSP w=24 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1015 k xor_0/inv_0/op xor_0/a_10_10# xor_0/w_n3_4# pfet w=24 l=2
+M1015 k xor_0/inv_0/op xor_0/a_10_10# xor_0/w_n3_4# CMOSP w=24 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1016 p x nor_0/a_13_6# nor_0/w_0_0# pfet w=24 l=2
+M1016 p x nor_0/a_13_6# nor_0/w_0_0# CMOSP w=24 l=2
 +  ad=120 pd=58 as=192 ps=64
-M1017 nor_0/a_13_6# y vdd nor_0/w_0_0# pfet w=24 l=2
+M1017 nor_0/a_13_6# y vdd nor_0/w_0_0# CMOSP w=24 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1018 gnd x p Gnd nfet w=6 l=2
+M1018 gnd x p Gnd CMOSN w=6 l=2
 +  ad=0 pd=0 as=48 ps=28
-M1019 p y gnd Gnd nfet w=6 l=2
+M1019 p y gnd Gnd CMOSN w=6 l=2
 +  ad=0 pd=0 as=0 ps=0
 C0 xor_0/inv_0/w_0_6# xor_0/inv_0/op 0.03fF
 C1 vdd nand_0/w_0_0# 0.10fF
@@ -112,3 +123,17 @@ C66 g Gnd 0.12fF
 C67 y Gnd 2.70fF
 C68 x Gnd 2.77fF
 C69 nand_0/w_0_0# Gnd 0.82fF
+
+.tran 1n 100n
+
+.control
+set hcopypscolor = 0 
+set color0=white 
+set color1=black 
+
+run
+set curplottitle="Adithya-2019102005-pggen"
+
+hardcopy pg.eps v(k) v(p)+2 v(g)+4 v(x)+6 v(y)+8
+
+.endc
