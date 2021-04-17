@@ -265,6 +265,6 @@ set color1=black
 run
 set curplottitle="Adithya-2019102005-sumffo"
 
-hardcopy sumffo.eps v(s) v(c)+2 v(k)+4 v(clk)+6 
+hardcopy cla.eps v(s) v(c)+2 v(k)+4 v(clk)+6 
 
 .endc
