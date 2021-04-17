@@ -1,0 +1,205 @@
+* SPICE3 file created from ffo.ext - technology: scmos
+.include ../TSMC_180nm.txt
+* D G S B
+.param SUPPLY=1.8V
+.param LAMBDA=0.09u
+.param length={2*LAMBDA}
+.param w={6*LAMBDA}
+.global gnd vdd
+.option scale=0.09u
+
+Vdd vdd gnd 'SUPPLY'
+
+vd d gnd pulse 1.8 0 0ns 10ps 10ps 20ns 40ns
+vclk clk gnd pulse 1.8 0 0ns 10ps 10ps 10ns 20ns
+
+M1000 nand_1/a_13_n26# nand_1/a gnd Gnd CMOSN w=12 l=2
++  ad=96 pd=40 as=540 ps=316
+M1001 vdd nand_1/b nand_3/b nand_1/w_0_0# CMOSP w=12 l=2
++  ad=1080 pd=612 as=96 ps=40
+M1002 nand_3/b nand_1/a vdd nand_1/w_0_0# CMOSP w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1003 nand_3/b nand_1/b nand_1/a_13_n26# Gnd CMOSN w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1004 nand_0/a_13_n26# inv_0/op gnd Gnd CMOSN w=12 l=2
++  ad=96 pd=40 as=0 ps=0
+M1005 vdd nand_0/b nand_1/a nand_0/w_0_0# CMOSP w=12 l=2
++  ad=0 pd=0 as=96 ps=40
+M1006 nand_1/a inv_0/op vdd nand_0/w_0_0# CMOSP w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1007 nand_1/a nand_0/b nand_0/a_13_n26# Gnd CMOSN w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1008 nand_2/a_13_n26# d gnd Gnd CMOSN w=12 l=2
++  ad=96 pd=40 as=0 ps=0
+M1009 vdd nand_0/b nand_3/a nand_2/w_0_0# CMOSP w=12 l=2
++  ad=0 pd=0 as=96 ps=40
+M1010 nand_3/a d vdd nand_2/w_0_0# CMOSP w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1011 nand_3/a nand_0/b nand_2/a_13_n26# Gnd CMOSN w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1012 nand_3/a_13_n26# nand_3/a gnd Gnd CMOSN w=12 l=2
++  ad=96 pd=40 as=0 ps=0
+M1013 vdd nand_3/b nand_1/b nand_3/w_0_0# CMOSP w=12 l=2
++  ad=0 pd=0 as=96 ps=40
+M1014 nand_1/b nand_3/a vdd nand_3/w_0_0# CMOSP w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1015 nand_1/b nand_3/b nand_3/a_13_n26# Gnd CMOSN w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1016 nand_4/a_13_n26# nand_3/b gnd Gnd CMOSN w=12 l=2
++  ad=96 pd=40 as=0 ps=0
+M1017 vdd clk nand_6/a nand_4/w_0_0# CMOSP w=12 l=2
++  ad=0 pd=0 as=96 ps=40
+M1018 nand_6/a nand_3/b vdd nand_4/w_0_0# CMOSP w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1019 nand_6/a clk nand_4/a_13_n26# Gnd CMOSN w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1020 nand_5/a_13_n26# clk gnd Gnd CMOSN w=12 l=2
++  ad=96 pd=40 as=0 ps=0
+M1021 vdd nand_1/b nand_7/a nand_5/w_0_0# CMOSP w=12 l=2
++  ad=0 pd=0 as=96 ps=40
+M1022 nand_7/a clk vdd nand_5/w_0_0# CMOSP w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1023 nand_7/a nand_1/b nand_5/a_13_n26# Gnd CMOSN w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1024 nand_6/a_13_n26# nand_6/a gnd Gnd CMOSN w=12 l=2
++  ad=96 pd=40 as=0 ps=0
+M1025 vdd q qbar nand_6/w_0_0# CMOSP w=12 l=2
++  ad=0 pd=0 as=96 ps=40
+M1026 qbar nand_6/a vdd nand_6/w_0_0# CMOSP w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1027 qbar q nand_6/a_13_n26# Gnd CMOSN w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1028 nand_7/a_13_n26# nand_7/a gnd Gnd CMOSN w=12 l=2
++  ad=96 pd=40 as=0 ps=0
+M1029 vdd qbar q nand_7/w_0_0# CMOSP w=12 l=2
++  ad=0 pd=0 as=96 ps=40
+M1030 q nand_7/a vdd nand_7/w_0_0# CMOSP w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1031 q qbar nand_7/a_13_n26# Gnd CMOSN w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1032 inv_0/op d gnd Gnd CMOSN w=6 l=2
++  ad=30 pd=22 as=0 ps=0
+M1033 inv_0/op d vdd inv_0/w_0_6# CMOSP w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1034 nand_0/b clk gnd Gnd CMOSN w=6 l=2
++  ad=30 pd=22 as=0 ps=0
+M1035 nand_0/b clk vdd inv_1/w_0_6# CMOSP w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+C0 d nand_2/w_0_0# 0.06fF
+C1 gnd nand_1/a 0.03fF
+C2 nand_3/a nand_2/w_0_0# 0.04fF
+C3 inv_0/op d 0.04fF
+C4 nand_3/a nand_3/w_0_0# 0.06fF
+C5 vdd nand_0/w_0_0# 0.10fF
+C6 nand_0/b nand_0/w_0_0# 0.06fF
+C7 qbar gnd 0.34fF
+C8 nand_6/a nand_6/w_0_0# 0.06fF
+C9 nand_7/a qbar 0.31fF
+C10 qbar q 0.32fF
+C11 vdd nand_1/a 0.30fF
+C12 vdd inv_0/w_0_6# 0.06fF
+C13 nand_1/a nand_1/b 0.31fF
+C14 nand_1/a nand_0/b 0.13fF
+C15 nand_1/a nand_3/b 0.00fF
+C16 nand_7/w_0_0# qbar 0.06fF
+C17 qbar vdd 0.28fF
+C18 nand_7/a gnd 0.03fF
+C19 inv_0/op nand_0/w_0_0# 0.06fF
+C20 gnd q 0.52fF
+C21 nand_7/a nand_5/w_0_0# 0.04fF
+C22 gnd clk 0.17fF
+C23 inv_0/w_0_6# d 0.06fF
+C24 nand_1/a nand_1/w_0_0# 0.06fF
+C25 nand_5/w_0_0# clk 0.06fF
+C26 nand_7/a q 0.00fF
+C27 vdd gnd 0.03fF
+C28 gnd nand_1/b 0.26fF
+C29 vdd nand_5/w_0_0# 0.10fF
+C30 gnd nand_0/b 0.38fF
+C31 gnd nand_3/b 0.35fF
+C32 inv_1/w_0_6# clk 0.06fF
+C33 inv_0/w_0_6# inv_0/op 0.03fF
+C34 nand_7/a nand_7/w_0_0# 0.06fF
+C35 qbar nand_6/a 0.00fF
+C36 nand_5/w_0_0# nand_1/b 0.06fF
+C37 nand_7/w_0_0# q 0.04fF
+C38 nand_7/a vdd 0.30fF
+C39 nand_4/w_0_0# clk 0.06fF
+C40 vdd q 0.28fF
+C41 vdd inv_1/w_0_6# 0.06fF
+C42 nand_7/a nand_1/b 0.13fF
+C43 gnd d 0.16fF
+C44 vdd clk 1.49fF
+C45 vdd nand_4/w_0_0# 0.10fF
+C46 gnd nand_3/a 0.03fF
+C47 inv_1/w_0_6# nand_0/b 0.03fF
+C48 qbar nand_6/w_0_0# 0.04fF
+C49 clk nand_1/b 0.45fF
+C50 nand_0/b clk 0.04fF
+C51 nand_7/w_0_0# vdd 0.10fF
+C52 nand_3/b clk 0.33fF
+C53 nand_6/a gnd 0.03fF
+C54 nand_4/w_0_0# nand_3/b 0.06fF
+C55 nand_1/a nand_0/w_0_0# 0.04fF
+C56 vdd nand_1/b 0.31fF
+C57 vdd nand_0/b 0.15fF
+C58 vdd nand_3/b 0.39fF
+C59 gnd inv_0/op 0.10fF
+C60 nand_3/b nand_1/b 0.32fF
+C61 nand_6/a q 0.31fF
+C62 nand_6/a clk 0.13fF
+C63 vdd d 0.04fF
+C64 nand_6/a nand_4/w_0_0# 0.04fF
+C65 vdd nand_3/a 0.30fF
+C66 vdd nand_1/w_0_0# 0.10fF
+C67 nand_0/b d 0.40fF
+C68 nand_6/w_0_0# q 0.06fF
+C69 nand_3/a nand_0/b 0.13fF
+C70 vdd nand_6/a 0.30fF
+C71 nand_3/a nand_3/b 0.31fF
+C72 nand_1/w_0_0# nand_1/b 0.06fF
+C73 nand_1/w_0_0# nand_3/b 0.04fF
+C74 vdd nand_2/w_0_0# 0.10fF
+C75 vdd nand_3/w_0_0# 0.11fF
+C76 vdd inv_0/op 0.17fF
+C77 nand_0/b nand_2/w_0_0# 0.06fF
+C78 nand_3/w_0_0# nand_1/b 0.04fF
+C79 vdd nand_6/w_0_0# 0.10fF
+C80 nand_3/w_0_0# nand_3/b 0.06fF
+C81 inv_0/op nand_0/b 0.32fF
+C82 inv_1/w_0_6# Gnd 0.58fF
+C83 inv_0/w_0_6# Gnd 0.58fF
+C84 gnd Gnd 1.75fF
+C85 nand_7/a Gnd 0.30fF
+C86 nand_7/w_0_0# Gnd 0.82fF
+C87 qbar Gnd 0.42fF
+C88 vdd Gnd 1.12fF
+C89 nand_6/a Gnd 0.30fF
+C90 nand_6/w_0_0# Gnd 0.82fF
+C91 clk Gnd 1.05fF
+C92 nand_5/w_0_0# Gnd 0.82fF
+C93 nand_3/b Gnd 0.43fF
+C94 nand_4/w_0_0# Gnd 0.82fF
+C95 nand_3/a Gnd 0.30fF
+C96 nand_3/w_0_0# Gnd 0.82fF
+C97 nand_0/b Gnd 0.63fF
+C98 d Gnd 0.45fF
+C99 nand_2/w_0_0# Gnd 0.82fF
+C100 inv_0/op Gnd 0.26fF
+C101 nand_0/w_0_0# Gnd 0.82fF
+C102 nand_1/a Gnd 0.30fF
+C103 nand_1/w_0_0# Gnd 0.82fF
+
+.tran 100p 200n
+.ic v(q) 0
+
+.control
+set hcopypscolor = 0 
+set color0=white 
+set color1=black 
+
+run
+set curplottitle="Adithya-2019102005-flipflopo"
+
+hardcopy ffo.eps v(clk)+4 v(d)+2 v(q) 
+.endc
