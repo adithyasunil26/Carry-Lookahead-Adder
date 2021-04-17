@@ -1,0 +1,22 @@
+timestamp 1618681095
+version 8.2
+tech scmos
+style TSMC0.18um(tsmc18)from:t11b
+scale 1000 1 9
+resistclasses 6700 7500 929000 929000 1 7700 7700 80 80 80 70 70 40
+use ffipg ffipg_0 1 0 2 0 1 1243
+use sumffo sumffo_0 1 0 860 0 -1 1586
+use inv inv_0 1 0 556 0 1 1298
+use nor nor_0 1 0 613 0 1 1310
+use inv inv_1 1 0 673 0 1 1303
+use nand nand_0 1 0 710 0 1 1335
+use sumffo sumffo_1 1 0 861 0 -1 1316
+use ffipg ffipg_3 1 0 2 0 1 570
+use sumffo sumffo_2 1 0 863 0 -1 944
+use cla cla_3 1 0 571 0 1 708
+use ffipg ffipg_2 1 0 2 0 1 276
+use cla cla_2 1 0 589 0 1 403
+use sumffo sumffo_3 1 0 842 0 -1 621
+use ffipg ffipg_1 1 0 2 0 1 -28
+use cla cla_1 1 0 589 0 1 105
+cap "nor_0/w_0_0#" "nor_0/out" -7.10543e-15

@@ -1,0 +1,64 @@
+magic
+tech scmos
+timestamp 1618681095
+use ffipg  ffipg_0
+timestamp 1618623899
+transform 1 0 2 0 1 1243
+box -4 0 470 271
+use sumffo  sumffo_0
+timestamp 1618628987
+transform 1 0 860 0 -1 1586
+box -3 -9 349 129
+use inv  inv_0
+timestamp 1618579805
+transform 1 0 556 0 1 1298
+box 0 -15 24 33
+use nor  nor_0
+timestamp 1618580541
+transform 1 0 613 0 1 1310
+box 0 -30 34 39
+use inv  inv_1
+timestamp 1618579805
+transform 1 0 673 0 1 1303
+box 0 -15 24 33
+use nand  nand_0
+timestamp 1618580231
+transform 1 0 710 0 1 1335
+box 0 -35 34 27
+use sumffo  sumffo_1
+timestamp 1618628987
+transform 1 0 861 0 -1 1316
+box -3 -9 349 129
+use ffipg  ffipg_3
+timestamp 1618623899
+transform 1 0 2 0 1 570
+box -4 0 470 271
+use sumffo  sumffo_2
+timestamp 1618628987
+transform 1 0 863 0 -1 944
+box -3 -9 349 129
+use cla  cla_3
+timestamp 1618627066
+transform 1 0 571 0 1 708
+box -9 -46 112 95
+use ffipg  ffipg_2
+timestamp 1618623899
+transform 1 0 2 0 1 276
+box -4 0 470 271
+use cla  cla_2
+timestamp 1618627066
+transform 1 0 589 0 1 403
+box -9 -46 112 95
+use sumffo  sumffo_3
+timestamp 1618628987
+transform 1 0 842 0 -1 621
+box -3 -9 349 129
+use ffipg  ffipg_1
+timestamp 1618623899
+transform 1 0 2 0 1 -28
+box -4 0 470 271
+use cla  cla_1
+timestamp 1618627066
+transform 1 0 589 0 1 105
+box -9 -46 112 95
+<< end >>
