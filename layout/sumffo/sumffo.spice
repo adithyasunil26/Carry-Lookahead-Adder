@@ -1,102 +1,114 @@
 * SPICE3 file created from sumffo.ext - technology: scmos
-
+.include ../TSMC_180nm.txt
+* D G S B
+.param SUPPLY=1.8V
+.param LAMBDA=0.09u
+.param length={2*LAMBDA}
+.param w={6*LAMBDA}
+.global gnd vdd
 .option scale=0.09u
 
-M1000 ffo_0/nand_1/a_13_n26# ffo_0/nand_1/a gnd Gnd nfet w=12 l=2
+Vdd vdd gnd 'SUPPLY'
+
+v1 clk gnd pulse 1.8 0 0ns 10ps 10ps 10ns 20ns
+v2 k gnd pulse 1.8 0 0ns 10ps 10ps 20ns 40ns
+v3 c gnd pulse 1.8 0 0ns 10ps 10ps 40ns 80ns
+
+M1000 ffo_0/nand_1/a_13_n26# ffo_0/nand_1/a gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=720 ps=428
-M1001 vdd ffo_0/nand_1/b ffo_0/nand_3/b ffo_0/nand_1/w_0_0# pfet w=12 l=2
+M1001 vdd ffo_0/nand_1/b ffo_0/nand_3/b ffo_0/nand_1/w_0_0# CMOSP w=12 l=2
 +  ad=1440 pd=796 as=96 ps=40
-M1002 ffo_0/nand_3/b ffo_0/nand_1/a vdd ffo_0/nand_1/w_0_0# pfet w=12 l=2
+M1002 ffo_0/nand_3/b ffo_0/nand_1/a vdd ffo_0/nand_1/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1003 ffo_0/nand_3/b ffo_0/nand_1/b ffo_0/nand_1/a_13_n26# Gnd nfet w=12 l=2
+M1003 ffo_0/nand_3/b ffo_0/nand_1/b ffo_0/nand_1/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1004 ffo_0/nand_0/a_13_n26# ffo_0/inv_0/op gnd Gnd nfet w=12 l=2
+M1004 ffo_0/nand_0/a_13_n26# ffo_0/inv_0/op gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1005 vdd ffo_0/nand_0/b ffo_0/nand_1/a ffo_0/nand_0/w_0_0# pfet w=12 l=2
+M1005 vdd ffo_0/nand_0/b ffo_0/nand_1/a ffo_0/nand_0/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1006 ffo_0/nand_1/a ffo_0/inv_0/op vdd ffo_0/nand_0/w_0_0# pfet w=12 l=2
+M1006 ffo_0/nand_1/a ffo_0/inv_0/op vdd ffo_0/nand_0/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1007 ffo_0/nand_1/a ffo_0/nand_0/b ffo_0/nand_0/a_13_n26# Gnd nfet w=12 l=2
+M1007 ffo_0/nand_1/a ffo_0/nand_0/b ffo_0/nand_0/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1008 ffo_0/nand_2/a_13_n26# ffo_0/d gnd Gnd nfet w=12 l=2
+M1008 ffo_0/nand_2/a_13_n26# ffo_0/d gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1009 vdd ffo_0/nand_0/b ffo_0/nand_3/a ffo_0/nand_2/w_0_0# pfet w=12 l=2
+M1009 vdd ffo_0/nand_0/b ffo_0/nand_3/a ffo_0/nand_2/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1010 ffo_0/nand_3/a ffo_0/d vdd ffo_0/nand_2/w_0_0# pfet w=12 l=2
+M1010 ffo_0/nand_3/a ffo_0/d vdd ffo_0/nand_2/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1011 ffo_0/nand_3/a ffo_0/nand_0/b ffo_0/nand_2/a_13_n26# Gnd nfet w=12 l=2
+M1011 ffo_0/nand_3/a ffo_0/nand_0/b ffo_0/nand_2/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1012 ffo_0/nand_3/a_13_n26# ffo_0/nand_3/a gnd Gnd nfet w=12 l=2
+M1012 ffo_0/nand_3/a_13_n26# ffo_0/nand_3/a gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1013 vdd ffo_0/nand_3/b ffo_0/nand_1/b ffo_0/nand_3/w_0_0# pfet w=12 l=2
+M1013 vdd ffo_0/nand_3/b ffo_0/nand_1/b ffo_0/nand_3/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1014 ffo_0/nand_1/b ffo_0/nand_3/a vdd ffo_0/nand_3/w_0_0# pfet w=12 l=2
+M1014 ffo_0/nand_1/b ffo_0/nand_3/a vdd ffo_0/nand_3/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1015 ffo_0/nand_1/b ffo_0/nand_3/b ffo_0/nand_3/a_13_n26# Gnd nfet w=12 l=2
+M1015 ffo_0/nand_1/b ffo_0/nand_3/b ffo_0/nand_3/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1016 ffo_0/nand_4/a_13_n26# ffo_0/nand_3/b gnd Gnd nfet w=12 l=2
+M1016 ffo_0/nand_4/a_13_n26# ffo_0/nand_3/b gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1017 vdd clk ffo_0/nand_6/a ffo_0/nand_4/w_0_0# pfet w=12 l=2
+M1017 vdd clk ffo_0/nand_6/a ffo_0/nand_4/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1018 ffo_0/nand_6/a ffo_0/nand_3/b vdd ffo_0/nand_4/w_0_0# pfet w=12 l=2
+M1018 ffo_0/nand_6/a ffo_0/nand_3/b vdd ffo_0/nand_4/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1019 ffo_0/nand_6/a clk ffo_0/nand_4/a_13_n26# Gnd nfet w=12 l=2
+M1019 ffo_0/nand_6/a clk ffo_0/nand_4/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1020 ffo_0/nand_5/a_13_n26# clk gnd Gnd nfet w=12 l=2
+M1020 ffo_0/nand_5/a_13_n26# clk gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1021 vdd ffo_0/nand_1/b ffo_0/nand_7/a ffo_0/nand_5/w_0_0# pfet w=12 l=2
+M1021 vdd ffo_0/nand_1/b ffo_0/nand_7/a ffo_0/nand_5/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1022 ffo_0/nand_7/a clk vdd ffo_0/nand_5/w_0_0# pfet w=12 l=2
+M1022 ffo_0/nand_7/a clk vdd ffo_0/nand_5/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1023 ffo_0/nand_7/a ffo_0/nand_1/b ffo_0/nand_5/a_13_n26# Gnd nfet w=12 l=2
+M1023 ffo_0/nand_7/a ffo_0/nand_1/b ffo_0/nand_5/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1024 ffo_0/nand_6/a_13_n26# ffo_0/nand_6/a gnd Gnd nfet w=12 l=2
+M1024 ffo_0/nand_6/a_13_n26# ffo_0/nand_6/a gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1025 vdd s sbar ffo_0/nand_6/w_0_0# pfet w=12 l=2
+M1025 vdd s sbar ffo_0/nand_6/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1026 sbar ffo_0/nand_6/a vdd ffo_0/nand_6/w_0_0# pfet w=12 l=2
+M1026 sbar ffo_0/nand_6/a vdd ffo_0/nand_6/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1027 sbar s ffo_0/nand_6/a_13_n26# Gnd nfet w=12 l=2
+M1027 sbar s ffo_0/nand_6/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1028 ffo_0/nand_7/a_13_n26# ffo_0/nand_7/a gnd Gnd nfet w=12 l=2
+M1028 ffo_0/nand_7/a_13_n26# ffo_0/nand_7/a gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1029 vdd sbar s ffo_0/nand_7/w_0_0# pfet w=12 l=2
+M1029 vdd sbar s ffo_0/nand_7/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1030 s ffo_0/nand_7/a vdd ffo_0/nand_7/w_0_0# pfet w=12 l=2
+M1030 s ffo_0/nand_7/a vdd ffo_0/nand_7/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1031 s sbar ffo_0/nand_7/a_13_n26# Gnd nfet w=12 l=2
+M1031 s sbar ffo_0/nand_7/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1032 ffo_0/inv_0/op ffo_0/d gnd Gnd nfet w=6 l=2
+M1032 ffo_0/inv_0/op ffo_0/d gnd Gnd CMOSN w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1033 ffo_0/inv_0/op ffo_0/d vdd ffo_0/inv_0/w_0_6# pfet w=12 l=2
+M1033 ffo_0/inv_0/op ffo_0/d vdd ffo_0/inv_0/w_0_6# CMOSP w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1034 ffo_0/nand_0/b clk gnd Gnd nfet w=6 l=2
+M1034 ffo_0/nand_0/b clk gnd Gnd CMOSN w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1035 ffo_0/nand_0/b clk vdd ffo_0/inv_1/w_0_6# pfet w=12 l=2
+M1035 ffo_0/nand_0/b clk vdd ffo_0/inv_1/w_0_6# CMOSP w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1036 xor_0/inv_0/op k gnd Gnd nfet w=6 l=2
+M1036 xor_0/inv_0/op k gnd Gnd CMOSN w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1037 xor_0/inv_0/op k vdd xor_0/inv_0/w_0_6# pfet w=12 l=2
+M1037 xor_0/inv_0/op k vdd xor_0/inv_0/w_0_6# CMOSP w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1038 xor_0/inv_1/op c gnd Gnd nfet w=6 l=2
+M1038 xor_0/inv_1/op c gnd Gnd CMOSN w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1039 xor_0/inv_1/op c vdd xor_0/inv_1/w_0_6# pfet w=12 l=2
+M1039 xor_0/inv_1/op c vdd xor_0/inv_1/w_0_6# CMOSP w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1040 vdd c xor_0/a_10_10# xor_0/w_n3_4# pfet w=24 l=2
+M1040 vdd c xor_0/a_10_10# xor_0/w_n3_4# CMOSP w=24 l=2
 +  ad=0 pd=0 as=432 ps=180
-M1041 ffo_0/d c xor_0/a_10_n43# Gnd nfet w=12 l=2
+M1041 ffo_0/d c xor_0/a_10_n43# Gnd CMOSN w=12 l=2
 +  ad=120 pd=68 as=96 ps=40
-M1042 gnd xor_0/inv_1/op xor_0/a_38_n43# Gnd nfet w=12 l=2
+M1042 gnd xor_0/inv_1/op xor_0/a_38_n43# Gnd CMOSN w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1043 xor_0/a_10_10# xor_0/inv_1/op ffo_0/d xor_0/w_n3_4# pfet w=24 l=2
+M1043 xor_0/a_10_10# xor_0/inv_1/op ffo_0/d xor_0/w_n3_4# CMOSP w=24 l=2
 +  ad=0 pd=0 as=192 ps=64
-M1044 xor_0/a_10_n43# k gnd Gnd nfet w=12 l=2
+M1044 xor_0/a_10_n43# k gnd Gnd CMOSN w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1045 xor_0/a_38_n43# xor_0/inv_0/op ffo_0/d Gnd nfet w=12 l=2
+M1045 xor_0/a_38_n43# xor_0/inv_0/op ffo_0/d Gnd CMOSN w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1046 xor_0/a_10_10# k vdd xor_0/w_n3_4# pfet w=24 l=2
+M1046 xor_0/a_10_10# k vdd xor_0/w_n3_4# CMOSP w=24 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1047 ffo_0/d xor_0/inv_0/op xor_0/a_10_10# xor_0/w_n3_4# pfet w=24 l=2
+M1047 ffo_0/d xor_0/inv_0/op xor_0/a_10_10# xor_0/w_n3_4# CMOSP w=24 l=2
 +  ad=0 pd=0 as=0 ps=0
 C0 ffo_0/d xor_0/inv_0/op 0.06fF
 C1 xor_0/inv_0/w_0_6# k 0.06fF
@@ -242,3 +254,17 @@ C140 ffo_0/inv_0/op Gnd 0.26fF
 C141 ffo_0/nand_0/w_0_0# Gnd 0.82fF
 C142 ffo_0/nand_1/a Gnd 0.30fF
 C143 ffo_0/nand_1/w_0_0# Gnd 0.82fF
+
+.tran 1n 100n
+
+.control
+set hcopypscolor = 0 
+set color0=white 
+set color1=black 
+
+run
+set curplottitle="Adithya-2019102005-sumffo"
+
+hardcopy cla.eps v(s) v(c)+2 v(k)+4 v(clk)+6 
+
+.endc
