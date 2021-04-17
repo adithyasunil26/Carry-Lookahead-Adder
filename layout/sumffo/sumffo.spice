@@ -1,0 +1,244 @@
+* SPICE3 file created from sumffo.ext - technology: scmos
+
+.option scale=0.09u
+
+M1000 ffo_0/nand_1/a_13_n26# ffo_0/nand_1/a gnd Gnd nfet w=12 l=2
++  ad=96 pd=40 as=720 ps=428
+M1001 vdd ffo_0/nand_1/b ffo_0/nand_3/b ffo_0/nand_1/w_0_0# pfet w=12 l=2
++  ad=1440 pd=796 as=96 ps=40
+M1002 ffo_0/nand_3/b ffo_0/nand_1/a vdd ffo_0/nand_1/w_0_0# pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1003 ffo_0/nand_3/b ffo_0/nand_1/b ffo_0/nand_1/a_13_n26# Gnd nfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1004 ffo_0/nand_0/a_13_n26# ffo_0/inv_0/op gnd Gnd nfet w=12 l=2
++  ad=96 pd=40 as=0 ps=0
+M1005 vdd ffo_0/nand_0/b ffo_0/nand_1/a ffo_0/nand_0/w_0_0# pfet w=12 l=2
++  ad=0 pd=0 as=96 ps=40
+M1006 ffo_0/nand_1/a ffo_0/inv_0/op vdd ffo_0/nand_0/w_0_0# pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1007 ffo_0/nand_1/a ffo_0/nand_0/b ffo_0/nand_0/a_13_n26# Gnd nfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1008 ffo_0/nand_2/a_13_n26# ffo_0/d gnd Gnd nfet w=12 l=2
++  ad=96 pd=40 as=0 ps=0
+M1009 vdd ffo_0/nand_0/b ffo_0/nand_3/a ffo_0/nand_2/w_0_0# pfet w=12 l=2
++  ad=0 pd=0 as=96 ps=40
+M1010 ffo_0/nand_3/a ffo_0/d vdd ffo_0/nand_2/w_0_0# pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1011 ffo_0/nand_3/a ffo_0/nand_0/b ffo_0/nand_2/a_13_n26# Gnd nfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1012 ffo_0/nand_3/a_13_n26# ffo_0/nand_3/a gnd Gnd nfet w=12 l=2
++  ad=96 pd=40 as=0 ps=0
+M1013 vdd ffo_0/nand_3/b ffo_0/nand_1/b ffo_0/nand_3/w_0_0# pfet w=12 l=2
++  ad=0 pd=0 as=96 ps=40
+M1014 ffo_0/nand_1/b ffo_0/nand_3/a vdd ffo_0/nand_3/w_0_0# pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1015 ffo_0/nand_1/b ffo_0/nand_3/b ffo_0/nand_3/a_13_n26# Gnd nfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1016 ffo_0/nand_4/a_13_n26# ffo_0/nand_3/b gnd Gnd nfet w=12 l=2
++  ad=96 pd=40 as=0 ps=0
+M1017 vdd clk ffo_0/nand_6/a ffo_0/nand_4/w_0_0# pfet w=12 l=2
++  ad=0 pd=0 as=96 ps=40
+M1018 ffo_0/nand_6/a ffo_0/nand_3/b vdd ffo_0/nand_4/w_0_0# pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1019 ffo_0/nand_6/a clk ffo_0/nand_4/a_13_n26# Gnd nfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1020 ffo_0/nand_5/a_13_n26# clk gnd Gnd nfet w=12 l=2
++  ad=96 pd=40 as=0 ps=0
+M1021 vdd ffo_0/nand_1/b ffo_0/nand_7/a ffo_0/nand_5/w_0_0# pfet w=12 l=2
++  ad=0 pd=0 as=96 ps=40
+M1022 ffo_0/nand_7/a clk vdd ffo_0/nand_5/w_0_0# pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1023 ffo_0/nand_7/a ffo_0/nand_1/b ffo_0/nand_5/a_13_n26# Gnd nfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1024 ffo_0/nand_6/a_13_n26# ffo_0/nand_6/a gnd Gnd nfet w=12 l=2
++  ad=96 pd=40 as=0 ps=0
+M1025 vdd q qbar ffo_0/nand_6/w_0_0# pfet w=12 l=2
++  ad=0 pd=0 as=96 ps=40
+M1026 qbar ffo_0/nand_6/a vdd ffo_0/nand_6/w_0_0# pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1027 qbar q ffo_0/nand_6/a_13_n26# Gnd nfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1028 ffo_0/nand_7/a_13_n26# ffo_0/nand_7/a gnd Gnd nfet w=12 l=2
++  ad=96 pd=40 as=0 ps=0
+M1029 vdd qbar q ffo_0/nand_7/w_0_0# pfet w=12 l=2
++  ad=0 pd=0 as=96 ps=40
+M1030 q ffo_0/nand_7/a vdd ffo_0/nand_7/w_0_0# pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1031 q qbar ffo_0/nand_7/a_13_n26# Gnd nfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1032 ffo_0/inv_0/op ffo_0/d gnd Gnd nfet w=6 l=2
++  ad=30 pd=22 as=0 ps=0
+M1033 ffo_0/inv_0/op ffo_0/d vdd ffo_0/inv_0/w_0_6# pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1034 ffo_0/nand_0/b clk gnd Gnd nfet w=6 l=2
++  ad=30 pd=22 as=0 ps=0
+M1035 ffo_0/nand_0/b clk vdd ffo_0/inv_1/w_0_6# pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1036 xor_0/inv_0/op k gnd Gnd nfet w=6 l=2
++  ad=30 pd=22 as=0 ps=0
+M1037 xor_0/inv_0/op k vdd xor_0/inv_0/w_0_6# pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1038 xor_0/inv_1/op c gnd Gnd nfet w=6 l=2
++  ad=30 pd=22 as=0 ps=0
+M1039 xor_0/inv_1/op c vdd xor_0/inv_1/w_0_6# pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1040 vdd c xor_0/a_10_10# xor_0/w_n3_4# pfet w=24 l=2
++  ad=0 pd=0 as=432 ps=180
+M1041 ffo_0/d c xor_0/a_10_n43# Gnd nfet w=12 l=2
++  ad=120 pd=68 as=96 ps=40
+M1042 gnd xor_0/inv_1/op xor_0/a_38_n43# Gnd nfet w=12 l=2
++  ad=0 pd=0 as=96 ps=40
+M1043 xor_0/a_10_10# xor_0/inv_1/op ffo_0/d xor_0/w_n3_4# pfet w=24 l=2
++  ad=0 pd=0 as=192 ps=64
+M1044 xor_0/a_10_n43# k gnd Gnd nfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1045 xor_0/a_38_n43# xor_0/inv_0/op ffo_0/d Gnd nfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1046 xor_0/a_10_10# k vdd xor_0/w_n3_4# pfet w=24 l=2
++  ad=0 pd=0 as=0 ps=0
+M1047 ffo_0/d xor_0/inv_0/op xor_0/a_10_10# xor_0/w_n3_4# pfet w=24 l=2
++  ad=0 pd=0 as=0 ps=0
+C0 ffo_0/nand_3/a gnd 0.03fF
+C1 ffo_0/nand_3/b ffo_0/nand_3/w_0_0# 0.06fF
+C2 ffo_0/nand_6/w_0_0# q 0.06fF
+C3 xor_0/w_n3_4# ffo_0/d 0.02fF
+C4 xor_0/w_n3_4# xor_0/a_10_10# 0.16fF
+C5 ffo_0/nand_7/a gnd 0.03fF
+C6 ffo_0/nand_1/a gnd 0.03fF
+C7 ffo_0/nand_1/a ffo_0/nand_0/w_0_0# 0.04fF
+C8 ffo_0/nand_3/b ffo_0/nand_1/w_0_0# 0.04fF
+C9 vdd gnd 0.28fF
+C10 qbar q 0.32fF
+C11 ffo_0/nand_0/w_0_0# vdd 0.10fF
+C12 ffo_0/nand_4/w_0_0# vdd 0.10fF
+C13 xor_0/inv_0/w_0_6# xor_0/inv_0/op 0.03fF
+C14 ffo_0/nand_3/b ffo_0/nand_3/a 0.31fF
+C15 ffo_0/nand_2/w_0_0# ffo_0/d 0.06fF
+C16 xor_0/inv_1/w_0_6# vdd 0.06fF
+C17 ffo_0/nand_0/b clk 0.04fF
+C18 c gnd 0.11fF
+C19 ffo_0/inv_0/op ffo_0/inv_0/w_0_6# 0.03fF
+C20 vdd xor_0/inv_1/op 0.15fF
+C21 k vdd 0.11fF
+C22 ffo_0/nand_3/b ffo_0/nand_1/a 0.00fF
+C23 ffo_0/inv_0/op vdd 0.17fF
+C24 ffo_0/nand_3/b vdd 0.39fF
+C25 ffo_0/nand_6/a vdd 0.30fF
+C26 xor_0/inv_1/w_0_6# c 0.23fF
+C27 c xor_0/inv_1/op 0.22fF
+C28 c k 0.09fF
+C29 ffo_0/nand_2/w_0_0# ffo_0/nand_0/b 0.06fF
+C30 ffo_0/d xor_0/a_10_10# 0.45fF
+C31 clk gnd 0.17fF
+C32 ffo_0/nand_4/w_0_0# clk 0.06fF
+C33 xor_0/inv_0/op vdd 0.15fF
+C34 ffo_0/nand_7/w_0_0# ffo_0/nand_7/a 0.06fF
+C35 qbar gnd 0.34fF
+C36 ffo_0/nand_3/w_0_0# ffo_0/nand_3/a 0.06fF
+C37 vdd ffo_0/nand_7/w_0_0# 0.10fF
+C38 xor_0/inv_0/w_0_6# vdd 0.09fF
+C39 ffo_0/d ffo_0/nand_0/b 0.40fF
+C40 xor_0/w_n3_4# xor_0/inv_1/op 0.06fF
+C41 ffo_0/nand_3/w_0_0# vdd 0.11fF
+C42 c xor_0/inv_0/op 0.20fF
+C43 xor_0/w_n3_4# k 0.06fF
+C44 ffo_0/nand_1/b gnd 0.26fF
+C45 vdd ffo_0/inv_1/w_0_6# 0.06fF
+C46 ffo_0/nand_3/b clk 0.33fF
+C47 ffo_0/nand_6/w_0_0# ffo_0/nand_6/a 0.06fF
+C48 ffo_0/nand_1/w_0_0# ffo_0/nand_1/a 0.06fF
+C49 clk ffo_0/nand_6/a 0.13fF
+C50 ffo_0/nand_1/w_0_0# vdd 0.10fF
+C51 ffo_0/nand_6/a qbar 0.00fF
+C52 ffo_0/nand_3/a vdd 0.30fF
+C53 ffo_0/d gnd 0.37fF
+C54 xor_0/w_n3_4# xor_0/inv_0/op 0.06fF
+C55 q gnd 0.52fF
+C56 ffo_0/nand_3/b ffo_0/nand_1/b 0.32fF
+C57 vdd ffo_0/inv_0/w_0_6# 0.06fF
+C58 qbar ffo_0/nand_7/w_0_0# 0.06fF
+C59 vdd ffo_0/nand_7/a 0.30fF
+C60 ffo_0/nand_1/a vdd 0.30fF
+C61 ffo_0/d xor_0/inv_1/op 0.52fF
+C62 clk ffo_0/inv_1/w_0_6# 0.06fF
+C63 ffo_0/nand_0/b gnd 0.38fF
+C64 ffo_0/inv_0/op ffo_0/d 0.04fF
+C65 ffo_0/nand_0/w_0_0# ffo_0/nand_0/b 0.06fF
+C66 ffo_0/nand_5/w_0_0# ffo_0/nand_7/a 0.04fF
+C67 c vdd 0.10fF
+C68 ffo_0/nand_5/w_0_0# vdd 0.10fF
+C69 ffo_0/nand_6/a q 0.31fF
+C70 ffo_0/nand_3/w_0_0# ffo_0/nand_1/b 0.04fF
+C71 ffo_0/d xor_0/inv_0/op 0.06fF
+C72 ffo_0/inv_0/op ffo_0/nand_0/b 0.32fF
+C73 ffo_0/nand_6/w_0_0# vdd 0.10fF
+C74 ffo_0/nand_1/w_0_0# ffo_0/nand_1/b 0.06fF
+C75 ffo_0/nand_7/w_0_0# q 0.04fF
+C76 clk vdd 1.49fF
+C77 qbar ffo_0/nand_7/a 0.31fF
+C78 xor_0/w_n3_4# vdd 0.12fF
+C79 vdd qbar 0.28fF
+C80 ffo_0/nand_3/a ffo_0/nand_2/w_0_0# 0.04fF
+C81 gnd xor_0/inv_1/op 0.20fF
+C82 k gnd 0.22fF
+C83 ffo_0/inv_0/op gnd 0.10fF
+C84 xor_0/w_n3_4# c 0.06fF
+C85 ffo_0/nand_5/w_0_0# clk 0.06fF
+C86 ffo_0/nand_0/w_0_0# ffo_0/inv_0/op 0.06fF
+C87 ffo_0/nand_1/b ffo_0/nand_7/a 0.13fF
+C88 ffo_0/nand_3/b gnd 0.35fF
+C89 ffo_0/nand_1/a ffo_0/nand_1/b 0.31fF
+C90 ffo_0/nand_2/w_0_0# vdd 0.10fF
+C91 ffo_0/nand_4/w_0_0# ffo_0/nand_3/b 0.06fF
+C92 ffo_0/nand_1/b vdd 0.31fF
+C93 ffo_0/nand_6/a gnd 0.03fF
+C94 ffo_0/nand_4/w_0_0# ffo_0/nand_6/a 0.04fF
+C95 xor_0/inv_1/w_0_6# xor_0/inv_1/op 0.03fF
+C96 k xor_0/inv_1/op 0.06fF
+C97 ffo_0/nand_0/b ffo_0/inv_1/w_0_6# 0.03fF
+C98 ffo_0/d ffo_0/inv_0/w_0_6# 0.06fF
+C99 xor_0/inv_0/op gnd 0.17fF
+C100 ffo_0/nand_5/w_0_0# ffo_0/nand_1/b 0.06fF
+C101 ffo_0/nand_6/w_0_0# qbar 0.04fF
+C102 ffo_0/nand_7/a q 0.00fF
+C103 ffo_0/d vdd 0.04fF
+C104 xor_0/a_10_10# vdd 0.93fF
+C105 vdd q 0.28fF
+C106 ffo_0/nand_3/a ffo_0/nand_0/b 0.13fF
+C107 xor_0/inv_0/op xor_0/inv_1/op 0.08fF
+C108 k xor_0/inv_0/op 0.27fF
+C109 c xor_0/a_10_10# 0.12fF
+C110 clk ffo_0/nand_1/b 0.45fF
+C111 ffo_0/nand_1/a ffo_0/nand_0/b 0.13fF
+C112 ffo_0/nand_0/b vdd 0.15fF
+C113 k xor_0/inv_0/w_0_6# 0.06fF
+C114 xor_0/a_10_10# Gnd 0.01fF
+C115 xor_0/w_n3_4# Gnd 1.14fF
+C116 xor_0/inv_1/op Gnd 0.49fF
+C117 c Gnd 1.38fF
+C118 xor_0/inv_1/w_0_6# Gnd 0.58fF
+C119 xor_0/inv_0/op Gnd 0.50fF
+C120 k Gnd 1.29fF
+C121 xor_0/inv_0/w_0_6# Gnd 0.58fF
+C122 ffo_0/inv_1/w_0_6# Gnd 0.58fF
+C123 ffo_0/inv_0/w_0_6# Gnd 0.58fF
+C124 gnd Gnd 3.20fF
+C125 ffo_0/nand_7/a Gnd 0.30fF
+C126 ffo_0/nand_7/w_0_0# Gnd 0.82fF
+C127 qbar Gnd 0.43fF
+C128 vdd Gnd 1.79fF
+C129 ffo_0/nand_6/a Gnd 0.30fF
+C130 ffo_0/nand_6/w_0_0# Gnd 0.82fF
+C131 clk Gnd 1.06fF
+C132 ffo_0/nand_5/w_0_0# Gnd 0.82fF
+C133 ffo_0/nand_3/b Gnd 0.43fF
+C134 ffo_0/nand_4/w_0_0# Gnd 0.82fF
+C135 ffo_0/nand_3/a Gnd 0.30fF
+C136 ffo_0/nand_3/w_0_0# Gnd 0.82fF
+C137 ffo_0/nand_0/b Gnd 0.63fF
+C138 ffo_0/d Gnd 0.64fF
+C139 ffo_0/nand_2/w_0_0# Gnd 0.82fF
+C140 ffo_0/inv_0/op Gnd 0.26fF
+C141 ffo_0/nand_0/w_0_0# Gnd 0.82fF
+C142 ffo_0/nand_1/a Gnd 0.30fF
+C143 ffo_0/nand_1/w_0_0# Gnd 0.82fF
