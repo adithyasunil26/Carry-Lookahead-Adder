@@ -1,78 +1,89 @@
 * SPICE3 file created from ffo.ext - technology: scmos
+.include ../TSMC_180nm.txt
+* D G S B
+.param SUPPLY=1.8V
+.param LAMBDA=0.09u
+.param length={2*LAMBDA}
+.param w={6*LAMBDA}
+.global gnd vdd
+.option scale=0.09u
 
-.option scale=0.01u
+Vdd vdd gnd 'SUPPLY'
 
-M1000 nand_1/a_13_n26# nand_1/a gnd Gnd nfet w=108 l=18
+vd d gnd pulse 1.8 0 0ns 10ps 10ps 20ns 40ns
+vclk clk gnd pulse 1.8 0 0ns 10ps 10ps 10ns 20ns
+
+M1000 nand_1/a_13_n26# nand_1/a gnd Gnd CMOSN w=108 l=18
 +  ad=7776 pd=360 as=43740 ps=2844
-M1001 vdd nand_1/b nand_3/b nand_1/w_0_0# pfet w=108 l=18
+M1001 vdd nand_1/b nand_3/b nand_1/w_0_0# CMOSP w=108 l=18
 +  ad=87480 pd=5508 as=7776 ps=360
-M1002 nand_3/b nand_1/a vdd nand_1/w_0_0# pfet w=108 l=18
+M1002 nand_3/b nand_1/a vdd nand_1/w_0_0# CMOSP w=108 l=18
 +  ad=0 pd=0 as=0 ps=0
-M1003 nand_3/b nand_1/b nand_1/a_13_n26# Gnd nfet w=108 l=18
+M1003 nand_3/b nand_1/b nand_1/a_13_n26# Gnd CMOSN w=108 l=18
 +  ad=4860 pd=306 as=0 ps=0
-M1004 nand_0/a_13_n26# inv_0/op gnd Gnd nfet w=108 l=18
+M1004 nand_0/a_13_n26# inv_0/op gnd Gnd CMOSN w=108 l=18
 +  ad=7776 pd=360 as=0 ps=0
-M1005 vdd nand_0/b nand_1/a nand_0/w_0_0# pfet w=108 l=18
+M1005 vdd nand_0/b nand_1/a nand_0/w_0_0# CMOSP w=108 l=18
 +  ad=0 pd=0 as=7776 ps=360
-M1006 nand_1/a inv_0/op vdd nand_0/w_0_0# pfet w=108 l=18
+M1006 nand_1/a inv_0/op vdd nand_0/w_0_0# CMOSP w=108 l=18
 +  ad=0 pd=0 as=0 ps=0
-M1007 nand_1/a nand_0/b nand_0/a_13_n26# Gnd nfet w=108 l=18
+M1007 nand_1/a nand_0/b nand_0/a_13_n26# Gnd CMOSN w=108 l=18
 +  ad=4860 pd=306 as=0 ps=0
-M1008 nand_2/a_13_n26# d gnd Gnd nfet w=108 l=18
+M1008 nand_2/a_13_n26# d gnd Gnd CMOSN w=108 l=18
 +  ad=7776 pd=360 as=0 ps=0
-M1009 vdd nand_0/b nand_3/a nand_2/w_0_0# pfet w=108 l=18
+M1009 vdd nand_0/b nand_3/a nand_2/w_0_0# CMOSP w=108 l=18
 +  ad=0 pd=0 as=7776 ps=360
-M1010 nand_3/a d vdd nand_2/w_0_0# pfet w=108 l=18
+M1010 nand_3/a d vdd nand_2/w_0_0# CMOSP w=108 l=18
 +  ad=0 pd=0 as=0 ps=0
-M1011 nand_3/a nand_0/b nand_2/a_13_n26# Gnd nfet w=108 l=18
+M1011 nand_3/a nand_0/b nand_2/a_13_n26# Gnd CMOSN w=108 l=18
 +  ad=4860 pd=306 as=0 ps=0
-M1012 nand_3/a_13_n26# nand_3/a gnd Gnd nfet w=108 l=18
+M1012 nand_3/a_13_n26# nand_3/a gnd Gnd CMOSN w=108 l=18
 +  ad=7776 pd=360 as=0 ps=0
-M1013 vdd nand_3/b nand_1/b nand_3/w_0_0# pfet w=108 l=18
+M1013 vdd nand_3/b nand_1/b nand_3/w_0_0# CMOSP w=108 l=18
 +  ad=0 pd=0 as=7776 ps=360
-M1014 nand_1/b nand_3/a vdd nand_3/w_0_0# pfet w=108 l=18
+M1014 nand_1/b nand_3/a vdd nand_3/w_0_0# CMOSP w=108 l=18
 +  ad=0 pd=0 as=0 ps=0
-M1015 nand_1/b nand_3/b nand_3/a_13_n26# Gnd nfet w=108 l=18
+M1015 nand_1/b nand_3/b nand_3/a_13_n26# Gnd CMOSN w=108 l=18
 +  ad=4860 pd=306 as=0 ps=0
-M1016 nand_4/a_13_n26# nand_3/b gnd Gnd nfet w=108 l=18
+M1016 nand_4/a_13_n26# nand_3/b gnd Gnd CMOSN w=108 l=18
 +  ad=7776 pd=360 as=0 ps=0
-M1017 vdd clk nand_6/a nand_4/w_0_0# pfet w=108 l=18
+M1017 vdd clk nand_6/a nand_4/w_0_0# CMOSP w=108 l=18
 +  ad=0 pd=0 as=7776 ps=360
-M1018 nand_6/a nand_3/b vdd nand_4/w_0_0# pfet w=108 l=18
+M1018 nand_6/a nand_3/b vdd nand_4/w_0_0# CMOSP w=108 l=18
 +  ad=0 pd=0 as=0 ps=0
-M1019 nand_6/a clk nand_4/a_13_n26# Gnd nfet w=108 l=18
+M1019 nand_6/a clk nand_4/a_13_n26# Gnd CMOSN w=108 l=18
 +  ad=4860 pd=306 as=0 ps=0
-M1020 nand_5/a_13_n26# clk gnd Gnd nfet w=108 l=18
+M1020 nand_5/a_13_n26# clk gnd Gnd CMOSN w=108 l=18
 +  ad=7776 pd=360 as=0 ps=0
-M1021 vdd nand_1/b nand_7/a nand_5/w_0_0# pfet w=108 l=18
+M1021 vdd nand_1/b nand_7/a nand_5/w_0_0# CMOSP w=108 l=18
 +  ad=0 pd=0 as=7776 ps=360
-M1022 nand_7/a clk vdd nand_5/w_0_0# pfet w=108 l=18
+M1022 nand_7/a clk vdd nand_5/w_0_0# CMOSP w=108 l=18
 +  ad=0 pd=0 as=0 ps=0
-M1023 nand_7/a nand_1/b nand_5/a_13_n26# Gnd nfet w=108 l=18
+M1023 nand_7/a nand_1/b nand_5/a_13_n26# Gnd CMOSN w=108 l=18
 +  ad=4860 pd=306 as=0 ps=0
-M1024 nand_6/a_13_n26# nand_6/a gnd Gnd nfet w=108 l=18
+M1024 nand_6/a_13_n26# nand_6/a gnd Gnd CMOSN w=108 l=18
 +  ad=7776 pd=360 as=0 ps=0
-M1025 vdd q qbar nand_6/w_0_0# pfet w=108 l=18
+M1025 vdd q qbar nand_6/w_0_0# CMOSP w=108 l=18
 +  ad=0 pd=0 as=7776 ps=360
-M1026 qbar nand_6/a vdd nand_6/w_0_0# pfet w=108 l=18
+M1026 qbar nand_6/a vdd nand_6/w_0_0# CMOSP w=108 l=18
 +  ad=0 pd=0 as=0 ps=0
-M1027 qbar q nand_6/a_13_n26# Gnd nfet w=108 l=18
+M1027 qbar q nand_6/a_13_n26# Gnd CMOSN w=108 l=18
 +  ad=4860 pd=306 as=0 ps=0
-M1028 nand_7/a_13_n26# nand_7/a gnd Gnd nfet w=108 l=18
+M1028 nand_7/a_13_n26# nand_7/a gnd Gnd CMOSN w=108 l=18
 +  ad=7776 pd=360 as=0 ps=0
-M1029 vdd qbar q nand_7/w_0_0# pfet w=108 l=18
+M1029 vdd qbar q nand_7/w_0_0# CMOSP w=108 l=18
 +  ad=0 pd=0 as=7776 ps=360
-M1030 q nand_7/a vdd nand_7/w_0_0# pfet w=108 l=18
+M1030 q nand_7/a vdd nand_7/w_0_0# CMOSP w=108 l=18
 +  ad=0 pd=0 as=0 ps=0
-M1031 q qbar nand_7/a_13_n26# Gnd nfet w=108 l=18
+M1031 q qbar nand_7/a_13_n26# Gnd CMOSN w=108 l=18
 +  ad=4860 pd=306 as=0 ps=0
-M1032 inv_0/op d gnd Gnd nfet w=54 l=18
+M1032 inv_0/op d gnd Gnd CMOSN w=54 l=18
 +  ad=2430 pd=198 as=0 ps=0
-M1033 inv_0/op d vdd inv_0/w_0_6# pfet w=108 l=18
+M1033 inv_0/op d vdd inv_0/w_0_6# CMOSP w=108 l=18
 +  ad=4860 pd=306 as=0 ps=0
-M1034 nand_0/b clk gnd Gnd nfet w=54 l=18
+M1034 nand_0/b clk gnd Gnd CMOSN w=54 l=18
 +  ad=2430 pd=198 as=0 ps=0
-M1035 nand_0/b clk vdd inv_1/w_0_6# pfet w=108 l=18
+M1035 nand_0/b clk vdd inv_1/w_0_6# CMOSP w=108 l=18
 +  ad=4860 pd=306 as=0 ps=0
 C0 nand_1/b nand_3/w_0_0# 0.04fF
 C1 vdd nand_3/w_0_0# 0.11fF
@@ -178,3 +189,17 @@ C100 inv_0/op Gnd 0.26fF
 C101 nand_0/w_0_0# Gnd 0.82fF
 C102 nand_1/a Gnd 0.30fF
 C103 nand_1/w_0_0# Gnd 0.82fF
+
+.tran 100p 200n
+.ic v(q) 0
+
+.control
+set hcopypscolor = 0 
+set color0=white 
+set color1=black 
+
+run
+set curplottitle="Adithya-2019102005-flipflopo"
+
+hardcopy ffo.eps v(clk)+4 v(d)+2 v(q) 
+.endc
