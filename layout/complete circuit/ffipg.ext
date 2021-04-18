@@ -17,33 +17,33 @@ node "clk" 3 315.94 -4 153 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 315 216 0 0 0 0 0 0 0 
 node "m1_215_60#" 8 850.928 215 60 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 611 414 50 40 215 144 0 0 0 0 0 0
 node "x" 0 17.8188 -4 237 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 14 0 0 0 0 0 0 0 0 0 0
 node "m1_173_1#" 14 982.478 173 1 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 125 100 125 100 1316 866 0 0 0 0 0 0
+cap "m1_219_168#" "m1_173_1#" 54.6102
+cap "m1_219_168#" "m1_215_60#" 197.201
 cap "m1_219_98#" "m1_215_60#" 207.51
-cap "m1_173_1#" "m1_219_168#" 54.6102
 cap "m1_173_1#" "m1_215_60#" 39.9006
-cap "m1_215_60#" "m1_219_168#" 197.201
 subcap "m1_173_1#" -469.597
-cap "ffi_0/nand_1/vdd!" "ffi_0/nand_5/out" 40.2408
 cap "ffi_0/nand_7/b" "ffi_0/nand_1/vdd!" 51.675
 cap "ffi_0/nand_4/out" "ffi_0/nand_1/vdd!" 40.2408
-cap "ffi_0/nand_1/vdd!" "ffi_0/nand_1/gnd!" 39.9006
-cap "ffi_0/nand_1/vdd!" "ffi_0/nand_4/w_0_0#" 5.544
+cap "ffi_0/nand_4/w_0_0#" "ffi_0/nand_1/vdd!" 5.544
 cap "ffi_0/nand_1/vdd!" "ffi_0/nand_5/w_0_0#" 1.155
+cap "ffi_0/nand_5/out" "ffi_0/nand_1/vdd!" 40.2408
+cap "ffi_0/nand_1/vdd!" "ffi_0/nand_1/gnd!" 39.9006
 subcap "m1_215_60#" -308.712
-cap "ffi_0/nand_6/gnd!" "ffi_0/q" 353.44
+cap "ffi_0/q" "ffi_0/nand_6/gnd!" 353.44
 cap "pggen_0/m1_3_15#" "pggen_0/xor_0/gnd!" -48.6
-cap "ffi_1/inv_1/op" "ffi_0/m1_15_5#" 463.395
-cap "ffi_1/nand_3/vdd!" "ffi_1/nand_7/b" 31.005
+cap "ffi_0/m1_15_5#" "ffi_1/inv_1/op" 463.395
 cap "ffi_0/nand_5/w_0_0#" "ffi_1/nand_3/vdd!" 4.389
-cap "ffi_1/nand_5/w_0_0#" "ffi_1/nand_3/vdd!" 5.544
+cap "ffi_1/nand_7/b" "ffi_1/nand_3/vdd!" 31.005
 cap "ffi_0/nand_5/a" "ffi_1/nand_5/a" 291.406
+cap "ffi_1/nand_5/w_0_0#" "ffi_1/nand_3/vdd!" 5.544
 cap "ffi_1/nand_5/out" "ffi_1/nand_3/vdd!" 40.2408
-cap "pggen_0/xor_0/vdd!" "ffi_1/q" 39.9006
-cap "pggen_0/xor_0/vdd!" "ffi_1/nand_6/gnd!" 7.10543e-15
-cap "ffi_0/nand_7/w_0_0#" "ffi_0/nand_7/vdd!" -7.10543e-15
-cap "ffi_1/nand_1/vdd!" "ffi_1/nand_1/gnd!" 39.9006
+cap "ffi_1/q" "pggen_0/xor_0/vdd!" 39.9006
+cap "ffi_0/nand_7/vdd!" "ffi_0/nand_7/w_0_0#" -7.10543e-15
+cap "ffi_1/nand_6/gnd!" "pggen_0/xor_0/vdd!" 7.10543e-15
+cap "ffi_1/nand_4/w_0_0#" "ffi_1/nand_1/vdd!" 5.544
+cap "ffi_1/nand_1/gnd!" "ffi_1/nand_1/vdd!" 39.9006
 cap "ffi_1/qbar" "ffi_1/nand_1/vdd!" 20.67
-cap "ffi_1/nand_1/vdd!" "ffi_1/nand_4/out" 40.2408
-cap "ffi_1/nand_1/vdd!" "ffi_1/nand_4/w_0_0#" 5.544
+cap "ffi_1/nand_4/out" "ffi_1/nand_1/vdd!" 40.2408
 merge "ffi_1/nand_1/vdd!" "pggen_0/xor_0/vdd!" -394.43 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -85 -84 -25 -20 -25 -20 0 0 0 0 0 0
 merge "pggen_0/xor_0/vdd!" "ffi_0/nand_3/vdd!"
 merge "ffi_0/nand_3/vdd!" "ffi_1/nand_3/vdd!"
