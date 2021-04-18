@@ -12,25 +12,25 @@ Vdd vdd gnd 'SUPPLY'
 
 vclk clk gnd pulse 0 1.8 0ns 10ps 10ps 10ns 20ns
 
-vcin cinin gnd pulse 1.8 0 0ns 10ps 10ps 20ns 40ns
-vy1 y1in   gnd pulse 1.8 0 0ns 10ps 10ps 40ns 80ns
-vy2 y2in   gnd pulse 1.8 0 0ns 10ps 10ps 80ns 160ns
-vy3 y3in   gnd pulse 1.8 0 0ns 10ps 10ps 160ns 320ns
-vy4 y4in   gnd pulse 1.8 0 0ns 10ps 10ps 320ns 640ns
-vx1 x1in   gnd pulse 1.8 0 0ns 10ps 10ps 640ns 1280ns
-vx2 x2in   gnd pulse 1.8 0 0ns 10ps 10ps 1280ns 2560ns
-vx3 x3in   gnd pulse 1.8 0 0ns 10ps 10ps 2560ns 5120ns
-vx4 x4in   gnd pulse 1.8 0 0ns 10ps 10ps 5120ns 10240ns
+* vcin cinin gnd pulse 1.8 0 0ns 10ps 10ps 20ns 40ns
+* vy1 y1in   gnd pulse 1.8 0 0ns 10ps 10ps 40ns 80ns
+* vy2 y2in   gnd pulse 1.8 0 0ns 10ps 10ps 80ns 160ns
+* vy3 y3in   gnd pulse 1.8 0 0ns 10ps 10ps 160ns 320ns
+* vy4 y4in   gnd pulse 1.8 0 0ns 10ps 10ps 320ns 640ns
+* vx1 x1in   gnd pulse 1.8 0 0ns 10ps 10ps 640ns 1280ns
+* vx2 x2in   gnd pulse 1.8 0 0ns 10ps 10ps 1280ns 2560ns
+* vx3 x3in   gnd pulse 1.8 0 0ns 10ps 10ps 2560ns 5120ns
+* vx4 x4in   gnd pulse 1.8 0 0ns 10ps 10ps 5120ns 10240ns
 
-* vy1 y1in gnd 1.8
-* vy2 y2in gnd 0
-* vy3 y3in gnd 1.8
-* vy4 y4in gnd 0
-* vx1 x1in gnd 0
-* vx2 x2in gnd 1.8
-* vx3 x3in gnd 0
-* vx4 x4in gnd 1.8
-* vcin cinin gnd 1.8
+vy1 y1in gnd 1.8
+vy2 y2in gnd 0
+vy3 y3in gnd 0
+vy4 y4in gnd 0
+vx1 x1in gnd 0
+vx2 x2in gnd 0
+vx3 x3in gnd 0
+vx4 x4in gnd 0
+vcin cinin gnd 0
 
 M1000 nand_1/a_13_n26# cla_0/l gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=11070 ps=6708
@@ -3427,20 +3427,20 @@ C41916 z4o gnd 4ff
 
 .tran 1n 100n
 
-* .ic v(x1in) 0 
-* .ic v(x2in) 0 
-* .ic v(x3in) 0 
-* .ic v(x4in) 0 
-* .ic v(y1in) 0
-* .ic v(y2in) 0
-* .ic v(y3in) 0
-* .ic v(y4in) 0 
-* .ic v(z1o) 0 
-* .ic v(z2o) 0 
-* .ic v(z3o) 0 
-* .ic v(z4o) 0 
-* .ic v(cinin) 0 
-* .ic v(couto) 0 
+.ic v(x1in) 0 
+.ic v(x2in) 0 
+.ic v(x3in) 0 
+.ic v(x4in) 0 
+.ic v(y1in) 0
+.ic v(y2in) 0
+.ic v(y3in) 0
+.ic v(y4in) 0 
+.ic v(z1o) 0 
+.ic v(z2o) 0 
+.ic v(z3o) 0 
+.ic v(z4o) 0 
+.ic v(cinin) 0 
+.ic v(couto) 0 
 
 .control
 set hcopypscolor = 0 
@@ -3455,5 +3455,7 @@ hardcopy y.eps v(y1in) v(y2in)+2 v(y3in)+4 v(y4in)+6 v(clk)+8
 hardcopy z.eps v(z1o) v(z2o)+2 v(z3o)+4 v(z4o)+6 v(clk)+8
 hardcopy cin.eps  v(cinin)  v(clk)+2
 hardcopy cout.eps v(couto)  v(clk)+2
+
+
 
 .endc
