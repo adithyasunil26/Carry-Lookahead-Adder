@@ -184,19 +184,19 @@ M1089 sumffo_0/ffo_0/nand_7/a sumffo_0/ffo_0/nand_1/b sumffo_0/ffo_0/nand_5/a_13
 +  ad=60 pd=34 as=0 ps=0
 M1090 sumffo_0/ffo_0/nand_6/a_13_n26# sumffo_0/ffo_0/nand_6/a gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1091 gnd sumffo_0/s sumffo_0/sbar sumffo_0/ffo_0/nand_6/w_0_0# pfet w=12 l=2
+M1091 gnd z1o sumffo_0/sbar sumffo_0/ffo_0/nand_6/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
 M1092 sumffo_0/sbar sumffo_0/ffo_0/nand_6/a gnd sumffo_0/ffo_0/nand_6/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1093 sumffo_0/sbar sumffo_0/s sumffo_0/ffo_0/nand_6/a_13_n26# Gnd nfet w=12 l=2
+M1093 sumffo_0/sbar z1o sumffo_0/ffo_0/nand_6/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 M1094 sumffo_0/ffo_0/nand_7/a_13_n26# sumffo_0/ffo_0/nand_7/a gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1095 gnd sumffo_0/sbar sumffo_0/s sumffo_0/ffo_0/nand_7/w_0_0# pfet w=12 l=2
+M1095 gnd sumffo_0/sbar z1o sumffo_0/ffo_0/nand_7/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1096 sumffo_0/s sumffo_0/ffo_0/nand_7/a gnd sumffo_0/ffo_0/nand_7/w_0_0# pfet w=12 l=2
+M1096 z1o sumffo_0/ffo_0/nand_7/a gnd sumffo_0/ffo_0/nand_7/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1097 sumffo_0/s sumffo_0/sbar sumffo_0/ffo_0/nand_7/a_13_n26# Gnd nfet w=12 l=2
+M1097 z1o sumffo_0/sbar sumffo_0/ffo_0/nand_7/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 M1098 sumffo_0/ffo_0/inv_0/op sumffo_0/ffo_0/d gnd Gnd nfet w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
@@ -280,19 +280,19 @@ M1137 sumffo_2/ffo_0/nand_7/a sumffo_2/ffo_0/nand_1/b sumffo_2/ffo_0/nand_5/a_13
 +  ad=60 pd=34 as=0 ps=0
 M1138 sumffo_2/ffo_0/nand_6/a_13_n26# sumffo_2/ffo_0/nand_6/a gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1139 gnd sumffo_2/s sumffo_2/sbar sumffo_2/ffo_0/nand_6/w_0_0# pfet w=12 l=2
+M1139 gnd z3o sumffo_2/sbar sumffo_2/ffo_0/nand_6/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
 M1140 sumffo_2/sbar sumffo_2/ffo_0/nand_6/a gnd sumffo_2/ffo_0/nand_6/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1141 sumffo_2/sbar sumffo_2/s sumffo_2/ffo_0/nand_6/a_13_n26# Gnd nfet w=12 l=2
+M1141 sumffo_2/sbar z3o sumffo_2/ffo_0/nand_6/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 M1142 sumffo_2/ffo_0/nand_7/a_13_n26# sumffo_2/ffo_0/nand_7/a gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1143 gnd sumffo_2/sbar sumffo_2/s sumffo_2/ffo_0/nand_7/w_0_0# pfet w=12 l=2
+M1143 gnd sumffo_2/sbar z3o sumffo_2/ffo_0/nand_7/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1144 sumffo_2/s sumffo_2/ffo_0/nand_7/a gnd sumffo_2/ffo_0/nand_7/w_0_0# pfet w=12 l=2
+M1144 z3o sumffo_2/ffo_0/nand_7/a gnd sumffo_2/ffo_0/nand_7/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1145 sumffo_2/s sumffo_2/sbar sumffo_2/ffo_0/nand_7/a_13_n26# Gnd nfet w=12 l=2
+M1145 z3o sumffo_2/sbar sumffo_2/ffo_0/nand_7/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 M1146 sumffo_2/ffo_0/inv_0/op sumffo_2/ffo_0/d gnd Gnd nfet w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
@@ -376,19 +376,19 @@ M1185 sumffo_1/ffo_0/nand_7/a sumffo_1/ffo_0/nand_1/b sumffo_1/ffo_0/nand_5/a_13
 +  ad=60 pd=34 as=0 ps=0
 M1186 sumffo_1/ffo_0/nand_6/a_13_n26# sumffo_1/ffo_0/nand_6/a gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1187 gnd sumffo_1/s sumffo_1/sbar sumffo_1/ffo_0/nand_6/w_0_0# pfet w=12 l=2
+M1187 gnd z2o sumffo_1/sbar sumffo_1/ffo_0/nand_6/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
 M1188 sumffo_1/sbar sumffo_1/ffo_0/nand_6/a gnd sumffo_1/ffo_0/nand_6/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1189 sumffo_1/sbar sumffo_1/s sumffo_1/ffo_0/nand_6/a_13_n26# Gnd nfet w=12 l=2
+M1189 sumffo_1/sbar z2o sumffo_1/ffo_0/nand_6/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 M1190 sumffo_1/ffo_0/nand_7/a_13_n26# sumffo_1/ffo_0/nand_7/a gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1191 gnd sumffo_1/sbar sumffo_1/s sumffo_1/ffo_0/nand_7/w_0_0# pfet w=12 l=2
+M1191 gnd sumffo_1/sbar z2o sumffo_1/ffo_0/nand_7/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1192 sumffo_1/s sumffo_1/ffo_0/nand_7/a gnd sumffo_1/ffo_0/nand_7/w_0_0# pfet w=12 l=2
+M1192 z2o sumffo_1/ffo_0/nand_7/a gnd sumffo_1/ffo_0/nand_7/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1193 sumffo_1/s sumffo_1/sbar sumffo_1/ffo_0/nand_7/a_13_n26# Gnd nfet w=12 l=2
+M1193 z2o sumffo_1/sbar sumffo_1/ffo_0/nand_7/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 M1194 sumffo_1/ffo_0/inv_0/op sumffo_1/ffo_0/d gnd Gnd nfet w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
@@ -472,19 +472,19 @@ M1233 sumffo_3/ffo_0/nand_7/a sumffo_3/ffo_0/nand_1/b sumffo_3/ffo_0/nand_5/a_13
 +  ad=60 pd=34 as=0 ps=0
 M1234 sumffo_3/ffo_0/nand_6/a_13_n26# sumffo_3/ffo_0/nand_6/a gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1235 gnd sumffo_3/s sumffo_3/sbar sumffo_3/ffo_0/nand_6/w_0_0# pfet w=12 l=2
+M1235 gnd z4o sumffo_3/sbar sumffo_3/ffo_0/nand_6/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
 M1236 sumffo_3/sbar sumffo_3/ffo_0/nand_6/a gnd sumffo_3/ffo_0/nand_6/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1237 sumffo_3/sbar sumffo_3/s sumffo_3/ffo_0/nand_6/a_13_n26# Gnd nfet w=12 l=2
+M1237 sumffo_3/sbar z4o sumffo_3/ffo_0/nand_6/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 M1238 sumffo_3/ffo_0/nand_7/a_13_n26# sumffo_3/ffo_0/nand_7/a gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1239 gnd sumffo_3/sbar sumffo_3/s sumffo_3/ffo_0/nand_7/w_0_0# pfet w=12 l=2
+M1239 gnd sumffo_3/sbar z4o sumffo_3/ffo_0/nand_7/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1240 sumffo_3/s sumffo_3/ffo_0/nand_7/a gnd sumffo_3/ffo_0/nand_7/w_0_0# pfet w=12 l=2
+M1240 z4o sumffo_3/ffo_0/nand_7/a gnd sumffo_3/ffo_0/nand_7/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1241 sumffo_3/s sumffo_3/sbar sumffo_3/ffo_0/nand_7/a_13_n26# Gnd nfet w=12 l=2
+M1241 z4o sumffo_3/sbar sumffo_3/ffo_0/nand_7/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 M1242 sumffo_3/ffo_0/inv_0/op sumffo_3/ffo_0/d gnd Gnd nfet w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
@@ -568,19 +568,19 @@ M1281 ffo_0/nand_7/a ffo_0/nand_1/b ffo_0/nand_5/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 M1282 ffo_0/nand_6/a_13_n26# ffo_0/nand_6/a gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1283 gnd ffo_0/q ffo_0/qbar ffo_0/nand_6/w_0_0# pfet w=12 l=2
+M1283 gnd couto ffo_0/qbar ffo_0/nand_6/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
 M1284 ffo_0/qbar ffo_0/nand_6/a gnd ffo_0/nand_6/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1285 ffo_0/qbar ffo_0/q ffo_0/nand_6/a_13_n26# Gnd nfet w=12 l=2
+M1285 ffo_0/qbar couto ffo_0/nand_6/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 M1286 ffo_0/nand_7/a_13_n26# ffo_0/nand_7/a gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1287 gnd ffo_0/qbar ffo_0/q ffo_0/nand_7/w_0_0# pfet w=12 l=2
+M1287 gnd ffo_0/qbar couto ffo_0/nand_7/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1288 ffo_0/q ffo_0/nand_7/a gnd ffo_0/nand_7/w_0_0# pfet w=12 l=2
+M1288 couto ffo_0/nand_7/a gnd ffo_0/nand_7/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1289 ffo_0/q ffo_0/qbar ffo_0/nand_7/a_13_n26# Gnd nfet w=12 l=2
+M1289 couto ffo_0/qbar ffo_0/nand_7/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 M1290 ffo_0/inv_0/op ffo_0/d gnd Gnd nfet w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
@@ -722,11 +722,11 @@ M1358 ffipg_0/ffi_0/nand_1/a ffipg_0/ffi_0/inv_0/op gnd ffipg_0/ffi_0/nand_0/w_0
 +  ad=0 pd=0 as=0 ps=0
 M1359 ffipg_0/ffi_0/nand_1/a clk ffipg_0/ffi_0/nand_0/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1360 ffipg_0/ffi_0/nand_2/a_13_n26# ffipg_0/y gnd Gnd nfet w=12 l=2
+M1360 ffipg_0/ffi_0/nand_2/a_13_n26# y1in gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
 M1361 gnd clk ffipg_0/ffi_0/nand_3/a ffipg_0/ffi_0/nand_2/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1362 ffipg_0/ffi_0/nand_3/a ffipg_0/y gnd ffipg_0/ffi_0/nand_2/w_0_0# pfet w=12 l=2
+M1362 ffipg_0/ffi_0/nand_3/a y1in gnd ffipg_0/ffi_0/nand_2/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
 M1363 ffipg_0/ffi_0/nand_3/a clk ffipg_0/ffi_0/nand_2/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
@@ -770,9 +770,9 @@ M1382 ffipg_0/ffi_0/q ffipg_0/ffi_0/nand_7/a gnd ffipg_0/ffi_0/nand_7/w_0_0# pfe
 +  ad=0 pd=0 as=0 ps=0
 M1383 ffipg_0/ffi_0/q ffipg_0/ffi_0/qbar ffipg_0/ffi_0/nand_7/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1384 ffipg_0/ffi_0/inv_0/op ffipg_0/y gnd Gnd nfet w=6 l=2
+M1384 ffipg_0/ffi_0/inv_0/op y1in gnd Gnd nfet w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1385 ffipg_0/ffi_0/inv_0/op ffipg_0/y gnd ffipg_0/ffi_0/inv_0/w_0_6# pfet w=12 l=2
+M1385 ffipg_0/ffi_0/inv_0/op y1in gnd ffipg_0/ffi_0/inv_0/w_0_6# pfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 M1386 ffipg_0/ffi_0/inv_1/op clk gnd Gnd nfet w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
@@ -794,11 +794,11 @@ M1394 ffipg_0/ffi_1/nand_1/a ffipg_0/ffi_1/inv_0/op gnd ffipg_0/ffi_1/nand_0/w_0
 +  ad=0 pd=0 as=0 ps=0
 M1395 ffipg_0/ffi_1/nand_1/a clk ffipg_0/ffi_1/nand_0/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1396 ffipg_0/ffi_1/nand_2/a_13_n26# ffipg_0/x gnd Gnd nfet w=12 l=2
+M1396 ffipg_0/ffi_1/nand_2/a_13_n26# x1in gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
 M1397 gnd clk ffipg_0/ffi_1/nand_3/a ffipg_0/ffi_1/nand_2/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1398 ffipg_0/ffi_1/nand_3/a ffipg_0/x gnd ffipg_0/ffi_1/nand_2/w_0_0# pfet w=12 l=2
+M1398 ffipg_0/ffi_1/nand_3/a x1in gnd ffipg_0/ffi_1/nand_2/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
 M1399 ffipg_0/ffi_1/nand_3/a clk ffipg_0/ffi_1/nand_2/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
@@ -842,9 +842,9 @@ M1418 ffipg_0/ffi_1/q ffipg_0/ffi_1/nand_7/a gnd ffipg_0/ffi_1/nand_7/w_0_0# pfe
 +  ad=0 pd=0 as=0 ps=0
 M1419 ffipg_0/ffi_1/q ffipg_0/ffi_1/qbar ffipg_0/ffi_1/nand_7/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1420 ffipg_0/ffi_1/inv_0/op ffipg_0/x gnd Gnd nfet w=6 l=2
+M1420 ffipg_0/ffi_1/inv_0/op x1in gnd Gnd nfet w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1421 ffipg_0/ffi_1/inv_0/op ffipg_0/x gnd ffipg_0/ffi_1/inv_0/w_0_6# pfet w=12 l=2
+M1421 ffipg_0/ffi_1/inv_0/op x1in gnd ffipg_0/ffi_1/inv_0/w_0_6# pfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 M1422 ffipg_0/ffi_1/inv_1/op clk gnd Gnd nfet w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
@@ -910,11 +910,11 @@ M1452 ffipg_1/ffi_0/nand_1/a ffipg_1/ffi_0/inv_0/op gnd ffipg_1/ffi_0/nand_0/w_0
 +  ad=0 pd=0 as=0 ps=0
 M1453 ffipg_1/ffi_0/nand_1/a clk ffipg_1/ffi_0/nand_0/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1454 ffipg_1/ffi_0/nand_2/a_13_n26# ffipg_1/y gnd Gnd nfet w=12 l=2
+M1454 ffipg_1/ffi_0/nand_2/a_13_n26# y2in gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
 M1455 gnd clk ffipg_1/ffi_0/nand_3/a ffipg_1/ffi_0/nand_2/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1456 ffipg_1/ffi_0/nand_3/a ffipg_1/y gnd ffipg_1/ffi_0/nand_2/w_0_0# pfet w=12 l=2
+M1456 ffipg_1/ffi_0/nand_3/a y2in gnd ffipg_1/ffi_0/nand_2/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
 M1457 ffipg_1/ffi_0/nand_3/a clk ffipg_1/ffi_0/nand_2/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
@@ -958,9 +958,9 @@ M1476 ffipg_1/ffi_0/q ffipg_1/ffi_0/nand_7/a gnd ffipg_1/ffi_0/nand_7/w_0_0# pfe
 +  ad=0 pd=0 as=0 ps=0
 M1477 ffipg_1/ffi_0/q ffipg_1/ffi_0/qbar ffipg_1/ffi_0/nand_7/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1478 ffipg_1/ffi_0/inv_0/op ffipg_1/y gnd Gnd nfet w=6 l=2
+M1478 ffipg_1/ffi_0/inv_0/op y2in gnd Gnd nfet w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1479 ffipg_1/ffi_0/inv_0/op ffipg_1/y gnd ffipg_1/ffi_0/inv_0/w_0_6# pfet w=12 l=2
+M1479 ffipg_1/ffi_0/inv_0/op y2in gnd ffipg_1/ffi_0/inv_0/w_0_6# pfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 M1480 ffipg_1/ffi_0/inv_1/op clk gnd Gnd nfet w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
@@ -982,11 +982,11 @@ M1488 ffipg_1/ffi_1/nand_1/a ffipg_1/ffi_1/inv_0/op gnd ffipg_1/ffi_1/nand_0/w_0
 +  ad=0 pd=0 as=0 ps=0
 M1489 ffipg_1/ffi_1/nand_1/a clk ffipg_1/ffi_1/nand_0/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1490 ffipg_1/ffi_1/nand_2/a_13_n26# ffipg_1/x gnd Gnd nfet w=12 l=2
+M1490 ffipg_1/ffi_1/nand_2/a_13_n26# x2in gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
 M1491 gnd clk ffipg_1/ffi_1/nand_3/a ffipg_1/ffi_1/nand_2/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1492 ffipg_1/ffi_1/nand_3/a ffipg_1/x gnd ffipg_1/ffi_1/nand_2/w_0_0# pfet w=12 l=2
+M1492 ffipg_1/ffi_1/nand_3/a x2in gnd ffipg_1/ffi_1/nand_2/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
 M1493 ffipg_1/ffi_1/nand_3/a clk ffipg_1/ffi_1/nand_2/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
@@ -1030,9 +1030,9 @@ M1512 ffipg_1/ffi_1/q ffipg_1/ffi_1/nand_7/a gnd ffipg_1/ffi_1/nand_7/w_0_0# pfe
 +  ad=0 pd=0 as=0 ps=0
 M1513 ffipg_1/ffi_1/q ffipg_1/ffi_1/qbar ffipg_1/ffi_1/nand_7/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1514 ffipg_1/ffi_1/inv_0/op ffipg_1/x gnd Gnd nfet w=6 l=2
+M1514 ffipg_1/ffi_1/inv_0/op x2in gnd Gnd nfet w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1515 ffipg_1/ffi_1/inv_0/op ffipg_1/x gnd ffipg_1/ffi_1/inv_0/w_0_6# pfet w=12 l=2
+M1515 ffipg_1/ffi_1/inv_0/op x2in gnd ffipg_1/ffi_1/inv_0/w_0_6# pfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 M1516 ffipg_1/ffi_1/inv_1/op clk gnd Gnd nfet w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
@@ -1094,11 +1094,11 @@ M1544 ffipg_2/ffi_0/nand_1/a ffipg_2/ffi_0/inv_0/op gnd ffipg_2/ffi_0/nand_0/w_0
 +  ad=0 pd=0 as=0 ps=0
 M1545 ffipg_2/ffi_0/nand_1/a clk ffipg_2/ffi_0/nand_0/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1546 ffipg_2/ffi_0/nand_2/a_13_n26# ffipg_2/y gnd Gnd nfet w=12 l=2
+M1546 ffipg_2/ffi_0/nand_2/a_13_n26# y3in gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
 M1547 gnd clk ffipg_2/ffi_0/nand_3/a ffipg_2/ffi_0/nand_2/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1548 ffipg_2/ffi_0/nand_3/a ffipg_2/y gnd ffipg_2/ffi_0/nand_2/w_0_0# pfet w=12 l=2
+M1548 ffipg_2/ffi_0/nand_3/a y3in gnd ffipg_2/ffi_0/nand_2/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
 M1549 ffipg_2/ffi_0/nand_3/a clk ffipg_2/ffi_0/nand_2/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
@@ -1142,9 +1142,9 @@ M1568 ffipg_2/ffi_0/q ffipg_2/ffi_0/nand_7/a gnd ffipg_2/ffi_0/nand_7/w_0_0# pfe
 +  ad=0 pd=0 as=0 ps=0
 M1569 ffipg_2/ffi_0/q ffipg_2/ffi_0/qbar ffipg_2/ffi_0/nand_7/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1570 ffipg_2/ffi_0/inv_0/op ffipg_2/y gnd Gnd nfet w=6 l=2
+M1570 ffipg_2/ffi_0/inv_0/op y3in gnd Gnd nfet w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1571 ffipg_2/ffi_0/inv_0/op ffipg_2/y gnd ffipg_2/ffi_0/inv_0/w_0_6# pfet w=12 l=2
+M1571 ffipg_2/ffi_0/inv_0/op y3in gnd ffipg_2/ffi_0/inv_0/w_0_6# pfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 M1572 ffipg_2/ffi_0/inv_1/op clk gnd Gnd nfet w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
@@ -1166,11 +1166,11 @@ M1580 ffipg_2/ffi_1/nand_1/a ffipg_2/ffi_1/inv_0/op gnd ffipg_2/ffi_1/nand_0/w_0
 +  ad=0 pd=0 as=0 ps=0
 M1581 ffipg_2/ffi_1/nand_1/a clk ffipg_2/ffi_1/nand_0/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1582 ffipg_2/ffi_1/nand_2/a_13_n26# ffipg_2/x gnd Gnd nfet w=12 l=2
+M1582 ffipg_2/ffi_1/nand_2/a_13_n26# x3in gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
 M1583 gnd clk ffipg_2/ffi_1/nand_3/a ffipg_2/ffi_1/nand_2/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1584 ffipg_2/ffi_1/nand_3/a ffipg_2/x gnd ffipg_2/ffi_1/nand_2/w_0_0# pfet w=12 l=2
+M1584 ffipg_2/ffi_1/nand_3/a x3in gnd ffipg_2/ffi_1/nand_2/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
 M1585 ffipg_2/ffi_1/nand_3/a clk ffipg_2/ffi_1/nand_2/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
@@ -1214,9 +1214,9 @@ M1604 ffipg_2/ffi_1/q ffipg_2/ffi_1/nand_7/a gnd ffipg_2/ffi_1/nand_7/w_0_0# pfe
 +  ad=0 pd=0 as=0 ps=0
 M1605 ffipg_2/ffi_1/q ffipg_2/ffi_1/qbar ffipg_2/ffi_1/nand_7/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1606 ffipg_2/ffi_1/inv_0/op ffipg_2/x gnd Gnd nfet w=6 l=2
+M1606 ffipg_2/ffi_1/inv_0/op x3in gnd Gnd nfet w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1607 ffipg_2/ffi_1/inv_0/op ffipg_2/x gnd ffipg_2/ffi_1/inv_0/w_0_6# pfet w=12 l=2
+M1607 ffipg_2/ffi_1/inv_0/op x3in gnd ffipg_2/ffi_1/inv_0/w_0_6# pfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 M1608 ffipg_2/ffi_1/inv_1/op clk gnd Gnd nfet w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
@@ -1238,11 +1238,11 @@ M1616 ffi_0/nand_1/a ffi_0/inv_0/op gnd ffi_0/nand_0/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
 M1617 ffi_0/nand_1/a clk ffi_0/nand_0/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1618 ffi_0/nand_2/a_13_n26# ffi_0/d gnd Gnd nfet w=12 l=2
+M1618 ffi_0/nand_2/a_13_n26# cinin gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
 M1619 gnd clk ffi_0/nand_3/a ffi_0/nand_2/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1620 ffi_0/nand_3/a ffi_0/d gnd ffi_0/nand_2/w_0_0# pfet w=12 l=2
+M1620 ffi_0/nand_3/a cinin gnd ffi_0/nand_2/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
 M1621 ffi_0/nand_3/a clk ffi_0/nand_2/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
@@ -1286,9 +1286,9 @@ M1640 ffi_0/q ffi_0/nand_7/a gnd ffi_0/nand_7/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
 M1641 ffi_0/q nor_0/b ffi_0/nand_7/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1642 ffi_0/inv_0/op ffi_0/d gnd Gnd nfet w=6 l=2
+M1642 ffi_0/inv_0/op cinin gnd Gnd nfet w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1643 ffi_0/inv_0/op ffi_0/d gnd ffi_0/inv_0/w_0_6# pfet w=12 l=2
+M1643 ffi_0/inv_0/op cinin gnd ffi_0/inv_0/w_0_6# pfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 M1644 ffi_0/inv_1/op clk gnd Gnd nfet w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
@@ -1350,11 +1350,11 @@ M1672 ffipg_3/ffi_0/nand_1/a ffipg_3/ffi_0/inv_0/op gnd ffipg_3/ffi_0/nand_0/w_0
 +  ad=0 pd=0 as=0 ps=0
 M1673 ffipg_3/ffi_0/nand_1/a clk ffipg_3/ffi_0/nand_0/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1674 ffipg_3/ffi_0/nand_2/a_13_n26# ffipg_3/y gnd Gnd nfet w=12 l=2
+M1674 ffipg_3/ffi_0/nand_2/a_13_n26# y4in gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
 M1675 gnd clk ffipg_3/ffi_0/nand_3/a ffipg_3/ffi_0/nand_2/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1676 ffipg_3/ffi_0/nand_3/a ffipg_3/y gnd ffipg_3/ffi_0/nand_2/w_0_0# pfet w=12 l=2
+M1676 ffipg_3/ffi_0/nand_3/a y4in gnd ffipg_3/ffi_0/nand_2/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
 M1677 ffipg_3/ffi_0/nand_3/a clk ffipg_3/ffi_0/nand_2/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
@@ -1398,9 +1398,9 @@ M1696 ffipg_3/ffi_0/q ffipg_3/ffi_0/nand_7/a gnd ffipg_3/ffi_0/nand_7/w_0_0# pfe
 +  ad=0 pd=0 as=0 ps=0
 M1697 ffipg_3/ffi_0/q ffipg_3/ffi_0/qbar ffipg_3/ffi_0/nand_7/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1698 ffipg_3/ffi_0/inv_0/op ffipg_3/y gnd Gnd nfet w=6 l=2
+M1698 ffipg_3/ffi_0/inv_0/op y4in gnd Gnd nfet w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1699 ffipg_3/ffi_0/inv_0/op ffipg_3/y gnd ffipg_3/ffi_0/inv_0/w_0_6# pfet w=12 l=2
+M1699 ffipg_3/ffi_0/inv_0/op y4in gnd ffipg_3/ffi_0/inv_0/w_0_6# pfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 M1700 ffipg_3/ffi_0/inv_1/op clk gnd Gnd nfet w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
@@ -1422,11 +1422,11 @@ M1708 ffipg_3/ffi_1/nand_1/a ffipg_3/ffi_1/inv_0/op gnd ffipg_3/ffi_1/nand_0/w_0
 +  ad=0 pd=0 as=0 ps=0
 M1709 ffipg_3/ffi_1/nand_1/a clk ffipg_3/ffi_1/nand_0/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1710 ffipg_3/ffi_1/nand_2/a_13_n26# ffipg_3/x gnd Gnd nfet w=12 l=2
+M1710 ffipg_3/ffi_1/nand_2/a_13_n26# x4in gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
 M1711 gnd clk ffipg_3/ffi_1/nand_3/a ffipg_3/ffi_1/nand_2/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1712 ffipg_3/ffi_1/nand_3/a ffipg_3/x gnd ffipg_3/ffi_1/nand_2/w_0_0# pfet w=12 l=2
+M1712 ffipg_3/ffi_1/nand_3/a x4in gnd ffipg_3/ffi_1/nand_2/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
 M1713 ffipg_3/ffi_1/nand_3/a clk ffipg_3/ffi_1/nand_2/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
@@ -1470,1531 +1470,1531 @@ M1732 ffipg_3/ffi_1/q ffipg_3/ffi_1/nand_7/a gnd ffipg_3/ffi_1/nand_7/w_0_0# pfe
 +  ad=0 pd=0 as=0 ps=0
 M1733 ffipg_3/ffi_1/q ffipg_3/ffi_1/qbar ffipg_3/ffi_1/nand_7/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1734 ffipg_3/ffi_1/inv_0/op ffipg_3/x gnd Gnd nfet w=6 l=2
+M1734 ffipg_3/ffi_1/inv_0/op x4in gnd Gnd nfet w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1735 ffipg_3/ffi_1/inv_0/op ffipg_3/x gnd ffipg_3/ffi_1/inv_0/w_0_6# pfet w=12 l=2
+M1735 ffipg_3/ffi_1/inv_0/op x4in gnd ffipg_3/ffi_1/inv_0/w_0_6# pfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 M1736 ffipg_3/ffi_1/inv_1/op clk gnd Gnd nfet w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
 M1737 ffipg_3/ffi_1/inv_1/op clk gnd ffipg_3/ffi_1/inv_1/w_0_6# pfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-C0 ffipg_2/ffi_1/inv_1/op ffipg_2/ffi_1/nand_6/a 0.13fF
-C1 ffipg_0/ffi_1/nand_1/w_0_0# ffipg_0/ffi_1/nand_3/b 0.04fF
-C2 cla_2/nor_1/w_0_0# gnd 0.31fF
-C3 ffipg_1/ffi_1/nand_1/w_0_0# gnd 0.10fF
-C4 ffipg_3/ffi_1/nand_1/w_0_0# gnd 0.10fF
-C5 inv_9/in gnd 0.33fF
-C6 ffi_0/nand_3/w_0_0# ffi_0/nand_3/b 0.06fF
-C7 ffipg_1/ffi_1/nand_3/b ffipg_1/ffi_1/nand_1/a 0.00fF
-C8 ffipg_1/ffi_1/q ffipg_1/pggen_0/xor_0/inv_1/op 0.06fF
-C9 cla_1/l gnd 0.40fF
-C10 ffipg_3/ffi_0/nand_6/w_0_0# ffipg_3/ffi_0/qbar 0.04fF
-C11 ffipg_0/ffi_1/nand_3/a ffipg_0/ffi_1/nand_3/b 0.31fF
-C12 sumffo_2/ffo_0/nand_1/b sumffo_2/ffo_0/nand_1/w_0_0# 0.06fF
-C13 ffipg_2/ffi_1/qbar gnd 0.67fF
-C14 sumffo_0/ffo_0/nand_0/w_0_0# gnd 0.10fF
-C15 gnd sumffo_2/ffo_0/nand_4/w_0_0# 0.10fF
-C16 sumffo_0/ffo_0/nand_3/a sumffo_0/ffo_0/nand_3/b 0.31fF
-C17 cla_1/p0 cla_1/l 0.16fF
-C18 ffo_0/nand_6/w_0_0# ffo_0/q 0.06fF
-C19 clk ffipg_3/ffi_0/nand_2/w_0_0# 0.06fF
-C20 ffipg_1/ffi_1/nand_0/w_0_0# gnd 0.10fF
-C21 sumffo_3/ffo_0/nand_0/w_0_0# sumffo_3/ffo_0/inv_0/op 0.06fF
-C22 ffipg_2/ffi_0/nand_1/a ffipg_2/ffi_0/nand_1/w_0_0# 0.06fF
-C23 sumffo_3/xor_0/inv_0/op sumffo_3/xor_0/inv_1/op 0.08fF
-C24 ffipg_1/pggen_0/xor_0/inv_0/op ffipg_1/pggen_0/xor_0/inv_1/op 0.08fF
-C25 sumffo_0/ffo_0/nand_1/a gnd 0.44fF
-C26 sumffo_3/sbar sumffo_3/ffo_0/nand_6/w_0_0# 0.04fF
-C27 inv_3/in nand_2/b 0.13fF
-C28 inv_2/in nand_2/b 0.34fF
-C29 ffi_0/nand_1/w_0_0# gnd 0.10fF
-C30 ffipg_1/ffi_1/nand_6/a ffipg_1/ffi_1/nand_4/w_0_0# 0.04fF
-C31 sumffo_2/xor_0/inv_1/op gnd 0.35fF
-C32 gnd ffipg_0/ffi_1/nand_4/w_0_0# 0.10fF
-C33 clk ffipg_2/ffi_1/inv_1/w_0_6# 0.06fF
-C34 sumffo_2/ffo_0/d sumffo_2/ffo_0/inv_0/op 0.04fF
-C35 ffipg_0/ffi_0/nand_1/w_0_0# gnd 0.10fF
-C36 sumffo_2/ffo_0/nand_0/b sumffo_2/ffo_0/inv_1/w_0_6# 0.03fF
-C37 ffi_0/nand_3/b gnd 0.74fF
-C38 nor_4/a inv_8/in 0.04fF
-C39 sumffo_0/ffo_0/nand_6/w_0_0# sumffo_0/s 0.06fF
-C40 sumffo_3/ffo_0/nand_3/b sumffo_3/ffo_0/nand_4/w_0_0# 0.06fF
-C41 sumffo_0/xor_0/inv_0/op gnd 0.32fF
-C42 nor_4/w_0_0# gnd 0.15fF
-C43 sumffo_1/ffo_0/nand_6/a sumffo_1/sbar 0.00fF
-C44 cla_0/inv_0/op gnd 0.27fF
-C45 ffipg_2/ffi_0/q cla_2/p0 0.03fF
-C46 ffipg_0/ffi_0/nand_5/w_0_0# ffipg_0/ffi_0/nand_1/b 0.06fF
-C47 sumffo_0/sbar sumffo_0/ffo_0/nand_6/a 0.00fF
-C48 nor_0/b sumffo_3/ffo_0/d 0.16fF
-C49 ffipg_1/ffi_0/qbar ffipg_1/ffi_0/nand_7/w_0_0# 0.06fF
-C50 ffipg_0/ffi_0/q gnd 3.00fF
-C51 sumffo_0/ffo_0/nand_1/b sumffo_0/ffo_0/nand_7/a 0.13fF
-C52 ffipg_0/ffi_1/nand_3/b gnd 0.74fF
-C53 ffipg_1/ffi_0/nand_2/w_0_0# ffipg_1/y 0.06fF
-C54 ffipg_3/ffi_1/nand_3/b ffipg_3/ffi_1/nand_3/w_0_0# 0.06fF
-C55 ffipg_3/ffi_0/inv_1/op ffipg_3/ffi_0/nand_5/w_0_0# 0.06fF
-C56 ffipg_0/ffi_1/nand_3/w_0_0# ffipg_0/ffi_1/nand_1/b 0.04fF
-C57 ffipg_3/ffi_0/nand_1/w_0_0# ffipg_3/ffi_0/nand_1/a 0.06fF
-C58 sumffo_0/ffo_0/nand_3/b sumffo_0/ffo_0/nand_1/w_0_0# 0.04fF
-C59 ffipg_3/ffi_1/nand_1/b gnd 0.57fF
-C60 ffipg_0/ffi_0/nand_7/a gnd 0.37fF
-C61 cla_2/l cla_2/p0 0.16fF
-C62 ffipg_2/pggen_0/xor_0/inv_1/op ffipg_2/ffi_0/q 0.22fF
-C63 cla_2/l cla_2/p1 0.02fF
-C64 sumffo_1/ffo_0/nand_7/w_0_0# gnd 0.10fF
-C65 clk ffipg_1/ffi_0/nand_3/a 0.13fF
-C66 ffipg_0/ffi_1/nand_6/a ffipg_0/ffi_1/nand_4/w_0_0# 0.04fF
-C67 cla_0/l ffipg_1/pggen_0/nand_0/w_0_0# 0.04fF
-C68 ffipg_1/ffi_0/qbar ffipg_1/ffi_0/nand_7/a 0.31fF
-C69 ffipg_3/ffi_0/nand_6/w_0_0# ffipg_3/ffi_0/q 0.06fF
-C70 ffipg_2/ffi_0/inv_1/op gnd 1.85fF
-C71 ffipg_3/ffi_0/q ffipg_3/ffi_0/qbar 0.32fF
-C72 ffipg_2/ffi_0/nand_7/w_0_0# gnd 0.10fF
-C73 ffipg_0/pggen_0/xor_0/inv_1/op ffipg_0/pggen_0/xor_0/w_n3_4# 0.06fF
-C74 sumffo_2/ffo_0/d sumffo_2/xor_0/w_n3_4# 0.02fF
-C75 cla_1/nor_1/w_0_0# cla_2/p0 0.06fF
-C76 nor_0/b sumffo_3/xor_0/a_10_10# 0.04fF
-C77 ffipg_2/pggen_0/nand_0/w_0_0# ffipg_2/ffi_0/q 0.06fF
-C78 nor_1/b inv_2/w_0_6# 0.03fF
-C79 ffipg_2/ffi_0/inv_0/w_0_6# ffipg_2/ffi_0/inv_0/op 0.03fF
-C80 clk ffipg_2/ffi_1/nand_3/a 0.13fF
-C81 ffipg_1/ffi_1/inv_1/op ffipg_1/ffi_1/inv_1/w_0_6# 0.04fF
-C82 ffipg_2/ffi_0/nand_3/a clk 0.13fF
-C83 ffipg_1/ffi_1/nand_2/w_0_0# ffipg_1/ffi_1/nand_3/a 0.04fF
-C84 sumffo_1/s gnd 0.80fF
-C85 ffipg_2/ffi_1/nand_7/w_0_0# ffipg_2/ffi_1/qbar 0.06fF
-C86 sumffo_0/ffo_0/inv_1/w_0_6# gnd 0.06fF
-C87 cla_0/inv_0/w_0_6# gnd 0.06fF
-C88 sumffo_0/xor_0/inv_0/op sumffo_0/ffo_0/d 0.06fF
-C89 ffipg_1/ffi_0/nand_1/a ffipg_1/ffi_0/nand_3/b 0.00fF
-C90 cla_0/l ffipg_2/ffi_0/q 0.13fF
-C91 ffipg_1/k ffipg_1/ffi_0/q 0.07fF
-C92 sumffo_3/ffo_0/nand_1/w_0_0# gnd 0.10fF
-C93 ffipg_3/x gnd 0.22fF
-C94 ffipg_3/ffi_1/inv_1/op gnd 1.85fF
-C95 cla_0/l cla_0/inv_0/in 0.07fF
-C96 ffi_0/nand_1/a ffi_0/nand_1/w_0_0# 0.06fF
-C97 ffipg_0/ffi_0/nand_6/a gnd 0.37fF
-C98 clk sumffo_1/ffo_0/nand_5/w_0_0# 0.06fF
-C99 clk ffipg_0/ffi_0/nand_0/w_0_0# 0.06fF
-C100 cla_0/g0 gnd 1.11fF
-C101 ffipg_2/k sumffo_2/xor_0/w_n3_4# 0.06fF
-C102 sumffo_2/ffo_0/nand_7/w_0_0# gnd 0.10fF
-C103 cla_0/l cla_2/l 0.37fF
-C104 nor_3/w_0_0# gnd 0.15fF
-C105 ffipg_3/ffi_0/nand_4/w_0_0# ffipg_3/ffi_0/nand_3/b 0.06fF
-C106 ffipg_3/ffi_0/q ffipg_3/pggen_0/nand_0/w_0_0# 0.06fF
-C107 ffi_0/nand_1/a ffi_0/nand_3/b 0.00fF
-C108 ffipg_2/ffi_1/nand_6/w_0_0# ffipg_2/ffi_1/q 0.06fF
-C109 ffipg_0/ffi_0/nand_1/b ffipg_0/ffi_0/nand_1/w_0_0# 0.06fF
-C110 ffipg_3/ffi_0/nand_1/w_0_0# ffipg_3/ffi_0/nand_1/b 0.06fF
-C111 cla_1/p0 cla_0/g0 0.38fF
-C112 ffipg_3/ffi_1/q ffipg_3/k 0.46fF
-C113 ffipg_1/ffi_1/nand_6/w_0_0# ffipg_1/ffi_1/qbar 0.04fF
-C114 ffipg_1/ffi_0/nand_4/w_0_0# ffipg_1/ffi_0/nand_3/b 0.06fF
-C115 cla_2/inv_0/op cla_2/nand_0/w_0_0# 0.06fF
-C116 gnd ffi_0/inv_0/w_0_6# 0.06fF
-C117 ffipg_2/ffi_0/q ffipg_2/k 0.07fF
-C118 gnd ffipg_1/pggen_0/xor_0/w_n3_4# 0.12fF
-C119 inv_3/in nor_2/b 0.04fF
-C120 cla_0/l cla_1/nor_1/w_0_0# 0.09fF
-C121 ffipg_3/ffi_0/nand_2/w_0_0# gnd 0.10fF
-C122 ffipg_1/ffi_0/nand_7/a ffipg_1/ffi_0/nand_7/w_0_0# 0.06fF
-C123 ffipg_1/k ffipg_1/pggen_0/nor_0/a_13_6# 0.01fF
-C124 sumffo_3/ffo_0/nand_3/b sumffo_3/ffo_0/nand_1/a 0.00fF
-C125 inv_8/w_0_6# gnd 0.15fF
-C126 ffi_0/nand_6/w_0_0# gnd 0.10fF
-C127 ffipg_2/pggen_0/xor_0/inv_0/op gnd 0.32fF
-C128 ffipg_0/ffi_1/nand_3/a clk 0.13fF
-C129 ffipg_0/pggen_0/xor_0/a_10_10# ffipg_0/ffi_0/q 0.12fF
-C130 ffipg_0/ffi_0/nand_1/b ffipg_0/ffi_0/nand_7/a 0.13fF
-C131 nor_0/b inv_8/in 0.13fF
-C132 sumffo_2/ffo_0/nand_1/b sumffo_2/ffo_0/nand_3/w_0_0# 0.04fF
-C133 ffipg_3/ffi_1/nand_3/a ffipg_3/ffi_1/nand_3/b 0.31fF
-C134 sumffo_3/ffo_0/nand_0/w_0_0# gnd 0.10fF
-C135 inv_0/op cla_0/g0 0.33fF
-C136 ffipg_1/ffi_1/nand_4/w_0_0# gnd 0.10fF
-C137 ffo_0/nand_1/b ffo_0/nand_5/w_0_0# 0.06fF
-C138 sumffo_0/xor_0/inv_1/op sumffo_0/xor_0/inv_0/op 0.08fF
-C139 sumffo_0/ffo_0/inv_0/w_0_6# sumffo_0/ffo_0/inv_0/op 0.03fF
-C140 ffipg_3/ffi_0/nand_6/w_0_0# gnd 0.10fF
-C141 cla_2/nor_0/w_0_0# cla_2/p0 0.06fF
-C142 cla_2/nor_0/w_0_0# cla_2/p1 0.06fF
-C143 ffipg_3/ffi_0/qbar gnd 0.67fF
-C144 ffipg_3/pggen_0/xor_0/inv_1/op ffipg_3/ffi_0/q 0.22fF
-C145 clk ffi_0/inv_1/w_0_6# 0.06fF
-C146 ffipg_2/ffi_1/inv_1/w_0_6# gnd 0.06fF
-C147 cla_0/n gnd 1.18fF
-C148 nor_0/b sumffo_2/ffo_0/d 0.27fF
-C149 ffipg_0/ffi_0/inv_0/op ffipg_0/y 0.04fF
-C150 ffipg_0/ffi_0/nand_3/a ffipg_0/ffi_0/nand_3/b 0.31fF
-C151 cla_0/l nor_0/b 0.33fF
-C152 ffipg_3/ffi_1/nand_3/b gnd 0.74fF
-C153 ffi_0/nand_6/a ffi_0/nand_4/w_0_0# 0.04fF
-C154 clk sumffo_1/ffo_0/inv_1/w_0_6# 0.06fF
-C155 inv_2/w_0_6# inv_2/in 0.10fF
-C156 ffipg_0/ffi_0/q ffipg_0/pggen_0/xor_0/inv_0/op 0.20fF
-C157 sumffo_0/ffo_0/nand_7/w_0_0# gnd 0.10fF
-C158 ffipg_1/ffi_0/nand_3/w_0_0# ffipg_1/ffi_0/nand_3/b 0.06fF
-C159 ffipg_1/pggen_0/xor_0/inv_0/w_0_6# gnd 0.09fF
-C160 ffo_0/inv_0/op gnd 0.37fF
-C161 nor_0/b nand_2/b 0.04fF
-C162 sumffo_3/ffo_0/nand_1/b sumffo_3/ffo_0/nand_1/a 0.31fF
-C163 sumffo_2/ffo_0/nand_3/b sumffo_2/ffo_0/nand_4/w_0_0# 0.06fF
-C164 ffo_0/qbar gnd 0.62fF
-C165 cla_2/inv_0/in cla_2/g1 0.04fF
-C166 gnd ffipg_0/ffi_1/nand_5/w_0_0# 0.10fF
-C167 ffo_0/inv_0/op ffo_0/nand_0/b 0.32fF
-C168 gnd sumffo_2/s 0.80fF
-C169 ffipg_3/ffi_1/nand_3/a clk 0.13fF
-C170 cla_0/l cla_1/n 0.13fF
-C171 cla_0/nor_0/w_0_0# nor_0/a 0.06fF
-C172 sumffo_3/ffo_0/inv_0/op gnd 0.52fF
-C173 sumffo_1/xor_0/w_n3_4# nand_2/b 0.06fF
-C174 sumffo_1/ffo_0/nand_6/w_0_0# sumffo_1/s 0.06fF
-C175 gnd ffipg_0/ffi_1/qbar 0.67fF
-C176 sumffo_1/ffo_0/nand_3/a gnd 0.48fF
-C177 sumffo_3/ffo_0/nand_3/a gnd 0.33fF
-C178 ffipg_3/pggen_0/xor_0/inv_0/op ffipg_3/pggen_0/xor_0/inv_0/w_0_6# 0.03fF
-C179 ffipg_1/ffi_0/nand_3/a gnd 0.33fF
-C180 cla_0/n inv_1/in 0.02fF
-C181 clk gnd 24.51fF
-C182 ffipg_3/ffi_1/nand_3/a ffipg_3/ffi_1/nand_3/w_0_0# 0.06fF
-C183 ffipg_3/pggen_0/nand_0/w_0_0# gnd 0.10fF
-C184 ffipg_1/ffi_1/nand_6/a gnd 0.37fF
-C185 ffipg_0/ffi_0/nand_3/a ffipg_0/ffi_0/nand_3/w_0_0# 0.06fF
-C186 clk ffo_0/nand_0/b 0.04fF
-C187 ffipg_2/ffi_1/nand_3/w_0_0# ffipg_2/ffi_1/nand_3/a 0.06fF
-C188 sumffo_0/ffo_0/nand_3/w_0_0# sumffo_0/ffo_0/nand_3/b 0.06fF
-C189 ffipg_3/ffi_1/nand_3/w_0_0# gnd 0.11fF
-C190 ffipg_2/ffi_1/nand_3/a gnd 0.33fF
-C191 sumffo_2/ffo_0/nand_0/w_0_0# gnd 0.10fF
-C192 inv_3/w_0_6# nand_2/b 0.06fF
-C193 ffipg_2/ffi_0/nand_3/a gnd 0.33fF
-C194 ffipg_1/ffi_1/nand_0/w_0_0# ffipg_1/ffi_1/inv_0/op 0.06fF
-C195 ffipg_3/ffi_0/nand_7/w_0_0# ffipg_3/ffi_0/qbar 0.06fF
-C196 cla_1/inv_0/in gnd 0.34fF
-C197 sumffo_2/ffo_0/nand_1/b sumffo_2/ffo_0/nand_1/a 0.31fF
-C198 clk ffipg_0/ffi_1/inv_0/op 0.32fF
-C199 sumffo_1/ffo_0/nand_1/a gnd 0.44fF
-C200 sumffo_1/xor_0/a_10_10# nand_2/b 0.12fF
-C201 ffipg_3/ffi_1/q cla_2/p1 0.22fF
-C202 ffipg_1/pggen_0/nor_0/w_0_0# gnd 0.11fF
-C203 ffipg_0/ffi_1/nand_6/a ffipg_0/ffi_1/qbar 0.00fF
-C204 ffipg_2/pggen_0/xor_0/inv_1/op ffipg_2/pggen_0/xor_0/w_n3_4# 0.06fF
-C205 sumffo_1/ffo_0/nand_5/w_0_0# gnd 0.10fF
-C206 inv_4/in inv_4/op 0.04fF
-C207 ffipg_3/ffi_1/qbar ffipg_3/ffi_1/nand_6/a 0.00fF
-C208 gnd ffipg_0/ffi_0/nand_0/w_0_0# 0.10fF
-C209 ffipg_3/pggen_0/xor_0/inv_1/op gnd 0.35fF
-C210 ffipg_1/pggen_0/nor_0/w_0_0# cla_1/p0 0.05fF
-C211 clk sumffo_3/ffo_0/nand_5/w_0_0# 0.06fF
-C212 ffipg_1/ffi_0/nand_5/w_0_0# ffipg_1/ffi_0/nand_7/a 0.04fF
-C213 ffipg_3/ffi_0/q gnd 3.00fF
-C214 nor_3/w_0_0# nor_3/b 0.06fF
-C215 clk sumffo_0/ffo_0/d 0.25fF
-C216 ffipg_2/ffi_1/qbar ffipg_2/ffi_1/nand_7/a 0.31fF
-C217 ffo_0/nand_7/a ffo_0/qbar 0.31fF
-C218 ffipg_0/ffi_1/nand_1/w_0_0# gnd 0.10fF
-C219 ffipg_0/pggen_0/xor_0/w_n3_4# ffipg_0/ffi_1/q 0.06fF
-C220 sumffo_2/xor_0/inv_0/op gnd 0.32fF
-C221 inv_7/op inv_8/w_0_6# 0.06fF
-C222 ffipg_2/ffi_0/nand_7/a ffipg_2/ffi_0/nand_7/w_0_0# 0.06fF
-C223 ffipg_1/ffi_1/qbar ffipg_1/ffi_1/nand_7/w_0_0# 0.06fF
-C224 sumffo_0/sbar sumffo_0/ffo_0/nand_6/w_0_0# 0.04fF
-C225 ffipg_0/ffi_0/nand_5/w_0_0# ffipg_0/ffi_0/inv_1/op 0.06fF
-C226 ffipg_3/ffi_1/nand_7/a ffipg_3/ffi_1/qbar 0.31fF
-C227 ffipg_0/ffi_1/nand_3/a gnd 0.33fF
-C228 ffipg_2/ffi_1/inv_0/w_0_6# gnd 0.06fF
-C229 sumffo_3/sbar sumffo_3/ffo_0/nand_7/w_0_0# 0.06fF
-C230 sumffo_1/ffo_0/nand_2/w_0_0# sumffo_1/ffo_0/nand_0/b 0.06fF
-C231 sumffo_0/ffo_0/nand_7/w_0_0# sumffo_0/s 0.04fF
-C232 ffipg_0/ffi_1/nand_6/w_0_0# ffipg_0/ffi_1/qbar 0.04fF
-C233 cla_2/g1 cla_2/p1 0.00fF
-C234 ffi_0/nand_1/a clk 0.13fF
-C235 ffipg_1/ffi_1/q ffipg_1/pggen_0/xor_0/inv_0/op 0.27fF
-C236 sumffo_2/ffo_0/nand_2/w_0_0# gnd 0.10fF
-C237 nor_0/b sumffo_3/xor_0/inv_1/op 0.04fF
-C238 ffi_0/nand_1/b ffi_0/inv_1/op 0.45fF
-C239 ffi_0/nand_3/w_0_0# gnd 0.11fF
-C240 ffipg_2/ffi_0/nand_6/a ffipg_2/ffi_0/inv_1/op 0.13fF
-C241 ffo_0/nand_1/a ffo_0/nand_1/w_0_0# 0.06fF
-C242 ffi_0/inv_1/w_0_6# gnd 0.06fF
-C243 cla_0/nand_0/w_0_0# cla_0/inv_0/op 0.06fF
-C244 ffo_0/nand_1/b ffo_0/nand_1/w_0_0# 0.06fF
-C245 cla_0/l nor_0/a 0.16fF
-C246 ffipg_1/k cla_0/g0 0.06fF
-C247 sumffo_1/ffo_0/inv_1/w_0_6# gnd 0.06fF
-C248 ffipg_0/ffi_1/nand_7/w_0_0# ffipg_0/ffi_1/q 0.04fF
-C249 ffo_0/d ffo_0/inv_0/w_0_6# 0.06fF
-C250 ffipg_3/ffi_0/q ffipg_3/ffi_0/nand_7/w_0_0# 0.04fF
-C251 ffipg_2/pggen_0/xor_0/w_n3_4# ffipg_2/k 0.02fF
-C252 cla_1/n nor_2/b 0.39fF
-C253 clk ffipg_2/ffi_0/nand_0/w_0_0# 0.06fF
-C254 ffipg_3/ffi_1/nand_3/a gnd 0.33fF
-C255 ffipg_0/ffi_0/nand_0/a_13_n26# gnd 0.01fF
-C256 ffipg_1/k ffipg_1/pggen_0/xor_0/w_n3_4# 0.02fF
-C257 nor_0/b inv_2/w_0_6# 0.06fF
-C258 ffipg_2/ffi_1/nand_3/w_0_0# gnd 0.11fF
-C259 inv_4/in nor_2/b 0.16fF
-C260 inv_3/w_0_6# nor_2/b 0.03fF
-C261 ffipg_1/ffi_0/inv_1/op ffipg_1/ffi_0/nand_3/b 0.33fF
-C262 ffipg_0/ffi_0/nand_3/b ffipg_0/ffi_0/nand_1/w_0_0# 0.04fF
-C263 ffo_0/nand_0/b gnd 0.58fF
-C264 cla_0/l cla_2/g1 0.26fF
-C265 ffipg_3/ffi_1/q ffipg_3/ffi_1/nand_6/a 0.31fF
-C266 ffi_0/nand_7/a gnd 0.33fF
-C267 ffipg_1/ffi_0/nand_6/a gnd 0.37fF
-C268 cla_1/nand_0/w_0_0# cla_1/inv_0/op 0.06fF
-C269 cla_1/p0 gnd 1.06fF
-C270 ffipg_0/ffi_1/nand_2/w_0_0# clk 0.06fF
-C271 sumffo_1/ffo_0/nand_2/w_0_0# sumffo_1/ffo_0/d 0.06fF
-C272 sumffo_1/ffo_0/nand_1/w_0_0# sumffo_1/ffo_0/nand_1/b 0.06fF
-C273 sumffo_3/xor_0/a_10_10# ffipg_3/k 0.12fF
-C274 ffipg_0/pggen_0/xor_0/inv_0/w_0_6# gnd 0.09fF
-C275 sumffo_2/xor_0/inv_1/w_0_6# ffipg_2/k 0.23fF
-C276 ffipg_0/ffi_1/inv_0/op gnd 0.27fF
-C277 sumffo_1/ffo_0/nand_3/w_0_0# sumffo_1/ffo_0/nand_1/b 0.04fF
-C278 ffo_0/nand_2/a_13_n26# gnd 0.01fF
-C279 inv_1/in gnd 0.35fF
-C280 inv_0/in gnd 0.30fF
-C281 ffo_0/nand_3/a gnd 0.49fF
-C282 sumffo_3/ffo_0/nand_0/w_0_0# sumffo_3/ffo_0/nand_0/b 0.06fF
-C283 ffipg_2/ffi_1/nand_3/w_0_0# ffipg_2/ffi_1/nand_1/b 0.04fF
-C284 ffipg_0/ffi_1/nand_6/a gnd 0.37fF
-C285 ffipg_3/ffi_1/nand_7/a ffipg_3/ffi_1/q 0.00fF
-C286 sumffo_3/xor_0/w_n3_4# gnd 0.12fF
-C287 inv_0/op gnd 0.27fF
-C288 ffipg_3/ffi_0/inv_1/op ffipg_3/ffi_0/nand_4/w_0_0# 0.06fF
-C289 sumffo_2/ffo_0/nand_6/a sumffo_2/ffo_0/nand_4/w_0_0# 0.04fF
-C290 cla_2/p0 ffipg_3/k 0.06fF
-C291 ffipg_3/k cla_2/p1 0.05fF
-C292 ffipg_2/ffi_1/nand_1/b gnd 0.57fF
-C293 ffo_0/nand_3/a ffo_0/nand_0/b 0.13fF
-C294 sumffo_3/ffo_0/nand_5/w_0_0# gnd 0.10fF
-C295 nor_4/b inv_6/in 0.04fF
-C296 ffo_0/q ffo_0/qbar 0.32fF
-C297 clk sumffo_2/ffo_0/nand_0/b 0.04fF
-C298 clk ffipg_3/ffi_0/nand_1/a 0.13fF
-C299 clk sumffo_2/ffo_0/nand_3/b 0.33fF
-C300 cla_2/inv_0/in cla_2/p1 0.02fF
-C301 nor_2/w_0_0# cla_1/n 0.06fF
-C302 sumffo_0/ffo_0/d gnd 0.41fF
-C303 ffipg_3/ffi_0/nand_7/w_0_0# gnd 0.10fF
-C304 sumffo_3/xor_0/a_10_10# sumffo_3/ffo_0/d 0.45fF
-C305 ffipg_0/ffi_0/nand_3/a ffipg_0/ffi_0/nand_2/w_0_0# 0.04fF
-C306 ffi_0/nand_6/w_0_0# ffi_0/nand_6/a 0.06fF
-C307 sumffo_2/ffo_0/nand_0/w_0_0# sumffo_2/ffo_0/nand_0/b 0.06fF
-C308 sumffo_3/ffo_0/inv_0/op sumffo_3/ffo_0/nand_0/b 0.32fF
-C309 ffipg_3/ffi_1/nand_1/a ffipg_3/ffi_1/nand_1/w_0_0# 0.06fF
-C310 ffipg_3/pggen_0/xor_0/w_n3_4# ffipg_3/pggen_0/xor_0/inv_0/op 0.06fF
-C311 ffipg_2/ffi_1/inv_1/op ffipg_2/ffi_1/nand_5/w_0_0# 0.06fF
-C312 inv_4/in nor_2/w_0_0# 0.11fF
-C313 sumffo_1/ffo_0/nand_4/w_0_0# clk 0.06fF
-C314 inv_0/in inv_0/op 0.04fF
-C315 sumffo_3/ffo_0/nand_3/a sumffo_3/ffo_0/nand_0/b 0.13fF
-C316 sumffo_1/xor_0/inv_0/op gnd 0.32fF
-C317 clk ffipg_1/ffi_1/inv_0/op 0.32fF
-C318 ffo_0/nand_7/a gnd 0.33fF
-C319 ffipg_3/ffi_1/nand_6/w_0_0# ffipg_3/ffi_1/qbar 0.04fF
-C320 ffipg_3/ffi_1/q ffipg_3/pggen_0/xor_0/inv_0/w_0_6# 0.06fF
-C321 ffi_0/nand_1/a gnd 0.44fF
-C322 ffipg_2/x clk 0.64fF
-C323 clk sumffo_3/ffo_0/nand_0/b 0.04fF
-C324 cla_0/n cla_0/nand_0/w_0_0# 0.04fF
-C325 ffipg_0/ffi_1/nand_6/w_0_0# gnd 0.10fF
-C326 ffipg_0/ffi_0/nand_1/b gnd 0.57fF
-C327 ffipg_1/ffi_1/q ffipg_1/ffi_1/nand_6/w_0_0# 0.06fF
-C328 ffipg_1/k ffipg_1/pggen_0/nor_0/w_0_0# 0.21fF
-C329 ffipg_0/ffi_1/nand_3/a ffipg_0/ffi_1/nand_2/w_0_0# 0.04fF
-C330 sumffo_0/ffo_0/nand_1/a sumffo_0/ffo_0/nand_1/w_0_0# 0.06fF
-C331 ffipg_2/ffi_0/nand_4/w_0_0# ffipg_2/ffi_0/inv_1/op 0.06fF
-C332 ffipg_1/ffi_1/nand_1/b ffipg_1/ffi_1/nand_3/b 0.32fF
-C333 ffipg_1/ffi_0/nand_1/a clk 0.13fF
-C334 ffipg_0/ffi_0/q ffipg_0/pggen_0/xor_0/inv_1/w_0_6# 0.23fF
-C335 ffipg_2/ffi_1/nand_7/w_0_0# gnd 0.10fF
-C336 ffipg_0/ffi_0/nand_6/a ffipg_0/ffi_0/inv_1/op 0.13fF
-C337 sumffo_1/ffo_0/nand_7/w_0_0# sumffo_1/ffo_0/nand_7/a 0.06fF
-C338 sumffo_2/ffo_0/nand_1/b sumffo_2/ffo_0/nand_5/w_0_0# 0.06fF
-C339 ffipg_0/pggen_0/xor_0/a_10_10# gnd 0.93fF
-C340 ffipg_0/pggen_0/nand_0/w_0_0# ffipg_0/ffi_0/q 0.06fF
-C341 cla_0/l ffipg_3/k 0.10fF
-C342 sumffo_1/ffo_0/nand_6/w_0_0# gnd 0.10fF
-C343 ffipg_3/y ffipg_3/ffi_0/inv_0/w_0_6# 0.06fF
-C344 clk ffipg_0/ffi_1/nand_0/w_0_0# 0.06fF
-C345 nor_0/a ffipg_0/ffi_1/q 0.22fF
-C346 cla_2/n inv_6/in 0.02fF
-C347 gnd sumffo_0/s 0.80fF
-C348 cla_0/l cla_2/inv_0/in 0.16fF
-C349 sumffo_3/ffo_0/nand_1/w_0_0# sumffo_3/ffo_0/nand_1/a 0.06fF
-C350 clk sumffo_3/ffo_0/nand_4/w_0_0# 0.06fF
-C351 ffipg_2/ffi_0/nand_0/w_0_0# gnd 0.10fF
-C352 sumffo_1/s sumffo_1/ffo_0/nand_7/a 0.00fF
-C353 sumffo_0/xor_0/inv_1/op gnd 0.35fF
-C354 ffipg_1/ffi_0/nand_1/b ffipg_1/ffi_0/nand_3/b 0.32fF
-C355 inv_1/op sumffo_2/xor_0/inv_1/op 0.06fF
-C356 ffipg_3/ffi_0/nand_6/a ffipg_3/ffi_0/inv_1/op 0.13fF
-C357 ffipg_0/ffi_1/nand_6/a ffipg_0/ffi_1/nand_6/w_0_0# 0.06fF
-C358 ffipg_0/pggen_0/xor_0/inv_0/op gnd 0.32fF
-C359 inv_7/op gnd 0.27fF
-C360 nor_3/b gnd 0.33fF
-C361 sumffo_2/ffo_0/nand_0/b sumffo_2/ffo_0/nand_2/w_0_0# 0.06fF
-C362 ffipg_3/ffi_1/nand_0/w_0_0# ffipg_3/ffi_1/inv_0/op 0.06fF
-C363 ffipg_0/k ffipg_0/pggen_0/xor_0/w_n3_4# 0.02fF
-C364 ffipg_3/k inv_4/op 0.09fF
-C365 sumffo_3/sbar sumffo_3/s 0.32fF
-C366 ffipg_0/ffi_1/nand_2/w_0_0# gnd 0.10fF
-C367 ffipg_0/ffi_0/inv_0/w_0_6# gnd 0.06fF
-C368 ffipg_3/ffi_1/nand_1/b ffipg_3/ffi_1/nand_1/a 0.31fF
-C369 ffipg_2/ffi_1/qbar ffipg_2/ffi_1/q 0.32fF
-C370 ffipg_0/pggen_0/xor_0/inv_0/w_0_6# ffipg_0/pggen_0/xor_0/inv_0/op 0.03fF
-C371 cla_2/p0 cla_2/p1 0.24fF
-C372 sumffo_2/ffo_0/nand_6/w_0_0# sumffo_2/s 0.06fF
-C373 cla_0/l cla_0/nor_0/w_0_0# 0.05fF
-C374 ffipg_3/ffi_1/nand_7/w_0_0# gnd 0.10fF
-C375 ffipg_0/ffi_1/nand_1/b ffipg_0/ffi_1/nand_7/a 0.13fF
-C376 ffipg_2/x ffipg_2/ffi_1/inv_0/w_0_6# 0.06fF
-C377 ffipg_1/ffi_0/nand_3/w_0_0# ffipg_1/ffi_0/nand_3/a 0.06fF
-C378 ffipg_0/pggen_0/nand_0/w_0_0# cla_0/g0 0.04fF
-C379 sumffo_3/ffo_0/nand_0/w_0_0# sumffo_3/ffo_0/nand_1/a 0.04fF
-C380 ffipg_2/ffi_0/nand_1/a clk 0.13fF
-C381 ffo_0/nand_3/b ffo_0/nand_3/w_0_0# 0.06fF
-C382 clk ffipg_0/ffi_1/inv_1/w_0_6# 0.06fF
-C383 gnd ffipg_0/ffi_1/inv_0/w_0_6# 0.06fF
-C384 ffi_0/inv_1/op ffi_0/nand_4/w_0_0# 0.06fF
-C385 sumffo_0/xor_0/inv_1/op sumffo_0/ffo_0/d 0.52fF
-C386 ffipg_3/ffi_1/nand_6/w_0_0# ffipg_3/ffi_1/q 0.06fF
-C387 sumffo_2/sbar sumffo_2/ffo_0/nand_7/a 0.31fF
-C388 sumffo_2/ffo_0/nand_0/b gnd 0.63fF
-C389 gnd ffipg_3/ffi_0/nand_1/a 0.44fF
-C390 sumffo_2/ffo_0/nand_3/b gnd 0.74fF
-C391 nor_0/b ffipg_0/k 0.19fF
-C392 sumffo_0/ffo_0/nand_7/w_0_0# sumffo_0/sbar 0.06fF
-C393 ffi_0/nand_1/b ffi_0/nand_5/w_0_0# 0.06fF
-C394 ffipg_3/ffi_0/nand_1/w_0_0# ffipg_3/ffi_0/nand_3/b 0.04fF
-C395 clk ffipg_1/ffi_0/inv_1/w_0_6# 0.06fF
-C396 ffipg_1/ffi_0/inv_0/op clk 0.32fF
-C397 ffipg_0/ffi_0/inv_1/op clk 0.07fF
-C398 ffipg_2/pggen_0/nand_0/w_0_0# cla_2/p0 0.24fF
-C399 ffipg_1/k gnd 0.70fF
-C400 ffipg_3/ffi_0/q ffipg_3/pggen_0/nor_0/w_0_0# 0.06fF
-C401 ffipg_2/ffi_0/nand_7/a gnd 0.37fF
-C402 sumffo_0/ffo_0/nand_1/b sumffo_0/ffo_0/nand_3/b 0.32fF
-C403 ffi_0/nand_7/w_0_0# gnd 0.10fF
-C404 ffipg_1/ffi_1/nand_7/a gnd 0.37fF
-C405 ffipg_2/ffi_1/nand_6/a ffipg_2/ffi_1/nand_6/w_0_0# 0.06fF
-C406 ffipg_0/ffi_1/inv_0/op ffipg_0/ffi_1/inv_0/w_0_6# 0.03fF
-C407 ffipg_1/k cla_1/p0 0.05fF
-C408 nor_0/w_0_0# nor_0/b 0.23fF
-C409 ffo_0/q gnd 0.80fF
-C410 cla_2/inv_0/op gnd 0.27fF
-C411 sumffo_2/xor_0/a_10_10# sumffo_2/xor_0/w_n3_4# 0.16fF
-C412 cla_0/nor_1/w_0_0# cla_0/g0 0.06fF
-C413 ffi_0/nand_7/a ffi_0/nand_7/w_0_0# 0.06fF
-C414 ffipg_1/ffi_0/q ffipg_1/pggen_0/nand_0/w_0_0# 0.06fF
-C415 nor_0/b sumffo_3/xor_0/a_38_n43# 0.01fF
-C416 ffipg_2/ffi_0/nand_1/b ffipg_2/ffi_0/nand_5/w_0_0# 0.06fF
-C417 sumffo_1/ffo_0/nand_4/w_0_0# gnd 0.10fF
-C418 cla_0/l cla_2/p1 0.30fF
-C419 cla_0/l cla_2/p0 0.44fF
-C420 ffipg_2/pggen_0/xor_0/a_10_10# gnd 0.93fF
-C421 ffipg_0/pggen_0/nor_0/w_0_0# nor_0/a 0.05fF
-C422 ffipg_2/ffi_0/nand_6/a gnd 0.37fF
-C423 ffipg_1/ffi_1/nand_3/b ffipg_1/ffi_1/nand_3/a 0.31fF
-C424 ffipg_1/ffi_1/inv_0/op gnd 0.27fF
-C425 sumffo_3/ffo_0/nand_0/b gnd 0.53fF
-C426 ffipg_2/x gnd 0.22fF
-C427 sumffo_0/xor_0/w_n3_4# ffipg_0/k 0.06fF
-C428 ffipg_1/ffi_0/nand_1/a gnd 0.44fF
-C429 ffipg_3/k sumffo_3/xor_0/inv_1/op 0.22fF
-C430 ffi_0/nand_3/a ffi_0/nand_3/b 0.31fF
-C431 ffipg_1/ffi_1/q ffipg_1/ffi_1/nand_7/w_0_0# 0.04fF
-C432 sumffo_2/ffo_0/nand_6/a sumffo_2/s 0.31fF
-C433 sumffo_3/xor_0/inv_1/w_0_6# ffipg_3/k 0.23fF
-C434 sumffo_3/ffo_0/nand_6/a sumffo_3/ffo_0/nand_6/w_0_0# 0.06fF
-C435 ffipg_1/ffi_0/nand_1/w_0_0# ffipg_1/ffi_0/nand_3/b 0.04fF
-C436 ffipg_0/ffi_1/nand_3/b ffipg_0/ffi_1/nand_1/b 0.32fF
-C437 ffipg_0/ffi_1/nand_0/w_0_0# gnd 0.10fF
-C438 sumffo_0/ffo_0/nand_2/w_0_0# gnd 0.10fF
-C439 sumffo_1/ffo_0/nand_3/b sumffo_1/ffo_0/nand_3/a 0.31fF
-C440 cla_0/n cla_1/inv_0/op 0.06fF
-C441 cla_2/p0 ffipg_2/k 0.05fF
-C442 cla_0/l ffipg_2/pggen_0/nand_0/w_0_0# 0.04fF
-C443 ffipg_1/ffi_1/nand_1/w_0_0# ffipg_1/ffi_1/nand_1/a 0.06fF
-C444 sumffo_3/ffo_0/nand_4/w_0_0# gnd 0.10fF
-C445 sumffo_1/ffo_0/nand_3/b clk 0.33fF
-C446 clk sumffo_2/ffo_0/nand_6/a 0.13fF
-C447 inv_7/w_0_6# gnd 0.15fF
-C448 cla_2/inv_0/in cla_2/inv_0/w_0_6# 0.06fF
-C449 ffipg_1/ffi_0/nand_0/a_13_n26# gnd 0.01fF
-C450 gnd ffipg_3/ffi_0/nand_1/b 0.57fF
-C451 ffipg_1/ffi_0/nand_4/w_0_0# gnd 0.10fF
-C452 ffi_0/nand_6/a gnd 0.33fF
-C453 cla_0/nand_0/w_0_0# gnd 0.10fF
-C454 ffipg_3/ffi_1/nand_3/b ffipg_3/ffi_1/nand_1/a 0.00fF
-C455 ffipg_1/ffi_0/nand_6/a ffipg_1/ffi_0/nand_4/w_0_0# 0.04fF
-C456 ffipg_0/ffi_1/inv_0/op ffipg_0/ffi_1/nand_0/w_0_0# 0.06fF
-C457 inv_9/in nor_4/a 0.02fF
-C458 sumffo_3/xor_0/inv_0/w_0_6# inv_4/op 0.06fF
-C459 sumffo_1/ffo_0/nand_7/w_0_0# sumffo_1/sbar 0.06fF
-C460 ffipg_2/ffi_1/nand_7/a gnd 0.37fF
-C461 ffipg_2/pggen_0/xor_0/inv_1/op ffipg_2/k 0.52fF
-C462 clk ffipg_2/ffi_1/inv_0/op 0.32fF
-C463 sumffo_3/ffo_0/d sumffo_3/xor_0/inv_1/op 0.52fF
-C464 ffipg_1/k sumffo_1/xor_0/inv_0/op 0.27fF
-C465 ffipg_1/ffi_0/inv_0/w_0_6# gnd 0.06fF
-C466 clk ffipg_1/ffi_0/nand_0/w_0_0# 0.06fF
-C467 ffipg_3/ffi_0/nand_0/w_0_0# clk 0.06fF
-C468 ffipg_1/ffi_1/nand_0/w_0_0# ffipg_1/ffi_1/nand_1/a 0.04fF
-C469 sumffo_1/ffo_0/nand_3/b sumffo_1/ffo_0/nand_1/a 0.00fF
-C470 sumffo_1/ffo_0/nand_5/w_0_0# sumffo_1/ffo_0/nand_7/a 0.04fF
-C471 ffipg_3/pggen_0/nor_0/w_0_0# gnd 0.11fF
-C472 cla_0/l nand_2/b 0.06fF
-C473 clk sumffo_3/ffo_0/inv_1/w_0_6# 0.06fF
-C474 ffo_0/q ffo_0/nand_7/a 0.00fF
-C475 ffipg_2/ffi_0/inv_0/w_0_6# gnd 0.06fF
-C476 ffo_0/nand_1/b clk 0.45fF
-C477 nor_0/b sumffo_2/xor_0/a_10_10# 0.04fF
-C478 sumffo_3/ffo_0/nand_7/a sumffo_3/ffo_0/nand_7/w_0_0# 0.06fF
-C479 sumffo_1/s sumffo_1/sbar 0.32fF
-C480 ffipg_3/ffi_1/nand_1/a clk 0.13fF
-C481 ffipg_3/ffi_1/inv_0/w_0_6# ffipg_3/ffi_1/inv_0/op 0.03fF
-C482 ffipg_3/pggen_0/xor_0/w_n3_4# ffipg_3/ffi_1/q 0.06fF
-C483 ffipg_1/ffi_0/q ffipg_1/pggen_0/xor_0/inv_1/op 0.22fF
-C484 inv_9/in nor_4/b 0.16fF
-C485 sumffo_0/ffo_0/nand_2/w_0_0# sumffo_0/ffo_0/d 0.06fF
-C486 ffipg_2/pggen_0/xor_0/inv_0/op ffipg_2/ffi_1/q 0.27fF
-C487 cla_2/n cla_2/nand_0/w_0_0# 0.04fF
-C488 ffipg_1/ffi_0/nand_3/w_0_0# gnd 0.11fF
-C489 cla_0/l ffipg_2/k 0.10fF
-C490 ffi_0/inv_1/op ffi_0/nand_3/b 0.33fF
-C491 ffipg_2/ffi_0/nand_1/a gnd 0.44fF
-C492 ffipg_0/ffi_1/inv_1/w_0_6# gnd 0.06fF
-C493 sumffo_2/ffo_0/nand_6/w_0_0# gnd 0.10fF
-C494 cla_1/inv_0/op cla_1/inv_0/in 0.04fF
-C495 ffipg_0/ffi_0/nand_3/b gnd 0.74fF
-C496 ffipg_2/ffi_1/nand_2/w_0_0# clk 0.06fF
-C497 cla_0/n nor_1/b 0.36fF
-C498 ffipg_2/ffi_1/nand_7/a ffipg_2/ffi_1/nand_1/b 0.13fF
-C499 ffipg_2/ffi_1/nand_3/b ffipg_2/ffi_1/nand_3/a 0.31fF
-C500 ffipg_0/ffi_1/nand_1/a ffipg_0/ffi_1/nand_3/b 0.00fF
-C501 ffipg_2/k nand_2/b 0.06fF
-C502 ffipg_0/k nor_0/a 0.05fF
-C503 nor_4/a nor_4/w_0_0# 0.07fF
-C504 ffipg_1/ffi_0/inv_1/w_0_6# gnd 0.06fF
-C505 ffipg_1/ffi_0/inv_0/op gnd 0.27fF
-C506 ffipg_0/ffi_0/inv_1/op gnd 1.85fF
-C507 ffipg_2/ffi_1/nand_2/w_0_0# ffipg_2/ffi_1/nand_3/a 0.04fF
-C508 clk ffipg_1/ffi_0/inv_1/op 0.07fF
-C509 clk ffipg_1/x 0.64fF
-C510 sumffo_2/xor_0/inv_1/op sumffo_2/xor_0/w_n3_4# 0.06fF
-C511 nor_0/w_0_0# nor_0/a 0.06fF
-C512 cla_0/l inv_7/in 0.13fF
-C513 sumffo_3/ffo_0/d sumffo_3/ffo_0/nand_2/w_0_0# 0.06fF
-C514 clk ffipg_0/ffi_0/inv_1/w_0_6# 0.06fF
-C515 sumffo_0/xor_0/a_10_10# gnd 0.93fF
-C516 cla_1/nand_0/w_0_0# cla_1/n 0.04fF
-C517 ffipg_2/ffi_1/inv_0/w_0_6# ffipg_2/ffi_1/inv_0/op 0.03fF
-C518 ffipg_0/ffi_0/nand_3/w_0_0# gnd 0.11fF
-C519 sumffo_0/sbar gnd 0.62fF
-C520 ffipg_2/pggen_0/xor_0/inv_0/op ffipg_2/pggen_0/xor_0/inv_0/w_0_6# 0.03fF
-C521 ffipg_1/ffi_1/nand_5/w_0_0# gnd 0.10fF
-C522 ffipg_2/ffi_0/nand_4/w_0_0# gnd 0.10fF
-C523 nor_4/w_0_0# nor_4/b 0.06fF
-C524 sumffo_3/ffo_0/nand_1/a gnd 0.33fF
-C525 sumffo_0/ffo_0/nand_3/a gnd 0.33fF
-C526 sumffo_3/ffo_0/nand_1/b sumffo_3/ffo_0/nand_7/a 0.13fF
-C527 ffipg_2/ffi_0/nand_2/w_0_0# ffipg_2/y 0.06fF
-C528 ffipg_0/ffi_0/q ffipg_0/ffi_0/nand_7/w_0_0# 0.04fF
-C529 sumffo_2/sbar sumffo_2/ffo_0/nand_7/w_0_0# 0.06fF
-C530 ffipg_2/ffi_1/nand_7/w_0_0# ffipg_2/ffi_1/nand_7/a 0.06fF
-C531 ffipg_0/ffi_1/nand_7/w_0_0# ffipg_0/ffi_1/nand_7/a 0.06fF
-C532 ffipg_0/pggen_0/xor_0/inv_1/op ffipg_0/ffi_1/q 0.06fF
-C533 sumffo_1/ffo_0/nand_7/a gnd 0.33fF
-C534 sumffo_2/xor_0/inv_0/op inv_1/op 0.27fF
-C535 cla_0/inv_0/in cla_0/inv_0/op 0.04fF
-C536 ffipg_1/ffi_0/q ffipg_1/pggen_0/xor_0/inv_1/w_0_6# 0.23fF
-C537 ffipg_0/ffi_1/nand_1/b ffipg_0/ffi_1/nand_5/w_0_0# 0.06fF
-C538 ffipg_1/ffi_1/inv_1/op ffipg_1/ffi_1/nand_4/w_0_0# 0.06fF
-C539 ffipg_0/ffi_0/nand_7/a ffipg_0/ffi_0/nand_7/w_0_0# 0.06fF
-C540 sumffo_2/ffo_0/nand_1/w_0_0# gnd 0.10fF
-C541 inv_7/w_0_6# inv_7/op 0.03fF
-C542 ffipg_3/ffi_0/nand_3/w_0_0# gnd 0.11fF
-C543 ffipg_0/pggen_0/xor_0/inv_1/w_0_6# gnd 0.06fF
-C544 sumffo_1/ffo_0/nand_3/b gnd 0.74fF
-C545 sumffo_2/ffo_0/nand_6/a gnd 0.33fF
-C546 ffipg_3/ffi_0/inv_0/op ffipg_3/y 0.04fF
-C547 clk ffipg_2/ffi_1/nand_1/a 0.13fF
-C548 sumffo_0/ffo_0/inv_0/w_0_6# gnd 0.06fF
-C549 ffipg_0/pggen_0/nand_0/w_0_0# gnd 0.10fF
-C550 ffipg_0/ffi_0/nand_3/b ffipg_0/ffi_0/nand_1/b 0.32fF
-C551 ffipg_0/ffi_0/q ffipg_0/pggen_0/xor_0/w_n3_4# 0.06fF
-C552 clk ffi_0/nand_3/a 0.13fF
-C553 sumffo_0/xor_0/a_10_10# sumffo_0/ffo_0/d 0.45fF
-C554 ffipg_3/ffi_1/nand_0/w_0_0# clk 0.06fF
-C555 ffipg_2/ffi_1/inv_0/op gnd 0.27fF
-C556 ffipg_1/ffi_0/nand_6/w_0_0# ffipg_1/ffi_0/qbar 0.04fF
-C557 sumffo_1/xor_0/inv_1/op gnd 0.35fF
-C558 ffipg_2/ffi_0/q ffipg_2/ffi_0/nand_7/w_0_0# 0.04fF
-C559 ffipg_2/ffi_0/qbar ffipg_2/ffi_0/nand_7/w_0_0# 0.06fF
-C560 ffipg_1/ffi_0/nand_0/w_0_0# gnd 0.10fF
-C561 ffipg_1/pggen_0/xor_0/a_10_10# ffipg_1/ffi_0/q 0.12fF
-C562 ffipg_0/ffi_0/nand_2/w_0_0# clk 0.06fF
-C563 ffipg_3/ffi_0/nand_0/w_0_0# gnd 0.10fF
-C564 sumffo_0/ffo_0/nand_1/w_0_0# gnd 0.10fF
-C565 ffipg_0/ffi_0/inv_1/op ffipg_0/ffi_0/nand_1/b 0.45fF
-C566 ffipg_3/ffi_0/nand_6/a ffipg_3/ffi_0/nand_4/w_0_0# 0.04fF
-C567 ffipg_2/ffi_0/nand_1/b ffipg_2/ffi_0/nand_3/b 0.32fF
-C568 ffo_0/nand_1/a gnd 0.33fF
-C569 sumffo_3/ffo_0/inv_1/w_0_6# gnd 0.06fF
-C570 nor_0/b sumffo_2/xor_0/inv_1/op 0.04fF
-C571 sumffo_2/ffo_0/nand_7/a sumffo_2/ffo_0/nand_5/w_0_0# 0.04fF
-C572 cla_1/inv_0/op gnd 0.27fF
-C573 inv_8/w_0_6# nor_4/a 0.03fF
-C574 sumffo_2/ffo_0/inv_0/w_0_6# gnd 0.07fF
-C575 ffipg_2/ffi_0/nand_1/a ffipg_2/ffi_0/nand_0/w_0_0# 0.04fF
-C576 inv_3/w_0_6# cla_1/l 0.06fF
-C577 ffipg_1/ffi_1/inv_1/op clk 0.07fF
-C578 ffo_0/nand_0/b ffo_0/nand_1/a 0.13fF
-C579 ffo_0/nand_1/b gnd 0.57fF
-C580 cla_0/inv_0/w_0_6# cla_0/inv_0/in 0.06fF
-C581 ffipg_2/ffi_1/nand_3/w_0_0# ffipg_2/ffi_1/nand_3/b 0.06fF
-C582 ffipg_1/ffi_1/nand_6/a ffipg_1/ffi_1/inv_1/op 0.13fF
-C583 ffipg_1/ffi_0/qbar ffipg_1/ffi_0/q 0.32fF
-C584 ffipg_3/ffi_1/nand_1/a gnd 0.44fF
-C585 cla_0/nor_1/w_0_0# gnd 0.31fF
-C586 cla_0/l inv_2/w_0_6# 0.06fF
-C587 inv_4/op sumffo_3/xor_0/inv_1/op 0.06fF
-C588 sumffo_2/sbar sumffo_2/s 0.32fF
-C589 nor_0/b sumffo_0/xor_0/inv_0/op 0.20fF
-C590 ffipg_3/ffi_0/inv_1/op ffipg_3/y 0.01fF
-C591 ffipg_2/ffi_1/nand_3/b gnd 0.74fF
-C592 nor_3/w_0_0# nor_4/b 0.03fF
-C593 ffipg_0/ffi_0/nand_3/w_0_0# ffipg_0/ffi_0/nand_1/b 0.04fF
-C594 inv_1/op gnd 0.58fF
-C595 inv_2/w_0_6# nand_2/b 0.03fF
-C596 ffipg_3/ffi_0/nand_1/b ffipg_3/ffi_0/nand_1/a 0.31fF
-C597 cla_0/inv_0/in cla_0/g0 0.16fF
-C598 cla_0/nor_1/w_0_0# cla_1/p0 0.06fF
-C599 ffipg_2/ffi_1/nand_2/w_0_0# gnd 0.10fF
-C600 ffipg_3/pggen_0/xor_0/w_n3_4# ffipg_3/k 0.02fF
-C601 sumffo_1/xor_0/inv_0/w_0_6# gnd 0.09fF
-C602 ffipg_2/k ffipg_2/pggen_0/nor_0/a_13_6# 0.01fF
-C603 sumffo_0/ffo_0/inv_0/w_0_6# sumffo_0/ffo_0/d 0.06fF
-C604 sumffo_3/xor_0/inv_0/op gnd 0.32fF
-C605 ffipg_1/ffi_1/nand_1/b ffipg_1/ffi_1/nand_3/w_0_0# 0.04fF
-C606 ffipg_0/ffi_1/nand_1/w_0_0# ffipg_0/ffi_1/nand_1/b 0.06fF
-C607 sumffo_1/ffo_0/nand_0/w_0_0# sumffo_1/ffo_0/nand_1/a 0.04fF
-C608 sumffo_0/ffo_0/nand_0/b sumffo_0/ffo_0/inv_0/op 0.32fF
-C609 sumffo_0/sbar sumffo_0/s 0.32fF
-C610 ffipg_3/x ffipg_3/ffi_1/inv_0/w_0_6# 0.06fF
-C611 ffipg_2/pggen_0/nor_0/w_0_0# gnd 0.11fF
-C612 ffipg_1/x gnd 0.22fF
-C613 ffipg_1/ffi_0/inv_1/op gnd 1.85fF
-C614 ffi_0/nand_2/w_0_0# clk 0.06fF
-C615 ffipg_2/pggen_0/xor_0/inv_0/op ffipg_2/ffi_0/q 0.20fF
-C616 ffipg_0/ffi_0/nand_4/w_0_0# ffipg_0/ffi_0/nand_6/a 0.04fF
-C617 sumffo_0/xor_0/w_n3_4# sumffo_0/xor_0/inv_0/op 0.06fF
-C618 clk ffi_0/inv_1/op 0.93fF
-C619 clk ffipg_1/ffi_1/nand_1/a 0.13fF
-C620 ffipg_1/ffi_0/nand_6/a ffipg_1/ffi_0/inv_1/op 0.13fF
-C621 ffipg_0/ffi_1/nand_1/a clk 0.13fF
-C622 gnd ffipg_0/ffi_0/inv_1/w_0_6# 0.06fF
-C623 inv_1/op inv_1/in 0.04fF
-C624 sumffo_1/xor_0/inv_1/w_0_6# gnd 0.06fF
-C625 sumffo_2/ffo_0/nand_0/w_0_0# sumffo_2/ffo_0/inv_0/op 0.06fF
-C626 ffipg_2/ffi_1/nand_3/b ffipg_2/ffi_1/nand_1/b 0.32fF
-C627 clk nor_4/a 0.03fF
-C628 ffi_0/nand_3/w_0_0# ffi_0/nand_3/a 0.06fF
-C629 nor_1/b gnd 0.35fF
-C630 sumffo_1/xor_0/inv_0/op sumffo_1/xor_0/inv_1/op 0.08fF
-C631 nor_3/w_0_0# cla_2/n 0.06fF
-C632 ffipg_1/ffi_0/q ffipg_1/ffi_0/nand_7/w_0_0# 0.04fF
-C633 sumffo_3/ffo_0/nand_7/a sumffo_3/s 0.00fF
-C634 ffipg_2/ffi_1/q gnd 2.24fF
-C635 ffo_0/nand_2/w_0_0# gnd 0.10fF
-C636 sumffo_3/xor_0/inv_0/op sumffo_3/xor_0/w_n3_4# 0.06fF
-C637 sumffo_2/ffo_0/nand_0/w_0_0# sumffo_2/ffo_0/nand_1/a 0.04fF
-C638 ffipg_3/pggen_0/xor_0/a_10_10# ffipg_3/k 0.45fF
-C639 cla_2/g1 cla_2/nand_0/w_0_0# 0.06fF
-C640 ffo_0/nand_0/b ffo_0/nand_2/w_0_0# 0.06fF
-C641 ffo_0/nand_1/b ffo_0/nand_7/a 0.13fF
-C642 nor_0/b cla_0/g0 0.08fF
-C643 sumffo_2/ffo_0/nand_3/a sumffo_2/ffo_0/nand_2/w_0_0# 0.04fF
-C644 cla_0/n cla_2/l 0.32fF
-C645 sumffo_3/sbar gnd 0.62fF
-C646 nor_2/w_0_0# inv_4/op 0.03fF
-C647 clk ffipg_1/ffi_1/nand_2/w_0_0# 0.06fF
-C648 ffipg_1/ffi_0/q ffipg_1/ffi_0/nand_7/a 0.00fF
-C649 nor_1/b inv_1/in 0.16fF
-C650 sumffo_3/xor_0/inv_1/w_0_6# sumffo_3/xor_0/inv_1/op 0.03fF
-C651 ffipg_2/ffi_1/nand_1/a gnd 0.44fF
-C652 ffipg_1/pggen_0/xor_0/inv_1/op ffipg_1/pggen_0/xor_0/w_n3_4# 0.06fF
-C653 ffipg_0/ffi_1/nand_1/b gnd 0.57fF
-C654 sumffo_1/xor_0/inv_0/w_0_6# sumffo_1/xor_0/inv_0/op 0.03fF
-C655 ffi_0/inv_0/op ffi_0/inv_0/w_0_6# 0.03fF
-C656 ffipg_1/ffi_1/nand_3/b ffipg_1/ffi_1/nand_3/w_0_0# 0.06fF
-C657 ffipg_0/ffi_1/inv_1/op ffipg_0/ffi_1/nand_4/w_0_0# 0.06fF
-C658 ffi_0/nand_3/a gnd 0.33fF
-C659 ffo_0/nand_3/a ffo_0/nand_2/w_0_0# 0.04fF
-C660 nor_0/b inv_8/w_0_6# 0.06fF
-C661 ffipg_3/ffi_1/nand_0/w_0_0# gnd 0.10fF
-C662 nor_0/b ffi_0/nand_6/w_0_0# 0.04fF
-C663 ffipg_2/ffi_1/inv_1/op ffipg_2/ffi_0/inv_1/op 0.75fF
-C664 ffipg_0/ffi_1/nand_1/w_0_0# ffipg_0/ffi_1/nand_1/a 0.06fF
-C665 gnd sumffo_2/ffo_0/nand_3/w_0_0# 0.11fF
-C666 sumffo_1/sbar gnd 0.62fF
-C667 ffipg_0/ffi_0/nand_2/w_0_0# gnd 0.10fF
-C668 ffipg_3/pggen_0/xor_0/inv_1/op ffipg_3/pggen_0/xor_0/inv_0/op 0.08fF
-C669 ffipg_2/pggen_0/xor_0/inv_0/w_0_6# gnd 0.09fF
-C670 ffipg_0/ffi_0/nand_6/w_0_0# ffipg_0/ffi_0/qbar 0.04fF
-C671 ffipg_1/ffi_1/nand_5/w_0_0# ffipg_1/ffi_1/nand_7/a 0.04fF
-C672 cla_2/g1 cla_2/nor_1/w_0_0# 0.02fF
-C673 ffipg_3/ffi_0/q ffipg_3/pggen_0/xor_0/inv_0/op 0.20fF
-C674 ffipg_0/ffi_1/nand_3/b ffipg_0/ffi_1/inv_1/op 0.33fF
-C675 ffipg_3/ffi_1/nand_6/w_0_0# ffipg_3/ffi_1/nand_6/a 0.06fF
-C676 ffo_0/nand_3/b ffo_0/nand_4/w_0_0# 0.06fF
-C677 ffipg_2/ffi_1/nand_1/w_0_0# gnd 0.10fF
-C678 ffipg_1/ffi_0/nand_2/w_0_0# ffipg_1/ffi_0/nand_3/a 0.04fF
-C679 ffipg_3/ffi_0/nand_7/a ffipg_3/ffi_0/qbar 0.31fF
-C680 ffipg_1/ffi_1/inv_1/op gnd 1.85fF
-C681 ffipg_1/ffi_0/nand_2/w_0_0# clk 0.06fF
-C682 sumffo_2/ffo_0/nand_3/a gnd 0.33fF
-C683 sumffo_1/ffo_0/nand_0/b sumffo_1/ffo_0/nand_3/a 0.13fF
-C684 sumffo_2/ffo_0/nand_1/w_0_0# sumffo_2/ffo_0/nand_3/b 0.04fF
-C685 ffi_0/inv_1/w_0_6# ffi_0/inv_1/op 0.04fF
-C686 sumffo_1/ffo_0/nand_0/w_0_0# gnd 0.10fF
-C687 sumffo_0/ffo_0/nand_3/b sumffo_0/ffo_0/nand_4/w_0_0# 0.06fF
-C688 ffipg_2/ffi_1/nand_6/a ffipg_2/ffi_1/qbar 0.00fF
-C689 ffipg_1/ffi_1/nand_6/a ffipg_1/ffi_1/qbar 0.00fF
-C690 ffipg_1/ffi_1/q ffipg_1/ffi_0/q 0.73fF
-C691 sumffo_0/ffo_0/nand_1/b sumffo_0/ffo_0/nand_1/a 0.31fF
-C692 ffipg_2/ffi_0/nand_4/w_0_0# ffipg_2/ffi_0/nand_6/a 0.04fF
-C693 ffipg_2/pggen_0/xor_0/inv_1/w_0_6# gnd 0.06fF
-C694 sumffo_0/ffo_0/nand_3/w_0_0# gnd 0.11fF
-C695 ffipg_2/ffi_1/nand_1/b ffipg_2/ffi_1/nand_1/a 0.31fF
-C696 ffo_0/inv_0/op ffo_0/nand_0/w_0_0# 0.06fF
-C697 sumffo_3/ffo_0/nand_0/b sumffo_3/ffo_0/nand_1/a 0.13fF
-C698 clk sumffo_1/ffo_0/nand_0/b 0.04fF
-C699 ffipg_0/ffi_0/q nor_0/a 0.03fF
-C700 sumffo_2/xor_0/inv_0/op sumffo_2/xor_0/w_n3_4# 0.06fF
-C701 sumffo_2/xor_0/inv_1/w_0_6# sumffo_2/xor_0/inv_1/op 0.03fF
-C702 inv_3/in gnd 0.47fF
-C703 inv_2/in gnd 0.47fF
-C704 ffipg_1/ffi_1/nand_3/w_0_0# ffipg_1/ffi_1/nand_3/a 0.06fF
-C705 ffipg_0/pggen_0/xor_0/inv_1/op ffipg_0/k 0.52fF
-C706 ffipg_0/y clk 0.64fF
-C707 ffipg_3/ffi_1/nand_6/a ffipg_3/ffi_1/nand_4/w_0_0# 0.04fF
-C708 sumffo_2/sbar gnd 0.62fF
-C709 gnd ffipg_3/ffi_0/inv_0/w_0_6# 0.06fF
-C710 ffipg_1/ffi_0/nand_1/b gnd 0.57fF
-C711 cla_0/n nor_1/w_0_0# 0.06fF
-C712 ffipg_2/ffi_1/nand_7/w_0_0# ffipg_2/ffi_1/q 0.04fF
-C713 cla_1/nor_1/w_0_0# cla_1/inv_0/in 0.05fF
-C714 ffipg_0/ffi_1/nand_7/w_0_0# ffipg_0/ffi_1/qbar 0.06fF
-C715 ffipg_3/ffi_0/nand_0/w_0_0# ffipg_3/ffi_0/nand_1/a 0.04fF
-C716 sumffo_1/ffo_0/nand_4/w_0_0# sumffo_1/ffo_0/nand_3/b 0.06fF
-C717 sumffo_0/ffo_0/nand_2/w_0_0# sumffo_0/ffo_0/nand_3/a 0.04fF
-C718 clk ffi_0/inv_0/op 0.32fF
-C719 ffipg_1/ffi_0/inv_0/w_0_6# ffipg_1/ffi_0/inv_0/op 0.03fF
-C720 ffipg_1/k sumffo_1/xor_0/inv_1/op 0.06fF
-C721 sumffo_1/ffo_0/nand_0/b sumffo_1/ffo_0/nand_1/a 0.13fF
-C722 sumffo_2/ffo_0/inv_0/op gnd 0.51fF
-C723 inv_3/w_0_6# cla_0/n 0.16fF
-C724 ffipg_1/pggen_0/xor_0/inv_0/op ffipg_1/ffi_0/q 0.20fF
-C725 ffo_0/nand_3/b ffo_0/nand_1/w_0_0# 0.04fF
-C726 ffipg_2/ffi_1/nand_1/b ffipg_2/ffi_1/nand_1/w_0_0# 0.06fF
-C727 ffi_0/nand_2/w_0_0# gnd 0.10fF
-C728 ffipg_2/ffi_0/nand_3/b ffipg_2/ffi_0/nand_1/w_0_0# 0.04fF
-C729 nor_2/w_0_0# nor_2/b 0.06fF
-C730 ffi_0/inv_1/op gnd 1.89fF
-C731 ffipg_1/ffi_1/nand_1/a gnd 0.44fF
-C732 ffipg_0/ffi_1/nand_1/a gnd 0.45fF
-C733 clk ffipg_3/ffi_0/inv_1/w_0_6# 0.06fF
-C734 sumffo_2/ffo_0/nand_1/a gnd 0.33fF
-C735 sumffo_0/ffo_0/nand_6/a sumffo_0/ffo_0/nand_4/w_0_0# 0.04fF
-C736 ffipg_2/ffi_0/nand_1/b ffipg_2/ffi_0/nand_1/w_0_0# 0.06fF
-C737 nor_4/a gnd 0.40fF
-C738 ffipg_2/ffi_1/inv_1/w_0_6# ffipg_2/ffi_1/inv_1/op 0.04fF
-C739 ffipg_2/x ffipg_2/ffi_1/inv_0/op 0.04fF
-C740 clk ffipg_0/x 0.64fF
-C741 ffipg_1/ffi_0/nand_1/a ffipg_1/ffi_0/nand_0/w_0_0# 0.04fF
-C742 ffipg_0/ffi_0/nand_3/b ffipg_0/ffi_0/inv_1/op 0.33fF
-C743 ffipg_3/pggen_0/xor_0/inv_0/op gnd 0.32fF
-C744 ffipg_1/pggen_0/xor_0/a_10_10# ffipg_1/pggen_0/xor_0/w_n3_4# 0.16fF
-C745 ffipg_1/pggen_0/nand_0/w_0_0# gnd 0.10fF
-C746 sumffo_3/ffo_0/nand_0/b sumffo_3/ffo_0/inv_1/w_0_6# 0.03fF
-C747 ffipg_1/k sumffo_1/xor_0/inv_0/w_0_6# 0.06fF
-C748 ffipg_3/ffi_0/nand_3/w_0_0# ffipg_3/ffi_0/nand_1/b 0.04fF
-C749 cla_0/g0 nor_0/a 0.68fF
-C750 cla_2/nand_0/a_13_n26# gnd 0.01fF
-C751 clk sumffo_1/ffo_0/d 0.04fF
-C752 sumffo_2/xor_0/w_n3_4# gnd 0.12fF
-C753 clk sumffo_0/ffo_0/nand_5/w_0_0# 0.06fF
-C754 cla_2/p0 cla_1/nor_0/w_0_0# 0.06fF
-C755 cla_0/n inv_5/w_0_6# 0.06fF
-C756 sumffo_2/xor_0/a_38_n43# nor_0/b 0.01fF
-C757 ffipg_3/ffi_0/q ffipg_3/ffi_0/nand_7/a 0.00fF
-C758 ffipg_2/pggen_0/xor_0/inv_0/op ffipg_2/pggen_0/xor_0/w_n3_4# 0.06fF
-C759 sumffo_1/ffo_0/nand_6/w_0_0# sumffo_1/sbar 0.04fF
-C760 ffipg_1/pggen_0/nand_0/w_0_0# cla_1/p0 0.24fF
-C761 nor_4/b gnd 0.25fF
-C762 cla_0/n inv_5/in 0.13fF
-C763 cla_2/inv_0/in cla_2/nor_1/w_0_0# 0.05fF
-C764 ffipg_1/ffi_1/nand_2/w_0_0# gnd 0.10fF
-C765 ffipg_0/ffi_0/nand_7/w_0_0# gnd 0.10fF
-C766 ffipg_3/ffi_0/nand_3/b gnd 0.74fF
-C767 nor_0/w_0_0# nand_2/b 0.04fF
-C768 inv_9/in ffo_0/d 0.04fF
-C769 ffipg_0/ffi_0/nand_3/b ffipg_0/ffi_0/nand_3/w_0_0# 0.06fF
-C770 nor_0/b sumffo_2/xor_0/inv_0/op 0.06fF
-C771 ffipg_0/pggen_0/nor_0/w_0_0# ffipg_0/ffi_1/q 0.06fF
-C772 clk ffipg_2/ffi_1/inv_1/op 0.07fF
-C773 ffipg_2/x ffipg_2/ffi_1/nand_2/w_0_0# 0.06fF
-C774 ffipg_2/ffi_0/qbar gnd 0.67fF
-C775 ffipg_2/ffi_0/q gnd 3.00fF
-C776 cla_0/inv_0/in gnd 0.34fF
-C777 sumffo_1/ffo_0/nand_0/b sumffo_1/ffo_0/inv_1/w_0_6# 0.03fF
-C778 ffi_0/q ffi_0/nand_6/w_0_0# 0.06fF
-C779 sumffo_3/ffo_0/d sumffo_3/ffo_0/inv_0/w_0_6# 0.06fF
-C780 ffipg_3/ffi_0/inv_1/op ffipg_3/ffi_1/inv_1/op 0.75fF
-C781 ffipg_1/x ffipg_1/ffi_1/inv_0/op 0.04fF
-C782 cla_0/inv_0/in cla_1/p0 0.02fF
-C783 clk ffi_0/nand_0/w_0_0# 0.06fF
-C784 clk sumffo_2/ffo_0/nand_5/w_0_0# 0.06fF
-C785 cla_2/l gnd 0.58fF
-C786 sumffo_0/ffo_0/nand_0/w_0_0# sumffo_0/ffo_0/nand_0/b 0.06fF
-C787 ffipg_0/ffi_1/inv_1/op ffipg_0/ffi_1/nand_5/w_0_0# 0.06fF
-C788 ffipg_1/ffi_1/nand_1/w_0_0# ffipg_1/ffi_1/nand_1/b 0.06fF
-C789 ffipg_0/pggen_0/xor_0/w_n3_4# gnd 0.12fF
-C790 sumffo_2/ffo_0/nand_6/a sumffo_2/ffo_0/nand_6/w_0_0# 0.06fF
-C791 ffipg_1/ffi_0/nand_2/w_0_0# gnd 0.10fF
-C792 gnd sumffo_1/ffo_0/inv_0/w_0_6# 0.06fF
-C793 ffipg_3/ffi_1/inv_0/w_0_6# gnd 0.06fF
-C794 ffipg_1/ffi_1/qbar gnd 0.67fF
-C795 ffipg_0/ffi_0/nand_4/w_0_0# gnd 0.10fF
-C796 sumffo_3/ffo_0/nand_6/a sumffo_3/s 0.31fF
-C797 ffipg_2/ffi_1/nand_4/w_0_0# gnd 0.10fF
-C798 cla_0/l cla_1/nor_0/w_0_0# 0.01fF
-C799 cla_1/nor_1/w_0_0# gnd 0.31fF
-C800 ffipg_1/ffi_0/nand_1/w_0_0# gnd 0.10fF
-C801 sumffo_1/ffo_0/nand_0/b gnd 0.62fF
-C802 clk ffipg_0/ffi_1/inv_1/op 0.07fF
-C803 sumffo_0/ffo_0/nand_0/b sumffo_0/ffo_0/nand_1/a 0.13fF
-C804 cla_2/n gnd 0.60fF
-C805 ffipg_0/k sumffo_0/xor_0/inv_0/w_0_6# 0.06fF
-C806 ffo_0/d nor_4/w_0_0# 0.03fF
-C807 ffipg_0/y gnd 0.22fF
-C808 ffipg_1/ffi_0/inv_1/op ffipg_1/ffi_0/nand_4/w_0_0# 0.06fF
-C809 ffi_0/d ffi_0/inv_0/w_0_6# 0.06fF
-C810 sumffo_2/ffo_0/nand_3/b sumffo_2/ffo_0/nand_3/w_0_0# 0.06fF
-C811 gnd ffipg_1/pggen_0/xor_0/inv_1/op 0.35fF
-C812 ffipg_3/ffi_1/q ffipg_3/pggen_0/nand_0/w_0_0# 0.06fF
-C813 ffi_0/inv_0/op gnd 0.27fF
-C814 ffipg_1/ffi_0/inv_0/op ffipg_1/ffi_0/nand_0/w_0_0# 0.06fF
-C815 ffo_0/nand_0/w_0_0# gnd 0.10fF
-C816 ffipg_3/ffi_0/nand_7/a gnd 0.37fF
-C817 ffipg_0/ffi_1/nand_7/w_0_0# gnd 0.10fF
-C818 sumffo_2/ffo_0/d sumffo_2/xor_0/a_10_10# 0.45fF
-C819 sumffo_0/ffo_0/nand_7/a sumffo_0/ffo_0/nand_7/w_0_0# 0.06fF
-C820 nor_0/b gnd 2.12fF
-C821 clk ffipg_3/ffi_0/inv_0/op 0.32fF
-C822 ffo_0/nand_0/w_0_0# ffo_0/nand_0/b 0.06fF
-C823 ffipg_3/ffi_0/nand_3/a ffipg_3/ffi_0/nand_2/w_0_0# 0.04fF
-C824 ffo_0/nand_6/w_0_0# ffo_0/nand_6/a 0.06fF
-C825 nor_0/b ffi_0/nand_7/a 0.31fF
-C826 cla_0/l ffipg_1/ffi_0/q 0.13fF
-C827 sumffo_2/ffo_0/nand_3/a sumffo_2/ffo_0/nand_0/b 0.13fF
-C828 sumffo_1/xor_0/w_n3_4# gnd 0.12fF
-C829 sumffo_2/ffo_0/nand_3/a sumffo_2/ffo_0/nand_3/b 0.31fF
-C830 ffipg_3/ffi_0/inv_1/w_0_6# gnd 0.06fF
-C831 ffipg_2/ffi_0/inv_1/w_0_6# ffipg_2/ffi_0/inv_1/op 0.04fF
-C832 ffipg_0/ffi_0/q ffipg_0/ffi_0/qbar 0.32fF
-C833 clk sumffo_0/ffo_0/nand_1/b 0.45fF
-C834 cla_2/nor_1/w_0_0# cla_2/p1 0.06fF
-C835 cla_1/n gnd 0.51fF
-C836 ffipg_3/ffi_1/qbar gnd 0.67fF
-C837 ffipg_0/x gnd 0.22fF
-C838 ffipg_2/ffi_0/nand_6/w_0_0# gnd 0.10fF
-C839 nor_1/w_0_0# gnd 0.15fF
-C840 cla_0/l cla_1/nand_0/w_0_0# 0.06fF
-C841 ffipg_2/ffi_1/nand_7/a ffipg_2/ffi_1/q 0.00fF
-C842 ffipg_1/ffi_1/nand_1/w_0_0# ffipg_1/ffi_1/nand_3/b 0.04fF
-C843 sumffo_1/ffo_0/nand_3/w_0_0# sumffo_1/ffo_0/nand_3/a 0.06fF
-C844 cla_1/l cla_2/p0 0.02fF
-C845 ffipg_3/pggen_0/xor_0/inv_1/op ffipg_3/ffi_1/q 0.06fF
-C846 clk ffipg_2/ffi_1/nand_0/w_0_0# 0.06fF
-C847 ffipg_0/ffi_0/qbar ffipg_0/ffi_0/nand_7/a 0.31fF
-C848 ffipg_0/k ffipg_0/ffi_1/q 0.46fF
-C849 nor_0/b inv_0/in 0.23fF
-C850 sumffo_2/xor_0/a_10_10# ffipg_2/k 0.12fF
-C851 sumffo_0/xor_0/w_n3_4# gnd 0.12fF
-C852 inv_4/in gnd 0.33fF
-C853 ffo_0/nand_6/a ffo_0/nand_4/w_0_0# 0.04fF
-C854 ffipg_3/ffi_0/q ffipg_3/ffi_1/q 0.73fF
-C855 ffipg_2/ffi_0/nand_5/w_0_0# ffipg_2/ffi_0/inv_1/op 0.06fF
-C856 inv_3/w_0_6# gnd 0.17fF
-C857 nor_0/b sumffo_3/xor_0/w_n3_4# 0.01fF
-C858 sumffo_1/ffo_0/d gnd 0.41fF
-C859 ffipg_3/pggen_0/nand_0/w_0_0# cla_2/g1 0.04fF
-C860 sumffo_2/ffo_0/inv_0/op sumffo_2/ffo_0/nand_0/b 0.32fF
-C861 sumffo_0/ffo_0/nand_0/b sumffo_0/ffo_0/inv_1/w_0_6# 0.03fF
-C862 sumffo_0/ffo_0/nand_5/w_0_0# gnd 0.10fF
-C863 ffipg_3/ffi_0/inv_1/op clk 0.07fF
-C864 ffipg_0/x ffipg_0/ffi_1/inv_0/op 0.04fF
-C865 sumffo_1/xor_0/a_10_10# gnd 0.93fF
-C866 cla_2/nor_0/w_0_0# gnd 0.31fF
-C867 ffipg_1/ffi_0/inv_1/op ffipg_1/ffi_0/inv_1/w_0_6# 0.04fF
-C868 sumffo_1/ffo_0/nand_1/w_0_0# sumffo_1/ffo_0/nand_1/a 0.06fF
-C869 clk ffi_0/d 0.64fF
-C870 ffipg_0/pggen_0/xor_0/a_10_10# ffipg_0/pggen_0/xor_0/w_n3_4# 0.16fF
-C871 ffipg_3/ffi_0/nand_7/a ffipg_3/ffi_0/nand_7/w_0_0# 0.06fF
-C872 ffipg_1/ffi_1/q ffipg_1/pggen_0/xor_0/w_n3_4# 0.06fF
-C873 sumffo_2/ffo_0/nand_0/b sumffo_2/ffo_0/nand_1/a 0.13fF
-C874 ffipg_2/ffi_1/inv_1/op gnd 1.85fF
-C875 nor_1/w_0_0# inv_1/in 0.11fF
-C876 sumffo_2/ffo_0/nand_1/a sumffo_2/ffo_0/nand_3/b 0.00fF
-C877 nor_0/b sumffo_1/xor_0/a_38_n43# 0.01fF
-C878 ffipg_0/ffi_0/inv_1/op ffipg_0/ffi_0/inv_1/w_0_6# 0.04fF
-C879 ffipg_3/ffi_0/nand_3/a clk 0.13fF
-C880 ffipg_2/ffi_0/inv_0/op ffipg_2/y 0.04fF
-C881 gnd ffipg_1/pggen_0/xor_0/inv_1/w_0_6# 0.06fF
-C882 nor_0/b sumffo_1/xor_0/inv_0/op 0.06fF
-C883 cla_0/l cla_2/nor_1/w_0_0# 0.06fF
-C884 ffipg_1/ffi_0/nand_1/a ffipg_1/ffi_0/nand_1/b 0.31fF
-C885 cla_2/l nor_3/b 0.10fF
-C886 ffi_0/nand_0/w_0_0# gnd 0.10fF
-C887 ffipg_0/ffi_0/qbar ffipg_0/ffi_0/nand_6/a 0.00fF
-C888 sumffo_2/ffo_0/nand_5/w_0_0# gnd 0.10fF
-C889 gnd inv_5/w_0_6# 0.42fF
-C890 ffipg_3/ffi_1/nand_7/a ffipg_3/ffi_1/nand_5/w_0_0# 0.04fF
-C891 cla_0/l cla_1/l 0.08fF
-C892 ffipg_0/pggen_0/xor_0/inv_0/op ffipg_0/pggen_0/xor_0/w_n3_4# 0.06fF
-C893 ffipg_3/ffi_0/q cla_2/g1 0.13fF
-C894 ffipg_2/ffi_0/nand_3/w_0_0# ffipg_2/ffi_0/nand_3/b 0.06fF
-C895 sumffo_1/xor_0/w_n3_4# sumffo_1/xor_0/inv_0/op 0.06fF
-C896 inv_5/in gnd 0.49fF
-C897 ffipg_1/pggen_0/xor_0/inv_0/op ffipg_1/pggen_0/xor_0/w_n3_4# 0.06fF
-C898 sumffo_0/xor_0/w_n3_4# sumffo_0/ffo_0/d 0.02fF
-C899 ffipg_3/ffi_0/nand_0/a_13_n26# gnd 0.01fF
-C900 cla_0/n ffipg_3/k 0.06fF
-C901 ffipg_0/pggen_0/xor_0/inv_1/op ffipg_0/ffi_0/q 0.22fF
-C902 ffipg_2/ffi_0/nand_1/b ffipg_2/ffi_0/nand_3/w_0_0# 0.04fF
-C903 ffipg_1/ffi_1/q ffipg_1/pggen_0/xor_0/inv_0/w_0_6# 0.06fF
-C904 cla_1/l nand_2/b 0.31fF
-C905 ffipg_1/pggen_0/xor_0/a_10_10# gnd 0.93fF
-C906 ffipg_3/ffi_0/nand_3/b ffipg_3/ffi_0/nand_1/a 0.00fF
-C907 ffi_0/nand_5/w_0_0# gnd 0.10fF
-C908 ffipg_0/ffi_1/inv_1/op gnd 1.85fF
-C909 cla_2/n nor_3/b 0.41fF
-C910 ffo_0/nand_1/b ffo_0/nand_1/a 0.31fF
-C911 ffipg_2/pggen_0/xor_0/w_n3_4# gnd 0.12fF
-C912 ffipg_2/ffi_1/inv_1/op ffipg_2/ffi_1/nand_1/b 0.45fF
-C913 ffipg_0/ffi_1/nand_1/a ffipg_0/ffi_1/nand_0/w_0_0# 0.04fF
-C914 ffi_0/nand_7/a ffi_0/nand_5/w_0_0# 0.04fF
-C915 nor_0/b sumffo_0/xor_0/inv_1/op 0.22fF
-C916 ffo_0/d ffo_0/inv_0/op 0.04fF
-C917 sumffo_1/xor_0/inv_0/op sumffo_1/ffo_0/d 0.06fF
-C918 ffipg_3/ffi_1/q gnd 2.24fF
-C919 ffipg_1/ffi_0/qbar gnd 0.67fF
-C920 sumffo_2/ffo_0/d sumffo_2/xor_0/inv_1/op 0.52fF
-C921 ffipg_2/ffi_0/nand_7/a ffipg_2/ffi_0/q 0.00fF
-C922 ffipg_2/ffi_0/qbar ffipg_2/ffi_0/nand_7/a 0.31fF
-C923 sumffo_3/ffo_0/nand_7/a gnd 0.33fF
-C924 nor_0/b inv_7/op 0.31fF
-C925 ffi_0/nand_6/a ffi_0/inv_1/op 0.13fF
-C926 ffipg_1/ffi_1/q ffipg_1/ffi_1/nand_6/a 0.31fF
-C927 ffipg_1/ffi_0/qbar ffipg_1/ffi_0/nand_6/a 0.00fF
-C928 ffipg_1/pggen_0/xor_0/inv_0/op ffipg_1/pggen_0/xor_0/inv_0/w_0_6# 0.03fF
-C929 ffipg_0/y ffipg_0/ffi_0/inv_0/w_0_6# 0.06fF
-C930 nor_0/a gnd 0.54fF
-C931 ffipg_3/ffi_0/nand_5/w_0_0# gnd 0.10fF
-C932 ffipg_3/ffi_0/inv_0/op gnd 0.27fF
-C933 ffi_0/q gnd 0.80fF
-C934 sumffo_3/ffo_0/nand_6/w_0_0# sumffo_3/s 0.06fF
-C935 cla_0/l cla_0/inv_0/op 0.35fF
-C936 ffipg_2/ffi_0/inv_1/w_0_6# clk 0.06fF
-C937 ffo_0/inv_0/op ffo_0/inv_0/w_0_6# 0.03fF
-C938 ffipg_0/pggen_0/nor_0/w_0_0# ffipg_0/k 0.21fF
-C939 ffipg_2/pggen_0/xor_0/a_10_10# ffipg_2/ffi_0/q 0.12fF
-C940 ffipg_2/ffi_0/qbar ffipg_2/ffi_0/nand_6/a 0.00fF
-C941 ffipg_2/ffi_0/q ffipg_2/ffi_0/nand_6/a 0.31fF
-C942 cla_1/p0 nor_0/a 0.24fF
-C943 ffi_0/q ffi_0/nand_7/a 0.00fF
-C944 ffipg_0/ffi_1/nand_6/a ffipg_0/ffi_1/inv_1/op 0.13fF
-C945 sumffo_1/xor_0/inv_1/w_0_6# sumffo_1/xor_0/inv_1/op 0.03fF
-C946 sumffo_0/xor_0/inv_1/w_0_6# gnd 0.06fF
-C947 cla_0/inv_0/op nand_2/b 0.09fF
-C948 sumffo_2/xor_0/inv_1/w_0_6# gnd 0.06fF
-C949 sumffo_0/xor_0/inv_1/op sumffo_0/xor_0/w_n3_4# 0.06fF
-C950 sumffo_0/ffo_0/nand_1/b gnd 0.57fF
-C951 ffipg_1/ffi_0/nand_3/w_0_0# ffipg_1/ffi_0/nand_1/b 0.04fF
-C952 sumffo_2/sbar sumffo_2/ffo_0/nand_6/w_0_0# 0.04fF
-C953 ffipg_2/k sumffo_2/xor_0/inv_1/op 0.22fF
-C954 sumffo_0/ffo_0/nand_0/b clk 0.04fF
-C955 ffipg_1/ffi_1/qbar ffipg_1/ffi_1/nand_7/a 0.31fF
-C956 ffipg_1/ffi_1/q ffipg_1/pggen_0/nor_0/w_0_0# 0.06fF
-C957 sumffo_0/ffo_0/nand_7/a gnd 0.33fF
-C958 sumffo_1/ffo_0/nand_1/w_0_0# gnd 0.10fF
-C959 ffipg_0/ffi_1/nand_0/a_13_n26# gnd 0.01fF
-C960 ffi_0/nand_1/a ffi_0/nand_0/w_0_0# 0.04fF
-C961 ffipg_2/ffi_1/nand_0/w_0_0# gnd 0.10fF
-C962 inv_0/in nor_0/a 0.02fF
-C963 sumffo_3/ffo_0/inv_0/op sumffo_3/ffo_0/d 0.04fF
-C964 sumffo_1/ffo_0/nand_3/w_0_0# gnd 0.11fF
-C965 ffipg_1/ffi_1/nand_5/w_0_0# ffipg_1/ffi_1/inv_1/op 0.06fF
-C966 ffipg_0/ffi_1/nand_2/w_0_0# ffipg_0/x 0.06fF
-C967 sumffo_3/ffo_0/nand_5/w_0_0# sumffo_3/ffo_0/nand_7/a 0.04fF
-C968 sumffo_1/ffo_0/nand_7/a sumffo_1/sbar 0.31fF
-C969 cla_2/g1 gnd 0.65fF
-C970 sumffo_1/ffo_0/inv_0/op gnd 0.27fF
-C971 ffipg_2/ffi_1/nand_6/a gnd 0.37fF
-C972 clk sumffo_3/ffo_0/d 0.04fF
-C973 ffipg_3/ffi_1/qbar ffipg_3/ffi_1/nand_7/w_0_0# 0.06fF
-C974 ffipg_3/ffi_0/nand_3/b ffipg_3/ffi_0/nand_1/b 0.32fF
-C975 ffo_0/nand_7/w_0_0# ffo_0/qbar 0.06fF
-C976 ffipg_3/ffi_0/inv_1/op gnd 1.85fF
-C977 ffipg_3/pggen_0/xor_0/inv_1/op ffipg_3/k 0.52fF
-C978 ffipg_1/k ffipg_1/pggen_0/xor_0/inv_1/op 0.52fF
-C979 ffipg_1/k nor_0/b 0.06fF
-C980 ffipg_3/ffi_0/q ffipg_3/k 0.07fF
-C981 ffipg_1/ffi_0/nand_7/w_0_0# gnd 0.10fF
-C982 ffi_0/d gnd 0.22fF
-C983 sumffo_0/ffo_0/nand_3/a sumffo_0/ffo_0/nand_3/w_0_0# 0.06fF
-C984 clk ffo_0/nand_3/b 0.33fF
-C985 nor_0/b ffi_0/nand_7/w_0_0# 0.06fF
-C986 ffipg_1/ffi_0/nand_1/w_0_0# ffipg_1/ffi_0/nand_1/a 0.06fF
-C987 clk sumffo_3/ffo_0/nand_6/a 0.13fF
-C988 ffipg_1/k sumffo_1/xor_0/w_n3_4# 0.06fF
-C989 inv_7/w_0_6# cla_2/l 0.06fF
-C990 ffipg_3/ffi_0/nand_3/a gnd 0.33fF
-C991 ffipg_0/x ffipg_0/ffi_1/inv_0/w_0_6# 0.06fF
-C992 ffipg_2/pggen_0/xor_0/inv_1/op ffipg_2/pggen_0/xor_0/inv_0/op 0.08fF
-C993 ffipg_1/ffi_1/nand_3/b ffipg_1/ffi_1/nand_4/w_0_0# 0.06fF
-C994 sumffo_1/ffo_0/nand_0/a_13_n26# gnd 0.01fF
-C995 ffipg_0/ffi_1/nand_7/a ffipg_0/ffi_1/q 0.00fF
-C996 cla_0/l cla_0/g0 0.14fF
-C997 nor_3/b inv_5/w_0_6# 0.17fF
-C998 sumffo_2/ffo_0/nand_7/a sumffo_2/ffo_0/nand_1/b 0.13fF
-C999 ffipg_1/ffi_0/nand_7/a gnd 0.37fF
-C1000 inv_8/w_0_6# inv_8/in 0.10fF
-C1001 clk ffipg_2/ffi_0/nand_2/w_0_0# 0.06fF
-C1002 inv_5/in nor_3/b 0.04fF
-C1003 sumffo_0/xor_0/inv_0/op sumffo_0/xor_0/inv_0/w_0_6# 0.03fF
-C1004 ffipg_2/ffi_1/q ffipg_2/pggen_0/nor_0/w_0_0# 0.06fF
-C1005 clk ffipg_1/y 0.64fF
-C1006 cla_0/g0 nand_2/b 0.13fF
-C1007 ffipg_2/ffi_1/nand_3/b ffipg_2/ffi_1/nand_1/a 0.00fF
-C1008 ffipg_3/ffi_1/nand_0/w_0_0# ffipg_3/ffi_1/nand_1/a 0.04fF
-C1009 sumffo_2/sbar sumffo_2/ffo_0/nand_6/a 0.00fF
-C1010 ffipg_0/ffi_1/nand_3/w_0_0# ffipg_0/ffi_1/nand_3/b 0.06fF
-C1011 ffipg_0/ffi_0/nand_1/a ffipg_0/ffi_0/nand_1/w_0_0# 0.06fF
-C1012 ffipg_3/ffi_1/nand_1/b ffipg_3/ffi_1/nand_7/a 0.13fF
-C1013 ffipg_2/ffi_0/nand_6/a ffipg_2/ffi_0/nand_6/w_0_0# 0.06fF
-C1014 ffipg_2/ffi_0/nand_3/b ffipg_2/ffi_0/inv_1/op 0.33fF
-C1015 ffipg_2/ffi_0/nand_3/a ffipg_2/ffi_0/nand_2/w_0_0# 0.04fF
-C1016 ffipg_1/ffi_1/nand_0/a_13_n26# gnd 0.01fF
-C1017 ffipg_3/pggen_0/nand_0/w_0_0# cla_2/p1 0.24fF
-C1018 sumffo_1/s sumffo_1/ffo_0/nand_6/a 0.31fF
-C1019 ffipg_3/ffi_0/nand_7/a ffipg_3/ffi_0/nand_1/b 0.13fF
-C1020 ffipg_2/ffi_0/nand_1/b ffipg_2/ffi_0/inv_1/op 0.45fF
-C1021 clk ffo_0/inv_1/w_0_6# 0.06fF
-C1022 ffipg_2/ffi_1/nand_3/b ffipg_2/ffi_1/nand_1/w_0_0# 0.04fF
-C1023 sumffo_2/ffo_0/nand_1/a sumffo_2/ffo_0/nand_1/w_0_0# 0.06fF
-C1024 ffipg_3/ffi_1/inv_1/op ffipg_3/ffi_1/nand_6/a 0.13fF
-C1025 nor_0/b ffi_0/nand_6/a 0.00fF
-C1026 ffipg_1/ffi_1/q gnd 2.24fF
-C1027 cla_0/n cla_0/l 0.25fF
-C1028 cla_1/inv_0/in cla_2/p0 0.02fF
-C1029 sumffo_0/xor_0/inv_1/op sumffo_0/xor_0/inv_1/w_0_6# 0.03fF
-C1030 ffipg_3/pggen_0/xor_0/w_n3_4# ffipg_3/pggen_0/xor_0/a_10_10# 0.16fF
-C1031 ffipg_0/ffi_0/nand_3/b ffipg_0/ffi_0/nand_4/w_0_0# 0.06fF
-C1032 sumffo_0/ffo_0/nand_7/a sumffo_0/s 0.00fF
-C1033 ffipg_2/ffi_0/inv_1/w_0_6# gnd 0.06fF
-C1034 ffipg_3/k gnd 0.61fF
-C1035 ffipg_1/ffi_1/q cla_1/p0 0.22fF
-C1036 cla_0/n nand_2/b 0.06fF
-C1037 ffo_0/d gnd 0.45fF
-C1038 ffipg_3/ffi_1/nand_7/w_0_0# ffipg_3/ffi_1/q 0.04fF
-C1039 ffipg_2/pggen_0/xor_0/inv_0/op ffipg_2/k 0.06fF
-C1040 cla_2/inv_0/in gnd 0.34fF
-C1041 sumffo_2/ffo_0/inv_0/op sumffo_2/ffo_0/inv_0/w_0_6# 0.03fF
-C1042 sumffo_3/ffo_0/nand_3/b sumffo_3/ffo_0/nand_1/b 0.32fF
-C1043 sumffo_0/ffo_0/nand_6/w_0_0# sumffo_0/ffo_0/nand_6/a 0.06fF
-C1044 ffipg_2/x ffipg_2/ffi_1/inv_1/op 0.01fF
-C1045 ffipg_2/ffi_1/qbar ffipg_2/ffi_1/nand_6/w_0_0# 0.04fF
-C1046 ffipg_0/ffi_0/q ffipg_0/ffi_1/q 0.73fF
-C1047 ffo_0/d ffo_0/nand_0/b 0.40fF
-C1048 ffipg_1/ffi_1/inv_1/op ffipg_1/ffi_0/inv_1/op 0.75fF
-C1049 ffipg_0/ffi_0/nand_4/w_0_0# ffipg_0/ffi_0/inv_1/op 0.06fF
-C1050 ffipg_1/ffi_1/inv_1/op ffipg_1/x 0.01fF
-C1051 ffipg_3/ffi_0/q cla_2/p1 0.03fF
-C1052 ffipg_1/pggen_0/xor_0/inv_0/op gnd 0.32fF
-C1053 sumffo_0/ffo_0/nand_0/b gnd 0.58fF
-C1054 ffipg_1/k ffipg_1/pggen_0/xor_0/a_10_10# 0.45fF
-C1055 cla_0/n ffipg_2/k 0.06fF
-C1056 ffipg_2/ffi_0/nand_5/w_0_0# gnd 0.10fF
-C1057 ffipg_1/ffi_0/nand_5/w_0_0# gnd 0.10fF
-C1058 ffo_0/inv_0/w_0_6# gnd 0.07fF
-C1059 clk ffipg_1/ffi_1/nand_3/a 0.13fF
-C1060 sumffo_3/ffo_0/nand_3/b sumffo_3/ffo_0/nand_3/w_0_0# 0.06fF
-C1061 clk sumffo_2/ffo_0/d 0.25fF
-C1062 ffipg_1/ffi_1/nand_6/a ffipg_1/ffi_1/nand_6/w_0_0# 0.06fF
-C1063 ffipg_0/y ffipg_0/ffi_0/inv_1/op 0.01fF
-C1064 ffipg_3/ffi_0/nand_3/w_0_0# ffipg_3/ffi_0/nand_3/b 0.06fF
-C1065 ffipg_2/pggen_0/xor_0/inv_0/w_0_6# ffipg_2/ffi_1/q 0.06fF
-C1066 ffipg_1/ffi_1/nand_1/b gnd 0.57fF
-C1067 ffipg_0/ffi_0/qbar gnd 0.67fF
-C1068 ffipg_3/k sumffo_3/xor_0/w_n3_4# 0.06fF
-C1069 sumffo_3/ffo_0/d gnd 0.41fF
-C1070 ffipg_1/ffi_0/inv_1/op ffipg_1/ffi_0/nand_1/b 0.45fF
-C1071 ffipg_0/ffi_0/inv_0/op clk 0.32fF
-C1072 ffipg_2/pggen_0/xor_0/a_10_10# ffipg_2/pggen_0/xor_0/w_n3_4# 0.16fF
-C1073 ffipg_1/k nor_0/a 0.06fF
-C1074 clk sumffo_1/ffo_0/nand_1/b 0.45fF
-C1075 cla_0/l cla_1/inv_0/in 0.23fF
-C1076 cla_0/nor_0/w_0_0# gnd 0.31fF
-C1077 nor_1/b inv_2/in 0.04fF
-C1078 ffo_0/nand_3/b gnd 0.74fF
-C1079 sumffo_0/ffo_0/nand_0/a_13_n26# gnd 0.01fF
-C1080 sumffo_0/ffo_0/nand_3/b sumffo_0/ffo_0/nand_1/a 0.00fF
-C1081 ffipg_1/ffi_1/inv_0/w_0_6# gnd 0.06fF
-C1082 ffo_0/nand_7/w_0_0# gnd 0.10fF
-C1083 sumffo_3/ffo_0/nand_6/a gnd 0.33fF
-C1084 ffi_0/q ffi_0/nand_7/w_0_0# 0.04fF
-C1085 cla_0/nor_0/w_0_0# cla_1/p0 0.06fF
-C1086 ffipg_0/pggen_0/nor_0/a_13_6# ffipg_0/k 0.01fF
-C1087 nor_0/b sumffo_0/xor_0/a_10_10# 0.12fF
-C1088 sumffo_3/ffo_0/nand_3/w_0_0# sumffo_3/ffo_0/nand_1/b 0.04fF
-C1089 ffipg_2/ffi_1/nand_1/w_0_0# ffipg_2/ffi_1/nand_1/a 0.06fF
-C1090 ffipg_2/ffi_0/inv_1/op ffipg_2/y 0.01fF
-C1091 sumffo_1/ffo_0/nand_1/b sumffo_1/ffo_0/nand_1/a 0.31fF
-C1092 inv_1/op sumffo_2/xor_0/w_n3_4# 0.06fF
-C1093 sumffo_3/xor_0/a_10_10# gnd 0.93fF
-C1094 sumffo_0/ffo_0/nand_0/b sumffo_0/ffo_0/d 0.40fF
-C1095 sumffo_3/ffo_0/d sumffo_3/xor_0/w_n3_4# 0.02fF
-C1096 cla_0/n cla_1/inv_0/w_0_6# 0.26fF
-C1097 ffipg_2/ffi_0/nand_2/w_0_0# gnd 0.10fF
-C1098 ffipg_1/y gnd 0.22fF
-C1099 ffipg_0/ffi_0/inv_0/op ffipg_0/ffi_0/nand_0/w_0_0# 0.06fF
-C1100 sumffo_2/ffo_0/nand_3/a sumffo_2/ffo_0/nand_3/w_0_0# 0.06fF
-C1101 ffo_0/nand_3/b ffo_0/nand_3/a 0.31fF
-C1102 sumffo_1/ffo_0/nand_1/b sumffo_1/ffo_0/nand_5/w_0_0# 0.06fF
-C1103 cla_0/nor_1/w_0_0# cla_0/inv_0/in 0.05fF
-C1104 clk sumffo_1/ffo_0/nand_6/a 0.13fF
-C1105 sumffo_2/xor_0/inv_0/op sumffo_2/ffo_0/d 0.06fF
-C1106 ffipg_2/ffi_1/nand_0/a_13_n26# gnd 0.01fF
-C1107 ffi_0/nand_1/b ffi_0/nand_1/w_0_0# 0.06fF
-C1108 cla_2/inv_0/op cla_2/g1 0.35fF
-C1109 ffipg_3/ffi_0/nand_6/a ffipg_3/ffi_0/qbar 0.00fF
-C1110 ffipg_3/ffi_0/nand_6/a ffipg_3/ffi_0/nand_6/w_0_0# 0.06fF
-C1111 sumffo_0/xor_0/w_n3_4# sumffo_0/xor_0/a_10_10# 0.16fF
-C1112 cla_2/p1 gnd 1.00fF
-C1113 cla_2/p0 gnd 1.06fF
-C1114 ffi_0/nand_1/b ffi_0/nand_3/b 0.32fF
-C1115 ffipg_1/ffi_1/nand_3/b gnd 0.74fF
-C1116 ffipg_2/ffi_0/nand_3/a ffipg_2/ffi_0/nand_3/b 0.31fF
-C1117 ffipg_1/ffi_1/nand_2/w_0_0# ffipg_1/x 0.06fF
-C1118 sumffo_2/ffo_0/d sumffo_2/ffo_0/nand_2/w_0_0# 0.06fF
-C1119 ffo_0/qbar ffo_0/nand_6/a 0.00fF
-C1120 clk sumffo_0/ffo_0/nand_4/w_0_0# 0.06fF
-C1121 ffipg_0/pggen_0/xor_0/inv_1/op gnd 0.35fF
-C1122 ffo_0/inv_1/w_0_6# gnd 0.06fF
-C1123 cla_1/p0 cla_2/p0 0.24fF
-C1124 ffipg_2/ffi_0/q ffipg_2/pggen_0/nor_0/w_0_0# 0.06fF
-C1125 ffipg_0/pggen_0/nor_0/w_0_0# ffipg_0/ffi_0/q 0.06fF
-C1126 ffipg_3/ffi_0/nand_5/w_0_0# ffipg_3/ffi_0/nand_1/b 0.06fF
-C1127 clk ffipg_1/ffi_1/inv_1/w_0_6# 0.06fF
-C1128 sumffo_3/xor_0/a_10_10# sumffo_3/xor_0/w_n3_4# 0.16fF
-C1129 sumffo_3/xor_0/inv_0/w_0_6# gnd 0.09fF
-C1130 sumffo_3/s sumffo_3/ffo_0/nand_7/w_0_0# 0.04fF
-C1131 ffi_0/q ffi_0/nand_6/a 0.31fF
-C1132 ffipg_2/ffi_1/nand_4/w_0_0# ffipg_2/ffi_1/nand_3/b 0.06fF
-C1133 ffipg_2/pggen_0/xor_0/inv_1/op gnd 0.35fF
-C1134 ffo_0/nand_0/b ffo_0/inv_1/w_0_6# 0.03fF
-C1135 ffipg_0/ffi_1/nand_1/a ffipg_0/ffi_1/nand_1/b 0.31fF
-C1136 nor_0/b sumffo_1/xor_0/inv_1/op 0.04fF
-C1137 ffipg_3/ffi_1/q ffipg_3/pggen_0/nor_0/w_0_0# 0.06fF
-C1138 ffi_0/nand_2/w_0_0# ffi_0/nand_3/a 0.04fF
-C1139 sumffo_2/xor_0/inv_0/op ffipg_2/k 0.20fF
-C1140 ffipg_0/ffi_0/nand_1/a clk 0.13fF
-C1141 ffo_0/nand_6/a clk 0.13fF
-C1142 ffipg_0/ffi_1/inv_1/op ffipg_0/ffi_1/inv_1/w_0_6# 0.04fF
-C1143 ffo_0/nand_0/w_0_0# ffo_0/nand_1/a 0.04fF
-C1144 ffo_0/nand_7/w_0_0# ffo_0/nand_7/a 0.06fF
-C1145 sumffo_1/xor_0/w_n3_4# sumffo_1/xor_0/inv_1/op 0.06fF
-C1146 inv_8/in gnd 0.43fF
-C1147 ffipg_2/pggen_0/nand_0/w_0_0# gnd 0.10fF
-C1148 cla_1/inv_0/w_0_6# cla_1/inv_0/in 0.06fF
-C1149 sumffo_2/xor_0/inv_0/op sumffo_2/xor_0/inv_0/w_0_6# 0.03fF
-C1150 ffipg_2/ffi_0/q ffipg_2/ffi_1/q 0.73fF
-C1151 sumffo_0/ffo_0/nand_0/w_0_0# sumffo_0/ffo_0/inv_0/op 0.06fF
-C1152 ffipg_0/ffi_0/inv_1/op ffipg_0/ffi_1/inv_1/op 0.75fF
-C1153 ffipg_1/ffi_1/nand_6/w_0_0# gnd 0.10fF
-C1154 ffipg_1/ffi_1/nand_3/a gnd 0.33fF
-C1155 sumffo_2/ffo_0/d gnd 0.41fF
-C1156 cla_0/l gnd 3.05fF
-C1157 ffipg_3/ffi_0/inv_1/op ffipg_3/ffi_0/nand_1/b 0.45fF
-C1158 ffipg_0/ffi_1/q ffipg_0/ffi_1/qbar 0.32fF
-C1159 sumffo_1/ffo_0/nand_2/w_0_0# sumffo_1/ffo_0/nand_3/a 0.04fF
-C1160 ffi_0/nand_0/a_13_n26# gnd 0.01fF
-C1161 sumffo_1/xor_0/inv_1/op sumffo_1/ffo_0/d 0.52fF
-C1162 cla_0/l cla_1/p0 0.09fF
-C1163 gnd nand_2/b 1.90fF
-C1164 ffipg_0/ffi_0/nand_1/a ffipg_0/ffi_0/nand_0/w_0_0# 0.04fF
-C1165 ffipg_0/ffi_0/inv_0/op gnd 0.27fF
-C1166 ffo_0/nand_3/w_0_0# gnd 0.11fF
-C1167 ffipg_1/k ffipg_1/ffi_1/q 0.46fF
-C1168 ffipg_1/ffi_0/nand_6/w_0_0# ffipg_1/ffi_0/q 0.06fF
-C1169 sumffo_1/ffo_0/nand_1/b gnd 0.57fF
-C1170 ffipg_1/ffi_1/q ffipg_1/ffi_1/nand_7/a 0.00fF
-C1171 ffipg_3/ffi_1/inv_1/op ffipg_3/ffi_1/nand_4/w_0_0# 0.06fF
-C1172 inv_1/op nor_1/w_0_0# 0.03fF
-C1173 cla_0/nand_0/a_13_n26# gnd 0.00fF
-C1174 ffipg_3/ffi_0/nand_6/a ffipg_3/ffi_0/q 0.31fF
-C1175 ffipg_3/ffi_0/nand_4/w_0_0# gnd 0.10fF
-C1176 ffipg_0/ffi_1/nand_3/a ffipg_0/ffi_1/nand_3/w_0_0# 0.06fF
-C1177 ffipg_2/k gnd 0.58fF
-C1178 clk ffipg_2/y 0.64fF
-C1179 inv_4/op gnd 0.58fF
-C1180 clk sumffo_2/ffo_0/nand_1/b 0.45fF
-C1181 cla_2/inv_0/in cla_2/inv_0/op 0.04fF
-C1182 ffipg_1/k ffipg_1/pggen_0/xor_0/inv_0/op 0.06fF
-C1183 cla_1/p0 ffipg_2/k 0.06fF
-C1184 ffo_0/nand_3/w_0_0# ffo_0/nand_3/a 0.06fF
-C1185 ffipg_3/ffi_1/nand_6/a gnd 0.37fF
-C1186 sumffo_3/ffo_0/nand_3/a sumffo_3/ffo_0/nand_2/w_0_0# 0.04fF
-C1187 gnd sumffo_2/xor_0/inv_0/w_0_6# 0.09fF
-C1188 ffipg_2/ffi_0/nand_7/a ffipg_2/ffi_0/nand_5/w_0_0# 0.04fF
-C1189 ffipg_0/k sumffo_0/xor_0/inv_0/op 0.27fF
-C1190 ffipg_3/x ffipg_3/ffi_1/nand_2/w_0_0# 0.06fF
-C1191 ffipg_3/pggen_0/nor_0/a_13_6# ffipg_3/k 0.01fF
-C1192 ffipg_2/ffi_1/nand_3/b ffipg_2/ffi_1/inv_1/op 0.33fF
-C1193 ffipg_2/pggen_0/xor_0/inv_1/w_0_6# ffipg_2/ffi_0/q 0.23fF
-C1194 ffipg_0/ffi_0/q ffipg_0/k 0.07fF
-C1195 sumffo_1/ffo_0/nand_6/a gnd 0.33fF
-C1196 ffipg_2/ffi_0/nand_3/b gnd 0.74fF
-C1197 sumffo_3/ffo_0/nand_6/w_0_0# gnd 0.10fF
-C1198 inv_7/in gnd 0.43fF
-C1199 ffipg_1/ffi_1/nand_1/b ffipg_1/ffi_1/nand_7/a 0.13fF
-C1200 sumffo_0/ffo_0/nand_7/a sumffo_0/sbar 0.31fF
-C1201 nor_1/b nor_1/w_0_0# 0.06fF
-C1202 clk sumffo_0/ffo_0/nand_3/b 0.33fF
-C1203 ffipg_2/ffi_0/nand_1/b gnd 0.57fF
-C1204 inv_4/op sumffo_3/xor_0/w_n3_4# 0.06fF
-C1205 nor_3/w_0_0# inv_6/in 0.11fF
-C1206 cla_1/l cla_1/nor_0/w_0_0# 0.05fF
-C1207 cla_1/nand_0/a_13_n26# gnd 0.01fF
-C1208 ffipg_3/ffi_1/nand_7/a gnd 0.37fF
-C1209 ffipg_0/pggen_0/xor_0/inv_1/op ffipg_0/pggen_0/xor_0/inv_0/op 0.08fF
-C1210 sumffo_0/xor_0/inv_0/w_0_6# gnd 0.09fF
-C1211 gnd sumffo_0/ffo_0/nand_4/w_0_0# 0.10fF
-C1212 ffipg_0/ffi_0/nand_2/w_0_0# ffipg_0/y 0.06fF
-C1213 ffipg_0/pggen_0/nand_0/w_0_0# nor_0/a 0.24fF
-C1214 ffipg_3/ffi_1/nand_3/b ffipg_3/ffi_1/nand_4/w_0_0# 0.06fF
-C1215 ffipg_1/ffi_1/inv_1/w_0_6# gnd 0.06fF
-C1216 ffipg_0/ffi_1/nand_3/w_0_0# gnd 0.11fF
-C1217 sumffo_1/xor_0/inv_0/op nand_2/b 0.20fF
-C1218 sumffo_0/ffo_0/nand_2/w_0_0# sumffo_0/ffo_0/nand_0/b 0.06fF
-C1219 cla_1/inv_0/w_0_6# gnd 0.06fF
-C1220 sumffo_3/ffo_0/nand_0/b sumffo_3/ffo_0/d 0.40fF
-C1221 nor_4/a nor_4/b 0.42fF
-C1222 ffo_0/q ffo_0/nand_7/w_0_0# 0.04fF
-C1223 sumffo_1/ffo_0/nand_0/w_0_0# sumffo_1/ffo_0/nand_0/b 0.06fF
-C1224 ffipg_0/ffi_0/nand_1/a gnd 0.44fF
-C1225 ffo_0/nand_6/a gnd 0.33fF
-C1226 ffipg_3/ffi_0/nand_0/w_0_0# ffipg_3/ffi_0/inv_0/op 0.06fF
-C1227 ffipg_1/ffi_1/inv_0/w_0_6# ffipg_1/ffi_1/inv_0/op 0.03fF
-C1228 ffipg_0/ffi_0/nand_6/w_0_0# ffipg_0/ffi_0/q 0.06fF
-C1229 sumffo_1/ffo_0/nand_1/w_0_0# sumffo_1/ffo_0/nand_3/b 0.04fF
-C1230 sumffo_3/ffo_0/nand_3/b sumffo_3/ffo_0/nand_1/w_0_0# 0.04fF
-C1231 ffipg_3/ffi_0/nand_6/a gnd 0.37fF
-C1232 ffipg_3/k ffipg_3/pggen_0/nor_0/w_0_0# 0.21fF
-C1233 ffipg_1/ffi_0/nand_1/w_0_0# ffipg_1/ffi_0/nand_1/b 0.06fF
-C1234 sumffo_1/ffo_0/nand_3/b sumffo_1/ffo_0/nand_3/w_0_0# 0.06fF
-C1235 sumffo_3/xor_0/inv_1/op gnd 0.35fF
-C1236 clk sumffo_0/ffo_0/nand_6/a 0.13fF
-C1237 sumffo_0/ffo_0/nand_1/b sumffo_0/ffo_0/nand_1/w_0_0# 0.06fF
-C1238 nor_2/b gnd 0.32fF
-C1239 ffipg_3/pggen_0/xor_0/inv_0/w_0_6# gnd 0.09fF
-C1240 sumffo_3/xor_0/inv_1/w_0_6# gnd 0.06fF
-C1241 ffipg_2/ffi_1/nand_0/w_0_0# ffipg_2/ffi_1/inv_0/op 0.06fF
-C1242 nor_0/b inv_2/in 0.13fF
-C1243 ffipg_1/ffi_1/nand_7/w_0_0# gnd 0.10fF
-C1244 ffipg_0/ffi_1/q gnd 2.24fF
-C1245 sumffo_1/ffo_0/nand_2/w_0_0# gnd 0.10fF
-C1246 cla_2/inv_0/w_0_6# gnd 0.06fF
-C1247 sumffo_3/ffo_0/nand_4/w_0_0# sumffo_3/ffo_0/nand_6/a 0.04fF
-C1248 sumffo_1/ffo_0/nand_2/a_13_n26# gnd 0.01fF
-C1249 ffipg_3/ffi_0/nand_3/w_0_0# ffipg_3/ffi_0/nand_3/a 0.06fF
-C1250 nor_0/w_0_0# cla_0/g0 0.06fF
-C1251 ffipg_2/ffi_0/qbar ffipg_2/ffi_0/q 0.32fF
-C1252 sumffo_3/ffo_0/nand_1/b sumffo_3/ffo_0/nand_1/w_0_0# 0.06fF
-C1253 ffipg_3/ffi_1/nand_2/w_0_0# clk 0.06fF
-C1254 ffipg_0/pggen_0/xor_0/inv_0/w_0_6# ffipg_0/ffi_1/q 0.06fF
-C1255 clk ffo_0/nand_5/w_0_0# 0.06fF
-C1256 inv_2/w_0_6# gnd 0.17fF
-C1257 ffipg_0/ffi_0/inv_0/op ffipg_0/ffi_0/inv_0/w_0_6# 0.03fF
-C1258 sumffo_3/xor_0/w_n3_4# sumffo_3/xor_0/inv_1/op 0.06fF
-C1259 ffipg_2/pggen_0/xor_0/w_n3_4# ffipg_2/ffi_1/q 0.06fF
-C1260 sumffo_1/ffo_0/nand_6/w_0_0# sumffo_1/ffo_0/nand_6/a 0.06fF
-C1261 ffipg_2/y gnd 0.22fF
-C1262 ffi_0/nand_4/w_0_0# ffi_0/nand_3/b 0.06fF
-C1263 inv_3/w_0_6# inv_3/in 0.10fF
-C1264 ffipg_0/ffi_0/nand_6/w_0_0# ffipg_0/ffi_0/nand_6/a 0.06fF
-C1265 sumffo_2/ffo_0/nand_1/b gnd 0.57fF
-C1266 ffipg_2/ffi_1/nand_5/w_0_0# gnd 0.10fF
-C1267 ffipg_0/ffi_1/nand_6/a ffipg_0/ffi_1/q 0.31fF
-C1268 ffipg_3/ffi_1/nand_1/b ffipg_3/ffi_1/nand_5/w_0_0# 0.06fF
-C1269 sumffo_2/ffo_0/d sumffo_2/ffo_0/nand_0/b 0.40fF
-C1270 ffipg_3/ffi_1/inv_1/op ffipg_3/ffi_1/inv_1/w_0_6# 0.04fF
-C1271 ffipg_2/ffi_1/nand_6/w_0_0# gnd 0.10fF
-C1272 ffipg_1/ffi_0/inv_0/w_0_6# ffipg_1/y 0.06fF
-C1273 ffipg_0/ffi_0/nand_1/a ffipg_0/ffi_0/nand_1/b 0.31fF
-C1274 sumffo_3/ffo_0/nand_2/w_0_0# gnd 0.10fF
-C1275 ffipg_0/ffi_1/inv_1/op ffipg_0/ffi_1/nand_1/b 0.45fF
-C1276 ffi_0/nand_1/b ffi_0/nand_3/w_0_0# 0.04fF
-C1277 inv_7/op inv_7/in 0.04fF
-C1278 nor_0/b sumffo_2/xor_0/w_n3_4# 0.00fF
-C1279 ffipg_1/k nand_2/b 0.15fF
-C1280 nor_2/w_0_0# gnd 0.15fF
-C1281 sumffo_3/sbar sumffo_3/ffo_0/nand_7/a 0.31fF
-C1282 ffo_0/nand_6/w_0_0# ffo_0/qbar 0.04fF
-C1283 sumffo_0/ffo_0/nand_0/b sumffo_0/ffo_0/nand_3/a 0.13fF
-C1284 sumffo_0/ffo_0/nand_3/b gnd 0.74fF
-C1285 sumffo_3/ffo_0/nand_3/b sumffo_3/ffo_0/nand_3/a 0.31fF
-C1286 clk sumffo_3/ffo_0/nand_3/b 0.33fF
-C1287 cla_2/p1 ffipg_3/pggen_0/nor_0/w_0_0# 0.05fF
-C1288 ffipg_3/ffi_0/nand_2/w_0_0# ffipg_3/y 0.06fF
-C1289 ffipg_1/ffi_1/nand_5/w_0_0# ffipg_1/ffi_1/nand_1/b 0.06fF
-C1290 ffipg_2/ffi_1/nand_5/w_0_0# ffipg_2/ffi_1/nand_1/b 0.06fF
-C1291 ffipg_3/ffi_1/nand_6/w_0_0# gnd 0.10fF
-C1292 ffipg_3/ffi_1/nand_5/w_0_0# ffipg_3/ffi_1/inv_1/op 0.06fF
-C1293 ffipg_2/ffi_0/inv_0/op clk 0.32fF
-C1294 ffipg_0/ffi_1/nand_6/w_0_0# ffipg_0/ffi_1/q 0.06fF
-C1295 ffipg_2/ffi_1/nand_6/a ffipg_2/ffi_1/q 0.31fF
-C1296 ffipg_0/ffi_0/nand_5/w_0_0# ffipg_0/ffi_0/nand_7/a 0.04fF
-C1297 sumffo_0/ffo_0/nand_0/w_0_0# sumffo_0/ffo_0/nand_1/a 0.04fF
-C1298 ffipg_3/ffi_1/nand_7/a ffipg_3/ffi_1/nand_7/w_0_0# 0.06fF
-C1299 ffipg_1/ffi_0/inv_0/op ffipg_1/y 0.04fF
-C1300 ffi_0/nand_1/b gnd 0.57fF
-C1301 ffipg_2/pggen_0/xor_0/a_10_10# ffipg_2/k 0.45fF
-C1302 ffipg_0/pggen_0/nor_0/w_0_0# gnd 0.11fF
-C1303 inv_9/in nor_4/w_0_0# 0.11fF
-C1304 inv_7/w_0_6# cla_0/l 0.06fF
-C1305 ffipg_3/pggen_0/xor_0/w_n3_4# ffipg_3/pggen_0/xor_0/inv_1/op 0.06fF
-C1306 ffipg_2/ffi_0/qbar ffipg_2/ffi_0/nand_6/w_0_0# 0.04fF
-C1307 ffipg_2/ffi_0/q ffipg_2/ffi_0/nand_6/w_0_0# 0.06fF
-C1308 ffipg_3/pggen_0/xor_0/w_n3_4# ffipg_3/ffi_0/q 0.06fF
-C1309 ffipg_3/ffi_1/nand_4/w_0_0# gnd 0.10fF
-C1310 ffi_0/nand_7/a ffi_0/nand_1/b 0.13fF
-C1311 ffipg_2/ffi_1/nand_0/w_0_0# ffipg_2/ffi_1/nand_1/a 0.04fF
-C1312 gnd sumffo_0/ffo_0/nand_6/a 0.33fF
-C1313 cla_0/l cla_0/nand_0/w_0_0# 0.06fF
-C1314 clk ffo_0/nand_4/w_0_0# 0.06fF
-C1315 clk sumffo_3/ffo_0/nand_1/b 0.45fF
-C1316 ffipg_3/x ffipg_3/ffi_1/inv_0/op 0.04fF
-C1317 ffipg_3/ffi_1/nand_1/b ffipg_3/ffi_1/nand_1/w_0_0# 0.06fF
-C1318 cla_0/nand_0/w_0_0# nand_2/b 0.05fF
-C1319 ffipg_2/ffi_0/nand_1/w_0_0# gnd 0.10fF
-C1320 ffipg_1/ffi_0/q ffipg_1/pggen_0/xor_0/w_n3_4# 0.06fF
-C1321 ffipg_0/pggen_0/xor_0/inv_0/op ffipg_0/ffi_1/q 0.27fF
-C1322 ffipg_2/ffi_0/nand_7/a ffipg_2/ffi_0/nand_1/b 0.13fF
-C1323 sumffo_1/ffo_0/nand_4/w_0_0# sumffo_1/ffo_0/nand_6/a 0.04fF
-C1324 ffi_0/nand_5/w_0_0# ffi_0/inv_1/op 0.06fF
-C1325 sumffo_3/ffo_0/nand_3/w_0_0# sumffo_3/ffo_0/nand_3/a 0.06fF
-C1326 clk sumffo_2/ffo_0/inv_1/w_0_6# 0.06fF
-C1327 sumffo_2/ffo_0/nand_7/a sumffo_2/ffo_0/nand_7/w_0_0# 0.06fF
-C1328 ffipg_3/ffi_1/nand_3/a ffipg_3/ffi_1/nand_2/w_0_0# 0.04fF
-C1329 ffipg_3/ffi_0/inv_0/op ffipg_3/ffi_0/inv_0/w_0_6# 0.03fF
-C1330 sumffo_0/ffo_0/nand_3/w_0_0# sumffo_0/ffo_0/nand_1/b 0.04fF
-C1331 clk ffipg_3/y 0.64fF
-C1332 ffi_0/nand_1/w_0_0# ffi_0/nand_3/b 0.04fF
-C1333 clk ffipg_3/ffi_1/inv_1/w_0_6# 0.06fF
-C1334 ffipg_0/ffi_0/nand_3/a clk 0.13fF
-C1335 sumffo_3/xor_0/inv_0/op ffipg_3/k 0.20fF
-C1336 ffipg_3/ffi_1/nand_2/w_0_0# gnd 0.10fF
-C1337 ffo_0/nand_5/w_0_0# gnd 0.10fF
-C1338 cla_2/nor_0/w_0_0# cla_2/l 0.05fF
-C1339 ffipg_1/ffi_0/nand_3/a ffipg_1/ffi_0/nand_3/b 0.31fF
-C1340 inv_6/in gnd 0.33fF
-C1341 ffipg_0/ffi_1/nand_3/b ffipg_0/ffi_1/nand_4/w_0_0# 0.06fF
-C1342 sumffo_1/ffo_0/d sumffo_1/ffo_0/inv_0/w_0_6# 0.06fF
-C1343 nor_0/b sumffo_1/xor_0/w_n3_4# 0.00fF
-C1344 sumffo_1/ffo_0/nand_0/w_0_0# sumffo_1/ffo_0/inv_0/op 0.06fF
-C1345 ffo_0/nand_3/b ffo_0/nand_1/a 0.00fF
-C1346 ffipg_3/ffi_0/q ffipg_3/pggen_0/xor_0/a_10_10# 0.12fF
-C1347 ffo_0/q ffo_0/nand_6/a 0.31fF
-C1348 sumffo_1/ffo_0/nand_0/b sumffo_1/ffo_0/d 0.40fF
-C1349 ffipg_1/ffi_1/nand_3/w_0_0# gnd 0.11fF
-C1350 ffo_0/nand_1/b ffo_0/nand_3/b 0.32fF
-C1351 ffipg_3/ffi_1/q ffipg_3/pggen_0/xor_0/inv_0/op 0.27fF
-C1352 inv_7/w_0_6# inv_7/in 0.10fF
-C1353 ffipg_2/ffi_1/nand_4/w_0_0# ffipg_2/ffi_1/inv_1/op 0.06fF
-C1354 ffipg_1/ffi_0/inv_1/op ffipg_1/ffi_0/nand_5/w_0_0# 0.06fF
-C1355 cla_2/l inv_5/w_0_6# 0.08fF
-C1356 ffipg_0/ffi_0/q ffipg_0/ffi_0/nand_7/a 0.00fF
-C1357 sumffo_3/ffo_0/nand_7/w_0_0# gnd 0.10fF
-C1358 nor_0/b sumffo_0/xor_0/w_n3_4# 0.06fF
-C1359 sumffo_3/xor_0/inv_0/op sumffo_3/ffo_0/d 0.06fF
-C1360 sumffo_0/ffo_0/inv_0/op gnd 0.27fF
-C1361 cla_2/l inv_5/in 0.05fF
-C1362 ffi_0/nand_1/a ffi_0/nand_1/b 0.31fF
-C1363 nor_0/b sumffo_1/ffo_0/d 0.27fF
-C1364 ffipg_2/ffi_0/q ffipg_2/pggen_0/xor_0/w_n3_4# 0.06fF
-C1365 ffo_0/d ffo_0/nand_2/w_0_0# 0.06fF
-C1366 ffipg_1/ffi_1/nand_7/w_0_0# ffipg_1/ffi_1/nand_7/a 0.06fF
-C1367 ffipg_0/pggen_0/xor_0/inv_1/op ffipg_0/pggen_0/xor_0/inv_1/w_0_6# 0.03fF
-C1368 ffipg_3/pggen_0/xor_0/w_n3_4# gnd 0.12fF
-C1369 nor_0/b sumffo_1/xor_0/a_10_10# 0.04fF
-C1370 ffipg_2/ffi_0/nand_0/a_13_n26# gnd 0.01fF
-C1371 cla_2/inv_0/w_0_6# cla_2/inv_0/op 0.03fF
-C1372 sumffo_1/xor_0/w_n3_4# sumffo_1/ffo_0/d 0.02fF
-C1373 inv_4/in cla_1/n 0.02fF
-C1374 sumffo_3/ffo_0/nand_3/b gnd 0.74fF
-C1375 sumffo_2/ffo_0/nand_7/a sumffo_2/s 0.00fF
-C1376 ffi_0/nand_2/w_0_0# ffi_0/d 0.06fF
-C1377 sumffo_1/xor_0/w_n3_4# sumffo_1/xor_0/a_10_10# 0.16fF
-C1378 ffipg_0/k gnd 0.68fF
-C1379 ffi_0/inv_1/op ffi_0/d 0.01fF
-C1380 ffipg_1/ffi_1/inv_0/w_0_6# ffipg_1/x 0.06fF
-C1381 ffipg_1/pggen_0/xor_0/inv_1/op ffipg_1/pggen_0/xor_0/inv_1/w_0_6# 0.03fF
-C1382 cla_0/inv_0/w_0_6# cla_0/inv_0/op 0.03fF
-C1383 ffipg_2/ffi_0/inv_0/op gnd 0.27fF
-C1384 ffipg_3/pggen_0/xor_0/inv_1/op ffipg_3/pggen_0/xor_0/inv_1/w_0_6# 0.03fF
-C1385 ffo_0/nand_6/w_0_0# gnd 0.10fF
-C1386 sumffo_2/ffo_0/nand_1/b sumffo_2/ffo_0/nand_3/b 0.32fF
-C1387 clk ffipg_3/ffi_1/inv_0/op 0.32fF
-C1388 ffipg_3/ffi_0/q ffipg_3/pggen_0/xor_0/inv_1/w_0_6# 0.23fF
-C1389 ffipg_1/ffi_0/nand_7/a ffipg_1/ffi_0/nand_1/b 0.13fF
-C1390 sumffo_0/ffo_0/nand_6/a sumffo_0/s 0.31fF
-C1391 ffipg_2/ffi_0/nand_1/a ffipg_2/ffi_0/nand_3/b 0.00fF
-C1392 ffipg_2/ffi_0/nand_3/w_0_0# ffipg_2/ffi_0/nand_3/a 0.06fF
-C1393 ffipg_1/pggen_0/nor_0/w_0_0# ffipg_1/ffi_0/q 0.06fF
-C1394 nor_0/w_0_0# gnd 0.46fF
-C1395 ffi_0/inv_0/op ffi_0/nand_0/w_0_0# 0.06fF
-C1396 cla_0/n cla_1/l 0.07fF
-C1397 ffo_0/nand_7/a ffo_0/nand_5/w_0_0# 0.04fF
-C1398 sumffo_1/ffo_0/nand_7/w_0_0# sumffo_1/s 0.04fF
-C1399 ffipg_3/ffi_1/nand_3/b ffipg_3/ffi_1/nand_1/w_0_0# 0.04fF
-C1400 ffipg_0/ffi_0/q ffipg_0/ffi_0/nand_6/a 0.31fF
-C1401 ffipg_0/ffi_1/nand_7/a ffipg_0/ffi_1/nand_5/w_0_0# 0.04fF
-C1402 ffipg_2/ffi_0/nand_1/b ffipg_2/ffi_0/nand_1/a 0.31fF
-C1403 ffipg_0/ffi_0/q cla_0/g0 0.13fF
-C1404 ffipg_1/ffi_0/inv_1/op ffipg_1/y 0.01fF
-C1405 sumffo_3/ffo_0/inv_0/op sumffo_3/ffo_0/inv_0/w_0_6# 0.03fF
-C1406 ffipg_3/ffi_1/nand_1/b ffipg_3/ffi_1/inv_1/op 0.45fF
-C1407 sumffo_1/xor_0/a_10_10# sumffo_1/ffo_0/d 0.45fF
-C1408 sumffo_1/ffo_0/nand_1/b sumffo_1/ffo_0/nand_7/a 0.13fF
-C1409 sumffo_0/ffo_0/inv_0/op sumffo_0/ffo_0/d 0.04fF
-C1410 ffipg_3/pggen_0/xor_0/a_10_10# gnd 0.93fF
-C1411 ffipg_0/ffi_1/nand_7/a ffipg_0/ffi_1/qbar 0.31fF
-C1412 ffo_0/nand_4/w_0_0# gnd 0.10fF
-C1413 sumffo_3/ffo_0/nand_1/b gnd 0.57fF
-C1414 ffipg_3/ffi_0/inv_1/op ffipg_3/ffi_0/nand_3/b 0.33fF
-C1415 cla_2/p0 ffipg_2/pggen_0/nor_0/w_0_0# 0.05fF
-C1416 ffipg_0/ffi_0/nand_6/w_0_0# gnd 0.10fF
-C1417 sumffo_1/ffo_0/nand_3/b sumffo_1/ffo_0/nand_1/b 0.32fF
-C1418 nor_0/w_0_0# inv_0/in 0.11fF
-C1419 sumffo_3/xor_0/inv_0/w_0_6# sumffo_3/xor_0/inv_0/op 0.03fF
-C1420 sumffo_3/sbar sumffo_3/ffo_0/nand_6/a 0.00fF
-C1421 ffipg_0/ffi_0/nand_1/a ffipg_0/ffi_0/nand_3/b 0.00fF
-C1422 sumffo_2/ffo_0/inv_1/w_0_6# gnd 0.07fF
-C1423 sumffo_3/ffo_0/nand_3/w_0_0# gnd 0.11fF
-C1424 sumffo_3/ffo_0/nand_0/b sumffo_3/ffo_0/nand_2/w_0_0# 0.06fF
-C1425 nor_0/w_0_0# inv_0/op 0.10fF
-C1426 sumffo_1/xor_0/inv_1/op nand_2/b 0.22fF
-C1427 ffipg_2/ffi_0/nand_4/w_0_0# ffipg_2/ffi_0/nand_3/b 0.06fF
-C1428 cla_0/l cla_1/inv_0/op 0.35fF
-C1429 ffipg_3/ffi_0/nand_3/a ffipg_3/ffi_0/nand_3/b 0.31fF
-C1430 gnd ffipg_3/y 0.22fF
-C1431 sumffo_2/ffo_0/d sumffo_2/ffo_0/inv_0/w_0_6# 0.06fF
-C1432 ffipg_0/ffi_0/nand_3/a gnd 0.33fF
-C1433 ffipg_3/ffi_1/inv_1/w_0_6# gnd 0.06fF
-C1434 nor_0/b nor_0/a 0.32fF
-C1435 clk sumffo_2/ffo_0/nand_4/w_0_0# 0.06fF
-C1436 ffipg_0/x ffipg_0/ffi_1/inv_1/op 0.01fF
-C1437 cla_0/l cla_0/nor_1/w_0_0# 0.02fF
-C1438 ffipg_3/ffi_0/nand_5/w_0_0# ffipg_3/ffi_0/nand_7/a 0.04fF
-C1439 ffipg_3/x ffipg_3/ffi_1/inv_1/op 0.01fF
-C1440 ffipg_3/ffi_0/nand_1/w_0_0# gnd 0.10fF
-C1441 nor_0/b ffi_0/q 0.32fF
-C1442 ffipg_1/ffi_1/nand_1/b ffipg_1/ffi_1/inv_1/op 0.45fF
-C1443 nor_3/b inv_6/in 0.16fF
-C1444 cla_1/nor_0/w_0_0# gnd 0.31fF
-C1445 sumffo_1/ffo_0/inv_0/op sumffo_1/ffo_0/inv_0/w_0_6# 0.03fF
-C1446 cla_2/p0 ffipg_2/ffi_1/q 0.22fF
-C1447 clk ffipg_1/ffi_1/nand_0/w_0_0# 0.06fF
-C1448 ffipg_1/ffi_0/nand_3/b gnd 0.74fF
-C1449 ffo_0/nand_1/b ffo_0/nand_3/w_0_0# 0.04fF
-C1450 ffipg_2/ffi_1/nand_4/w_0_0# ffipg_2/ffi_1/nand_6/a 0.04fF
-C1451 ffo_0/nand_1/w_0_0# gnd 0.10fF
-C1452 sumffo_3/ffo_0/nand_1/b sumffo_3/ffo_0/nand_5/w_0_0# 0.06fF
-C1453 ffipg_3/ffi_1/qbar ffipg_3/ffi_1/q 0.32fF
-C1454 sumffo_1/ffo_0/nand_0/b sumffo_1/ffo_0/inv_0/op 0.32fF
-C1455 nor_0/b sumffo_0/xor_0/inv_1/w_0_6# 0.23fF
-C1456 cla_2/g1 cla_2/n 0.13fF
-C1457 cla_1/p0 cla_1/nor_0/w_0_0# 0.06fF
-C1458 ffipg_2/ffi_1/nand_5/w_0_0# ffipg_2/ffi_1/nand_7/a 0.04fF
-C1459 ffipg_1/ffi_0/nand_6/w_0_0# gnd 0.10fF
-C1460 ffipg_1/ffi_0/nand_5/w_0_0# ffipg_1/ffi_0/nand_1/b 0.06fF
-C1461 ffipg_3/ffi_1/nand_1/b ffipg_3/ffi_1/nand_3/b 0.32fF
-C1462 ffipg_3/pggen_0/xor_0/inv_1/w_0_6# gnd 0.06fF
-C1463 ffipg_0/pggen_0/xor_0/a_10_10# ffipg_0/k 0.45fF
-C1464 ffipg_2/ffi_0/inv_0/w_0_6# ffipg_2/y 0.06fF
-C1465 ffipg_2/pggen_0/xor_0/inv_1/op ffipg_2/ffi_1/q 0.06fF
-C1466 ffipg_1/ffi_0/nand_6/w_0_0# ffipg_1/ffi_0/nand_6/a 0.06fF
-C1467 ffipg_3/ffi_1/nand_5/w_0_0# gnd 0.10fF
-C1468 ffipg_1/ffi_1/q ffipg_1/pggen_0/nand_0/w_0_0# 0.06fF
-C1469 sumffo_2/xor_0/a_10_10# gnd 0.93fF
-C1470 inv_5/in inv_5/w_0_6# 0.10fF
-C1471 ffipg_3/pggen_0/xor_0/inv_0/op ffipg_3/k 0.06fF
-C1472 ffipg_1/ffi_0/q gnd 3.00fF
-C1473 ffi_0/nand_4/w_0_0# gnd 0.10fF
-C1474 ffipg_2/pggen_0/nand_0/w_0_0# ffipg_2/ffi_1/q 0.06fF
-C1475 inv_1/op ffipg_2/k 0.09fF
-C1476 sumffo_0/xor_0/inv_1/op ffipg_0/k 0.06fF
-C1477 ffipg_2/ffi_0/inv_0/op ffipg_2/ffi_0/nand_0/w_0_0# 0.06fF
-C1478 ffipg_1/ffi_1/nand_1/b ffipg_1/ffi_1/nand_1/a 0.31fF
-C1479 ffi_0/inv_0/op ffi_0/d 0.04fF
-C1480 ffipg_1/ffi_0/nand_6/a ffipg_1/ffi_0/q 0.31fF
-C1481 ffipg_1/ffi_0/q cla_1/p0 0.03fF
-C1482 ffipg_0/pggen_0/xor_0/inv_0/op ffipg_0/k 0.06fF
-C1483 ffipg_2/ffi_0/nand_3/w_0_0# gnd 0.11fF
-C1484 ffipg_3/ffi_0/inv_1/op ffipg_3/ffi_0/inv_1/w_0_6# 0.04fF
-C1485 sumffo_0/ffo_0/nand_6/w_0_0# gnd 0.10fF
-C1486 sumffo_1/xor_0/inv_1/w_0_6# nand_2/b 0.23fF
-C1487 cla_1/nand_0/w_0_0# gnd 0.10fF
-C1488 sumffo_3/xor_0/inv_0/op inv_4/op 0.27fF
-C1489 inv_1/op sumffo_2/xor_0/inv_0/w_0_6# 0.06fF
-C1490 cla_2/nand_0/w_0_0# gnd 0.18fF
-C1491 sumffo_0/ffo_0/nand_1/b sumffo_0/ffo_0/nand_5/w_0_0# 0.06fF
-C1492 ffipg_2/k ffipg_2/pggen_0/nor_0/w_0_0# 0.21fF
-C1493 ffipg_3/ffi_1/inv_1/op ffipg_3/ffi_1/nand_3/b 0.33fF
-C1494 ffipg_3/ffi_1/inv_0/op gnd 0.27fF
-C1495 sumffo_2/ffo_0/nand_7/a gnd 0.33fF
-C1496 sumffo_0/ffo_0/nand_7/a sumffo_0/ffo_0/nand_5/w_0_0# 0.04fF
-C1497 ffipg_3/ffi_1/nand_1/b ffipg_3/ffi_1/nand_3/w_0_0# 0.04fF
-C1498 clk ffipg_2/ffi_0/inv_1/op 0.07fF
-C1499 ffipg_1/ffi_1/inv_1/op ffipg_1/ffi_1/nand_3/b 0.33fF
-C1500 sumffo_1/ffo_0/inv_0/op sumffo_1/ffo_0/d 0.04fF
-C1501 cla_1/inv_0/w_0_6# cla_1/inv_0/op 0.03fF
-C1502 ffipg_3/ffi_1/nand_0/a_13_n26# gnd 0.01fF
-C1503 ffipg_0/ffi_0/nand_5/w_0_0# gnd 0.10fF
-C1504 sumffo_2/xor_0/inv_0/op sumffo_2/xor_0/inv_1/op 0.08fF
-C1505 clk sumffo_0/ffo_0/inv_1/w_0_6# 0.06fF
-C1506 ffipg_1/ffi_1/q ffipg_1/ffi_1/qbar 0.32fF
-C1507 sumffo_2/ffo_0/nand_7/w_0_0# sumffo_2/s 0.04fF
-C1508 ffipg_0/ffi_0/qbar ffipg_0/ffi_0/nand_7/w_0_0# 0.06fF
-C1509 ffipg_3/x clk 0.64fF
-C1510 ffipg_2/k ffipg_2/ffi_1/q 0.46fF
-C1511 ffipg_2/pggen_0/xor_0/inv_1/op ffipg_2/pggen_0/xor_0/inv_1/w_0_6# 0.03fF
-C1512 sumffo_3/ffo_0/inv_0/w_0_6# gnd 0.07fF
-C1513 sumffo_3/s gnd 0.80fF
-C1514 ffipg_3/ffi_1/inv_1/op clk 0.07fF
-C1515 ffipg_0/ffi_1/nand_7/a gnd 0.37fF
-C1516 ffipg_0/pggen_0/nand_0/w_0_0# ffipg_0/ffi_1/q 0.06fF
+C0 ffi_0/nand_6/w_0_0# ffi_0/q 0.06fF
+C1 ffipg_0/ffi_1/nand_6/w_0_0# ffipg_0/ffi_1/qbar 0.04fF
+C2 sumffo_3/ffo_0/nand_1/a sumffo_3/ffo_0/nand_1/b 0.31fF
+C3 cla_0/inv_0/in gnd 0.34fF
+C4 ffipg_0/ffi_0/q ffipg_0/ffi_0/qbar 0.32fF
+C5 ffipg_0/ffi_0/inv_0/op clk 0.32fF
+C6 gnd ffo_0/qbar 0.62fF
+C7 sumffo_3/ffo_0/nand_6/a sumffo_3/sbar 0.00fF
+C8 sumffo_1/xor_0/inv_1/w_0_6# sumffo_1/xor_0/inv_1/op 0.03fF
+C9 gnd ffipg_1/ffi_0/inv_1/w_0_6# 0.06fF
+C10 y1in ffipg_0/ffi_0/inv_0/w_0_6# 0.06fF
+C11 gnd sumffo_2/ffo_0/nand_6/a 0.33fF
+C12 ffipg_2/ffi_1/inv_0/op ffipg_2/ffi_1/inv_0/w_0_6# 0.03fF
+C13 ffipg_2/ffi_0/nand_3/a ffipg_2/ffi_0/nand_3/b 0.31fF
+C14 ffipg_1/ffi_1/nand_5/w_0_0# ffipg_1/ffi_1/nand_7/a 0.04fF
+C15 ffipg_1/ffi_0/nand_3/w_0_0# ffipg_1/ffi_0/nand_1/b 0.04fF
+C16 ffipg_0/ffi_1/nand_4/w_0_0# ffipg_0/ffi_1/nand_3/b 0.06fF
+C17 inv_6/in nor_3/b 0.16fF
+C18 inv_7/w_0_6# inv_7/in 0.10fF
+C19 gnd ffipg_3/ffi_0/nand_0/a_13_n26# 0.01fF
+C20 ffipg_3/ffi_0/nand_6/w_0_0# ffipg_3/ffi_0/qbar 0.04fF
+C21 ffipg_2/ffi_1/qbar ffipg_2/ffi_1/nand_7/w_0_0# 0.06fF
+C22 ffipg_2/ffi_0/nand_3/b ffipg_2/ffi_0/nand_1/b 0.32fF
+C23 ffipg_1/ffi_1/nand_7/w_0_0# ffipg_1/ffi_1/nand_7/a 0.06fF
+C24 ffipg_1/ffi_0/nand_5/w_0_0# ffipg_1/ffi_0/nand_1/b 0.06fF
+C25 ffipg_0/ffi_0/nand_6/w_0_0# ffipg_0/ffi_0/qbar 0.04fF
+C26 ffipg_0/pggen_0/nand_0/w_0_0# ffipg_0/ffi_0/q 0.06fF
+C27 sumffo_2/ffo_0/nand_2/w_0_0# sumffo_2/ffo_0/nand_3/a 0.04fF
+C28 ffipg_3/ffi_0/q ffipg_3/ffi_0/nand_6/w_0_0# 0.06fF
+C29 cla_2/p1 ffipg_3/pggen_0/nand_0/w_0_0# 0.24fF
+C30 ffi_0/nand_4/w_0_0# ffi_0/nand_3/b 0.06fF
+C31 gnd ffi_0/nand_4/w_0_0# 0.10fF
+C32 cinin clk 0.68fF
+C33 ffipg_1/ffi_1/nand_3/w_0_0# ffipg_1/ffi_1/nand_3/a 0.06fF
+C34 ffipg_1/ffi_0/nand_0/w_0_0# clk 0.06fF
+C35 gnd sumffo_1/ffo_0/nand_5/w_0_0# 0.10fF
+C36 cla_2/p0 ffipg_2/pggen_0/nor_0/w_0_0# 0.05fF
+C37 ffipg_1/ffi_1/q ffipg_1/pggen_0/xor_0/inv_0/op 0.27fF
+C38 y1in ffipg_0/ffi_0/inv_1/op 0.01fF
+C39 nor_0/b nor_0/a 0.32fF
+C40 ffipg_1/pggen_0/xor_0/inv_1/op ffipg_1/pggen_0/xor_0/inv_0/op 0.08fF
+C41 gnd sumffo_1/ffo_0/nand_7/a 0.33fF
+C42 gnd ffipg_3/ffi_1/inv_0/op 0.27fF
+C43 cla_0/l cla_1/inv_0/op 0.35fF
+C44 sumffo_3/xor_0/a_10_10# ffipg_3/k 0.12fF
+C45 ffipg_2/ffi_1/nand_6/a ffipg_2/ffi_1/qbar 0.00fF
+C46 gnd ffipg_1/ffi_1/nand_4/w_0_0# 0.10fF
+C47 gnd sumffo_3/ffo_0/nand_6/w_0_0# 0.10fF
+C48 nor_0/b ffipg_1/k 0.06fF
+C49 nor_0/w_0_0# gnd 0.46fF
+C50 nor_0/b sumffo_0/xor_0/inv_1/op 0.22fF
+C51 nor_0/b ffi_0/nand_7/a 0.31fF
+C52 ffi_0/nand_1/a clk 0.13fF
+C53 gnd ffo_0/nand_5/w_0_0# 0.10fF
+C54 gnd ffi_0/nand_3/b 0.74fF
+C55 sumffo_3/ffo_0/d clk 0.04fF
+C56 gnd ffipg_1/ffi_0/nand_7/a 0.37fF
+C57 nor_1/b cla_0/n 0.36fF
+C58 gnd sumffo_3/ffo_0/nand_3/a 0.33fF
+C59 gnd cla_1/n 0.51fF
+C60 ffipg_3/ffi_0/inv_0/op ffipg_3/ffi_0/inv_0/w_0_6# 0.03fF
+C61 ffipg_3/pggen_0/xor_0/w_n3_4# ffipg_3/ffi_1/q 0.06fF
+C62 ffipg_2/ffi_1/q ffipg_2/ffi_1/nand_7/w_0_0# 0.04fF
+C63 ffipg_2/ffi_0/qbar ffipg_2/ffi_0/nand_7/w_0_0# 0.06fF
+C64 sumffo_0/ffo_0/nand_1/a sumffo_0/ffo_0/nand_0/w_0_0# 0.04fF
+C65 gnd ffipg_1/ffi_1/inv_1/w_0_6# 0.06fF
+C66 gnd ffipg_0/pggen_0/xor_0/inv_1/w_0_6# 0.06fF
+C67 cla_0/inv_0/in cla_0/nor_1/w_0_0# 0.05fF
+C68 gnd ffi_0/inv_0/w_0_6# 0.06fF
+C69 ffipg_2/ffi_1/nand_4/w_0_0# ffipg_2/ffi_1/inv_1/op 0.06fF
+C70 ffipg_2/ffi_0/q ffipg_2/ffi_0/nand_7/w_0_0# 0.04fF
+C71 ffipg_1/ffi_1/nand_2/w_0_0# clk 0.06fF
+C72 ffipg_1/ffi_1/q ffipg_1/pggen_0/xor_0/w_n3_4# 0.06fF
+C73 ffipg_1/pggen_0/xor_0/inv_1/op ffipg_1/pggen_0/xor_0/w_n3_4# 0.06fF
+C74 cla_0/g0 nand_2/b 0.13fF
+C75 nor_0/b sumffo_2/ffo_0/d 0.27fF
+C76 nor_0/b sumffo_1/xor_0/inv_1/op 0.04fF
+C77 gnd ffipg_1/ffi_0/q 3.00fF
+C78 gnd sumffo_3/ffo_0/nand_0/b 0.53fF
+C79 ffipg_2/ffi_1/q ffipg_2/ffi_1/nand_6/a 0.31fF
+C80 ffipg_2/ffi_0/nand_6/a ffipg_2/ffi_0/qbar 0.00fF
+C81 ffipg_1/ffi_0/q ffipg_1/ffi_0/nand_7/a 0.00fF
+C82 gnd inv_4/in 0.33fF
+C83 ffo_0/nand_2/w_0_0# ffo_0/d 0.06fF
+C84 sumffo_3/ffo_0/nand_0/b sumffo_3/ffo_0/nand_3/a 0.13fF
+C85 gnd sumffo_2/xor_0/inv_1/op 0.35fF
+C86 sumffo_2/ffo_0/nand_3/w_0_0# sumffo_2/ffo_0/nand_1/b 0.04fF
+C87 cla_1/nor_0/w_0_0# cla_1/l 0.05fF
+C88 gnd inv_7/in 0.43fF
+C89 ffipg_3/ffi_1/nand_3/w_0_0# ffipg_3/ffi_1/nand_1/b 0.04fF
+C90 nor_4/b nor_4/w_0_0# 0.06fF
+C91 inv_4/in cla_1/n 0.02fF
+C92 sumffo_3/ffo_0/nand_0/w_0_0# sumffo_3/ffo_0/inv_0/op 0.06fF
+C93 gnd ffipg_3/ffi_0/nand_7/a 0.37fF
+C94 ffipg_2/pggen_0/xor_0/inv_1/w_0_6# ffipg_2/pggen_0/xor_0/inv_1/op 0.03fF
+C95 gnd sumffo_1/xor_0/inv_1/w_0_6# 0.06fF
+C96 ffi_0/nand_5/w_0_0# ffi_0/nand_1/b 0.06fF
+C97 ffipg_2/ffi_0/q ffipg_2/ffi_0/nand_6/a 0.31fF
+C98 gnd ffipg_2/ffi_0/nand_3/w_0_0# 0.11fF
+C99 ffipg_2/ffi_0/nand_2/w_0_0# clk 0.06fF
+C100 gnd ffipg_2/pggen_0/xor_0/inv_0/w_0_6# 0.09fF
+C101 ffipg_1/ffi_1/nand_1/a clk 0.13fF
+C102 ffipg_1/pggen_0/xor_0/inv_1/op ffipg_1/pggen_0/xor_0/inv_1/w_0_6# 0.03fF
+C103 sumffo_3/ffo_0/nand_5/w_0_0# sumffo_3/ffo_0/nand_1/b 0.06fF
+C104 gnd ffipg_3/ffi_1/inv_1/w_0_6# 0.06fF
+C105 gnd ffipg_2/ffi_0/inv_1/op 1.85fF
+C106 ffipg_3/ffi_1/inv_0/op ffipg_3/ffi_1/inv_0/w_0_6# 0.03fF
+C107 ffipg_3/pggen_0/xor_0/inv_0/op ffipg_3/ffi_1/q 0.27fF
+C108 ffipg_2/ffi_1/nand_3/a ffipg_2/ffi_1/nand_3/w_0_0# 0.06fF
+C109 ffipg_1/ffi_0/nand_6/a ffipg_1/ffi_0/qbar 0.00fF
+C110 cla_0/g0 ffipg_0/pggen_0/nand_0/w_0_0# 0.04fF
+C111 sumffo_2/ffo_0/d sumffo_2/xor_0/a_10_10# 0.45fF
+C112 ffipg_2/ffi_1/nand_3/b ffipg_2/ffi_1/inv_1/op 0.33fF
+C113 x2in ffipg_1/ffi_1/inv_0/op 0.04fF
+C114 cla_2/inv_0/in cla_2/nor_1/w_0_0# 0.05fF
+C115 cla_2/l inv_5/in 0.05fF
+C116 ffipg_3/ffi_1/nand_7/w_0_0# ffipg_3/ffi_1/nand_7/a 0.06fF
+C117 ffipg_3/ffi_0/nand_5/w_0_0# ffipg_3/ffi_0/inv_1/op 0.06fF
+C118 ffipg_0/ffi_1/nand_7/w_0_0# ffipg_0/ffi_1/nand_7/a 0.06fF
+C119 gnd sumffo_1/ffo_0/nand_0/a_13_n26# 0.01fF
+C120 gnd ffipg_3/ffi_1/nand_4/w_0_0# 0.10fF
+C121 gnd ffipg_1/ffi_1/nand_7/a 0.37fF
+C122 gnd ffipg_0/ffi_1/q 2.24fF
+C123 cla_0/nor_1/w_0_0# gnd 0.31fF
+C124 gnd inv_2/in 0.47fF
+C125 gnd y3in 0.22fF
+C126 cla_0/l cla_2/p0 0.44fF
+C127 cla_1/p0 cla_1/l 0.16fF
+C128 clk ffipg_3/ffi_0/nand_1/a 0.13fF
+C129 ffipg_2/ffi_1/nand_1/w_0_0# ffipg_2/ffi_1/nand_1/b 0.06fF
+C130 ffo_0/nand_4/w_0_0# ffo_0/nand_3/b 0.06fF
+C131 sumffo_3/ffo_0/nand_3/b sumffo_3/ffo_0/nand_1/b 0.32fF
+C132 sumffo_0/ffo_0/nand_6/w_0_0# z1o 0.06fF
+C133 gnd ffipg_3/ffi_1/inv_0/w_0_6# 0.06fF
+C134 clk ffipg_3/ffi_1/nand_1/a 0.13fF
+C135 gnd ffi_0/nand_2/w_0_0# 0.10fF
+C136 ffipg_2/pggen_0/xor_0/inv_1/w_0_6# ffipg_2/ffi_0/q 0.23fF
+C137 ffipg_3/k ffipg_3/pggen_0/nor_0/w_0_0# 0.21fF
+C138 ffo_0/d inv_9/in 0.04fF
+C139 nor_0/a ffipg_0/ffi_0/q 0.03fF
+C140 cla_1/p0 nor_0/a 0.24fF
+C141 ffipg_3/ffi_0/nand_3/b ffipg_3/ffi_0/inv_1/op 0.33fF
+C142 ffipg_2/ffi_1/nand_5/w_0_0# ffipg_2/ffi_1/inv_1/op 0.06fF
+C143 ffipg_0/ffi_0/nand_4/w_0_0# ffipg_0/ffi_0/inv_1/op 0.06fF
+C144 gnd nor_1/b 0.35fF
+C145 sumffo_3/ffo_0/d sumffo_3/xor_0/inv_1/op 0.52fF
+C146 gnd sumffo_1/ffo_0/inv_1/w_0_6# 0.06fF
+C147 gnd ffipg_1/ffi_0/nand_0/a_13_n26# 0.01fF
+C148 ffipg_2/ffi_0/nand_1/a clk 0.13fF
+C149 ffipg_1/ffi_0/inv_0/op clk 0.32fF
+C150 ffipg_0/ffi_0/inv_0/op y1in 0.04fF
+C151 ffipg_2/k cla_0/n 0.06fF
+C152 ffipg_0/ffi_0/inv_1/op ffipg_0/ffi_0/nand_6/a 0.13fF
+C153 nor_0/a inv_0/in 0.02fF
+C154 sumffo_2/ffo_0/nand_1/a sumffo_2/ffo_0/nand_0/b 0.13fF
+C155 sumffo_0/ffo_0/nand_2/w_0_0# sumffo_0/ffo_0/nand_3/a 0.04fF
+C156 ffipg_3/ffi_1/nand_2/w_0_0# x4in 0.06fF
+C157 ffipg_3/ffi_0/q ffipg_3/pggen_0/xor_0/w_n3_4# 0.06fF
+C158 nor_3/b inv_5/w_0_6# 0.17fF
+C159 sumffo_1/xor_0/w_n3_4# sumffo_1/xor_0/inv_0/op 0.06fF
+C160 sumffo_1/ffo_0/nand_4/w_0_0# sumffo_1/ffo_0/nand_6/a 0.04fF
+C161 sumffo_0/ffo_0/nand_6/a sumffo_0/sbar 0.00fF
+C162 ffipg_3/ffi_1/nand_1/a ffipg_3/ffi_1/nand_0/w_0_0# 0.04fF
+C163 sumffo_1/ffo_0/d sumffo_1/ffo_0/nand_0/b 0.40fF
+C164 cla_1/p0 ffipg_1/k 0.05fF
+C165 ffipg_0/k ffipg_0/pggen_0/xor_0/inv_0/op 0.06fF
+C166 nor_0/w_0_0# nor_0/b 0.23fF
+C167 sumffo_2/sbar sumffo_2/ffo_0/nand_7/a 0.31fF
+C168 sumffo_2/ffo_0/nand_6/a z3o 0.31fF
+C169 cla_2/p0 cla_2/p1 0.24fF
+C170 gnd inv_3/in 0.47fF
+C171 ffipg_2/ffi_0/nand_2/w_0_0# ffipg_2/ffi_0/nand_3/a 0.04fF
+C172 ffipg_1/ffi_1/nand_5/w_0_0# ffipg_1/ffi_1/inv_1/op 0.06fF
+C173 ffipg_0/ffi_0/nand_3/w_0_0# ffipg_0/ffi_0/nand_1/b 0.04fF
+C174 gnd ffipg_0/ffi_0/nand_2/w_0_0# 0.10fF
+C175 gnd nor_0/b 2.12fF
+C176 nand_2/b inv_2/w_0_6# 0.03fF
+C177 y3in ffipg_2/ffi_0/inv_1/op 0.01fF
+C178 gnd ffipg_0/ffi_1/nand_3/b 0.74fF
+C179 ffo_0/nand_1/a ffo_0/nand_3/b 0.00fF
+C180 sumffo_2/ffo_0/nand_1/b clk 0.45fF
+C181 ffipg_1/ffi_1/nand_1/a ffipg_1/ffi_1/nand_1/b 0.31fF
+C182 inv_9/in nor_4/w_0_0# 0.11fF
+C183 ffipg_3/ffi_0/nand_1/a ffipg_3/ffi_0/nand_1/b 0.31fF
+C184 cla_1/inv_0/w_0_6# cla_0/n 0.26fF
+C185 clk ffipg_3/ffi_0/inv_0/op 0.32fF
+C186 ffipg_3/k cla_0/n 0.06fF
+C187 ffi_0/nand_3/w_0_0# ffi_0/nand_3/b 0.06fF
+C188 gnd ffi_0/nand_3/w_0_0# 0.11fF
+C189 sumffo_1/ffo_0/nand_3/b clk 0.33fF
+C190 ffipg_1/pggen_0/xor_0/inv_0/w_0_6# ffipg_1/pggen_0/xor_0/inv_0/op 0.03fF
+C191 gnd ffipg_2/pggen_0/xor_0/w_n3_4# 0.12fF
+C192 gnd ffipg_1/ffi_0/inv_0/w_0_6# 0.06fF
+C193 ffipg_0/ffi_1/inv_1/op ffipg_0/ffi_1/inv_1/w_0_6# 0.04fF
+C194 gnd sumffo_2/xor_0/a_10_10# 0.93fF
+C195 ffipg_3/ffi_0/q ffipg_3/pggen_0/xor_0/inv_0/op 0.20fF
+C196 nor_0/b sumffo_2/xor_0/inv_1/op 0.04fF
+C197 ffipg_1/ffi_1/q ffipg_1/pggen_0/nor_0/w_0_0# 0.06fF
+C198 nor_0/w_0_0# inv_0/op 0.10fF
+C199 gnd z3o 0.80fF
+C200 sumffo_2/ffo_0/d sumffo_2/ffo_0/nand_0/b 0.40fF
+C201 inv_0/op gnd 0.27fF
+C202 gnd ffipg_3/ffi_0/inv_1/w_0_6# 0.06fF
+C203 gnd ffo_0/nand_3/w_0_0# 0.11fF
+C204 sumffo_2/ffo_0/nand_5/w_0_0# sumffo_2/ffo_0/nand_7/a 0.04fF
+C205 nor_1/b inv_2/in 0.04fF
+C206 sumffo_0/ffo_0/nand_1/a sumffo_0/ffo_0/nand_3/b 0.00fF
+C207 ffipg_3/pggen_0/xor_0/inv_1/w_0_6# ffipg_3/ffi_0/q 0.23fF
+C208 ffipg_1/ffi_1/nand_2/w_0_0# x2in 0.06fF
+C209 sumffo_2/ffo_0/nand_7/w_0_0# sumffo_2/ffo_0/nand_7/a 0.06fF
+C210 ffipg_2/ffi_0/nand_1/a ffipg_2/ffi_0/nand_1/b 0.31fF
+C211 ffipg_3/ffi_1/nand_1/w_0_0# ffipg_3/ffi_1/nand_1/b 0.06fF
+C212 ffipg_2/ffi_1/nand_3/b ffipg_2/ffi_1/nand_3/w_0_0# 0.06fF
+C213 cla_0/g0 nor_0/a 0.68fF
+C214 gnd ffipg_3/ffi_0/inv_0/w_0_6# 0.06fF
+C215 ffipg_1/ffi_0/nand_1/w_0_0# ffipg_1/ffi_0/nand_1/a 0.06fF
+C216 x1in ffipg_0/ffi_1/inv_0/w_0_6# 0.06fF
+C217 gnd ffo_0/d 0.45fF
+C218 gnd sumffo_3/ffo_0/nand_0/w_0_0# 0.10fF
+C219 sumffo_3/xor_0/inv_0/op inv_4/op 0.27fF
+C220 gnd ffipg_2/k 0.58fF
+C221 cla_0/inv_0/in cla_1/p0 0.02fF
+C222 cla_2/l cla_0/n 0.32fF
+C223 nor_0/b inv_2/in 0.13fF
+C224 ffipg_3/ffi_1/nand_5/w_0_0# ffipg_3/ffi_1/inv_1/op 0.06fF
+C225 ffipg_0/ffi_1/nand_5/w_0_0# ffipg_0/ffi_1/inv_1/op 0.06fF
+C226 ffipg_0/ffi_1/nand_1/a ffipg_0/ffi_1/nand_1/w_0_0# 0.06fF
+C227 ffipg_0/ffi_0/nand_1/a ffipg_0/ffi_0/nand_1/b 0.31fF
+C228 nand_2/b sumffo_1/xor_0/w_n3_4# 0.06fF
+C229 sumffo_1/ffo_0/nand_1/w_0_0# sumffo_1/ffo_0/nand_1/b 0.06fF
+C230 sumffo_2/ffo_0/nand_1/w_0_0# sumffo_2/ffo_0/nand_1/b 0.06fF
+C231 sumffo_0/ffo_0/d sumffo_0/xor_0/a_10_10# 0.45fF
+C232 gnd ffipg_2/ffi_0/nand_6/w_0_0# 0.10fF
+C233 gnd ffipg_2/pggen_0/nand_0/w_0_0# 0.10fF
+C234 cla_1/nor_0/w_0_0# gnd 0.31fF
+C235 cla_0/g0 ffipg_1/k 0.06fF
+C236 nor_0/b sumffo_3/xor_0/a_38_n43# 0.01fF
+C237 ffipg_3/ffi_1/nand_1/a ffipg_3/ffi_1/nand_1/b 0.31fF
+C238 gnd ffipg_3/ffi_0/inv_1/op 1.85fF
+C239 gnd ffipg_1/ffi_1/nand_6/w_0_0# 0.10fF
+C240 ffipg_1/ffi_0/qbar ffipg_1/ffi_0/nand_7/w_0_0# 0.06fF
+C241 gnd ffipg_0/ffi_1/nand_7/a 0.37fF
+C242 ffipg_0/pggen_0/xor_0/inv_0/op ffipg_0/pggen_0/xor_0/inv_1/op 0.08fF
+C243 ffo_0/nand_2/w_0_0# ffo_0/nand_0/b 0.06fF
+C244 sumffo_0/ffo_0/nand_2/w_0_0# gnd 0.10fF
+C245 cla_0/l cla_2/p1 0.30fF
+C246 ffipg_0/ffi_0/nand_1/w_0_0# ffipg_0/ffi_0/nand_1/b 0.06fF
+C247 sumffo_0/xor_0/inv_0/op sumffo_0/xor_0/inv_1/op 0.08fF
+C248 cla_2/l inv_7/w_0_6# 0.06fF
+C249 gnd ffipg_1/ffi_1/inv_0/w_0_6# 0.06fF
+C250 gnd ffipg_0/pggen_0/xor_0/inv_0/w_0_6# 0.09fF
+C251 ffo_0/nand_1/w_0_0# ffo_0/nand_1/b 0.06fF
+C252 sumffo_0/ffo_0/nand_4/w_0_0# gnd 0.10fF
+C253 ffo_0/qbar couto 0.32fF
+C254 sumffo_3/ffo_0/nand_0/w_0_0# sumffo_3/ffo_0/nand_0/b 0.06fF
+C255 gnd ffipg_3/pggen_0/xor_0/a_10_10# 0.93fF
+C256 ffi_0/inv_1/op ffi_0/nand_1/b 0.45fF
+C257 ffipg_1/ffi_1/nand_4/w_0_0# ffipg_1/ffi_1/inv_1/op 0.06fF
+C258 ffipg_2/ffi_1/inv_1/op ffipg_2/ffi_1/inv_1/w_0_6# 0.04fF
+C259 ffipg_3/ffi_1/nand_2/w_0_0# ffipg_3/ffi_1/nand_3/a 0.04fF
+C260 ffipg_2/k sumffo_2/xor_0/inv_1/op 0.22fF
+C261 sumffo_2/ffo_0/d clk 0.25fF
+C262 nor_2/b inv_3/w_0_6# 0.03fF
+C263 gnd sumffo_2/ffo_0/nand_3/w_0_0# 0.11fF
+C264 cla_1/inv_0/w_0_6# gnd 0.06fF
+C265 gnd ffipg_1/ffi_1/inv_1/op 1.85fF
+C266 gnd nor_4/w_0_0# 0.15fF
+C267 gnd ffipg_3/k 0.61fF
+C268 sumffo_1/ffo_0/nand_3/w_0_0# sumffo_1/ffo_0/nand_3/a 0.06fF
+C269 ffipg_2/ffi_1/nand_3/b ffipg_2/ffi_1/nand_1/b 0.32fF
+C270 sumffo_3/ffo_0/nand_1/b sumffo_3/ffo_0/nand_7/a 0.13fF
+C271 sumffo_2/ffo_0/nand_1/w_0_0# sumffo_2/ffo_0/nand_1/a 0.06fF
+C272 ffipg_3/ffi_0/nand_5/w_0_0# ffipg_3/ffi_0/nand_1/b 0.06fF
+C273 gnd ffipg_0/ffi_0/q 3.00fF
+C274 nor_4/b nor_4/a 0.42fF
+C275 nor_0/w_0_0# inv_0/in 0.11fF
+C276 cla_1/p0 gnd 1.06fF
+C277 cla_0/nand_0/w_0_0# cla_0/l 0.06fF
+C278 ffipg_3/ffi_0/nand_1/w_0_0# ffipg_3/ffi_0/nand_1/a 0.06fF
+C279 ffipg_2/ffi_0/inv_0/op ffipg_2/ffi_0/inv_0/w_0_6# 0.03fF
+C280 ffipg_1/ffi_1/inv_1/op ffipg_1/ffi_1/inv_1/w_0_6# 0.04fF
+C281 ffipg_0/ffi_0/nand_5/w_0_0# ffipg_0/ffi_0/nand_7/a 0.04fF
+C282 ffo_0/nand_0/w_0_0# ffo_0/inv_0/op 0.06fF
+C283 sumffo_0/sbar sumffo_0/ffo_0/nand_7/w_0_0# 0.06fF
+C284 cla_2/g1 cla_2/inv_0/op 0.35fF
+C285 cla_2/nand_0/w_0_0# cla_2/n 0.04fF
+C286 gnd ffipg_0/ffi_0/nand_6/w_0_0# 0.10fF
+C287 gnd inv_0/in 0.30fF
+C288 gnd sumffo_2/ffo_0/nand_0/b 0.63fF
+C289 ffipg_0/ffi_0/q ffipg_0/pggen_0/xor_0/inv_1/w_0_6# 0.23fF
+C290 ffipg_3/ffi_1/nand_3/a ffipg_3/ffi_1/nand_3/b 0.31fF
+C291 sumffo_2/ffo_0/nand_0/w_0_0# sumffo_2/ffo_0/nand_1/a 0.04fF
+C292 ffipg_3/ffi_0/nand_3/b ffipg_3/ffi_0/nand_1/b 0.32fF
+C293 ffipg_2/ffi_1/nand_5/w_0_0# ffipg_2/ffi_1/nand_1/b 0.06fF
+C294 ffipg_1/ffi_0/nand_3/w_0_0# ffipg_1/ffi_0/nand_3/b 0.06fF
+C295 gnd ffipg_1/ffi_0/nand_2/w_0_0# 0.10fF
+C296 gnd ffipg_0/ffi_0/nand_3/w_0_0# 0.11fF
+C297 gnd couto 0.80fF
+C298 ffo_0/nand_1/b ffo_0/nand_7/a 0.13fF
+C299 sumffo_3/sbar sumffo_3/ffo_0/nand_7/w_0_0# 0.06fF
+C300 sumffo_3/ffo_0/nand_6/a z4o 0.31fF
+C301 gnd ffipg_3/ffi_1/inv_1/op 1.85fF
+C302 nor_0/b sumffo_2/xor_0/a_10_10# 0.04fF
+C303 ffi_0/nand_0/w_0_0# ffi_0/inv_0/op 0.06fF
+C304 ffipg_2/ffi_1/nand_1/b ffipg_2/ffi_1/nand_7/a 0.13fF
+C305 ffipg_1/ffi_0/inv_1/w_0_6# clk 0.06fF
+C306 cla_1/p0 ffipg_1/ffi_0/q 0.03fF
+C307 ffipg_0/ffi_1/q ffipg_0/ffi_1/nand_7/a 0.00fF
+C308 sumffo_1/ffo_0/inv_0/op sumffo_1/ffo_0/nand_0/b 0.32fF
+C309 sumffo_2/ffo_0/nand_6/a clk 0.13fF
+C310 ffipg_2/ffi_1/nand_1/a ffipg_2/ffi_1/nand_1/b 0.31fF
+C311 nor_3/b inv_5/in 0.04fF
+C312 ffipg_2/ffi_0/nand_5/w_0_0# ffipg_2/ffi_0/nand_1/b 0.06fF
+C313 ffipg_2/ffi_0/nand_1/w_0_0# ffipg_2/ffi_0/nand_1/b 0.06fF
+C314 ffipg_0/ffi_1/q ffipg_0/pggen_0/xor_0/inv_0/w_0_6# 0.06fF
+C315 sumffo_0/ffo_0/nand_3/w_0_0# sumffo_0/ffo_0/nand_3/b 0.06fF
+C316 sumffo_0/ffo_0/nand_1/w_0_0# gnd 0.10fF
+C317 cla_0/g0 cla_0/inv_0/in 0.16fF
+C318 cla_2/l gnd 0.58fF
+C319 gnd sumffo_1/ffo_0/nand_6/w_0_0# 0.10fF
+C320 sumffo_1/ffo_0/nand_5/w_0_0# clk 0.06fF
+C321 ffipg_3/ffi_1/nand_6/w_0_0# ffipg_3/ffi_1/qbar 0.04fF
+C322 ffi_0/nand_6/a ffi_0/q 0.31fF
+C323 ffipg_1/ffi_1/nand_5/w_0_0# ffipg_1/ffi_1/nand_1/b 0.06fF
+C324 ffipg_0/ffi_1/nand_6/a ffipg_0/ffi_1/qbar 0.00fF
+C325 gnd sumffo_1/ffo_0/inv_0/w_0_6# 0.06fF
+C326 clk ffipg_3/ffi_1/inv_0/op 0.32fF
+C327 ffipg_2/pggen_0/xor_0/inv_0/op ffipg_2/pggen_0/xor_0/inv_1/op 0.08fF
+C328 ffipg_1/ffi_0/nand_1/w_0_0# ffipg_1/ffi_0/nand_1/b 0.06fF
+C329 ffipg_3/pggen_0/xor_0/inv_0/w_0_6# ffipg_3/ffi_1/q 0.06fF
+C330 sumffo_1/ffo_0/nand_3/b sumffo_1/ffo_0/nand_1/b 0.32fF
+C331 ffipg_3/ffi_0/nand_6/a ffipg_3/ffi_0/qbar 0.00fF
+C332 gnd ffipg_3/ffi_0/nand_2/w_0_0# 0.10fF
+C333 ffipg_2/ffi_1/qbar ffipg_2/ffi_1/nand_7/a 0.31fF
+C334 ffipg_1/ffi_0/inv_1/op ffipg_1/ffi_0/nand_1/b 0.45fF
+C335 ffipg_0/ffi_0/nand_6/a ffipg_0/ffi_0/qbar 0.00fF
+C336 ffipg_0/ffi_1/q ffipg_0/ffi_0/q 0.73fF
+C337 ffipg_3/ffi_0/q ffipg_3/ffi_0/nand_6/a 0.31fF
+C338 cla_0/l ffipg_1/pggen_0/nand_0/w_0_0# 0.04fF
+C339 nor_0/b sumffo_1/xor_0/a_38_n43# 0.01fF
+C340 cla_0/nor_1/w_0_0# cla_1/p0 0.06fF
+C341 sumffo_3/ffo_0/nand_6/w_0_0# sumffo_3/ffo_0/nand_6/a 0.06fF
+C342 sumffo_1/sbar sumffo_1/ffo_0/nand_7/w_0_0# 0.06fF
+C343 gnd clk 24.51fF
+C344 ffipg_3/ffi_1/nand_0/w_0_0# ffipg_3/ffi_1/inv_0/op 0.06fF
+C345 ffo_0/nand_5/w_0_0# clk 0.06fF
+C346 gnd sumffo_3/ffo_0/nand_4/w_0_0# 0.10fF
+C347 gnd cla_2/n 0.60fF
+C348 ffipg_3/ffi_1/inv_1/op ffipg_3/ffi_1/inv_1/w_0_6# 0.04fF
+C349 ffipg_2/ffi_0/q ffipg_2/pggen_0/xor_0/a_10_10# 0.12fF
+C350 sumffo_2/xor_0/w_n3_4# sumffo_2/xor_0/inv_0/op 0.06fF
+C351 nor_0/w_0_0# cla_0/g0 0.06fF
+C352 sumffo_3/xor_0/w_n3_4# inv_4/op 0.06fF
+C353 ffipg_1/ffi_1/qbar ffipg_1/ffi_1/nand_7/w_0_0# 0.06fF
+C354 gnd sumffo_3/ffo_0/nand_6/a 0.33fF
+C355 cla_2/nor_0/w_0_0# gnd 0.31fF
+C356 sumffo_0/xor_0/inv_0/op gnd 0.32fF
+C357 cla_0/g0 gnd 1.11fF
+C358 ffipg_3/ffi_1/nand_4/w_0_0# ffipg_3/ffi_1/inv_1/op 0.06fF
+C359 ffipg_2/pggen_0/xor_0/inv_0/op ffipg_2/ffi_0/q 0.20fF
+C360 ffipg_1/ffi_1/inv_1/w_0_6# clk 0.06fF
+C361 nor_4/a inv_9/in 0.02fF
+C362 ffipg_2/k ffipg_2/pggen_0/xor_0/w_n3_4# 0.02fF
+C363 sumffo_1/ffo_0/nand_1/a sumffo_1/ffo_0/nand_1/b 0.31fF
+C364 ffipg_2/k sumffo_2/xor_0/a_10_10# 0.12fF
+C365 gnd ffipg_3/ffi_1/nand_0/w_0_0# 0.10fF
+C366 gnd ffipg_0/ffi_0/nand_1/a 0.44fF
+C367 gnd ffipg_1/ffi_1/nand_3/w_0_0# 0.11fF
+C368 gnd ffipg_0/ffi_1/nand_3/w_0_0# 0.11fF
+C369 gnd sumffo_3/xor_0/inv_0/w_0_6# 0.09fF
+C370 sumffo_3/ffo_0/nand_0/b clk 0.04fF
+C371 ffipg_3/pggen_0/nor_0/w_0_0# ffipg_3/ffi_1/q 0.06fF
+C372 ffipg_2/ffi_1/q ffipg_2/ffi_1/nand_7/a 0.00fF
+C373 ffipg_2/ffi_0/qbar ffipg_2/ffi_0/nand_7/a 0.31fF
+C374 ffipg_2/ffi_0/q ffipg_2/pggen_0/nor_0/w_0_0# 0.06fF
+C375 ffipg_0/ffi_1/nand_1/w_0_0# ffipg_0/ffi_1/nand_1/b 0.06fF
+C376 ffo_0/nand_2/w_0_0# ffo_0/nand_3/a 0.04fF
+C377 sumffo_1/ffo_0/d sumffo_1/xor_0/inv_0/op 0.06fF
+C378 ffi_0/nand_1/w_0_0# ffi_0/nand_1/b 0.06fF
+C379 gnd ffipg_0/ffi_0/nand_1/w_0_0# 0.10fF
+C380 gnd ffo_0/nand_0/b 0.58fF
+C381 gnd ffipg_2/ffi_0/nand_4/w_0_0# 0.10fF
+C382 cla_2/p0 ffipg_2/ffi_0/q 0.03fF
+C383 ffipg_0/ffi_1/nand_5/w_0_0# ffipg_0/ffi_1/nand_1/b 0.06fF
+C384 x1in ffipg_0/ffi_1/nand_2/w_0_0# 0.06fF
+C385 cla_0/nor_0/w_0_0# cla_0/l 0.05fF
+C386 ffipg_3/ffi_1/nand_5/w_0_0# ffipg_3/ffi_1/nand_1/b 0.06fF
+C387 ffipg_3/ffi_0/nand_3/w_0_0# ffipg_3/ffi_0/nand_3/a 0.06fF
+C388 ffi_0/inv_1/op ffi_0/nand_6/a 0.13fF
+C389 ffipg_2/ffi_0/q ffipg_2/ffi_0/nand_7/a 0.00fF
+C390 ffipg_3/ffi_1/q ffipg_3/ffi_1/qbar 0.32fF
+C391 ffipg_3/ffi_0/inv_1/op ffipg_3/ffi_0/inv_1/w_0_6# 0.04fF
+C392 cla_0/l cla_2/inv_0/in 0.16fF
+C393 clk ffipg_3/ffi_1/inv_1/w_0_6# 0.06fF
+C394 ffipg_2/ffi_0/inv_1/op clk 0.07fF
+C395 ffipg_1/ffi_0/nand_1/a ffipg_1/ffi_0/nand_1/b 0.31fF
+C396 nor_0/b inv_0/in 0.23fF
+C397 ffipg_3/ffi_0/nand_1/w_0_0# ffipg_3/ffi_0/nand_3/b 0.04fF
+C398 gnd ffipg_3/ffi_0/nand_1/b 0.57fF
+C399 x1in ffipg_0/ffi_1/inv_1/op 0.01fF
+C400 ffipg_1/k sumffo_1/xor_0/w_n3_4# 0.06fF
+C401 gnd sumffo_1/ffo_0/nand_2/a_13_n26# 0.01fF
+C402 gnd ffipg_2/ffi_0/nand_3/a 0.33fF
+C403 ffipg_1/ffi_0/inv_0/op y2in 0.04fF
+C404 gnd nor_2/w_0_0# 0.15fF
+C405 gnd sumffo_3/ffo_0/nand_1/w_0_0# 0.10fF
+C406 gnd sumffo_2/ffo_0/nand_1/w_0_0# 0.10fF
+C407 y3in clk 0.68fF
+C408 nor_2/w_0_0# cla_1/n 0.06fF
+C409 sumffo_0/xor_0/w_n3_4# sumffo_0/xor_0/a_10_10# 0.16fF
+C410 ffipg_3/ffi_1/nand_3/w_0_0# ffipg_3/ffi_1/nand_3/a 0.06fF
+C411 gnd ffipg_2/ffi_0/nand_1/b 0.57fF
+C412 ffo_0/nand_1/a ffo_0/nand_1/w_0_0# 0.06fF
+C413 gnd sumffo_2/ffo_0/nand_3/a 0.33fF
+C414 ffi_0/nand_2/w_0_0# clk 0.06fF
+C415 gnd ffipg_1/ffi_1/nand_1/b 0.57fF
+C416 sumffo_0/ffo_0/nand_0/w_0_0# gnd 0.10fF
+C417 cla_2/inv_0/in cla_2/p1 0.02fF
+C418 cla_0/g0 cla_0/nor_1/w_0_0# 0.06fF
+C419 gnd sumffo_3/xor_0/inv_1/op 0.35fF
+C420 gnd sumffo_1/ffo_0/nand_2/w_0_0# 0.10fF
+C421 sumffo_0/xor_0/inv_0/w_0_6# gnd 0.09fF
+C422 gnd ffipg_2/ffi_1/nand_7/w_0_0# 0.10fF
+C423 gnd ffipg_3/ffi_1/nand_6/w_0_0# 0.10fF
+C424 ffipg_1/k ffipg_1/ffi_1/q 0.46fF
+C425 inv_0/op inv_0/in 0.04fF
+C426 sumffo_1/xor_0/w_n3_4# sumffo_1/xor_0/inv_1/op 0.06fF
+C427 sumffo_1/ffo_0/inv_1/w_0_6# clk 0.06fF
+C428 gnd sumffo_2/ffo_0/nand_0/w_0_0# 0.10fF
+C429 ffipg_2/ffi_0/nand_1/a ffipg_2/ffi_0/nand_0/w_0_0# 0.04fF
+C430 ffipg_3/ffi_0/nand_1/b ffipg_3/ffi_0/nand_7/a 0.13fF
+C431 ffipg_2/ffi_0/nand_4/w_0_0# ffipg_2/ffi_0/inv_1/op 0.06fF
+C432 ffipg_1/k ffipg_1/pggen_0/xor_0/inv_1/op 0.52fF
+C433 ffo_0/d nor_4/w_0_0# 0.03fF
+C434 inv_4/in nor_2/w_0_0# 0.11fF
+C435 nor_1/w_0_0# inv_1/in 0.11fF
+C436 sumffo_2/ffo_0/nand_6/w_0_0# sumffo_2/sbar 0.04fF
+C437 sumffo_0/ffo_0/d sumffo_0/xor_0/inv_1/op 0.52fF
+C438 sumffo_0/sbar sumffo_0/ffo_0/nand_7/a 0.31fF
+C439 sumffo_0/ffo_0/nand_6/a z1o 0.31fF
+C440 cla_2/g1 cla_2/nand_0/w_0_0# 0.06fF
+C441 inv_7/op inv_8/w_0_6# 0.06fF
+C442 ffipg_1/ffi_0/nand_6/w_0_0# ffipg_1/ffi_0/nand_6/a 0.06fF
+C443 sumffo_1/ffo_0/nand_0/b sumffo_1/ffo_0/nand_3/a 0.13fF
+C444 sumffo_1/ffo_0/nand_0/w_0_0# sumffo_1/ffo_0/inv_0/op 0.06fF
+C445 ffipg_2/pggen_0/xor_0/inv_0/op ffipg_2/ffi_1/q 0.27fF
+C446 ffipg_0/k ffipg_0/pggen_0/xor_0/w_n3_4# 0.02fF
+C447 cla_1/p0 ffipg_2/k 0.06fF
+C448 ffipg_0/ffi_1/qbar ffipg_0/ffi_1/nand_7/w_0_0# 0.06fF
+C449 ffipg_0/ffi_0/nand_3/b ffipg_0/ffi_0/inv_1/op 0.33fF
+C450 ffi_0/nand_7/w_0_0# ffi_0/q 0.04fF
+C451 ffipg_2/ffi_0/nand_3/w_0_0# ffipg_2/ffi_0/nand_3/a 0.06fF
+C452 gnd inv_2/w_0_6# 0.17fF
+C453 gnd ffipg_2/ffi_1/nand_6/a 0.37fF
+C454 gnd ffipg_1/ffi_1/qbar 0.67fF
+C455 gnd nor_4/a 0.40fF
+C456 gnd ffipg_3/ffi_1/nand_1/b 0.57fF
+C457 ffipg_1/ffi_1/q ffipg_1/ffi_1/nand_7/w_0_0# 0.04fF
+C458 sumffo_3/sbar sumffo_3/ffo_0/nand_7/a 0.31fF
+C459 ffipg_0/ffi_0/nand_2/w_0_0# clk 0.06fF
+C460 ffipg_3/ffi_0/q ffipg_3/pggen_0/nor_0/w_0_0# 0.06fF
+C461 ffipg_2/ffi_0/nand_3/w_0_0# ffipg_2/ffi_0/nand_1/b 0.04fF
+C462 ffipg_1/ffi_0/nand_4/w_0_0# ffipg_1/ffi_0/inv_1/op 0.06fF
+C463 cla_1/p0 cla_1/nor_0/w_0_0# 0.06fF
+C464 ffipg_3/k ffipg_3/pggen_0/xor_0/a_10_10# 0.45fF
+C465 ffipg_2/pggen_0/nor_0/w_0_0# ffipg_2/ffi_1/q 0.06fF
+C466 sumffo_1/ffo_0/nand_5/w_0_0# sumffo_1/ffo_0/nand_1/b 0.06fF
+C467 ffipg_3/ffi_0/qbar ffipg_3/ffi_0/nand_7/w_0_0# 0.06fF
+C468 ffipg_2/ffi_0/inv_1/op ffipg_2/ffi_0/nand_1/b 0.45fF
+C469 ffipg_1/ffi_0/inv_1/op ffipg_1/ffi_0/nand_6/a 0.13fF
+C470 ffipg_0/ffi_0/qbar ffipg_0/ffi_0/nand_7/w_0_0# 0.06fF
+C471 sumffo_0/ffo_0/nand_3/a sumffo_0/ffo_0/nand_3/b 0.31fF
+C472 cla_0/g0 nor_0/b 0.08fF
+C473 sumffo_1/ffo_0/nand_1/b sumffo_1/ffo_0/nand_7/a 0.13fF
+C474 sumffo_0/xor_0/inv_0/op nor_0/b 0.20fF
+C475 ffipg_3/ffi_0/q ffipg_3/ffi_0/nand_7/w_0_0# 0.04fF
+C476 cinin ffi_0/inv_1/op 0.01fF
+C477 cla_0/l ffipg_2/ffi_0/q 0.13fF
+C478 nand_2/b inv_3/w_0_6# 0.06fF
+C479 cla_2/p0 ffipg_2/ffi_1/q 0.22fF
+C480 gnd y1in 0.22fF
+C481 ffipg_3/ffi_0/inv_0/op y4in 0.04fF
+C482 gnd ffipg_2/ffi_1/nand_0/w_0_0# 0.10fF
+C483 ffipg_1/ffi_1/nand_1/b ffipg_1/ffi_1/nand_7/a 0.13fF
+C484 gnd x2in 0.22fF
+C485 ffipg_3/ffi_0/inv_1/op ffipg_3/ffi_1/inv_1/op 0.75fF
+C486 cinin ffi_0/inv_0/op 0.04fF
+C487 ffipg_0/ffi_1/nand_3/w_0_0# ffipg_0/ffi_1/nand_3/b 0.06fF
+C488 sumffo_0/ffo_0/nand_5/w_0_0# sumffo_0/ffo_0/nand_7/a 0.04fF
+C489 sumffo_3/xor_0/w_n3_4# sumffo_3/xor_0/inv_0/op 0.06fF
+C490 gnd sumffo_1/ffo_0/nand_1/b 0.57fF
+C491 sumffo_0/xor_0/inv_1/w_0_6# sumffo_0/xor_0/inv_1/op 0.03fF
+C492 sumffo_0/sbar gnd 0.62fF
+C493 clk ffipg_3/ffi_0/inv_1/w_0_6# 0.06fF
+C494 gnd ffipg_3/ffi_0/nand_1/w_0_0# 0.10fF
+C495 ffipg_0/ffi_0/q ffipg_0/ffi_0/nand_6/w_0_0# 0.06fF
+C496 sumffo_1/sbar sumffo_1/ffo_0/nand_7/a 0.31fF
+C497 gnd ffipg_3/ffi_1/q 2.24fF
+C498 gnd nor_3/b 0.33fF
+C499 cla_2/g1 gnd 0.65fF
+C500 inv_0/op cla_0/g0 0.33fF
+C501 ffipg_0/pggen_0/xor_0/w_n3_4# ffipg_0/pggen_0/xor_0/a_10_10# 0.16fF
+C502 nor_3/w_0_0# inv_6/in 0.11fF
+C503 sumffo_3/ffo_0/nand_3/w_0_0# sumffo_3/ffo_0/nand_3/b 0.06fF
+C504 sumffo_2/ffo_0/nand_4/w_0_0# sumffo_2/ffo_0/nand_6/a 0.04fF
+C505 sumffo_0/ffo_0/nand_1/a sumffo_0/ffo_0/nand_0/b 0.13fF
+C506 ffipg_1/ffi_1/qbar ffipg_1/ffi_1/nand_7/a 0.31fF
+C507 sumffo_0/ffo_0/inv_0/op gnd 0.27fF
+C508 gnd ffo_0/nand_3/a 0.49fF
+C509 gnd sumffo_1/xor_0/w_n3_4# 0.12fF
+C510 inv_2/w_0_6# inv_2/in 0.10fF
+C511 ffi_0/nand_6/w_0_0# ffi_0/nand_6/a 0.06fF
+C512 ffi_0/nand_5/w_0_0# ffi_0/nand_7/a 0.04fF
+C513 nand_2/b sumffo_1/xor_0/a_10_10# 0.12fF
+C514 gnd sumffo_1/sbar 0.62fF
+C515 gnd ffipg_1/ffi_1/nand_0/a_13_n26# 0.01fF
+C516 gnd ffipg_2/ffi_0/nand_7/w_0_0# 0.10fF
+C517 gnd ffipg_0/ffi_1/nand_0/w_0_0# 0.10fF
+C518 cla_1/nor_1/w_0_0# gnd 0.31fF
+C519 clk ffipg_3/ffi_0/inv_1/op 0.07fF
+C520 ffipg_0/pggen_0/xor_0/inv_1/op ffipg_0/pggen_0/xor_0/w_n3_4# 0.06fF
+C521 ffo_0/nand_1/w_0_0# ffo_0/nand_3/b 0.04fF
+C522 nor_0/b sumffo_3/xor_0/inv_1/op 0.04fF
+C523 gnd sumffo_3/ffo_0/nand_1/a 0.33fF
+C524 sumffo_0/ffo_0/nand_5/w_0_0# gnd 0.10fF
+C525 inv_2/w_0_6# nor_1/b 0.03fF
+C526 sumffo_0/ffo_0/nand_4/w_0_0# clk 0.06fF
+C527 ffipg_1/ffi_1/nand_4/w_0_0# ffipg_1/ffi_1/nand_6/a 0.04fF
+C528 ffipg_0/ffi_0/inv_1/op ffipg_0/ffi_0/inv_1/w_0_6# 0.04fF
+C529 gnd ffipg_2/ffi_0/nand_6/a 0.37fF
+C530 gnd ffipg_1/ffi_0/qbar 0.67fF
+C531 gnd ffipg_1/ffi_1/q 2.24fF
+C532 gnd sumffo_2/ffo_0/nand_4/w_0_0# 0.10fF
+C533 ffipg_1/ffi_1/inv_1/op clk 0.07fF
+C534 gnd ffipg_1/ffi_1/nand_6/a 0.37fF
+C535 ffipg_1/ffi_0/qbar ffipg_1/ffi_0/nand_7/a 0.31fF
+C536 gnd ffipg_1/pggen_0/xor_0/inv_1/op 0.35fF
+C537 ffo_0/d ffo_0/nand_0/b 0.40fF
+C538 sumffo_0/ffo_0/d gnd 0.41fF
+C539 ffipg_2/k ffipg_2/pggen_0/nor_0/a_13_6# 0.01fF
+C540 sumffo_0/ffo_0/nand_3/b gnd 0.74fF
+C541 nor_0/b inv_2/w_0_6# 0.06fF
+C542 gnd ffipg_3/ffi_1/nand_0/a_13_n26# 0.01fF
+C543 gnd ffipg_2/ffi_1/nand_1/w_0_0# 0.10fF
+C544 ffo_0/nand_7/w_0_0# ffo_0/nand_7/a 0.06fF
+C545 sumffo_3/ffo_0/nand_1/a sumffo_3/ffo_0/nand_0/b 0.13fF
+C546 cla_1/nand_0/w_0_0# gnd 0.10fF
+C547 cla_1/nand_0/w_0_0# cla_1/n 0.04fF
+C548 sumffo_0/ffo_0/nand_7/w_0_0# z1o 0.04fF
+C549 sumffo_2/ffo_0/nand_0/b clk 0.04fF
+C550 cla_1/inv_0/in gnd 0.34fF
+C551 ffipg_1/ffi_0/q ffipg_1/ffi_0/qbar 0.32fF
+C552 ffipg_1/ffi_0/q ffipg_1/ffi_1/q 0.73fF
+C553 gnd ffipg_0/ffi_1/qbar 0.67fF
+C554 cla_0/g0 ffipg_0/ffi_0/q 0.13fF
+C555 sumffo_2/ffo_0/d sumffo_2/xor_0/inv_0/op 0.06fF
+C556 cla_0/g0 cla_1/p0 0.38fF
+C557 ffipg_1/ffi_0/q ffipg_1/pggen_0/xor_0/inv_1/op 0.22fF
+C558 nor_0/a ffipg_0/pggen_0/nor_0/w_0_0# 0.05fF
+C559 ffipg_0/ffi_0/nand_5/w_0_0# ffipg_0/ffi_0/inv_1/op 0.06fF
+C560 ffipg_3/ffi_0/inv_1/op ffipg_3/ffi_0/nand_1/b 0.45fF
+C561 gnd ffipg_3/ffi_0/qbar 0.67fF
+C562 gnd ffipg_2/pggen_0/xor_0/inv_1/w_0_6# 0.06fF
+C563 gnd ffipg_3/ffi_0/q 3.00fF
+C564 gnd x3in 0.22fF
+C565 gnd ffipg_1/ffi_0/nand_3/w_0_0# 0.11fF
+C566 ffipg_1/ffi_0/nand_2/w_0_0# clk 0.06fF
+C567 gnd ffipg_0/ffi_0/nand_4/w_0_0# 0.10fF
+C568 ffipg_0/ffi_0/nand_2/w_0_0# y1in 0.06fF
+C569 sumffo_3/ffo_0/nand_7/w_0_0# z4o 0.04fF
+C570 cla_0/inv_0/op cla_0/l 0.35fF
+C571 clk ffipg_3/ffi_1/inv_1/op 0.07fF
+C572 gnd ffipg_2/ffi_1/nand_3/a 0.33fF
+C573 gnd ffipg_1/ffi_0/nand_5/w_0_0# 0.10fF
+C574 gnd ffipg_0/ffi_0/nand_6/a 0.37fF
+C575 ffipg_3/pggen_0/xor_0/inv_1/op ffipg_3/pggen_0/xor_0/w_n3_4# 0.06fF
+C576 ffipg_2/ffi_0/inv_1/op ffipg_2/ffi_0/nand_6/a 0.13fF
+C577 ffipg_1/ffi_0/nand_5/w_0_0# ffipg_1/ffi_0/nand_7/a 0.04fF
+C578 inv_1/op sumffo_2/xor_0/w_n3_4# 0.06fF
+C579 cla_1/l inv_3/w_0_6# 0.06fF
+C580 ffipg_1/ffi_0/nand_1/w_0_0# ffipg_1/ffi_0/nand_3/b 0.04fF
+C581 ffipg_2/ffi_1/inv_1/op ffipg_2/ffi_1/nand_1/b 0.45fF
+C582 ffipg_1/ffi_0/nand_3/a ffipg_1/ffi_0/nand_3/b 0.31fF
+C583 ffipg_3/ffi_1/qbar ffipg_3/ffi_1/nand_7/w_0_0# 0.06fF
+C584 ffi_0/nand_7/a ffi_0/q 0.00fF
+C585 sumffo_0/xor_0/inv_1/w_0_6# gnd 0.06fF
+C586 ffipg_1/ffi_1/q ffipg_1/ffi_1/nand_7/a 0.00fF
+C587 gnd y2in 0.22fF
+C588 gnd ffipg_0/ffi_0/nand_3/a 0.33fF
+C589 ffo_0/nand_6/w_0_0# ffo_0/qbar 0.04fF
+C590 sumffo_1/ffo_0/nand_0/w_0_0# sumffo_1/ffo_0/nand_0/b 0.06fF
+C591 ffipg_2/ffi_1/nand_6/w_0_0# ffipg_2/ffi_1/qbar 0.04fF
+C592 ffipg_1/ffi_0/nand_3/b ffipg_1/ffi_0/inv_1/op 0.33fF
+C593 cla_2/l cla_2/nor_0/w_0_0# 0.05fF
+C594 sumffo_0/xor_0/w_n3_4# sumffo_0/xor_0/inv_1/op 0.06fF
+C595 ffipg_3/ffi_0/qbar ffipg_3/ffi_0/nand_7/a 0.31fF
+C596 clk ffipg_3/ffi_0/nand_2/w_0_0# 0.06fF
+C597 gnd ffipg_2/ffi_1/inv_0/op 0.27fF
+C598 ffipg_0/ffi_0/qbar ffipg_0/ffi_0/nand_7/a 0.31fF
+C599 sumffo_2/ffo_0/nand_3/w_0_0# sumffo_2/ffo_0/nand_3/a 0.06fF
+C600 nor_0/b sumffo_1/xor_0/w_n3_4# 0.00fF
+C601 inv_1/op nor_1/w_0_0# 0.03fF
+C602 gnd sumffo_1/ffo_0/nand_6/a 0.33fF
+C603 cla_2/inv_0/in cla_2/inv_0/w_0_6# 0.06fF
+C604 ffipg_3/ffi_0/q ffipg_3/ffi_0/nand_7/a 0.00fF
+C605 ffi_0/nand_1/a ffi_0/nand_1/w_0_0# 0.06fF
+C606 ffipg_1/ffi_1/inv_1/op ffipg_1/ffi_1/nand_1/b 0.45fF
+C607 ffipg_0/k nor_0/a 0.05fF
+C608 ffipg_3/ffi_1/nand_6/a ffipg_3/ffi_1/qbar 0.00fF
+C609 gnd ffi_0/nand_5/w_0_0# 0.10fF
+C610 gnd ffipg_2/ffi_0/nand_0/w_0_0# 0.10fF
+C611 ffipg_1/ffi_1/nand_6/w_0_0# ffipg_1/ffi_1/qbar 0.04fF
+C612 ffipg_0/ffi_1/q ffipg_0/ffi_1/qbar 0.32fF
+C613 ffipg_0/ffi_1/nand_2/w_0_0# ffipg_0/ffi_1/nand_3/a 0.04fF
+C614 inv_1/in cla_0/n 0.02fF
+C615 ffipg_3/k sumffo_3/xor_0/inv_1/op 0.22fF
+C616 gnd sumffo_3/ffo_0/nand_5/w_0_0# 0.10fF
+C617 sumffo_3/ffo_0/nand_4/w_0_0# clk 0.06fF
+C618 cla_0/l nand_2/b 0.06fF
+C619 ffipg_1/pggen_0/xor_0/w_n3_4# ffipg_1/pggen_0/xor_0/inv_0/op 0.06fF
+C620 ffipg_0/ffi_0/inv_1/op ffipg_0/ffi_1/inv_1/op 0.75fF
+C621 sumffo_0/ffo_0/nand_6/w_0_0# sumffo_0/ffo_0/nand_6/a 0.06fF
+C622 gnd y4in 0.22fF
+C623 ffipg_3/pggen_0/xor_0/inv_0/op ffipg_3/pggen_0/xor_0/inv_1/op 0.08fF
+C624 gnd sumffo_3/ffo_0/nand_7/w_0_0# 0.10fF
+C625 sumffo_3/ffo_0/nand_6/a clk 0.13fF
+C626 sumffo_2/ffo_0/inv_0/op sumffo_2/ffo_0/inv_0/w_0_6# 0.03fF
+C627 sumffo_2/ffo_0/nand_0/b sumffo_2/ffo_0/nand_3/a 0.13fF
+C628 cla_2/nor_1/w_0_0# gnd 0.31fF
+C629 sumffo_3/ffo_0/d sumffo_3/ffo_0/inv_0/w_0_6# 0.06fF
+C630 sumffo_3/ffo_0/nand_4/w_0_0# sumffo_3/ffo_0/nand_6/a 0.04fF
+C631 x4in ffipg_3/ffi_1/inv_0/op 0.04fF
+C632 ffipg_1/ffi_0/nand_0/w_0_0# ffipg_1/ffi_0/nand_1/a 0.04fF
+C633 ffipg_0/k sumffo_0/xor_0/inv_1/op 0.06fF
+C634 sumffo_0/ffo_0/nand_1/a sumffo_0/ffo_0/nand_1/b 0.31fF
+C635 ffipg_2/ffi_1/q ffipg_2/ffi_1/nand_6/w_0_0# 0.06fF
+C636 ffipg_0/ffi_0/nand_1/a clk 0.13fF
+C637 ffipg_0/ffi_0/nand_0/w_0_0# ffipg_0/ffi_0/inv_0/op 0.06fF
+C638 gnd ffo_0/nand_6/w_0_0# 0.10fF
+C639 sumffo_1/ffo_0/d sumffo_1/xor_0/inv_1/op 0.52fF
+C640 gnd sumffo_0/ffo_0/inv_1/w_0_6# 0.06fF
+C641 cla_0/nand_0/w_0_0# cla_0/inv_0/op 0.06fF
+C642 clk ffipg_3/ffi_1/nand_0/w_0_0# 0.06fF
+C643 ffipg_3/pggen_0/xor_0/inv_1/w_0_6# ffipg_3/pggen_0/xor_0/inv_1/op 0.03fF
+C644 nor_4/a nor_4/w_0_0# 0.07fF
+C645 gnd sumffo_3/ffo_0/nand_3/b 0.74fF
+C646 gnd sumffo_2/xor_0/inv_0/op 0.32fF
+C647 sumffo_2/ffo_0/nand_0/w_0_0# sumffo_2/ffo_0/nand_0/b 0.06fF
+C648 ffo_0/nand_3/w_0_0# ffo_0/nand_3/a 0.06fF
+C649 sumffo_3/ffo_0/nand_3/a sumffo_3/ffo_0/nand_3/b 0.31fF
+C650 sumffo_2/ffo_0/nand_5/w_0_0# sumffo_2/ffo_0/nand_1/b 0.06fF
+C651 cla_1/inv_0/op cla_0/n 0.06fF
+C652 cla_0/n inv_3/w_0_6# 0.16fF
+C653 gnd ffipg_2/ffi_1/nand_4/w_0_0# 0.10fF
+C654 gnd ffipg_0/ffi_1/inv_0/op 0.27fF
+C655 gnd ffo_0/nand_0/w_0_0# 0.10fF
+C656 gnd x4in 0.22fF
+C657 ffo_0/nand_0/b clk 0.04fF
+C658 x2in ffipg_1/ffi_1/inv_0/w_0_6# 0.06fF
+C659 ffipg_1/ffi_0/nand_1/a ffipg_1/ffi_0/nand_3/b 0.00fF
+C660 ffo_0/nand_5/w_0_0# ffo_0/nand_1/b 0.06fF
+C661 gnd ffo_0/nand_1/b 0.57fF
+C662 gnd sumffo_0/ffo_0/inv_0/w_0_6# 0.06fF
+C663 cla_1/l cla_2/p0 0.02fF
+C664 ffipg_1/ffi_1/nand_1/w_0_0# ffipg_1/ffi_1/nand_3/b 0.04fF
+C665 ffipg_1/k ffipg_1/pggen_0/nor_0/a_13_6# 0.01fF
+C666 sumffo_2/ffo_0/nand_3/b sumffo_2/ffo_0/nand_1/b 0.32fF
+C667 sumffo_2/xor_0/inv_0/op sumffo_2/xor_0/inv_1/op 0.08fF
+C668 x2in ffipg_1/ffi_1/inv_1/op 0.01fF
+C669 ffipg_0/ffi_0/nand_1/w_0_0# ffipg_0/ffi_0/nand_1/a 0.06fF
+C670 ffipg_2/ffi_0/q ffipg_2/pggen_0/xor_0/inv_1/op 0.22fF
+C671 ffipg_2/ffi_0/nand_3/a clk 0.13fF
+C672 ffipg_0/ffi_1/inv_1/op ffipg_0/ffi_1/nand_1/b 0.45fF
+C673 ffipg_3/ffi_1/inv_1/op ffipg_3/ffi_1/nand_1/b 0.45fF
+C674 gnd ffipg_3/pggen_0/nand_0/w_0_0# 0.10fF
+C675 gnd ffipg_2/ffi_1/nand_3/b 0.74fF
+C676 gnd sumffo_3/xor_0/inv_1/w_0_6# 0.06fF
+C677 cla_0/nand_0/w_0_0# nand_2/b 0.05fF
+C678 gnd ffipg_1/pggen_0/xor_0/inv_0/w_0_6# 0.09fF
+C679 ffipg_0/ffi_1/nand_1/a ffipg_0/ffi_1/nand_1/b 0.31fF
+C680 ffipg_0/pggen_0/xor_0/inv_0/op ffipg_0/pggen_0/xor_0/w_n3_4# 0.06fF
+C681 sumffo_3/ffo_0/nand_0/w_0_0# sumffo_3/ffo_0/nand_1/a 0.04fF
+C682 sumffo_1/ffo_0/nand_3/w_0_0# sumffo_1/ffo_0/nand_3/b 0.06fF
+C683 gnd inv_8/w_0_6# 0.15fF
+C684 ffipg_3/k ffipg_3/ffi_1/q 0.46fF
+C685 ffipg_2/ffi_1/nand_3/w_0_0# ffipg_2/ffi_1/nand_1/b 0.04fF
+C686 gnd ffipg_0/pggen_0/nor_0/w_0_0# 0.11fF
+C687 sumffo_3/ffo_0/d sumffo_3/xor_0/inv_0/op 0.06fF
+C688 sumffo_0/xor_0/inv_1/w_0_6# nor_0/b 0.23fF
+C689 gnd ffipg_3/ffi_1/nand_7/w_0_0# 0.10fF
+C690 gnd ffi_0/q 0.80fF
+C691 ffipg_2/ffi_0/q ffipg_2/ffi_0/qbar 0.32fF
+C692 ffipg_0/ffi_0/nand_2/w_0_0# ffipg_0/ffi_0/nand_3/a 0.04fF
+C693 gnd inv_1/in 0.35fF
+C694 sumffo_2/ffo_0/nand_1/a sumffo_2/ffo_0/nand_3/b 0.00fF
+C695 sumffo_0/ffo_0/nand_7/a z1o 0.00fF
+C696 gnd ffipg_0/ffi_0/nand_7/w_0_0# 0.10fF
+C697 gnd sumffo_2/xor_0/inv_0/w_0_6# 0.09fF
+C698 sumffo_0/xor_0/w_n3_4# gnd 0.12fF
+C699 sumffo_0/xor_0/inv_0/w_0_6# sumffo_0/xor_0/inv_0/op 0.03fF
+C700 gnd ffipg_2/ffi_1/nand_5/w_0_0# 0.10fF
+C701 ffipg_2/ffi_0/nand_6/w_0_0# ffipg_2/ffi_0/nand_6/a 0.06fF
+C702 ffipg_2/ffi_0/nand_5/w_0_0# ffipg_2/ffi_0/nand_7/a 0.04fF
+C703 ffipg_1/ffi_1/q ffipg_1/ffi_1/nand_6/w_0_0# 0.06fF
+C704 ffipg_1/ffi_1/nand_3/w_0_0# ffipg_1/ffi_1/nand_1/b 0.04fF
+C705 ffipg_1/ffi_1/nand_6/w_0_0# ffipg_1/ffi_1/nand_6/a 0.06fF
+C706 sumffo_0/ffo_0/nand_2/w_0_0# sumffo_0/ffo_0/d 0.06fF
+C707 gnd ffipg_2/ffi_1/nand_7/a 0.37fF
+C708 gnd ffipg_0/ffi_1/inv_1/w_0_6# 0.06fF
+C709 gnd sumffo_1/ffo_0/d 0.41fF
+C710 nor_4/a clk 0.03fF
+C711 gnd ffipg_3/ffi_1/nand_6/a 0.37fF
+C712 gnd ffipg_2/ffi_1/nand_1/a 0.44fF
+C713 sumffo_3/ffo_0/nand_7/a z4o 0.00fF
+C714 x4in ffipg_3/ffi_1/inv_0/w_0_6# 0.06fF
+C715 y2in ffipg_1/ffi_0/inv_0/w_0_6# 0.06fF
+C716 ffipg_1/ffi_0/nand_4/w_0_0# ffipg_1/ffi_0/nand_6/a 0.04fF
+C717 ffipg_0/ffi_0/nand_1/b ffipg_0/ffi_0/nand_7/a 0.13fF
+C718 sumffo_2/ffo_0/nand_6/a sumffo_2/sbar 0.00fF
+C719 gnd ffi_0/inv_1/w_0_6# 0.06fF
+C720 cla_1/inv_0/op gnd 0.27fF
+C721 gnd inv_3/w_0_6# 0.17fF
+C722 sumffo_0/ffo_0/nand_4/w_0_0# sumffo_0/ffo_0/nand_3/b 0.06fF
+C723 sumffo_0/ffo_0/nand_3/w_0_0# sumffo_0/ffo_0/nand_1/b 0.04fF
+C724 gnd sumffo_3/ffo_0/inv_1/w_0_6# 0.06fF
+C725 sumffo_3/ffo_0/nand_2/w_0_0# sumffo_3/ffo_0/d 0.06fF
+C726 ffipg_0/k ffipg_0/pggen_0/nor_0/a_13_6# 0.01fF
+C727 ffi_0/nand_4/w_0_0# ffi_0/inv_1/op 0.06fF
+C728 ffipg_1/ffi_1/nand_0/w_0_0# ffipg_1/ffi_1/inv_0/op 0.06fF
+C729 cla_2/l nor_3/b 0.10fF
+C730 ffipg_1/ffi_1/inv_1/op ffipg_1/ffi_1/nand_6/a 0.13fF
+C731 ffipg_0/ffi_1/qbar ffipg_0/ffi_1/nand_7/a 0.31fF
+C732 ffipg_0/ffi_0/nand_3/b ffipg_0/ffi_0/nand_1/b 0.32fF
+C733 ffipg_1/ffi_1/nand_3/a ffipg_1/ffi_1/nand_3/b 0.31fF
+C734 gnd ffipg_0/ffi_1/nand_1/w_0_0# 0.10fF
+C735 y1in clk 0.68fF
+C736 ffo_0/nand_6/a ffo_0/qbar 0.00fF
+C737 gnd ffipg_0/k 0.68fF
+C738 cla_0/l cla_1/l 0.08fF
+C739 nor_0/b sumffo_2/xor_0/inv_0/op 0.06fF
+C740 ffipg_2/ffi_1/nand_0/w_0_0# clk 0.06fF
+C741 x2in clk 0.68fF
+C742 ffipg_1/ffi_0/nand_3/b ffipg_1/ffi_0/nand_1/b 0.32fF
+C743 cla_1/p0 ffipg_1/ffi_1/q 0.22fF
+C744 sumffo_0/ffo_0/nand_0/b sumffo_0/ffo_0/nand_3/a 0.13fF
+C745 cla_1/inv_0/w_0_6# cla_1/inv_0/in 0.06fF
+C746 gnd ffipg_0/ffi_1/nand_5/w_0_0# 0.10fF
+C747 ffipg_0/ffi_1/q ffipg_0/pggen_0/nor_0/w_0_0# 0.06fF
+C748 gnd ffipg_3/ffi_1/nand_3/a 0.33fF
+C749 sumffo_3/ffo_0/nand_0/b sumffo_3/ffo_0/inv_1/w_0_6# 0.03fF
+C750 sumffo_1/ffo_0/nand_6/w_0_0# sumffo_1/sbar 0.04fF
+C751 sumffo_1/ffo_0/nand_1/b clk 0.45fF
+C752 z1o gnd 0.80fF
+C753 ffipg_3/ffi_1/nand_3/w_0_0# ffipg_3/ffi_1/nand_3/b 0.06fF
+C754 ffipg_2/ffi_1/q ffipg_2/pggen_0/xor_0/inv_1/op 0.06fF
+C755 ffipg_3/ffi_0/q ffipg_3/pggen_0/xor_0/a_10_10# 0.12fF
+C756 cla_0/l nor_0/a 0.16fF
+C757 ffi_0/nand_3/b ffi_0/inv_1/op 0.33fF
+C758 gnd ffi_0/inv_1/op 1.89fF
+C759 sumffo_1/ffo_0/nand_7/w_0_0# z2o 0.04fF
+C760 gnd ffipg_2/ffi_0/inv_1/w_0_6# 0.06fF
+C761 gnd sumffo_2/sbar 0.62fF
+C762 ffipg_3/k ffipg_3/ffi_0/q 0.07fF
+C763 cla_2/n nor_3/b 0.41fF
+C764 sumffo_3/ffo_0/inv_0/op sumffo_3/ffo_0/inv_0/w_0_6# 0.03fF
+C765 cla_2/g1 cla_2/n 0.13fF
+C766 gnd sumffo_3/ffo_0/nand_7/a 0.33fF
+C767 ffipg_3/pggen_0/xor_0/inv_0/op ffipg_3/pggen_0/xor_0/w_n3_4# 0.06fF
+C768 gnd ffi_0/inv_0/op 0.27fF
+C769 gnd ffipg_2/pggen_0/xor_0/a_10_10# 0.93fF
+C770 gnd ffo_0/nand_4/w_0_0# 0.10fF
+C771 gnd sumffo_1/xor_0/a_10_10# 0.93fF
+C772 ffipg_3/ffi_1/nand_4/w_0_0# ffipg_3/ffi_1/nand_6/a 0.04fF
+C773 ffi_0/nand_1/a ffi_0/nand_1/b 0.31fF
+C774 ffipg_0/ffi_1/nand_6/w_0_0# ffipg_0/ffi_1/nand_6/a 0.06fF
+C775 nor_1/b inv_1/in 0.16fF
+C776 gnd ffipg_2/pggen_0/xor_0/inv_0/op 0.32fF
+C777 ffipg_0/ffi_0/q ffipg_0/ffi_0/nand_6/a 0.31fF
+C778 gnd ffo_0/nand_6/a 0.33fF
+C779 y4in ffipg_3/ffi_0/inv_0/w_0_6# 0.06fF
+C780 ffipg_0/ffi_1/nand_0/w_0_0# clk 0.06fF
+C781 sumffo_0/ffo_0/nand_1/w_0_0# sumffo_0/ffo_0/nand_3/b 0.04fF
+C782 ffipg_2/ffi_0/q ffipg_2/ffi_1/q 0.73fF
+C783 nor_3/w_0_0# nor_4/b 0.03fF
+C784 nor_0/b inv_8/w_0_6# 0.06fF
+C785 ffi_0/inv_0/op ffi_0/inv_0/w_0_6# 0.03fF
+C786 ffipg_3/ffi_0/nand_6/w_0_0# ffipg_3/ffi_0/nand_6/a 0.06fF
+C787 ffipg_0/ffi_0/nand_6/w_0_0# ffipg_0/ffi_0/nand_6/a 0.06fF
+C788 gnd ffi_0/nand_0/a_13_n26# 0.01fF
+C789 cla_2/p1 ffipg_3/pggen_0/nor_0/w_0_0# 0.05fF
+C790 gnd ffipg_2/pggen_0/nor_0/w_0_0# 0.11fF
+C791 ffipg_0/k ffipg_0/ffi_1/q 0.46fF
+C792 gnd ffipg_0/pggen_0/xor_0/a_10_10# 0.93fF
+C793 ffo_0/nand_3/w_0_0# ffo_0/nand_1/b 0.04fF
+C794 sumffo_2/ffo_0/nand_1/b sumffo_2/ffo_0/nand_7/a 0.13fF
+C795 sumffo_0/ffo_0/nand_5/w_0_0# clk 0.06fF
+C796 y4in ffipg_3/ffi_0/inv_1/op 0.01fF
+C797 ffipg_3/ffi_0/nand_3/w_0_0# ffipg_3/ffi_0/nand_3/b 0.06fF
+C798 nor_0/b ffi_0/q 0.32fF
+C799 ffipg_0/ffi_1/inv_1/op ffipg_0/ffi_1/nand_6/a 0.13fF
+C800 ffipg_2/k sumffo_2/xor_0/inv_0/op 0.20fF
+C801 gnd ffipg_2/ffi_0/nand_7/a 0.37fF
+C802 ffipg_0/ffi_0/inv_0/op ffipg_0/ffi_0/inv_0/w_0_6# 0.03fF
+C803 gnd sumffo_2/ffo_0/nand_5/w_0_0# 0.10fF
+C804 sumffo_2/ffo_0/nand_4/w_0_0# clk 0.06fF
+C805 cla_2/p0 gnd 1.06fF
+C806 cla_0/l cla_0/n 0.25fF
+C807 sumffo_0/xor_0/w_n3_4# nor_0/b 0.06fF
+C808 sumffo_0/ffo_0/d clk 0.25fF
+C809 ffipg_3/ffi_0/nand_1/w_0_0# ffipg_3/ffi_0/nand_1/b 0.06fF
+C810 ffi_0/nand_1/a ffi_0/nand_0/w_0_0# 0.04fF
+C811 ffipg_2/ffi_0/inv_1/op ffipg_2/ffi_0/inv_1/w_0_6# 0.04fF
+C812 ffo_0/inv_0/op ffo_0/inv_0/w_0_6# 0.03fF
+C813 ffo_0/nand_0/b ffo_0/nand_3/a 0.13fF
+C814 sumffo_3/ffo_0/d sumffo_3/xor_0/w_n3_4# 0.02fF
+C815 gnd ffo_0/nand_1/a 0.33fF
+C816 gnd sumffo_2/ffo_0/nand_7/w_0_0# 0.10fF
+C817 nor_0/b sumffo_1/ffo_0/d 0.27fF
+C818 gnd ffipg_2/ffi_1/inv_1/w_0_6# 0.06fF
+C819 gnd ffipg_0/pggen_0/xor_0/inv_1/op 0.35fF
+C820 sumffo_0/ffo_0/nand_3/b clk 0.33fF
+C821 ffipg_2/pggen_0/xor_0/inv_0/op ffipg_2/pggen_0/xor_0/inv_0/w_0_6# 0.03fF
+C822 ffipg_1/ffi_0/nand_2/w_0_0# y2in 0.06fF
+C823 ffipg_0/ffi_0/nand_3/w_0_0# ffipg_0/ffi_0/nand_3/a 0.06fF
+C824 inv_3/in inv_3/w_0_6# 0.10fF
+C825 sumffo_0/ffo_0/d sumffo_0/xor_0/inv_0/op 0.06fF
+C826 cla_0/l inv_7/w_0_6# 0.06fF
+C827 gnd sumffo_2/ffo_0/nand_3/b 0.74fF
+C828 gnd inv_4/op 0.58fF
+C829 sumffo_1/ffo_0/nand_3/a sumffo_1/ffo_0/nand_3/b 0.31fF
+C830 sumffo_0/ffo_0/nand_0/b gnd 0.58fF
+C831 ffipg_2/ffi_1/q ffipg_2/ffi_1/qbar 0.32fF
+C832 ffipg_1/ffi_1/nand_1/a ffipg_1/ffi_1/nand_3/b 0.00fF
+C833 ffipg_1/ffi_0/inv_1/op ffipg_1/ffi_0/inv_1/w_0_6# 0.04fF
+C834 ffipg_0/pggen_0/xor_0/inv_1/w_0_6# ffipg_0/pggen_0/xor_0/inv_1/op 0.03fF
+C835 gnd inv_8/in 0.43fF
+C836 gnd sumffo_1/ffo_0/nand_3/w_0_0# 0.11fF
+C837 gnd ffipg_2/ffi_1/nand_2/w_0_0# 0.10fF
+C838 x3in clk 0.68fF
+C839 nor_0/b ffipg_0/k 0.19fF
+C840 sumffo_0/ffo_0/inv_0/op sumffo_0/ffo_0/nand_0/w_0_0# 0.06fF
+C841 cla_0/inv_0/in cla_0/l 0.07fF
+C842 ffipg_3/ffi_1/q ffipg_3/ffi_1/nand_6/w_0_0# 0.06fF
+C843 ffipg_2/ffi_0/nand_4/w_0_0# ffipg_2/ffi_0/nand_6/a 0.04fF
+C844 ffipg_1/ffi_1/nand_1/a ffipg_1/ffi_1/nand_0/w_0_0# 0.04fF
+C845 ffipg_0/ffi_1/nand_1/w_0_0# ffipg_0/ffi_1/nand_3/b 0.04fF
+C846 sumffo_1/ffo_0/nand_6/w_0_0# sumffo_1/ffo_0/nand_6/a 0.06fF
+C847 cla_2/inv_0/in cla_2/inv_0/op 0.04fF
+C848 ffipg_2/ffi_1/nand_3/a clk 0.13fF
+C849 gnd ffipg_1/ffi_0/nand_6/w_0_0# 0.10fF
+C850 gnd ffipg_0/ffi_0/nand_7/a 0.37fF
+C851 gnd sumffo_1/ffo_0/inv_0/op 0.27fF
+C852 sumffo_3/ffo_0/nand_1/a sumffo_3/ffo_0/nand_1/w_0_0# 0.06fF
+C853 ffipg_1/ffi_0/nand_4/w_0_0# ffipg_1/ffi_0/nand_3/b 0.06fF
+C854 ffipg_0/ffi_0/nand_5/w_0_0# ffipg_0/ffi_0/nand_1/b 0.06fF
+C855 inv_4/in inv_4/op 0.04fF
+C856 gnd ffipg_1/ffi_0/nand_1/w_0_0# 0.10fF
+C857 gnd ffipg_1/ffi_0/nand_3/a 0.33fF
+C858 y2in clk 0.68fF
+C859 ffipg_0/ffi_0/nand_3/a clk 0.13fF
+C860 gnd ffipg_0/ffi_0/nand_3/b 0.74fF
+C861 ffo_0/qbar ffo_0/nand_7/w_0_0# 0.06fF
+C862 ffo_0/nand_6/w_0_0# couto 0.06fF
+C863 sumffo_3/xor_0/w_n3_4# sumffo_3/xor_0/a_10_10# 0.16fF
+C864 gnd ffipg_1/ffi_0/inv_1/op 1.85fF
+C865 gnd inv_1/op 0.58fF
+C866 sumffo_2/ffo_0/inv_0/op sumffo_2/ffo_0/d 0.04fF
+C867 cla_0/nand_0/w_0_0# cla_0/n 0.04fF
+C868 ffipg_3/ffi_1/nand_1/w_0_0# ffipg_3/ffi_1/nand_3/b 0.04fF
+C869 ffipg_2/ffi_1/inv_0/op clk 0.32fF
+C870 ffipg_1/ffi_0/q ffipg_1/ffi_0/nand_6/w_0_0# 0.06fF
+C871 ffipg_0/ffi_1/q ffipg_0/pggen_0/xor_0/inv_1/op 0.06fF
+C872 nor_0/b sumffo_1/xor_0/a_10_10# 0.04fF
+C873 sumffo_3/xor_0/inv_1/w_0_6# ffipg_3/k 0.23fF
+C874 sumffo_1/ffo_0/nand_6/a clk 0.13fF
+C875 x4in ffipg_3/ffi_1/inv_1/op 0.01fF
+C876 ffipg_3/ffi_1/qbar ffipg_3/ffi_1/nand_7/a 0.31fF
+C877 gnd ffi_0/nand_1/w_0_0# 0.10fF
+C878 gnd ffipg_0/ffi_1/inv_0/w_0_6# 0.06fF
+C879 ffi_0/nand_1/w_0_0# ffi_0/nand_3/b 0.04fF
+C880 gnd ffipg_2/ffi_0/nand_0/a_13_n26# 0.01fF
+C881 ffipg_3/ffi_0/nand_2/w_0_0# y4in 0.06fF
+C882 gnd ffi_0/nand_6/w_0_0# 0.10fF
+C883 ffipg_2/ffi_0/nand_0/w_0_0# clk 0.06fF
+C884 sumffo_1/ffo_0/nand_1/a sumffo_1/ffo_0/nand_0/b 0.13fF
+C885 cla_0/l gnd 3.05fF
+C886 sumffo_3/ffo_0/nand_5/w_0_0# clk 0.06fF
+C887 cla_0/l cla_1/n 0.13fF
+C888 gnd sumffo_3/ffo_0/inv_0/w_0_6# 0.07fF
+C889 ffipg_3/ffi_1/nand_1/a ffipg_3/ffi_1/nand_3/b 0.00fF
+C890 gnd ffipg_3/ffi_0/nand_3/w_0_0# 0.11fF
+C891 clk y4in 0.64fF
+C892 ffipg_0/ffi_0/q ffipg_0/pggen_0/nor_0/w_0_0# 0.06fF
+C893 ffipg_2/pggen_0/xor_0/a_10_10# ffipg_2/pggen_0/xor_0/w_n3_4# 0.16fF
+C894 ffipg_0/ffi_1/nand_4/w_0_0# ffipg_0/ffi_1/inv_1/op 0.06fF
+C895 inv_1/op sumffo_2/xor_0/inv_1/op 0.06fF
+C896 sumffo_2/sbar z3o 0.32fF
+C897 cla_2/inv_0/op cla_2/inv_0/w_0_6# 0.03fF
+C898 gnd ffipg_2/ffi_0/inv_0/op 0.27fF
+C899 ffipg_2/pggen_0/xor_0/inv_0/op ffipg_2/pggen_0/xor_0/w_n3_4# 0.06fF
+C900 ffipg_1/ffi_1/q ffipg_1/ffi_1/qbar 0.32fF
+C901 gnd x1in 0.22fF
+C902 ffipg_0/ffi_0/q ffipg_0/ffi_0/nand_7/w_0_0# 0.04fF
+C903 gnd ffo_0/nand_7/w_0_0# 0.10fF
+C904 sumffo_1/ffo_0/nand_7/a z2o 0.00fF
+C905 sumffo_0/ffo_0/inv_1/w_0_6# clk 0.06fF
+C906 cla_0/inv_0/op cla_0/inv_0/w_0_6# 0.03fF
+C907 ffipg_1/ffi_1/nand_6/a ffipg_1/ffi_1/qbar 0.00fF
+C908 cla_0/l ffipg_1/ffi_0/q 0.13fF
+C909 sumffo_3/ffo_0/nand_3/b clk 0.33fF
+C910 sumffo_3/ffo_0/nand_4/w_0_0# sumffo_3/ffo_0/nand_3/b 0.06fF
+C911 sumffo_3/ffo_0/nand_3/w_0_0# sumffo_3/ffo_0/nand_1/b 0.04fF
+C912 sumffo_0/ffo_0/nand_1/b sumffo_0/ffo_0/nand_7/a 0.13fF
+C913 cla_0/l inv_7/in 0.13fF
+C914 cla_2/p1 gnd 1.00fF
+C915 cla_1/inv_0/op cla_1/inv_0/w_0_6# 0.03fF
+C916 ffipg_0/ffi_1/inv_0/op clk 0.32fF
+C917 gnd ffo_0/nand_3/b 0.74fF
+C918 clk x4in 0.68fF
+C919 ffipg_3/ffi_1/nand_5/w_0_0# ffipg_3/ffi_1/nand_7/a 0.04fF
+C920 ffipg_1/ffi_1/nand_1/a ffipg_1/ffi_1/nand_1/w_0_0# 0.06fF
+C921 ffipg_0/ffi_1/nand_5/w_0_0# ffipg_0/ffi_1/nand_7/a 0.04fF
+C922 cla_0/nor_0/w_0_0# nor_0/a 0.06fF
+C923 cla_0/nand_0/a_13_n26# gnd 0.00fF
+C924 gnd ffipg_1/ffi_0/nand_1/a 0.44fF
+C925 ffo_0/nand_1/b clk 0.45fF
+C926 gnd z2o 0.80fF
+C927 gnd ffipg_0/ffi_1/nand_0/a_13_n26# 0.01fF
+C928 ffipg_3/ffi_0/nand_4/w_0_0# ffipg_3/ffi_0/nand_6/a 0.04fF
+C929 gnd ffipg_2/ffi_0/inv_0/w_0_6# 0.06fF
+C930 ffipg_1/pggen_0/xor_0/a_10_10# ffipg_1/pggen_0/xor_0/w_n3_4# 0.16fF
+C931 sumffo_1/xor_0/inv_0/w_0_6# sumffo_1/xor_0/inv_0/op 0.03fF
+C932 nor_0/b inv_8/in 0.13fF
+C933 inv_6/in nor_4/b 0.04fF
+C934 ffipg_2/k ffipg_2/pggen_0/xor_0/a_10_10# 0.45fF
+C935 ffipg_0/k ffipg_0/ffi_0/q 0.07fF
+C936 sumffo_0/ffo_0/nand_6/w_0_0# gnd 0.10fF
+C937 ffipg_3/ffi_1/inv_1/op ffipg_3/ffi_1/nand_6/a 0.13fF
+C938 ffipg_3/ffi_0/nand_3/a ffipg_3/ffi_0/nand_3/b 0.31fF
+C939 ffi_0/nand_1/b ffi_0/nand_7/a 0.13fF
+C940 ffipg_2/k ffipg_2/pggen_0/xor_0/inv_0/op 0.06fF
+C941 cla_0/l cla_0/nor_1/w_0_0# 0.02fF
+C942 nand_2/b sumffo_1/xor_0/inv_0/op 0.20fF
+C943 gnd ffipg_0/ffi_0/nand_0/w_0_0# 0.10fF
+C944 sumffo_2/ffo_0/nand_7/w_0_0# z3o 0.04fF
+C945 gnd sumffo_2/ffo_0/inv_0/op 0.51fF
+C946 cla_0/nand_0/w_0_0# gnd 0.10fF
+C947 gnd ffipg_0/ffi_0/inv_1/w_0_6# 0.06fF
+C948 gnd nor_3/w_0_0# 0.15fF
+C949 ffipg_1/k ffipg_1/pggen_0/xor_0/inv_0/op 0.06fF
+C950 ffo_0/nand_0/w_0_0# ffo_0/nand_0/b 0.06fF
+C951 sumffo_1/ffo_0/nand_4/w_0_0# sumffo_1/ffo_0/nand_3/b 0.06fF
+C952 ffipg_2/k ffipg_2/pggen_0/nor_0/w_0_0# 0.21fF
+C953 gnd sumffo_3/xor_0/inv_0/op 0.32fF
+C954 gnd sumffo_2/ffo_0/nand_7/a 0.33fF
+C955 sumffo_1/ffo_0/d sumffo_1/ffo_0/inv_0/w_0_6# 0.06fF
+C956 sumffo_0/ffo_0/nand_1/b gnd 0.57fF
+C957 ffipg_2/ffi_0/inv_0/op y3in 0.04fF
+C958 sumffo_0/ffo_0/inv_0/op sumffo_0/ffo_0/d 0.04fF
+C959 cla_2/p0 ffipg_2/k 0.05fF
+C960 sumffo_3/ffo_0/nand_1/w_0_0# sumffo_3/ffo_0/nand_3/b 0.04fF
+C961 cla_0/inv_0/op nand_2/b 0.09fF
+C962 cla_2/p0 ffipg_2/pggen_0/nand_0/w_0_0# 0.24fF
+C963 cla_1/nor_0/w_0_0# cla_2/p0 0.06fF
+C964 gnd ffipg_2/ffi_1/nand_6/w_0_0# 0.10fF
+C965 ffipg_1/ffi_1/nand_2/w_0_0# ffipg_1/ffi_1/nand_3/a 0.04fF
+C966 sumffo_1/ffo_0/d clk 0.04fF
+C967 gnd ffipg_2/ffi_1/inv_0/w_0_6# 0.06fF
+C968 ffipg_0/ffi_1/inv_1/w_0_6# clk 0.06fF
+C969 gnd ffipg_0/pggen_0/xor_0/inv_0/op 0.32fF
+C970 gnd sumffo_1/ffo_0/nand_3/a 0.48fF
+C971 gnd ffipg_3/ffi_1/nand_7/a 0.37fF
+C972 nor_0/b ffi_0/nand_6/w_0_0# 0.04fF
+C973 ffipg_2/ffi_1/nand_1/a clk 0.13fF
+C974 gnd ffipg_0/ffi_0/nand_5/w_0_0# 0.10fF
+C975 cla_0/l nor_0/b 0.33fF
+C976 cla_2/g1 ffipg_3/ffi_0/q 0.13fF
+C977 ffipg_3/ffi_0/q ffipg_3/ffi_1/q 0.73fF
+C978 y3in ffipg_2/ffi_0/inv_0/w_0_6# 0.06fF
+C979 sumffo_0/xor_0/w_n3_4# sumffo_0/xor_0/inv_0/op 0.06fF
+C980 cla_2/nand_0/a_13_n26# gnd 0.01fF
+C981 gnd ffipg_3/pggen_0/xor_0/inv_1/op 0.35fF
+C982 clk ffi_0/inv_1/w_0_6# 0.06fF
+C983 ffipg_2/ffi_0/nand_1/a ffipg_2/ffi_0/nand_3/b 0.00fF
+C984 gnd sumffo_3/ffo_0/nand_2/w_0_0# 0.10fF
+C985 ffipg_1/k ffipg_1/pggen_0/xor_0/w_n3_4# 0.02fF
+C986 sumffo_3/ffo_0/nand_2/w_0_0# sumffo_3/ffo_0/nand_3/a 0.04fF
+C987 cla_1/inv_0/in cla_1/nor_1/w_0_0# 0.05fF
+C988 gnd ffipg_2/ffi_1/inv_1/op 1.85fF
+C989 ffipg_0/ffi_0/q ffipg_0/pggen_0/xor_0/a_10_10# 0.12fF
+C990 sumffo_3/ffo_0/inv_1/w_0_6# clk 0.06fF
+C991 cla_2/p0 ffipg_3/k 0.06fF
+C992 ffipg_2/ffi_1/nand_0/w_0_0# ffipg_2/ffi_1/inv_0/op 0.06fF
+C993 ffipg_1/ffi_1/q ffipg_1/ffi_1/nand_6/a 0.31fF
+C994 ffipg_1/ffi_1/q ffipg_1/pggen_0/xor_0/inv_1/op 0.06fF
+C995 ffipg_0/ffi_0/inv_1/op ffipg_0/ffi_0/nand_1/b 0.45fF
+C996 sumffo_0/ffo_0/nand_2/w_0_0# sumffo_0/ffo_0/nand_0/b 0.06fF
+C997 gnd ffipg_1/pggen_0/nand_0/w_0_0# 0.10fF
+C998 gnd sumffo_1/ffo_0/nand_0/b 0.62fF
+C999 ffo_0/nand_6/a couto 0.31fF
+C1000 cla_1/p0 cla_2/p0 0.24fF
+C1001 ffipg_3/ffi_0/nand_0/w_0_0# ffipg_3/ffi_0/nand_1/a 0.04fF
+C1002 ffipg_2/ffi_1/nand_4/w_0_0# ffipg_2/ffi_1/nand_6/a 0.04fF
+C1003 gnd ffipg_1/ffi_0/nand_1/b 0.57fF
+C1004 gnd sumffo_2/xor_0/inv_1/w_0_6# 0.06fF
+C1005 gnd ffipg_0/ffi_1/nand_6/w_0_0# 0.10fF
+C1006 ffipg_0/ffi_0/q ffipg_0/pggen_0/xor_0/inv_1/op 0.22fF
+C1007 sumffo_3/ffo_0/nand_2/w_0_0# sumffo_3/ffo_0/nand_0/b 0.06fF
+C1008 sumffo_1/ffo_0/nand_0/w_0_0# sumffo_1/ffo_0/nand_1/a 0.04fF
+C1009 sumffo_2/ffo_0/nand_3/w_0_0# sumffo_2/ffo_0/nand_3/b 0.06fF
+C1010 ffipg_3/pggen_0/xor_0/inv_0/op ffipg_3/pggen_0/xor_0/inv_0/w_0_6# 0.03fF
+C1011 ffipg_1/ffi_0/nand_1/b ffipg_1/ffi_0/nand_7/a 0.13fF
+C1012 sumffo_0/xor_0/inv_0/op ffipg_0/k 0.27fF
+C1013 clk ffipg_3/ffi_1/nand_3/a 0.13fF
+C1014 ffipg_3/k inv_4/op 0.09fF
+C1015 gnd ffipg_3/ffi_0/nand_6/w_0_0# 0.10fF
+C1016 clk ffi_0/inv_1/op 0.93fF
+C1017 ffipg_1/pggen_0/nand_0/w_0_0# ffipg_1/ffi_0/q 0.06fF
+C1018 gnd ffipg_0/ffi_1/nand_2/w_0_0# 0.10fF
+C1019 sumffo_3/xor_0/inv_1/w_0_6# sumffo_3/xor_0/inv_1/op 0.03fF
+C1020 ffipg_2/ffi_0/inv_1/w_0_6# clk 0.06fF
+C1021 ffipg_2/k inv_1/op 0.09fF
+C1022 inv_5/w_0_6# inv_5/in 0.10fF
+C1023 gnd ffipg_0/ffi_1/inv_1/op 1.85fF
+C1024 ffipg_0/ffi_1/q ffipg_0/pggen_0/xor_0/inv_0/op 0.27fF
+C1025 gnd ffipg_3/ffi_0/nand_3/a 0.33fF
+C1026 ffi_0/inv_0/op clk 0.32fF
+C1027 ffipg_2/ffi_0/inv_1/op ffipg_2/ffi_1/inv_1/op 0.75fF
+C1028 ffo_0/nand_4/w_0_0# clk 0.06fF
+C1029 sumffo_1/ffo_0/nand_6/a sumffo_1/sbar 0.00fF
+C1030 sumffo_2/xor_0/inv_1/w_0_6# sumffo_2/xor_0/inv_1/op 0.03fF
+C1031 cla_2/g1 cla_2/nor_1/w_0_0# 0.02fF
+C1032 cla_0/l ffipg_2/k 0.10fF
+C1033 cla_2/l cla_2/p0 0.16fF
+C1034 ffi_0/nand_3/b ffi_0/nand_1/b 0.32fF
+C1035 gnd ffi_0/nand_1/b 0.57fF
+C1036 ffipg_1/ffi_1/nand_4/w_0_0# ffipg_1/ffi_1/nand_3/b 0.06fF
+C1037 gnd ffipg_0/ffi_1/nand_1/a 0.45fF
+C1038 ffipg_0/ffi_0/q ffipg_0/ffi_0/nand_7/a 0.00fF
+C1039 ffo_0/nand_6/a clk 0.13fF
+C1040 cla_0/nor_0/w_0_0# gnd 0.31fF
+C1041 cla_0/l cla_1/nor_0/w_0_0# 0.01fF
+C1042 cla_2/inv_0/in gnd 0.34fF
+C1043 cla_0/l ffipg_2/pggen_0/nand_0/w_0_0# 0.04fF
+C1044 inv_8/w_0_6# nor_4/a 0.03fF
+C1045 gnd sumffo_3/ffo_0/nand_1/b 0.57fF
+C1046 ffo_0/nand_3/w_0_0# ffo_0/nand_3/b 0.06fF
+C1047 gnd ffipg_3/ffi_1/nand_2/w_0_0# 0.10fF
+C1048 gnd ffipg_1/ffi_1/nand_3/b 0.74fF
+C1049 sumffo_1/ffo_0/nand_2/w_0_0# sumffo_1/ffo_0/d 0.06fF
+C1050 gnd sumffo_2/ffo_0/inv_1/w_0_6# 0.07fF
+C1051 ffipg_2/ffi_1/nand_7/w_0_0# ffipg_2/ffi_1/nand_7/a 0.06fF
+C1052 ffipg_3/ffi_0/q ffipg_3/ffi_0/qbar 0.32fF
+C1053 ffipg_3/ffi_0/nand_0/w_0_0# ffipg_3/ffi_0/inv_0/op 0.06fF
+C1054 ffipg_1/ffi_0/inv_1/op ffipg_1/ffi_1/inv_1/op 0.75fF
+C1055 ffipg_1/ffi_0/nand_0/w_0_0# ffipg_1/ffi_0/inv_0/op 0.06fF
+C1056 gnd ffipg_1/pggen_0/xor_0/inv_0/op 0.32fF
+C1057 ffipg_3/ffi_1/nand_6/w_0_0# ffipg_3/ffi_1/nand_6/a 0.06fF
+C1058 ffipg_3/ffi_0/nand_4/w_0_0# ffipg_3/ffi_0/nand_3/b 0.06fF
+C1059 gnd ffipg_1/ffi_1/nand_0/w_0_0# 0.10fF
+C1060 ffipg_0/ffi_1/q ffipg_0/ffi_1/nand_6/w_0_0# 0.06fF
+C1061 ffipg_0/ffi_0/nand_4/w_0_0# ffipg_0/ffi_0/nand_6/a 0.04fF
+C1062 gnd sumffo_3/xor_0/w_n3_4# 0.12fF
+C1063 sumffo_2/ffo_0/nand_5/w_0_0# clk 0.06fF
+C1064 cla_0/l ffipg_3/k 0.10fF
+C1065 sumffo_3/ffo_0/d sumffo_3/xor_0/a_10_10# 0.45fF
+C1066 gnd ffi_0/nand_0/w_0_0# 0.10fF
+C1067 sumffo_0/ffo_0/inv_0/op sumffo_0/ffo_0/inv_0/w_0_6# 0.03fF
+C1068 ffipg_2/ffi_0/nand_1/w_0_0# ffipg_2/ffi_0/nand_3/b 0.04fF
+C1069 ffipg_2/ffi_1/inv_1/w_0_6# clk 0.06fF
+C1070 ffipg_0/ffi_1/nand_0/w_0_0# ffipg_0/ffi_1/inv_0/op 0.06fF
+C1071 sumffo_1/ffo_0/nand_0/b sumffo_1/ffo_0/inv_1/w_0_6# 0.03fF
+C1072 sumffo_0/xor_0/inv_0/w_0_6# ffipg_0/k 0.06fF
+C1073 cla_2/p0 cla_2/nor_0/w_0_0# 0.06fF
+C1074 ffipg_1/ffi_0/nand_2/w_0_0# ffipg_1/ffi_0/nand_3/a 0.04fF
+C1075 ffipg_1/ffi_0/q ffipg_1/pggen_0/xor_0/inv_0/op 0.20fF
+C1076 ffipg_0/ffi_0/nand_3/w_0_0# ffipg_0/ffi_0/nand_3/b 0.06fF
+C1077 sumffo_3/ffo_0/nand_1/a sumffo_3/ffo_0/nand_3/b 0.00fF
+C1078 cla_0/l cla_1/p0 0.09fF
+C1079 gnd ffipg_3/ffi_1/nand_3/b 0.74fF
+C1080 gnd ffipg_2/pggen_0/xor_0/inv_1/op 0.35fF
+C1081 gnd nor_2/b 0.32fF
+C1082 sumffo_2/ffo_0/nand_7/a z3o 0.00fF
+C1083 gnd ffipg_2/ffi_1/nand_3/w_0_0# 0.11fF
+C1084 gnd inv_6/in 0.33fF
+C1085 nor_2/b cla_1/n 0.39fF
+C1086 sumffo_2/ffo_0/nand_3/b clk 0.33fF
+C1087 cla_2/g1 ffipg_3/pggen_0/nand_0/w_0_0# 0.04fF
+C1088 ffipg_1/k sumffo_1/xor_0/inv_0/op 0.27fF
+C1089 sumffo_1/ffo_0/inv_0/op sumffo_1/ffo_0/inv_0/w_0_6# 0.03fF
+C1090 sumffo_0/ffo_0/nand_0/b clk 0.04fF
+C1091 ffipg_3/pggen_0/nand_0/w_0_0# ffipg_3/ffi_1/q 0.06fF
+C1092 x3in ffipg_2/ffi_1/inv_0/op 0.04fF
+C1093 sumffo_2/ffo_0/nand_2/w_0_0# sumffo_2/ffo_0/d 0.06fF
+C1094 cla_2/inv_0/w_0_6# gnd 0.06fF
+C1095 gnd ffipg_1/pggen_0/xor_0/w_n3_4# 0.12fF
+C1096 gnd sumffo_1/ffo_0/nand_4/w_0_0# 0.10fF
+C1097 cla_2/p1 ffipg_3/k 0.05fF
+C1098 ffipg_2/ffi_1/nand_2/w_0_0# clk 0.06fF
+C1099 ffipg_1/k ffipg_1/pggen_0/nor_0/w_0_0# 0.21fF
+C1100 ffipg_3/ffi_1/q ffipg_3/ffi_1/nand_7/w_0_0# 0.04fF
+C1101 ffipg_2/ffi_1/nand_1/a ffipg_2/ffi_1/nand_0/w_0_0# 0.04fF
+C1102 gnd ffipg_2/ffi_0/qbar 0.67fF
+C1103 gnd ffipg_0/ffi_0/inv_0/w_0_6# 0.06fF
+C1104 ffo_0/nand_1/a ffo_0/nand_0/b 0.13fF
+C1105 inv_4/in nor_2/b 0.16fF
+C1106 sumffo_0/ffo_0/d sumffo_0/ffo_0/inv_0/w_0_6# 0.06fF
+C1107 sumffo_3/xor_0/inv_0/w_0_6# inv_4/op 0.06fF
+C1108 cla_2/l cla_0/l 0.37fF
+C1109 gnd ffipg_2/ffi_0/q 3.00fF
+C1110 gnd ffipg_1/pggen_0/xor_0/inv_1/w_0_6# 0.06fF
+C1111 ffipg_3/ffi_1/nand_1/a ffipg_3/ffi_1/nand_1/w_0_0# 0.06fF
+C1112 gnd ffipg_1/ffi_0/nand_4/w_0_0# 0.10fF
+C1113 ffipg_1/ffi_0/nand_3/a clk 0.13fF
+C1114 ffipg_1/ffi_0/q ffipg_1/pggen_0/xor_0/w_n3_4# 0.06fF
+C1115 gnd ffipg_0/ffi_0/inv_1/op 1.85fF
+C1116 ffo_0/nand_7/w_0_0# couto 0.04fF
+C1117 sumffo_1/xor_0/inv_0/op sumffo_1/xor_0/inv_1/op 0.08fF
+C1118 ffipg_3/ffi_1/q ffipg_3/ffi_1/nand_6/a 0.31fF
+C1119 gnd sumffo_1/ffo_0/nand_0/w_0_0# 0.10fF
+C1120 gnd ffipg_3/pggen_0/xor_0/w_n3_4# 0.12fF
+C1121 ffipg_1/ffi_0/inv_1/op clk 0.07fF
+C1122 gnd ffipg_1/ffi_0/nand_6/a 0.37fF
+C1123 gnd ffipg_0/ffi_1/nand_3/a 0.33fF
+C1124 gnd ffipg_2/ffi_1/nand_1/b 0.57fF
+C1125 sumffo_1/ffo_0/d sumffo_1/xor_0/w_n3_4# 0.02fF
+C1126 cla_0/n inv_5/w_0_6# 0.06fF
+C1127 ffipg_2/ffi_0/nand_1/b ffipg_2/ffi_0/nand_7/a 0.13fF
+C1128 ffi_0/nand_4/w_0_0# ffi_0/nand_6/a 0.04fF
+C1129 ffipg_1/ffi_1/q ffipg_1/pggen_0/xor_0/inv_0/w_0_6# 0.06fF
+C1130 ffipg_0/ffi_1/nand_3/b ffipg_0/ffi_1/inv_1/op 0.33fF
+C1131 cla_1/l nand_2/b 0.31fF
+C1132 ffipg_3/ffi_1/nand_4/w_0_0# ffipg_3/ffi_1/nand_3/b 0.06fF
+C1133 gnd ffo_0/nand_1/w_0_0# 0.10fF
+C1134 sumffo_2/ffo_0/d sumffo_2/ffo_0/inv_0/w_0_6# 0.06fF
+C1135 gnd ffipg_1/ffi_1/nand_1/w_0_0# 0.10fF
+C1136 ffipg_1/ffi_0/q ffipg_1/pggen_0/xor_0/inv_1/w_0_6# 0.23fF
+C1137 ffipg_0/ffi_0/nand_1/a ffipg_0/ffi_0/nand_3/b 0.00fF
+C1138 gnd ffo_0/inv_1/w_0_6# 0.06fF
+C1139 ffo_0/qbar ffo_0/nand_7/a 0.31fF
+C1140 sumffo_3/xor_0/inv_0/op ffipg_3/k 0.20fF
+C1141 sumffo_1/ffo_0/nand_1/w_0_0# sumffo_1/ffo_0/nand_3/b 0.04fF
+C1142 sumffo_2/ffo_0/nand_1/w_0_0# sumffo_2/ffo_0/nand_3/b 0.04fF
+C1143 cla_2/l cla_2/p1 0.02fF
+C1144 ffipg_2/ffi_1/nand_1/w_0_0# ffipg_2/ffi_1/nand_3/b 0.04fF
+C1145 ffipg_0/ffi_1/nand_1/a ffipg_0/ffi_1/nand_3/b 0.00fF
+C1146 sumffo_3/ffo_0/inv_0/op sumffo_3/ffo_0/d 0.04fF
+C1147 inv_4/op nor_2/w_0_0# 0.03fF
+C1148 sumffo_0/sbar z1o 0.32fF
+C1149 sumffo_2/ffo_0/inv_0/op sumffo_2/ffo_0/nand_0/b 0.32fF
+C1150 gnd ffipg_3/ffi_0/nand_4/w_0_0# 0.10fF
+C1151 ffipg_1/ffi_0/q ffipg_1/ffi_0/nand_6/a 0.31fF
+C1152 ffipg_0/pggen_0/xor_0/inv_0/w_0_6# ffipg_0/pggen_0/xor_0/inv_0/op 0.03fF
+C1153 ffipg_1/k sumffo_1/xor_0/inv_0/w_0_6# 0.06fF
+C1154 sumffo_2/ffo_0/nand_3/a sumffo_2/ffo_0/nand_3/b 0.31fF
+C1155 ffi_0/nand_3/w_0_0# ffi_0/nand_1/b 0.04fF
+C1156 ffipg_0/ffi_1/nand_4/w_0_0# ffipg_0/ffi_1/nand_6/a 0.04fF
+C1157 ffipg_0/ffi_0/nand_1/w_0_0# ffipg_0/ffi_0/nand_3/b 0.04fF
+C1158 sumffo_1/ffo_0/nand_6/w_0_0# z2o 0.06fF
+C1159 cla_0/g0 cla_0/l 0.14fF
+C1160 sumffo_0/xor_0/w_n3_4# sumffo_0/ffo_0/d 0.02fF
+C1161 sumffo_0/ffo_0/nand_0/w_0_0# sumffo_0/ffo_0/nand_0/b 0.06fF
+C1162 gnd ffipg_2/ffi_1/qbar 0.67fF
+C1163 gnd ffi_0/nand_6/a 0.33fF
+C1164 ffipg_2/ffi_0/inv_0/op clk 0.32fF
+C1165 x1in clk 0.68fF
+C1166 gnd ffo_0/inv_0/w_0_6# 0.07fF
+C1167 sumffo_3/sbar z4o 0.32fF
+C1168 cla_0/inv_0/w_0_6# cla_0/inv_0/in 0.06fF
+C1169 nor_0/b sumffo_3/xor_0/w_n3_4# 0.01fF
+C1170 nand_2/b ffipg_1/k 0.15fF
+C1171 ffipg_2/k sumffo_2/xor_0/inv_1/w_0_6# 0.23fF
+C1172 ffipg_3/ffi_0/q ffipg_3/pggen_0/nand_0/w_0_0# 0.06fF
+C1173 inv_4/op sumffo_3/xor_0/inv_1/op 0.06fF
+C1174 sumffo_2/ffo_0/nand_6/w_0_0# sumffo_2/ffo_0/nand_6/a 0.06fF
+C1175 gnd sumffo_2/ffo_0/nand_2/w_0_0# 0.10fF
+C1176 gnd ffipg_3/pggen_0/xor_0/inv_0/op 0.32fF
+C1177 gnd ffipg_2/ffi_0/nand_3/b 0.74fF
+C1178 gnd ffipg_0/ffi_1/nand_1/b 0.57fF
+C1179 ffipg_0/ffi_0/q ffipg_0/pggen_0/xor_0/inv_0/op 0.20fF
+C1180 gnd ffo_0/inv_0/op 0.37fF
+C1181 sumffo_2/ffo_0/d sumffo_2/xor_0/w_n3_4# 0.02fF
+C1182 ffipg_2/ffi_1/nand_3/a ffipg_2/ffi_1/nand_3/b 0.31fF
+C1183 ffipg_3/k ffipg_3/pggen_0/xor_0/inv_1/op 0.52fF
+C1184 nor_0/a ffipg_0/pggen_0/nand_0/w_0_0# 0.24fF
+C1185 inv_3/in nor_2/b 0.04fF
+C1186 ffo_0/nand_3/b clk 0.33fF
+C1187 sumffo_1/ffo_0/nand_1/a sumffo_1/ffo_0/nand_1/w_0_0# 0.06fF
+C1188 ffi_0/nand_7/w_0_0# ffi_0/nand_7/a 0.06fF
+C1189 ffipg_2/ffi_1/nand_1/a ffipg_2/ffi_1/nand_1/w_0_0# 0.06fF
+C1190 gnd ffipg_3/pggen_0/xor_0/inv_1/w_0_6# 0.06fF
+C1191 ffipg_1/ffi_0/nand_1/a clk 0.13fF
+C1192 gnd ffo_0/nand_7/a 0.33fF
+C1193 ffo_0/nand_5/w_0_0# ffo_0/nand_7/a 0.04fF
+C1194 cla_2/nor_0/w_0_0# cla_2/p1 0.06fF
+C1195 cla_0/inv_0/op cla_0/inv_0/in 0.04fF
+C1196 sumffo_0/ffo_0/nand_1/w_0_0# sumffo_0/ffo_0/nand_1/b 0.06fF
+C1197 cla_1/nand_0/w_0_0# cla_1/inv_0/op 0.06fF
+C1198 inv_8/in nor_4/a 0.04fF
+C1199 sumffo_1/xor_0/w_n3_4# sumffo_1/xor_0/a_10_10# 0.16fF
+C1200 gnd ffipg_1/ffi_1/inv_0/op 0.27fF
+C1201 cla_1/inv_0/op cla_1/inv_0/in 0.04fF
+C1202 nand_2/b cla_0/n 0.06fF
+C1203 gnd ffipg_3/ffi_1/nand_3/w_0_0# 0.11fF
+C1204 ffipg_3/k ffipg_3/pggen_0/nor_0/a_13_6# 0.01fF
+C1205 ffi_0/nand_3/a ffi_0/nand_3/b 0.31fF
+C1206 gnd ffi_0/nand_3/a 0.33fF
+C1207 gnd ffipg_2/ffi_1/q 2.24fF
+C1208 cla_1/p0 ffipg_1/pggen_0/nand_0/w_0_0# 0.24fF
+C1209 nor_1/w_0_0# cla_0/n 0.06fF
+C1210 nand_2/b sumffo_1/xor_0/inv_1/op 0.22fF
+C1211 gnd sumffo_1/xor_0/inv_0/op 0.32fF
+C1212 ffipg_3/ffi_0/nand_3/w_0_0# ffipg_3/ffi_0/nand_1/b 0.04fF
+C1213 gnd ffipg_0/ffi_0/nand_0/a_13_n26# 0.01fF
+C1214 ffipg_2/pggen_0/xor_0/inv_1/op ffipg_2/pggen_0/xor_0/w_n3_4# 0.06fF
+C1215 ffipg_0/ffi_0/nand_0/w_0_0# clk 0.06fF
+C1216 sumffo_3/ffo_0/nand_6/w_0_0# sumffo_3/sbar 0.04fF
+C1217 cla_0/inv_0/w_0_6# gnd 0.06fF
+C1218 gnd sumffo_2/ffo_0/nand_6/w_0_0# 0.10fF
+C1219 sumffo_0/ffo_0/nand_1/a gnd 0.44fF
+C1220 gnd inv_5/w_0_6# 0.42fF
+C1221 gnd ffipg_3/ffi_0/nand_0/w_0_0# 0.10fF
+C1222 ffipg_2/ffi_0/nand_3/w_0_0# ffipg_2/ffi_0/nand_3/b 0.06fF
+C1223 gnd ffipg_1/pggen_0/nor_0/w_0_0# 0.11fF
+C1224 ffipg_0/ffi_0/inv_1/w_0_6# clk 0.06fF
+C1225 nor_3/w_0_0# cla_2/n 0.06fF
+C1226 gnd ffipg_1/ffi_1/nand_3/a 0.33fF
+C1227 gnd sumffo_3/sbar 0.62fF
+C1228 gnd sumffo_2/ffo_0/inv_0/w_0_6# 0.07fF
+C1229 sumffo_0/ffo_0/nand_3/w_0_0# sumffo_0/ffo_0/nand_3/a 0.06fF
+C1230 ffipg_2/ffi_0/nand_3/b ffipg_2/ffi_0/inv_1/op 0.33fF
+C1231 sumffo_0/ffo_0/nand_1/b clk 0.45fF
+C1232 sumffo_0/ffo_0/nand_6/a gnd 0.33fF
+C1233 inv_7/op inv_7/w_0_6# 0.03fF
+C1234 gnd ffipg_0/ffi_0/inv_0/op 0.27fF
+C1235 ffipg_0/ffi_0/nand_1/a ffipg_0/ffi_0/nand_0/w_0_0# 0.04fF
+C1236 cla_0/inv_0/op gnd 0.27fF
+C1237 ffipg_1/ffi_0/q ffipg_1/pggen_0/nor_0/w_0_0# 0.06fF
+C1238 ffipg_0/ffi_1/nand_3/a ffipg_0/ffi_1/nand_3/b 0.31fF
+C1239 sumffo_1/ffo_0/nand_3/w_0_0# sumffo_1/ffo_0/nand_1/b 0.04fF
+C1240 cla_1/nor_1/w_0_0# cla_2/p0 0.06fF
+C1241 ffipg_2/ffi_0/nand_7/w_0_0# ffipg_2/ffi_0/nand_7/a 0.06fF
+C1242 ffipg_3/ffi_0/nand_1/a ffipg_3/ffi_0/nand_3/b 0.00fF
+C1243 ffipg_2/pggen_0/xor_0/inv_0/w_0_6# ffipg_2/ffi_1/q 0.06fF
+C1244 gnd cinin 0.22fF
+C1245 ffipg_2/ffi_1/nand_3/b ffipg_2/ffi_1/nand_4/w_0_0# 0.06fF
+C1246 ffipg_2/ffi_0/q ffipg_2/pggen_0/xor_0/w_n3_4# 0.06fF
+C1247 gnd ffipg_1/ffi_0/nand_0/w_0_0# 0.10fF
+C1248 gnd ffipg_0/pggen_0/xor_0/w_n3_4# 0.12fF
+C1249 sumffo_3/xor_0/inv_0/w_0_6# sumffo_3/xor_0/inv_0/op 0.03fF
+C1250 sumffo_0/xor_0/a_10_10# gnd 0.93fF
+C1251 cla_0/l inv_2/w_0_6# 0.06fF
+C1252 ffipg_2/k ffipg_2/pggen_0/xor_0/inv_1/op 0.52fF
+C1253 ffipg_1/ffi_1/nand_3/b ffipg_1/ffi_1/inv_1/op 0.33fF
+C1254 sumffo_0/ffo_0/inv_0/op sumffo_0/ffo_0/nand_0/b 0.32fF
+C1255 cla_0/nor_0/w_0_0# cla_1/p0 0.06fF
+C1256 sumffo_2/ffo_0/nand_1/a sumffo_2/ffo_0/nand_1/b 0.31fF
+C1257 gnd sumffo_2/xor_0/w_n3_4# 0.12fF
+C1258 ffipg_2/ffi_0/nand_1/w_0_0# ffipg_2/ffi_0/nand_1/a 0.06fF
+C1259 gnd ffipg_1/ffi_0/nand_7/w_0_0# 0.10fF
+C1260 ffipg_1/k ffipg_1/pggen_0/xor_0/a_10_10# 0.45fF
+C1261 ffipg_1/ffi_0/nand_7/w_0_0# ffipg_1/ffi_0/nand_7/a 0.06fF
+C1262 sumffo_2/xor_0/inv_0/w_0_6# sumffo_2/xor_0/inv_0/op 0.03fF
+C1263 ffipg_2/ffi_1/inv_1/op clk 0.07fF
+C1264 cinin ffi_0/inv_0/w_0_6# 0.06fF
+C1265 sumffo_3/xor_0/w_n3_4# ffipg_3/k 0.06fF
+C1266 gnd sumffo_1/xor_0/inv_0/w_0_6# 0.09fF
+C1267 sumffo_1/ffo_0/nand_0/b clk 0.04fF
+C1268 sumffo_2/ffo_0/nand_0/b sumffo_2/ffo_0/inv_1/w_0_6# 0.03fF
+C1269 ffi_0/nand_1/a ffi_0/nand_3/b 0.00fF
+C1270 nor_0/b ffi_0/nand_6/a 0.00fF
+C1271 gnd ffi_0/nand_1/a 0.44fF
+C1272 gnd ffipg_1/ffi_0/nand_3/b 0.74fF
+C1273 sumffo_1/ffo_0/nand_1/a sumffo_1/ffo_0/nand_3/b 0.00fF
+C1274 nor_0/w_0_0# nand_2/b 0.04fF
+C1275 ffi_0/nand_2/w_0_0# ffi_0/nand_3/a 0.04fF
+C1276 cla_2/inv_0/op cla_2/nand_0/w_0_0# 0.06fF
+C1277 gnd sumffo_3/ffo_0/d 0.41fF
+C1278 ffipg_2/ffi_0/nand_6/w_0_0# ffipg_2/ffi_0/qbar 0.04fF
+C1279 ffipg_1/ffi_0/q ffipg_1/ffi_0/nand_7/w_0_0# 0.04fF
+C1280 gnd nor_1/w_0_0# 0.15fF
+C1281 sumffo_2/ffo_0/nand_4/w_0_0# sumffo_2/ffo_0/nand_3/b 0.06fF
+C1282 cla_1/inv_0/in cla_2/p0 0.02fF
+C1283 cla_0/n inv_5/in 0.13fF
+C1284 gnd nand_2/b 1.90fF
+C1285 ffipg_2/k ffipg_2/ffi_0/q 0.07fF
+C1286 ffipg_0/ffi_1/nand_3/b ffipg_0/ffi_1/nand_1/b 0.32fF
+C1287 sumffo_2/xor_0/w_n3_4# sumffo_2/xor_0/inv_1/op 0.06fF
+C1288 sumffo_0/ffo_0/d sumffo_0/ffo_0/nand_0/b 0.40fF
+C1289 ffipg_3/ffi_0/nand_2/w_0_0# ffipg_3/ffi_0/nand_3/a 0.04fF
+C1290 gnd ffi_0/nand_7/w_0_0# 0.10fF
+C1291 ffi_0/nand_5/w_0_0# ffi_0/inv_1/op 0.06fF
+C1292 ffipg_2/ffi_0/q ffipg_2/ffi_0/nand_6/w_0_0# 0.06fF
+C1293 ffipg_2/pggen_0/nand_0/w_0_0# ffipg_2/ffi_0/q 0.06fF
+C1294 gnd ffipg_1/ffi_1/nand_2/w_0_0# 0.10fF
+C1295 ffipg_0/ffi_1/nand_2/w_0_0# clk 0.06fF
+C1296 sumffo_2/ffo_0/inv_0/op sumffo_2/ffo_0/nand_0/w_0_0# 0.06fF
+C1297 inv_7/op gnd 0.27fF
+C1298 cla_0/l cla_2/g1 0.26fF
+C1299 nor_4/b inv_9/in 0.16fF
+C1300 sumffo_0/ffo_0/nand_7/w_0_0# sumffo_0/ffo_0/nand_7/a 0.06fF
+C1301 gnd ffipg_0/ffi_0/qbar 0.67fF
+C1302 sumffo_3/xor_0/inv_0/op sumffo_3/xor_0/inv_1/op 0.08fF
+C1303 ffipg_1/ffi_0/nand_6/w_0_0# ffipg_1/ffi_0/qbar 0.04fF
+C1304 ffipg_0/ffi_1/inv_1/op clk 0.07fF
+C1305 gnd ffipg_0/ffi_1/nand_6/a 0.37fF
+C1306 ffipg_0/ffi_1/q ffipg_0/pggen_0/xor_0/w_n3_4# 0.06fF
+C1307 sumffo_3/ffo_0/d sumffo_3/ffo_0/nand_0/b 0.40fF
+C1308 gnd sumffo_1/ffo_0/nand_1/w_0_0# 0.10fF
+C1309 clk ffipg_3/ffi_0/nand_3/a 0.13fF
+C1310 ffipg_1/k nor_0/a 0.06fF
+C1311 nor_0/b sumffo_1/xor_0/inv_0/op 0.06fF
+C1312 sumffo_3/ffo_0/nand_5/w_0_0# sumffo_3/ffo_0/nand_7/a 0.04fF
+C1313 gnd ffipg_3/ffi_0/nand_6/a 0.37fF
+C1314 gnd ffipg_0/pggen_0/nand_0/w_0_0# 0.10fF
+C1315 sumffo_0/ffo_0/nand_3/w_0_0# gnd 0.11fF
+C1316 ffipg_3/ffi_1/nand_3/b ffipg_3/ffi_1/inv_1/op 0.33fF
+C1317 gnd ffipg_2/ffi_0/nand_2/w_0_0# 0.10fF
+C1318 gnd ffipg_1/ffi_1/nand_1/a 0.44fF
+C1319 ffipg_0/ffi_1/nand_1/a clk 0.13fF
+C1320 sumffo_3/ffo_0/nand_7/w_0_0# sumffo_3/ffo_0/nand_7/a 0.06fF
+C1321 nand_2/b sumffo_1/xor_0/inv_1/w_0_6# 0.23fF
+C1322 cla_0/l cla_1/nor_1/w_0_0# 0.09fF
+C1323 ffipg_3/pggen_0/xor_0/a_10_10# ffipg_3/pggen_0/xor_0/w_n3_4# 0.16fF
+C1324 ffi_0/nand_2/w_0_0# cinin 0.06fF
+C1325 ffipg_2/ffi_1/nand_1/a ffipg_2/ffi_1/nand_3/b 0.00fF
+C1326 sumffo_3/ffo_0/nand_1/b clk 0.45fF
+C1327 inv_7/op inv_7/in 0.04fF
+C1328 ffi_0/nand_3/w_0_0# ffi_0/nand_3/a 0.06fF
+C1329 cla_1/l cla_0/n 0.07fF
+C1330 gnd ffipg_3/ffi_1/nand_1/w_0_0# 0.10fF
+C1331 sumffo_1/ffo_0/nand_2/w_0_0# sumffo_1/ffo_0/nand_3/a 0.04fF
+C1332 sumffo_2/ffo_0/inv_1/w_0_6# clk 0.06fF
+C1333 clk ffipg_3/ffi_1/nand_2/w_0_0# 0.06fF
+C1334 cla_2/p1 ffipg_3/ffi_1/q 0.22fF
+C1335 ffipg_3/k ffipg_3/pggen_0/xor_0/w_n3_4# 0.02fF
+C1336 ffipg_2/ffi_1/q ffipg_2/pggen_0/xor_0/w_n3_4# 0.06fF
+C1337 ffo_0/d ffo_0/inv_0/w_0_6# 0.06fF
+C1338 cla_2/g1 cla_2/p1 0.00fF
+C1339 ffipg_3/ffi_0/nand_4/w_0_0# ffipg_3/ffi_0/inv_1/op 0.06fF
+C1340 x3in ffipg_2/ffi_1/nand_2/w_0_0# 0.06fF
+C1341 ffo_0/nand_6/w_0_0# ffo_0/nand_6/a 0.06fF
+C1342 ffo_0/inv_0/op ffo_0/d 0.04fF
+C1343 gnd sumffo_3/xor_0/a_10_10# 0.93fF
+C1344 cla_2/inv_0/op gnd 0.27fF
+C1345 gnd ffipg_3/ffi_0/nand_1/a 0.44fF
+C1346 ffipg_2/ffi_1/nand_6/w_0_0# ffipg_2/ffi_1/nand_6/a 0.06fF
+C1347 ffipg_2/ffi_1/nand_5/w_0_0# ffipg_2/ffi_1/nand_7/a 0.04fF
+C1348 ffipg_2/ffi_1/nand_2/w_0_0# ffipg_2/ffi_1/nand_3/a 0.04fF
+C1349 ffipg_1/ffi_1/nand_0/w_0_0# clk 0.06fF
+C1350 nand_2/b inv_2/in 0.34fF
+C1351 ffo_0/nand_3/a ffo_0/nand_3/b 0.31fF
+C1352 sumffo_0/ffo_0/nand_6/w_0_0# sumffo_0/sbar 0.04fF
+C1353 gnd ffipg_3/ffi_1/nand_1/a 0.44fF
+C1354 ffi_0/nand_0/w_0_0# clk 0.06fF
+C1355 sumffo_1/ffo_0/nand_2/w_0_0# sumffo_1/ffo_0/nand_0/b 0.06fF
+C1356 ffipg_1/ffi_1/nand_3/w_0_0# ffipg_1/ffi_1/nand_3/b 0.06fF
+C1357 ffipg_0/k ffipg_0/pggen_0/nor_0/w_0_0# 0.21fF
+C1358 sumffo_2/ffo_0/nand_6/w_0_0# z3o 0.06fF
+C1359 sumffo_0/xor_0/a_10_10# nor_0/b 0.12fF
+C1360 sumffo_0/ffo_0/nand_7/w_0_0# gnd 0.10fF
+C1361 cla_0/l cla_1/nand_0/w_0_0# 0.06fF
+C1362 ffipg_3/ffi_1/nand_1/b ffipg_3/ffi_1/nand_7/a 0.13fF
+C1363 ffipg_1/ffi_0/nand_3/w_0_0# ffipg_1/ffi_0/nand_3/a 0.06fF
+C1364 ffipg_0/ffi_1/nand_1/b ffipg_0/ffi_1/nand_7/a 0.13fF
+C1365 ffipg_0/ffi_0/nand_4/w_0_0# ffipg_0/ffi_0/nand_3/b 0.06fF
+C1366 gnd ffipg_2/ffi_0/nand_1/a 0.44fF
+C1367 gnd ffipg_1/ffi_0/inv_0/op 0.27fF
+C1368 ffipg_1/k sumffo_1/xor_0/inv_1/op 0.06fF
+C1369 sumffo_1/ffo_0/nand_7/w_0_0# sumffo_1/ffo_0/nand_7/a 0.06fF
+C1370 sumffo_1/sbar z2o 0.32fF
+C1371 nor_0/b sumffo_2/xor_0/w_n3_4# 0.00fF
+C1372 cla_0/l cla_1/inv_0/in 0.23fF
+C1373 gnd inv_5/in 0.49fF
+C1374 ffipg_2/ffi_1/inv_1/op ffipg_2/ffi_1/nand_6/a 0.13fF
+C1375 ffipg_0/ffi_1/q ffipg_0/ffi_1/nand_6/a 0.31fF
+C1376 nor_3/w_0_0# nor_3/b 0.06fF
+C1377 inv_6/in cla_2/n 0.02fF
+C1378 nor_1/w_0_0# nor_1/b 0.06fF
+C1379 sumffo_0/xor_0/w_n3_4# ffipg_0/k 0.06fF
+C1380 ffipg_2/k ffipg_2/ffi_1/q 0.46fF
+C1381 ffipg_1/ffi_0/nand_5/w_0_0# ffipg_1/ffi_0/inv_1/op 0.06fF
+C1382 gnd ffipg_1/pggen_0/xor_0/a_10_10# 0.93fF
+C1383 ffipg_0/pggen_0/nand_0/w_0_0# ffipg_0/ffi_1/q 0.06fF
+C1384 ffipg_3/k ffipg_3/pggen_0/xor_0/inv_0/op 0.06fF
+C1385 sumffo_1/ffo_0/nand_4/w_0_0# clk 0.06fF
+C1386 ffipg_2/ffi_0/nand_2/w_0_0# y3in 0.06fF
+C1387 ffipg_2/pggen_0/nand_0/w_0_0# ffipg_2/ffi_1/q 0.06fF
+C1388 ffipg_0/ffi_0/nand_3/a ffipg_0/ffi_0/nand_3/b 0.31fF
+C1389 sumffo_3/ffo_0/nand_1/w_0_0# sumffo_3/ffo_0/nand_1/b 0.06fF
+C1390 nand_2/b inv_3/in 0.13fF
+C1391 gnd sumffo_1/ffo_0/nand_7/w_0_0# 0.10fF
+C1392 nor_0/b sumffo_3/ffo_0/d 0.16fF
+C1393 gnd nor_4/b 0.25fF
+C1394 ffo_0/nand_0/w_0_0# ffo_0/nand_1/a 0.04fF
+C1395 gnd sumffo_2/ffo_0/nand_1/b 0.57fF
+C1396 gnd ffipg_3/pggen_0/xor_0/inv_0/w_0_6# 0.09fF
+C1397 ffipg_1/ffi_1/inv_0/op ffipg_1/ffi_1/inv_0/w_0_6# 0.03fF
+C1398 y2in ffipg_1/ffi_0/inv_1/op 0.01fF
+C1399 nor_0/b nand_2/b 0.04fF
+C1400 sumffo_2/xor_0/w_n3_4# sumffo_2/xor_0/a_10_10# 0.16fF
+C1401 sumffo_0/ffo_0/nand_0/b sumffo_0/ffo_0/inv_1/w_0_6# 0.03fF
+C1402 gnd ffipg_2/ffi_1/nand_0/a_13_n26# 0.01fF
+C1403 gnd ffipg_3/ffi_0/inv_0/op 0.27fF
+C1404 ffo_0/nand_1/a ffo_0/nand_1/b 0.31fF
+C1405 sumffo_2/ffo_0/nand_2/w_0_0# sumffo_2/ffo_0/nand_0/b 0.06fF
+C1406 gnd ffo_0/nand_2/a_13_n26# 0.01fF
+C1407 ffipg_1/ffi_0/q ffipg_1/pggen_0/xor_0/a_10_10# 0.12fF
+C1408 gnd sumffo_1/ffo_0/nand_3/b 0.74fF
+C1409 inv_7/op nor_0/b 0.31fF
+C1410 nor_0/b ffi_0/nand_7/w_0_0# 0.06fF
+C1411 ffipg_1/ffi_1/nand_3/b ffipg_1/ffi_1/nand_1/b 0.32fF
+C1412 ffipg_0/ffi_0/inv_1/op clk 0.07fF
+C1413 ffipg_3/ffi_1/q ffipg_3/ffi_1/nand_7/a 0.00fF
+C1414 gnd ffipg_0/ffi_1/nand_4/w_0_0# 0.10fF
+C1415 gnd sumffo_3/ffo_0/nand_3/w_0_0# 0.11fF
+C1416 cla_1/l gnd 0.40fF
+C1417 ffi_0/inv_1/op ffi_0/inv_1/w_0_6# 0.04fF
+C1418 ffipg_0/ffi_1/nand_3/a clk 0.13fF
+C1419 cla_2/p1 ffipg_3/ffi_0/q 0.03fF
+C1420 ffipg_3/pggen_0/xor_0/inv_1/op ffipg_3/ffi_1/q 0.06fF
+C1421 sumffo_3/ffo_0/nand_3/w_0_0# sumffo_3/ffo_0/nand_3/a 0.06fF
+C1422 sumffo_1/ffo_0/d sumffo_1/xor_0/a_10_10# 0.45fF
+C1423 sumffo_0/ffo_0/nand_5/w_0_0# sumffo_0/ffo_0/nand_1/b 0.06fF
+C1424 sumffo_0/ffo_0/nand_4/w_0_0# sumffo_0/ffo_0/nand_6/a 0.04fF
+C1425 nor_0/w_0_0# nor_0/a 0.06fF
+C1426 gnd ffo_0/nand_2/w_0_0# 0.10fF
+C1427 gnd ffipg_0/ffi_0/nand_1/b 0.57fF
+C1428 nor_2/b nor_2/w_0_0# 0.06fF
+C1429 ffo_0/nand_7/a couto 0.00fF
+C1430 ffo_0/inv_1/w_0_6# clk 0.06fF
+C1431 sumffo_3/xor_0/w_n3_4# sumffo_3/xor_0/inv_1/op 0.06fF
+C1432 gnd sumffo_3/ffo_0/inv_0/op 0.52fF
+C1433 gnd sumffo_2/ffo_0/nand_1/a 0.33fF
+C1434 gnd nor_0/a 0.54fF
+C1435 cla_1/p0 ffipg_1/pggen_0/nor_0/w_0_0# 0.05fF
+C1436 ffipg_2/k sumffo_2/xor_0/w_n3_4# 0.06fF
+C1437 gnd ffipg_3/pggen_0/nor_0/w_0_0# 0.11fF
+C1438 gnd sumffo_1/ffo_0/nand_1/a 0.44fF
+C1439 sumffo_0/ffo_0/nand_0/a_13_n26# gnd 0.01fF
+C1440 gnd ffipg_3/ffi_0/nand_5/w_0_0# 0.10fF
+C1441 gnd ffipg_0/ffi_1/nand_7/w_0_0# 0.10fF
+C1442 ffipg_0/ffi_1/nand_3/a ffipg_0/ffi_1/nand_3/w_0_0# 0.06fF
+C1443 inv_1/op sumffo_2/xor_0/inv_0/op 0.27fF
+C1444 sumffo_0/ffo_0/nand_3/b sumffo_0/ffo_0/nand_1/b 0.32fF
+C1445 cla_0/l cla_2/nor_1/w_0_0# 0.06fF
+C1446 inv_8/w_0_6# inv_8/in 0.10fF
+C1447 gnd ffipg_3/ffi_0/nand_7/w_0_0# 0.10fF
+C1448 gnd ffipg_1/k 0.70fF
+C1449 gnd sumffo_0/xor_0/inv_1/op 0.35fF
+C1450 gnd ffipg_3/ffi_1/qbar 0.67fF
+C1451 gnd ffi_0/nand_7/a 0.33fF
+C1452 ffipg_2/ffi_0/nand_0/w_0_0# ffipg_2/ffi_0/inv_0/op 0.06fF
+C1453 nor_0/b sumffo_3/xor_0/a_10_10# 0.04fF
+C1454 sumffo_3/ffo_0/inv_0/op sumffo_3/ffo_0/nand_0/b 0.32fF
+C1455 ffipg_2/k nand_2/b 0.06fF
+C1456 cla_1/nand_0/a_13_n26# gnd 0.01fF
+C1457 gnd ffipg_2/ffi_0/nand_5/w_0_0# 0.10fF
+C1458 gnd ffipg_2/ffi_0/nand_1/w_0_0# 0.10fF
+C1459 ffipg_0/ffi_1/inv_0/op ffipg_0/ffi_1/inv_0/w_0_6# 0.03fF
+C1460 nor_0/b sumffo_2/xor_0/a_38_n43# 0.01fF
+C1461 gnd ffipg_3/ffi_0/nand_3/b 0.74fF
+C1462 gnd ffipg_1/ffi_1/nand_5/w_0_0# 0.10fF
+C1463 ffipg_0/ffi_0/q ffipg_0/pggen_0/xor_0/w_n3_4# 0.06fF
+C1464 ffipg_0/k ffipg_0/pggen_0/xor_0/a_10_10# 0.45fF
+C1465 ffo_0/nand_0/b ffo_0/inv_1/w_0_6# 0.03fF
+C1466 sumffo_1/ffo_0/nand_6/a z2o 0.31fF
+C1467 sumffo_0/ffo_0/nand_1/a sumffo_0/ffo_0/nand_1/w_0_0# 0.06fF
+C1468 cla_2/l inv_5/w_0_6# 0.08fF
+C1469 gnd ffipg_1/ffi_1/nand_7/w_0_0# 0.10fF
+C1470 sumffo_0/ffo_0/nand_3/a gnd 0.33fF
+C1471 cla_2/nor_1/w_0_0# cla_2/p1 0.06fF
+C1472 ffipg_3/ffi_1/nand_3/b ffipg_3/ffi_1/nand_1/b 0.32fF
+C1473 ffipg_1/k ffipg_1/ffi_0/q 0.07fF
+C1474 ffipg_1/pggen_0/nand_0/w_0_0# ffipg_1/ffi_1/q 0.06fF
+C1475 gnd inv_9/in 0.33fF
+C1476 ffipg_3/ffi_0/nand_5/w_0_0# ffipg_3/ffi_0/nand_7/a 0.04fF
+C1477 cla_2/g1 cla_2/inv_0/in 0.04fF
+C1478 gnd sumffo_1/xor_0/inv_1/op 0.35fF
+C1479 gnd sumffo_2/ffo_0/d 0.41fF
+C1480 gnd cla_0/n 1.18fF
+C1481 ffipg_3/ffi_0/nand_7/w_0_0# ffipg_3/ffi_0/nand_7/a 0.06fF
+C1482 ffipg_1/ffi_1/inv_0/op clk 0.32fF
+C1483 x1in ffipg_0/ffi_1/inv_0/op 0.04fF
+C1484 ffipg_0/ffi_0/nand_7/w_0_0# ffipg_0/ffi_0/nand_7/a 0.06fF
+C1485 ffi_0/nand_3/a clk 0.13fF
+C1486 x3in ffipg_2/ffi_1/inv_0/w_0_6# 0.06fF
+C1487 ffipg_0/ffi_1/nand_3/w_0_0# ffipg_0/ffi_1/nand_1/b 0.04fF
+C1488 nor_0/a ffipg_0/ffi_1/q 0.22fF
+C1489 ffipg_0/k ffipg_0/pggen_0/xor_0/inv_1/op 0.52fF
+C1490 ffo_0/nand_4/w_0_0# ffo_0/nand_6/a 0.04fF
+C1491 gnd ffipg_3/ffi_1/nand_5/w_0_0# 0.10fF
+C1492 sumffo_3/ffo_0/nand_6/w_0_0# z4o 0.06fF
+C1493 ffipg_0/ffi_1/q ffipg_0/ffi_1/nand_7/w_0_0# 0.04fF
+C1494 ffipg_0/ffi_1/nand_1/a ffipg_0/ffi_1/nand_0/w_0_0# 0.04fF
+C1495 inv_1/op inv_1/in 0.04fF
+C1496 ffo_0/inv_0/op ffo_0/nand_0/b 0.32fF
+C1497 sumffo_1/ffo_0/inv_0/op sumffo_1/ffo_0/d 0.04fF
+C1498 cla_2/nand_0/w_0_0# gnd 0.18fF
+C1499 gnd inv_7/w_0_6# 0.15fF
+C1500 ffipg_3/ffi_0/inv_1/op ffipg_3/ffi_0/nand_6/a 0.13fF
+C1501 clk ffipg_3/ffi_0/nand_0/w_0_0# 0.06fF
+C1502 ffipg_3/ffi_0/q ffipg_3/pggen_0/xor_0/inv_1/op 0.22fF
+C1503 ffipg_2/ffi_0/nand_4/w_0_0# ffipg_2/ffi_0/nand_3/b 0.06fF
+C1504 ffipg_1/ffi_0/inv_0/op ffipg_1/ffi_0/inv_0/w_0_6# 0.03fF
+C1505 x3in ffipg_2/ffi_1/inv_1/op 0.01fF
+C1506 ffipg_1/ffi_1/nand_1/w_0_0# ffipg_1/ffi_1/nand_1/b 0.06fF
+C1507 ffipg_2/ffi_0/nand_5/w_0_0# ffipg_2/ffi_0/inv_1/op 0.06fF
+C1508 ffipg_1/ffi_1/nand_3/a clk 0.13fF
+C1509 gnd z4o 0.80fF
+C1510 inv_1/op sumffo_2/xor_0/inv_0/w_0_6# 0.06fF
+C1511 ffo_0/nand_3/b ffo_0/nand_1/b 0.32fF
+C1512 sumffo_1/ffo_0/nand_5/w_0_0# sumffo_1/ffo_0/nand_7/a 0.04fF
+C1513 sumffo_2/ffo_0/d sumffo_2/xor_0/inv_1/op 0.52fF
+C1514 sumffo_2/sbar sumffo_2/ffo_0/nand_7/w_0_0# 0.06fF
+C1515 sumffo_0/ffo_0/nand_7/a gnd 0.33fF
+C1516 sumffo_0/ffo_0/nand_6/a clk 0.13fF
 C1517 ffipg_3/ffi_1/inv_1/w_0_6# Gnd 0.58fF
 C1518 ffipg_3/ffi_1/inv_0/w_0_6# Gnd 0.58fF
 C1519 ffipg_3/ffi_1/nand_7/a Gnd 0.30fF
@@ -3008,7 +3008,7 @@ C1526 ffipg_3/ffi_1/nand_3/b Gnd 0.43fF
 C1527 ffipg_3/ffi_1/nand_4/w_0_0# Gnd 0.82fF
 C1528 ffipg_3/ffi_1/nand_3/a Gnd 0.30fF
 C1529 ffipg_3/ffi_1/nand_3/w_0_0# Gnd 0.82fF
-C1530 ffipg_3/x Gnd 0.46fF
+C1530 x4in Gnd 0.51fF
 C1531 ffipg_3/ffi_1/nand_2/w_0_0# Gnd 0.82fF
 C1532 ffipg_3/ffi_1/inv_0/op Gnd 0.26fF
 C1533 ffipg_3/ffi_1/nand_0/w_0_0# Gnd 0.82fF
@@ -3027,7 +3027,7 @@ C1545 ffipg_3/ffi_0/nand_3/b Gnd 0.43fF
 C1546 ffipg_3/ffi_0/nand_4/w_0_0# Gnd 0.82fF
 C1547 ffipg_3/ffi_0/nand_3/a Gnd 0.30fF
 C1548 ffipg_3/ffi_0/nand_3/w_0_0# Gnd 0.82fF
-C1549 ffipg_3/y Gnd 0.46fF
+C1549 y4in Gnd 0.51fF
 C1550 ffipg_3/ffi_0/nand_2/w_0_0# Gnd 0.82fF
 C1551 ffipg_3/ffi_0/inv_0/op Gnd 0.26fF
 C1552 ffipg_3/ffi_0/nand_0/w_0_0# Gnd 0.82fF
@@ -3056,7 +3056,7 @@ C1574 ffi_0/nand_4/w_0_0# Gnd 0.82fF
 C1575 ffi_0/nand_3/a Gnd 0.30fF
 C1576 ffi_0/nand_3/w_0_0# Gnd 0.82fF
 C1577 clk Gnd 15.56fF
-C1578 ffi_0/d Gnd 0.45fF
+C1578 cinin Gnd 0.51fF
 C1579 ffi_0/nand_2/w_0_0# Gnd 0.82fF
 C1580 ffi_0/inv_0/op Gnd 0.26fF
 C1581 ffi_0/nand_0/w_0_0# Gnd 0.82fF
@@ -3075,7 +3075,7 @@ C1593 ffipg_2/ffi_1/nand_3/b Gnd 0.43fF
 C1594 ffipg_2/ffi_1/nand_4/w_0_0# Gnd 0.82fF
 C1595 ffipg_2/ffi_1/nand_3/a Gnd 0.30fF
 C1596 ffipg_2/ffi_1/nand_3/w_0_0# Gnd 0.82fF
-C1597 ffipg_2/x Gnd 0.46fF
+C1597 x3in Gnd 0.51fF
 C1598 ffipg_2/ffi_1/nand_2/w_0_0# Gnd 0.82fF
 C1599 ffipg_2/ffi_1/inv_0/op Gnd 0.26fF
 C1600 ffipg_2/ffi_1/nand_0/w_0_0# Gnd 0.82fF
@@ -3094,7 +3094,7 @@ C1612 ffipg_2/ffi_0/nand_3/b Gnd 0.43fF
 C1613 ffipg_2/ffi_0/nand_4/w_0_0# Gnd 0.82fF
 C1614 ffipg_2/ffi_0/nand_3/a Gnd 0.30fF
 C1615 ffipg_2/ffi_0/nand_3/w_0_0# Gnd 0.82fF
-C1616 ffipg_2/y Gnd 0.46fF
+C1616 y3in Gnd 0.51fF
 C1617 ffipg_2/ffi_0/nand_2/w_0_0# Gnd 0.82fF
 C1618 ffipg_2/ffi_0/inv_0/op Gnd 0.26fF
 C1619 ffipg_2/ffi_0/nand_0/w_0_0# Gnd 0.82fF
@@ -3123,7 +3123,7 @@ C1641 ffipg_1/ffi_1/nand_3/b Gnd 0.43fF
 C1642 ffipg_1/ffi_1/nand_4/w_0_0# Gnd 0.82fF
 C1643 ffipg_1/ffi_1/nand_3/a Gnd 0.30fF
 C1644 ffipg_1/ffi_1/nand_3/w_0_0# Gnd 0.82fF
-C1645 ffipg_1/x Gnd 0.46fF
+C1645 x2in Gnd 0.51fF
 C1646 ffipg_1/ffi_1/nand_2/w_0_0# Gnd 0.82fF
 C1647 ffipg_1/ffi_1/inv_0/op Gnd 0.26fF
 C1648 ffipg_1/ffi_1/nand_0/w_0_0# Gnd 0.82fF
@@ -3142,7 +3142,7 @@ C1660 ffipg_1/ffi_0/nand_3/b Gnd 0.43fF
 C1661 ffipg_1/ffi_0/nand_4/w_0_0# Gnd 0.82fF
 C1662 ffipg_1/ffi_0/nand_3/a Gnd 0.30fF
 C1663 ffipg_1/ffi_0/nand_3/w_0_0# Gnd 0.82fF
-C1664 ffipg_1/y Gnd 0.46fF
+C1664 y2in Gnd 0.43fF
 C1665 ffipg_1/ffi_0/nand_2/w_0_0# Gnd 0.82fF
 C1666 ffipg_1/ffi_0/inv_0/op Gnd 0.26fF
 C1667 ffipg_1/ffi_0/nand_0/w_0_0# Gnd 0.82fF
@@ -3173,7 +3173,7 @@ C1691 ffipg_0/ffi_1/nand_3/b Gnd 0.43fF
 C1692 ffipg_0/ffi_1/nand_4/w_0_0# Gnd 0.82fF
 C1693 ffipg_0/ffi_1/nand_3/a Gnd 0.30fF
 C1694 ffipg_0/ffi_1/nand_3/w_0_0# Gnd 0.82fF
-C1695 ffipg_0/x Gnd 0.46fF
+C1695 x1in Gnd 0.39fF
 C1696 ffipg_0/ffi_1/nand_2/w_0_0# Gnd 0.82fF
 C1697 ffipg_0/ffi_1/inv_0/op Gnd 0.26fF
 C1698 ffipg_0/ffi_1/nand_0/w_0_0# Gnd 0.82fF
@@ -3192,7 +3192,7 @@ C1710 ffipg_0/ffi_0/nand_3/b Gnd 0.43fF
 C1711 ffipg_0/ffi_0/nand_4/w_0_0# Gnd 0.82fF
 C1712 ffipg_0/ffi_0/nand_3/a Gnd 0.30fF
 C1713 ffipg_0/ffi_0/nand_3/w_0_0# Gnd 0.82fF
-C1714 ffipg_0/y Gnd 0.46fF
+C1714 y1in Gnd 0.51fF
 C1715 ffipg_0/ffi_0/nand_2/w_0_0# Gnd 0.82fF
 C1716 ffipg_0/ffi_0/inv_0/op Gnd 0.26fF
 C1717 ffipg_0/ffi_0/nand_0/w_0_0# Gnd 0.82fF
