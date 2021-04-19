@@ -1,0 +1,101 @@
+magic
+tech scmos
+timestamp 1618827105
+<< metal1 >>
+rect -19 406 -18 409
+rect 219 366 222 369
+rect 219 310 222 313
+rect -19 307 -2 310
+rect -19 237 -6 240
+rect 468 170 471 173
+rect 468 143 471 146
+rect 468 117 471 120
+rect -19 30 -6 33
+rect -19 -44 -6 -41
+rect 468 -111 471 -108
+rect 468 -138 471 -135
+rect 468 -164 471 -161
+rect -19 -251 -6 -248
+rect -19 -325 -6 -322
+rect 468 -392 471 -389
+rect 468 -419 471 -416
+rect 468 -445 471 -442
+rect -19 -532 -6 -529
+rect -19 -609 -6 -606
+rect 468 -676 471 -673
+rect 468 -703 471 -700
+rect 468 -729 471 -726
+rect -18 -816 -6 -813
+<< m2contact >>
+rect -18 405 -13 410
+rect -4 358 1 363
+rect -7 152 -2 157
+rect -7 -129 -2 -124
+rect -7 -410 -2 -405
+rect -7 -694 -2 -689
+<< metal2 >>
+rect -16 362 -13 405
+rect -16 359 -4 362
+rect -16 156 -13 359
+rect -16 153 -7 156
+rect -16 -125 -13 153
+rect -16 -128 -7 -125
+rect -16 -406 -13 -128
+rect -16 -409 -7 -406
+rect -16 -690 -13 -409
+rect -16 -693 -7 -690
+<< metal3 >>
+rect 55 212 58 335
+rect 126 270 129 277
+rect 55 -69 58 58
+rect 126 -11 129 0
+rect 55 -350 58 -223
+rect 126 -292 129 -281
+rect 55 -634 58 -504
+rect 126 -576 129 -562
+use ffi  ffi_0
+timestamp 1618618094
+transform 1 0 12 0 -1 368
+box -14 -42 207 91
+use ffipg  ffipg_0
+timestamp 1618623899
+transform 1 0 -2 0 1 0
+box -4 0 470 271
+use ffipg  ffipg_1
+timestamp 1618623899
+transform 1 0 -2 0 1 -281
+box -4 0 470 271
+use ffipg  ffipg_2
+timestamp 1618623899
+transform 1 0 -2 0 1 -562
+box -4 0 470 271
+use ffipg  ffipg_3
+timestamp 1618623899
+transform 1 0 -2 0 1 -846
+box -4 0 470 271
+<< labels >>
+rlabel metal1 -19 406 -19 409 4 clk
+rlabel metal1 -19 307 -19 310 3 cinin
+rlabel metal1 -19 237 -19 240 3 x1in
+rlabel metal1 -19 30 -19 33 3 y1in
+rlabel metal1 -19 -44 -19 -41 3 x2in
+rlabel metal1 -19 -251 -19 -248 3 y2in
+rlabel metal1 -19 -325 -19 -322 3 x3in
+rlabel metal1 -19 -532 -19 -529 3 y3in
+rlabel metal1 -19 -609 -19 -606 3 x4in
+rlabel metal1 -18 -816 -18 -813 3 y4in
+rlabel metal1 471 -729 471 -726 7 g4
+rlabel metal1 471 -703 471 -700 7 p4
+rlabel metal1 471 -676 471 -673 7 k4
+rlabel metal1 471 -392 471 -389 7 k3
+rlabel metal1 471 -419 471 -416 7 p3
+rlabel metal1 471 -445 471 -442 7 g3
+rlabel metal1 471 -111 471 -108 7 k2
+rlabel metal1 471 -138 471 -135 7 p2
+rlabel metal1 471 -164 471 -161 7 g2
+rlabel metal1 471 117 471 120 7 g1
+rlabel metal1 471 143 471 146 7 p1
+rlabel metal1 471 170 471 173 7 k1
+rlabel metal1 222 366 222 369 1 cin
+rlabel metal1 222 310 222 313 1 cinbar
+<< end >>
