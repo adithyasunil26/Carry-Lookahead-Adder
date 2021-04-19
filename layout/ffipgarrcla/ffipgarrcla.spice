@@ -52,19 +52,19 @@ M1023 ffipgarr_0/ffipg_0/ffi_0/nand_3/b ffipgarr_0/ffipg_0/ffi_0/nand_1/b ffipga
 +  ad=60 pd=34 as=0 ps=0
 M1024 ffipgarr_0/ffipg_0/ffi_0/nand_0/a_13_n26# ffipgarr_0/ffipg_0/ffi_0/inv_0/op gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1025 vdd ffipgarr_0/clk ffipgarr_0/ffipg_0/ffi_0/nand_1/a ffipgarr_0/ffipg_0/ffi_0/nand_0/w_0_0# pfet w=12 l=2
+M1025 vdd clk ffipgarr_0/ffipg_0/ffi_0/nand_1/a ffipgarr_0/ffipg_0/ffi_0/nand_0/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
 M1026 ffipgarr_0/ffipg_0/ffi_0/nand_1/a ffipgarr_0/ffipg_0/ffi_0/inv_0/op vdd ffipgarr_0/ffipg_0/ffi_0/nand_0/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1027 ffipgarr_0/ffipg_0/ffi_0/nand_1/a ffipgarr_0/clk ffipgarr_0/ffipg_0/ffi_0/nand_0/a_13_n26# Gnd nfet w=12 l=2
+M1027 ffipgarr_0/ffipg_0/ffi_0/nand_1/a clk ffipgarr_0/ffipg_0/ffi_0/nand_0/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 M1028 ffipgarr_0/ffipg_0/ffi_0/nand_2/a_13_n26# y1in gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1029 vdd ffipgarr_0/clk ffipgarr_0/ffipg_0/ffi_0/nand_3/a ffipgarr_0/ffipg_0/ffi_0/nand_2/w_0_0# pfet w=12 l=2
+M1029 vdd clk ffipgarr_0/ffipg_0/ffi_0/nand_3/a ffipgarr_0/ffipg_0/ffi_0/nand_2/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
 M1030 ffipgarr_0/ffipg_0/ffi_0/nand_3/a y1in vdd ffipgarr_0/ffipg_0/ffi_0/nand_2/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1031 ffipgarr_0/ffipg_0/ffi_0/nand_3/a ffipgarr_0/clk ffipgarr_0/ffipg_0/ffi_0/nand_2/a_13_n26# Gnd nfet w=12 l=2
+M1031 ffipgarr_0/ffipg_0/ffi_0/nand_3/a clk ffipgarr_0/ffipg_0/ffi_0/nand_2/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 M1032 ffipgarr_0/ffipg_0/ffi_0/nand_3/a_13_n26# ffipgarr_0/ffipg_0/ffi_0/nand_3/a gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
@@ -110,9 +110,9 @@ M1052 ffipgarr_0/ffipg_0/ffi_0/inv_0/op y1in gnd Gnd nfet w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
 M1053 ffipgarr_0/ffipg_0/ffi_0/inv_0/op y1in vdd ffipgarr_0/ffipg_0/ffi_0/inv_0/w_0_6# pfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1054 ffipgarr_0/ffipg_0/ffi_0/inv_1/op ffipgarr_0/clk gnd Gnd nfet w=6 l=2
+M1054 ffipgarr_0/ffipg_0/ffi_0/inv_1/op clk gnd Gnd nfet w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1055 ffipgarr_0/ffipg_0/ffi_0/inv_1/op ffipgarr_0/clk vdd ffipgarr_0/ffipg_0/ffi_0/inv_1/w_0_6# pfet w=12 l=2
+M1055 ffipgarr_0/ffipg_0/ffi_0/inv_1/op clk vdd ffipgarr_0/ffipg_0/ffi_0/inv_1/w_0_6# pfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 M1056 ffipgarr_0/ffipg_0/ffi_1/nand_1/a_13_n26# ffipgarr_0/ffipg_0/ffi_1/nand_1/a gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
@@ -124,19 +124,19 @@ M1059 ffipgarr_0/ffipg_0/ffi_1/nand_3/b ffipgarr_0/ffipg_0/ffi_1/nand_1/b ffipga
 +  ad=60 pd=34 as=0 ps=0
 M1060 ffipgarr_0/ffipg_0/ffi_1/nand_0/a_13_n26# ffipgarr_0/ffipg_0/ffi_1/inv_0/op gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1061 vdd ffipgarr_0/clk ffipgarr_0/ffipg_0/ffi_1/nand_1/a ffipgarr_0/ffipg_0/ffi_1/nand_0/w_0_0# pfet w=12 l=2
+M1061 vdd clk ffipgarr_0/ffipg_0/ffi_1/nand_1/a ffipgarr_0/ffipg_0/ffi_1/nand_0/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
 M1062 ffipgarr_0/ffipg_0/ffi_1/nand_1/a ffipgarr_0/ffipg_0/ffi_1/inv_0/op vdd ffipgarr_0/ffipg_0/ffi_1/nand_0/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1063 ffipgarr_0/ffipg_0/ffi_1/nand_1/a ffipgarr_0/clk ffipgarr_0/ffipg_0/ffi_1/nand_0/a_13_n26# Gnd nfet w=12 l=2
+M1063 ffipgarr_0/ffipg_0/ffi_1/nand_1/a clk ffipgarr_0/ffipg_0/ffi_1/nand_0/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 M1064 ffipgarr_0/ffipg_0/ffi_1/nand_2/a_13_n26# x1in gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1065 vdd ffipgarr_0/clk ffipgarr_0/ffipg_0/ffi_1/nand_3/a ffipgarr_0/ffipg_0/ffi_1/nand_2/w_0_0# pfet w=12 l=2
+M1065 vdd clk ffipgarr_0/ffipg_0/ffi_1/nand_3/a ffipgarr_0/ffipg_0/ffi_1/nand_2/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
 M1066 ffipgarr_0/ffipg_0/ffi_1/nand_3/a x1in vdd ffipgarr_0/ffipg_0/ffi_1/nand_2/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1067 ffipgarr_0/ffipg_0/ffi_1/nand_3/a ffipgarr_0/clk ffipgarr_0/ffipg_0/ffi_1/nand_2/a_13_n26# Gnd nfet w=12 l=2
+M1067 ffipgarr_0/ffipg_0/ffi_1/nand_3/a clk ffipgarr_0/ffipg_0/ffi_1/nand_2/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 M1068 ffipgarr_0/ffipg_0/ffi_1/nand_3/a_13_n26# ffipgarr_0/ffipg_0/ffi_1/nand_3/a gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
@@ -182,9 +182,9 @@ M1088 ffipgarr_0/ffipg_0/ffi_1/inv_0/op x1in gnd Gnd nfet w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
 M1089 ffipgarr_0/ffipg_0/ffi_1/inv_0/op x1in vdd ffipgarr_0/ffipg_0/ffi_1/inv_0/w_0_6# pfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1090 ffipgarr_0/ffipg_0/ffi_1/inv_1/op ffipgarr_0/clk gnd Gnd nfet w=6 l=2
+M1090 ffipgarr_0/ffipg_0/ffi_1/inv_1/op clk gnd Gnd nfet w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1091 ffipgarr_0/ffipg_0/ffi_1/inv_1/op ffipgarr_0/clk vdd ffipgarr_0/ffipg_0/ffi_1/inv_1/w_0_6# pfet w=12 l=2
+M1091 ffipgarr_0/ffipg_0/ffi_1/inv_1/op clk vdd ffipgarr_0/ffipg_0/ffi_1/inv_1/w_0_6# pfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 M1092 ffipgarr_0/ffipg_1/pggen_0/nand_0/a_13_n26# ffipgarr_0/ffipg_1/ffi_1/q gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
@@ -236,19 +236,19 @@ M1115 ffipgarr_0/ffipg_1/ffi_0/nand_3/b ffipgarr_0/ffipg_1/ffi_0/nand_1/b ffipga
 +  ad=60 pd=34 as=0 ps=0
 M1116 ffipgarr_0/ffipg_1/ffi_0/nand_0/a_13_n26# ffipgarr_0/ffipg_1/ffi_0/inv_0/op gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1117 vdd ffipgarr_0/clk ffipgarr_0/ffipg_1/ffi_0/nand_1/a ffipgarr_0/ffipg_1/ffi_0/nand_0/w_0_0# pfet w=12 l=2
+M1117 vdd clk ffipgarr_0/ffipg_1/ffi_0/nand_1/a ffipgarr_0/ffipg_1/ffi_0/nand_0/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
 M1118 ffipgarr_0/ffipg_1/ffi_0/nand_1/a ffipgarr_0/ffipg_1/ffi_0/inv_0/op vdd ffipgarr_0/ffipg_1/ffi_0/nand_0/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1119 ffipgarr_0/ffipg_1/ffi_0/nand_1/a ffipgarr_0/clk ffipgarr_0/ffipg_1/ffi_0/nand_0/a_13_n26# Gnd nfet w=12 l=2
+M1119 ffipgarr_0/ffipg_1/ffi_0/nand_1/a clk ffipgarr_0/ffipg_1/ffi_0/nand_0/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 M1120 ffipgarr_0/ffipg_1/ffi_0/nand_2/a_13_n26# y2in gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1121 vdd ffipgarr_0/clk ffipgarr_0/ffipg_1/ffi_0/nand_3/a ffipgarr_0/ffipg_1/ffi_0/nand_2/w_0_0# pfet w=12 l=2
+M1121 vdd clk ffipgarr_0/ffipg_1/ffi_0/nand_3/a ffipgarr_0/ffipg_1/ffi_0/nand_2/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
 M1122 ffipgarr_0/ffipg_1/ffi_0/nand_3/a y2in vdd ffipgarr_0/ffipg_1/ffi_0/nand_2/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1123 ffipgarr_0/ffipg_1/ffi_0/nand_3/a ffipgarr_0/clk ffipgarr_0/ffipg_1/ffi_0/nand_2/a_13_n26# Gnd nfet w=12 l=2
+M1123 ffipgarr_0/ffipg_1/ffi_0/nand_3/a clk ffipgarr_0/ffipg_1/ffi_0/nand_2/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 M1124 ffipgarr_0/ffipg_1/ffi_0/nand_3/a_13_n26# ffipgarr_0/ffipg_1/ffi_0/nand_3/a gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
@@ -294,9 +294,9 @@ M1144 ffipgarr_0/ffipg_1/ffi_0/inv_0/op y2in gnd Gnd nfet w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
 M1145 ffipgarr_0/ffipg_1/ffi_0/inv_0/op y2in vdd ffipgarr_0/ffipg_1/ffi_0/inv_0/w_0_6# pfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1146 ffipgarr_0/ffipg_1/ffi_0/inv_1/op ffipgarr_0/clk gnd Gnd nfet w=6 l=2
+M1146 ffipgarr_0/ffipg_1/ffi_0/inv_1/op clk gnd Gnd nfet w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1147 ffipgarr_0/ffipg_1/ffi_0/inv_1/op ffipgarr_0/clk vdd ffipgarr_0/ffipg_1/ffi_0/inv_1/w_0_6# pfet w=12 l=2
+M1147 ffipgarr_0/ffipg_1/ffi_0/inv_1/op clk vdd ffipgarr_0/ffipg_1/ffi_0/inv_1/w_0_6# pfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 M1148 ffipgarr_0/ffipg_1/ffi_1/nand_1/a_13_n26# ffipgarr_0/ffipg_1/ffi_1/nand_1/a gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
@@ -308,19 +308,19 @@ M1151 ffipgarr_0/ffipg_1/ffi_1/nand_3/b ffipgarr_0/ffipg_1/ffi_1/nand_1/b ffipga
 +  ad=60 pd=34 as=0 ps=0
 M1152 ffipgarr_0/ffipg_1/ffi_1/nand_0/a_13_n26# ffipgarr_0/ffipg_1/ffi_1/inv_0/op gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1153 vdd ffipgarr_0/clk ffipgarr_0/ffipg_1/ffi_1/nand_1/a ffipgarr_0/ffipg_1/ffi_1/nand_0/w_0_0# pfet w=12 l=2
+M1153 vdd clk ffipgarr_0/ffipg_1/ffi_1/nand_1/a ffipgarr_0/ffipg_1/ffi_1/nand_0/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
 M1154 ffipgarr_0/ffipg_1/ffi_1/nand_1/a ffipgarr_0/ffipg_1/ffi_1/inv_0/op vdd ffipgarr_0/ffipg_1/ffi_1/nand_0/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1155 ffipgarr_0/ffipg_1/ffi_1/nand_1/a ffipgarr_0/clk ffipgarr_0/ffipg_1/ffi_1/nand_0/a_13_n26# Gnd nfet w=12 l=2
+M1155 ffipgarr_0/ffipg_1/ffi_1/nand_1/a clk ffipgarr_0/ffipg_1/ffi_1/nand_0/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 M1156 ffipgarr_0/ffipg_1/ffi_1/nand_2/a_13_n26# x2in gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1157 vdd ffipgarr_0/clk ffipgarr_0/ffipg_1/ffi_1/nand_3/a ffipgarr_0/ffipg_1/ffi_1/nand_2/w_0_0# pfet w=12 l=2
+M1157 vdd clk ffipgarr_0/ffipg_1/ffi_1/nand_3/a ffipgarr_0/ffipg_1/ffi_1/nand_2/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
 M1158 ffipgarr_0/ffipg_1/ffi_1/nand_3/a x2in vdd ffipgarr_0/ffipg_1/ffi_1/nand_2/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1159 ffipgarr_0/ffipg_1/ffi_1/nand_3/a ffipgarr_0/clk ffipgarr_0/ffipg_1/ffi_1/nand_2/a_13_n26# Gnd nfet w=12 l=2
+M1159 ffipgarr_0/ffipg_1/ffi_1/nand_3/a clk ffipgarr_0/ffipg_1/ffi_1/nand_2/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 M1160 ffipgarr_0/ffipg_1/ffi_1/nand_3/a_13_n26# ffipgarr_0/ffipg_1/ffi_1/nand_3/a gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
@@ -366,9 +366,9 @@ M1180 ffipgarr_0/ffipg_1/ffi_1/inv_0/op x2in gnd Gnd nfet w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
 M1181 ffipgarr_0/ffipg_1/ffi_1/inv_0/op x2in vdd ffipgarr_0/ffipg_1/ffi_1/inv_0/w_0_6# pfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1182 ffipgarr_0/ffipg_1/ffi_1/inv_1/op ffipgarr_0/clk gnd Gnd nfet w=6 l=2
+M1182 ffipgarr_0/ffipg_1/ffi_1/inv_1/op clk gnd Gnd nfet w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1183 ffipgarr_0/ffipg_1/ffi_1/inv_1/op ffipgarr_0/clk vdd ffipgarr_0/ffipg_1/ffi_1/inv_1/w_0_6# pfet w=12 l=2
+M1183 ffipgarr_0/ffipg_1/ffi_1/inv_1/op clk vdd ffipgarr_0/ffipg_1/ffi_1/inv_1/w_0_6# pfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 M1184 ffipgarr_0/ffipg_2/pggen_0/nand_0/a_13_n26# ffipgarr_0/ffipg_2/ffi_1/q gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
@@ -420,19 +420,19 @@ M1207 ffipgarr_0/ffipg_2/ffi_0/nand_3/b ffipgarr_0/ffipg_2/ffi_0/nand_1/b ffipga
 +  ad=60 pd=34 as=0 ps=0
 M1208 ffipgarr_0/ffipg_2/ffi_0/nand_0/a_13_n26# ffipgarr_0/ffipg_2/ffi_0/inv_0/op gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1209 vdd ffipgarr_0/clk ffipgarr_0/ffipg_2/ffi_0/nand_1/a ffipgarr_0/ffipg_2/ffi_0/nand_0/w_0_0# pfet w=12 l=2
+M1209 vdd clk ffipgarr_0/ffipg_2/ffi_0/nand_1/a ffipgarr_0/ffipg_2/ffi_0/nand_0/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
 M1210 ffipgarr_0/ffipg_2/ffi_0/nand_1/a ffipgarr_0/ffipg_2/ffi_0/inv_0/op vdd ffipgarr_0/ffipg_2/ffi_0/nand_0/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1211 ffipgarr_0/ffipg_2/ffi_0/nand_1/a ffipgarr_0/clk ffipgarr_0/ffipg_2/ffi_0/nand_0/a_13_n26# Gnd nfet w=12 l=2
+M1211 ffipgarr_0/ffipg_2/ffi_0/nand_1/a clk ffipgarr_0/ffipg_2/ffi_0/nand_0/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 M1212 ffipgarr_0/ffipg_2/ffi_0/nand_2/a_13_n26# y3in gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1213 vdd ffipgarr_0/clk ffipgarr_0/ffipg_2/ffi_0/nand_3/a ffipgarr_0/ffipg_2/ffi_0/nand_2/w_0_0# pfet w=12 l=2
+M1213 vdd clk ffipgarr_0/ffipg_2/ffi_0/nand_3/a ffipgarr_0/ffipg_2/ffi_0/nand_2/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
 M1214 ffipgarr_0/ffipg_2/ffi_0/nand_3/a y3in vdd ffipgarr_0/ffipg_2/ffi_0/nand_2/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1215 ffipgarr_0/ffipg_2/ffi_0/nand_3/a ffipgarr_0/clk ffipgarr_0/ffipg_2/ffi_0/nand_2/a_13_n26# Gnd nfet w=12 l=2
+M1215 ffipgarr_0/ffipg_2/ffi_0/nand_3/a clk ffipgarr_0/ffipg_2/ffi_0/nand_2/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 M1216 ffipgarr_0/ffipg_2/ffi_0/nand_3/a_13_n26# ffipgarr_0/ffipg_2/ffi_0/nand_3/a gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
@@ -478,9 +478,9 @@ M1236 ffipgarr_0/ffipg_2/ffi_0/inv_0/op y3in gnd Gnd nfet w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
 M1237 ffipgarr_0/ffipg_2/ffi_0/inv_0/op y3in vdd ffipgarr_0/ffipg_2/ffi_0/inv_0/w_0_6# pfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1238 ffipgarr_0/ffipg_2/ffi_0/inv_1/op ffipgarr_0/clk gnd Gnd nfet w=6 l=2
+M1238 ffipgarr_0/ffipg_2/ffi_0/inv_1/op clk gnd Gnd nfet w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1239 ffipgarr_0/ffipg_2/ffi_0/inv_1/op ffipgarr_0/clk vdd ffipgarr_0/ffipg_2/ffi_0/inv_1/w_0_6# pfet w=12 l=2
+M1239 ffipgarr_0/ffipg_2/ffi_0/inv_1/op clk vdd ffipgarr_0/ffipg_2/ffi_0/inv_1/w_0_6# pfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 M1240 ffipgarr_0/ffipg_2/ffi_1/nand_1/a_13_n26# ffipgarr_0/ffipg_2/ffi_1/nand_1/a gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
@@ -492,19 +492,19 @@ M1243 ffipgarr_0/ffipg_2/ffi_1/nand_3/b ffipgarr_0/ffipg_2/ffi_1/nand_1/b ffipga
 +  ad=60 pd=34 as=0 ps=0
 M1244 ffipgarr_0/ffipg_2/ffi_1/nand_0/a_13_n26# ffipgarr_0/ffipg_2/ffi_1/inv_0/op gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1245 vdd ffipgarr_0/clk ffipgarr_0/ffipg_2/ffi_1/nand_1/a ffipgarr_0/ffipg_2/ffi_1/nand_0/w_0_0# pfet w=12 l=2
+M1245 vdd clk ffipgarr_0/ffipg_2/ffi_1/nand_1/a ffipgarr_0/ffipg_2/ffi_1/nand_0/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
 M1246 ffipgarr_0/ffipg_2/ffi_1/nand_1/a ffipgarr_0/ffipg_2/ffi_1/inv_0/op vdd ffipgarr_0/ffipg_2/ffi_1/nand_0/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1247 ffipgarr_0/ffipg_2/ffi_1/nand_1/a ffipgarr_0/clk ffipgarr_0/ffipg_2/ffi_1/nand_0/a_13_n26# Gnd nfet w=12 l=2
+M1247 ffipgarr_0/ffipg_2/ffi_1/nand_1/a clk ffipgarr_0/ffipg_2/ffi_1/nand_0/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 M1248 ffipgarr_0/ffipg_2/ffi_1/nand_2/a_13_n26# x3in gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1249 vdd ffipgarr_0/clk ffipgarr_0/ffipg_2/ffi_1/nand_3/a ffipgarr_0/ffipg_2/ffi_1/nand_2/w_0_0# pfet w=12 l=2
+M1249 vdd clk ffipgarr_0/ffipg_2/ffi_1/nand_3/a ffipgarr_0/ffipg_2/ffi_1/nand_2/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
 M1250 ffipgarr_0/ffipg_2/ffi_1/nand_3/a x3in vdd ffipgarr_0/ffipg_2/ffi_1/nand_2/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1251 ffipgarr_0/ffipg_2/ffi_1/nand_3/a ffipgarr_0/clk ffipgarr_0/ffipg_2/ffi_1/nand_2/a_13_n26# Gnd nfet w=12 l=2
+M1251 ffipgarr_0/ffipg_2/ffi_1/nand_3/a clk ffipgarr_0/ffipg_2/ffi_1/nand_2/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 M1252 ffipgarr_0/ffipg_2/ffi_1/nand_3/a_13_n26# ffipgarr_0/ffipg_2/ffi_1/nand_3/a gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
@@ -550,9 +550,9 @@ M1272 ffipgarr_0/ffipg_2/ffi_1/inv_0/op x3in gnd Gnd nfet w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
 M1273 ffipgarr_0/ffipg_2/ffi_1/inv_0/op x3in vdd ffipgarr_0/ffipg_2/ffi_1/inv_0/w_0_6# pfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1274 ffipgarr_0/ffipg_2/ffi_1/inv_1/op ffipgarr_0/clk gnd Gnd nfet w=6 l=2
+M1274 ffipgarr_0/ffipg_2/ffi_1/inv_1/op clk gnd Gnd nfet w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1275 ffipgarr_0/ffipg_2/ffi_1/inv_1/op ffipgarr_0/clk vdd ffipgarr_0/ffipg_2/ffi_1/inv_1/w_0_6# pfet w=12 l=2
+M1275 ffipgarr_0/ffipg_2/ffi_1/inv_1/op clk vdd ffipgarr_0/ffipg_2/ffi_1/inv_1/w_0_6# pfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 M1276 ffipgarr_0/ffi_0/nand_1/a_13_n26# ffipgarr_0/ffi_0/nand_1/a gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
@@ -564,19 +564,19 @@ M1279 ffipgarr_0/ffi_0/nand_3/b ffipgarr_0/ffi_0/nand_1/b ffipgarr_0/ffi_0/nand_
 +  ad=60 pd=34 as=0 ps=0
 M1280 ffipgarr_0/ffi_0/nand_0/a_13_n26# ffipgarr_0/ffi_0/inv_0/op gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1281 vdd ffipgarr_0/clk ffipgarr_0/ffi_0/nand_1/a ffipgarr_0/ffi_0/nand_0/w_0_0# pfet w=12 l=2
+M1281 vdd clk ffipgarr_0/ffi_0/nand_1/a ffipgarr_0/ffi_0/nand_0/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
 M1282 ffipgarr_0/ffi_0/nand_1/a ffipgarr_0/ffi_0/inv_0/op vdd ffipgarr_0/ffi_0/nand_0/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1283 ffipgarr_0/ffi_0/nand_1/a ffipgarr_0/clk ffipgarr_0/ffi_0/nand_0/a_13_n26# Gnd nfet w=12 l=2
+M1283 ffipgarr_0/ffi_0/nand_1/a clk ffipgarr_0/ffi_0/nand_0/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 M1284 ffipgarr_0/ffi_0/nand_2/a_13_n26# cinin gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1285 vdd ffipgarr_0/clk ffipgarr_0/ffi_0/nand_3/a ffipgarr_0/ffi_0/nand_2/w_0_0# pfet w=12 l=2
+M1285 vdd clk ffipgarr_0/ffi_0/nand_3/a ffipgarr_0/ffi_0/nand_2/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
 M1286 ffipgarr_0/ffi_0/nand_3/a cinin vdd ffipgarr_0/ffi_0/nand_2/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1287 ffipgarr_0/ffi_0/nand_3/a ffipgarr_0/clk ffipgarr_0/ffi_0/nand_2/a_13_n26# Gnd nfet w=12 l=2
+M1287 ffipgarr_0/ffi_0/nand_3/a clk ffipgarr_0/ffi_0/nand_2/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 M1288 ffipgarr_0/ffi_0/nand_3/a_13_n26# ffipgarr_0/ffi_0/nand_3/a gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
@@ -622,9 +622,9 @@ M1308 ffipgarr_0/ffi_0/inv_0/op cinin gnd Gnd nfet w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
 M1309 ffipgarr_0/ffi_0/inv_0/op cinin vdd ffipgarr_0/ffi_0/inv_0/w_0_6# pfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1310 ffipgarr_0/ffi_0/inv_1/op ffipgarr_0/clk gnd Gnd nfet w=6 l=2
+M1310 ffipgarr_0/ffi_0/inv_1/op clk gnd Gnd nfet w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1311 ffipgarr_0/ffi_0/inv_1/op ffipgarr_0/clk vdd ffipgarr_0/ffi_0/inv_1/w_0_6# pfet w=12 l=2
+M1311 ffipgarr_0/ffi_0/inv_1/op clk vdd ffipgarr_0/ffi_0/inv_1/w_0_6# pfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 M1312 ffipgarr_0/ffipg_3/pggen_0/nand_0/a_13_n26# ffipgarr_0/ffipg_3/ffi_1/q gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
@@ -676,19 +676,19 @@ M1335 ffipgarr_0/ffipg_3/ffi_0/nand_3/b ffipgarr_0/ffipg_3/ffi_0/nand_1/b ffipga
 +  ad=60 pd=34 as=0 ps=0
 M1336 ffipgarr_0/ffipg_3/ffi_0/nand_0/a_13_n26# ffipgarr_0/ffipg_3/ffi_0/inv_0/op gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1337 vdd ffipgarr_0/clk ffipgarr_0/ffipg_3/ffi_0/nand_1/a ffipgarr_0/ffipg_3/ffi_0/nand_0/w_0_0# pfet w=12 l=2
+M1337 vdd clk ffipgarr_0/ffipg_3/ffi_0/nand_1/a ffipgarr_0/ffipg_3/ffi_0/nand_0/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
 M1338 ffipgarr_0/ffipg_3/ffi_0/nand_1/a ffipgarr_0/ffipg_3/ffi_0/inv_0/op vdd ffipgarr_0/ffipg_3/ffi_0/nand_0/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1339 ffipgarr_0/ffipg_3/ffi_0/nand_1/a ffipgarr_0/clk ffipgarr_0/ffipg_3/ffi_0/nand_0/a_13_n26# Gnd nfet w=12 l=2
+M1339 ffipgarr_0/ffipg_3/ffi_0/nand_1/a clk ffipgarr_0/ffipg_3/ffi_0/nand_0/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 M1340 ffipgarr_0/ffipg_3/ffi_0/nand_2/a_13_n26# y4in gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1341 vdd ffipgarr_0/clk ffipgarr_0/ffipg_3/ffi_0/nand_3/a ffipgarr_0/ffipg_3/ffi_0/nand_2/w_0_0# pfet w=12 l=2
+M1341 vdd clk ffipgarr_0/ffipg_3/ffi_0/nand_3/a ffipgarr_0/ffipg_3/ffi_0/nand_2/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
 M1342 ffipgarr_0/ffipg_3/ffi_0/nand_3/a y4in vdd ffipgarr_0/ffipg_3/ffi_0/nand_2/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1343 ffipgarr_0/ffipg_3/ffi_0/nand_3/a ffipgarr_0/clk ffipgarr_0/ffipg_3/ffi_0/nand_2/a_13_n26# Gnd nfet w=12 l=2
+M1343 ffipgarr_0/ffipg_3/ffi_0/nand_3/a clk ffipgarr_0/ffipg_3/ffi_0/nand_2/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 M1344 ffipgarr_0/ffipg_3/ffi_0/nand_3/a_13_n26# ffipgarr_0/ffipg_3/ffi_0/nand_3/a gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
@@ -734,9 +734,9 @@ M1364 ffipgarr_0/ffipg_3/ffi_0/inv_0/op y4in gnd Gnd nfet w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
 M1365 ffipgarr_0/ffipg_3/ffi_0/inv_0/op y4in vdd ffipgarr_0/ffipg_3/ffi_0/inv_0/w_0_6# pfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1366 ffipgarr_0/ffipg_3/ffi_0/inv_1/op ffipgarr_0/clk gnd Gnd nfet w=6 l=2
+M1366 ffipgarr_0/ffipg_3/ffi_0/inv_1/op clk gnd Gnd nfet w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1367 ffipgarr_0/ffipg_3/ffi_0/inv_1/op ffipgarr_0/clk vdd ffipgarr_0/ffipg_3/ffi_0/inv_1/w_0_6# pfet w=12 l=2
+M1367 ffipgarr_0/ffipg_3/ffi_0/inv_1/op clk vdd ffipgarr_0/ffipg_3/ffi_0/inv_1/w_0_6# pfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 M1368 ffipgarr_0/ffipg_3/ffi_1/nand_1/a_13_n26# ffipgarr_0/ffipg_3/ffi_1/nand_1/a gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
@@ -748,19 +748,19 @@ M1371 ffipgarr_0/ffipg_3/ffi_1/nand_3/b ffipgarr_0/ffipg_3/ffi_1/nand_1/b ffipga
 +  ad=60 pd=34 as=0 ps=0
 M1372 ffipgarr_0/ffipg_3/ffi_1/nand_0/a_13_n26# ffipgarr_0/ffipg_3/ffi_1/inv_0/op gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1373 vdd ffipgarr_0/clk ffipgarr_0/ffipg_3/ffi_1/nand_1/a ffipgarr_0/ffipg_3/ffi_1/nand_0/w_0_0# pfet w=12 l=2
+M1373 vdd clk ffipgarr_0/ffipg_3/ffi_1/nand_1/a ffipgarr_0/ffipg_3/ffi_1/nand_0/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
 M1374 ffipgarr_0/ffipg_3/ffi_1/nand_1/a ffipgarr_0/ffipg_3/ffi_1/inv_0/op vdd ffipgarr_0/ffipg_3/ffi_1/nand_0/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1375 ffipgarr_0/ffipg_3/ffi_1/nand_1/a ffipgarr_0/clk ffipgarr_0/ffipg_3/ffi_1/nand_0/a_13_n26# Gnd nfet w=12 l=2
+M1375 ffipgarr_0/ffipg_3/ffi_1/nand_1/a clk ffipgarr_0/ffipg_3/ffi_1/nand_0/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 M1376 ffipgarr_0/ffipg_3/ffi_1/nand_2/a_13_n26# x4in gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1377 vdd ffipgarr_0/clk ffipgarr_0/ffipg_3/ffi_1/nand_3/a ffipgarr_0/ffipg_3/ffi_1/nand_2/w_0_0# pfet w=12 l=2
+M1377 vdd clk ffipgarr_0/ffipg_3/ffi_1/nand_3/a ffipgarr_0/ffipg_3/ffi_1/nand_2/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
 M1378 ffipgarr_0/ffipg_3/ffi_1/nand_3/a x4in vdd ffipgarr_0/ffipg_3/ffi_1/nand_2/w_0_0# pfet w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1379 ffipgarr_0/ffipg_3/ffi_1/nand_3/a ffipgarr_0/clk ffipgarr_0/ffipg_3/ffi_1/nand_2/a_13_n26# Gnd nfet w=12 l=2
+M1379 ffipgarr_0/ffipg_3/ffi_1/nand_3/a clk ffipgarr_0/ffipg_3/ffi_1/nand_2/a_13_n26# Gnd nfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 M1380 ffipgarr_0/ffipg_3/ffi_1/nand_3/a_13_n26# ffipgarr_0/ffipg_3/ffi_1/nand_3/a gnd Gnd nfet w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
@@ -806,957 +806,957 @@ M1400 ffipgarr_0/ffipg_3/ffi_1/inv_0/op x4in gnd Gnd nfet w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
 M1401 ffipgarr_0/ffipg_3/ffi_1/inv_0/op x4in vdd ffipgarr_0/ffipg_3/ffi_1/inv_0/w_0_6# pfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1402 ffipgarr_0/ffipg_3/ffi_1/inv_1/op ffipgarr_0/clk gnd Gnd nfet w=6 l=2
+M1402 ffipgarr_0/ffipg_3/ffi_1/inv_1/op clk gnd Gnd nfet w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1403 ffipgarr_0/ffipg_3/ffi_1/inv_1/op ffipgarr_0/clk vdd ffipgarr_0/ffipg_3/ffi_1/inv_1/w_0_6# pfet w=12 l=2
+M1403 ffipgarr_0/ffipg_3/ffi_1/inv_1/op clk vdd ffipgarr_0/ffipg_3/ffi_1/inv_1/w_0_6# pfet w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-C0 ffipgarr_0/ffipg_3/ffi_1/nand_1/b ffipgarr_0/ffipg_3/ffi_1/nand_3/b 0.32fF
-C1 ffipgarr_0/ffipg_2/ffi_1/nand_1/w_0_0# ffipgarr_0/ffipg_2/ffi_1/nand_1/a 0.06fF
-C2 ffipgarr_0/ffipg_2/ffi_0/nand_0/w_0_0# ffipgarr_0/ffipg_2/ffi_0/nand_1/a 0.04fF
-C3 ffipgarr_0/p2 vdd 0.17fF
-C4 ffipgarr_0/ffipg_0/ffi_1/nand_5/w_0_0# vdd 0.10fF
-C5 vdd ffipgarr_0/ffipg_3/ffi_1/nand_6/a 0.34fF
-C6 ffipgarr_0/ffipg_3/ffi_1/nand_3/w_0_0# ffipgarr_0/ffipg_3/ffi_1/nand_3/b 0.06fF
-C7 ffipgarr_0/ffipg_2/ffi_0/qbar ffipgarr_0/ffipg_2/ffi_0/q 0.32fF
-C8 ffipgarr_0/ffipg_3/ffi_1/q ffipgarr_0/ffipg_3/ffi_1/nand_7/w_0_0# 0.04fF
-C9 vdd ffipgarr_0/ffipg_3/ffi_1/nand_2/w_0_0# 0.10fF
-C10 gnd ffipgarr_0/ffipg_3/ffi_1/nand_0/a_13_n26# 0.01fF
-C11 gnd ffipgarr_0/ffipg_3/ffi_1/inv_1/op 0.22fF
-C12 ffipgarr_0/ffipg_3/ffi_1/nand_1/w_0_0# ffipgarr_0/ffipg_3/ffi_1/nand_1/b 0.06fF
-C13 vdd ffipgarr_0/ffipg_2/ffi_1/nand_4/w_0_0# 0.10fF
-C14 ffipgarr_0/ffipg_2/ffi_1/nand_3/w_0_0# ffipgarr_0/ffipg_2/ffi_1/nand_1/b 0.04fF
-C15 gnd ffipgarr_0/ffipg_0/ffi_1/nand_0/w_0_0# 0.00fF
-C16 ffipgarr_0/ffipg_2/ffi_0/qbar ffipgarr_0/ffipg_2/ffi_0/nand_6/a 0.00fF
-C17 y2in vdd 0.04fF
-C18 ffipgarr_0/ffipg_1/ffi_0/qbar ffipgarr_0/ffipg_1/ffi_0/nand_7/a 0.31fF
-C19 vdd ffipgarr_0/g4 0.28fF
-C20 y4in gnd 0.19fF
-C21 gnd ffipgarr_0/ffipg_1/ffi_1/nand_1/b 0.26fF
-C22 gnd x1in 0.19fF
-C23 ffipgarr_0/ffipg_0/ffi_1/nand_6/w_0_0# ffipgarr_0/ffipg_0/ffi_1/qbar 0.04fF
-C24 ffipgarr_0/ffipg_0/ffi_1/nand_7/w_0_0# ffipgarr_0/ffipg_0/ffi_1/qbar 0.06fF
-C25 ffipgarr_0/ffipg_0/ffi_0/nand_1/a ffipgarr_0/ffipg_0/ffi_0/nand_1/b 0.31fF
-C26 ffipgarr_0/ffipg_0/ffi_0/inv_1/op vdd 1.63fF
-C27 gnd ffipgarr_0/ffipg_3/ffi_0/nand_7/a 0.03fF
-C28 ffipgarr_0/ffipg_1/pggen_0/xor_0/w_n3_4# ffipgarr_0/ffipg_1/pggen_0/xor_0/inv_0/op 0.06fF
-C29 ffipgarr_0/ffipg_0/ffi_1/nand_1/w_0_0# vdd 0.10fF
-C30 ffipgarr_0/ffipg_2/ffi_1/nand_0/w_0_0# vdd 0.10fF
-C31 gnd ffipgarr_0/ffi_0/nand_3/a 0.03fF
-C32 gnd ffipgarr_0/ffipg_1/pggen_0/xor_0/inv_0/op 0.17fF
-C33 gnd ffipgarr_0/ffi_0/nand_0/w_0_0# 0.00fF
-C34 ffipgarr_0/ffipg_3/ffi_1/inv_1/op ffipgarr_0/ffipg_3/ffi_1/nand_3/b 0.33fF
-C35 ffipgarr_0/ffipg_1/ffi_1/inv_0/w_0_6# x2in 0.06fF
-C36 ffipgarr_0/ffipg_1/ffi_1/nand_3/b vdd 0.39fF
-C37 ffipgarr_0/ffipg_1/pggen_0/nand_0/w_0_0# ffipgarr_0/ffipg_1/ffi_0/q 0.06fF
-C38 ffipgarr_0/ffipg_0/ffi_1/nand_1/a vdd 0.30fF
-C39 ffipgarr_0/ffipg_0/pggen_0/xor_0/inv_1/op ffipgarr_0/k1 0.52fF
-C40 ffipgarr_0/ffipg_1/ffi_1/nand_3/b ffipgarr_0/ffipg_1/ffi_1/inv_1/op 0.33fF
-C41 ffipgarr_0/ffipg_1/pggen_0/nand_0/w_0_0# ffipgarr_0/ffipg_1/ffi_1/q 0.06fF
-C42 ffipgarr_0/ffi_0/nand_6/a vdd 0.30fF
-C43 x3in vdd 0.04fF
-C44 ffipgarr_0/ffipg_1/ffi_0/nand_3/b vdd 0.39fF
-C45 ffipgarr_0/ffipg_0/ffi_0/nand_3/b vdd 0.39fF
-C46 ffipgarr_0/ffipg_3/ffi_1/q ffipgarr_0/ffipg_3/ffi_1/nand_6/w_0_0# 0.06fF
-C47 ffipgarr_0/ffipg_0/ffi_0/nand_1/b ffipgarr_0/ffipg_0/ffi_0/nand_5/w_0_0# 0.06fF
-C48 gnd ffipgarr_0/ffi_0/nand_1/b 0.26fF
-C49 ffipgarr_0/p4 ffipgarr_0/ffipg_3/pggen_0/nor_0/w_0_0# 0.05fF
-C50 ffipgarr_0/ffipg_1/ffi_1/nand_7/w_0_0# ffipgarr_0/ffipg_1/ffi_1/q 0.04fF
-C51 ffipgarr_0/ffipg_0/ffi_1/nand_6/a ffipgarr_0/ffipg_0/ffi_1/qbar 0.00fF
-C52 ffipgarr_0/ffipg_2/ffi_0/inv_0/w_0_6# vdd 0.06fF
-C53 ffipgarr_0/ffipg_0/ffi_1/inv_0/w_0_6# vdd 0.06fF
-C54 ffipgarr_0/k4 ffipgarr_0/ffipg_3/pggen_0/xor_0/inv_1/op 0.52fF
-C55 vdd ffipgarr_0/ffipg_2/ffi_1/nand_6/w_0_0# 0.10fF
-C56 gnd ffipgarr_0/ffipg_0/ffi_1/nand_7/a 0.03fF
-C57 ffipgarr_0/ffipg_2/ffi_0/nand_1/w_0_0# ffipgarr_0/ffipg_2/ffi_0/nand_1/a 0.06fF
-C58 ffipgarr_0/ffipg_2/ffi_1/q ffipgarr_0/ffipg_2/ffi_1/nand_7/w_0_0# 0.04fF
-C59 ffipgarr_0/ffipg_2/pggen_0/xor_0/inv_0/op ffipgarr_0/k3 0.06fF
-C60 ffipgarr_0/k3 vdd 0.13fF
-C61 ffipgarr_0/ffipg_1/ffi_1/nand_1/a ffipgarr_0/ffipg_1/ffi_1/nand_1/b 0.31fF
-C62 ffipgarr_0/ffipg_1/ffi_0/nand_3/w_0_0# ffipgarr_0/ffipg_1/ffi_0/nand_3/b 0.06fF
-C63 ffipgarr_0/ffipg_0/ffi_0/nand_7/a ffipgarr_0/ffipg_0/ffi_0/nand_5/w_0_0# 0.04fF
-C64 gnd ffipgarr_0/ffipg_2/pggen_0/xor_0/inv_1/op 0.20fF
-C65 ffipgarr_0/ffipg_1/ffi_1/nand_7/a ffipgarr_0/ffipg_1/ffi_1/q 0.00fF
-C66 ffipgarr_0/ffipg_0/ffi_1/nand_6/a ffipgarr_0/ffipg_0/ffi_1/nand_4/w_0_0# 0.04fF
-C67 ffipgarr_0/ffipg_2/pggen_0/xor_0/inv_0/op vdd 0.15fF
-C68 ffipgarr_0/ffipg_3/ffi_0/nand_3/b ffipgarr_0/ffipg_3/ffi_0/inv_1/op 0.33fF
-C69 ffipgarr_0/k4 ffipgarr_0/ffipg_3/ffi_0/q 0.07fF
-C70 ffipgarr_0/ffipg_2/ffi_1/nand_1/w_0_0# vdd 0.10fF
-C71 ffipgarr_0/ffipg_0/ffi_0/nand_1/b ffipgarr_0/ffipg_0/ffi_0/inv_1/op 0.45fF
-C72 ffipgarr_0/ffipg_1/ffi_1/inv_1/op vdd 1.63fF
-C73 ffipgarr_0/ffipg_1/ffi_1/nand_2/w_0_0# x2in 0.06fF
-C74 ffipgarr_0/ffipg_3/ffi_1/inv_0/op x4in 0.04fF
-C75 vdd ffipgarr_0/ffipg_3/ffi_0/inv_1/w_0_6# 0.06fF
-C76 cinin ffipgarr_0/ffi_0/inv_1/op 0.01fF
-C77 gnd ffipgarr_0/ffipg_3/ffi_1/nand_3/b 0.35fF
-C78 ffipgarr_0/ffipg_0/ffi_1/nand_4/w_0_0# ffipgarr_0/ffipg_0/ffi_1/nand_3/b 0.06fF
-C79 ffipgarr_0/ffipg_1/ffi_0/nand_1/a ffipgarr_0/ffipg_1/ffi_0/nand_1/b 0.31fF
-C80 ffipgarr_0/ffipg_0/pggen_0/xor_0/inv_0/op ffipgarr_0/ffipg_0/ffi_1/q 0.27fF
-C81 ffipgarr_0/ffipg_0/ffi_0/nand_1/b ffipgarr_0/ffipg_0/ffi_0/nand_3/b 0.32fF
-C82 ffipgarr_0/ffipg_1/ffi_0/nand_3/w_0_0# vdd 0.11fF
-C83 vdd ffipgarr_0/ffi_0/nand_2/w_0_0# 0.10fF
-C84 ffipgarr_0/ffipg_2/ffi_0/qbar gnd 0.34fF
-C85 ffipgarr_0/ffipg_0/pggen_0/nor_0/w_0_0# ffipgarr_0/k1 0.21fF
-C86 ffipgarr_0/k4 ffipgarr_0/ffipg_3/pggen_0/xor_0/a_10_10# 0.45fF
-C87 gnd ffipgarr_0/ffipg_1/ffi_1/nand_1/a 0.14fF
-C88 ffipgarr_0/ffipg_0/ffi_1/nand_2/w_0_0# x1in 0.06fF
-C89 ffipgarr_0/ffipg_1/ffi_0/nand_6/w_0_0# ffipgarr_0/ffipg_1/ffi_0/qbar 0.04fF
-C90 ffipgarr_0/p4 ffipgarr_0/ffipg_3/ffi_1/q 0.22fF
-C91 ffipgarr_0/ffipg_0/ffi_1/q ffipgarr_0/p1 0.22fF
-C92 ffipgarr_0/ffipg_0/ffi_0/q ffipgarr_0/ffipg_0/ffi_1/q 0.73fF
-C93 gnd ffipgarr_0/ffipg_1/ffi_1/nand_0/w_0_0# 0.00fF
-C94 ffipgarr_0/ffipg_3/ffi_0/nand_3/w_0_0# ffipgarr_0/ffipg_3/ffi_0/nand_1/b 0.04fF
-C95 ffipgarr_0/ffipg_1/ffi_1/nand_2/w_0_0# ffipgarr_0/clk 0.06fF
-C96 ffipgarr_0/ffipg_0/ffi_0/qbar vdd 0.33fF
-C97 ffipgarr_0/ffipg_3/ffi_1/nand_1/w_0_0# ffipgarr_0/ffipg_3/ffi_1/nand_3/b 0.04fF
-C98 ffipgarr_0/ffipg_3/pggen_0/xor_0/inv_0/op ffipgarr_0/ffipg_3/pggen_0/xor_0/w_n3_4# 0.06fF
-C99 ffipgarr_0/ffipg_0/ffi_0/nand_1/b vdd 0.31fF
-C100 ffipgarr_0/ffipg_1/ffi_1/inv_1/w_0_6# vdd 0.06fF
-C101 ffipgarr_0/ffipg_1/pggen_0/xor_0/inv_1/op vdd 0.15fF
-C102 ffipgarr_0/ffipg_1/ffi_1/qbar ffipgarr_0/ffipg_1/ffi_1/nand_6/w_0_0# 0.04fF
-C103 ffipgarr_0/ffipg_2/ffi_1/nand_3/w_0_0# ffipgarr_0/ffipg_2/ffi_1/nand_3/b 0.06fF
-C104 gnd ffipgarr_0/ffipg_2/ffi_0/inv_0/op 0.10fF
-C105 ffipgarr_0/k3 ffipgarr_0/ffipg_2/pggen_0/nor_0/a_13_6# 0.01fF
-C106 ffipgarr_0/ffipg_1/ffi_1/inv_1/w_0_6# ffipgarr_0/ffipg_1/ffi_1/inv_1/op 0.04fF
-C107 ffipgarr_0/ffipg_1/ffi_1/nand_2/w_0_0# ffipgarr_0/ffipg_1/ffi_1/nand_3/a 0.04fF
-C108 gnd ffipgarr_0/ffipg_1/ffi_0/nand_6/a 0.03fF
-C109 ffipgarr_0/ffipg_0/ffi_0/inv_0/w_0_6# y1in 0.06fF
-C110 ffipgarr_0/ffipg_1/ffi_1/inv_0/op x2in 0.04fF
-C111 ffipgarr_0/ffipg_2/ffi_1/nand_5/w_0_0# ffipgarr_0/ffipg_2/ffi_1/nand_1/b 0.06fF
-C112 ffipgarr_0/ffipg_1/ffi_1/nand_3/w_0_0# ffipgarr_0/ffipg_1/ffi_1/nand_3/a 0.06fF
-C113 vdd ffipgarr_0/ffipg_3/pggen_0/nor_0/w_0_0# 0.11fF
-C114 ffipgarr_0/ffipg_3/ffi_1/q ffipgarr_0/ffipg_3/ffi_1/nand_6/a 0.31fF
-C115 ffipgarr_0/ffipg_3/ffi_0/nand_1/a ffipgarr_0/ffipg_3/ffi_0/nand_1/b 0.31fF
-C116 ffipgarr_0/ffi_0/inv_0/op ffipgarr_0/clk 0.32fF
-C117 ffipgarr_0/ffipg_2/ffi_1/qbar ffipgarr_0/ffipg_2/ffi_1/nand_6/a 0.00fF
-C118 ffipgarr_0/ffipg_2/ffi_1/q ffipgarr_0/ffipg_2/ffi_1/nand_6/w_0_0# 0.06fF
-C119 ffipgarr_0/ffipg_0/ffi_0/q ffipgarr_0/ffipg_0/ffi_0/nand_6/a 0.31fF
-C120 ffipgarr_0/ffipg_0/ffi_0/nand_0/w_0_0# gnd 0.00fF
-C121 gnd ffipgarr_0/ffipg_1/ffi_0/nand_3/a 0.03fF
-C122 ffipgarr_0/ffipg_0/ffi_0/nand_7/a vdd 0.34fF
-C123 ffipgarr_0/ffipg_0/pggen_0/nand_0/w_0_0# ffipgarr_0/p1 0.24fF
-C124 ffipgarr_0/ffipg_2/ffi_1/q ffipgarr_0/k3 0.46fF
-C125 ffipgarr_0/ffipg_2/ffi_0/nand_3/a vdd 0.30fF
-C126 ffipgarr_0/ffipg_2/pggen_0/xor_0/inv_1/w_0_6# vdd 0.06fF
-C127 ffipgarr_0/ffipg_1/ffi_0/nand_0/w_0_0# ffipgarr_0/ffipg_1/ffi_0/inv_0/op 0.06fF
-C128 ffipgarr_0/ffipg_0/pggen_0/nand_0/w_0_0# ffipgarr_0/ffipg_0/ffi_0/q 0.06fF
-C129 ffipgarr_0/clk x4in 0.70fF
-C130 ffipgarr_0/ffipg_2/ffi_1/q ffipgarr_0/ffipg_2/pggen_0/xor_0/inv_0/op 0.27fF
-C131 ffipgarr_0/ffipg_2/ffi_1/q vdd 1.31fF
-C132 ffipgarr_0/ffipg_1/pggen_0/nor_0/w_0_0# ffipgarr_0/ffipg_1/ffi_0/q 0.06fF
-C133 ffipgarr_0/ffipg_0/pggen_0/xor_0/inv_1/w_0_6# vdd 0.06fF
-C134 ffipgarr_0/ffipg_2/ffi_0/nand_1/b ffipgarr_0/ffipg_2/ffi_0/nand_3/b 0.32fF
-C135 ffipgarr_0/ffipg_1/pggen_0/nor_0/w_0_0# ffipgarr_0/ffipg_1/ffi_1/q 0.06fF
-C136 ffipgarr_0/ffipg_1/ffi_0/inv_1/op ffipgarr_0/clk 0.07fF
-C137 ffipgarr_0/ffipg_1/ffi_1/nand_0/w_0_0# ffipgarr_0/ffipg_1/ffi_1/nand_1/a 0.04fF
-C138 ffipgarr_0/ffipg_0/ffi_0/nand_6/a ffipgarr_0/ffipg_0/ffi_0/nand_6/w_0_0# 0.06fF
-C139 ffipgarr_0/ffipg_0/pggen_0/xor_0/w_n3_4# ffipgarr_0/ffipg_0/pggen_0/xor_0/inv_1/op 0.06fF
-C140 ffipgarr_0/g1 vdd 0.28fF
-C141 ffipgarr_0/ffipg_3/ffi_0/nand_0/w_0_0# vdd 0.10fF
-C142 ffipgarr_0/ffipg_1/ffi_1/nand_5/w_0_0# vdd 0.10fF
-C143 ffipgarr_0/ffipg_0/ffi_0/nand_7/w_0_0# vdd 0.10fF
-C144 ffipgarr_0/ffipg_2/ffi_0/inv_1/op ffipgarr_0/clk 0.07fF
-C145 ffipgarr_0/ffipg_1/ffi_1/nand_5/w_0_0# ffipgarr_0/ffipg_1/ffi_1/inv_1/op 0.06fF
-C146 ffipgarr_0/ffipg_1/ffi_1/inv_0/op ffipgarr_0/clk 0.32fF
-C147 ffipgarr_0/ffipg_3/ffi_1/inv_0/w_0_6# x4in 0.06fF
-C148 ffipgarr_0/ffipg_0/ffi_1/nand_5/w_0_0# ffipgarr_0/ffipg_0/ffi_1/inv_1/op 0.06fF
-C149 ffipgarr_0/ffipg_3/ffi_0/nand_5/w_0_0# ffipgarr_0/ffipg_3/ffi_0/nand_1/b 0.06fF
-C150 ffipgarr_0/ffipg_2/ffi_0/nand_4/w_0_0# vdd 0.10fF
-C151 gnd ffipgarr_0/ffipg_2/ffi_1/inv_1/op 0.22fF
-C152 ffipgarr_0/p4 ffipgarr_0/ffipg_3/ffi_0/q 0.03fF
-C153 ffipgarr_0/ffipg_1/ffi_0/inv_1/op ffipgarr_0/ffipg_1/ffi_0/inv_1/w_0_6# 0.04fF
-C154 ffipgarr_0/ffipg_0/ffi_0/nand_7/a ffipgarr_0/ffipg_0/ffi_0/qbar 0.31fF
-C155 ffipgarr_0/ffipg_2/ffi_0/nand_7/w_0_0# ffipgarr_0/ffipg_2/ffi_0/q 0.04fF
-C156 ffipgarr_0/ffipg_2/pggen_0/xor_0/inv_0/w_0_6# ffipgarr_0/ffipg_2/pggen_0/xor_0/inv_0/op 0.03fF
-C157 ffipgarr_0/ffipg_0/ffi_0/nand_1/b ffipgarr_0/ffipg_0/ffi_0/nand_7/a 0.13fF
-C158 ffipgarr_0/ffipg_0/pggen_0/xor_0/inv_0/op ffipgarr_0/k1 0.06fF
-C159 ffipgarr_0/ffipg_2/pggen_0/xor_0/inv_0/w_0_6# vdd 0.09fF
-C160 ffipgarr_0/ffipg_3/ffi_0/q ffipgarr_0/ffipg_3/ffi_0/nand_6/a 0.31fF
-C161 ffipgarr_0/ffipg_3/ffi_0/nand_3/b vdd 0.39fF
-C162 ffipgarr_0/ffipg_2/ffi_0/nand_0/w_0_0# ffipgarr_0/clk 0.06fF
-C163 vdd ffipgarr_0/ffipg_3/ffi_1/q 1.31fF
-C164 ffipgarr_0/ffipg_1/pggen_0/xor_0/inv_0/w_0_6# vdd 0.09fF
-C165 ffipgarr_0/ffipg_0/ffi_0/inv_1/op ffipgarr_0/ffipg_0/ffi_1/inv_1/op 0.75fF
-C166 ffipgarr_0/ffipg_3/ffi_1/nand_1/b ffipgarr_0/ffipg_3/ffi_1/nand_7/a 0.13fF
-C167 ffipgarr_0/ffipg_2/ffi_1/inv_1/w_0_6# vdd 0.06fF
-C168 ffipgarr_0/ffipg_0/ffi_1/inv_1/w_0_6# vdd 0.06fF
-C169 ffipgarr_0/ffipg_1/ffi_1/qbar gnd 0.34fF
-C170 ffipgarr_0/ffipg_1/ffi_0/nand_0/w_0_0# ffipgarr_0/clk 0.06fF
-C171 y2in ffipgarr_0/ffipg_1/ffi_0/nand_2/w_0_0# 0.06fF
-C172 ffipgarr_0/ffipg_2/ffi_1/nand_3/a ffipgarr_0/ffipg_2/ffi_1/nand_3/b 0.31fF
-C173 ffipgarr_0/ffipg_0/ffi_0/nand_7/w_0_0# ffipgarr_0/ffipg_0/ffi_0/qbar 0.06fF
-C174 ffipgarr_0/ffi_0/nand_6/w_0_0# ffipgarr_0/cinbar 0.04fF
-C175 ffipgarr_0/ffipg_2/ffi_1/nand_3/w_0_0# vdd 0.11fF
-C176 ffipgarr_0/ffipg_1/ffi_0/nand_0/w_0_0# ffipgarr_0/ffipg_1/ffi_0/nand_1/a 0.04fF
-C177 ffipgarr_0/k1 ffipgarr_0/p1 0.05fF
-C178 ffipgarr_0/ffipg_1/pggen_0/nor_0/w_0_0# ffipgarr_0/k2 0.21fF
-C179 gnd ffipgarr_0/ffipg_2/ffi_1/nand_7/a 0.03fF
-C180 ffipgarr_0/ffipg_3/ffi_1/nand_5/w_0_0# vdd 0.10fF
-C181 ffipgarr_0/k3 ffipgarr_0/ffipg_2/pggen_0/xor_0/a_10_10# 0.45fF
-C182 ffipgarr_0/ffipg_0/ffi_0/q ffipgarr_0/k1 0.07fF
-C183 ffipgarr_0/ffipg_1/ffi_0/qbar vdd 0.33fF
-C184 ffipgarr_0/ffipg_3/ffi_0/nand_1/b ffipgarr_0/ffipg_3/ffi_0/nand_7/a 0.13fF
-C185 ffipgarr_0/ffipg_0/ffi_0/inv_0/op y1in 0.04fF
-C186 ffipgarr_0/ffipg_3/ffi_0/q ffipgarr_0/g4 0.13fF
-C187 ffipgarr_0/ffi_0/nand_6/a ffipgarr_0/ffi_0/nand_4/w_0_0# 0.04fF
-C188 ffipgarr_0/ffipg_2/pggen_0/xor_0/a_10_10# vdd 0.93fF
-C189 ffipgarr_0/ffipg_0/ffi_1/q ffipgarr_0/ffipg_0/ffi_1/nand_7/a 0.00fF
-C190 ffipgarr_0/ffi_0/inv_0/op ffipgarr_0/ffi_0/inv_0/w_0_6# 0.03fF
-C191 ffipgarr_0/ffi_0/nand_6/a ffipgarr_0/ffi_0/inv_1/op 0.13fF
-C192 ffipgarr_0/ffipg_0/ffi_0/q ffipgarr_0/ffipg_0/pggen_0/xor_0/a_10_10# 0.12fF
-C193 ffipgarr_0/ffipg_3/ffi_0/nand_1/w_0_0# ffipgarr_0/ffipg_3/ffi_0/nand_1/b 0.06fF
-C194 ffipgarr_0/ffi_0/nand_1/b ffipgarr_0/ffi_0/nand_7/a 0.13fF
-C195 ffipgarr_0/ffipg_2/ffi_0/inv_1/op ffipgarr_0/ffipg_2/ffi_0/nand_3/b 0.33fF
-C196 ffipgarr_0/ffipg_2/ffi_0/nand_3/b ffipgarr_0/ffipg_2/ffi_0/nand_3/w_0_0# 0.06fF
-C197 ffipgarr_0/ffipg_2/pggen_0/xor_0/w_n3_4# ffipgarr_0/ffipg_2/ffi_0/q 0.06fF
-C198 ffipgarr_0/ffipg_2/pggen_0/nor_0/w_0_0# ffipgarr_0/k3 0.21fF
-C199 ffipgarr_0/g2 ffipgarr_0/ffipg_1/ffi_0/q 0.13fF
-C200 ffipgarr_0/ffipg_0/ffi_0/nand_7/a ffipgarr_0/ffipg_0/ffi_0/nand_7/w_0_0# 0.06fF
-C201 ffipgarr_0/ffipg_2/ffi_1/qbar ffipgarr_0/ffipg_2/ffi_1/nand_7/w_0_0# 0.06fF
-C202 ffipgarr_0/ffipg_2/ffi_0/nand_1/a vdd 0.30fF
-C203 ffipgarr_0/ffipg_1/pggen_0/xor_0/inv_1/w_0_6# vdd 0.06fF
-C204 ffipgarr_0/ffipg_0/ffi_0/nand_2/w_0_0# y1in 0.06fF
-C205 ffipgarr_0/ffipg_0/ffi_1/q gnd 0.93fF
-C206 vdd ffipgarr_0/ffipg_3/ffi_0/inv_0/op 0.17fF
-C207 y3in ffipgarr_0/clk 0.70fF
-C208 ffipgarr_0/ffipg_1/ffi_0/nand_1/w_0_0# ffipgarr_0/ffipg_1/ffi_0/nand_1/b 0.06fF
-C209 ffipgarr_0/ffipg_2/pggen_0/nor_0/w_0_0# vdd 0.11fF
-C210 ffipgarr_0/ffipg_1/pggen_0/nand_0/w_0_0# ffipgarr_0/p2 0.24fF
-C211 ffipgarr_0/ffipg_0/ffi_1/inv_1/op vdd 1.63fF
-C212 gnd ffipgarr_0/ffipg_3/ffi_1/qbar 0.34fF
-C213 ffipgarr_0/ffipg_3/ffi_1/nand_1/a vdd 0.30fF
-C214 gnd ffipgarr_0/ffi_0/nand_7/a 0.03fF
-C215 cinin ffipgarr_0/clk 0.70fF
-C216 vdd ffipgarr_0/ffipg_3/pggen_0/xor_0/inv_1/op 0.15fF
-C217 ffipgarr_0/ffipg_0/ffi_0/inv_0/op ffipgarr_0/clk 0.32fF
-C218 vdd ffipgarr_0/ffi_0/nand_4/w_0_0# 0.10fF
-C219 ffipgarr_0/ffi_0/nand_6/a ffipgarr_0/ffi_0/nand_6/w_0_0# 0.06fF
-C220 gnd ffipgarr_0/ffipg_0/ffi_0/nand_6/a 0.03fF
-C221 vdd ffipgarr_0/ffi_0/inv_1/op 1.63fF
-C222 ffipgarr_0/ffipg_1/ffi_0/nand_2/w_0_0# vdd 0.10fF
-C223 gnd ffipgarr_0/ffipg_3/ffi_0/nand_1/b 0.26fF
-C224 ffipgarr_0/ffipg_3/pggen_0/nor_0/w_0_0# ffipgarr_0/ffipg_3/ffi_1/q 0.06fF
-C225 gnd ffipgarr_0/ffipg_3/pggen_0/xor_0/inv_0/op 0.17fF
-C226 ffipgarr_0/ffipg_1/ffi_1/nand_6/w_0_0# ffipgarr_0/ffipg_1/ffi_1/q 0.06fF
-C227 gnd ffipgarr_0/ffipg_1/ffi_0/nand_1/b 0.26fF
-C228 ffipgarr_0/ffipg_0/ffi_0/nand_2/w_0_0# ffipgarr_0/clk 0.06fF
-C229 ffipgarr_0/k4 ffipgarr_0/ffipg_3/pggen_0/xor_0/w_n3_4# 0.02fF
-C230 ffipgarr_0/ffipg_2/ffi_0/inv_1/op ffipgarr_0/ffipg_2/ffi_0/nand_6/a 0.13fF
-C231 ffipgarr_0/ffipg_1/ffi_1/nand_1/b ffipgarr_0/ffipg_1/ffi_1/nand_3/w_0_0# 0.04fF
-C232 ffipgarr_0/ffipg_1/pggen_0/xor_0/w_n3_4# ffipgarr_0/ffipg_1/pggen_0/xor_0/a_10_10# 0.16fF
-C233 ffipgarr_0/ffipg_2/pggen_0/xor_0/inv_0/w_0_6# ffipgarr_0/ffipg_2/ffi_1/q 0.06fF
-C234 vdd ffipgarr_0/ffipg_3/ffi_0/q 0.38fF
-C235 ffipgarr_0/ffipg_0/ffi_0/nand_3/a ffipgarr_0/clk 0.13fF
-C236 ffipgarr_0/ffipg_3/ffi_1/nand_4/w_0_0# ffipgarr_0/ffipg_3/ffi_1/nand_6/a 0.04fF
-C237 gnd ffipgarr_0/ffipg_2/ffi_0/nand_1/b 0.26fF
-C238 ffipgarr_0/ffipg_2/ffi_1/inv_0/op ffipgarr_0/clk 0.32fF
-C239 ffipgarr_0/ffipg_1/pggen_0/xor_0/inv_1/w_0_6# ffipgarr_0/ffipg_1/pggen_0/xor_0/inv_1/op 0.03fF
-C240 ffipgarr_0/ffipg_3/ffi_1/inv_1/op x4in 0.01fF
-C241 ffipgarr_0/ffi_0/nand_6/w_0_0# vdd 0.10fF
-C242 gnd ffipgarr_0/ffipg_3/ffi_1/nand_7/a 0.03fF
-C243 ffipgarr_0/ffi_0/inv_0/op ffipgarr_0/ffi_0/nand_0/w_0_0# 0.06fF
-C244 vdd ffipgarr_0/ffi_0/nand_3/b 0.39fF
-C245 gnd ffipgarr_0/cin 0.52fF
-C246 ffipgarr_0/ffi_0/nand_1/a vdd 0.30fF
-C247 ffipgarr_0/g3 ffipgarr_0/ffipg_2/ffi_0/q 0.13fF
-C248 vdd ffipgarr_0/ffipg_2/ffi_1/nand_3/a 0.30fF
-C249 ffipgarr_0/ffipg_0/ffi_1/nand_7/w_0_0# ffipgarr_0/ffipg_0/ffi_1/nand_7/a 0.06fF
-C250 ffipgarr_0/ffipg_1/ffi_0/nand_4/w_0_0# ffipgarr_0/ffipg_1/ffi_0/nand_6/a 0.04fF
-C251 ffipgarr_0/ffipg_3/ffi_0/nand_2/w_0_0# vdd 0.10fF
-C252 vdd ffipgarr_0/ffipg_2/ffi_0/nand_7/a 0.34fF
-C253 ffipgarr_0/clk ffipgarr_0/ffipg_3/ffi_0/inv_1/op 0.07fF
-C254 vdd ffipgarr_0/ffipg_3/pggen_0/xor_0/a_10_10# 0.93fF
-C255 ffipgarr_0/ffipg_1/pggen_0/xor_0/inv_0/op ffipgarr_0/ffipg_1/ffi_0/q 0.20fF
-C256 ffipgarr_0/ffipg_2/ffi_1/qbar ffipgarr_0/ffipg_2/ffi_1/nand_6/w_0_0# 0.04fF
-C257 ffipgarr_0/ffipg_1/pggen_0/nand_0/w_0_0# vdd 0.10fF
-C258 ffipgarr_0/ffipg_0/ffi_1/inv_0/op ffipgarr_0/clk 0.32fF
-C259 ffipgarr_0/ffipg_1/pggen_0/xor_0/inv_0/op ffipgarr_0/ffipg_1/ffi_1/q 0.27fF
-C260 ffipgarr_0/ffipg_0/pggen_0/xor_0/inv_0/op ffipgarr_0/ffipg_0/pggen_0/xor_0/w_n3_4# 0.06fF
-C261 y2in ffipgarr_0/ffipg_1/ffi_0/inv_0/op 0.04fF
-C262 ffipgarr_0/ffipg_1/ffi_1/nand_7/w_0_0# vdd 0.10fF
-C263 ffipgarr_0/ffipg_0/pggen_0/xor_0/inv_1/op vdd 0.15fF
-C264 ffipgarr_0/ffipg_2/ffi_0/qbar ffipgarr_0/ffipg_2/ffi_0/nand_7/w_0_0# 0.06fF
-C265 ffipgarr_0/ffipg_2/ffi_0/nand_1/w_0_0# ffipgarr_0/ffipg_2/ffi_0/nand_3/b 0.04fF
-C266 ffipgarr_0/ffipg_3/pggen_0/xor_0/inv_1/w_0_6# vdd 0.06fF
-C267 ffipgarr_0/ffipg_3/pggen_0/xor_0/inv_0/w_0_6# vdd 0.09fF
-C268 ffipgarr_0/ffipg_0/ffi_0/nand_0/a_13_n26# gnd 0.01fF
-C269 gnd ffipgarr_0/ffi_0/inv_0/op 0.10fF
-C270 vdd ffipgarr_0/ffi_0/nand_5/w_0_0# 0.10fF
-C271 ffipgarr_0/ffipg_2/pggen_0/nor_0/w_0_0# ffipgarr_0/ffipg_2/ffi_1/q 0.06fF
-C272 ffipgarr_0/ffipg_2/pggen_0/xor_0/w_n3_4# ffipgarr_0/ffipg_2/pggen_0/xor_0/inv_1/op 0.06fF
-C273 ffipgarr_0/ffipg_2/ffi_1/qbar vdd 0.33fF
-C274 ffipgarr_0/ffipg_2/ffi_1/nand_5/w_0_0# vdd 0.10fF
-C275 ffipgarr_0/clk ffipgarr_0/ffipg_2/ffi_0/inv_1/w_0_6# 0.06fF
-C276 ffipgarr_0/clk ffipgarr_0/ffipg_3/ffi_1/inv_1/w_0_6# 0.06fF
-C277 ffipgarr_0/ffipg_3/ffi_0/nand_0/w_0_0# ffipgarr_0/ffipg_3/ffi_0/inv_0/op 0.06fF
-C278 ffipgarr_0/ffipg_0/ffi_1/nand_7/a ffipgarr_0/ffipg_0/ffi_1/nand_1/b 0.13fF
-C279 gnd ffipgarr_0/ffipg_0/ffi_1/nand_6/a 0.03fF
-C280 ffipgarr_0/ffipg_0/ffi_0/nand_1/a ffipgarr_0/clk 0.13fF
-C281 ffipgarr_0/ffipg_0/pggen_0/xor_0/inv_0/w_0_6# vdd 0.09fF
-C282 ffipgarr_0/ffipg_0/ffi_1/nand_3/a ffipgarr_0/clk 0.13fF
-C283 ffipgarr_0/p3 ffipgarr_0/k3 0.05fF
-C284 ffipgarr_0/ffipg_0/ffi_1/qbar vdd 0.33fF
-C285 ffipgarr_0/ffipg_3/pggen_0/nor_0/w_0_0# ffipgarr_0/ffipg_3/ffi_0/q 0.06fF
-C286 ffipgarr_0/ffipg_1/ffi_1/nand_7/a vdd 0.34fF
-C287 gnd x4in 0.19fF
-C288 ffipgarr_0/ffipg_1/pggen_0/xor_0/w_n3_4# ffipgarr_0/ffipg_1/ffi_0/q 0.06fF
-C289 gnd ffipgarr_0/ffipg_0/ffi_1/nand_1/b 0.26fF
-C290 ffipgarr_0/k1 gnd 0.14fF
-C291 ffipgarr_0/ffipg_3/ffi_0/nand_6/a ffipgarr_0/ffipg_3/ffi_0/qbar 0.00fF
-C292 gnd ffipgarr_0/ffipg_1/ffi_0/q 2.62fF
-C293 ffipgarr_0/ffipg_0/ffi_0/q ffipgarr_0/ffipg_0/pggen_0/xor_0/w_n3_4# 0.06fF
-C294 ffipgarr_0/ffipg_1/pggen_0/xor_0/w_n3_4# ffipgarr_0/ffipg_1/ffi_1/q 0.06fF
-C295 ffipgarr_0/p3 vdd 0.17fF
-C296 vdd ffipgarr_0/ffipg_3/ffi_1/nand_4/w_0_0# 0.10fF
-C297 cinin ffipgarr_0/ffi_0/inv_0/w_0_6# 0.06fF
-C298 gnd ffipgarr_0/ffipg_1/ffi_0/inv_1/op 0.22fF
-C299 gnd ffipgarr_0/ffipg_1/ffi_1/q 0.93fF
-C300 gnd ffipgarr_0/ffipg_0/ffi_1/nand_3/b 0.35fF
-C301 ffipgarr_0/ffipg_0/ffi_0/inv_1/op y1in 0.01fF
-C302 ffipgarr_0/ffipg_1/ffi_0/q ffipgarr_0/ffipg_1/ffi_0/nand_7/w_0_0# 0.04fF
-C303 ffipgarr_0/ffipg_2/ffi_1/nand_1/a ffipgarr_0/clk 0.13fF
-C304 ffipgarr_0/ffipg_0/ffi_1/nand_4/w_0_0# vdd 0.10fF
-C305 ffipgarr_0/ffipg_0/pggen_0/nor_0/a_13_6# ffipgarr_0/k1 0.01fF
-C306 gnd ffipgarr_0/ffipg_2/ffi_0/inv_1/op 0.22fF
-C307 ffipgarr_0/ffipg_1/ffi_1/inv_0/op gnd 0.10fF
-C308 ffipgarr_0/ffipg_3/ffi_1/inv_0/op vdd 0.17fF
-C309 ffipgarr_0/p2 ffipgarr_0/ffipg_1/pggen_0/nor_0/w_0_0# 0.05fF
-C310 ffipgarr_0/clk ffipgarr_0/ffipg_3/ffi_1/nand_2/w_0_0# 0.06fF
-C311 ffipgarr_0/ffipg_0/ffi_0/nand_6/a ffipgarr_0/ffipg_0/ffi_0/nand_4/w_0_0# 0.04fF
-C312 ffipgarr_0/ffipg_2/pggen_0/nand_0/w_0_0# ffipgarr_0/g3 0.04fF
-C313 ffipgarr_0/ffipg_1/ffi_0/inv_0/op vdd 0.17fF
-C314 ffipgarr_0/ffipg_1/pggen_0/xor_0/inv_0/op ffipgarr_0/k2 0.06fF
-C315 y2in ffipgarr_0/clk 0.70fF
-C316 ffipgarr_0/ffipg_0/ffi_1/inv_1/w_0_6# ffipgarr_0/ffipg_0/ffi_1/inv_1/op 0.04fF
-C317 ffipgarr_0/ffipg_0/pggen_0/nor_0/w_0_0# vdd 0.11fF
-C318 ffipgarr_0/ffipg_3/ffi_1/q ffipgarr_0/ffipg_3/pggen_0/xor_0/inv_1/op 0.06fF
-C319 ffipgarr_0/ffipg_0/ffi_0/inv_1/op ffipgarr_0/clk 0.07fF
-C320 gnd ffipgarr_0/g3 0.03fF
-C321 ffipgarr_0/ffipg_2/ffi_1/nand_0/w_0_0# ffipgarr_0/clk 0.06fF
-C322 ffipgarr_0/ffipg_2/ffi_0/nand_0/w_0_0# gnd 0.00fF
-C323 x2in vdd 0.04fF
-C324 ffipgarr_0/ffipg_1/ffi_1/inv_1/op x2in 0.01fF
-C325 ffipgarr_0/ffipg_0/ffi_1/nand_1/a ffipgarr_0/clk 0.13fF
-C326 ffipgarr_0/ffipg_1/ffi_0/nand_0/w_0_0# gnd 0.00fF
-C327 y1in vdd 0.04fF
-C328 y2in ffipgarr_0/ffipg_1/ffi_0/inv_0/w_0_6# 0.06fF
-C329 ffipgarr_0/ffipg_0/pggen_0/xor_0/inv_1/w_0_6# ffipgarr_0/ffipg_0/pggen_0/xor_0/inv_1/op 0.03fF
-C330 x3in ffipgarr_0/clk 0.70fF
-C331 ffipgarr_0/ffipg_1/ffi_1/nand_6/w_0_0# ffipgarr_0/ffipg_1/ffi_1/nand_6/a 0.06fF
-C332 ffipgarr_0/ffipg_1/ffi_1/nand_3/b ffipgarr_0/ffipg_1/ffi_1/nand_3/a 0.31fF
-C333 ffipgarr_0/ffipg_1/pggen_0/nor_0/a_13_6# ffipgarr_0/k2 0.01fF
-C334 ffipgarr_0/ffipg_1/ffi_0/nand_6/a ffipgarr_0/ffipg_1/ffi_0/q 0.31fF
-C335 ffipgarr_0/ffipg_3/ffi_1/q ffipgarr_0/ffipg_3/ffi_0/q 0.73fF
-C336 ffipgarr_0/ffipg_1/pggen_0/xor_0/w_n3_4# ffipgarr_0/k2 0.02fF
-C337 gnd ffipgarr_0/k2 0.14fF
-C338 ffipgarr_0/ffipg_2/ffi_1/q ffipgarr_0/ffipg_2/ffi_1/qbar 0.32fF
-C339 ffipgarr_0/ffipg_1/ffi_0/nand_3/b ffipgarr_0/ffipg_1/ffi_0/nand_1/a 0.00fF
-C340 ffipgarr_0/ffipg_1/ffi_0/inv_1/op ffipgarr_0/ffipg_1/ffi_0/nand_6/a 0.13fF
-C341 ffipgarr_0/ffipg_1/ffi_1/inv_0/op ffipgarr_0/ffipg_1/ffi_1/nand_0/w_0_0# 0.06fF
-C342 ffipgarr_0/ffipg_1/ffi_1/nand_3/b ffipgarr_0/ffipg_1/ffi_1/nand_1/w_0_0# 0.04fF
-C343 vdd ffipgarr_0/ffipg_3/ffi_1/nand_0/w_0_0# 0.10fF
-C344 gnd ffipgarr_0/ffipg_1/ffi_0/nand_7/a 0.03fF
-C345 gnd ffipgarr_0/k4 0.14fF
-C346 ffipgarr_0/ffipg_3/ffi_0/nand_5/w_0_0# ffipgarr_0/ffipg_3/ffi_0/inv_1/op 0.06fF
-C347 gnd ffipgarr_0/ffipg_2/ffi_1/nand_1/b 0.26fF
-C348 vdd ffipgarr_0/ffipg_3/ffi_0/qbar 0.33fF
-C349 ffipgarr_0/ffipg_2/ffi_0/q ffipgarr_0/ffipg_2/ffi_0/nand_6/w_0_0# 0.06fF
-C350 gnd ffipgarr_0/ffipg_2/ffi_1/nand_6/a 0.03fF
-C351 ffipgarr_0/ffipg_3/ffi_1/nand_3/a ffipgarr_0/ffipg_3/ffi_1/nand_2/w_0_0# 0.04fF
-C352 ffipgarr_0/ffipg_2/ffi_1/q ffipgarr_0/p3 0.22fF
-C353 ffipgarr_0/ffipg_1/ffi_0/nand_7/a ffipgarr_0/ffipg_1/ffi_0/nand_7/w_0_0# 0.06fF
-C354 ffipgarr_0/ffipg_1/pggen_0/nor_0/w_0_0# vdd 0.11fF
-C355 ffipgarr_0/ffipg_1/ffi_1/nand_5/w_0_0# ffipgarr_0/ffipg_1/ffi_1/nand_7/a 0.04fF
-C356 ffipgarr_0/clk vdd 0.16fF
-C357 y3in gnd 0.19fF
-C358 ffipgarr_0/ffipg_2/ffi_0/nand_6/a ffipgarr_0/ffipg_2/ffi_0/nand_6/w_0_0# 0.06fF
-C359 ffipgarr_0/ffipg_1/ffi_1/inv_1/op ffipgarr_0/clk 0.07fF
-C360 ffipgarr_0/ffipg_1/ffi_1/nand_3/a vdd 0.30fF
-C361 ffipgarr_0/ffipg_2/ffi_1/nand_3/w_0_0# ffipgarr_0/ffipg_2/ffi_1/nand_3/a 0.06fF
-C362 ffipgarr_0/ffipg_1/ffi_0/nand_1/a vdd 0.30fF
-C363 ffipgarr_0/ffipg_0/pggen_0/nand_0/w_0_0# ffipgarr_0/ffipg_0/ffi_1/q 0.06fF
-C364 ffipgarr_0/clk ffipgarr_0/ffipg_3/ffi_0/inv_1/w_0_6# 0.06fF
-C365 gnd cinin 0.19fF
-C366 ffipgarr_0/ffipg_2/ffi_0/nand_0/w_0_0# ffipgarr_0/ffipg_2/ffi_0/inv_0/op 0.06fF
-C367 ffipgarr_0/ffipg_3/ffi_0/inv_1/op ffipgarr_0/ffipg_3/ffi_1/inv_1/op 0.75fF
-C368 ffipgarr_0/ffi_0/nand_4/w_0_0# ffipgarr_0/ffi_0/inv_1/op 0.06fF
-C369 ffipgarr_0/ffipg_1/ffi_1/nand_1/w_0_0# vdd 0.10fF
-C370 ffipgarr_0/ffipg_0/ffi_0/inv_0/op gnd 0.10fF
-C371 ffipgarr_0/ffipg_3/pggen_0/xor_0/inv_0/w_0_6# ffipgarr_0/ffipg_3/ffi_1/q 0.06fF
-C372 ffipgarr_0/ffipg_0/ffi_1/inv_0/op ffipgarr_0/ffipg_0/ffi_1/nand_0/w_0_0# 0.06fF
-C373 ffipgarr_0/ffipg_1/ffi_0/inv_0/w_0_6# vdd 0.06fF
-C374 ffipgarr_0/clk ffipgarr_0/ffi_0/nand_2/w_0_0# 0.06fF
-C375 y4in ffipgarr_0/ffipg_3/ffi_0/inv_1/op 0.01fF
-C376 vdd ffipgarr_0/ffipg_3/ffi_1/inv_0/w_0_6# 0.06fF
-C377 ffipgarr_0/ffipg_3/ffi_0/q ffipgarr_0/ffipg_3/pggen_0/xor_0/inv_1/op 0.22fF
-C378 ffipgarr_0/ffipg_0/ffi_1/inv_0/op x1in 0.04fF
-C379 ffipgarr_0/ffipg_1/ffi_0/inv_1/w_0_6# vdd 0.06fF
-C380 ffipgarr_0/ffi_0/nand_1/w_0_0# vdd 0.10fF
-C381 gnd ffipgarr_0/ffipg_0/ffi_0/nand_3/a 0.03fF
-C382 ffipgarr_0/ffipg_3/ffi_1/inv_1/op ffipgarr_0/ffipg_3/ffi_1/inv_1/w_0_6# 0.04fF
-C383 ffipgarr_0/ffipg_3/ffi_1/nand_7/a ffipgarr_0/ffipg_3/ffi_1/qbar 0.31fF
-C384 ffipgarr_0/ffipg_0/pggen_0/xor_0/inv_0/op vdd 0.15fF
-C385 vdd ffipgarr_0/ffipg_3/pggen_0/xor_0/w_n3_4# 0.12fF
-C386 gnd ffipgarr_0/ffipg_2/ffi_1/inv_0/op 0.10fF
-C387 ffipgarr_0/ffipg_2/ffi_0/inv_1/op ffipgarr_0/ffipg_2/ffi_1/inv_1/op 0.75fF
-C388 vdd ffipgarr_0/ffipg_3/ffi_0/nand_3/w_0_0# 0.11fF
-C389 ffipgarr_0/ffi_0/nand_4/w_0_0# ffipgarr_0/ffi_0/nand_3/b 0.06fF
-C390 ffipgarr_0/ffipg_1/ffi_1/inv_1/w_0_6# ffipgarr_0/clk 0.06fF
-C391 ffipgarr_0/ffipg_0/ffi_1/nand_7/w_0_0# ffipgarr_0/ffipg_0/ffi_1/q 0.04fF
-C392 ffipgarr_0/ffipg_0/ffi_1/q ffipgarr_0/ffipg_0/ffi_1/nand_6/w_0_0# 0.06fF
-C393 ffipgarr_0/ffi_0/nand_3/b ffipgarr_0/ffi_0/inv_1/op 0.33fF
-C394 ffipgarr_0/cin ffipgarr_0/ffi_0/nand_7/a 0.00fF
-C395 y3in ffipgarr_0/ffipg_2/ffi_0/nand_2/w_0_0# 0.06fF
-C396 gnd ffipgarr_0/ffipg_1/ffi_1/nand_6/a 0.03fF
-C397 ffipgarr_0/ffipg_1/ffi_1/qbar ffipgarr_0/ffipg_1/ffi_1/q 0.32fF
-C398 vdd ffipgarr_0/ffi_0/nand_3/w_0_0# 0.11fF
-C399 vdd ffipgarr_0/ffipg_3/ffi_1/nand_3/a 0.30fF
-C400 y3in ffipgarr_0/ffipg_2/ffi_0/inv_0/op 0.04fF
-C401 vdd ffipgarr_0/ffipg_3/ffi_0/nand_1/a 0.30fF
-C402 ffipgarr_0/ffipg_2/ffi_0/nand_3/b vdd 0.39fF
-C403 ffipgarr_0/p1 vdd 0.17fF
-C404 ffipgarr_0/ffipg_3/ffi_0/nand_3/a vdd 0.30fF
-C405 gnd ffipgarr_0/ffipg_3/ffi_0/inv_1/op 0.22fF
-C406 ffipgarr_0/ffipg_0/ffi_0/q vdd 0.38fF
-C407 ffipgarr_0/ffipg_3/ffi_1/nand_6/a ffipgarr_0/ffipg_3/ffi_1/inv_1/op 0.13fF
-C408 ffipgarr_0/ffipg_2/ffi_0/nand_5/w_0_0# ffipgarr_0/ffipg_2/ffi_0/nand_1/b 0.06fF
-C409 gnd ffipgarr_0/ffipg_0/ffi_1/inv_0/op 0.10fF
-C410 ffipgarr_0/ffipg_2/ffi_0/nand_3/a ffipgarr_0/clk 0.13fF
-C411 ffipgarr_0/ffipg_3/pggen_0/xor_0/inv_1/w_0_6# ffipgarr_0/ffipg_3/pggen_0/xor_0/inv_1/op 0.03fF
-C412 ffipgarr_0/ffipg_0/ffi_1/q ffipgarr_0/ffipg_0/ffi_1/nand_6/a 0.31fF
-C413 ffipgarr_0/g2 vdd 0.28fF
-C414 ffipgarr_0/ffipg_3/pggen_0/xor_0/a_10_10# ffipgarr_0/ffipg_3/ffi_0/q 0.12fF
-C415 ffipgarr_0/ffi_0/nand_5/w_0_0# ffipgarr_0/ffi_0/inv_1/op 0.06fF
-C416 ffipgarr_0/ffipg_0/ffi_1/q ffipgarr_0/k1 0.46fF
-C417 ffipgarr_0/ffi_0/nand_1/a ffipgarr_0/ffi_0/nand_3/b 0.00fF
-C418 vdd ffipgarr_0/ffipg_3/ffi_0/nand_7/w_0_0# 0.10fF
-C419 ffipgarr_0/k3 ffipgarr_0/ffipg_2/ffi_0/q 0.07fF
-C420 ffipgarr_0/ffipg_2/pggen_0/nor_0/w_0_0# ffipgarr_0/p3 0.05fF
-C421 ffipgarr_0/ffipg_0/ffi_0/inv_1/op ffipgarr_0/ffipg_0/ffi_0/inv_1/w_0_6# 0.04fF
-C422 ffipgarr_0/ffipg_3/ffi_0/nand_0/w_0_0# ffipgarr_0/clk 0.06fF
-C423 ffipgarr_0/ffipg_0/ffi_0/nand_6/w_0_0# vdd 0.10fF
-C424 ffipgarr_0/ffipg_0/ffi_0/nand_0/w_0_0# ffipgarr_0/ffipg_0/ffi_0/inv_0/op 0.06fF
-C425 gnd ffipgarr_0/ffipg_0/ffi_1/nand_3/a 0.03fF
-C426 ffipgarr_0/ffipg_0/ffi_0/nand_1/a gnd 0.14fF
-C427 ffipgarr_0/ffipg_3/pggen_0/xor_0/inv_1/w_0_6# ffipgarr_0/ffipg_3/ffi_0/q 0.23fF
-C428 gnd ffipgarr_0/ffipg_2/ffi_0/nand_0/a_13_n26# 0.01fF
-C429 vdd ffipgarr_0/ffi_0/inv_0/w_0_6# 0.06fF
-C430 ffipgarr_0/ffipg_2/pggen_0/xor_0/inv_0/op ffipgarr_0/ffipg_2/ffi_0/q 0.20fF
-C431 ffipgarr_0/ffipg_1/ffi_0/inv_1/op ffipgarr_0/ffipg_1/ffi_0/nand_4/w_0_0# 0.06fF
-C432 ffipgarr_0/ffipg_2/ffi_0/q vdd 0.38fF
-C433 ffipgarr_0/ffipg_0/ffi_1/nand_4/w_0_0# ffipgarr_0/ffipg_0/ffi_1/inv_1/op 0.06fF
-C434 ffipgarr_0/ffi_0/nand_7/w_0_0# ffipgarr_0/ffi_0/nand_7/a 0.06fF
-C435 gnd ffipgarr_0/ffipg_2/ffi_1/nand_3/b 0.35fF
-C436 gnd ffipgarr_0/p4 0.18fF
-C437 vdd ffipgarr_0/ffipg_3/ffi_1/nand_1/b 0.31fF
-C438 ffipgarr_0/ffipg_0/ffi_1/nand_1/a ffipgarr_0/ffipg_0/ffi_1/nand_0/w_0_0# 0.04fF
-C439 ffipgarr_0/ffipg_2/ffi_0/nand_6/a vdd 0.34fF
-C440 ffipgarr_0/ffipg_1/ffi_1/nand_6/w_0_0# vdd 0.10fF
-C441 gnd ffipgarr_0/ffipg_3/ffi_0/nand_6/a 0.03fF
-C442 vdd ffipgarr_0/ffipg_3/ffi_1/nand_3/w_0_0# 0.11fF
-C443 ffipgarr_0/ffipg_2/ffi_1/inv_1/op ffipgarr_0/ffipg_2/ffi_1/nand_1/b 0.45fF
-C444 ffipgarr_0/p4 ffipgarr_0/ffipg_3/pggen_0/nand_0/w_0_0# 0.24fF
-C445 vdd ffipgarr_0/ffipg_3/ffi_0/nand_5/w_0_0# 0.10fF
-C446 ffipgarr_0/ffipg_1/ffi_1/nand_3/b ffipgarr_0/ffipg_1/ffi_1/nand_1/b 0.32fF
-C447 gnd ffipgarr_0/cinbar 0.34fF
-C448 gnd ffipgarr_0/ffipg_2/ffi_1/nand_1/a 0.14fF
-C449 ffipgarr_0/ffipg_0/ffi_1/nand_5/w_0_0# ffipgarr_0/ffipg_0/ffi_1/nand_7/a 0.04fF
-C450 ffipgarr_0/ffipg_2/ffi_1/inv_1/op ffipgarr_0/ffipg_2/ffi_1/nand_6/a 0.13fF
-C451 ffipgarr_0/ffipg_0/ffi_0/q ffipgarr_0/ffipg_0/ffi_0/qbar 0.32fF
-C452 ffipgarr_0/ffipg_2/ffi_0/qbar ffipgarr_0/ffipg_2/ffi_0/nand_6/w_0_0# 0.04fF
-C453 ffipgarr_0/ffipg_1/ffi_0/inv_1/op ffipgarr_0/ffipg_1/ffi_0/nand_1/b 0.45fF
-C454 gnd ffipgarr_0/p2 0.18fF
-C455 gnd ffipgarr_0/ffipg_3/ffi_1/nand_6/a 0.03fF
-C456 ffipgarr_0/ffipg_1/ffi_0/q ffipgarr_0/ffipg_1/pggen_0/xor_0/a_10_10# 0.12fF
-C457 ffipgarr_0/ffi_0/inv_1/w_0_6# vdd 0.06fF
-C458 ffipgarr_0/ffipg_0/ffi_1/inv_0/w_0_6# x1in 0.06fF
-C459 ffipgarr_0/ffipg_2/ffi_1/inv_1/w_0_6# ffipgarr_0/clk 0.06fF
-C460 ffipgarr_0/ffipg_1/ffi_1/inv_0/op ffipgarr_0/ffipg_1/ffi_1/inv_0/w_0_6# 0.03fF
-C461 ffipgarr_0/ffipg_0/ffi_1/inv_1/w_0_6# ffipgarr_0/clk 0.06fF
-C462 ffipgarr_0/ffipg_0/ffi_0/inv_1/w_0_6# vdd 0.06fF
-C463 ffipgarr_0/ffipg_1/ffi_0/nand_3/b ffipgarr_0/ffipg_1/ffi_0/nand_1/w_0_0# 0.04fF
-C464 gnd ffipgarr_0/ffipg_1/ffi_1/nand_0/a_13_n26# 0.01fF
-C465 vdd ffipgarr_0/ffipg_3/ffi_1/inv_1/op 1.63fF
-C466 gnd y2in 0.19fF
-C467 ffipgarr_0/ffipg_0/ffi_0/nand_6/w_0_0# ffipgarr_0/ffipg_0/ffi_0/qbar 0.04fF
-C468 ffipgarr_0/ffi_0/nand_7/w_0_0# ffipgarr_0/cin 0.04fF
-C469 ffipgarr_0/ffipg_2/ffi_0/nand_3/b ffipgarr_0/ffipg_2/ffi_0/nand_3/a 0.31fF
-C470 ffipgarr_0/ffipg_0/ffi_1/nand_0/w_0_0# vdd 0.10fF
-C471 vdd ffipgarr_0/ffipg_3/ffi_0/inv_0/w_0_6# 0.06fF
-C472 gnd ffipgarr_0/g4 0.03fF
-C473 ffipgarr_0/ffipg_1/ffi_0/nand_6/a ffipgarr_0/ffipg_1/ffi_0/nand_6/w_0_0# 0.06fF
-C474 ffipgarr_0/ffipg_0/ffi_0/q ffipgarr_0/ffipg_0/ffi_0/nand_7/a 0.00fF
-C475 ffipgarr_0/ffipg_2/ffi_1/nand_7/a ffipgarr_0/ffipg_2/ffi_1/nand_1/b 0.13fF
-C476 ffipgarr_0/ffipg_2/ffi_0/inv_1/op ffipgarr_0/ffipg_2/ffi_0/nand_1/b 0.45fF
-C477 ffipgarr_0/ffipg_2/ffi_0/nand_1/b ffipgarr_0/ffipg_2/ffi_0/nand_3/w_0_0# 0.04fF
-C478 ffipgarr_0/ffipg_0/ffi_1/nand_6/a ffipgarr_0/ffipg_0/ffi_1/nand_6/w_0_0# 0.06fF
-C479 gnd ffipgarr_0/ffipg_0/ffi_0/inv_1/op 0.22fF
-C480 gnd ffipgarr_0/ffipg_2/ffi_1/nand_0/w_0_0# 0.00fF
-C481 ffipgarr_0/ffipg_3/ffi_0/nand_6/w_0_0# ffipgarr_0/ffipg_3/ffi_0/nand_6/a 0.06fF
-C482 ffipgarr_0/ffipg_2/ffi_0/inv_1/op ffipgarr_0/ffipg_2/ffi_0/nand_5/w_0_0# 0.06fF
-C483 y4in vdd 0.04fF
-C484 ffipgarr_0/ffipg_1/ffi_1/nand_1/b vdd 0.31fF
-C485 x1in vdd 0.04fF
-C486 ffipgarr_0/ffipg_3/pggen_0/nand_0/w_0_0# ffipgarr_0/g4 0.04fF
-C487 ffipgarr_0/ffipg_0/pggen_0/xor_0/inv_1/w_0_6# ffipgarr_0/ffipg_0/ffi_0/q 0.23fF
-C488 vdd ffipgarr_0/ffipg_3/ffi_0/nand_7/a 0.34fF
-C489 ffipgarr_0/ffipg_1/ffi_1/nand_1/b ffipgarr_0/ffipg_1/ffi_1/inv_1/op 0.45fF
-C490 ffipgarr_0/ffipg_0/ffi_1/nand_3/w_0_0# ffipgarr_0/ffipg_0/ffi_1/nand_1/b 0.04fF
-C491 ffipgarr_0/ffipg_1/ffi_1/nand_7/w_0_0# ffipgarr_0/ffipg_1/ffi_1/nand_7/a 0.06fF
-C492 gnd ffipgarr_0/ffipg_1/ffi_1/nand_3/b 0.35fF
-C493 gnd ffipgarr_0/ffipg_0/ffi_1/nand_1/a 0.15fF
-C494 ffipgarr_0/ffipg_3/ffi_0/nand_0/w_0_0# ffipgarr_0/ffipg_3/ffi_0/nand_1/a 0.04fF
-C495 ffipgarr_0/ffipg_1/pggen_0/xor_0/inv_0/op vdd 0.15fF
-C496 vdd ffipgarr_0/ffi_0/nand_3/a 0.30fF
-C497 ffipgarr_0/ffi_0/nand_0/w_0_0# vdd 0.10fF
-C498 ffipgarr_0/ffipg_0/ffi_0/q ffipgarr_0/g1 0.13fF
-C499 vdd ffipgarr_0/ffipg_3/ffi_0/nand_1/w_0_0# 0.10fF
-C500 gnd ffipgarr_0/ffi_0/nand_6/a 0.03fF
-C501 gnd x3in 0.19fF
-C502 gnd ffipgarr_0/ffipg_1/ffi_0/nand_3/b 0.35fF
-C503 ffipgarr_0/ffipg_0/ffi_0/q ffipgarr_0/ffipg_0/ffi_0/nand_7/w_0_0# 0.04fF
-C504 gnd ffipgarr_0/ffipg_0/ffi_0/nand_3/b 0.35fF
-C505 ffipgarr_0/ffipg_0/ffi_1/nand_3/w_0_0# ffipgarr_0/ffipg_0/ffi_1/nand_3/b 0.06fF
-C506 ffipgarr_0/ffipg_2/ffi_0/nand_1/a ffipgarr_0/clk 0.13fF
-C507 ffipgarr_0/ffipg_1/ffi_0/nand_1/w_0_0# vdd 0.10fF
-C508 ffipgarr_0/clk ffipgarr_0/ffipg_3/ffi_0/inv_0/op 0.32fF
-C509 vdd ffipgarr_0/ffi_0/nand_1/b 0.31fF
-C510 ffipgarr_0/ffipg_0/ffi_0/nand_0/w_0_0# ffipgarr_0/ffipg_0/ffi_0/nand_1/a 0.04fF
-C511 ffipgarr_0/ffipg_3/ffi_1/nand_1/a ffipgarr_0/ffipg_3/ffi_1/nand_0/w_0_0# 0.04fF
-C512 ffipgarr_0/ffipg_3/ffi_1/q ffipgarr_0/ffipg_3/pggen_0/xor_0/w_n3_4# 0.06fF
-C513 ffipgarr_0/ffipg_2/pggen_0/xor_0/inv_1/w_0_6# ffipgarr_0/ffipg_2/ffi_0/q 0.23fF
-C514 ffipgarr_0/ffipg_3/ffi_0/nand_3/b ffipgarr_0/ffipg_3/ffi_0/nand_3/w_0_0# 0.06fF
-C515 ffipgarr_0/ffipg_2/pggen_0/nand_0/w_0_0# vdd 0.10fF
-C516 ffipgarr_0/ffipg_0/ffi_1/inv_1/op ffipgarr_0/clk 0.07fF
-C517 ffipgarr_0/ffipg_2/ffi_0/nand_4/w_0_0# ffipgarr_0/ffipg_2/ffi_0/nand_3/b 0.06fF
-C518 ffipgarr_0/ffipg_3/ffi_1/qbar ffipgarr_0/ffipg_3/ffi_1/nand_7/w_0_0# 0.06fF
-C519 ffipgarr_0/ffipg_2/ffi_1/q ffipgarr_0/ffipg_2/ffi_0/q 0.73fF
-C520 ffipgarr_0/ffipg_0/ffi_1/nand_3/a ffipgarr_0/ffipg_0/ffi_1/nand_2/w_0_0# 0.04fF
-C521 ffipgarr_0/ffi_0/nand_2/w_0_0# ffipgarr_0/ffi_0/nand_3/a 0.04fF
-C522 gnd ffipgarr_0/k3 0.14fF
-C523 ffipgarr_0/ffipg_3/ffi_1/nand_1/a ffipgarr_0/clk 0.13fF
-C524 ffipgarr_0/ffipg_2/pggen_0/xor_0/inv_1/op ffipgarr_0/k3 0.52fF
-C525 ffipgarr_0/ffipg_0/ffi_1/nand_7/a vdd 0.34fF
-C526 ffipgarr_0/ffipg_1/pggen_0/xor_0/w_n3_4# vdd 0.12fF
-C527 ffipgarr_0/ffipg_3/ffi_0/nand_3/b ffipgarr_0/ffipg_3/ffi_0/nand_1/a 0.00fF
-C528 ffipgarr_0/clk ffipgarr_0/ffi_0/inv_1/op 0.10fF
-C529 ffipgarr_0/ffipg_1/ffi_0/nand_2/w_0_0# ffipgarr_0/clk 0.06fF
-C530 gnd ffipgarr_0/ffipg_2/pggen_0/xor_0/inv_0/op 0.17fF
-C531 ffipgarr_0/k2 ffipgarr_0/ffipg_1/pggen_0/xor_0/a_10_10# 0.45fF
-C532 ffipgarr_0/ffipg_3/pggen_0/xor_0/inv_0/op ffipgarr_0/k4 0.06fF
-C533 gnd vdd 2.07fF
-C534 ffipgarr_0/ffipg_2/pggen_0/xor_0/inv_1/op ffipgarr_0/ffipg_2/pggen_0/xor_0/inv_0/op 0.08fF
-C535 ffipgarr_0/ffipg_1/ffi_0/nand_7/a ffipgarr_0/ffipg_1/ffi_0/nand_1/b 0.13fF
-C536 ffipgarr_0/ffipg_3/ffi_0/nand_3/a ffipgarr_0/ffipg_3/ffi_0/nand_3/b 0.31fF
-C537 ffipgarr_0/ffipg_2/pggen_0/xor_0/inv_1/op vdd 0.15fF
-C538 ffipgarr_0/ffipg_1/ffi_1/qbar ffipgarr_0/ffipg_1/ffi_1/nand_6/a 0.00fF
-C539 gnd ffipgarr_0/ffipg_1/ffi_1/inv_1/op 0.22fF
-C540 ffipgarr_0/ffipg_1/ffi_1/nand_1/a ffipgarr_0/ffipg_1/ffi_1/nand_3/b 0.00fF
-C541 ffipgarr_0/ffipg_1/ffi_0/q ffipgarr_0/ffipg_1/ffi_1/q 0.73fF
-C542 ffipgarr_0/ffipg_0/ffi_1/nand_1/b ffipgarr_0/ffipg_0/ffi_1/nand_3/b 0.32fF
-C543 ffipgarr_0/ffipg_0/ffi_0/nand_3/w_0_0# ffipgarr_0/ffipg_0/ffi_0/nand_3/a 0.06fF
-C544 ffipgarr_0/ffipg_0/pggen_0/xor_0/a_10_10# ffipgarr_0/k1 0.45fF
-C545 ffipgarr_0/ffipg_3/pggen_0/nand_0/w_0_0# vdd 0.10fF
-C546 ffipgarr_0/ffipg_3/ffi_0/q ffipgarr_0/ffipg_3/ffi_0/qbar 0.32fF
-C547 ffipgarr_0/ffipg_1/ffi_0/nand_7/w_0_0# vdd 0.10fF
-C548 ffipgarr_0/ffipg_1/pggen_0/xor_0/inv_0/op ffipgarr_0/ffipg_1/pggen_0/xor_0/inv_1/op 0.08fF
-C549 ffipgarr_0/ffipg_0/pggen_0/xor_0/w_n3_4# ffipgarr_0/ffipg_0/ffi_1/q 0.06fF
-C550 gnd ffipgarr_0/ffi_0/nand_0/a_13_n26# 0.01fF
-C551 ffipgarr_0/ffipg_1/ffi_0/nand_5/w_0_0# ffipgarr_0/ffipg_1/ffi_0/nand_1/b 0.06fF
-C552 vdd ffipgarr_0/ffipg_3/ffi_1/nand_3/b 0.39fF
-C553 ffipgarr_0/ffipg_0/ffi_0/nand_1/w_0_0# ffipgarr_0/ffipg_0/ffi_0/nand_1/a 0.06fF
-C554 ffipgarr_0/ffipg_3/ffi_1/qbar ffipgarr_0/ffipg_3/ffi_1/nand_6/w_0_0# 0.04fF
-C555 ffipgarr_0/ffipg_2/ffi_0/nand_4/w_0_0# ffipgarr_0/ffipg_2/ffi_0/nand_6/a 0.04fF
-C556 ffipgarr_0/ffipg_2/ffi_1/inv_1/op ffipgarr_0/ffipg_2/ffi_1/nand_3/b 0.33fF
-C557 ffipgarr_0/ffipg_3/ffi_1/nand_7/a ffipgarr_0/ffipg_3/ffi_1/nand_7/w_0_0# 0.06fF
-C558 ffipgarr_0/ffi_0/nand_1/a ffipgarr_0/clk 0.13fF
-C559 ffipgarr_0/ffipg_3/ffi_1/nand_1/w_0_0# vdd 0.10fF
-C560 x3in ffipgarr_0/ffipg_2/ffi_1/nand_2/w_0_0# 0.06fF
-C561 ffipgarr_0/ffipg_2/ffi_0/qbar vdd 0.33fF
-C562 ffipgarr_0/clk ffipgarr_0/ffipg_2/ffi_1/nand_3/a 0.13fF
-C563 ffipgarr_0/ffipg_3/pggen_0/xor_0/inv_1/op ffipgarr_0/ffipg_3/pggen_0/xor_0/w_n3_4# 0.06fF
-C564 vdd ffipgarr_0/ffipg_3/ffi_0/nand_6/w_0_0# 0.10fF
-C565 gnd ffipgarr_0/ffipg_2/ffi_1/nand_0/a_13_n26# 0.01fF
-C566 ffipgarr_0/ffipg_2/ffi_0/nand_3/b ffipgarr_0/ffipg_2/ffi_0/nand_1/a 0.00fF
-C567 ffipgarr_0/ffipg_2/ffi_0/inv_0/w_0_6# ffipgarr_0/ffipg_2/ffi_0/inv_0/op 0.03fF
-C568 ffipgarr_0/ffipg_2/ffi_0/nand_1/w_0_0# ffipgarr_0/ffipg_2/ffi_0/nand_1/b 0.06fF
-C569 ffipgarr_0/ffipg_1/ffi_1/nand_1/a vdd 0.30fF
-C570 ffipgarr_0/clk ffipgarr_0/ffipg_3/ffi_0/nand_2/w_0_0# 0.06fF
-C571 ffipgarr_0/ffipg_1/ffi_0/nand_3/b ffipgarr_0/ffipg_1/ffi_0/nand_3/a 0.31fF
-C572 ffipgarr_0/ffipg_1/pggen_0/xor_0/w_n3_4# ffipgarr_0/ffipg_1/pggen_0/xor_0/inv_1/op 0.06fF
-C573 gnd ffipgarr_0/ffipg_0/ffi_0/qbar 0.34fF
-C574 ffipgarr_0/ffipg_1/ffi_1/nand_5/w_0_0# ffipgarr_0/ffipg_1/ffi_1/nand_1/b 0.06fF
-C575 gnd ffipgarr_0/ffipg_1/pggen_0/xor_0/inv_1/op 0.20fF
-C576 ffipgarr_0/ffipg_0/ffi_0/nand_1/b gnd 0.26fF
-C577 ffipgarr_0/ffipg_2/ffi_0/nand_2/w_0_0# vdd 0.10fF
-C578 ffipgarr_0/ffipg_1/ffi_1/nand_0/w_0_0# vdd 0.10fF
-C579 ffipgarr_0/ffipg_3/ffi_0/q ffipgarr_0/ffipg_3/pggen_0/xor_0/w_n3_4# 0.06fF
-C580 ffipgarr_0/ffipg_2/ffi_0/inv_0/op vdd 0.17fF
-C581 ffipgarr_0/ffipg_2/ffi_1/nand_7/a ffipgarr_0/ffipg_2/ffi_1/nand_7/w_0_0# 0.06fF
-C582 ffipgarr_0/ffipg_1/ffi_0/nand_6/a vdd 0.34fF
-C583 ffipgarr_0/ffipg_3/ffi_1/nand_5/w_0_0# ffipgarr_0/ffipg_3/ffi_1/nand_1/b 0.06fF
-C584 ffipgarr_0/ffipg_2/ffi_1/inv_1/op ffipgarr_0/ffipg_2/ffi_1/nand_4/w_0_0# 0.06fF
-C585 ffipgarr_0/ffi_0/nand_1/w_0_0# ffipgarr_0/ffi_0/nand_3/b 0.04fF
-C586 vdd ffipgarr_0/ffipg_2/ffi_1/nand_2/w_0_0# 0.10fF
-C587 ffipgarr_0/ffipg_0/ffi_0/inv_1/op ffipgarr_0/ffipg_0/ffi_0/nand_4/w_0_0# 0.06fF
-C588 ffipgarr_0/ffi_0/nand_1/a ffipgarr_0/ffi_0/nand_1/w_0_0# 0.06fF
-C589 ffipgarr_0/ffipg_2/ffi_0/q ffipgarr_0/ffipg_2/pggen_0/xor_0/a_10_10# 0.12fF
-C590 ffipgarr_0/ffipg_2/ffi_1/q ffipgarr_0/ffipg_2/pggen_0/nand_0/w_0_0# 0.06fF
-C591 ffipgarr_0/ffipg_1/ffi_0/q ffipgarr_0/k2 0.07fF
-C592 gnd ffipgarr_0/ffipg_0/ffi_0/nand_7/a 0.03fF
-C593 ffipgarr_0/k2 ffipgarr_0/ffipg_1/ffi_1/q 0.46fF
-C594 gnd ffipgarr_0/ffipg_2/ffi_0/nand_3/a 0.03fF
-C595 ffipgarr_0/ffipg_3/ffi_0/inv_1/op ffipgarr_0/ffipg_3/ffi_0/nand_1/b 0.45fF
-C596 ffipgarr_0/ffipg_1/ffi_0/nand_3/a vdd 0.30fF
-C597 ffipgarr_0/ffipg_2/pggen_0/xor_0/inv_1/op ffipgarr_0/ffipg_2/pggen_0/xor_0/inv_1/w_0_6# 0.03fF
-C598 ffipgarr_0/ffipg_1/ffi_0/q ffipgarr_0/ffipg_1/ffi_0/nand_7/a 0.00fF
-C599 ffipgarr_0/ffipg_0/ffi_0/nand_0/w_0_0# vdd 0.10fF
-C600 ffipgarr_0/ffipg_2/pggen_0/nor_0/w_0_0# ffipgarr_0/ffipg_2/ffi_0/q 0.06fF
-C601 ffipgarr_0/ffipg_0/ffi_0/nand_3/b ffipgarr_0/ffipg_0/ffi_0/nand_4/w_0_0# 0.06fF
-C602 gnd ffipgarr_0/ffipg_2/ffi_1/q 0.93fF
-C603 ffipgarr_0/ffipg_3/pggen_0/nor_0/a_13_6# ffipgarr_0/k4 0.01fF
-C604 ffipgarr_0/ffi_0/inv_0/op cinin 0.04fF
-C605 ffipgarr_0/ffipg_2/ffi_1/q ffipgarr_0/ffipg_2/pggen_0/xor_0/inv_1/op 0.06fF
-C606 ffipgarr_0/ffipg_0/ffi_1/nand_2/w_0_0# vdd 0.10fF
-C607 ffipgarr_0/ffipg_3/ffi_1/inv_0/op ffipgarr_0/ffipg_3/ffi_1/nand_0/w_0_0# 0.06fF
-C608 ffipgarr_0/g1 gnd 0.03fF
-C609 ffipgarr_0/ffipg_3/pggen_0/xor_0/a_10_10# ffipgarr_0/ffipg_3/pggen_0/xor_0/w_n3_4# 0.16fF
-C610 ffipgarr_0/ffi_0/nand_3/w_0_0# ffipgarr_0/ffi_0/nand_3/b 0.06fF
-C611 x3in ffipgarr_0/ffipg_2/ffi_1/inv_1/op 0.01fF
-C612 ffipgarr_0/ffipg_0/ffi_0/nand_1/w_0_0# ffipgarr_0/ffipg_0/ffi_0/nand_3/b 0.04fF
-C613 ffipgarr_0/ffipg_3/ffi_1/nand_5/w_0_0# ffipgarr_0/ffipg_3/ffi_1/inv_1/op 0.06fF
-C614 ffipgarr_0/ffipg_3/ffi_1/nand_1/a ffipgarr_0/ffipg_3/ffi_1/nand_1/b 0.31fF
-C615 ffipgarr_0/ffipg_3/ffi_0/nand_3/b ffipgarr_0/ffipg_3/ffi_0/nand_1/w_0_0# 0.04fF
-C616 ffipgarr_0/ffipg_1/pggen_0/xor_0/inv_0/op ffipgarr_0/ffipg_1/pggen_0/xor_0/inv_0/w_0_6# 0.03fF
-C617 ffipgarr_0/ffipg_1/ffi_0/nand_3/w_0_0# ffipgarr_0/ffipg_1/ffi_0/nand_3/a 0.06fF
-C618 ffipgarr_0/ffipg_0/pggen_0/xor_0/inv_0/op ffipgarr_0/ffipg_0/pggen_0/xor_0/inv_1/op 0.08fF
-C619 ffipgarr_0/ffipg_3/ffi_1/inv_0/op ffipgarr_0/clk 0.32fF
-C620 ffipgarr_0/ffipg_1/ffi_0/nand_5/w_0_0# ffipgarr_0/ffipg_1/ffi_0/inv_1/op 0.06fF
-C621 ffipgarr_0/ffipg_3/ffi_0/q ffipgarr_0/ffipg_3/ffi_0/nand_7/w_0_0# 0.04fF
-C622 y3in ffipgarr_0/ffipg_2/ffi_0/inv_1/op 0.01fF
-C623 ffipgarr_0/ffipg_1/ffi_0/inv_0/op ffipgarr_0/clk 0.32fF
-C624 ffipgarr_0/ffipg_0/ffi_0/nand_4/w_0_0# vdd 0.10fF
-C625 ffipgarr_0/ffipg_3/ffi_0/nand_3/a ffipgarr_0/ffipg_3/ffi_0/nand_2/w_0_0# 0.04fF
-C626 ffipgarr_0/ffipg_0/ffi_0/inv_0/op ffipgarr_0/ffipg_0/ffi_0/inv_0/w_0_6# 0.03fF
-C627 ffipgarr_0/cinbar ffipgarr_0/ffi_0/nand_7/a 0.31fF
-C628 ffipgarr_0/ffipg_0/pggen_0/xor_0/inv_0/op ffipgarr_0/ffipg_0/pggen_0/xor_0/inv_0/w_0_6# 0.03fF
-C629 ffipgarr_0/ffipg_3/ffi_1/nand_6/a ffipgarr_0/ffipg_3/ffi_1/qbar 0.00fF
-C630 ffipgarr_0/ffipg_3/ffi_0/inv_0/w_0_6# ffipgarr_0/ffipg_3/ffi_0/inv_0/op 0.03fF
-C631 ffipgarr_0/ffipg_2/ffi_1/inv_1/op vdd 1.63fF
-C632 ffipgarr_0/ffipg_0/pggen_0/xor_0/w_n3_4# ffipgarr_0/k1 0.02fF
-C633 ffipgarr_0/ffipg_0/ffi_0/nand_1/w_0_0# vdd 0.10fF
-C634 ffipgarr_0/ffi_0/inv_1/w_0_6# ffipgarr_0/ffi_0/inv_1/op 0.04fF
-C635 ffipgarr_0/ffipg_2/ffi_0/nand_2/w_0_0# ffipgarr_0/ffipg_2/ffi_0/nand_3/a 0.04fF
-C636 gnd ffipgarr_0/ffipg_3/ffi_0/nand_3/b 0.35fF
-C637 ffipgarr_0/ffipg_3/ffi_1/inv_0/op ffipgarr_0/ffipg_3/ffi_1/inv_0/w_0_6# 0.03fF
-C638 y4in ffipgarr_0/ffipg_3/ffi_0/inv_0/op 0.04fF
-C639 ffipgarr_0/ffipg_0/ffi_0/q ffipgarr_0/ffipg_0/pggen_0/xor_0/inv_1/op 0.22fF
-C640 x2in ffipgarr_0/clk 0.70fF
-C641 gnd ffipgarr_0/ffipg_3/ffi_1/q 0.93fF
-C642 ffipgarr_0/ffipg_0/pggen_0/xor_0/a_10_10# ffipgarr_0/ffipg_0/pggen_0/xor_0/w_n3_4# 0.16fF
-C643 ffipgarr_0/ffipg_1/ffi_0/inv_0/op ffipgarr_0/ffipg_1/ffi_0/inv_0/w_0_6# 0.03fF
-C644 ffipgarr_0/ffipg_1/pggen_0/nand_0/w_0_0# ffipgarr_0/g2 0.04fF
-C645 x1in ffipgarr_0/ffipg_0/ffi_1/inv_1/op 0.01fF
-C646 ffipgarr_0/ffipg_0/ffi_0/nand_3/w_0_0# ffipgarr_0/ffipg_0/ffi_0/nand_3/b 0.06fF
-C647 y1in ffipgarr_0/clk 0.70fF
-C648 ffipgarr_0/ffipg_3/pggen_0/nand_0/w_0_0# ffipgarr_0/ffipg_3/ffi_1/q 0.06fF
-C649 ffipgarr_0/ffipg_1/ffi_1/qbar vdd 0.33fF
-C650 ffipgarr_0/ffipg_2/ffi_0/q ffipgarr_0/ffipg_2/ffi_0/nand_7/a 0.00fF
-C651 ffipgarr_0/ffipg_0/ffi_1/nand_3/w_0_0# ffipgarr_0/ffipg_0/ffi_1/nand_3/a 0.06fF
-C652 ffipgarr_0/ffipg_1/ffi_0/nand_4/w_0_0# ffipgarr_0/ffipg_1/ffi_0/nand_3/b 0.06fF
-C653 ffipgarr_0/ffipg_0/ffi_0/nand_6/a ffipgarr_0/ffipg_0/ffi_0/inv_1/op 0.13fF
-C654 ffipgarr_0/ffipg_1/ffi_1/q ffipgarr_0/ffipg_1/ffi_1/nand_6/a 0.31fF
-C655 gnd ffipgarr_0/ffipg_1/ffi_0/qbar 0.34fF
-C656 ffipgarr_0/cinbar ffipgarr_0/cin 0.32fF
-C657 ffipgarr_0/ffipg_2/ffi_1/nand_7/a vdd 0.34fF
-C658 ffipgarr_0/clk ffipgarr_0/ffipg_3/ffi_1/nand_0/w_0_0# 0.06fF
-C659 ffipgarr_0/ffipg_1/ffi_1/nand_4/w_0_0# ffipgarr_0/ffipg_1/ffi_1/nand_6/a 0.04fF
-C660 ffipgarr_0/ffipg_1/ffi_0/qbar ffipgarr_0/ffipg_1/ffi_0/nand_7/w_0_0# 0.06fF
-C661 ffipgarr_0/ffipg_0/ffi_0/nand_3/w_0_0# vdd 0.11fF
-C662 gnd ffipgarr_0/ffipg_2/ffi_0/nand_1/a 0.15fF
-C663 ffipgarr_0/ffipg_3/ffi_0/q ffipgarr_0/ffipg_3/ffi_0/nand_7/a 0.00fF
-C664 ffipgarr_0/ffi_0/nand_1/b ffipgarr_0/ffi_0/inv_1/op 0.45fF
-C665 gnd ffipgarr_0/ffipg_3/ffi_0/inv_0/op 0.10fF
-C666 ffipgarr_0/ffipg_1/ffi_0/nand_6/w_0_0# ffipgarr_0/ffipg_1/ffi_0/q 0.06fF
-C667 ffipgarr_0/ffipg_1/ffi_0/nand_5/w_0_0# ffipgarr_0/ffipg_1/ffi_0/nand_7/a 0.04fF
-C668 ffipgarr_0/ffipg_0/ffi_0/nand_1/w_0_0# ffipgarr_0/ffipg_0/ffi_0/nand_1/b 0.06fF
-C669 ffipgarr_0/ffipg_0/ffi_1/q vdd 1.31fF
-C670 ffipgarr_0/ffipg_1/ffi_0/nand_3/b ffipgarr_0/ffipg_1/ffi_0/nand_1/b 0.32fF
-C671 gnd ffipgarr_0/ffipg_0/ffi_1/inv_1/op 0.22fF
-C672 ffipgarr_0/ffipg_1/ffi_1/nand_3/a ffipgarr_0/clk 0.13fF
-C673 ffipgarr_0/ffipg_1/ffi_0/nand_4/w_0_0# vdd 0.10fF
-C674 ffipgarr_0/ffipg_1/ffi_0/nand_1/a ffipgarr_0/clk 0.13fF
-C675 vdd ffipgarr_0/ffipg_3/ffi_1/qbar 0.33fF
-C676 gnd ffipgarr_0/ffipg_3/ffi_1/nand_1/a 0.14fF
-C677 ffipgarr_0/p3 ffipgarr_0/ffipg_2/ffi_0/q 0.03fF
-C678 ffipgarr_0/ffipg_0/pggen_0/nor_0/w_0_0# ffipgarr_0/p1 0.05fF
-C679 gnd ffipgarr_0/ffipg_3/pggen_0/xor_0/inv_1/op 0.20fF
-C680 ffipgarr_0/ffipg_0/ffi_0/q ffipgarr_0/ffipg_0/pggen_0/nor_0/w_0_0# 0.06fF
-C681 ffipgarr_0/ffi_0/nand_3/b ffipgarr_0/ffi_0/nand_3/a 0.31fF
-C682 vdd ffipgarr_0/ffi_0/nand_7/a 0.30fF
-C683 gnd ffipgarr_0/ffi_0/inv_1/op 0.22fF
-C684 ffipgarr_0/ffi_0/nand_1/a ffipgarr_0/ffi_0/nand_0/w_0_0# 0.04fF
-C685 ffipgarr_0/ffipg_0/ffi_1/nand_3/a ffipgarr_0/ffipg_0/ffi_1/nand_3/b 0.31fF
-C686 y4in ffipgarr_0/ffipg_3/ffi_0/nand_2/w_0_0# 0.06fF
-C687 ffipgarr_0/ffipg_2/ffi_0/inv_1/op ffipgarr_0/ffipg_2/ffi_0/inv_1/w_0_6# 0.04fF
-C688 ffipgarr_0/ffipg_0/ffi_0/nand_6/a vdd 0.34fF
-C689 vdd ffipgarr_0/ffipg_3/ffi_0/nand_1/b 0.31fF
-C690 ffipgarr_0/ffi_0/nand_7/w_0_0# ffipgarr_0/cinbar 0.06fF
-C691 ffipgarr_0/ffi_0/nand_6/a ffipgarr_0/cin 0.31fF
-C692 ffipgarr_0/ffi_0/nand_1/b ffipgarr_0/ffi_0/nand_3/b 0.32fF
-C693 ffipgarr_0/ffipg_1/ffi_0/inv_1/w_0_6# ffipgarr_0/clk 0.06fF
-C694 ffipgarr_0/ffipg_3/pggen_0/xor_0/inv_0/op vdd 0.15fF
-C695 ffipgarr_0/ffi_0/nand_1/a ffipgarr_0/ffi_0/nand_1/b 0.31fF
-C696 ffipgarr_0/ffipg_1/ffi_1/inv_0/w_0_6# vdd 0.06fF
-C697 ffipgarr_0/ffipg_3/ffi_1/nand_1/a ffipgarr_0/ffipg_3/ffi_1/nand_3/b 0.00fF
-C698 ffipgarr_0/ffipg_0/pggen_0/nand_0/w_0_0# vdd 0.10fF
-C699 ffipgarr_0/ffipg_1/ffi_0/nand_1/b vdd 0.31fF
-C700 ffipgarr_0/ffipg_3/ffi_0/nand_4/w_0_0# ffipgarr_0/ffipg_3/ffi_0/inv_1/op 0.06fF
-C701 gnd ffipgarr_0/ffipg_3/ffi_0/q 2.62fF
-C702 gnd ffipgarr_0/ffipg_1/ffi_0/nand_0/a_13_n26# 0.01fF
-C703 ffipgarr_0/ffipg_0/ffi_1/nand_5/w_0_0# ffipgarr_0/ffipg_0/ffi_1/nand_1/b 0.06fF
-C704 x4in ffipgarr_0/ffipg_3/ffi_1/nand_2/w_0_0# 0.06fF
-C705 ffipgarr_0/ffipg_1/ffi_0/nand_6/a ffipgarr_0/ffipg_1/ffi_0/qbar 0.00fF
-C706 ffipgarr_0/p2 ffipgarr_0/ffipg_1/ffi_0/q 0.03fF
-C707 ffipgarr_0/ffipg_0/ffi_0/nand_1/b ffipgarr_0/ffipg_0/ffi_0/nand_3/w_0_0# 0.04fF
-C708 ffipgarr_0/ffipg_1/pggen_0/xor_0/a_10_10# vdd 0.93fF
-C709 ffipgarr_0/ffipg_3/pggen_0/nand_0/w_0_0# ffipgarr_0/ffipg_3/ffi_0/q 0.06fF
-C710 ffipgarr_0/ffipg_1/ffi_1/nand_3/b ffipgarr_0/ffipg_1/ffi_1/nand_3/w_0_0# 0.06fF
-C711 ffipgarr_0/ffipg_3/ffi_1/nand_1/a ffipgarr_0/ffipg_3/ffi_1/nand_1/w_0_0# 0.06fF
-C712 ffipgarr_0/p2 ffipgarr_0/ffipg_1/ffi_1/q 0.22fF
-C713 ffipgarr_0/ffipg_2/ffi_0/nand_1/b vdd 0.31fF
-C714 ffipgarr_0/ffipg_2/ffi_0/nand_7/w_0_0# vdd 0.10fF
-C715 ffipgarr_0/ffipg_2/ffi_0/nand_5/w_0_0# vdd 0.10fF
-C716 gnd ffipgarr_0/ffi_0/nand_3/b 0.35fF
-C717 vdd ffipgarr_0/ffipg_3/ffi_1/nand_7/a 0.34fF
-C718 gnd ffipgarr_0/ffi_0/nand_1/a 0.14fF
-C719 ffipgarr_0/ffipg_1/ffi_1/nand_7/a ffipgarr_0/ffipg_1/ffi_1/nand_1/b 0.13fF
-C720 ffipgarr_0/ffipg_3/ffi_1/nand_4/w_0_0# ffipgarr_0/ffipg_3/ffi_1/inv_1/op 0.06fF
-C721 gnd ffipgarr_0/ffipg_2/ffi_1/nand_3/a 0.03fF
-C722 ffipgarr_0/ffipg_1/ffi_0/nand_3/w_0_0# ffipgarr_0/ffipg_1/ffi_0/nand_1/b 0.04fF
-C723 ffipgarr_0/cin vdd 0.28fF
-C724 ffipgarr_0/clk ffipgarr_0/ffipg_3/ffi_1/nand_3/a 0.13fF
-C725 ffipgarr_0/ffipg_1/ffi_0/inv_1/op y2in 0.01fF
-C726 ffipgarr_0/clk ffipgarr_0/ffipg_3/ffi_0/nand_1/a 0.13fF
-C727 ffipgarr_0/ffi_0/nand_1/b ffipgarr_0/ffi_0/nand_5/w_0_0# 0.06fF
-C728 ffipgarr_0/ffipg_0/ffi_1/nand_1/w_0_0# ffipgarr_0/ffipg_0/ffi_1/nand_1/b 0.06fF
-C729 ffipgarr_0/ffipg_2/ffi_1/q ffipgarr_0/ffipg_2/ffi_1/nand_7/a 0.00fF
-C730 ffipgarr_0/ffipg_3/ffi_0/nand_3/a ffipgarr_0/clk 0.13fF
-C731 gnd ffipgarr_0/ffipg_2/ffi_0/nand_7/a 0.03fF
-C732 ffipgarr_0/ffipg_0/ffi_1/nand_1/a ffipgarr_0/ffipg_0/ffi_1/nand_1/b 0.31fF
-C733 ffipgarr_0/ffipg_0/ffi_0/nand_6/a ffipgarr_0/ffipg_0/ffi_0/qbar 0.00fF
-C734 ffipgarr_0/ffipg_0/ffi_1/nand_6/w_0_0# vdd 0.10fF
-C735 ffipgarr_0/ffipg_0/ffi_1/nand_3/w_0_0# vdd 0.11fF
-C736 ffipgarr_0/ffipg_0/ffi_0/nand_2/w_0_0# ffipgarr_0/ffipg_0/ffi_0/nand_3/a 0.04fF
-C737 ffipgarr_0/ffipg_0/ffi_1/nand_7/w_0_0# vdd 0.10fF
-C738 ffipgarr_0/ffipg_0/ffi_1/nand_1/w_0_0# ffipgarr_0/ffipg_0/ffi_1/nand_3/b 0.04fF
-C739 ffipgarr_0/ffipg_3/ffi_0/q ffipgarr_0/ffipg_3/ffi_0/nand_6/w_0_0# 0.06fF
-C740 ffipgarr_0/ffipg_1/ffi_1/nand_2/w_0_0# vdd 0.10fF
-C741 ffipgarr_0/ffipg_3/ffi_0/nand_4/w_0_0# ffipgarr_0/ffipg_3/ffi_0/nand_6/a 0.04fF
-C742 ffipgarr_0/ffipg_0/pggen_0/xor_0/inv_1/op gnd 0.20fF
-C743 gnd ffipgarr_0/ffipg_0/ffi_1/nand_0/a_13_n26# 0.01fF
-C744 ffipgarr_0/ffipg_2/ffi_1/inv_1/w_0_6# ffipgarr_0/ffipg_2/ffi_1/inv_1/op 0.04fF
-C745 ffipgarr_0/ffipg_1/ffi_1/nand_3/w_0_0# vdd 0.11fF
-C746 ffipgarr_0/ffipg_3/ffi_0/qbar ffipgarr_0/ffipg_3/ffi_0/nand_7/w_0_0# 0.06fF
-C747 ffipgarr_0/ffipg_2/pggen_0/xor_0/w_n3_4# ffipgarr_0/k3 0.02fF
-C748 ffipgarr_0/ffipg_0/ffi_1/nand_1/a ffipgarr_0/ffipg_0/ffi_1/nand_3/b 0.00fF
-C749 ffipgarr_0/ffipg_1/ffi_0/inv_1/op ffipgarr_0/ffipg_1/ffi_0/nand_3/b 0.33fF
-C750 gnd ffipgarr_0/ffipg_2/ffi_1/qbar 0.34fF
-C751 ffipgarr_0/ffipg_0/ffi_1/nand_7/a ffipgarr_0/ffipg_0/ffi_1/qbar 0.31fF
-C752 ffipgarr_0/p3 ffipgarr_0/ffipg_2/pggen_0/nand_0/w_0_0# 0.24fF
-C753 ffipgarr_0/ffipg_2/pggen_0/xor_0/w_n3_4# ffipgarr_0/ffipg_2/pggen_0/xor_0/inv_0/op 0.06fF
-C754 ffipgarr_0/ffipg_1/ffi_1/nand_3/b ffipgarr_0/ffipg_1/ffi_1/nand_4/w_0_0# 0.06fF
-C755 ffipgarr_0/ffi_0/inv_0/op vdd 0.17fF
-C756 ffipgarr_0/ffipg_2/pggen_0/xor_0/w_n3_4# vdd 0.12fF
-C757 ffipgarr_0/ffipg_1/ffi_0/nand_3/a ffipgarr_0/ffipg_1/ffi_0/nand_2/w_0_0# 0.04fF
-C758 gnd ffipgarr_0/ffipg_0/ffi_1/qbar 0.34fF
-C759 ffipgarr_0/p4 ffipgarr_0/k4 0.05fF
-C760 ffipgarr_0/ffipg_2/ffi_1/nand_1/b ffipgarr_0/ffipg_2/ffi_1/nand_3/b 0.32fF
-C761 gnd ffipgarr_0/ffipg_1/ffi_1/nand_7/a 0.03fF
-C762 ffipgarr_0/ffipg_2/ffi_1/inv_0/op ffipgarr_0/ffipg_2/ffi_1/inv_0/w_0_6# 0.03fF
-C763 ffipgarr_0/ffipg_0/ffi_1/nand_6/a vdd 0.34fF
-C764 ffipgarr_0/ffipg_2/ffi_0/qbar ffipgarr_0/ffipg_2/ffi_0/nand_7/a 0.31fF
-C765 vdd x4in 0.04fF
-C766 gnd ffipgarr_0/p3 0.18fF
-C767 ffipgarr_0/p2 ffipgarr_0/k2 0.05fF
-C768 ffipgarr_0/ffi_0/nand_7/w_0_0# vdd 0.10fF
-C769 ffipgarr_0/ffipg_0/ffi_1/nand_1/b vdd 0.31fF
-C770 ffipgarr_0/k1 vdd 0.13fF
-C771 ffipgarr_0/ffipg_1/ffi_0/q vdd 0.38fF
-C772 ffipgarr_0/ffipg_0/ffi_0/q ffipgarr_0/ffipg_0/pggen_0/xor_0/inv_0/op 0.20fF
-C773 ffipgarr_0/ffipg_2/ffi_1/nand_1/a ffipgarr_0/ffipg_2/ffi_1/nand_1/b 0.31fF
-C774 ffipgarr_0/ffipg_3/ffi_0/nand_3/a ffipgarr_0/ffipg_3/ffi_0/nand_3/w_0_0# 0.06fF
-C775 ffipgarr_0/ffipg_1/ffi_0/inv_1/op vdd 1.63fF
-C776 ffipgarr_0/ffipg_1/ffi_1/q vdd 1.31fF
-C777 ffipgarr_0/ffipg_0/ffi_0/inv_0/w_0_6# vdd 0.06fF
-C778 ffipgarr_0/ffipg_0/ffi_1/nand_3/b vdd 0.39fF
-C779 ffipgarr_0/ffipg_0/pggen_0/xor_0/a_10_10# vdd 0.93fF
-C780 gnd ffipgarr_0/ffipg_3/ffi_1/inv_0/op 0.10fF
-C781 ffipgarr_0/ffipg_2/ffi_1/nand_3/a ffipgarr_0/ffipg_2/ffi_1/nand_2/w_0_0# 0.04fF
-C782 ffipgarr_0/ffipg_1/ffi_0/inv_1/op ffipgarr_0/ffipg_1/ffi_1/inv_1/op 0.75fF
-C783 ffipgarr_0/ffipg_2/ffi_0/inv_1/op vdd 1.63fF
-C784 ffipgarr_0/ffipg_2/ffi_0/nand_3/w_0_0# vdd 0.11fF
-C785 ffipgarr_0/ffipg_0/pggen_0/nand_0/w_0_0# ffipgarr_0/g1 0.04fF
-C786 ffipgarr_0/ffi_0/inv_1/w_0_6# ffipgarr_0/clk 0.06fF
-C787 ffipgarr_0/ffipg_1/ffi_1/nand_4/w_0_0# vdd 0.10fF
-C788 ffipgarr_0/ffipg_1/ffi_1/inv_0/op vdd 0.17fF
-C789 ffipgarr_0/ffipg_3/ffi_1/nand_4/w_0_0# ffipgarr_0/ffipg_3/ffi_1/nand_3/b 0.06fF
-C790 ffipgarr_0/ffipg_1/ffi_1/nand_4/w_0_0# ffipgarr_0/ffipg_1/ffi_1/inv_1/op 0.06fF
-C791 gnd ffipgarr_0/ffipg_1/ffi_0/inv_0/op 0.10fF
-C792 ffipgarr_0/ffipg_0/ffi_0/inv_1/w_0_6# ffipgarr_0/clk 0.06fF
-C793 ffipgarr_0/ffipg_2/ffi_1/nand_4/w_0_0# ffipgarr_0/ffipg_2/ffi_1/nand_6/a 0.04fF
-C794 ffipgarr_0/ffipg_0/ffi_0/q ffipgarr_0/p1 0.03fF
-C795 ffipgarr_0/clk ffipgarr_0/ffipg_3/ffi_1/inv_1/op 0.07fF
-C796 ffipgarr_0/ffipg_0/ffi_1/nand_0/w_0_0# ffipgarr_0/clk 0.06fF
-C797 ffipgarr_0/ffipg_3/ffi_1/q ffipgarr_0/ffipg_3/ffi_1/qbar 0.32fF
-C798 ffipgarr_0/ffipg_3/ffi_0/nand_7/a ffipgarr_0/ffipg_3/ffi_0/qbar 0.31fF
-C799 y4in ffipgarr_0/clk 0.64fF
-C800 gnd x2in 0.19fF
-C801 x1in ffipgarr_0/clk 0.70fF
-C802 ffipgarr_0/ffipg_3/ffi_0/nand_3/b ffipgarr_0/ffipg_3/ffi_0/nand_1/b 0.32fF
-C803 ffipgarr_0/g3 vdd 0.28fF
-C804 ffipgarr_0/ffipg_2/ffi_0/nand_0/w_0_0# vdd 0.10fF
-C805 ffipgarr_0/clk ffipgarr_0/ffi_0/nand_3/a 0.13fF
-C806 gnd y1in 0.19fF
-C807 ffipgarr_0/ffipg_3/ffi_0/nand_4/w_0_0# vdd 0.10fF
-C808 ffipgarr_0/ffi_0/nand_0/w_0_0# ffipgarr_0/clk 0.06fF
-C809 ffipgarr_0/ffipg_1/ffi_0/q ffipgarr_0/ffipg_1/pggen_0/xor_0/inv_1/op 0.22fF
-C810 ffipgarr_0/ffipg_3/pggen_0/xor_0/inv_0/op ffipgarr_0/ffipg_3/ffi_1/q 0.27fF
-C811 ffipgarr_0/ffipg_0/ffi_0/q ffipgarr_0/ffipg_0/ffi_0/nand_6/w_0_0# 0.06fF
-C812 ffipgarr_0/ffipg_1/ffi_0/nand_0/w_0_0# vdd 0.10fF
-C813 ffipgarr_0/ffipg_1/ffi_1/nand_1/w_0_0# ffipgarr_0/ffipg_1/ffi_1/nand_1/b 0.06fF
-C814 ffipgarr_0/ffipg_1/pggen_0/xor_0/inv_1/op ffipgarr_0/ffipg_1/ffi_1/q 0.06fF
-C815 ffipgarr_0/ffipg_3/ffi_1/nand_6/a ffipgarr_0/ffipg_3/ffi_1/nand_6/w_0_0# 0.06fF
-C816 ffipgarr_0/ffipg_3/ffi_1/nand_3/w_0_0# ffipgarr_0/ffipg_3/ffi_1/nand_3/a 0.06fF
-C817 ffipgarr_0/ffipg_2/pggen_0/xor_0/w_n3_4# ffipgarr_0/ffipg_2/ffi_1/q 0.06fF
-C818 ffipgarr_0/ffipg_1/ffi_0/nand_1/w_0_0# ffipgarr_0/ffipg_1/ffi_0/nand_1/a 0.06fF
-C819 ffipgarr_0/k2 vdd 0.13fF
-C820 ffipgarr_0/ffipg_2/ffi_1/nand_6/w_0_0# ffipgarr_0/ffipg_2/ffi_1/nand_6/a 0.06fF
-C821 gnd ffipgarr_0/ffipg_3/ffi_1/nand_0/w_0_0# 0.00fF
-C822 y3in ffipgarr_0/ffipg_2/ffi_0/inv_0/w_0_6# 0.06fF
-C823 ffipgarr_0/ffipg_3/ffi_1/q ffipgarr_0/ffipg_3/ffi_1/nand_7/a 0.00fF
-C824 ffipgarr_0/ffipg_3/ffi_0/inv_1/op ffipgarr_0/ffipg_3/ffi_0/nand_6/a 0.13fF
-C825 ffipgarr_0/ffipg_1/ffi_0/nand_7/a vdd 0.34fF
-C826 gnd ffipgarr_0/ffipg_3/ffi_0/qbar 0.34fF
-C827 ffipgarr_0/k4 vdd 0.13fF
-C828 vdd ffipgarr_0/ffipg_2/ffi_1/nand_1/b 0.31fF
-C829 ffipgarr_0/ffipg_2/ffi_1/nand_1/w_0_0# ffipgarr_0/ffipg_2/ffi_1/nand_1/b 0.06fF
-C830 gnd ffipgarr_0/clk 6.93fF
-C831 vdd ffipgarr_0/ffipg_2/ffi_1/nand_6/a 0.34fF
-C832 vdd ffipgarr_0/ffipg_3/ffi_1/nand_7/w_0_0# 0.10fF
-C833 ffipgarr_0/ffipg_2/ffi_1/nand_0/w_0_0# ffipgarr_0/ffipg_2/ffi_1/inv_0/op 0.06fF
-C834 ffipgarr_0/ffipg_2/ffi_0/nand_3/w_0_0# ffipgarr_0/ffipg_2/ffi_0/nand_3/a 0.06fF
-C835 gnd ffipgarr_0/ffipg_1/ffi_1/nand_3/a 0.03fF
-C836 gnd ffipgarr_0/ffipg_1/ffi_0/nand_1/a 0.14fF
-C837 y3in vdd 0.04fF
-C838 ffipgarr_0/ffi_0/nand_1/w_0_0# ffipgarr_0/ffi_0/nand_1/b 0.06fF
-C839 ffipgarr_0/ffipg_1/ffi_0/nand_5/w_0_0# vdd 0.10fF
-C840 ffipgarr_0/ffipg_3/ffi_1/nand_5/w_0_0# ffipgarr_0/ffipg_3/ffi_1/nand_7/a 0.04fF
-C841 ffipgarr_0/ffipg_2/ffi_0/nand_6/a ffipgarr_0/ffipg_2/ffi_0/q 0.31fF
-C842 ffipgarr_0/ffipg_0/ffi_0/nand_3/b ffipgarr_0/ffipg_0/ffi_0/nand_3/a 0.31fF
-C843 ffipgarr_0/ffipg_2/ffi_1/nand_5/w_0_0# ffipgarr_0/ffipg_2/ffi_1/inv_1/op 0.06fF
-C844 cinin vdd 0.04fF
-C845 ffipgarr_0/ffipg_2/ffi_0/nand_1/w_0_0# vdd 0.10fF
-C846 x3in ffipgarr_0/ffipg_2/ffi_1/inv_0/op 0.04fF
-C847 ffipgarr_0/ffipg_3/ffi_1/nand_1/b ffipgarr_0/ffipg_3/ffi_1/nand_3/w_0_0# 0.04fF
-C848 ffipgarr_0/ffipg_2/ffi_0/nand_1/b ffipgarr_0/ffipg_2/ffi_0/nand_1/a 0.31fF
-C849 ffipgarr_0/ffipg_0/ffi_0/inv_0/op vdd 0.17fF
-C850 ffipgarr_0/ffi_0/nand_3/w_0_0# ffipgarr_0/ffi_0/nand_3/a 0.06fF
-C851 x3in ffipgarr_0/ffipg_2/ffi_1/inv_0/w_0_6# 0.06fF
-C852 ffipgarr_0/ffipg_3/pggen_0/xor_0/inv_0/op ffipgarr_0/ffipg_3/pggen_0/xor_0/inv_1/op 0.08fF
-C853 ffipgarr_0/ffipg_1/ffi_1/qbar ffipgarr_0/ffipg_1/ffi_1/nand_7/w_0_0# 0.06fF
-C854 ffipgarr_0/ffipg_2/ffi_1/nand_1/a ffipgarr_0/ffipg_2/ffi_1/nand_3/b 0.00fF
-C855 ffipgarr_0/ffipg_3/ffi_0/nand_6/w_0_0# ffipgarr_0/ffipg_3/ffi_0/qbar 0.04fF
-C856 ffipgarr_0/k2 ffipgarr_0/ffipg_1/pggen_0/xor_0/inv_1/op 0.52fF
-C857 ffipgarr_0/ffipg_3/ffi_0/nand_1/w_0_0# ffipgarr_0/ffipg_3/ffi_0/nand_1/a 0.06fF
-C858 ffipgarr_0/ffipg_0/ffi_0/nand_2/w_0_0# vdd 0.10fF
-C859 ffipgarr_0/ffi_0/nand_3/w_0_0# ffipgarr_0/ffi_0/nand_1/b 0.04fF
-C860 ffipgarr_0/ffipg_0/pggen_0/xor_0/w_n3_4# vdd 0.12fF
-C861 vdd ffipgarr_0/ffipg_3/ffi_1/nand_6/w_0_0# 0.10fF
-C862 ffipgarr_0/ffipg_0/pggen_0/xor_0/inv_0/op gnd 0.17fF
-C863 ffipgarr_0/ffipg_1/ffi_1/nand_1/a ffipgarr_0/clk 0.13fF
-C864 ffipgarr_0/ffipg_0/ffi_0/nand_3/a vdd 0.30fF
-C865 cinin ffipgarr_0/ffi_0/nand_2/w_0_0# 0.06fF
-C866 ffipgarr_0/ffipg_2/ffi_0/nand_4/w_0_0# ffipgarr_0/ffipg_2/ffi_0/inv_1/op 0.06fF
-C867 ffipgarr_0/ffipg_3/pggen_0/xor_0/inv_0/op ffipgarr_0/ffipg_3/ffi_0/q 0.20fF
-C868 ffipgarr_0/ffipg_1/ffi_1/qbar ffipgarr_0/ffipg_1/ffi_1/nand_7/a 0.31fF
-C869 ffipgarr_0/ffipg_2/ffi_1/nand_4/w_0_0# ffipgarr_0/ffipg_2/ffi_1/nand_3/b 0.06fF
-C870 ffipgarr_0/ffipg_3/ffi_0/nand_7/a ffipgarr_0/ffipg_3/ffi_0/nand_7/w_0_0# 0.06fF
-C871 ffipgarr_0/ffipg_2/ffi_0/nand_2/w_0_0# ffipgarr_0/clk 0.06fF
-C872 ffipgarr_0/ffipg_3/ffi_1/nand_1/b ffipgarr_0/ffipg_3/ffi_1/inv_1/op 0.45fF
-C873 ffipgarr_0/ffipg_2/ffi_1/nand_7/a ffipgarr_0/ffipg_2/ffi_1/qbar 0.31fF
-C874 ffipgarr_0/ffipg_2/ffi_1/nand_5/w_0_0# ffipgarr_0/ffipg_2/ffi_1/nand_7/a 0.04fF
-C875 ffipgarr_0/ffipg_2/ffi_1/inv_0/op vdd 0.17fF
-C876 ffipgarr_0/ffipg_1/ffi_1/nand_0/w_0_0# ffipgarr_0/clk 0.06fF
-C877 vdd ffipgarr_0/ffipg_2/ffi_1/inv_0/w_0_6# 0.06fF
-C878 ffipgarr_0/ffipg_1/pggen_0/xor_0/inv_0/w_0_6# ffipgarr_0/ffipg_1/ffi_1/q 0.06fF
-C879 ffipgarr_0/k4 ffipgarr_0/ffipg_3/pggen_0/nor_0/w_0_0# 0.21fF
-C880 ffipgarr_0/ffipg_2/ffi_0/inv_0/op ffipgarr_0/clk 0.32fF
-C881 ffipgarr_0/ffipg_2/pggen_0/xor_0/w_n3_4# ffipgarr_0/ffipg_2/pggen_0/xor_0/a_10_10# 0.16fF
-C882 ffipgarr_0/ffipg_1/ffi_1/nand_1/a ffipgarr_0/ffipg_1/ffi_1/nand_1/w_0_0# 0.06fF
-C883 ffipgarr_0/ffipg_0/ffi_1/inv_0/w_0_6# ffipgarr_0/ffipg_0/ffi_1/inv_0/op 0.03fF
-C884 ffipgarr_0/ffipg_1/ffi_1/nand_6/a vdd 0.34fF
-C885 ffipgarr_0/ffipg_0/ffi_1/q ffipgarr_0/ffipg_0/pggen_0/xor_0/inv_1/op 0.06fF
-C886 gnd ffipgarr_0/ffipg_3/ffi_1/nand_3/a 0.03fF
-C887 ffipgarr_0/clk ffipgarr_0/ffipg_2/ffi_1/nand_2/w_0_0# 0.06fF
-C888 gnd ffipgarr_0/ffipg_3/ffi_0/nand_1/a 0.03fF
-C889 gnd ffipgarr_0/ffipg_2/ffi_0/nand_3/b 0.35fF
-C890 ffipgarr_0/p1 gnd 0.18fF
-C891 ffipgarr_0/ffipg_1/ffi_1/inv_1/op ffipgarr_0/ffipg_1/ffi_1/nand_6/a 0.13fF
-C892 gnd ffipgarr_0/ffipg_3/ffi_0/nand_3/a 0.03fF
-C893 ffipgarr_0/ffipg_1/ffi_0/q ffipgarr_0/ffipg_1/ffi_0/qbar 0.32fF
-C894 ffipgarr_0/ffipg_0/ffi_0/q gnd 2.62fF
-C895 ffipgarr_0/ffipg_0/ffi_0/nand_1/a ffipgarr_0/ffipg_0/ffi_0/nand_3/b 0.00fF
-C896 ffipgarr_0/ffipg_0/ffi_0/inv_1/op ffipgarr_0/ffipg_0/ffi_0/nand_5/w_0_0# 0.06fF
-C897 vdd ffipgarr_0/ffipg_3/ffi_0/inv_1/op 1.63fF
-C898 ffipgarr_0/ffipg_3/ffi_0/nand_5/w_0_0# ffipgarr_0/ffipg_3/ffi_0/nand_7/a 0.04fF
-C899 ffipgarr_0/ffipg_1/ffi_0/nand_3/a ffipgarr_0/clk 0.13fF
-C900 ffipgarr_0/ffipg_0/ffi_0/nand_0/w_0_0# ffipgarr_0/clk 0.06fF
-C901 ffipgarr_0/ffipg_0/pggen_0/xor_0/inv_0/w_0_6# ffipgarr_0/ffipg_0/ffi_1/q 0.06fF
-C902 ffipgarr_0/ffipg_2/ffi_1/nand_0/w_0_0# ffipgarr_0/ffipg_2/ffi_1/nand_1/a 0.04fF
-C903 ffipgarr_0/ffipg_0/ffi_1/inv_0/op vdd 0.17fF
-C904 ffipgarr_0/ffipg_0/ffi_1/q ffipgarr_0/ffipg_0/ffi_1/qbar 0.32fF
-C905 gnd ffipgarr_0/g2 0.03fF
-C906 ffipgarr_0/ffipg_3/ffi_1/nand_3/a ffipgarr_0/ffipg_3/ffi_1/nand_3/b 0.31fF
-C907 ffipgarr_0/ffipg_2/pggen_0/nand_0/w_0_0# ffipgarr_0/ffipg_2/ffi_0/q 0.06fF
-C908 ffipgarr_0/ffi_0/nand_7/a ffipgarr_0/ffi_0/nand_5/w_0_0# 0.04fF
-C909 ffipgarr_0/ffipg_1/pggen_0/xor_0/inv_1/w_0_6# ffipgarr_0/ffipg_1/ffi_0/q 0.23fF
-C910 ffipgarr_0/ffipg_0/ffi_1/nand_6/a ffipgarr_0/ffipg_0/ffi_1/inv_1/op 0.13fF
-C911 ffipgarr_0/ffipg_2/ffi_1/q ffipgarr_0/ffipg_2/ffi_1/nand_6/a 0.31fF
-C912 ffipgarr_0/ffipg_0/ffi_1/nand_2/w_0_0# ffipgarr_0/clk 0.06fF
-C913 ffipgarr_0/ffipg_3/ffi_0/inv_1/op ffipgarr_0/ffipg_3/ffi_0/inv_1/w_0_6# 0.04fF
-C914 ffipgarr_0/ffi_0/nand_6/w_0_0# ffipgarr_0/cin 0.06fF
-C915 ffipgarr_0/ffipg_1/ffi_0/nand_6/w_0_0# vdd 0.10fF
-C916 ffipgarr_0/ffi_0/nand_6/a ffipgarr_0/cinbar 0.00fF
-C917 ffipgarr_0/ffipg_0/ffi_1/nand_1/b ffipgarr_0/ffipg_0/ffi_1/inv_1/op 0.45fF
-C918 ffipgarr_0/ffipg_3/ffi_0/nand_4/w_0_0# ffipgarr_0/ffipg_3/ffi_0/nand_3/b 0.06fF
-C919 ffipgarr_0/ffipg_3/pggen_0/xor_0/inv_0/op ffipgarr_0/ffipg_3/pggen_0/xor_0/inv_0/w_0_6# 0.03fF
-C920 ffipgarr_0/ffipg_2/ffi_0/nand_6/w_0_0# vdd 0.10fF
-C921 ffipgarr_0/ffipg_2/ffi_0/nand_1/b ffipgarr_0/ffipg_2/ffi_0/nand_7/a 0.13fF
-C922 vdd ffipgarr_0/ffipg_2/ffi_0/inv_1/w_0_6# 0.06fF
-C923 ffipgarr_0/ffipg_2/ffi_0/nand_7/w_0_0# ffipgarr_0/ffipg_2/ffi_0/nand_7/a 0.06fF
-C924 ffipgarr_0/ffipg_2/ffi_0/nand_5/w_0_0# ffipgarr_0/ffipg_2/ffi_0/nand_7/a 0.04fF
-C925 vdd ffipgarr_0/ffipg_3/ffi_1/inv_1/w_0_6# 0.06fF
-C926 gnd ffipgarr_0/ffipg_2/ffi_0/q 2.62fF
-C927 y4in ffipgarr_0/ffipg_3/ffi_0/inv_0/w_0_6# 0.06fF
-C928 ffipgarr_0/ffipg_2/pggen_0/xor_0/inv_1/op ffipgarr_0/ffipg_2/ffi_0/q 0.22fF
-C929 ffipgarr_0/ffipg_0/ffi_0/nand_1/a vdd 0.30fF
-C930 ffipgarr_0/ffipg_0/ffi_1/nand_3/a vdd 0.30fF
-C931 ffipgarr_0/ffipg_0/ffi_1/inv_1/op ffipgarr_0/ffipg_0/ffi_1/nand_3/b 0.33fF
-C932 gnd ffipgarr_0/ffipg_3/ffi_1/nand_1/b 0.26fF
-C933 ffipgarr_0/ffipg_2/ffi_1/nand_7/w_0_0# vdd 0.10fF
-C934 gnd ffipgarr_0/ffipg_2/ffi_0/nand_6/a 0.03fF
-C935 vdd ffipgarr_0/ffipg_2/ffi_1/nand_3/b 0.39fF
-C936 ffipgarr_0/p4 vdd 0.17fF
-C937 ffipgarr_0/ffipg_2/ffi_1/nand_1/w_0_0# ffipgarr_0/ffipg_2/ffi_1/nand_3/b 0.04fF
-C938 vdd ffipgarr_0/ffipg_3/ffi_0/nand_6/a 0.34fF
-C939 ffipgarr_0/ffipg_0/ffi_1/nand_1/w_0_0# ffipgarr_0/ffipg_0/ffi_1/nand_1/a 0.06fF
-C940 ffipgarr_0/ffipg_0/ffi_0/nand_5/w_0_0# vdd 0.10fF
-C941 ffipgarr_0/cinbar vdd 0.28fF
-C942 ffipgarr_0/clk ffipgarr_0/ffipg_2/ffi_1/inv_1/op 0.07fF
-C943 ffipgarr_0/ffipg_2/ffi_1/nand_1/a vdd 0.30fF
-C944 ffipgarr_0/ffipg_0/ffi_1/q ffipgarr_0/ffipg_0/pggen_0/nor_0/w_0_0# 0.06fF
-C945 ffipgarr_0/ffipg_0/ffi_0/inv_1/op ffipgarr_0/ffipg_0/ffi_0/nand_3/b 0.33fF
-C946 ffipgarr_0/k4 ffipgarr_0/ffipg_3/ffi_1/q 0.46fF
+C0 gnd ffipgarr_0/ffipg_2/ffi_1/nand_1/b 0.26fF
+C1 ffipgarr_0/ffi_0/inv_0/op cinin 0.04fF
+C2 ffipgarr_0/ffipg_2/ffi_1/nand_3/w_0_0# ffipgarr_0/ffipg_2/ffi_1/nand_3/a 0.06fF
+C3 x1in vdd 0.04fF
+C4 vdd ffipgarr_0/ffipg_0/ffi_1/nand_3/b 0.39fF
+C5 ffipgarr_0/ffipg_2/ffi_1/nand_3/b ffipgarr_0/ffipg_2/ffi_1/nand_1/w_0_0# 0.04fF
+C6 gnd ffipgarr_0/ffipg_3/ffi_1/inv_1/op 0.22fF
+C7 ffipgarr_0/ffipg_1/ffi_1/nand_5/w_0_0# ffipgarr_0/ffipg_1/ffi_1/inv_1/op 0.06fF
+C8 ffipgarr_0/ffipg_1/pggen_0/xor_0/w_n3_4# ffipgarr_0/ffipg_1/pggen_0/xor_0/a_10_10# 0.16fF
+C9 ffipgarr_0/ffipg_0/ffi_1/nand_2/w_0_0# ffipgarr_0/ffipg_0/ffi_1/nand_3/a 0.04fF
+C10 gnd ffipgarr_0/ffipg_2/ffi_0/q 2.62fF
+C11 ffipgarr_0/g2 vdd 0.28fF
+C12 ffipgarr_0/ffipg_0/ffi_1/nand_1/b ffipgarr_0/ffipg_0/ffi_1/nand_1/w_0_0# 0.06fF
+C13 ffipgarr_0/ffipg_2/ffi_1/q ffipgarr_0/ffipg_2/ffi_1/nand_6/a 0.31fF
+C14 ffipgarr_0/ffipg_1/ffi_0/inv_1/op ffipgarr_0/ffipg_1/ffi_0/nand_6/a 0.13fF
+C15 gnd ffipgarr_0/ffipg_2/ffi_0/nand_1/a 0.15fF
+C16 gnd ffipgarr_0/ffipg_3/ffi_1/nand_6/a 0.03fF
+C17 ffipgarr_0/ffipg_0/ffi_1/nand_1/b ffipgarr_0/ffipg_0/ffi_1/nand_1/a 0.31fF
+C18 ffipgarr_0/ffipg_2/ffi_1/nand_1/a vdd 0.30fF
+C19 ffipgarr_0/ffipg_2/ffi_0/nand_3/b ffipgarr_0/ffipg_2/ffi_0/nand_3/a 0.31fF
+C20 vdd ffipgarr_0/ffipg_1/ffi_1/nand_1/a 0.30fF
+C21 ffipgarr_0/ffipg_0/pggen_0/xor_0/inv_0/op vdd 0.15fF
+C22 clk ffipgarr_0/ffipg_3/ffi_1/inv_1/w_0_6# 0.06fF
+C23 ffipgarr_0/ffi_0/nand_1/a ffipgarr_0/ffi_0/nand_1/b 0.31fF
+C24 ffipgarr_0/ffipg_2/ffi_0/nand_2/w_0_0# clk 0.06fF
+C25 ffipgarr_0/ffipg_1/ffi_1/nand_3/a clk 0.13fF
+C26 ffipgarr_0/ffipg_0/ffi_0/nand_5/w_0_0# ffipgarr_0/ffipg_0/ffi_0/nand_1/b 0.06fF
+C27 ffipgarr_0/ffi_0/nand_1/a ffipgarr_0/ffi_0/nand_1/w_0_0# 0.06fF
+C28 ffipgarr_0/ffipg_1/ffi_0/nand_4/w_0_0# ffipgarr_0/ffipg_1/ffi_0/nand_6/a 0.04fF
+C29 ffipgarr_0/ffipg_0/pggen_0/xor_0/w_n3_4# ffipgarr_0/ffipg_0/pggen_0/xor_0/inv_1/op 0.06fF
+C30 ffipgarr_0/ffipg_3/ffi_0/q ffipgarr_0/ffipg_3/pggen_0/xor_0/inv_1/op 0.22fF
+C31 ffipgarr_0/ffipg_1/ffi_0/inv_1/op ffipgarr_0/ffipg_1/ffi_0/nand_5/w_0_0# 0.06fF
+C32 ffipgarr_0/ffipg_0/ffi_0/nand_3/a vdd 0.30fF
+C33 gnd ffipgarr_0/ffipg_2/ffi_1/qbar 0.34fF
+C34 ffipgarr_0/ffipg_0/ffi_0/q ffipgarr_0/ffipg_0/pggen_0/nor_0/w_0_0# 0.06fF
+C35 ffipgarr_0/ffipg_1/ffi_1/nand_3/b gnd 0.35fF
+C36 x1in clk 0.70fF
+C37 gnd ffipgarr_0/ffipg_1/ffi_0/nand_1/a 0.14fF
+C38 ffipgarr_0/ffipg_3/ffi_1/nand_1/a ffipgarr_0/ffipg_3/ffi_1/nand_1/w_0_0# 0.06fF
+C39 ffipgarr_0/ffipg_2/ffi_1/nand_2/w_0_0# ffipgarr_0/ffipg_2/ffi_1/nand_3/a 0.04fF
+C40 gnd ffipgarr_0/ffipg_1/ffi_1/inv_0/op 0.10fF
+C41 ffipgarr_0/ffipg_3/ffi_1/nand_6/a ffipgarr_0/ffipg_3/ffi_1/inv_1/op 0.13fF
+C42 gnd ffipgarr_0/ffipg_3/ffi_0/nand_7/a 0.03fF
+C43 gnd ffipgarr_0/ffipg_3/ffi_1/q 0.93fF
+C44 ffipgarr_0/ffipg_2/ffi_1/q ffipgarr_0/ffipg_2/pggen_0/xor_0/inv_0/op 0.27fF
+C45 ffipgarr_0/ffipg_2/ffi_0/nand_5/w_0_0# ffipgarr_0/ffipg_2/ffi_0/nand_1/b 0.06fF
+C46 ffipgarr_0/ffipg_2/ffi_1/nand_1/a clk 0.13fF
+C47 ffipgarr_0/ffipg_1/ffi_1/nand_1/a clk 0.13fF
+C48 ffipgarr_0/ffipg_1/ffi_0/nand_1/b ffipgarr_0/ffipg_1/ffi_0/nand_3/b 0.32fF
+C49 ffipgarr_0/ffipg_1/ffi_1/nand_1/a ffipgarr_0/ffipg_1/ffi_1/nand_1/w_0_0# 0.06fF
+C50 ffipgarr_0/ffipg_2/pggen_0/xor_0/inv_1/op ffipgarr_0/ffipg_2/pggen_0/xor_0/inv_0/op 0.08fF
+C51 ffipgarr_0/ffipg_0/ffi_0/inv_1/op ffipgarr_0/ffipg_0/ffi_0/nand_1/b 0.45fF
+C52 ffipgarr_0/ffipg_3/ffi_0/nand_1/w_0_0# ffipgarr_0/ffipg_3/ffi_0/nand_1/a 0.06fF
+C53 ffipgarr_0/ffipg_0/ffi_1/inv_1/op ffipgarr_0/ffipg_0/ffi_1/nand_4/w_0_0# 0.06fF
+C54 ffipgarr_0/ffipg_0/ffi_0/nand_3/w_0_0# ffipgarr_0/ffipg_0/ffi_0/nand_3/b 0.06fF
+C55 ffipgarr_0/p1 vdd 0.17fF
+C56 vdd ffipgarr_0/ffipg_3/ffi_0/inv_1/w_0_6# 0.06fF
+C57 ffipgarr_0/ffipg_0/ffi_0/nand_3/a clk 0.13fF
+C58 ffipgarr_0/ffipg_1/ffi_1/nand_3/w_0_0# ffipgarr_0/ffipg_1/ffi_1/nand_1/b 0.04fF
+C59 ffipgarr_0/ffipg_0/ffi_1/nand_7/a ffipgarr_0/ffipg_0/ffi_1/q 0.00fF
+C60 ffipgarr_0/ffipg_2/ffi_0/inv_1/op ffipgarr_0/ffipg_2/ffi_0/nand_3/b 0.33fF
+C61 vdd ffipgarr_0/ffipg_2/ffi_1/nand_6/a 0.34fF
+C62 ffipgarr_0/ffipg_2/ffi_1/nand_1/b ffipgarr_0/ffipg_2/ffi_1/nand_1/w_0_0# 0.06fF
+C63 ffipgarr_0/ffipg_0/pggen_0/xor_0/inv_0/w_0_6# vdd 0.09fF
+C64 ffipgarr_0/cin ffipgarr_0/ffi_0/nand_6/a 0.31fF
+C65 ffipgarr_0/ffipg_3/ffi_1/q ffipgarr_0/ffipg_3/pggen_0/xor_0/w_n3_4# 0.06fF
+C66 gnd cinin 0.19fF
+C67 ffipgarr_0/ffipg_0/ffi_0/inv_1/op ffipgarr_0/ffipg_0/ffi_0/nand_4/w_0_0# 0.06fF
+C68 ffipgarr_0/ffipg_0/ffi_0/nand_1/b ffipgarr_0/ffipg_0/ffi_0/nand_3/b 0.32fF
+C69 ffipgarr_0/ffipg_3/ffi_1/nand_6/a ffipgarr_0/ffipg_3/ffi_1/q 0.31fF
+C70 ffipgarr_0/ffipg_3/ffi_0/nand_3/b ffipgarr_0/ffipg_3/ffi_0/inv_1/op 0.33fF
+C71 ffipgarr_0/ffipg_1/ffi_1/nand_7/a ffipgarr_0/ffipg_1/ffi_1/q 0.00fF
+C72 ffipgarr_0/ffipg_0/ffi_1/nand_1/w_0_0# ffipgarr_0/ffipg_0/ffi_1/nand_3/b 0.04fF
+C73 ffipgarr_0/ffipg_1/ffi_0/nand_7/w_0_0# ffipgarr_0/ffipg_1/ffi_0/q 0.04fF
+C74 ffipgarr_0/ffipg_1/pggen_0/xor_0/inv_0/w_0_6# vdd 0.09fF
+C75 ffipgarr_0/k1 gnd 0.14fF
+C76 ffipgarr_0/ffipg_0/pggen_0/xor_0/inv_0/op ffipgarr_0/ffipg_0/ffi_0/q 0.20fF
+C77 ffipgarr_0/ffipg_1/ffi_0/nand_1/b vdd 0.31fF
+C78 ffipgarr_0/ffipg_1/ffi_0/inv_1/op ffipgarr_0/ffipg_1/ffi_0/nand_3/b 0.33fF
+C79 ffipgarr_0/ffipg_0/ffi_1/nand_1/a ffipgarr_0/ffipg_0/ffi_1/nand_3/b 0.00fF
+C80 clk ffipgarr_0/ffipg_3/ffi_0/inv_1/w_0_6# 0.06fF
+C81 ffipgarr_0/ffipg_0/ffi_0/nand_4/w_0_0# ffipgarr_0/ffipg_0/ffi_0/nand_3/b 0.06fF
+C82 gnd ffipgarr_0/ffipg_3/ffi_0/nand_3/b 0.35fF
+C83 ffipgarr_0/ffipg_2/pggen_0/xor_0/inv_0/op vdd 0.15fF
+C84 ffipgarr_0/ffipg_0/ffi_0/nand_2/w_0_0# ffipgarr_0/ffipg_0/ffi_0/nand_3/a 0.04fF
+C85 ffipgarr_0/ffipg_2/ffi_0/nand_1/b vdd 0.31fF
+C86 ffipgarr_0/ffipg_1/ffi_0/nand_4/w_0_0# ffipgarr_0/ffipg_1/ffi_0/nand_3/b 0.06fF
+C87 ffipgarr_0/ffi_0/nand_1/b ffipgarr_0/ffi_0/nand_3/w_0_0# 0.04fF
+C88 ffipgarr_0/ffipg_1/pggen_0/nor_0/a_13_6# ffipgarr_0/k2 0.01fF
+C89 ffipgarr_0/ffipg_2/ffi_1/nand_6/w_0_0# ffipgarr_0/ffipg_2/ffi_1/qbar 0.04fF
+C90 vdd ffipgarr_0/ffipg_3/ffi_1/nand_5/w_0_0# 0.10fF
+C91 gnd ffipgarr_0/ffipg_3/ffi_1/nand_1/b 0.26fF
+C92 ffipgarr_0/ffipg_3/ffi_0/q ffipgarr_0/ffipg_3/ffi_0/qbar 0.32fF
+C93 ffipgarr_0/ffipg_2/ffi_1/q ffipgarr_0/ffipg_2/pggen_0/xor_0/inv_0/w_0_6# 0.06fF
+C94 gnd ffipgarr_0/p3 0.18fF
+C95 ffipgarr_0/ffipg_1/ffi_0/nand_7/a ffipgarr_0/ffipg_1/ffi_0/nand_5/w_0_0# 0.04fF
+C96 ffipgarr_0/ffipg_0/ffi_0/q ffipgarr_0/p1 0.03fF
+C97 ffipgarr_0/ffipg_0/pggen_0/nand_0/w_0_0# ffipgarr_0/g1 0.04fF
+C98 ffipgarr_0/ffipg_2/ffi_0/inv_1/op ffipgarr_0/ffipg_2/ffi_0/nand_5/w_0_0# 0.06fF
+C99 cinin ffipgarr_0/ffi_0/nand_2/w_0_0# 0.06fF
+C100 ffipgarr_0/ffipg_3/ffi_1/nand_3/w_0_0# ffipgarr_0/ffipg_3/ffi_1/nand_3/b 0.06fF
+C101 vdd ffipgarr_0/ffipg_2/ffi_0/nand_3/a 0.30fF
+C102 ffipgarr_0/ffipg_2/ffi_1/nand_2/w_0_0# x3in 0.06fF
+C103 ffipgarr_0/ffipg_1/ffi_0/inv_1/op vdd 1.63fF
+C104 ffipgarr_0/ffipg_0/ffi_1/nand_1/b ffipgarr_0/ffipg_0/ffi_1/nand_3/b 0.32fF
+C105 vdd ffipgarr_0/ffipg_3/ffi_0/nand_1/b 0.31fF
+C106 ffipgarr_0/ffipg_2/ffi_0/q ffipgarr_0/ffipg_2/ffi_0/nand_6/w_0_0# 0.06fF
+C107 ffipgarr_0/ffipg_3/ffi_1/nand_1/b ffipgarr_0/ffipg_3/ffi_1/inv_1/op 0.45fF
+C108 vdd ffipgarr_0/ffipg_2/ffi_0/inv_1/w_0_6# 0.06fF
+C109 vdd ffipgarr_0/ffipg_2/ffi_1/nand_4/w_0_0# 0.10fF
+C110 vdd ffipgarr_0/ffipg_3/ffi_0/nand_7/w_0_0# 0.10fF
+C111 ffipgarr_0/ffipg_3/pggen_0/xor_0/inv_1/w_0_6# ffipgarr_0/ffipg_3/pggen_0/xor_0/inv_1/op 0.03fF
+C112 ffipgarr_0/ffipg_2/ffi_0/q ffipgarr_0/p3 0.03fF
+C113 ffipgarr_0/ffipg_1/ffi_0/nand_4/w_0_0# vdd 0.10fF
+C114 ffipgarr_0/ffi_0/nand_6/w_0_0# ffipgarr_0/cin 0.06fF
+C115 ffipgarr_0/ffipg_1/pggen_0/xor_0/inv_0/op vdd 0.15fF
+C116 gnd ffipgarr_0/ffipg_0/pggen_0/xor_0/inv_1/op 0.20fF
+C117 ffipgarr_0/ffipg_3/pggen_0/nand_0/w_0_0# ffipgarr_0/ffipg_3/ffi_1/q 0.06fF
+C118 vdd ffipgarr_0/cin 0.28fF
+C119 ffipgarr_0/ffipg_1/ffi_0/nand_6/w_0_0# ffipgarr_0/ffipg_1/ffi_0/qbar 0.04fF
+C120 ffipgarr_0/ffipg_2/ffi_1/nand_1/b ffipgarr_0/ffipg_2/ffi_1/nand_5/w_0_0# 0.06fF
+C121 ffipgarr_0/g2 ffipgarr_0/ffipg_1/ffi_0/q 0.13fF
+C122 ffipgarr_0/ffipg_2/ffi_1/inv_1/op vdd 1.63fF
+C123 vdd ffipgarr_0/k2 0.13fF
+C124 ffipgarr_0/ffi_0/nand_1/a ffipgarr_0/ffi_0/nand_0/w_0_0# 0.04fF
+C125 vdd ffipgarr_0/ffipg_0/ffi_1/nand_7/w_0_0# 0.10fF
+C126 ffipgarr_0/ffipg_2/ffi_0/nand_3/a clk 0.13fF
+C127 vdd ffipgarr_0/ffipg_3/ffi_0/inv_0/w_0_6# 0.06fF
+C128 ffipgarr_0/ffipg_1/ffi_0/inv_1/op clk 0.07fF
+C129 gnd ffipgarr_0/ffipg_1/ffi_0/qbar 0.34fF
+C130 ffipgarr_0/ffipg_3/ffi_1/q ffipgarr_0/ffipg_3/ffi_1/nand_7/w_0_0# 0.04fF
+C131 gnd ffipgarr_0/ffi_0/nand_1/b 0.26fF
+C132 y3in ffipgarr_0/ffipg_2/ffi_0/inv_0/op 0.04fF
+C133 vdd ffipgarr_0/ffipg_1/pggen_0/xor_0/inv_1/w_0_6# 0.06fF
+C134 vdd ffipgarr_0/ffipg_3/ffi_1/qbar 0.33fF
+C135 gnd ffipgarr_0/cinbar 0.34fF
+C136 ffipgarr_0/ffipg_2/ffi_0/inv_1/w_0_6# clk 0.06fF
+C137 ffipgarr_0/ffipg_3/ffi_0/nand_3/w_0_0# ffipgarr_0/ffipg_3/ffi_0/nand_1/b 0.04fF
+C138 ffipgarr_0/ffipg_2/ffi_0/nand_7/a ffipgarr_0/ffipg_2/ffi_0/nand_1/b 0.13fF
+C139 ffipgarr_0/ffipg_2/pggen_0/xor_0/inv_0/w_0_6# vdd 0.09fF
+C140 vdd ffipgarr_0/ffipg_1/ffi_1/inv_1/op 1.63fF
+C141 gnd ffipgarr_0/ffipg_0/ffi_0/nand_6/a 0.03fF
+C142 ffipgarr_0/ffipg_2/ffi_0/inv_1/op vdd 1.63fF
+C143 x2in vdd 0.04fF
+C144 y4in ffipgarr_0/ffipg_3/ffi_0/inv_1/op 0.01fF
+C145 gnd y3in 0.19fF
+C146 ffipgarr_0/ffipg_2/ffi_1/inv_1/op clk 0.07fF
+C147 vdd ffipgarr_0/p4 0.17fF
+C148 ffipgarr_0/ffipg_3/ffi_0/q gnd 2.62fF
+C149 ffipgarr_0/ffipg_0/ffi_0/nand_1/a ffipgarr_0/ffipg_0/ffi_0/nand_1/b 0.31fF
+C150 ffipgarr_0/ffipg_1/pggen_0/xor_0/inv_1/op vdd 0.15fF
+C151 ffipgarr_0/ffipg_0/ffi_1/qbar ffipgarr_0/ffipg_0/ffi_1/nand_7/w_0_0# 0.06fF
+C152 ffipgarr_0/ffipg_0/ffi_1/nand_6/a vdd 0.34fF
+C153 ffipgarr_0/ffipg_0/ffi_0/nand_6/w_0_0# ffipgarr_0/ffipg_0/ffi_0/nand_6/a 0.06fF
+C154 ffipgarr_0/ffipg_0/ffi_0/nand_5/w_0_0# vdd 0.10fF
+C155 gnd y4in 0.19fF
+C156 y2in vdd 0.04fF
+C157 ffipgarr_0/ffipg_0/pggen_0/xor_0/a_10_10# vdd 0.93fF
+C158 ffipgarr_0/ffipg_1/ffi_1/inv_1/op clk 0.07fF
+C159 ffipgarr_0/ffipg_2/ffi_0/inv_1/op clk 0.07fF
+C160 x2in clk 0.70fF
+C161 gnd ffipgarr_0/ffipg_1/ffi_1/nand_1/b 0.26fF
+C162 vdd ffipgarr_0/ffipg_1/ffi_0/inv_0/op 0.17fF
+C163 gnd ffipgarr_0/ffipg_3/ffi_1/nand_0/w_0_0# 0.00fF
+C164 ffipgarr_0/ffipg_0/pggen_0/xor_0/inv_1/w_0_6# vdd 0.06fF
+C165 ffipgarr_0/ffipg_2/ffi_1/nand_3/w_0_0# ffipgarr_0/ffipg_2/ffi_1/nand_3/b 0.06fF
+C166 ffipgarr_0/k3 ffipgarr_0/ffipg_2/pggen_0/xor_0/a_10_10# 0.45fF
+C167 ffipgarr_0/ffipg_1/ffi_0/nand_3/w_0_0# ffipgarr_0/ffipg_1/ffi_0/nand_3/b 0.06fF
+C168 ffipgarr_0/ffipg_3/pggen_0/xor_0/inv_0/op vdd 0.15fF
+C169 ffipgarr_0/ffipg_1/ffi_0/nand_7/a vdd 0.34fF
+C170 ffipgarr_0/ffipg_0/pggen_0/nor_0/w_0_0# ffipgarr_0/p1 0.05fF
+C171 ffipgarr_0/ffipg_3/ffi_0/q ffipgarr_0/ffipg_3/pggen_0/xor_0/w_n3_4# 0.06fF
+C172 ffipgarr_0/ffipg_3/ffi_0/nand_1/w_0_0# ffipgarr_0/ffipg_3/ffi_0/nand_1/b 0.06fF
+C173 ffipgarr_0/ffipg_2/ffi_1/nand_3/a vdd 0.30fF
+C174 ffipgarr_0/ffipg_0/ffi_0/inv_1/op vdd 1.63fF
+C175 ffipgarr_0/ffi_0/inv_0/op ffipgarr_0/ffi_0/nand_0/w_0_0# 0.06fF
+C176 gnd ffipgarr_0/ffi_0/nand_7/a 0.03fF
+C177 y2in clk 0.70fF
+C178 ffipgarr_0/ffipg_2/pggen_0/nor_0/w_0_0# ffipgarr_0/ffipg_2/ffi_0/q 0.06fF
+C179 gnd ffipgarr_0/ffipg_1/ffi_0/nand_0/a_13_n26# 0.01fF
+C180 ffipgarr_0/k3 ffipgarr_0/ffipg_2/pggen_0/nor_0/a_13_6# 0.01fF
+C181 ffipgarr_0/ffipg_0/ffi_1/nand_0/w_0_0# vdd 0.10fF
+C182 ffipgarr_0/ffipg_0/ffi_1/q vdd 1.31fF
+C183 ffipgarr_0/ffipg_2/pggen_0/xor_0/w_n3_4# ffipgarr_0/ffipg_2/pggen_0/xor_0/a_10_10# 0.16fF
+C184 ffipgarr_0/ffipg_0/ffi_0/qbar vdd 0.33fF
+C185 ffipgarr_0/ffipg_1/ffi_0/inv_0/op clk 0.32fF
+C186 ffipgarr_0/ffipg_0/ffi_1/nand_6/a ffipgarr_0/ffipg_0/ffi_1/qbar 0.00fF
+C187 ffipgarr_0/ffipg_3/ffi_1/nand_3/a ffipgarr_0/ffipg_3/ffi_1/nand_3/b 0.31fF
+C188 ffipgarr_0/ffipg_1/ffi_1/q vdd 1.31fF
+C189 ffipgarr_0/ffipg_0/ffi_1/nand_2/w_0_0# vdd 0.10fF
+C190 ffipgarr_0/k1 ffipgarr_0/ffipg_0/pggen_0/xor_0/inv_1/op 0.52fF
+C191 ffipgarr_0/ffipg_3/ffi_0/q ffipgarr_0/ffipg_3/ffi_0/nand_7/a 0.00fF
+C192 vdd ffipgarr_0/ffipg_0/ffi_0/nand_3/b 0.39fF
+C193 ffipgarr_0/ffipg_0/pggen_0/nand_0/w_0_0# vdd 0.10fF
+C194 ffipgarr_0/ffipg_3/ffi_0/q ffipgarr_0/ffipg_3/ffi_1/q 0.73fF
+C195 gnd ffipgarr_0/ffipg_3/ffi_0/nand_3/a 0.03fF
+C196 ffipgarr_0/ffipg_1/ffi_1/nand_6/w_0_0# vdd 0.10fF
+C197 gnd ffipgarr_0/ffipg_0/ffi_1/nand_3/a 0.03fF
+C198 ffipgarr_0/ffipg_1/ffi_0/nand_3/w_0_0# vdd 0.11fF
+C199 ffipgarr_0/ffipg_0/ffi_1/inv_1/w_0_6# vdd 0.06fF
+C200 ffipgarr_0/ffipg_2/ffi_1/nand_3/a clk 0.13fF
+C201 ffipgarr_0/ffipg_1/ffi_1/nand_3/b ffipgarr_0/ffipg_1/ffi_1/nand_1/b 0.32fF
+C202 ffipgarr_0/ffipg_0/ffi_0/inv_1/op clk 0.07fF
+C203 ffipgarr_0/ffipg_1/ffi_0/nand_1/b ffipgarr_0/ffipg_1/ffi_0/nand_1/w_0_0# 0.06fF
+C204 vdd ffipgarr_0/ffipg_3/ffi_1/nand_7/a 0.34fF
+C205 ffipgarr_0/ffipg_0/ffi_1/nand_0/w_0_0# clk 0.06fF
+C206 ffipgarr_0/ffipg_0/ffi_0/q ffipgarr_0/ffipg_0/pggen_0/xor_0/a_10_10# 0.12fF
+C207 ffipgarr_0/ffipg_2/ffi_0/nand_3/b ffipgarr_0/ffipg_2/ffi_0/nand_1/w_0_0# 0.04fF
+C208 ffipgarr_0/k3 gnd 0.14fF
+C209 gnd ffipgarr_0/ffipg_2/ffi_0/nand_6/a 0.03fF
+C210 ffipgarr_0/ffipg_0/ffi_1/nand_2/w_0_0# clk 0.06fF
+C211 ffipgarr_0/ffipg_2/ffi_1/qbar ffipgarr_0/ffipg_2/ffi_1/nand_7/w_0_0# 0.06fF
+C212 ffipgarr_0/ffipg_0/ffi_1/q ffipgarr_0/ffipg_0/ffi_1/qbar 0.32fF
+C213 ffipgarr_0/ffipg_2/ffi_1/nand_1/b ffipgarr_0/ffipg_2/ffi_1/nand_3/w_0_0# 0.04fF
+C214 ffipgarr_0/ffipg_0/ffi_0/q ffipgarr_0/ffipg_0/pggen_0/xor_0/inv_1/w_0_6# 0.23fF
+C215 ffipgarr_0/ffipg_0/pggen_0/xor_0/inv_0/op ffipgarr_0/ffipg_0/pggen_0/xor_0/inv_0/w_0_6# 0.03fF
+C216 ffipgarr_0/ffipg_1/ffi_0/inv_1/w_0_6# vdd 0.06fF
+C217 ffipgarr_0/ffipg_1/ffi_1/nand_7/w_0_0# ffipgarr_0/ffipg_1/ffi_1/q 0.04fF
+C218 ffipgarr_0/ffipg_0/ffi_1/inv_1/w_0_6# clk 0.06fF
+C219 gnd ffipgarr_0/ffipg_1/ffi_1/nand_0/a_13_n26# 0.01fF
+C220 ffipgarr_0/ffipg_3/ffi_0/nand_5/w_0_0# vdd 0.10fF
+C221 ffipgarr_0/ffipg_3/ffi_0/nand_1/a ffipgarr_0/ffipg_3/ffi_0/nand_1/b 0.31fF
+C222 ffipgarr_0/ffipg_1/pggen_0/xor_0/inv_0/op ffipgarr_0/ffipg_1/ffi_0/q 0.20fF
+C223 x3in ffipgarr_0/ffipg_2/ffi_1/inv_0/w_0_6# 0.06fF
+C224 gnd ffipgarr_0/ffipg_3/ffi_0/inv_0/op 0.10fF
+C225 ffipgarr_0/ffipg_0/ffi_0/nand_7/a ffipgarr_0/ffipg_0/ffi_0/nand_5/w_0_0# 0.04fF
+C226 ffipgarr_0/ffipg_2/ffi_1/inv_0/op ffipgarr_0/ffipg_2/ffi_1/inv_0/w_0_6# 0.03fF
+C227 ffipgarr_0/ffipg_3/pggen_0/nand_0/w_0_0# ffipgarr_0/ffipg_3/ffi_0/q 0.06fF
+C228 ffipgarr_0/k3 ffipgarr_0/ffipg_2/ffi_0/q 0.07fF
+C229 gnd ffipgarr_0/ffi_0/nand_0/w_0_0# 0.00fF
+C230 ffipgarr_0/ffipg_2/ffi_0/q ffipgarr_0/ffipg_2/ffi_0/nand_6/a 0.31fF
+C231 ffipgarr_0/ffipg_1/ffi_0/q ffipgarr_0/k2 0.07fF
+C232 ffipgarr_0/ffipg_0/ffi_0/q ffipgarr_0/ffipg_0/ffi_1/q 0.73fF
+C233 ffipgarr_0/ffi_0/nand_1/b ffipgarr_0/ffi_0/nand_5/w_0_0# 0.06fF
+C234 ffipgarr_0/ffipg_0/ffi_0/q ffipgarr_0/ffipg_0/ffi_0/qbar 0.32fF
+C235 ffipgarr_0/ffipg_1/ffi_1/qbar ffipgarr_0/ffipg_1/ffi_1/q 0.32fF
+C236 ffipgarr_0/ffipg_3/ffi_0/nand_6/a ffipgarr_0/ffipg_3/ffi_0/qbar 0.00fF
+C237 ffipgarr_0/ffipg_1/ffi_0/q ffipgarr_0/ffipg_1/pggen_0/xor_0/inv_1/w_0_6# 0.23fF
+C238 ffipgarr_0/ffipg_0/ffi_0/q ffipgarr_0/ffipg_0/pggen_0/nand_0/w_0_0# 0.06fF
+C239 ffipgarr_0/ffipg_1/ffi_1/nand_6/w_0_0# ffipgarr_0/ffipg_1/ffi_1/qbar 0.04fF
+C240 ffipgarr_0/ffipg_1/ffi_0/inv_1/w_0_6# clk 0.06fF
+C241 gnd ffipgarr_0/ffipg_0/ffi_0/nand_1/b 0.26fF
+C242 ffipgarr_0/ffipg_2/ffi_0/nand_2/w_0_0# ffipgarr_0/ffipg_2/ffi_0/nand_3/a 0.04fF
+C243 ffipgarr_0/ffipg_2/pggen_0/xor_0/w_n3_4# ffipgarr_0/ffipg_2/ffi_0/q 0.06fF
+C244 vdd x3in 0.04fF
+C245 ffipgarr_0/ffipg_0/ffi_1/nand_7/a gnd 0.03fF
+C246 ffipgarr_0/k4 ffipgarr_0/p4 0.05fF
+C247 vdd ffipgarr_0/ffipg_2/ffi_1/inv_0/op 0.17fF
+C248 ffipgarr_0/cin ffipgarr_0/ffi_0/nand_7/w_0_0# 0.04fF
+C249 ffipgarr_0/ffipg_0/ffi_1/nand_0/w_0_0# ffipgarr_0/ffipg_0/ffi_1/nand_1/a 0.04fF
+C250 ffipgarr_0/ffipg_0/ffi_0/inv_0/op vdd 0.17fF
+C251 ffipgarr_0/ffipg_3/pggen_0/xor_0/inv_0/w_0_6# ffipgarr_0/ffipg_3/ffi_1/q 0.06fF
+C252 gnd ffipgarr_0/ffipg_1/ffi_1/nand_7/a 0.03fF
+C253 vdd ffipgarr_0/ffipg_3/pggen_0/xor_0/inv_1/op 0.15fF
+C254 ffipgarr_0/ffipg_0/ffi_0/inv_1/op ffipgarr_0/ffipg_0/ffi_0/inv_1/w_0_6# 0.04fF
+C255 ffipgarr_0/ffipg_0/ffi_0/nand_7/a ffipgarr_0/ffipg_0/ffi_0/qbar 0.31fF
+C256 ffipgarr_0/ffipg_2/ffi_1/nand_0/w_0_0# vdd 0.10fF
+C257 ffipgarr_0/ffipg_0/ffi_1/inv_1/op vdd 1.63fF
+C258 ffipgarr_0/ffipg_2/pggen_0/nor_0/w_0_0# ffipgarr_0/p3 0.05fF
+C259 ffipgarr_0/ffipg_1/pggen_0/xor_0/inv_1/op ffipgarr_0/ffipg_1/ffi_0/q 0.22fF
+C260 ffipgarr_0/ffipg_3/pggen_0/nor_0/w_0_0# ffipgarr_0/ffipg_3/ffi_1/q 0.06fF
+C261 ffipgarr_0/ffipg_2/ffi_0/q ffipgarr_0/ffipg_2/pggen_0/nand_0/w_0_0# 0.06fF
+C262 ffipgarr_0/ffipg_1/ffi_1/inv_0/w_0_6# x2in 0.06fF
+C263 ffipgarr_0/ffipg_1/ffi_1/nand_3/w_0_0# vdd 0.11fF
+C264 ffipgarr_0/ffi_0/nand_1/a vdd 0.30fF
+C265 ffipgarr_0/k4 ffipgarr_0/ffipg_3/pggen_0/xor_0/inv_0/op 0.06fF
+C266 x3in clk 0.70fF
+C267 ffipgarr_0/ffipg_1/ffi_0/nand_0/w_0_0# vdd 0.10fF
+C268 ffipgarr_0/ffi_0/nand_1/w_0_0# ffipgarr_0/ffi_0/nand_1/b 0.06fF
+C269 gnd ffipgarr_0/ffipg_1/ffi_1/nand_0/w_0_0# 0.00fF
+C270 vdd ffipgarr_0/ffipg_3/ffi_1/nand_4/w_0_0# 0.10fF
+C271 ffipgarr_0/ffipg_2/ffi_1/inv_0/op clk 0.32fF
+C272 ffipgarr_0/ffipg_1/ffi_0/nand_7/a ffipgarr_0/ffipg_1/ffi_0/nand_7/w_0_0# 0.06fF
+C273 ffipgarr_0/ffipg_0/ffi_1/nand_5/w_0_0# ffipgarr_0/ffipg_0/ffi_1/inv_1/op 0.06fF
+C274 ffipgarr_0/ffipg_0/ffi_0/inv_0/op clk 0.32fF
+C275 vdd ffipgarr_0/ffipg_3/ffi_1/nand_3/b 0.39fF
+C276 ffipgarr_0/ffi_0/nand_1/a ffipgarr_0/ffi_0/nand_3/b 0.00fF
+C277 ffipgarr_0/g1 gnd 0.03fF
+C278 ffipgarr_0/ffipg_1/ffi_0/nand_7/a ffipgarr_0/ffipg_1/ffi_0/q 0.00fF
+C279 ffipgarr_0/ffipg_1/ffi_0/nand_6/w_0_0# ffipgarr_0/ffipg_1/ffi_0/nand_6/a 0.06fF
+C280 ffipgarr_0/ffipg_3/ffi_0/nand_6/a ffipgarr_0/ffipg_3/ffi_0/inv_1/op 0.13fF
+C281 ffipgarr_0/ffipg_3/ffi_0/nand_3/b ffipgarr_0/ffipg_3/ffi_0/nand_3/a 0.31fF
+C282 ffipgarr_0/ffipg_0/ffi_0/nand_1/a vdd 0.30fF
+C283 ffipgarr_0/ffipg_2/ffi_1/nand_0/w_0_0# clk 0.06fF
+C284 ffipgarr_0/ffi_0/nand_5/w_0_0# ffipgarr_0/ffi_0/nand_7/a 0.04fF
+C285 ffipgarr_0/ffipg_0/ffi_1/inv_1/op clk 0.07fF
+C286 ffipgarr_0/ffipg_0/pggen_0/xor_0/w_n3_4# vdd 0.12fF
+C287 gnd ffipgarr_0/ffipg_1/ffi_0/nand_6/a 0.03fF
+C288 gnd ffipgarr_0/ffipg_3/ffi_1/nand_3/a 0.03fF
+C289 ffipgarr_0/ffi_0/nand_1/a clk 0.13fF
+C290 ffipgarr_0/ffipg_3/ffi_1/nand_3/a ffipgarr_0/ffipg_3/ffi_1/nand_2/w_0_0# 0.04fF
+C291 vdd ffipgarr_0/ffipg_2/ffi_0/nand_1/w_0_0# 0.10fF
+C292 gnd ffipgarr_0/ffipg_2/ffi_0/nand_3/b 0.35fF
+C293 ffipgarr_0/ffipg_1/ffi_0/nand_0/w_0_0# clk 0.06fF
+C294 ffipgarr_0/k1 ffipgarr_0/ffipg_0/pggen_0/nor_0/a_13_6# 0.01fF
+C295 vdd ffipgarr_0/ffipg_3/ffi_1/nand_6/w_0_0# 0.10fF
+C296 gnd ffipgarr_0/ffipg_3/ffi_0/nand_6/a 0.03fF
+C297 ffipgarr_0/ffipg_3/ffi_1/nand_1/b ffipgarr_0/ffipg_3/ffi_1/nand_3/w_0_0# 0.04fF
+C298 ffipgarr_0/ffipg_1/ffi_0/q ffipgarr_0/ffipg_1/ffi_1/q 0.73fF
+C299 vdd ffipgarr_0/ffipg_1/pggen_0/xor_0/a_10_10# 0.93fF
+C300 ffipgarr_0/ffipg_0/ffi_0/nand_1/a clk 0.13fF
+C301 ffipgarr_0/ffipg_2/pggen_0/xor_0/inv_1/w_0_6# ffipgarr_0/ffipg_2/ffi_0/q 0.23fF
+C302 ffipgarr_0/ffipg_2/ffi_0/nand_6/w_0_0# ffipgarr_0/ffipg_2/ffi_0/nand_6/a 0.06fF
+C303 ffipgarr_0/ffipg_0/pggen_0/nor_0/w_0_0# ffipgarr_0/ffipg_0/ffi_1/q 0.06fF
+C304 ffipgarr_0/ffipg_2/ffi_1/nand_6/a ffipgarr_0/ffipg_2/ffi_1/nand_4/w_0_0# 0.04fF
+C305 gnd ffipgarr_0/ffi_0/inv_1/op 0.22fF
+C306 ffipgarr_0/k3 ffipgarr_0/p3 0.05fF
+C307 ffipgarr_0/ffipg_1/ffi_1/nand_0/w_0_0# ffipgarr_0/ffipg_1/ffi_1/inv_0/op 0.06fF
+C308 ffipgarr_0/ffipg_2/ffi_0/nand_3/b ffipgarr_0/ffipg_2/ffi_0/nand_1/a 0.00fF
+C309 gnd ffipgarr_0/ffi_0/nand_6/a 0.03fF
+C310 ffipgarr_0/ffipg_1/ffi_0/nand_1/b ffipgarr_0/ffipg_1/ffi_0/inv_1/op 0.45fF
+C311 ffipgarr_0/ffi_0/nand_1/b ffipgarr_0/ffi_0/nand_7/a 0.13fF
+C312 vdd ffipgarr_0/ffipg_3/ffi_0/qbar 0.33fF
+C313 ffipgarr_0/ffipg_0/ffi_0/nand_1/w_0_0# ffipgarr_0/ffipg_0/ffi_0/nand_1/b 0.06fF
+C314 ffipgarr_0/ffi_0/nand_7/a ffipgarr_0/cinbar 0.31fF
+C315 ffipgarr_0/ffipg_2/ffi_1/inv_1/op ffipgarr_0/ffipg_2/ffi_1/nand_6/a 0.13fF
+C316 gnd ffipgarr_0/ffipg_2/ffi_0/qbar 0.34fF
+C317 ffipgarr_0/ffi_0/inv_0/op vdd 0.17fF
+C318 ffipgarr_0/ffipg_1/pggen_0/xor_0/inv_0/w_0_6# ffipgarr_0/ffipg_1/pggen_0/xor_0/inv_0/op 0.03fF
+C319 vdd ffipgarr_0/ffipg_1/ffi_1/nand_2/w_0_0# 0.10fF
+C320 vdd ffipgarr_0/ffi_0/nand_3/w_0_0# 0.11fF
+C321 gnd ffipgarr_0/ffipg_2/ffi_1/q 0.93fF
+C322 ffipgarr_0/ffipg_0/ffi_1/inv_0/op vdd 0.17fF
+C323 ffipgarr_0/ffipg_0/ffi_0/nand_0/w_0_0# vdd 0.10fF
+C324 ffipgarr_0/ffipg_0/ffi_0/q ffipgarr_0/ffipg_0/pggen_0/xor_0/w_n3_4# 0.06fF
+C325 ffipgarr_0/ffipg_3/ffi_1/nand_1/a ffipgarr_0/ffipg_3/ffi_1/nand_3/b 0.00fF
+C326 ffipgarr_0/ffipg_1/ffi_1/nand_4/w_0_0# vdd 0.10fF
+C327 vdd ffipgarr_0/ffipg_2/pggen_0/xor_0/a_10_10# 0.93fF
+C328 ffipgarr_0/ffi_0/inv_0/op ffipgarr_0/ffi_0/inv_0/w_0_6# 0.03fF
+C329 ffipgarr_0/ffipg_1/ffi_0/nand_3/a ffipgarr_0/ffipg_1/ffi_0/nand_3/b 0.31fF
+C330 vdd ffipgarr_0/ffipg_2/ffi_1/nand_3/b 0.39fF
+C331 gnd ffipgarr_0/ffipg_2/pggen_0/xor_0/inv_1/op 0.20fF
+C332 ffipgarr_0/ffipg_0/ffi_1/nand_2/w_0_0# x1in 0.06fF
+C333 ffipgarr_0/ffipg_2/ffi_0/q ffipgarr_0/ffipg_2/ffi_0/qbar 0.32fF
+C334 ffipgarr_0/ffi_0/nand_3/b ffipgarr_0/ffi_0/nand_3/w_0_0# 0.06fF
+C335 gnd ffipgarr_0/g4 0.03fF
+C336 ffipgarr_0/ffi_0/inv_0/op clk 0.32fF
+C337 ffipgarr_0/ffipg_0/pggen_0/xor_0/inv_0/op ffipgarr_0/ffipg_0/ffi_1/q 0.27fF
+C338 gnd ffipgarr_0/ffipg_1/ffi_0/nand_3/b 0.35fF
+C339 ffipgarr_0/p3 ffipgarr_0/ffipg_2/pggen_0/nand_0/w_0_0# 0.24fF
+C340 ffipgarr_0/ffipg_1/pggen_0/nand_0/w_0_0# vdd 0.10fF
+C341 gnd x4in 0.19fF
+C342 ffipgarr_0/ffipg_1/ffi_1/nand_2/w_0_0# clk 0.06fF
+C343 ffipgarr_0/ffipg_2/ffi_0/q ffipgarr_0/ffipg_2/ffi_1/q 0.73fF
+C344 gnd ffipgarr_0/ffipg_3/ffi_1/inv_0/op 0.10fF
+C345 ffipgarr_0/ffipg_3/ffi_1/nand_2/w_0_0# x4in 0.06fF
+C346 ffipgarr_0/k4 ffipgarr_0/ffipg_3/pggen_0/xor_0/inv_1/op 0.52fF
+C347 ffipgarr_0/ffipg_0/ffi_1/inv_1/op ffipgarr_0/ffipg_0/ffi_1/nand_1/b 0.45fF
+C348 ffipgarr_0/ffipg_0/ffi_0/nand_0/w_0_0# clk 0.06fF
+C349 gnd ffipgarr_0/ffipg_2/ffi_1/nand_7/a 0.03fF
+C350 ffipgarr_0/ffipg_1/pggen_0/nor_0/w_0_0# vdd 0.11fF
+C351 ffipgarr_0/ffipg_0/ffi_1/inv_0/op clk 0.32fF
+C352 vdd ffipgarr_0/ffipg_3/ffi_0/inv_1/op 1.63fF
+C353 ffipgarr_0/ffipg_2/ffi_0/q ffipgarr_0/ffipg_2/pggen_0/xor_0/inv_1/op 0.22fF
+C354 ffipgarr_0/ffipg_2/pggen_0/xor_0/inv_0/op ffipgarr_0/ffipg_2/pggen_0/xor_0/inv_0/w_0_6# 0.03fF
+C355 ffipgarr_0/ffipg_1/ffi_0/nand_4/w_0_0# ffipgarr_0/ffipg_1/ffi_0/inv_1/op 0.06fF
+C356 ffipgarr_0/ffipg_0/ffi_0/nand_3/a ffipgarr_0/ffipg_0/ffi_0/nand_3/b 0.31fF
+C357 ffipgarr_0/ffipg_2/ffi_0/inv_1/op ffipgarr_0/ffipg_2/ffi_0/nand_1/b 0.45fF
+C358 vdd ffipgarr_0/ffipg_2/ffi_0/inv_0/op 0.17fF
+C359 ffipgarr_0/ffipg_3/ffi_1/inv_1/op x4in 0.01fF
+C360 ffipgarr_0/ffipg_1/ffi_0/nand_6/w_0_0# vdd 0.10fF
+C361 ffipgarr_0/ffipg_1/ffi_0/nand_3/a vdd 0.30fF
+C362 ffipgarr_0/ffipg_2/ffi_1/q ffipgarr_0/ffipg_2/ffi_1/qbar 0.32fF
+C363 ffipgarr_0/ffipg_2/ffi_1/nand_1/b ffipgarr_0/ffipg_2/ffi_1/nand_7/a 0.13fF
+C364 ffipgarr_0/ffipg_0/ffi_1/q ffipgarr_0/p1 0.22fF
+C365 ffipgarr_0/ffipg_1/ffi_0/nand_2/w_0_0# vdd 0.10fF
+C366 y1in vdd 0.04fF
+C367 gnd vdd 2.07fF
+C368 ffipgarr_0/ffipg_2/ffi_1/inv_1/op ffipgarr_0/ffipg_2/ffi_1/nand_4/w_0_0# 0.06fF
+C369 ffipgarr_0/ffipg_3/ffi_0/q ffipgarr_0/ffipg_3/pggen_0/nor_0/w_0_0# 0.06fF
+C370 cinin ffipgarr_0/ffi_0/inv_1/op 0.01fF
+C371 vdd ffipgarr_0/ffipg_3/ffi_1/nand_2/w_0_0# 0.10fF
+C372 ffipgarr_0/ffipg_2/pggen_0/nor_0/w_0_0# ffipgarr_0/k3 0.21fF
+C373 ffipgarr_0/ffipg_1/ffi_0/inv_1/op ffipgarr_0/ffipg_1/ffi_1/inv_1/op 0.75fF
+C374 ffipgarr_0/ffipg_1/pggen_0/xor_0/inv_0/op ffipgarr_0/k2 0.06fF
+C375 ffipgarr_0/ffipg_0/ffi_1/inv_0/w_0_6# vdd 0.06fF
+C376 ffipgarr_0/ffipg_0/pggen_0/nand_0/w_0_0# ffipgarr_0/p1 0.24fF
+C377 ffipgarr_0/ffipg_1/ffi_1/nand_6/a vdd 0.34fF
+C378 ffipgarr_0/p2 vdd 0.17fF
+C379 clk ffipgarr_0/ffipg_3/ffi_0/inv_1/op 0.07fF
+C380 ffipgarr_0/ffipg_0/pggen_0/xor_0/inv_0/w_0_6# ffipgarr_0/ffipg_0/ffi_1/q 0.06fF
+C381 ffipgarr_0/ffipg_1/ffi_0/nand_1/b ffipgarr_0/ffipg_1/ffi_0/nand_7/a 0.13fF
+C382 ffipgarr_0/ffipg_0/ffi_0/inv_0/w_0_6# ffipgarr_0/ffipg_0/ffi_0/inv_0/op 0.03fF
+C383 gnd ffipgarr_0/ffi_0/nand_3/b 0.35fF
+C384 ffipgarr_0/ffipg_1/ffi_0/nand_3/b ffipgarr_0/ffipg_1/ffi_0/nand_1/a 0.00fF
+C385 ffipgarr_0/ffipg_2/ffi_0/inv_0/op clk 0.32fF
+C386 ffipgarr_0/ffipg_2/ffi_1/nand_1/b vdd 0.31fF
+C387 vdd ffipgarr_0/ffipg_1/ffi_1/inv_1/w_0_6# 0.06fF
+C388 ffipgarr_0/ffipg_0/ffi_1/nand_6/w_0_0# vdd 0.10fF
+C389 ffipgarr_0/ffipg_2/ffi_0/inv_1/op ffipgarr_0/ffipg_2/ffi_0/inv_1/w_0_6# 0.04fF
+C390 ffipgarr_0/ffipg_3/ffi_0/q ffipgarr_0/ffipg_3/pggen_0/xor_0/inv_1/w_0_6# 0.23fF
+C391 ffipgarr_0/ffi_0/nand_3/a ffipgarr_0/ffi_0/nand_3/w_0_0# 0.06fF
+C392 ffipgarr_0/ffipg_1/ffi_0/nand_3/a clk 0.13fF
+C393 ffipgarr_0/ffipg_2/ffi_1/qbar ffipgarr_0/ffipg_2/ffi_1/nand_7/a 0.31fF
+C394 vdd ffipgarr_0/ffipg_3/ffi_1/inv_1/op 1.63fF
+C395 y4in ffipgarr_0/ffipg_3/ffi_0/inv_0/op 0.04fF
+C396 ffipgarr_0/ffipg_3/ffi_1/nand_1/w_0_0# ffipgarr_0/ffipg_3/ffi_1/nand_3/b 0.04fF
+C397 ffipgarr_0/ffipg_2/ffi_1/q ffipgarr_0/ffipg_2/ffi_1/nand_6/w_0_0# 0.06fF
+C398 ffipgarr_0/ffipg_2/ffi_0/q vdd 0.38fF
+C399 ffipgarr_0/ffipg_0/ffi_0/nand_6/w_0_0# vdd 0.10fF
+C400 vdd ffipgarr_0/ffipg_2/ffi_0/nand_1/a 0.30fF
+C401 ffipgarr_0/ffipg_1/ffi_0/nand_2/w_0_0# clk 0.06fF
+C402 vdd ffipgarr_0/ffipg_3/pggen_0/xor_0/w_n3_4# 0.12fF
+C403 y1in clk 0.70fF
+C404 gnd clk 6.93fF
+C405 vdd ffipgarr_0/ffipg_3/ffi_1/nand_6/a 0.34fF
+C406 ffipgarr_0/ffipg_1/pggen_0/xor_0/inv_0/w_0_6# ffipgarr_0/ffipg_1/ffi_1/q 0.06fF
+C407 clk ffipgarr_0/ffipg_3/ffi_1/nand_2/w_0_0# 0.06fF
+C408 ffipgarr_0/ffipg_2/ffi_0/inv_1/op ffipgarr_0/ffipg_2/ffi_1/inv_1/op 0.75fF
+C409 ffipgarr_0/ffipg_1/ffi_0/inv_1/op y2in 0.01fF
+C410 ffipgarr_0/ffipg_0/ffi_0/nand_4/w_0_0# ffipgarr_0/ffipg_0/ffi_0/nand_6/a 0.04fF
+C411 ffipgarr_0/ffipg_0/ffi_1/qbar gnd 0.34fF
+C412 gnd ffipgarr_0/g3 0.03fF
+C413 ffipgarr_0/ffipg_1/ffi_0/q ffipgarr_0/ffipg_1/pggen_0/xor_0/a_10_10# 0.12fF
+C414 ffipgarr_0/ffipg_1/ffi_1/nand_3/w_0_0# ffipgarr_0/ffipg_1/ffi_1/nand_3/a 0.06fF
+C415 ffipgarr_0/ffipg_0/ffi_1/inv_1/op x1in 0.01fF
+C416 ffipgarr_0/ffipg_0/ffi_1/inv_1/op ffipgarr_0/ffipg_0/ffi_1/nand_3/b 0.33fF
+C417 vdd ffipgarr_0/ffipg_2/ffi_1/qbar 0.33fF
+C418 ffipgarr_0/ffipg_1/ffi_1/inv_1/w_0_6# clk 0.06fF
+C419 ffipgarr_0/ffipg_1/ffi_0/nand_1/b ffipgarr_0/ffipg_1/ffi_0/nand_3/w_0_0# 0.04fF
+C420 ffipgarr_0/ffi_0/nand_5/w_0_0# ffipgarr_0/ffi_0/inv_1/op 0.06fF
+C421 vdd ffipgarr_0/ffi_0/nand_2/w_0_0# 0.10fF
+C422 ffipgarr_0/ffipg_1/ffi_1/nand_3/b vdd 0.39fF
+C423 ffipgarr_0/ffipg_1/pggen_0/xor_0/inv_1/op ffipgarr_0/ffipg_1/pggen_0/xor_0/inv_0/op 0.08fF
+C424 clk ffipgarr_0/ffipg_3/ffi_1/inv_1/op 0.07fF
+C425 x2in ffipgarr_0/ffipg_1/ffi_1/inv_1/op 0.01fF
+C426 vdd ffipgarr_0/ffipg_1/ffi_0/nand_1/a 0.30fF
+C427 ffipgarr_0/ffipg_2/ffi_0/nand_6/w_0_0# ffipgarr_0/ffipg_2/ffi_0/qbar 0.04fF
+C428 ffipgarr_0/ffipg_1/ffi_1/inv_0/op vdd 0.17fF
+C429 gnd ffipgarr_0/ffi_0/nand_0/a_13_n26# 0.01fF
+C430 vdd ffipgarr_0/ffipg_3/ffi_0/nand_7/a 0.34fF
+C431 ffipgarr_0/ffipg_0/ffi_1/qbar ffipgarr_0/ffipg_0/ffi_1/nand_6/w_0_0# 0.04fF
+C432 vdd ffipgarr_0/ffipg_3/ffi_1/q 1.31fF
+C433 ffipgarr_0/ffipg_2/ffi_1/nand_0/w_0_0# ffipgarr_0/ffipg_2/ffi_1/nand_1/a 0.04fF
+C434 ffipgarr_0/ffi_0/nand_4/w_0_0# ffipgarr_0/ffi_0/inv_1/op 0.06fF
+C435 ffipgarr_0/ffipg_1/ffi_1/nand_5/w_0_0# ffipgarr_0/ffipg_1/ffi_1/nand_1/b 0.06fF
+C436 ffipgarr_0/ffipg_1/pggen_0/xor_0/inv_1/op ffipgarr_0/k2 0.52fF
+C437 ffipgarr_0/ffipg_2/ffi_0/nand_1/a clk 0.13fF
+C438 gnd ffipgarr_0/ffipg_1/ffi_1/qbar 0.34fF
+C439 ffipgarr_0/ffipg_1/ffi_1/nand_7/a ffipgarr_0/ffipg_1/ffi_1/nand_1/b 0.13fF
+C440 ffipgarr_0/ffipg_1/ffi_0/qbar ffipgarr_0/ffipg_1/ffi_0/nand_6/a 0.00fF
+C441 ffipgarr_0/ffipg_3/pggen_0/nand_0/w_0_0# ffipgarr_0/g4 0.04fF
+C442 ffipgarr_0/ffipg_0/ffi_0/q gnd 2.62fF
+C443 ffipgarr_0/ffi_0/nand_4/w_0_0# ffipgarr_0/ffi_0/nand_6/a 0.04fF
+C444 vdd ffipgarr_0/ffipg_2/ffi_1/nand_1/w_0_0# 0.10fF
+C445 gnd ffipgarr_0/ffipg_2/ffi_0/nand_7/a 0.03fF
+C446 ffipgarr_0/ffipg_2/ffi_0/q ffipgarr_0/g3 0.13fF
+C447 ffipgarr_0/ffipg_1/ffi_1/nand_6/a ffipgarr_0/ffipg_1/ffi_1/qbar 0.00fF
+C448 ffipgarr_0/ffipg_1/pggen_0/xor_0/inv_1/op ffipgarr_0/ffipg_1/pggen_0/xor_0/inv_1/w_0_6# 0.03fF
+C449 y1in ffipgarr_0/ffipg_0/ffi_0/nand_2/w_0_0# 0.06fF
+C450 gnd ffipgarr_0/ffipg_3/ffi_1/nand_1/a 0.14fF
+C451 gnd ffipgarr_0/ffi_0/nand_3/a 0.03fF
+C452 ffipgarr_0/p3 ffipgarr_0/ffipg_2/ffi_1/q 0.22fF
+C453 ffipgarr_0/ffipg_3/ffi_0/nand_4/w_0_0# ffipgarr_0/ffipg_3/ffi_0/inv_1/op 0.06fF
+C454 ffipgarr_0/ffipg_3/pggen_0/xor_0/a_10_10# ffipgarr_0/ffipg_3/pggen_0/xor_0/w_n3_4# 0.16fF
+C455 ffipgarr_0/ffipg_2/ffi_1/nand_6/w_0_0# vdd 0.10fF
+C456 clk ffipgarr_0/ffi_0/nand_2/w_0_0# 0.06fF
+C457 ffipgarr_0/ffipg_3/ffi_1/nand_5/w_0_0# ffipgarr_0/ffipg_3/ffi_1/nand_7/a 0.04fF
+C458 ffipgarr_0/ffipg_1/ffi_1/nand_3/b ffipgarr_0/ffipg_1/ffi_1/nand_1/w_0_0# 0.04fF
+C459 ffipgarr_0/ffipg_1/ffi_0/nand_1/a clk 0.13fF
+C460 ffipgarr_0/ffipg_1/ffi_1/inv_0/op clk 0.32fF
+C461 ffipgarr_0/ffipg_3/ffi_0/nand_6/w_0_0# ffipgarr_0/ffipg_3/ffi_0/qbar 0.04fF
+C462 ffipgarr_0/ffipg_2/pggen_0/xor_0/w_n3_4# ffipgarr_0/k3 0.02fF
+C463 gnd ffipgarr_0/ffipg_0/ffi_1/nand_1/a 0.15fF
+C464 cinin vdd 0.04fF
+C465 ffipgarr_0/ffipg_0/ffi_0/q ffipgarr_0/ffipg_0/ffi_0/nand_6/w_0_0# 0.06fF
+C466 ffipgarr_0/ffipg_2/ffi_0/inv_0/w_0_6# ffipgarr_0/ffipg_2/ffi_0/inv_0/op 0.03fF
+C467 ffipgarr_0/ffipg_0/pggen_0/xor_0/inv_0/op ffipgarr_0/ffipg_0/pggen_0/xor_0/w_n3_4# 0.06fF
+C468 ffipgarr_0/ffi_0/nand_1/b ffipgarr_0/ffi_0/inv_1/op 0.45fF
+C469 ffipgarr_0/ffipg_2/ffi_0/q ffipgarr_0/ffipg_2/ffi_0/nand_7/a 0.00fF
+C470 ffipgarr_0/ffipg_1/pggen_0/xor_0/inv_0/op ffipgarr_0/ffipg_1/ffi_1/q 0.27fF
+C471 ffipgarr_0/ffipg_0/ffi_0/nand_7/a gnd 0.03fF
+C472 ffipgarr_0/ffipg_0/ffi_1/q ffipgarr_0/ffipg_0/ffi_1/nand_7/w_0_0# 0.04fF
+C473 ffipgarr_0/ffipg_0/ffi_0/nand_1/w_0_0# vdd 0.10fF
+C474 ffipgarr_0/k1 vdd 0.13fF
+C475 ffipgarr_0/ffipg_3/ffi_0/q ffipgarr_0/ffipg_3/ffi_0/nand_6/a 0.31fF
+C476 ffipgarr_0/ffipg_1/ffi_1/q ffipgarr_0/k2 0.46fF
+C477 ffipgarr_0/ffipg_3/pggen_0/nand_0/w_0_0# vdd 0.10fF
+C478 ffipgarr_0/ffipg_1/pggen_0/nand_0/w_0_0# ffipgarr_0/ffipg_1/ffi_0/q 0.06fF
+C479 ffipgarr_0/cinbar ffipgarr_0/ffi_0/nand_6/a 0.00fF
+C480 ffipgarr_0/ffipg_2/ffi_0/nand_4/w_0_0# ffipgarr_0/ffipg_2/ffi_0/nand_6/a 0.04fF
+C481 cinin ffipgarr_0/ffi_0/inv_0/w_0_6# 0.06fF
+C482 vdd ffipgarr_0/ffipg_3/ffi_0/nand_3/b 0.39fF
+C483 y2in ffipgarr_0/ffipg_1/ffi_0/inv_0/op 0.04fF
+C484 vdd ffipgarr_0/ffipg_1/ffi_0/inv_0/w_0_6# 0.06fF
+C485 ffipgarr_0/ffipg_1/pggen_0/nor_0/w_0_0# ffipgarr_0/ffipg_1/ffi_0/q 0.06fF
+C486 ffipgarr_0/ffipg_1/ffi_0/inv_1/w_0_6# ffipgarr_0/ffipg_1/ffi_0/inv_1/op 0.04fF
+C487 cinin clk 0.70fF
+C488 vdd ffipgarr_0/ffipg_3/ffi_1/nand_7/w_0_0# 0.10fF
+C489 ffipgarr_0/ffipg_2/ffi_0/q ffipgarr_0/ffipg_2/ffi_0/nand_7/w_0_0# 0.04fF
+C490 ffipgarr_0/ffipg_1/pggen_0/xor_0/w_n3_4# vdd 0.12fF
+C491 vdd ffipgarr_0/ffipg_2/ffi_0/nand_6/w_0_0# 0.10fF
+C492 ffipgarr_0/ffipg_1/ffi_1/nand_2/w_0_0# ffipgarr_0/ffipg_1/ffi_1/nand_3/a 0.04fF
+C493 ffipgarr_0/ffipg_0/ffi_1/nand_1/b gnd 0.26fF
+C494 ffipgarr_0/ffipg_3/ffi_0/nand_5/w_0_0# ffipgarr_0/ffipg_3/ffi_0/nand_1/b 0.06fF
+C495 ffipgarr_0/ffi_0/nand_2/w_0_0# ffipgarr_0/ffi_0/nand_3/a 0.04fF
+C496 ffipgarr_0/ffipg_2/ffi_1/nand_5/w_0_0# ffipgarr_0/ffipg_2/ffi_1/nand_7/a 0.04fF
+C497 ffipgarr_0/ffipg_2/ffi_0/nand_0/w_0_0# ffipgarr_0/ffipg_2/ffi_0/inv_0/op 0.06fF
+C498 vdd ffipgarr_0/ffipg_3/ffi_1/nand_1/b 0.31fF
+C499 ffipgarr_0/ffipg_0/ffi_0/inv_1/op ffipgarr_0/ffipg_0/ffi_0/nand_5/w_0_0# 0.06fF
+C500 ffipgarr_0/k4 gnd 0.14fF
+C501 ffipgarr_0/ffipg_1/ffi_0/nand_6/w_0_0# ffipgarr_0/ffipg_1/ffi_0/q 0.06fF
+C502 ffipgarr_0/p3 vdd 0.17fF
+C503 vdd ffipgarr_0/ffi_0/nand_5/w_0_0# 0.10fF
+C504 ffipgarr_0/ffipg_3/ffi_1/nand_7/a ffipgarr_0/ffipg_3/ffi_1/qbar 0.31fF
+C505 ffipgarr_0/ffipg_0/ffi_1/nand_6/a ffipgarr_0/ffipg_0/ffi_1/q 0.31fF
+C506 x1in ffipgarr_0/ffipg_0/ffi_1/inv_0/op 0.04fF
+C507 ffipgarr_0/ffipg_0/ffi_0/nand_3/w_0_0# ffipgarr_0/ffipg_0/ffi_0/nand_1/b 0.04fF
+C508 gnd ffipgarr_0/ffipg_1/ffi_0/q 2.62fF
+C509 ffipgarr_0/ffipg_2/ffi_0/nand_0/w_0_0# gnd 0.00fF
+C510 ffipgarr_0/ffi_0/nand_4/w_0_0# vdd 0.10fF
+C511 ffipgarr_0/ffipg_1/pggen_0/xor_0/inv_1/op ffipgarr_0/ffipg_1/ffi_1/q 0.06fF
+C512 ffipgarr_0/ffipg_3/ffi_0/nand_3/b ffipgarr_0/ffipg_3/ffi_0/nand_3/w_0_0# 0.06fF
+C513 ffipgarr_0/p2 ffipgarr_0/ffipg_1/ffi_0/q 0.03fF
+C514 ffipgarr_0/ffipg_2/ffi_1/nand_5/w_0_0# vdd 0.10fF
+C515 gnd ffipgarr_0/ffipg_3/ffi_0/nand_1/a 0.03fF
+C516 ffipgarr_0/ffipg_3/ffi_1/nand_3/w_0_0# ffipgarr_0/ffipg_3/ffi_1/nand_3/a 0.06fF
+C517 ffipgarr_0/ffi_0/nand_4/w_0_0# ffipgarr_0/ffi_0/nand_3/b 0.06fF
+C518 ffipgarr_0/k4 ffipgarr_0/ffipg_3/pggen_0/xor_0/w_n3_4# 0.02fF
+C519 ffipgarr_0/ffipg_3/ffi_0/q ffipgarr_0/g4 0.13fF
+C520 ffipgarr_0/ffipg_0/ffi_0/q ffipgarr_0/k1 0.07fF
+C521 ffipgarr_0/ffipg_0/pggen_0/xor_0/inv_1/op vdd 0.15fF
+C522 ffipgarr_0/ffipg_2/ffi_1/nand_1/a ffipgarr_0/ffipg_2/ffi_1/nand_3/b 0.00fF
+C523 ffipgarr_0/ffipg_2/pggen_0/nor_0/w_0_0# ffipgarr_0/ffipg_2/ffi_1/q 0.06fF
+C524 ffipgarr_0/g2 ffipgarr_0/ffipg_1/pggen_0/nand_0/w_0_0# 0.04fF
+C525 ffipgarr_0/ffipg_2/ffi_0/nand_0/w_0_0# ffipgarr_0/ffipg_2/ffi_0/nand_1/a 0.04fF
+C526 ffipgarr_0/ffipg_0/ffi_0/inv_0/w_0_6# y1in 0.06fF
+C527 ffipgarr_0/ffipg_1/ffi_1/nand_5/w_0_0# ffipgarr_0/ffipg_1/ffi_1/nand_7/a 0.04fF
+C528 ffipgarr_0/ffipg_1/ffi_0/qbar vdd 0.33fF
+C529 ffipgarr_0/ffipg_0/ffi_0/inv_1/op ffipgarr_0/ffipg_0/ffi_0/nand_3/b 0.33fF
+C530 ffipgarr_0/ffipg_2/ffi_1/inv_1/op x3in 0.01fF
+C531 vdd ffipgarr_0/ffi_0/nand_1/b 0.31fF
+C532 ffipgarr_0/ffi_0/nand_6/w_0_0# ffipgarr_0/cinbar 0.04fF
+C533 vdd ffipgarr_0/cinbar 0.28fF
+C534 vdd ffipgarr_0/ffi_0/nand_1/w_0_0# 0.10fF
+C535 ffipgarr_0/ffipg_2/ffi_0/nand_1/b ffipgarr_0/ffipg_2/ffi_0/nand_1/w_0_0# 0.06fF
+C536 ffipgarr_0/ffipg_0/ffi_0/nand_7/w_0_0# vdd 0.10fF
+C537 ffipgarr_0/ffipg_0/pggen_0/nand_0/w_0_0# ffipgarr_0/ffipg_0/ffi_1/q 0.06fF
+C538 gnd ffipgarr_0/ffipg_1/ffi_1/nand_3/a 0.03fF
+C539 ffipgarr_0/ffipg_0/ffi_0/nand_6/a vdd 0.34fF
+C540 ffipgarr_0/ffipg_2/ffi_1/q ffipgarr_0/ffipg_2/ffi_1/nand_7/w_0_0# 0.04fF
+C541 ffipgarr_0/k4 ffipgarr_0/ffipg_3/ffi_1/q 0.46fF
+C542 ffipgarr_0/ffi_0/nand_1/b ffipgarr_0/ffi_0/nand_3/b 0.32fF
+C543 y4in ffipgarr_0/ffipg_3/ffi_0/nand_2/w_0_0# 0.06fF
+C544 ffipgarr_0/ffipg_0/ffi_1/nand_3/w_0_0# ffipgarr_0/ffipg_0/ffi_1/nand_3/a 0.06fF
+C545 gnd x1in 0.19fF
+C546 gnd ffipgarr_0/ffipg_0/ffi_1/nand_3/b 0.35fF
+C547 vdd y3in 0.04fF
+C548 ffipgarr_0/ffipg_3/ffi_1/inv_0/op ffipgarr_0/ffipg_3/ffi_1/nand_0/w_0_0# 0.06fF
+C549 ffipgarr_0/ffi_0/nand_1/w_0_0# ffipgarr_0/ffi_0/nand_3/b 0.04fF
+C550 ffipgarr_0/ffipg_1/ffi_1/nand_6/w_0_0# ffipgarr_0/ffipg_1/ffi_1/q 0.06fF
+C551 ffipgarr_0/ffipg_3/ffi_0/nand_3/b ffipgarr_0/ffipg_3/ffi_0/nand_1/w_0_0# 0.04fF
+C552 ffipgarr_0/g2 gnd 0.03fF
+C553 x1in ffipgarr_0/ffipg_0/ffi_1/inv_0/w_0_6# 0.06fF
+C554 ffipgarr_0/ffipg_3/ffi_0/q vdd 0.38fF
+C555 ffipgarr_0/ffipg_3/ffi_1/inv_1/op ffipgarr_0/ffipg_3/ffi_1/inv_1/w_0_6# 0.04fF
+C556 ffipgarr_0/ffipg_3/ffi_1/inv_0/w_0_6# x4in 0.06fF
+C557 ffipgarr_0/ffipg_3/ffi_1/nand_1/b ffipgarr_0/ffipg_3/ffi_1/nand_1/a 0.31fF
+C558 ffipgarr_0/ffipg_3/ffi_1/inv_0/op ffipgarr_0/ffipg_3/ffi_1/inv_0/w_0_6# 0.03fF
+C559 gnd ffipgarr_0/ffipg_2/ffi_1/nand_1/a 0.14fF
+C560 gnd ffipgarr_0/ffipg_1/ffi_1/nand_1/a 0.14fF
+C561 ffipgarr_0/ffipg_3/ffi_0/nand_4/w_0_0# ffipgarr_0/ffipg_3/ffi_0/nand_3/b 0.06fF
+C562 ffipgarr_0/ffipg_0/pggen_0/xor_0/inv_0/op gnd 0.17fF
+C563 ffipgarr_0/ffipg_2/ffi_0/nand_3/b ffipgarr_0/ffipg_2/ffi_0/nand_4/w_0_0# 0.06fF
+C564 ffipgarr_0/ffipg_2/ffi_0/nand_3/w_0_0# ffipgarr_0/ffipg_2/ffi_0/nand_3/b 0.06fF
+C565 vdd y4in 0.04fF
+C566 ffipgarr_0/ffipg_2/ffi_0/qbar ffipgarr_0/ffipg_2/ffi_0/nand_6/a 0.00fF
+C567 ffipgarr_0/ffipg_2/ffi_1/nand_7/a ffipgarr_0/ffipg_2/ffi_1/nand_7/w_0_0# 0.06fF
+C568 ffipgarr_0/ffipg_2/pggen_0/nor_0/w_0_0# vdd 0.11fF
+C569 ffipgarr_0/ffipg_1/ffi_1/inv_0/w_0_6# ffipgarr_0/ffipg_1/ffi_1/inv_0/op 0.03fF
+C570 ffipgarr_0/ffipg_0/ffi_1/nand_4/w_0_0# vdd 0.10fF
+C571 gnd ffipgarr_0/ffipg_0/ffi_0/nand_3/a 0.03fF
+C572 vdd ffipgarr_0/ffipg_1/ffi_1/nand_1/b 0.31fF
+C573 ffipgarr_0/ffipg_0/ffi_0/q ffipgarr_0/ffipg_0/pggen_0/xor_0/inv_1/op 0.22fF
+C574 vdd ffipgarr_0/ffipg_3/ffi_1/nand_0/w_0_0# 0.10fF
+C575 ffipgarr_0/ffipg_2/ffi_1/nand_1/b ffipgarr_0/ffipg_2/ffi_1/nand_1/a 0.31fF
+C576 y3in clk 0.70fF
+C577 ffipgarr_0/k3 ffipgarr_0/ffipg_2/ffi_1/q 0.46fF
+C578 ffipgarr_0/ffipg_1/ffi_0/nand_1/w_0_0# ffipgarr_0/ffipg_1/ffi_0/nand_1/a 0.06fF
+C579 ffipgarr_0/ffipg_3/ffi_0/inv_1/op ffipgarr_0/ffipg_3/ffi_0/inv_1/w_0_6# 0.04fF
+C580 gnd ffipgarr_0/ffipg_3/ffi_1/nand_0/a_13_n26# 0.01fF
+C581 ffipgarr_0/ffipg_1/ffi_1/nand_3/b ffipgarr_0/ffipg_1/ffi_1/nand_3/a 0.31fF
+C582 vdd ffipgarr_0/ffipg_3/ffi_1/inv_0/w_0_6# 0.06fF
+C583 ffipgarr_0/k3 ffipgarr_0/ffipg_2/pggen_0/xor_0/inv_1/op 0.52fF
+C584 ffipgarr_0/ffipg_0/ffi_1/nand_6/a ffipgarr_0/ffipg_0/ffi_1/inv_1/op 0.13fF
+C585 vdd ffipgarr_0/ffipg_2/ffi_1/nand_7/w_0_0# 0.10fF
+C586 ffipgarr_0/ffipg_3/ffi_0/nand_3/a ffipgarr_0/ffipg_3/ffi_0/nand_2/w_0_0# 0.04fF
+C587 y4in clk 0.64fF
+C588 vdd ffipgarr_0/ffi_0/nand_7/a 0.30fF
+C589 ffipgarr_0/ffipg_2/pggen_0/xor_0/w_n3_4# ffipgarr_0/ffipg_2/ffi_1/q 0.06fF
+C590 ffipgarr_0/k2 ffipgarr_0/ffipg_1/pggen_0/xor_0/a_10_10# 0.45fF
+C591 gnd ffipgarr_0/p1 0.18fF
+C592 ffipgarr_0/ffipg_0/ffi_0/q ffipgarr_0/ffipg_0/ffi_0/nand_7/w_0_0# 0.04fF
+C593 ffipgarr_0/ffipg_3/pggen_0/xor_0/inv_0/op ffipgarr_0/ffipg_3/pggen_0/xor_0/inv_1/op 0.08fF
+C594 ffipgarr_0/ffipg_0/ffi_0/q ffipgarr_0/ffipg_0/ffi_0/nand_6/a 0.31fF
+C595 ffipgarr_0/ffipg_3/ffi_0/q ffipgarr_0/ffipg_3/pggen_0/xor_0/a_10_10# 0.12fF
+C596 ffipgarr_0/ffipg_1/ffi_1/nand_1/w_0_0# ffipgarr_0/ffipg_1/ffi_1/nand_1/b 0.06fF
+C597 ffipgarr_0/ffipg_3/ffi_1/qbar ffipgarr_0/ffipg_3/ffi_1/nand_6/w_0_0# 0.04fF
+C598 clk ffipgarr_0/ffipg_3/ffi_1/nand_0/w_0_0# 0.06fF
+C599 ffipgarr_0/ffipg_2/pggen_0/xor_0/w_n3_4# ffipgarr_0/ffipg_2/pggen_0/xor_0/inv_1/op 0.06fF
+C600 ffipgarr_0/ffipg_3/ffi_0/qbar ffipgarr_0/ffipg_3/ffi_0/nand_7/w_0_0# 0.06fF
+C601 gnd ffipgarr_0/ffipg_2/ffi_1/nand_6/a 0.03fF
+C602 ffipgarr_0/ffipg_1/ffi_1/nand_3/b ffipgarr_0/ffipg_1/ffi_1/nand_1/a 0.00fF
+C603 ffipgarr_0/ffipg_1/ffi_0/nand_0/w_0_0# ffipgarr_0/ffipg_1/ffi_0/inv_0/op 0.06fF
+C604 ffipgarr_0/ffipg_0/pggen_0/nor_0/w_0_0# ffipgarr_0/k1 0.21fF
+C605 vdd ffipgarr_0/ffipg_3/ffi_0/nand_3/a 0.30fF
+C606 ffipgarr_0/ffipg_1/pggen_0/xor_0/w_n3_4# ffipgarr_0/ffipg_1/ffi_0/q 0.06fF
+C607 ffipgarr_0/ffipg_0/ffi_1/inv_1/op ffipgarr_0/ffipg_0/ffi_0/inv_1/op 0.75fF
+C608 ffipgarr_0/ffipg_3/ffi_0/nand_3/b ffipgarr_0/ffipg_3/ffi_0/nand_1/a 0.00fF
+C609 ffipgarr_0/ffipg_0/ffi_1/nand_3/a vdd 0.30fF
+C610 vdd ffipgarr_0/ffipg_3/ffi_1/nand_3/w_0_0# 0.11fF
+C611 ffipgarr_0/ffipg_3/ffi_0/nand_0/w_0_0# ffipgarr_0/ffipg_3/ffi_0/inv_0/op 0.06fF
+C612 ffipgarr_0/ffipg_2/pggen_0/nand_0/w_0_0# ffipgarr_0/ffipg_2/ffi_1/q 0.06fF
+C613 ffipgarr_0/ffipg_0/pggen_0/xor_0/a_10_10# ffipgarr_0/ffipg_0/pggen_0/xor_0/w_n3_4# 0.16fF
+C614 ffipgarr_0/ffipg_2/ffi_1/nand_3/w_0_0# vdd 0.11fF
+C615 ffipgarr_0/ffipg_2/ffi_1/nand_1/a ffipgarr_0/ffipg_2/ffi_1/nand_1/w_0_0# 0.06fF
+C616 ffipgarr_0/ffipg_1/ffi_0/nand_1/b gnd 0.26fF
+C617 ffipgarr_0/ffipg_0/ffi_0/nand_7/a ffipgarr_0/ffipg_0/ffi_0/nand_7/w_0_0# 0.06fF
+C618 ffipgarr_0/ffipg_3/ffi_1/nand_1/b ffipgarr_0/ffipg_3/ffi_1/nand_1/w_0_0# 0.06fF
+C619 vdd ffipgarr_0/ffipg_3/pggen_0/xor_0/inv_0/w_0_6# 0.09fF
+C620 ffipgarr_0/k3 vdd 0.13fF
+C621 ffipgarr_0/ffipg_2/ffi_1/nand_3/b ffipgarr_0/ffipg_2/ffi_1/nand_4/w_0_0# 0.06fF
+C622 vdd ffipgarr_0/ffipg_2/ffi_0/nand_6/a 0.34fF
+C623 gnd ffipgarr_0/ffipg_2/pggen_0/xor_0/inv_0/op 0.17fF
+C624 gnd ffipgarr_0/ffipg_2/ffi_0/nand_1/b 0.26fF
+C625 ffipgarr_0/ffipg_0/ffi_1/inv_1/w_0_6# ffipgarr_0/ffipg_0/ffi_1/inv_1/op 0.04fF
+C626 clk ffipgarr_0/ffipg_3/ffi_0/nand_3/a 0.13fF
+C627 vdd ffipgarr_0/ffipg_2/ffi_1/inv_1/w_0_6# 0.06fF
+C628 ffipgarr_0/ffipg_0/ffi_1/nand_3/a clk 0.13fF
+C629 vdd ffipgarr_0/ffipg_3/pggen_0/nor_0/w_0_0# 0.11fF
+C630 ffipgarr_0/ffipg_2/ffi_1/inv_1/op ffipgarr_0/ffipg_2/ffi_1/nand_3/b 0.33fF
+C631 ffipgarr_0/ffipg_3/ffi_1/nand_0/w_0_0# ffipgarr_0/ffipg_3/ffi_1/nand_1/a 0.04fF
+C632 gnd ffipgarr_0/ffipg_0/ffi_0/nand_0/a_13_n26# 0.01fF
+C633 ffipgarr_0/ffipg_3/ffi_0/nand_1/b ffipgarr_0/ffipg_3/ffi_0/inv_1/op 0.45fF
+C634 x2in ffipgarr_0/ffipg_1/ffi_1/nand_2/w_0_0# 0.06fF
+C635 ffipgarr_0/ffipg_3/ffi_0/nand_3/a ffipgarr_0/ffipg_3/ffi_0/nand_3/w_0_0# 0.06fF
+C636 ffipgarr_0/ffipg_2/pggen_0/xor_0/w_n3_4# vdd 0.12fF
+C637 ffipgarr_0/ffipg_2/ffi_1/nand_6/a ffipgarr_0/ffipg_2/ffi_1/qbar 0.00fF
+C638 y3in ffipgarr_0/ffipg_2/ffi_0/inv_0/w_0_6# 0.06fF
+C639 vdd ffipgarr_0/ffipg_3/ffi_0/inv_0/op 0.17fF
+C640 ffipgarr_0/ffipg_0/ffi_1/q ffipgarr_0/ffipg_0/pggen_0/xor_0/w_n3_4# 0.06fF
+C641 ffipgarr_0/ffipg_1/ffi_1/nand_4/w_0_0# ffipgarr_0/ffipg_1/ffi_1/inv_1/op 0.06fF
+C642 ffipgarr_0/ffipg_1/ffi_0/qbar ffipgarr_0/ffipg_1/ffi_0/nand_7/w_0_0# 0.06fF
+C643 ffipgarr_0/ffipg_0/pggen_0/xor_0/inv_0/op ffipgarr_0/k1 0.06fF
+C644 ffipgarr_0/ffipg_2/ffi_1/nand_2/w_0_0# vdd 0.10fF
+C645 ffipgarr_0/ffipg_0/ffi_0/nand_1/a ffipgarr_0/ffipg_0/ffi_0/nand_3/b 0.00fF
+C646 ffipgarr_0/ffipg_0/ffi_0/nand_3/w_0_0# vdd 0.11fF
+C647 vdd ffipgarr_0/ffi_0/nand_0/w_0_0# 0.10fF
+C648 vdd ffipgarr_0/ffipg_3/pggen_0/xor_0/inv_1/w_0_6# 0.06fF
+C649 gnd ffipgarr_0/ffipg_2/ffi_0/nand_3/a 0.03fF
+C650 ffipgarr_0/ffipg_2/ffi_0/q ffipgarr_0/ffipg_2/pggen_0/xor_0/inv_0/op 0.20fF
+C651 ffipgarr_0/ffipg_1/ffi_0/qbar ffipgarr_0/ffipg_1/ffi_0/q 0.32fF
+C652 ffipgarr_0/ffipg_2/ffi_0/nand_4/w_0_0# vdd 0.10fF
+C653 ffipgarr_0/ffipg_2/ffi_0/nand_3/w_0_0# vdd 0.11fF
+C654 ffipgarr_0/ffipg_1/ffi_0/inv_1/op gnd 0.22fF
+C655 ffipgarr_0/ffipg_1/pggen_0/nor_0/w_0_0# ffipgarr_0/k2 0.21fF
+C656 ffipgarr_0/ffipg_2/ffi_0/nand_1/b ffipgarr_0/ffipg_2/ffi_0/nand_1/a 0.31fF
+C657 ffipgarr_0/ffipg_3/ffi_1/nand_5/w_0_0# ffipgarr_0/ffipg_3/ffi_1/inv_1/op 0.06fF
+C658 gnd ffipgarr_0/ffipg_3/ffi_0/nand_1/b 0.26fF
+C659 ffipgarr_0/ffipg_2/ffi_1/inv_1/w_0_6# clk 0.06fF
+C660 ffipgarr_0/ffipg_0/ffi_0/nand_1/b vdd 0.31fF
+C661 ffipgarr_0/ffipg_2/pggen_0/nand_0/w_0_0# vdd 0.10fF
+C662 ffipgarr_0/ffipg_1/ffi_0/nand_1/b ffipgarr_0/ffipg_1/ffi_0/nand_1/a 0.31fF
+C663 ffipgarr_0/ffipg_0/ffi_1/nand_7/a vdd 0.34fF
+C664 ffipgarr_0/ffipg_3/ffi_0/q ffipgarr_0/k4 0.07fF
+C665 ffipgarr_0/ffipg_2/pggen_0/xor_0/inv_1/w_0_6# ffipgarr_0/ffipg_2/pggen_0/xor_0/inv_1/op 0.03fF
+C666 ffipgarr_0/ffipg_1/ffi_1/nand_5/w_0_0# vdd 0.10fF
+C667 gnd ffipgarr_0/ffipg_1/pggen_0/xor_0/inv_0/op 0.17fF
+C668 clk ffipgarr_0/ffipg_3/ffi_0/inv_0/op 0.32fF
+C669 ffipgarr_0/ffi_0/inv_1/op ffipgarr_0/ffi_0/nand_6/a 0.13fF
+C670 ffipgarr_0/ffipg_2/ffi_1/nand_6/w_0_0# ffipgarr_0/ffipg_2/ffi_1/nand_6/a 0.06fF
+C671 gnd ffipgarr_0/cin 0.52fF
+C672 ffipgarr_0/ffipg_1/ffi_1/nand_7/a vdd 0.34fF
+C673 x3in ffipgarr_0/ffipg_2/ffi_1/inv_0/op 0.04fF
+C674 ffipgarr_0/ffi_0/nand_0/w_0_0# clk 0.06fF
+C675 ffipgarr_0/ffipg_2/ffi_1/nand_2/w_0_0# clk 0.06fF
+C676 gnd ffipgarr_0/ffipg_2/ffi_1/inv_1/op 0.22fF
+C677 gnd ffipgarr_0/k2 0.14fF
+C678 ffipgarr_0/ffipg_0/ffi_1/nand_7/a ffipgarr_0/ffipg_0/ffi_1/nand_5/w_0_0# 0.04fF
+C679 ffipgarr_0/k1 ffipgarr_0/p1 0.05fF
+C680 ffipgarr_0/ffipg_0/ffi_0/nand_4/w_0_0# vdd 0.10fF
+C681 ffipgarr_0/p2 ffipgarr_0/k2 0.05fF
+C682 ffipgarr_0/cinbar ffipgarr_0/ffi_0/nand_7/w_0_0# 0.06fF
+C683 ffipgarr_0/ffipg_2/ffi_1/nand_0/w_0_0# ffipgarr_0/ffipg_2/ffi_1/inv_0/op 0.06fF
+C684 gnd ffipgarr_0/ffipg_3/ffi_1/qbar 0.34fF
+C685 ffipgarr_0/ffipg_2/ffi_1/nand_1/b ffipgarr_0/ffipg_2/ffi_1/inv_1/op 0.45fF
+C686 gnd ffipgarr_0/ffipg_1/ffi_1/inv_1/op 0.22fF
+C687 gnd ffipgarr_0/ffipg_2/ffi_0/inv_1/op 0.22fF
+C688 ffipgarr_0/ffipg_3/ffi_0/q ffipgarr_0/ffipg_3/ffi_0/nand_6/w_0_0# 0.06fF
+C689 gnd x2in 0.19fF
+C690 ffipgarr_0/ffipg_1/ffi_1/nand_0/w_0_0# vdd 0.10fF
+C691 ffipgarr_0/ffipg_2/ffi_1/nand_3/a ffipgarr_0/ffipg_2/ffi_1/nand_3/b 0.31fF
+C692 ffipgarr_0/ffipg_0/ffi_1/inv_0/op ffipgarr_0/ffipg_0/ffi_1/nand_0/w_0_0# 0.06fF
+C693 ffipgarr_0/ffipg_1/ffi_1/nand_6/a ffipgarr_0/ffipg_1/ffi_1/inv_1/op 0.13fF
+C694 ffipgarr_0/ffipg_0/ffi_1/nand_7/a ffipgarr_0/ffipg_0/ffi_1/qbar 0.31fF
+C695 ffipgarr_0/ffipg_0/pggen_0/xor_0/inv_0/op ffipgarr_0/ffipg_0/pggen_0/xor_0/inv_1/op 0.08fF
+C696 ffipgarr_0/ffipg_2/pggen_0/nand_0/w_0_0# ffipgarr_0/g3 0.04fF
+C697 ffipgarr_0/g1 vdd 0.28fF
+C698 gnd ffipgarr_0/p4 0.18fF
+C699 ffipgarr_0/ffipg_1/ffi_1/inv_1/w_0_6# ffipgarr_0/ffipg_1/ffi_1/inv_1/op 0.04fF
+C700 ffipgarr_0/ffipg_3/ffi_0/nand_1/b ffipgarr_0/ffipg_3/ffi_0/nand_7/a 0.13fF
+C701 ffipgarr_0/ffipg_1/ffi_1/nand_7/w_0_0# ffipgarr_0/ffipg_1/ffi_1/nand_7/a 0.06fF
+C702 ffipgarr_0/ffipg_2/pggen_0/xor_0/inv_1/w_0_6# vdd 0.06fF
+C703 ffipgarr_0/ffipg_2/ffi_0/nand_2/w_0_0# y3in 0.06fF
+C704 vdd ffipgarr_0/ffipg_1/ffi_0/nand_6/a 0.34fF
+C705 vdd ffipgarr_0/ffipg_3/ffi_1/nand_3/a 0.30fF
+C706 ffipgarr_0/ffipg_3/ffi_0/nand_7/a ffipgarr_0/ffipg_3/ffi_0/nand_7/w_0_0# 0.06fF
+C707 y2in ffipgarr_0/ffipg_1/ffi_0/nand_2/w_0_0# 0.06fF
+C708 gnd ffipgarr_0/ffipg_1/pggen_0/xor_0/inv_1/op 0.20fF
+C709 ffipgarr_0/ffipg_0/ffi_1/nand_6/a gnd 0.03fF
+C710 ffipgarr_0/ffipg_3/ffi_1/nand_6/a ffipgarr_0/ffipg_3/ffi_1/qbar 0.00fF
+C711 gnd y2in 0.19fF
+C712 ffipgarr_0/ffipg_2/ffi_0/nand_3/b vdd 0.39fF
+C713 ffipgarr_0/ffipg_1/ffi_1/nand_0/w_0_0# clk 0.06fF
+C714 vdd ffipgarr_0/ffipg_3/ffi_0/nand_6/a 0.34fF
+C715 ffipgarr_0/ffipg_2/pggen_0/xor_0/inv_1/op ffipgarr_0/ffipg_2/ffi_1/q 0.06fF
+C716 gnd ffipgarr_0/ffipg_1/ffi_0/inv_0/op 0.10fF
+C717 ffipgarr_0/ffipg_1/pggen_0/nand_0/w_0_0# ffipgarr_0/ffipg_1/ffi_1/q 0.06fF
+C718 ffipgarr_0/ffipg_1/ffi_1/qbar ffipgarr_0/ffipg_1/ffi_1/nand_7/a 0.31fF
+C719 ffipgarr_0/ffipg_1/ffi_0/nand_5/w_0_0# vdd 0.10fF
+C720 ffipgarr_0/ffipg_0/ffi_1/nand_6/a ffipgarr_0/ffipg_0/ffi_1/nand_6/w_0_0# 0.06fF
+C721 ffipgarr_0/ffipg_3/pggen_0/xor_0/inv_0/op gnd 0.17fF
+C722 gnd ffipgarr_0/ffipg_1/ffi_0/nand_7/a 0.03fF
+C723 ffipgarr_0/ffipg_1/pggen_0/nor_0/w_0_0# ffipgarr_0/ffipg_1/ffi_1/q 0.06fF
+C724 ffipgarr_0/ffipg_3/ffi_1/nand_4/w_0_0# ffipgarr_0/ffipg_3/ffi_1/nand_3/b 0.06fF
+C725 ffipgarr_0/ffipg_1/ffi_1/nand_3/b ffipgarr_0/ffipg_1/ffi_1/inv_1/op 0.33fF
+C726 vdd ffipgarr_0/ffi_0/inv_1/op 1.63fF
+C727 gnd ffipgarr_0/ffipg_2/ffi_1/nand_3/a 0.03fF
+C728 y1in ffipgarr_0/ffipg_0/ffi_0/inv_1/op 0.01fF
+C729 gnd ffipgarr_0/ffipg_0/ffi_0/inv_1/op 0.22fF
+C730 ffipgarr_0/ffipg_3/ffi_1/q ffipgarr_0/ffipg_3/ffi_1/qbar 0.32fF
+C731 clk ffipgarr_0/ffipg_3/ffi_1/nand_3/a 0.13fF
+C732 ffipgarr_0/ffi_0/nand_7/a ffipgarr_0/ffi_0/nand_7/w_0_0# 0.06fF
+C733 ffipgarr_0/ffipg_0/ffi_1/nand_4/w_0_0# ffipgarr_0/ffipg_0/ffi_1/nand_3/b 0.06fF
+C734 ffipgarr_0/ffipg_1/ffi_1/inv_0/op x2in 0.04fF
+C735 ffipgarr_0/ffipg_2/ffi_1/q ffipgarr_0/ffipg_2/ffi_1/nand_7/a 0.00fF
+C736 ffipgarr_0/ffi_0/nand_6/w_0_0# ffipgarr_0/ffi_0/nand_6/a 0.06fF
+C737 vdd ffipgarr_0/ffi_0/nand_6/a 0.30fF
+C738 ffipgarr_0/ffipg_0/ffi_0/nand_7/a ffipgarr_0/ffipg_0/ffi_0/nand_1/b 0.13fF
+C739 gnd ffipgarr_0/ffipg_0/ffi_1/nand_0/w_0_0# 0.00fF
+C740 ffipgarr_0/ffipg_0/ffi_1/q gnd 0.93fF
+C741 ffipgarr_0/ffipg_0/ffi_1/nand_3/w_0_0# vdd 0.11fF
+C742 gnd ffipgarr_0/ffipg_0/ffi_0/qbar 0.34fF
+C743 ffipgarr_0/ffi_0/inv_1/op ffipgarr_0/ffi_0/nand_3/b 0.33fF
+C744 vdd ffipgarr_0/ffipg_2/ffi_0/qbar 0.33fF
+C745 ffipgarr_0/k4 ffipgarr_0/ffipg_3/pggen_0/nor_0/w_0_0# 0.21fF
+C746 ffipgarr_0/ffipg_3/ffi_1/nand_5/w_0_0# ffipgarr_0/ffipg_3/ffi_1/nand_1/b 0.06fF
+C747 ffipgarr_0/ffipg_1/ffi_1/nand_1/a ffipgarr_0/ffipg_1/ffi_1/nand_1/b 0.31fF
+C748 ffipgarr_0/ffipg_1/ffi_0/nand_3/w_0_0# ffipgarr_0/ffipg_1/ffi_0/nand_3/a 0.06fF
+C749 gnd ffipgarr_0/ffipg_1/ffi_1/q 0.93fF
+C750 gnd ffipgarr_0/ffipg_0/ffi_0/nand_3/b 0.35fF
+C751 ffipgarr_0/ffipg_3/ffi_0/nand_3/b ffipgarr_0/ffipg_3/ffi_0/nand_1/b 0.32fF
+C752 ffipgarr_0/p4 ffipgarr_0/ffipg_3/ffi_1/q 0.22fF
+C753 ffipgarr_0/ffipg_0/ffi_0/q ffipgarr_0/g1 0.13fF
+C754 ffipgarr_0/ffipg_3/pggen_0/xor_0/inv_0/op ffipgarr_0/ffipg_3/pggen_0/xor_0/w_n3_4# 0.06fF
+C755 ffipgarr_0/ffipg_3/ffi_1/inv_0/op x4in 0.04fF
+C756 ffipgarr_0/ffipg_0/ffi_1/q ffipgarr_0/ffipg_0/ffi_1/nand_6/w_0_0# 0.06fF
+C757 gnd ffipgarr_0/ffipg_2/ffi_0/nand_0/a_13_n26# 0.01fF
+C758 ffipgarr_0/ffipg_1/ffi_1/nand_6/a ffipgarr_0/ffipg_1/ffi_1/q 0.31fF
+C759 ffipgarr_0/p2 ffipgarr_0/ffipg_1/ffi_1/q 0.22fF
+C760 ffipgarr_0/ffipg_2/ffi_1/q vdd 1.31fF
+C761 ffipgarr_0/ffi_0/inv_1/op clk 0.10fF
+C762 ffipgarr_0/ffipg_2/ffi_0/nand_5/w_0_0# vdd 0.10fF
+C763 ffipgarr_0/ffipg_1/ffi_1/nand_6/w_0_0# ffipgarr_0/ffipg_1/ffi_1/nand_6/a 0.06fF
+C764 ffipgarr_0/ffipg_2/pggen_0/xor_0/inv_1/op vdd 0.15fF
+C765 ffipgarr_0/ffipg_0/ffi_0/nand_6/w_0_0# ffipgarr_0/ffipg_0/ffi_0/qbar 0.04fF
+C766 gnd ffipgarr_0/ffipg_3/ffi_1/nand_7/a 0.03fF
+C767 ffipgarr_0/ffipg_0/ffi_1/nand_7/a ffipgarr_0/ffipg_0/ffi_1/nand_1/b 0.13fF
+C768 ffipgarr_0/ffipg_0/ffi_0/nand_0/w_0_0# ffipgarr_0/ffipg_0/ffi_0/inv_0/op 0.06fF
+C769 ffipgarr_0/ffipg_3/ffi_0/nand_5/w_0_0# ffipgarr_0/ffipg_3/ffi_0/inv_1/op 0.06fF
+C770 vdd ffipgarr_0/g4 0.28fF
+C771 ffipgarr_0/ffipg_1/pggen_0/xor_0/w_n3_4# ffipgarr_0/ffipg_1/pggen_0/xor_0/inv_0/op 0.06fF
+C772 vdd ffipgarr_0/ffipg_1/ffi_0/nand_3/b 0.39fF
+C773 ffipgarr_0/ffipg_0/ffi_1/nand_3/a ffipgarr_0/ffipg_0/ffi_1/nand_3/b 0.31fF
+C774 ffipgarr_0/ffipg_3/ffi_0/nand_0/w_0_0# vdd 0.10fF
+C775 ffipgarr_0/ffipg_3/pggen_0/xor_0/inv_0/op ffipgarr_0/ffipg_3/ffi_1/q 0.27fF
+C776 vdd x4in 0.04fF
+C777 ffipgarr_0/ffipg_1/pggen_0/xor_0/w_n3_4# ffipgarr_0/k2 0.02fF
+C778 ffipgarr_0/ffipg_3/ffi_1/inv_0/op vdd 0.17fF
+C779 vdd ffipgarr_0/ffipg_2/ffi_1/inv_0/w_0_6# 0.06fF
+C780 vdd ffipgarr_0/ffipg_2/ffi_1/nand_7/a 0.34fF
+C781 ffipgarr_0/ffi_0/inv_1/w_0_6# ffipgarr_0/ffi_0/inv_1/op 0.04fF
+C782 ffipgarr_0/ffipg_3/ffi_1/qbar ffipgarr_0/ffipg_3/ffi_1/nand_7/w_0_0# 0.06fF
+C783 vdd ffipgarr_0/ffipg_3/ffi_0/nand_2/w_0_0# 0.10fF
+C784 ffipgarr_0/ffipg_3/pggen_0/nand_0/w_0_0# ffipgarr_0/p4 0.24fF
+C785 ffipgarr_0/k4 ffipgarr_0/ffipg_3/pggen_0/nor_0/a_13_6# 0.01fF
+C786 ffipgarr_0/ffipg_0/pggen_0/xor_0/a_10_10# ffipgarr_0/k1 0.45fF
+C787 ffipgarr_0/ffipg_3/ffi_0/nand_0/w_0_0# clk 0.06fF
+C788 ffipgarr_0/ffipg_0/ffi_0/nand_1/a ffipgarr_0/ffipg_0/ffi_0/nand_0/w_0_0# 0.04fF
+C789 ffipgarr_0/ffipg_3/ffi_0/nand_4/w_0_0# ffipgarr_0/ffipg_3/ffi_0/nand_6/a 0.04fF
+C790 ffipgarr_0/ffi_0/nand_6/w_0_0# vdd 0.10fF
+C791 ffipgarr_0/ffipg_2/ffi_1/inv_1/op ffipgarr_0/ffipg_2/ffi_1/nand_5/w_0_0# 0.06fF
+C792 ffipgarr_0/ffipg_2/ffi_0/nand_7/a ffipgarr_0/ffipg_2/ffi_0/qbar 0.31fF
+C793 clk x4in 0.70fF
+C794 ffipgarr_0/ffipg_3/ffi_1/inv_0/op clk 0.32fF
+C795 y2in ffipgarr_0/ffipg_1/ffi_0/inv_0/w_0_6# 0.06fF
+C796 gnd x3in 0.19fF
+C797 clk ffipgarr_0/ffipg_3/ffi_0/nand_2/w_0_0# 0.06fF
+C798 gnd ffipgarr_0/ffipg_2/ffi_1/inv_0/op 0.10fF
+C799 ffipgarr_0/ffipg_1/ffi_0/inv_0/w_0_6# ffipgarr_0/ffipg_1/ffi_0/inv_0/op 0.03fF
+C800 ffipgarr_0/ffipg_1/pggen_0/xor_0/w_n3_4# ffipgarr_0/ffipg_1/pggen_0/xor_0/inv_1/op 0.06fF
+C801 ffipgarr_0/ffipg_3/ffi_1/nand_7/a ffipgarr_0/ffipg_3/ffi_1/q 0.00fF
+C802 vdd ffipgarr_0/ffi_0/nand_3/b 0.39fF
+C803 y1in ffipgarr_0/ffipg_0/ffi_0/inv_0/op 0.04fF
+C804 gnd ffipgarr_0/ffipg_0/ffi_0/inv_0/op 0.10fF
+C805 ffipgarr_0/ffipg_2/ffi_0/nand_5/w_0_0# ffipgarr_0/ffipg_2/ffi_0/nand_7/a 0.04fF
+C806 ffipgarr_0/ffipg_0/ffi_1/nand_5/w_0_0# vdd 0.10fF
+C807 gnd ffipgarr_0/ffipg_3/pggen_0/xor_0/inv_1/op 0.20fF
+C808 vdd ffipgarr_0/ffi_0/inv_0/w_0_6# 0.06fF
+C809 ffipgarr_0/cinbar ffipgarr_0/cin 0.32fF
+C810 ffipgarr_0/ffipg_2/ffi_0/qbar ffipgarr_0/ffipg_2/ffi_0/nand_7/w_0_0# 0.06fF
+C811 ffipgarr_0/ffipg_2/ffi_1/nand_0/w_0_0# gnd 0.00fF
+C812 ffipgarr_0/ffipg_0/ffi_1/q ffipgarr_0/k1 0.46fF
+C813 ffipgarr_0/ffipg_0/ffi_1/inv_1/op gnd 0.22fF
+C814 ffipgarr_0/ffipg_1/ffi_0/q ffipgarr_0/ffipg_1/ffi_0/nand_6/a 0.31fF
+C815 vdd clk 0.16fF
+C816 vdd ffipgarr_0/ffipg_1/ffi_1/nand_1/w_0_0# 0.10fF
+C817 ffipgarr_0/ffipg_0/ffi_0/nand_3/w_0_0# ffipgarr_0/ffipg_0/ffi_0/nand_3/a 0.06fF
+C818 ffipgarr_0/ffipg_0/ffi_0/nand_1/w_0_0# ffipgarr_0/ffipg_0/ffi_0/nand_3/b 0.04fF
+C819 ffipgarr_0/ffipg_3/ffi_0/nand_5/w_0_0# ffipgarr_0/ffipg_3/ffi_0/nand_7/a 0.04fF
+C820 gnd ffipgarr_0/ffi_0/nand_1/a 0.14fF
+C821 ffipgarr_0/ffipg_3/ffi_0/q ffipgarr_0/ffipg_3/ffi_0/nand_7/w_0_0# 0.04fF
+C822 ffipgarr_0/ffipg_1/ffi_0/nand_0/w_0_0# gnd 0.00fF
+C823 vdd ffipgarr_0/ffipg_3/ffi_0/nand_3/w_0_0# 0.11fF
+C824 ffipgarr_0/ffipg_1/ffi_1/nand_7/w_0_0# vdd 0.10fF
+C825 ffipgarr_0/ffipg_0/ffi_1/qbar vdd 0.33fF
+C826 ffipgarr_0/g3 vdd 0.28fF
+C827 gnd ffipgarr_0/ffipg_3/ffi_1/nand_3/b 0.35fF
+C828 vdd ffipgarr_0/ffipg_3/pggen_0/xor_0/a_10_10# 0.93fF
+C829 ffipgarr_0/ffipg_3/pggen_0/xor_0/w_n3_4# ffipgarr_0/ffipg_3/pggen_0/xor_0/inv_1/op 0.06fF
+C830 ffipgarr_0/ffipg_0/ffi_1/nand_1/b ffipgarr_0/ffipg_0/ffi_1/nand_3/w_0_0# 0.04fF
+C831 ffipgarr_0/ffipg_0/ffi_0/nand_1/a gnd 0.14fF
+C832 ffipgarr_0/ffipg_1/pggen_0/xor_0/w_n3_4# ffipgarr_0/ffipg_1/ffi_1/q 0.06fF
+C833 ffipgarr_0/ffipg_3/ffi_0/nand_6/w_0_0# ffipgarr_0/ffipg_3/ffi_0/nand_6/a 0.06fF
+C834 ffipgarr_0/ffipg_2/ffi_0/inv_1/op y3in 0.01fF
+C835 ffipgarr_0/ffipg_1/ffi_1/qbar vdd 0.33fF
+C836 vdd ffipgarr_0/ffi_0/inv_1/w_0_6# 0.06fF
+C837 ffipgarr_0/ffipg_3/ffi_1/nand_4/w_0_0# ffipgarr_0/ffipg_3/ffi_1/inv_1/op 0.06fF
+C838 ffipgarr_0/ffipg_0/ffi_0/q vdd 0.38fF
+C839 y4in ffipgarr_0/ffipg_3/ffi_0/inv_0/w_0_6# 0.06fF
+C840 ffipgarr_0/ffipg_0/pggen_0/xor_0/inv_1/w_0_6# ffipgarr_0/ffipg_0/pggen_0/xor_0/inv_1/op 0.03fF
+C841 ffipgarr_0/ffipg_3/ffi_1/inv_1/op ffipgarr_0/ffipg_3/ffi_1/nand_3/b 0.33fF
+C842 ffipgarr_0/ffipg_2/ffi_0/nand_7/a vdd 0.34fF
+C843 ffipgarr_0/ffipg_0/ffi_0/nand_2/w_0_0# vdd 0.10fF
+C844 ffipgarr_0/ffipg_3/ffi_1/nand_6/a ffipgarr_0/ffipg_3/ffi_1/nand_4/w_0_0# 0.04fF
+C845 ffipgarr_0/ffipg_3/ffi_1/nand_7/a ffipgarr_0/ffipg_3/ffi_1/nand_7/w_0_0# 0.06fF
+C846 vdd ffipgarr_0/ffipg_3/ffi_1/nand_1/a 0.30fF
+C847 ffipgarr_0/ffipg_3/ffi_1/q ffipgarr_0/ffipg_3/pggen_0/xor_0/inv_1/op 0.06fF
+C848 ffipgarr_0/k3 ffipgarr_0/ffipg_2/pggen_0/xor_0/inv_0/op 0.06fF
+C849 ffipgarr_0/ffipg_1/ffi_1/nand_0/w_0_0# ffipgarr_0/ffipg_1/ffi_1/nand_1/a 0.04fF
+C850 vdd ffipgarr_0/ffi_0/nand_3/a 0.30fF
+C851 ffipgarr_0/ffipg_0/ffi_1/nand_1/w_0_0# vdd 0.10fF
+C852 ffipgarr_0/ffipg_3/ffi_0/q ffipgarr_0/p4 0.03fF
+C853 ffipgarr_0/ffipg_3/ffi_1/nand_7/a ffipgarr_0/ffipg_3/ffi_1/nand_1/b 0.13fF
+C854 ffipgarr_0/ffipg_1/ffi_1/inv_1/op ffipgarr_0/ffipg_1/ffi_1/nand_1/b 0.45fF
+C855 ffipgarr_0/ffipg_1/ffi_1/nand_3/b ffipgarr_0/ffipg_1/ffi_1/nand_3/w_0_0# 0.06fF
+C856 ffipgarr_0/ffipg_1/ffi_0/qbar ffipgarr_0/ffipg_1/ffi_0/nand_7/a 0.31fF
+C857 ffipgarr_0/ffi_0/nand_7/a ffipgarr_0/cin 0.00fF
+C858 ffipgarr_0/ffipg_0/ffi_1/nand_1/a vdd 0.30fF
+C859 ffipgarr_0/ffipg_0/ffi_1/q ffipgarr_0/ffipg_0/pggen_0/xor_0/inv_1/op 0.06fF
+C860 ffipgarr_0/ffipg_1/ffi_0/nand_0/w_0_0# ffipgarr_0/ffipg_1/ffi_0/nand_1/a 0.04fF
+C861 vdd ffipgarr_0/ffipg_3/ffi_0/nand_1/w_0_0# 0.10fF
+C862 ffipgarr_0/ffi_0/nand_3/b ffipgarr_0/ffi_0/nand_3/a 0.31fF
+C863 ffipgarr_0/ffi_0/inv_1/w_0_6# clk 0.06fF
+C864 vdd ffipgarr_0/ffipg_2/ffi_0/nand_7/w_0_0# 0.10fF
+C865 ffipgarr_0/ffipg_2/pggen_0/xor_0/w_n3_4# ffipgarr_0/ffipg_2/pggen_0/xor_0/inv_0/op 0.06fF
+C866 ffipgarr_0/ffipg_0/ffi_0/nand_7/a vdd 0.34fF
+C867 ffipgarr_0/ffipg_2/ffi_0/nand_1/w_0_0# ffipgarr_0/ffipg_2/ffi_0/nand_1/a 0.06fF
+C868 vdd ffipgarr_0/ffipg_3/ffi_0/nand_4/w_0_0# 0.10fF
+C869 gnd ffipgarr_0/ffipg_3/ffi_0/qbar 0.34fF
+C870 ffipgarr_0/ffipg_1/ffi_1/nand_7/w_0_0# ffipgarr_0/ffipg_1/ffi_1/qbar 0.06fF
+C871 ffipgarr_0/ffipg_0/ffi_0/nand_2/w_0_0# clk 0.06fF
+C872 ffipgarr_0/ffipg_0/ffi_0/inv_1/w_0_6# vdd 0.06fF
+C873 ffipgarr_0/ffipg_0/ffi_0/inv_1/op ffipgarr_0/ffipg_0/ffi_0/nand_6/a 0.13fF
+C874 ffipgarr_0/ffipg_3/ffi_1/nand_6/a ffipgarr_0/ffipg_3/ffi_1/nand_6/w_0_0# 0.06fF
+C875 clk ffipgarr_0/ffipg_3/ffi_1/nand_1/a 0.13fF
+C876 gnd ffipgarr_0/ffi_0/inv_0/op 0.10fF
+C877 clk ffipgarr_0/ffi_0/nand_3/a 0.13fF
+C878 vdd ffipgarr_0/ffipg_2/ffi_0/inv_0/w_0_6# 0.06fF
+C879 ffipgarr_0/ffipg_0/ffi_1/nand_6/a ffipgarr_0/ffipg_0/ffi_1/nand_4/w_0_0# 0.04fF
+C880 ffipgarr_0/ffipg_3/ffi_0/q ffipgarr_0/ffipg_3/pggen_0/xor_0/inv_0/op 0.20fF
+C881 ffipgarr_0/ffipg_0/ffi_0/qbar ffipgarr_0/ffipg_0/ffi_0/nand_7/w_0_0# 0.06fF
+C882 ffipgarr_0/ffipg_2/ffi_0/nand_3/w_0_0# ffipgarr_0/ffipg_2/ffi_0/nand_1/b 0.04fF
+C883 ffipgarr_0/ffipg_0/ffi_0/qbar ffipgarr_0/ffipg_0/ffi_0/nand_6/a 0.00fF
+C884 ffipgarr_0/ffipg_0/ffi_1/nand_1/a clk 0.13fF
+C885 ffipgarr_0/ffipg_3/ffi_0/nand_0/w_0_0# ffipgarr_0/ffipg_3/ffi_0/nand_1/a 0.04fF
+C886 ffipgarr_0/ffipg_0/ffi_0/nand_0/w_0_0# gnd 0.00fF
+C887 gnd ffipgarr_0/ffipg_0/ffi_1/inv_0/op 0.10fF
+C888 ffipgarr_0/ffipg_0/ffi_1/nand_3/w_0_0# ffipgarr_0/ffipg_0/ffi_1/nand_3/b 0.06fF
+C889 ffipgarr_0/ffipg_0/ffi_1/nand_1/b vdd 0.31fF
+C890 ffipgarr_0/ffipg_0/ffi_1/inv_0/op ffipgarr_0/ffipg_0/ffi_1/inv_0/w_0_6# 0.03fF
+C891 gnd ffipgarr_0/ffipg_2/ffi_1/nand_3/b 0.35fF
+C892 ffipgarr_0/ffipg_3/ffi_1/q ffipgarr_0/ffipg_3/ffi_1/nand_6/w_0_0# 0.06fF
+C893 ffipgarr_0/k4 vdd 0.13fF
+C894 ffipgarr_0/ffipg_1/ffi_1/nand_6/a ffipgarr_0/ffipg_1/ffi_1/nand_4/w_0_0# 0.04fF
+C895 ffipgarr_0/ffipg_1/ffi_0/nand_7/w_0_0# vdd 0.10fF
+C896 ffipgarr_0/ffipg_0/ffi_0/inv_1/w_0_6# clk 0.06fF
+C897 ffipgarr_0/ffipg_2/ffi_0/nand_3/w_0_0# ffipgarr_0/ffipg_2/ffi_0/nand_3/a 0.06fF
+C898 ffipgarr_0/ffipg_1/ffi_0/nand_1/w_0_0# ffipgarr_0/ffipg_1/ffi_0/nand_3/b 0.04fF
+C899 ffipgarr_0/ffipg_0/ffi_1/nand_5/w_0_0# ffipgarr_0/ffipg_0/ffi_1/nand_1/b 0.06fF
+C900 gnd ffipgarr_0/ffipg_2/ffi_1/nand_0/a_13_n26# 0.01fF
+C901 ffipgarr_0/ffipg_2/ffi_1/inv_1/op ffipgarr_0/ffipg_2/ffi_1/inv_1/w_0_6# 0.04fF
+C902 ffipgarr_0/ffipg_1/ffi_0/q vdd 0.38fF
+C903 ffipgarr_0/ffipg_2/ffi_1/nand_1/b ffipgarr_0/ffipg_2/ffi_1/nand_3/b 0.32fF
+C904 ffipgarr_0/ffipg_2/ffi_0/nand_0/w_0_0# vdd 0.10fF
+C905 ffipgarr_0/p2 ffipgarr_0/ffipg_1/pggen_0/nand_0/w_0_0# 0.24fF
+C906 ffipgarr_0/ffipg_2/ffi_0/q ffipgarr_0/ffipg_2/pggen_0/xor_0/a_10_10# 0.12fF
+C907 ffipgarr_0/ffipg_0/ffi_0/nand_1/a ffipgarr_0/ffipg_0/ffi_0/nand_1/w_0_0# 0.06fF
+C908 ffipgarr_0/ffipg_0/ffi_1/nand_0/a_13_n26# gnd 0.01fF
+C909 ffipgarr_0/ffipg_2/ffi_0/inv_1/op ffipgarr_0/ffipg_2/ffi_0/nand_6/a 0.13fF
+C910 vdd ffipgarr_0/ffipg_3/ffi_1/nand_1/w_0_0# 0.10fF
+C911 gnd ffipgarr_0/ffipg_3/ffi_0/inv_1/op 0.22fF
+C912 vdd ffipgarr_0/ffipg_3/ffi_0/nand_1/a 0.30fF
+C913 ffipgarr_0/ffipg_3/ffi_0/inv_0/op ffipgarr_0/ffipg_3/ffi_0/inv_0/w_0_6# 0.03fF
+C914 ffipgarr_0/ffipg_3/ffi_0/qbar ffipgarr_0/ffipg_3/ffi_0/nand_7/a 0.31fF
+C915 ffipgarr_0/ffipg_0/ffi_0/q ffipgarr_0/ffipg_0/ffi_0/nand_7/a 0.00fF
+C916 ffipgarr_0/k1 ffipgarr_0/ffipg_0/pggen_0/xor_0/w_n3_4# 0.02fF
+C917 gnd ffipgarr_0/ffipg_2/ffi_0/inv_0/op 0.10fF
+C918 ffipgarr_0/ffipg_1/pggen_0/nor_0/w_0_0# ffipgarr_0/p2 0.05fF
+C919 vdd ffipgarr_0/ffipg_3/ffi_0/nand_6/w_0_0# 0.10fF
+C920 ffipgarr_0/ffipg_0/pggen_0/nor_0/w_0_0# vdd 0.11fF
+C921 ffipgarr_0/ffipg_2/ffi_0/nand_7/a ffipgarr_0/ffipg_2/ffi_0/nand_7/w_0_0# 0.06fF
+C922 ffipgarr_0/ffipg_1/ffi_0/nand_3/a ffipgarr_0/ffipg_1/ffi_0/nand_2/w_0_0# 0.04fF
+C923 ffipgarr_0/ffipg_0/ffi_1/nand_1/w_0_0# ffipgarr_0/ffipg_0/ffi_1/nand_1/a 0.06fF
+C924 gnd ffipgarr_0/ffipg_1/ffi_0/nand_3/a 0.03fF
+C925 ffipgarr_0/ffipg_1/ffi_1/inv_0/w_0_6# vdd 0.06fF
+C926 vdd ffipgarr_0/ffi_0/nand_7/w_0_0# 0.10fF
+C927 ffipgarr_0/ffipg_1/ffi_1/nand_3/b ffipgarr_0/ffipg_1/ffi_1/nand_4/w_0_0# 0.06fF
+C928 ffipgarr_0/ffipg_0/ffi_0/inv_0/w_0_6# vdd 0.06fF
+C929 ffipgarr_0/ffipg_2/ffi_0/nand_0/w_0_0# clk 0.06fF
+C930 ffipgarr_0/ffipg_1/ffi_0/nand_1/w_0_0# vdd 0.10fF
+C931 y1in gnd 0.19fF
+C932 ffipgarr_0/ffipg_3/ffi_0/inv_1/op ffipgarr_0/ffipg_3/ffi_1/inv_1/op 0.75fF
+C933 ffipgarr_0/ffipg_3/ffi_1/nand_1/b ffipgarr_0/ffipg_3/ffi_1/nand_3/b 0.32fF
+C934 ffipgarr_0/ffipg_3/pggen_0/nor_0/w_0_0# ffipgarr_0/p4 0.05fF
+C935 ffipgarr_0/k4 ffipgarr_0/ffipg_3/pggen_0/xor_0/a_10_10# 0.45fF
+C936 ffipgarr_0/ffipg_0/ffi_1/nand_7/a ffipgarr_0/ffipg_0/ffi_1/nand_7/w_0_0# 0.06fF
+C937 ffipgarr_0/ffipg_1/ffi_0/nand_1/b ffipgarr_0/ffipg_1/ffi_0/nand_5/w_0_0# 0.06fF
+C938 vdd ffipgarr_0/ffipg_3/ffi_1/inv_1/w_0_6# 0.06fF
+C939 clk ffipgarr_0/ffipg_3/ffi_0/nand_1/a 0.13fF
+C940 ffipgarr_0/ffipg_2/ffi_0/inv_1/op ffipgarr_0/ffipg_2/ffi_0/nand_4/w_0_0# 0.06fF
+C941 gnd ffipgarr_0/ffipg_1/ffi_1/nand_6/a 0.03fF
+C942 ffipgarr_0/p2 gnd 0.18fF
+C943 ffipgarr_0/ffipg_2/ffi_0/nand_2/w_0_0# vdd 0.10fF
+C944 ffipgarr_0/ffipg_2/ffi_0/nand_3/b ffipgarr_0/ffipg_2/ffi_0/nand_1/b 0.32fF
+C945 vdd ffipgarr_0/ffipg_1/ffi_1/nand_3/a 0.30fF
+C946 ffipgarr_0/ffipg_3/pggen_0/xor_0/inv_0/op ffipgarr_0/ffipg_3/pggen_0/xor_0/inv_0/w_0_6# 0.03fF
 C947 ffipgarr_0/ffipg_3/ffi_1/inv_1/w_0_6# Gnd 0.58fF
 C948 ffipgarr_0/ffipg_3/ffi_1/inv_0/w_0_6# Gnd 0.58fF
 C949 ffipgarr_0/ffipg_3/ffi_1/nand_7/a Gnd 0.30fF
@@ -1823,7 +1823,7 @@ C1009 ffipgarr_0/ffi_0/nand_3/b Gnd 0.43fF
 C1010 ffipgarr_0/ffi_0/nand_4/w_0_0# Gnd 0.82fF
 C1011 ffipgarr_0/ffi_0/nand_3/a Gnd 0.30fF
 C1012 ffipgarr_0/ffi_0/nand_3/w_0_0# Gnd 0.82fF
-C1013 ffipgarr_0/clk Gnd 10.95fF
+C1013 clk Gnd 10.97fF
 C1014 cinin Gnd 0.52fF
 C1015 ffipgarr_0/ffi_0/nand_2/w_0_0# Gnd 0.82fF
 C1016 ffipgarr_0/ffi_0/inv_0/op Gnd 0.26fF
