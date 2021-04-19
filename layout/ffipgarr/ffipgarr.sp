@@ -1,814 +1,844 @@
 * SPICE3 file created from ffipgarr.ext - technology: scmos
-
+.include ../TSMC_180nm.txt
+* D G S B
+.param SUPPLY=1.8V
+.param LAMBDA=0.09u
+.param length={2*LAMBDA}
+.param w={6*LAMBDA}
+.global gnd vdd
 .option scale=0.09u
 
-M1000 ffipg_0/pggen_0/nand_0/a_13_n26# ffipg_0/ffi_1/q gnd Gnd nfet w=12 l=2
+Vdd vdd gnd 'SUPPLY'
+
+vclk clk gnd pulse 0 1.8 0ns 10ps 10ps 10ns 20ns
+
+vcin cinin gnd pulse 1.8 0 0ns 10ps 10ps 20ns 40ns
+vy1 y1in   gnd pulse 1.8 0 0ns 10ps 10ps 40ns 80ns
+vy2 y2in   gnd pulse 1.8 0 0ns 10ps 10ps 80ns 160ns
+vy3 y3in   gnd pulse 1.8 0 0ns 10ps 10ps 160ns 320ns
+vy4 y4in   gnd pulse 1.8 0 0ns 10ps 10ps 320ns 640ns
+vx1 x1in   gnd pulse 1.8 0 0ns 10ps 10ps 640ns 1280ns
+vx2 x2in   gnd pulse 1.8 0 0ns 10ps 10ps 1280ns 2560ns
+vx3 x3in   gnd pulse 1.8 0 0ns 10ps 10ps 2560ns 5120ns
+vx4 x4in   gnd pulse 1.8 0 0ns 10ps 10ps 5120ns 10240ns
+
+* vy1 y1in gnd 1.8
+* vy2 y2in gnd 1.8
+* vy3 y3in gnd 1.8
+* vy4 y4in gnd 1.8
+* vx1 x1in gnd 0
+* vx2 x2in gnd 0
+* vx3 x3in gnd 0
+* vx4 x4in gnd 0
+* vcin cinin gnd 0
+
+M1000 ffipg_0/pggen_0/nand_0/a_13_n26# ffipg_0/ffi_1/q gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=6060 ps=3604
-M1001 vdd ffipg_0/ffi_0/q g1 ffipg_0/pggen_0/nand_0/w_0_0# pfet w=12 l=2
+M1001 vdd ffipg_0/ffi_0/q g1 ffipg_0/pggen_0/nand_0/w_0_0# CMOSP w=12 l=2
 +  ad=12120 pd=6748 as=96 ps=40
-M1002 g1 ffipg_0/ffi_1/q vdd ffipg_0/pggen_0/nand_0/w_0_0# pfet w=12 l=2
+M1002 g1 ffipg_0/ffi_1/q vdd ffipg_0/pggen_0/nand_0/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1003 g1 ffipg_0/ffi_0/q ffipg_0/pggen_0/nand_0/a_13_n26# Gnd nfet w=12 l=2
+M1003 g1 ffipg_0/ffi_0/q ffipg_0/pggen_0/nand_0/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1004 ffipg_0/pggen_0/xor_0/inv_0/op ffipg_0/ffi_1/q gnd Gnd nfet w=6 l=2
+M1004 ffipg_0/pggen_0/xor_0/inv_0/op ffipg_0/ffi_1/q gnd Gnd CMOSN w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1005 ffipg_0/pggen_0/xor_0/inv_0/op ffipg_0/ffi_1/q vdd ffipg_0/pggen_0/xor_0/inv_0/w_0_6# pfet w=12 l=2
+M1005 ffipg_0/pggen_0/xor_0/inv_0/op ffipg_0/ffi_1/q vdd ffipg_0/pggen_0/xor_0/inv_0/w_0_6# CMOSP w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1006 ffipg_0/pggen_0/xor_0/inv_1/op ffipg_0/ffi_0/q gnd Gnd nfet w=6 l=2
+M1006 ffipg_0/pggen_0/xor_0/inv_1/op ffipg_0/ffi_0/q gnd Gnd CMOSN w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1007 ffipg_0/pggen_0/xor_0/inv_1/op ffipg_0/ffi_0/q vdd ffipg_0/pggen_0/xor_0/inv_1/w_0_6# pfet w=12 l=2
+M1007 ffipg_0/pggen_0/xor_0/inv_1/op ffipg_0/ffi_0/q vdd ffipg_0/pggen_0/xor_0/inv_1/w_0_6# CMOSP w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1008 vdd ffipg_0/ffi_0/q ffipg_0/pggen_0/xor_0/a_10_10# ffipg_0/pggen_0/xor_0/w_n3_4# pfet w=24 l=2
+M1008 vdd ffipg_0/ffi_0/q ffipg_0/pggen_0/xor_0/a_10_10# ffipg_0/pggen_0/xor_0/w_n3_4# CMOSP w=24 l=2
 +  ad=0 pd=0 as=432 ps=180
-M1009 k1 ffipg_0/ffi_0/q ffipg_0/pggen_0/xor_0/a_10_n43# Gnd nfet w=12 l=2
+M1009 k1 ffipg_0/ffi_0/q ffipg_0/pggen_0/xor_0/a_10_n43# Gnd CMOSN w=12 l=2
 +  ad=120 pd=68 as=96 ps=40
-M1010 gnd ffipg_0/pggen_0/xor_0/inv_1/op ffipg_0/pggen_0/xor_0/a_38_n43# Gnd nfet w=12 l=2
+M1010 gnd ffipg_0/pggen_0/xor_0/inv_1/op ffipg_0/pggen_0/xor_0/a_38_n43# Gnd CMOSN w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1011 ffipg_0/pggen_0/xor_0/a_10_10# ffipg_0/pggen_0/xor_0/inv_1/op k1 ffipg_0/pggen_0/xor_0/w_n3_4# pfet w=24 l=2
+M1011 ffipg_0/pggen_0/xor_0/a_10_10# ffipg_0/pggen_0/xor_0/inv_1/op k1 ffipg_0/pggen_0/xor_0/w_n3_4# CMOSP w=24 l=2
 +  ad=0 pd=0 as=192 ps=64
-M1012 ffipg_0/pggen_0/xor_0/a_10_n43# ffipg_0/ffi_1/q gnd Gnd nfet w=12 l=2
+M1012 ffipg_0/pggen_0/xor_0/a_10_n43# ffipg_0/ffi_1/q gnd Gnd CMOSN w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1013 ffipg_0/pggen_0/xor_0/a_38_n43# ffipg_0/pggen_0/xor_0/inv_0/op k1 Gnd nfet w=12 l=2
+M1013 ffipg_0/pggen_0/xor_0/a_38_n43# ffipg_0/pggen_0/xor_0/inv_0/op k1 Gnd CMOSN w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1014 ffipg_0/pggen_0/xor_0/a_10_10# ffipg_0/ffi_1/q vdd ffipg_0/pggen_0/xor_0/w_n3_4# pfet w=24 l=2
+M1014 ffipg_0/pggen_0/xor_0/a_10_10# ffipg_0/ffi_1/q vdd ffipg_0/pggen_0/xor_0/w_n3_4# CMOSP w=24 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1015 k1 ffipg_0/pggen_0/xor_0/inv_0/op ffipg_0/pggen_0/xor_0/a_10_10# ffipg_0/pggen_0/xor_0/w_n3_4# pfet w=24 l=2
+M1015 k1 ffipg_0/pggen_0/xor_0/inv_0/op ffipg_0/pggen_0/xor_0/a_10_10# ffipg_0/pggen_0/xor_0/w_n3_4# CMOSP w=24 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1016 p1 ffipg_0/ffi_1/q ffipg_0/pggen_0/nor_0/a_13_6# ffipg_0/pggen_0/nor_0/w_0_0# pfet w=24 l=2
+M1016 p1 ffipg_0/ffi_1/q ffipg_0/pggen_0/nor_0/a_13_6# ffipg_0/pggen_0/nor_0/w_0_0# CMOSP w=24 l=2
 +  ad=120 pd=58 as=192 ps=64
-M1017 ffipg_0/pggen_0/nor_0/a_13_6# ffipg_0/ffi_0/q vdd ffipg_0/pggen_0/nor_0/w_0_0# pfet w=24 l=2
+M1017 ffipg_0/pggen_0/nor_0/a_13_6# ffipg_0/ffi_0/q vdd ffipg_0/pggen_0/nor_0/w_0_0# CMOSP w=24 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1018 gnd ffipg_0/ffi_1/q p1 Gnd nfet w=6 l=2
+M1018 gnd ffipg_0/ffi_1/q p1 Gnd CMOSN w=6 l=2
 +  ad=0 pd=0 as=48 ps=28
-M1019 p1 ffipg_0/ffi_0/q gnd Gnd nfet w=6 l=2
+M1019 p1 ffipg_0/ffi_0/q gnd Gnd CMOSN w=6 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1020 ffipg_0/ffi_0/nand_1/a_13_n26# ffipg_0/ffi_0/nand_1/a gnd Gnd nfet w=12 l=2
+M1020 ffipg_0/ffi_0/nand_1/a_13_n26# ffipg_0/ffi_0/nand_1/a gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1021 vdd ffipg_0/ffi_0/nand_1/b ffipg_0/ffi_0/nand_3/b ffipg_0/ffi_0/nand_1/w_0_0# pfet w=12 l=2
+M1021 vdd ffipg_0/ffi_0/nand_1/b ffipg_0/ffi_0/nand_3/b ffipg_0/ffi_0/nand_1/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1022 ffipg_0/ffi_0/nand_3/b ffipg_0/ffi_0/nand_1/a vdd ffipg_0/ffi_0/nand_1/w_0_0# pfet w=12 l=2
+M1022 ffipg_0/ffi_0/nand_3/b ffipg_0/ffi_0/nand_1/a vdd ffipg_0/ffi_0/nand_1/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1023 ffipg_0/ffi_0/nand_3/b ffipg_0/ffi_0/nand_1/b ffipg_0/ffi_0/nand_1/a_13_n26# Gnd nfet w=12 l=2
+M1023 ffipg_0/ffi_0/nand_3/b ffipg_0/ffi_0/nand_1/b ffipg_0/ffi_0/nand_1/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1024 ffipg_0/ffi_0/nand_0/a_13_n26# ffipg_0/ffi_0/inv_0/op gnd Gnd nfet w=12 l=2
+M1024 ffipg_0/ffi_0/nand_0/a_13_n26# ffipg_0/ffi_0/inv_0/op gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1025 vdd clk ffipg_0/ffi_0/nand_1/a ffipg_0/ffi_0/nand_0/w_0_0# pfet w=12 l=2
+M1025 vdd clk ffipg_0/ffi_0/nand_1/a ffipg_0/ffi_0/nand_0/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1026 ffipg_0/ffi_0/nand_1/a ffipg_0/ffi_0/inv_0/op vdd ffipg_0/ffi_0/nand_0/w_0_0# pfet w=12 l=2
+M1026 ffipg_0/ffi_0/nand_1/a ffipg_0/ffi_0/inv_0/op vdd ffipg_0/ffi_0/nand_0/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1027 ffipg_0/ffi_0/nand_1/a clk ffipg_0/ffi_0/nand_0/a_13_n26# Gnd nfet w=12 l=2
+M1027 ffipg_0/ffi_0/nand_1/a clk ffipg_0/ffi_0/nand_0/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1028 ffipg_0/ffi_0/nand_2/a_13_n26# y1in gnd Gnd nfet w=12 l=2
+M1028 ffipg_0/ffi_0/nand_2/a_13_n26# y1in gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1029 vdd clk ffipg_0/ffi_0/nand_3/a ffipg_0/ffi_0/nand_2/w_0_0# pfet w=12 l=2
+M1029 vdd clk ffipg_0/ffi_0/nand_3/a ffipg_0/ffi_0/nand_2/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1030 ffipg_0/ffi_0/nand_3/a y1in vdd ffipg_0/ffi_0/nand_2/w_0_0# pfet w=12 l=2
+M1030 ffipg_0/ffi_0/nand_3/a y1in vdd ffipg_0/ffi_0/nand_2/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1031 ffipg_0/ffi_0/nand_3/a clk ffipg_0/ffi_0/nand_2/a_13_n26# Gnd nfet w=12 l=2
+M1031 ffipg_0/ffi_0/nand_3/a clk ffipg_0/ffi_0/nand_2/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1032 ffipg_0/ffi_0/nand_3/a_13_n26# ffipg_0/ffi_0/nand_3/a gnd Gnd nfet w=12 l=2
+M1032 ffipg_0/ffi_0/nand_3/a_13_n26# ffipg_0/ffi_0/nand_3/a gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1033 vdd ffipg_0/ffi_0/nand_3/b ffipg_0/ffi_0/nand_1/b ffipg_0/ffi_0/nand_3/w_0_0# pfet w=12 l=2
+M1033 vdd ffipg_0/ffi_0/nand_3/b ffipg_0/ffi_0/nand_1/b ffipg_0/ffi_0/nand_3/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1034 ffipg_0/ffi_0/nand_1/b ffipg_0/ffi_0/nand_3/a vdd ffipg_0/ffi_0/nand_3/w_0_0# pfet w=12 l=2
+M1034 ffipg_0/ffi_0/nand_1/b ffipg_0/ffi_0/nand_3/a vdd ffipg_0/ffi_0/nand_3/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1035 ffipg_0/ffi_0/nand_1/b ffipg_0/ffi_0/nand_3/b ffipg_0/ffi_0/nand_3/a_13_n26# Gnd nfet w=12 l=2
+M1035 ffipg_0/ffi_0/nand_1/b ffipg_0/ffi_0/nand_3/b ffipg_0/ffi_0/nand_3/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1036 ffipg_0/ffi_0/nand_4/a_13_n26# ffipg_0/ffi_0/nand_3/b gnd Gnd nfet w=12 l=2
+M1036 ffipg_0/ffi_0/nand_4/a_13_n26# ffipg_0/ffi_0/nand_3/b gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1037 vdd ffipg_0/ffi_0/inv_1/op ffipg_0/ffi_0/nand_6/a ffipg_0/ffi_0/nand_4/w_0_0# pfet w=12 l=2
+M1037 vdd ffipg_0/ffi_0/inv_1/op ffipg_0/ffi_0/nand_6/a ffipg_0/ffi_0/nand_4/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1038 ffipg_0/ffi_0/nand_6/a ffipg_0/ffi_0/nand_3/b vdd ffipg_0/ffi_0/nand_4/w_0_0# pfet w=12 l=2
+M1038 ffipg_0/ffi_0/nand_6/a ffipg_0/ffi_0/nand_3/b vdd ffipg_0/ffi_0/nand_4/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1039 ffipg_0/ffi_0/nand_6/a ffipg_0/ffi_0/inv_1/op ffipg_0/ffi_0/nand_4/a_13_n26# Gnd nfet w=12 l=2
+M1039 ffipg_0/ffi_0/nand_6/a ffipg_0/ffi_0/inv_1/op ffipg_0/ffi_0/nand_4/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1040 ffipg_0/ffi_0/nand_5/a_13_n26# ffipg_0/ffi_0/inv_1/op gnd Gnd nfet w=12 l=2
+M1040 ffipg_0/ffi_0/nand_5/a_13_n26# ffipg_0/ffi_0/inv_1/op gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1041 vdd ffipg_0/ffi_0/nand_1/b ffipg_0/ffi_0/nand_7/a ffipg_0/ffi_0/nand_5/w_0_0# pfet w=12 l=2
+M1041 vdd ffipg_0/ffi_0/nand_1/b ffipg_0/ffi_0/nand_7/a ffipg_0/ffi_0/nand_5/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1042 ffipg_0/ffi_0/nand_7/a ffipg_0/ffi_0/inv_1/op vdd ffipg_0/ffi_0/nand_5/w_0_0# pfet w=12 l=2
+M1042 ffipg_0/ffi_0/nand_7/a ffipg_0/ffi_0/inv_1/op vdd ffipg_0/ffi_0/nand_5/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1043 ffipg_0/ffi_0/nand_7/a ffipg_0/ffi_0/nand_1/b ffipg_0/ffi_0/nand_5/a_13_n26# Gnd nfet w=12 l=2
+M1043 ffipg_0/ffi_0/nand_7/a ffipg_0/ffi_0/nand_1/b ffipg_0/ffi_0/nand_5/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1044 ffipg_0/ffi_0/nand_6/a_13_n26# ffipg_0/ffi_0/nand_6/a gnd Gnd nfet w=12 l=2
+M1044 ffipg_0/ffi_0/nand_6/a_13_n26# ffipg_0/ffi_0/nand_6/a gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1045 vdd ffipg_0/ffi_0/q ffipg_0/ffi_0/qbar ffipg_0/ffi_0/nand_6/w_0_0# pfet w=12 l=2
+M1045 vdd ffipg_0/ffi_0/q ffipg_0/ffi_0/qbar ffipg_0/ffi_0/nand_6/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1046 ffipg_0/ffi_0/qbar ffipg_0/ffi_0/nand_6/a vdd ffipg_0/ffi_0/nand_6/w_0_0# pfet w=12 l=2
+M1046 ffipg_0/ffi_0/qbar ffipg_0/ffi_0/nand_6/a vdd ffipg_0/ffi_0/nand_6/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1047 ffipg_0/ffi_0/qbar ffipg_0/ffi_0/q ffipg_0/ffi_0/nand_6/a_13_n26# Gnd nfet w=12 l=2
+M1047 ffipg_0/ffi_0/qbar ffipg_0/ffi_0/q ffipg_0/ffi_0/nand_6/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1048 ffipg_0/ffi_0/nand_7/a_13_n26# ffipg_0/ffi_0/nand_7/a gnd Gnd nfet w=12 l=2
+M1048 ffipg_0/ffi_0/nand_7/a_13_n26# ffipg_0/ffi_0/nand_7/a gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1049 vdd ffipg_0/ffi_0/qbar ffipg_0/ffi_0/q ffipg_0/ffi_0/nand_7/w_0_0# pfet w=12 l=2
+M1049 vdd ffipg_0/ffi_0/qbar ffipg_0/ffi_0/q ffipg_0/ffi_0/nand_7/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1050 ffipg_0/ffi_0/q ffipg_0/ffi_0/nand_7/a vdd ffipg_0/ffi_0/nand_7/w_0_0# pfet w=12 l=2
+M1050 ffipg_0/ffi_0/q ffipg_0/ffi_0/nand_7/a vdd ffipg_0/ffi_0/nand_7/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1051 ffipg_0/ffi_0/q ffipg_0/ffi_0/qbar ffipg_0/ffi_0/nand_7/a_13_n26# Gnd nfet w=12 l=2
+M1051 ffipg_0/ffi_0/q ffipg_0/ffi_0/qbar ffipg_0/ffi_0/nand_7/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1052 ffipg_0/ffi_0/inv_0/op y1in gnd Gnd nfet w=6 l=2
+M1052 ffipg_0/ffi_0/inv_0/op y1in gnd Gnd CMOSN w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1053 ffipg_0/ffi_0/inv_0/op y1in vdd ffipg_0/ffi_0/inv_0/w_0_6# pfet w=12 l=2
+M1053 ffipg_0/ffi_0/inv_0/op y1in vdd ffipg_0/ffi_0/inv_0/w_0_6# CMOSP w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1054 ffipg_0/ffi_0/inv_1/op clk gnd Gnd nfet w=6 l=2
+M1054 ffipg_0/ffi_0/inv_1/op clk gnd Gnd CMOSN w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1055 ffipg_0/ffi_0/inv_1/op clk vdd ffipg_0/ffi_0/inv_1/w_0_6# pfet w=12 l=2
+M1055 ffipg_0/ffi_0/inv_1/op clk vdd ffipg_0/ffi_0/inv_1/w_0_6# CMOSP w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1056 ffipg_0/ffi_1/nand_1/a_13_n26# ffipg_0/ffi_1/nand_1/a gnd Gnd nfet w=12 l=2
+M1056 ffipg_0/ffi_1/nand_1/a_13_n26# ffipg_0/ffi_1/nand_1/a gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1057 vdd ffipg_0/ffi_1/nand_1/b ffipg_0/ffi_1/nand_3/b ffipg_0/ffi_1/nand_1/w_0_0# pfet w=12 l=2
+M1057 vdd ffipg_0/ffi_1/nand_1/b ffipg_0/ffi_1/nand_3/b ffipg_0/ffi_1/nand_1/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1058 ffipg_0/ffi_1/nand_3/b ffipg_0/ffi_1/nand_1/a vdd ffipg_0/ffi_1/nand_1/w_0_0# pfet w=12 l=2
+M1058 ffipg_0/ffi_1/nand_3/b ffipg_0/ffi_1/nand_1/a vdd ffipg_0/ffi_1/nand_1/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1059 ffipg_0/ffi_1/nand_3/b ffipg_0/ffi_1/nand_1/b ffipg_0/ffi_1/nand_1/a_13_n26# Gnd nfet w=12 l=2
+M1059 ffipg_0/ffi_1/nand_3/b ffipg_0/ffi_1/nand_1/b ffipg_0/ffi_1/nand_1/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1060 ffipg_0/ffi_1/nand_0/a_13_n26# ffipg_0/ffi_1/inv_0/op gnd Gnd nfet w=12 l=2
+M1060 ffipg_0/ffi_1/nand_0/a_13_n26# ffipg_0/ffi_1/inv_0/op gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1061 vdd clk ffipg_0/ffi_1/nand_1/a ffipg_0/ffi_1/nand_0/w_0_0# pfet w=12 l=2
+M1061 vdd clk ffipg_0/ffi_1/nand_1/a ffipg_0/ffi_1/nand_0/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1062 ffipg_0/ffi_1/nand_1/a ffipg_0/ffi_1/inv_0/op vdd ffipg_0/ffi_1/nand_0/w_0_0# pfet w=12 l=2
+M1062 ffipg_0/ffi_1/nand_1/a ffipg_0/ffi_1/inv_0/op vdd ffipg_0/ffi_1/nand_0/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1063 ffipg_0/ffi_1/nand_1/a clk ffipg_0/ffi_1/nand_0/a_13_n26# Gnd nfet w=12 l=2
+M1063 ffipg_0/ffi_1/nand_1/a clk ffipg_0/ffi_1/nand_0/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1064 ffipg_0/ffi_1/nand_2/a_13_n26# x1in gnd Gnd nfet w=12 l=2
+M1064 ffipg_0/ffi_1/nand_2/a_13_n26# x1in gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1065 vdd clk ffipg_0/ffi_1/nand_3/a ffipg_0/ffi_1/nand_2/w_0_0# pfet w=12 l=2
+M1065 vdd clk ffipg_0/ffi_1/nand_3/a ffipg_0/ffi_1/nand_2/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1066 ffipg_0/ffi_1/nand_3/a x1in vdd ffipg_0/ffi_1/nand_2/w_0_0# pfet w=12 l=2
+M1066 ffipg_0/ffi_1/nand_3/a x1in vdd ffipg_0/ffi_1/nand_2/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1067 ffipg_0/ffi_1/nand_3/a clk ffipg_0/ffi_1/nand_2/a_13_n26# Gnd nfet w=12 l=2
+M1067 ffipg_0/ffi_1/nand_3/a clk ffipg_0/ffi_1/nand_2/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1068 ffipg_0/ffi_1/nand_3/a_13_n26# ffipg_0/ffi_1/nand_3/a gnd Gnd nfet w=12 l=2
+M1068 ffipg_0/ffi_1/nand_3/a_13_n26# ffipg_0/ffi_1/nand_3/a gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1069 vdd ffipg_0/ffi_1/nand_3/b ffipg_0/ffi_1/nand_1/b ffipg_0/ffi_1/nand_3/w_0_0# pfet w=12 l=2
+M1069 vdd ffipg_0/ffi_1/nand_3/b ffipg_0/ffi_1/nand_1/b ffipg_0/ffi_1/nand_3/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1070 ffipg_0/ffi_1/nand_1/b ffipg_0/ffi_1/nand_3/a vdd ffipg_0/ffi_1/nand_3/w_0_0# pfet w=12 l=2
+M1070 ffipg_0/ffi_1/nand_1/b ffipg_0/ffi_1/nand_3/a vdd ffipg_0/ffi_1/nand_3/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1071 ffipg_0/ffi_1/nand_1/b ffipg_0/ffi_1/nand_3/b ffipg_0/ffi_1/nand_3/a_13_n26# Gnd nfet w=12 l=2
+M1071 ffipg_0/ffi_1/nand_1/b ffipg_0/ffi_1/nand_3/b ffipg_0/ffi_1/nand_3/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1072 ffipg_0/ffi_1/nand_4/a_13_n26# ffipg_0/ffi_1/nand_3/b gnd Gnd nfet w=12 l=2
+M1072 ffipg_0/ffi_1/nand_4/a_13_n26# ffipg_0/ffi_1/nand_3/b gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1073 vdd ffipg_0/ffi_1/inv_1/op ffipg_0/ffi_1/nand_6/a ffipg_0/ffi_1/nand_4/w_0_0# pfet w=12 l=2
+M1073 vdd ffipg_0/ffi_1/inv_1/op ffipg_0/ffi_1/nand_6/a ffipg_0/ffi_1/nand_4/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1074 ffipg_0/ffi_1/nand_6/a ffipg_0/ffi_1/nand_3/b vdd ffipg_0/ffi_1/nand_4/w_0_0# pfet w=12 l=2
+M1074 ffipg_0/ffi_1/nand_6/a ffipg_0/ffi_1/nand_3/b vdd ffipg_0/ffi_1/nand_4/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1075 ffipg_0/ffi_1/nand_6/a ffipg_0/ffi_1/inv_1/op ffipg_0/ffi_1/nand_4/a_13_n26# Gnd nfet w=12 l=2
+M1075 ffipg_0/ffi_1/nand_6/a ffipg_0/ffi_1/inv_1/op ffipg_0/ffi_1/nand_4/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1076 ffipg_0/ffi_1/nand_5/a_13_n26# ffipg_0/ffi_1/inv_1/op gnd Gnd nfet w=12 l=2
+M1076 ffipg_0/ffi_1/nand_5/a_13_n26# ffipg_0/ffi_1/inv_1/op gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1077 vdd ffipg_0/ffi_1/nand_1/b ffipg_0/ffi_1/nand_7/a ffipg_0/ffi_1/nand_5/w_0_0# pfet w=12 l=2
+M1077 vdd ffipg_0/ffi_1/nand_1/b ffipg_0/ffi_1/nand_7/a ffipg_0/ffi_1/nand_5/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1078 ffipg_0/ffi_1/nand_7/a ffipg_0/ffi_1/inv_1/op vdd ffipg_0/ffi_1/nand_5/w_0_0# pfet w=12 l=2
+M1078 ffipg_0/ffi_1/nand_7/a ffipg_0/ffi_1/inv_1/op vdd ffipg_0/ffi_1/nand_5/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1079 ffipg_0/ffi_1/nand_7/a ffipg_0/ffi_1/nand_1/b ffipg_0/ffi_1/nand_5/a_13_n26# Gnd nfet w=12 l=2
+M1079 ffipg_0/ffi_1/nand_7/a ffipg_0/ffi_1/nand_1/b ffipg_0/ffi_1/nand_5/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1080 ffipg_0/ffi_1/nand_6/a_13_n26# ffipg_0/ffi_1/nand_6/a gnd Gnd nfet w=12 l=2
+M1080 ffipg_0/ffi_1/nand_6/a_13_n26# ffipg_0/ffi_1/nand_6/a gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1081 vdd ffipg_0/ffi_1/q ffipg_0/ffi_1/qbar ffipg_0/ffi_1/nand_6/w_0_0# pfet w=12 l=2
+M1081 vdd ffipg_0/ffi_1/q ffipg_0/ffi_1/qbar ffipg_0/ffi_1/nand_6/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1082 ffipg_0/ffi_1/qbar ffipg_0/ffi_1/nand_6/a vdd ffipg_0/ffi_1/nand_6/w_0_0# pfet w=12 l=2
+M1082 ffipg_0/ffi_1/qbar ffipg_0/ffi_1/nand_6/a vdd ffipg_0/ffi_1/nand_6/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1083 ffipg_0/ffi_1/qbar ffipg_0/ffi_1/q ffipg_0/ffi_1/nand_6/a_13_n26# Gnd nfet w=12 l=2
+M1083 ffipg_0/ffi_1/qbar ffipg_0/ffi_1/q ffipg_0/ffi_1/nand_6/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1084 ffipg_0/ffi_1/nand_7/a_13_n26# ffipg_0/ffi_1/nand_7/a gnd Gnd nfet w=12 l=2
+M1084 ffipg_0/ffi_1/nand_7/a_13_n26# ffipg_0/ffi_1/nand_7/a gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1085 vdd ffipg_0/ffi_1/qbar ffipg_0/ffi_1/q ffipg_0/ffi_1/nand_7/w_0_0# pfet w=12 l=2
+M1085 vdd ffipg_0/ffi_1/qbar ffipg_0/ffi_1/q ffipg_0/ffi_1/nand_7/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1086 ffipg_0/ffi_1/q ffipg_0/ffi_1/nand_7/a vdd ffipg_0/ffi_1/nand_7/w_0_0# pfet w=12 l=2
+M1086 ffipg_0/ffi_1/q ffipg_0/ffi_1/nand_7/a vdd ffipg_0/ffi_1/nand_7/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1087 ffipg_0/ffi_1/q ffipg_0/ffi_1/qbar ffipg_0/ffi_1/nand_7/a_13_n26# Gnd nfet w=12 l=2
+M1087 ffipg_0/ffi_1/q ffipg_0/ffi_1/qbar ffipg_0/ffi_1/nand_7/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1088 ffipg_0/ffi_1/inv_0/op x1in gnd Gnd nfet w=6 l=2
+M1088 ffipg_0/ffi_1/inv_0/op x1in gnd Gnd CMOSN w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1089 ffipg_0/ffi_1/inv_0/op x1in vdd ffipg_0/ffi_1/inv_0/w_0_6# pfet w=12 l=2
+M1089 ffipg_0/ffi_1/inv_0/op x1in vdd ffipg_0/ffi_1/inv_0/w_0_6# CMOSP w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1090 ffipg_0/ffi_1/inv_1/op clk gnd Gnd nfet w=6 l=2
+M1090 ffipg_0/ffi_1/inv_1/op clk gnd Gnd CMOSN w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1091 ffipg_0/ffi_1/inv_1/op clk vdd ffipg_0/ffi_1/inv_1/w_0_6# pfet w=12 l=2
+M1091 ffipg_0/ffi_1/inv_1/op clk vdd ffipg_0/ffi_1/inv_1/w_0_6# CMOSP w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1092 ffipg_1/pggen_0/nand_0/a_13_n26# ffipg_1/ffi_1/q gnd Gnd nfet w=12 l=2
+M1092 ffipg_1/pggen_0/nand_0/a_13_n26# ffipg_1/ffi_1/q gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1093 vdd ffipg_1/ffi_0/q g2 ffipg_1/pggen_0/nand_0/w_0_0# pfet w=12 l=2
+M1093 vdd ffipg_1/ffi_0/q g2 ffipg_1/pggen_0/nand_0/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1094 g2 ffipg_1/ffi_1/q vdd ffipg_1/pggen_0/nand_0/w_0_0# pfet w=12 l=2
+M1094 g2 ffipg_1/ffi_1/q vdd ffipg_1/pggen_0/nand_0/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1095 g2 ffipg_1/ffi_0/q ffipg_1/pggen_0/nand_0/a_13_n26# Gnd nfet w=12 l=2
+M1095 g2 ffipg_1/ffi_0/q ffipg_1/pggen_0/nand_0/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1096 ffipg_1/pggen_0/xor_0/inv_0/op ffipg_1/ffi_1/q gnd Gnd nfet w=6 l=2
+M1096 ffipg_1/pggen_0/xor_0/inv_0/op ffipg_1/ffi_1/q gnd Gnd CMOSN w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1097 ffipg_1/pggen_0/xor_0/inv_0/op ffipg_1/ffi_1/q vdd ffipg_1/pggen_0/xor_0/inv_0/w_0_6# pfet w=12 l=2
+M1097 ffipg_1/pggen_0/xor_0/inv_0/op ffipg_1/ffi_1/q vdd ffipg_1/pggen_0/xor_0/inv_0/w_0_6# CMOSP w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1098 ffipg_1/pggen_0/xor_0/inv_1/op ffipg_1/ffi_0/q gnd Gnd nfet w=6 l=2
+M1098 ffipg_1/pggen_0/xor_0/inv_1/op ffipg_1/ffi_0/q gnd Gnd CMOSN w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1099 ffipg_1/pggen_0/xor_0/inv_1/op ffipg_1/ffi_0/q vdd ffipg_1/pggen_0/xor_0/inv_1/w_0_6# pfet w=12 l=2
+M1099 ffipg_1/pggen_0/xor_0/inv_1/op ffipg_1/ffi_0/q vdd ffipg_1/pggen_0/xor_0/inv_1/w_0_6# CMOSP w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1100 vdd ffipg_1/ffi_0/q ffipg_1/pggen_0/xor_0/a_10_10# ffipg_1/pggen_0/xor_0/w_n3_4# pfet w=24 l=2
+M1100 vdd ffipg_1/ffi_0/q ffipg_1/pggen_0/xor_0/a_10_10# ffipg_1/pggen_0/xor_0/w_n3_4# CMOSP w=24 l=2
 +  ad=0 pd=0 as=432 ps=180
-M1101 k2 ffipg_1/ffi_0/q ffipg_1/pggen_0/xor_0/a_10_n43# Gnd nfet w=12 l=2
+M1101 k2 ffipg_1/ffi_0/q ffipg_1/pggen_0/xor_0/a_10_n43# Gnd CMOSN w=12 l=2
 +  ad=120 pd=68 as=96 ps=40
-M1102 gnd ffipg_1/pggen_0/xor_0/inv_1/op ffipg_1/pggen_0/xor_0/a_38_n43# Gnd nfet w=12 l=2
+M1102 gnd ffipg_1/pggen_0/xor_0/inv_1/op ffipg_1/pggen_0/xor_0/a_38_n43# Gnd CMOSN w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1103 ffipg_1/pggen_0/xor_0/a_10_10# ffipg_1/pggen_0/xor_0/inv_1/op k2 ffipg_1/pggen_0/xor_0/w_n3_4# pfet w=24 l=2
+M1103 ffipg_1/pggen_0/xor_0/a_10_10# ffipg_1/pggen_0/xor_0/inv_1/op k2 ffipg_1/pggen_0/xor_0/w_n3_4# CMOSP w=24 l=2
 +  ad=0 pd=0 as=192 ps=64
-M1104 ffipg_1/pggen_0/xor_0/a_10_n43# ffipg_1/ffi_1/q gnd Gnd nfet w=12 l=2
+M1104 ffipg_1/pggen_0/xor_0/a_10_n43# ffipg_1/ffi_1/q gnd Gnd CMOSN w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1105 ffipg_1/pggen_0/xor_0/a_38_n43# ffipg_1/pggen_0/xor_0/inv_0/op k2 Gnd nfet w=12 l=2
+M1105 ffipg_1/pggen_0/xor_0/a_38_n43# ffipg_1/pggen_0/xor_0/inv_0/op k2 Gnd CMOSN w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1106 ffipg_1/pggen_0/xor_0/a_10_10# ffipg_1/ffi_1/q vdd ffipg_1/pggen_0/xor_0/w_n3_4# pfet w=24 l=2
+M1106 ffipg_1/pggen_0/xor_0/a_10_10# ffipg_1/ffi_1/q vdd ffipg_1/pggen_0/xor_0/w_n3_4# CMOSP w=24 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1107 k2 ffipg_1/pggen_0/xor_0/inv_0/op ffipg_1/pggen_0/xor_0/a_10_10# ffipg_1/pggen_0/xor_0/w_n3_4# pfet w=24 l=2
+M1107 k2 ffipg_1/pggen_0/xor_0/inv_0/op ffipg_1/pggen_0/xor_0/a_10_10# ffipg_1/pggen_0/xor_0/w_n3_4# CMOSP w=24 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1108 p2 ffipg_1/ffi_1/q ffipg_1/pggen_0/nor_0/a_13_6# ffipg_1/pggen_0/nor_0/w_0_0# pfet w=24 l=2
+M1108 p2 ffipg_1/ffi_1/q ffipg_1/pggen_0/nor_0/a_13_6# ffipg_1/pggen_0/nor_0/w_0_0# CMOSP w=24 l=2
 +  ad=120 pd=58 as=192 ps=64
-M1109 ffipg_1/pggen_0/nor_0/a_13_6# ffipg_1/ffi_0/q vdd ffipg_1/pggen_0/nor_0/w_0_0# pfet w=24 l=2
+M1109 ffipg_1/pggen_0/nor_0/a_13_6# ffipg_1/ffi_0/q vdd ffipg_1/pggen_0/nor_0/w_0_0# CMOSP w=24 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1110 gnd ffipg_1/ffi_1/q p2 Gnd nfet w=6 l=2
+M1110 gnd ffipg_1/ffi_1/q p2 Gnd CMOSN w=6 l=2
 +  ad=0 pd=0 as=48 ps=28
-M1111 p2 ffipg_1/ffi_0/q gnd Gnd nfet w=6 l=2
+M1111 p2 ffipg_1/ffi_0/q gnd Gnd CMOSN w=6 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1112 ffipg_1/ffi_0/nand_1/a_13_n26# ffipg_1/ffi_0/nand_1/a gnd Gnd nfet w=12 l=2
+M1112 ffipg_1/ffi_0/nand_1/a_13_n26# ffipg_1/ffi_0/nand_1/a gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1113 vdd ffipg_1/ffi_0/nand_1/b ffipg_1/ffi_0/nand_3/b ffipg_1/ffi_0/nand_1/w_0_0# pfet w=12 l=2
+M1113 vdd ffipg_1/ffi_0/nand_1/b ffipg_1/ffi_0/nand_3/b ffipg_1/ffi_0/nand_1/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1114 ffipg_1/ffi_0/nand_3/b ffipg_1/ffi_0/nand_1/a vdd ffipg_1/ffi_0/nand_1/w_0_0# pfet w=12 l=2
+M1114 ffipg_1/ffi_0/nand_3/b ffipg_1/ffi_0/nand_1/a vdd ffipg_1/ffi_0/nand_1/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1115 ffipg_1/ffi_0/nand_3/b ffipg_1/ffi_0/nand_1/b ffipg_1/ffi_0/nand_1/a_13_n26# Gnd nfet w=12 l=2
+M1115 ffipg_1/ffi_0/nand_3/b ffipg_1/ffi_0/nand_1/b ffipg_1/ffi_0/nand_1/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1116 ffipg_1/ffi_0/nand_0/a_13_n26# ffipg_1/ffi_0/inv_0/op gnd Gnd nfet w=12 l=2
+M1116 ffipg_1/ffi_0/nand_0/a_13_n26# ffipg_1/ffi_0/inv_0/op gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1117 vdd clk ffipg_1/ffi_0/nand_1/a ffipg_1/ffi_0/nand_0/w_0_0# pfet w=12 l=2
+M1117 vdd clk ffipg_1/ffi_0/nand_1/a ffipg_1/ffi_0/nand_0/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1118 ffipg_1/ffi_0/nand_1/a ffipg_1/ffi_0/inv_0/op vdd ffipg_1/ffi_0/nand_0/w_0_0# pfet w=12 l=2
+M1118 ffipg_1/ffi_0/nand_1/a ffipg_1/ffi_0/inv_0/op vdd ffipg_1/ffi_0/nand_0/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1119 ffipg_1/ffi_0/nand_1/a clk ffipg_1/ffi_0/nand_0/a_13_n26# Gnd nfet w=12 l=2
+M1119 ffipg_1/ffi_0/nand_1/a clk ffipg_1/ffi_0/nand_0/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1120 ffipg_1/ffi_0/nand_2/a_13_n26# y2in gnd Gnd nfet w=12 l=2
+M1120 ffipg_1/ffi_0/nand_2/a_13_n26# y2in gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1121 vdd clk ffipg_1/ffi_0/nand_3/a ffipg_1/ffi_0/nand_2/w_0_0# pfet w=12 l=2
+M1121 vdd clk ffipg_1/ffi_0/nand_3/a ffipg_1/ffi_0/nand_2/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1122 ffipg_1/ffi_0/nand_3/a y2in vdd ffipg_1/ffi_0/nand_2/w_0_0# pfet w=12 l=2
+M1122 ffipg_1/ffi_0/nand_3/a y2in vdd ffipg_1/ffi_0/nand_2/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1123 ffipg_1/ffi_0/nand_3/a clk ffipg_1/ffi_0/nand_2/a_13_n26# Gnd nfet w=12 l=2
+M1123 ffipg_1/ffi_0/nand_3/a clk ffipg_1/ffi_0/nand_2/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1124 ffipg_1/ffi_0/nand_3/a_13_n26# ffipg_1/ffi_0/nand_3/a gnd Gnd nfet w=12 l=2
+M1124 ffipg_1/ffi_0/nand_3/a_13_n26# ffipg_1/ffi_0/nand_3/a gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1125 vdd ffipg_1/ffi_0/nand_3/b ffipg_1/ffi_0/nand_1/b ffipg_1/ffi_0/nand_3/w_0_0# pfet w=12 l=2
+M1125 vdd ffipg_1/ffi_0/nand_3/b ffipg_1/ffi_0/nand_1/b ffipg_1/ffi_0/nand_3/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1126 ffipg_1/ffi_0/nand_1/b ffipg_1/ffi_0/nand_3/a vdd ffipg_1/ffi_0/nand_3/w_0_0# pfet w=12 l=2
+M1126 ffipg_1/ffi_0/nand_1/b ffipg_1/ffi_0/nand_3/a vdd ffipg_1/ffi_0/nand_3/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1127 ffipg_1/ffi_0/nand_1/b ffipg_1/ffi_0/nand_3/b ffipg_1/ffi_0/nand_3/a_13_n26# Gnd nfet w=12 l=2
+M1127 ffipg_1/ffi_0/nand_1/b ffipg_1/ffi_0/nand_3/b ffipg_1/ffi_0/nand_3/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1128 ffipg_1/ffi_0/nand_4/a_13_n26# ffipg_1/ffi_0/nand_3/b gnd Gnd nfet w=12 l=2
+M1128 ffipg_1/ffi_0/nand_4/a_13_n26# ffipg_1/ffi_0/nand_3/b gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1129 vdd ffipg_1/ffi_0/inv_1/op ffipg_1/ffi_0/nand_6/a ffipg_1/ffi_0/nand_4/w_0_0# pfet w=12 l=2
+M1129 vdd ffipg_1/ffi_0/inv_1/op ffipg_1/ffi_0/nand_6/a ffipg_1/ffi_0/nand_4/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1130 ffipg_1/ffi_0/nand_6/a ffipg_1/ffi_0/nand_3/b vdd ffipg_1/ffi_0/nand_4/w_0_0# pfet w=12 l=2
+M1130 ffipg_1/ffi_0/nand_6/a ffipg_1/ffi_0/nand_3/b vdd ffipg_1/ffi_0/nand_4/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1131 ffipg_1/ffi_0/nand_6/a ffipg_1/ffi_0/inv_1/op ffipg_1/ffi_0/nand_4/a_13_n26# Gnd nfet w=12 l=2
+M1131 ffipg_1/ffi_0/nand_6/a ffipg_1/ffi_0/inv_1/op ffipg_1/ffi_0/nand_4/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1132 ffipg_1/ffi_0/nand_5/a_13_n26# ffipg_1/ffi_0/inv_1/op gnd Gnd nfet w=12 l=2
+M1132 ffipg_1/ffi_0/nand_5/a_13_n26# ffipg_1/ffi_0/inv_1/op gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1133 vdd ffipg_1/ffi_0/nand_1/b ffipg_1/ffi_0/nand_7/a ffipg_1/ffi_0/nand_5/w_0_0# pfet w=12 l=2
+M1133 vdd ffipg_1/ffi_0/nand_1/b ffipg_1/ffi_0/nand_7/a ffipg_1/ffi_0/nand_5/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1134 ffipg_1/ffi_0/nand_7/a ffipg_1/ffi_0/inv_1/op vdd ffipg_1/ffi_0/nand_5/w_0_0# pfet w=12 l=2
+M1134 ffipg_1/ffi_0/nand_7/a ffipg_1/ffi_0/inv_1/op vdd ffipg_1/ffi_0/nand_5/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1135 ffipg_1/ffi_0/nand_7/a ffipg_1/ffi_0/nand_1/b ffipg_1/ffi_0/nand_5/a_13_n26# Gnd nfet w=12 l=2
+M1135 ffipg_1/ffi_0/nand_7/a ffipg_1/ffi_0/nand_1/b ffipg_1/ffi_0/nand_5/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1136 ffipg_1/ffi_0/nand_6/a_13_n26# ffipg_1/ffi_0/nand_6/a gnd Gnd nfet w=12 l=2
+M1136 ffipg_1/ffi_0/nand_6/a_13_n26# ffipg_1/ffi_0/nand_6/a gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1137 vdd ffipg_1/ffi_0/q ffipg_1/ffi_0/qbar ffipg_1/ffi_0/nand_6/w_0_0# pfet w=12 l=2
+M1137 vdd ffipg_1/ffi_0/q ffipg_1/ffi_0/qbar ffipg_1/ffi_0/nand_6/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1138 ffipg_1/ffi_0/qbar ffipg_1/ffi_0/nand_6/a vdd ffipg_1/ffi_0/nand_6/w_0_0# pfet w=12 l=2
+M1138 ffipg_1/ffi_0/qbar ffipg_1/ffi_0/nand_6/a vdd ffipg_1/ffi_0/nand_6/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1139 ffipg_1/ffi_0/qbar ffipg_1/ffi_0/q ffipg_1/ffi_0/nand_6/a_13_n26# Gnd nfet w=12 l=2
+M1139 ffipg_1/ffi_0/qbar ffipg_1/ffi_0/q ffipg_1/ffi_0/nand_6/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1140 ffipg_1/ffi_0/nand_7/a_13_n26# ffipg_1/ffi_0/nand_7/a gnd Gnd nfet w=12 l=2
+M1140 ffipg_1/ffi_0/nand_7/a_13_n26# ffipg_1/ffi_0/nand_7/a gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1141 vdd ffipg_1/ffi_0/qbar ffipg_1/ffi_0/q ffipg_1/ffi_0/nand_7/w_0_0# pfet w=12 l=2
+M1141 vdd ffipg_1/ffi_0/qbar ffipg_1/ffi_0/q ffipg_1/ffi_0/nand_7/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1142 ffipg_1/ffi_0/q ffipg_1/ffi_0/nand_7/a vdd ffipg_1/ffi_0/nand_7/w_0_0# pfet w=12 l=2
+M1142 ffipg_1/ffi_0/q ffipg_1/ffi_0/nand_7/a vdd ffipg_1/ffi_0/nand_7/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1143 ffipg_1/ffi_0/q ffipg_1/ffi_0/qbar ffipg_1/ffi_0/nand_7/a_13_n26# Gnd nfet w=12 l=2
+M1143 ffipg_1/ffi_0/q ffipg_1/ffi_0/qbar ffipg_1/ffi_0/nand_7/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1144 ffipg_1/ffi_0/inv_0/op y2in gnd Gnd nfet w=6 l=2
+M1144 ffipg_1/ffi_0/inv_0/op y2in gnd Gnd CMOSN w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1145 ffipg_1/ffi_0/inv_0/op y2in vdd ffipg_1/ffi_0/inv_0/w_0_6# pfet w=12 l=2
+M1145 ffipg_1/ffi_0/inv_0/op y2in vdd ffipg_1/ffi_0/inv_0/w_0_6# CMOSP w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1146 ffipg_1/ffi_0/inv_1/op clk gnd Gnd nfet w=6 l=2
+M1146 ffipg_1/ffi_0/inv_1/op clk gnd Gnd CMOSN w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1147 ffipg_1/ffi_0/inv_1/op clk vdd ffipg_1/ffi_0/inv_1/w_0_6# pfet w=12 l=2
+M1147 ffipg_1/ffi_0/inv_1/op clk vdd ffipg_1/ffi_0/inv_1/w_0_6# CMOSP w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1148 ffipg_1/ffi_1/nand_1/a_13_n26# ffipg_1/ffi_1/nand_1/a gnd Gnd nfet w=12 l=2
+M1148 ffipg_1/ffi_1/nand_1/a_13_n26# ffipg_1/ffi_1/nand_1/a gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1149 vdd ffipg_1/ffi_1/nand_1/b ffipg_1/ffi_1/nand_3/b ffipg_1/ffi_1/nand_1/w_0_0# pfet w=12 l=2
+M1149 vdd ffipg_1/ffi_1/nand_1/b ffipg_1/ffi_1/nand_3/b ffipg_1/ffi_1/nand_1/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1150 ffipg_1/ffi_1/nand_3/b ffipg_1/ffi_1/nand_1/a vdd ffipg_1/ffi_1/nand_1/w_0_0# pfet w=12 l=2
+M1150 ffipg_1/ffi_1/nand_3/b ffipg_1/ffi_1/nand_1/a vdd ffipg_1/ffi_1/nand_1/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1151 ffipg_1/ffi_1/nand_3/b ffipg_1/ffi_1/nand_1/b ffipg_1/ffi_1/nand_1/a_13_n26# Gnd nfet w=12 l=2
+M1151 ffipg_1/ffi_1/nand_3/b ffipg_1/ffi_1/nand_1/b ffipg_1/ffi_1/nand_1/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1152 ffipg_1/ffi_1/nand_0/a_13_n26# ffipg_1/ffi_1/inv_0/op gnd Gnd nfet w=12 l=2
+M1152 ffipg_1/ffi_1/nand_0/a_13_n26# ffipg_1/ffi_1/inv_0/op gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1153 vdd clk ffipg_1/ffi_1/nand_1/a ffipg_1/ffi_1/nand_0/w_0_0# pfet w=12 l=2
+M1153 vdd clk ffipg_1/ffi_1/nand_1/a ffipg_1/ffi_1/nand_0/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1154 ffipg_1/ffi_1/nand_1/a ffipg_1/ffi_1/inv_0/op vdd ffipg_1/ffi_1/nand_0/w_0_0# pfet w=12 l=2
+M1154 ffipg_1/ffi_1/nand_1/a ffipg_1/ffi_1/inv_0/op vdd ffipg_1/ffi_1/nand_0/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1155 ffipg_1/ffi_1/nand_1/a clk ffipg_1/ffi_1/nand_0/a_13_n26# Gnd nfet w=12 l=2
+M1155 ffipg_1/ffi_1/nand_1/a clk ffipg_1/ffi_1/nand_0/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1156 ffipg_1/ffi_1/nand_2/a_13_n26# x2in gnd Gnd nfet w=12 l=2
+M1156 ffipg_1/ffi_1/nand_2/a_13_n26# x2in gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1157 vdd clk ffipg_1/ffi_1/nand_3/a ffipg_1/ffi_1/nand_2/w_0_0# pfet w=12 l=2
+M1157 vdd clk ffipg_1/ffi_1/nand_3/a ffipg_1/ffi_1/nand_2/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1158 ffipg_1/ffi_1/nand_3/a x2in vdd ffipg_1/ffi_1/nand_2/w_0_0# pfet w=12 l=2
+M1158 ffipg_1/ffi_1/nand_3/a x2in vdd ffipg_1/ffi_1/nand_2/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1159 ffipg_1/ffi_1/nand_3/a clk ffipg_1/ffi_1/nand_2/a_13_n26# Gnd nfet w=12 l=2
+M1159 ffipg_1/ffi_1/nand_3/a clk ffipg_1/ffi_1/nand_2/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1160 ffipg_1/ffi_1/nand_3/a_13_n26# ffipg_1/ffi_1/nand_3/a gnd Gnd nfet w=12 l=2
+M1160 ffipg_1/ffi_1/nand_3/a_13_n26# ffipg_1/ffi_1/nand_3/a gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1161 vdd ffipg_1/ffi_1/nand_3/b ffipg_1/ffi_1/nand_1/b ffipg_1/ffi_1/nand_3/w_0_0# pfet w=12 l=2
+M1161 vdd ffipg_1/ffi_1/nand_3/b ffipg_1/ffi_1/nand_1/b ffipg_1/ffi_1/nand_3/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1162 ffipg_1/ffi_1/nand_1/b ffipg_1/ffi_1/nand_3/a vdd ffipg_1/ffi_1/nand_3/w_0_0# pfet w=12 l=2
+M1162 ffipg_1/ffi_1/nand_1/b ffipg_1/ffi_1/nand_3/a vdd ffipg_1/ffi_1/nand_3/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1163 ffipg_1/ffi_1/nand_1/b ffipg_1/ffi_1/nand_3/b ffipg_1/ffi_1/nand_3/a_13_n26# Gnd nfet w=12 l=2
+M1163 ffipg_1/ffi_1/nand_1/b ffipg_1/ffi_1/nand_3/b ffipg_1/ffi_1/nand_3/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1164 ffipg_1/ffi_1/nand_4/a_13_n26# ffipg_1/ffi_1/nand_3/b gnd Gnd nfet w=12 l=2
+M1164 ffipg_1/ffi_1/nand_4/a_13_n26# ffipg_1/ffi_1/nand_3/b gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1165 vdd ffipg_1/ffi_1/inv_1/op ffipg_1/ffi_1/nand_6/a ffipg_1/ffi_1/nand_4/w_0_0# pfet w=12 l=2
+M1165 vdd ffipg_1/ffi_1/inv_1/op ffipg_1/ffi_1/nand_6/a ffipg_1/ffi_1/nand_4/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1166 ffipg_1/ffi_1/nand_6/a ffipg_1/ffi_1/nand_3/b vdd ffipg_1/ffi_1/nand_4/w_0_0# pfet w=12 l=2
+M1166 ffipg_1/ffi_1/nand_6/a ffipg_1/ffi_1/nand_3/b vdd ffipg_1/ffi_1/nand_4/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1167 ffipg_1/ffi_1/nand_6/a ffipg_1/ffi_1/inv_1/op ffipg_1/ffi_1/nand_4/a_13_n26# Gnd nfet w=12 l=2
+M1167 ffipg_1/ffi_1/nand_6/a ffipg_1/ffi_1/inv_1/op ffipg_1/ffi_1/nand_4/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1168 ffipg_1/ffi_1/nand_5/a_13_n26# ffipg_1/ffi_1/inv_1/op gnd Gnd nfet w=12 l=2
+M1168 ffipg_1/ffi_1/nand_5/a_13_n26# ffipg_1/ffi_1/inv_1/op gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1169 vdd ffipg_1/ffi_1/nand_1/b ffipg_1/ffi_1/nand_7/a ffipg_1/ffi_1/nand_5/w_0_0# pfet w=12 l=2
+M1169 vdd ffipg_1/ffi_1/nand_1/b ffipg_1/ffi_1/nand_7/a ffipg_1/ffi_1/nand_5/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1170 ffipg_1/ffi_1/nand_7/a ffipg_1/ffi_1/inv_1/op vdd ffipg_1/ffi_1/nand_5/w_0_0# pfet w=12 l=2
+M1170 ffipg_1/ffi_1/nand_7/a ffipg_1/ffi_1/inv_1/op vdd ffipg_1/ffi_1/nand_5/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1171 ffipg_1/ffi_1/nand_7/a ffipg_1/ffi_1/nand_1/b ffipg_1/ffi_1/nand_5/a_13_n26# Gnd nfet w=12 l=2
+M1171 ffipg_1/ffi_1/nand_7/a ffipg_1/ffi_1/nand_1/b ffipg_1/ffi_1/nand_5/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1172 ffipg_1/ffi_1/nand_6/a_13_n26# ffipg_1/ffi_1/nand_6/a gnd Gnd nfet w=12 l=2
+M1172 ffipg_1/ffi_1/nand_6/a_13_n26# ffipg_1/ffi_1/nand_6/a gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1173 vdd ffipg_1/ffi_1/q ffipg_1/ffi_1/qbar ffipg_1/ffi_1/nand_6/w_0_0# pfet w=12 l=2
+M1173 vdd ffipg_1/ffi_1/q ffipg_1/ffi_1/qbar ffipg_1/ffi_1/nand_6/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1174 ffipg_1/ffi_1/qbar ffipg_1/ffi_1/nand_6/a vdd ffipg_1/ffi_1/nand_6/w_0_0# pfet w=12 l=2
+M1174 ffipg_1/ffi_1/qbar ffipg_1/ffi_1/nand_6/a vdd ffipg_1/ffi_1/nand_6/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1175 ffipg_1/ffi_1/qbar ffipg_1/ffi_1/q ffipg_1/ffi_1/nand_6/a_13_n26# Gnd nfet w=12 l=2
+M1175 ffipg_1/ffi_1/qbar ffipg_1/ffi_1/q ffipg_1/ffi_1/nand_6/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1176 ffipg_1/ffi_1/nand_7/a_13_n26# ffipg_1/ffi_1/nand_7/a gnd Gnd nfet w=12 l=2
+M1176 ffipg_1/ffi_1/nand_7/a_13_n26# ffipg_1/ffi_1/nand_7/a gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1177 vdd ffipg_1/ffi_1/qbar ffipg_1/ffi_1/q ffipg_1/ffi_1/nand_7/w_0_0# pfet w=12 l=2
+M1177 vdd ffipg_1/ffi_1/qbar ffipg_1/ffi_1/q ffipg_1/ffi_1/nand_7/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1178 ffipg_1/ffi_1/q ffipg_1/ffi_1/nand_7/a vdd ffipg_1/ffi_1/nand_7/w_0_0# pfet w=12 l=2
+M1178 ffipg_1/ffi_1/q ffipg_1/ffi_1/nand_7/a vdd ffipg_1/ffi_1/nand_7/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1179 ffipg_1/ffi_1/q ffipg_1/ffi_1/qbar ffipg_1/ffi_1/nand_7/a_13_n26# Gnd nfet w=12 l=2
+M1179 ffipg_1/ffi_1/q ffipg_1/ffi_1/qbar ffipg_1/ffi_1/nand_7/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1180 ffipg_1/ffi_1/inv_0/op x2in gnd Gnd nfet w=6 l=2
+M1180 ffipg_1/ffi_1/inv_0/op x2in gnd Gnd CMOSN w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1181 ffipg_1/ffi_1/inv_0/op x2in vdd ffipg_1/ffi_1/inv_0/w_0_6# pfet w=12 l=2
+M1181 ffipg_1/ffi_1/inv_0/op x2in vdd ffipg_1/ffi_1/inv_0/w_0_6# CMOSP w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1182 ffipg_1/ffi_1/inv_1/op clk gnd Gnd nfet w=6 l=2
+M1182 ffipg_1/ffi_1/inv_1/op clk gnd Gnd CMOSN w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1183 ffipg_1/ffi_1/inv_1/op clk vdd ffipg_1/ffi_1/inv_1/w_0_6# pfet w=12 l=2
+M1183 ffipg_1/ffi_1/inv_1/op clk vdd ffipg_1/ffi_1/inv_1/w_0_6# CMOSP w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1184 ffipg_2/pggen_0/nand_0/a_13_n26# ffipg_2/ffi_1/q gnd Gnd nfet w=12 l=2
+M1184 ffipg_2/pggen_0/nand_0/a_13_n26# ffipg_2/ffi_1/q gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1185 vdd ffipg_2/ffi_0/q g3 ffipg_2/pggen_0/nand_0/w_0_0# pfet w=12 l=2
+M1185 vdd ffipg_2/ffi_0/q g3 ffipg_2/pggen_0/nand_0/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1186 g3 ffipg_2/ffi_1/q vdd ffipg_2/pggen_0/nand_0/w_0_0# pfet w=12 l=2
+M1186 g3 ffipg_2/ffi_1/q vdd ffipg_2/pggen_0/nand_0/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1187 g3 ffipg_2/ffi_0/q ffipg_2/pggen_0/nand_0/a_13_n26# Gnd nfet w=12 l=2
+M1187 g3 ffipg_2/ffi_0/q ffipg_2/pggen_0/nand_0/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1188 ffipg_2/pggen_0/xor_0/inv_0/op ffipg_2/ffi_1/q gnd Gnd nfet w=6 l=2
+M1188 ffipg_2/pggen_0/xor_0/inv_0/op ffipg_2/ffi_1/q gnd Gnd CMOSN w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1189 ffipg_2/pggen_0/xor_0/inv_0/op ffipg_2/ffi_1/q vdd ffipg_2/pggen_0/xor_0/inv_0/w_0_6# pfet w=12 l=2
+M1189 ffipg_2/pggen_0/xor_0/inv_0/op ffipg_2/ffi_1/q vdd ffipg_2/pggen_0/xor_0/inv_0/w_0_6# CMOSP w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1190 ffipg_2/pggen_0/xor_0/inv_1/op ffipg_2/ffi_0/q gnd Gnd nfet w=6 l=2
+M1190 ffipg_2/pggen_0/xor_0/inv_1/op ffipg_2/ffi_0/q gnd Gnd CMOSN w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1191 ffipg_2/pggen_0/xor_0/inv_1/op ffipg_2/ffi_0/q vdd ffipg_2/pggen_0/xor_0/inv_1/w_0_6# pfet w=12 l=2
+M1191 ffipg_2/pggen_0/xor_0/inv_1/op ffipg_2/ffi_0/q vdd ffipg_2/pggen_0/xor_0/inv_1/w_0_6# CMOSP w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1192 vdd ffipg_2/ffi_0/q ffipg_2/pggen_0/xor_0/a_10_10# ffipg_2/pggen_0/xor_0/w_n3_4# pfet w=24 l=2
+M1192 vdd ffipg_2/ffi_0/q ffipg_2/pggen_0/xor_0/a_10_10# ffipg_2/pggen_0/xor_0/w_n3_4# CMOSP w=24 l=2
 +  ad=0 pd=0 as=432 ps=180
-M1193 k3 ffipg_2/ffi_0/q ffipg_2/pggen_0/xor_0/a_10_n43# Gnd nfet w=12 l=2
+M1193 k3 ffipg_2/ffi_0/q ffipg_2/pggen_0/xor_0/a_10_n43# Gnd CMOSN w=12 l=2
 +  ad=120 pd=68 as=96 ps=40
-M1194 gnd ffipg_2/pggen_0/xor_0/inv_1/op ffipg_2/pggen_0/xor_0/a_38_n43# Gnd nfet w=12 l=2
+M1194 gnd ffipg_2/pggen_0/xor_0/inv_1/op ffipg_2/pggen_0/xor_0/a_38_n43# Gnd CMOSN w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1195 ffipg_2/pggen_0/xor_0/a_10_10# ffipg_2/pggen_0/xor_0/inv_1/op k3 ffipg_2/pggen_0/xor_0/w_n3_4# pfet w=24 l=2
+M1195 ffipg_2/pggen_0/xor_0/a_10_10# ffipg_2/pggen_0/xor_0/inv_1/op k3 ffipg_2/pggen_0/xor_0/w_n3_4# CMOSP w=24 l=2
 +  ad=0 pd=0 as=192 ps=64
-M1196 ffipg_2/pggen_0/xor_0/a_10_n43# ffipg_2/ffi_1/q gnd Gnd nfet w=12 l=2
+M1196 ffipg_2/pggen_0/xor_0/a_10_n43# ffipg_2/ffi_1/q gnd Gnd CMOSN w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1197 ffipg_2/pggen_0/xor_0/a_38_n43# ffipg_2/pggen_0/xor_0/inv_0/op k3 Gnd nfet w=12 l=2
+M1197 ffipg_2/pggen_0/xor_0/a_38_n43# ffipg_2/pggen_0/xor_0/inv_0/op k3 Gnd CMOSN w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1198 ffipg_2/pggen_0/xor_0/a_10_10# ffipg_2/ffi_1/q vdd ffipg_2/pggen_0/xor_0/w_n3_4# pfet w=24 l=2
+M1198 ffipg_2/pggen_0/xor_0/a_10_10# ffipg_2/ffi_1/q vdd ffipg_2/pggen_0/xor_0/w_n3_4# CMOSP w=24 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1199 k3 ffipg_2/pggen_0/xor_0/inv_0/op ffipg_2/pggen_0/xor_0/a_10_10# ffipg_2/pggen_0/xor_0/w_n3_4# pfet w=24 l=2
+M1199 k3 ffipg_2/pggen_0/xor_0/inv_0/op ffipg_2/pggen_0/xor_0/a_10_10# ffipg_2/pggen_0/xor_0/w_n3_4# CMOSP w=24 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1200 p3 ffipg_2/ffi_1/q ffipg_2/pggen_0/nor_0/a_13_6# ffipg_2/pggen_0/nor_0/w_0_0# pfet w=24 l=2
+M1200 p3 ffipg_2/ffi_1/q ffipg_2/pggen_0/nor_0/a_13_6# ffipg_2/pggen_0/nor_0/w_0_0# CMOSP w=24 l=2
 +  ad=120 pd=58 as=192 ps=64
-M1201 ffipg_2/pggen_0/nor_0/a_13_6# ffipg_2/ffi_0/q vdd ffipg_2/pggen_0/nor_0/w_0_0# pfet w=24 l=2
+M1201 ffipg_2/pggen_0/nor_0/a_13_6# ffipg_2/ffi_0/q vdd ffipg_2/pggen_0/nor_0/w_0_0# CMOSP w=24 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1202 gnd ffipg_2/ffi_1/q p3 Gnd nfet w=6 l=2
+M1202 gnd ffipg_2/ffi_1/q p3 Gnd CMOSN w=6 l=2
 +  ad=0 pd=0 as=48 ps=28
-M1203 p3 ffipg_2/ffi_0/q gnd Gnd nfet w=6 l=2
+M1203 p3 ffipg_2/ffi_0/q gnd Gnd CMOSN w=6 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1204 ffipg_2/ffi_0/nand_1/a_13_n26# ffipg_2/ffi_0/nand_1/a gnd Gnd nfet w=12 l=2
+M1204 ffipg_2/ffi_0/nand_1/a_13_n26# ffipg_2/ffi_0/nand_1/a gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1205 vdd ffipg_2/ffi_0/nand_1/b ffipg_2/ffi_0/nand_3/b ffipg_2/ffi_0/nand_1/w_0_0# pfet w=12 l=2
+M1205 vdd ffipg_2/ffi_0/nand_1/b ffipg_2/ffi_0/nand_3/b ffipg_2/ffi_0/nand_1/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1206 ffipg_2/ffi_0/nand_3/b ffipg_2/ffi_0/nand_1/a vdd ffipg_2/ffi_0/nand_1/w_0_0# pfet w=12 l=2
+M1206 ffipg_2/ffi_0/nand_3/b ffipg_2/ffi_0/nand_1/a vdd ffipg_2/ffi_0/nand_1/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1207 ffipg_2/ffi_0/nand_3/b ffipg_2/ffi_0/nand_1/b ffipg_2/ffi_0/nand_1/a_13_n26# Gnd nfet w=12 l=2
+M1207 ffipg_2/ffi_0/nand_3/b ffipg_2/ffi_0/nand_1/b ffipg_2/ffi_0/nand_1/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1208 ffipg_2/ffi_0/nand_0/a_13_n26# ffipg_2/ffi_0/inv_0/op gnd Gnd nfet w=12 l=2
+M1208 ffipg_2/ffi_0/nand_0/a_13_n26# ffipg_2/ffi_0/inv_0/op gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1209 vdd clk ffipg_2/ffi_0/nand_1/a ffipg_2/ffi_0/nand_0/w_0_0# pfet w=12 l=2
+M1209 vdd clk ffipg_2/ffi_0/nand_1/a ffipg_2/ffi_0/nand_0/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1210 ffipg_2/ffi_0/nand_1/a ffipg_2/ffi_0/inv_0/op vdd ffipg_2/ffi_0/nand_0/w_0_0# pfet w=12 l=2
+M1210 ffipg_2/ffi_0/nand_1/a ffipg_2/ffi_0/inv_0/op vdd ffipg_2/ffi_0/nand_0/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1211 ffipg_2/ffi_0/nand_1/a clk ffipg_2/ffi_0/nand_0/a_13_n26# Gnd nfet w=12 l=2
+M1211 ffipg_2/ffi_0/nand_1/a clk ffipg_2/ffi_0/nand_0/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1212 ffipg_2/ffi_0/nand_2/a_13_n26# y3in gnd Gnd nfet w=12 l=2
+M1212 ffipg_2/ffi_0/nand_2/a_13_n26# y3in gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1213 vdd clk ffipg_2/ffi_0/nand_3/a ffipg_2/ffi_0/nand_2/w_0_0# pfet w=12 l=2
+M1213 vdd clk ffipg_2/ffi_0/nand_3/a ffipg_2/ffi_0/nand_2/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1214 ffipg_2/ffi_0/nand_3/a y3in vdd ffipg_2/ffi_0/nand_2/w_0_0# pfet w=12 l=2
+M1214 ffipg_2/ffi_0/nand_3/a y3in vdd ffipg_2/ffi_0/nand_2/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1215 ffipg_2/ffi_0/nand_3/a clk ffipg_2/ffi_0/nand_2/a_13_n26# Gnd nfet w=12 l=2
+M1215 ffipg_2/ffi_0/nand_3/a clk ffipg_2/ffi_0/nand_2/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1216 ffipg_2/ffi_0/nand_3/a_13_n26# ffipg_2/ffi_0/nand_3/a gnd Gnd nfet w=12 l=2
+M1216 ffipg_2/ffi_0/nand_3/a_13_n26# ffipg_2/ffi_0/nand_3/a gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1217 vdd ffipg_2/ffi_0/nand_3/b ffipg_2/ffi_0/nand_1/b ffipg_2/ffi_0/nand_3/w_0_0# pfet w=12 l=2
+M1217 vdd ffipg_2/ffi_0/nand_3/b ffipg_2/ffi_0/nand_1/b ffipg_2/ffi_0/nand_3/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1218 ffipg_2/ffi_0/nand_1/b ffipg_2/ffi_0/nand_3/a vdd ffipg_2/ffi_0/nand_3/w_0_0# pfet w=12 l=2
+M1218 ffipg_2/ffi_0/nand_1/b ffipg_2/ffi_0/nand_3/a vdd ffipg_2/ffi_0/nand_3/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1219 ffipg_2/ffi_0/nand_1/b ffipg_2/ffi_0/nand_3/b ffipg_2/ffi_0/nand_3/a_13_n26# Gnd nfet w=12 l=2
+M1219 ffipg_2/ffi_0/nand_1/b ffipg_2/ffi_0/nand_3/b ffipg_2/ffi_0/nand_3/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1220 ffipg_2/ffi_0/nand_4/a_13_n26# ffipg_2/ffi_0/nand_3/b gnd Gnd nfet w=12 l=2
+M1220 ffipg_2/ffi_0/nand_4/a_13_n26# ffipg_2/ffi_0/nand_3/b gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1221 vdd ffipg_2/ffi_0/inv_1/op ffipg_2/ffi_0/nand_6/a ffipg_2/ffi_0/nand_4/w_0_0# pfet w=12 l=2
+M1221 vdd ffipg_2/ffi_0/inv_1/op ffipg_2/ffi_0/nand_6/a ffipg_2/ffi_0/nand_4/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1222 ffipg_2/ffi_0/nand_6/a ffipg_2/ffi_0/nand_3/b vdd ffipg_2/ffi_0/nand_4/w_0_0# pfet w=12 l=2
+M1222 ffipg_2/ffi_0/nand_6/a ffipg_2/ffi_0/nand_3/b vdd ffipg_2/ffi_0/nand_4/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1223 ffipg_2/ffi_0/nand_6/a ffipg_2/ffi_0/inv_1/op ffipg_2/ffi_0/nand_4/a_13_n26# Gnd nfet w=12 l=2
+M1223 ffipg_2/ffi_0/nand_6/a ffipg_2/ffi_0/inv_1/op ffipg_2/ffi_0/nand_4/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1224 ffipg_2/ffi_0/nand_5/a_13_n26# ffipg_2/ffi_0/inv_1/op gnd Gnd nfet w=12 l=2
+M1224 ffipg_2/ffi_0/nand_5/a_13_n26# ffipg_2/ffi_0/inv_1/op gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1225 vdd ffipg_2/ffi_0/nand_1/b ffipg_2/ffi_0/nand_7/a ffipg_2/ffi_0/nand_5/w_0_0# pfet w=12 l=2
+M1225 vdd ffipg_2/ffi_0/nand_1/b ffipg_2/ffi_0/nand_7/a ffipg_2/ffi_0/nand_5/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1226 ffipg_2/ffi_0/nand_7/a ffipg_2/ffi_0/inv_1/op vdd ffipg_2/ffi_0/nand_5/w_0_0# pfet w=12 l=2
+M1226 ffipg_2/ffi_0/nand_7/a ffipg_2/ffi_0/inv_1/op vdd ffipg_2/ffi_0/nand_5/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1227 ffipg_2/ffi_0/nand_7/a ffipg_2/ffi_0/nand_1/b ffipg_2/ffi_0/nand_5/a_13_n26# Gnd nfet w=12 l=2
+M1227 ffipg_2/ffi_0/nand_7/a ffipg_2/ffi_0/nand_1/b ffipg_2/ffi_0/nand_5/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1228 ffipg_2/ffi_0/nand_6/a_13_n26# ffipg_2/ffi_0/nand_6/a gnd Gnd nfet w=12 l=2
+M1228 ffipg_2/ffi_0/nand_6/a_13_n26# ffipg_2/ffi_0/nand_6/a gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1229 vdd ffipg_2/ffi_0/q ffipg_2/ffi_0/qbar ffipg_2/ffi_0/nand_6/w_0_0# pfet w=12 l=2
+M1229 vdd ffipg_2/ffi_0/q ffipg_2/ffi_0/qbar ffipg_2/ffi_0/nand_6/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1230 ffipg_2/ffi_0/qbar ffipg_2/ffi_0/nand_6/a vdd ffipg_2/ffi_0/nand_6/w_0_0# pfet w=12 l=2
+M1230 ffipg_2/ffi_0/qbar ffipg_2/ffi_0/nand_6/a vdd ffipg_2/ffi_0/nand_6/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1231 ffipg_2/ffi_0/qbar ffipg_2/ffi_0/q ffipg_2/ffi_0/nand_6/a_13_n26# Gnd nfet w=12 l=2
+M1231 ffipg_2/ffi_0/qbar ffipg_2/ffi_0/q ffipg_2/ffi_0/nand_6/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1232 ffipg_2/ffi_0/nand_7/a_13_n26# ffipg_2/ffi_0/nand_7/a gnd Gnd nfet w=12 l=2
+M1232 ffipg_2/ffi_0/nand_7/a_13_n26# ffipg_2/ffi_0/nand_7/a gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1233 vdd ffipg_2/ffi_0/qbar ffipg_2/ffi_0/q ffipg_2/ffi_0/nand_7/w_0_0# pfet w=12 l=2
+M1233 vdd ffipg_2/ffi_0/qbar ffipg_2/ffi_0/q ffipg_2/ffi_0/nand_7/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1234 ffipg_2/ffi_0/q ffipg_2/ffi_0/nand_7/a vdd ffipg_2/ffi_0/nand_7/w_0_0# pfet w=12 l=2
+M1234 ffipg_2/ffi_0/q ffipg_2/ffi_0/nand_7/a vdd ffipg_2/ffi_0/nand_7/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1235 ffipg_2/ffi_0/q ffipg_2/ffi_0/qbar ffipg_2/ffi_0/nand_7/a_13_n26# Gnd nfet w=12 l=2
+M1235 ffipg_2/ffi_0/q ffipg_2/ffi_0/qbar ffipg_2/ffi_0/nand_7/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1236 ffipg_2/ffi_0/inv_0/op y3in gnd Gnd nfet w=6 l=2
+M1236 ffipg_2/ffi_0/inv_0/op y3in gnd Gnd CMOSN w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1237 ffipg_2/ffi_0/inv_0/op y3in vdd ffipg_2/ffi_0/inv_0/w_0_6# pfet w=12 l=2
+M1237 ffipg_2/ffi_0/inv_0/op y3in vdd ffipg_2/ffi_0/inv_0/w_0_6# CMOSP w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1238 ffipg_2/ffi_0/inv_1/op clk gnd Gnd nfet w=6 l=2
+M1238 ffipg_2/ffi_0/inv_1/op clk gnd Gnd CMOSN w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1239 ffipg_2/ffi_0/inv_1/op clk vdd ffipg_2/ffi_0/inv_1/w_0_6# pfet w=12 l=2
+M1239 ffipg_2/ffi_0/inv_1/op clk vdd ffipg_2/ffi_0/inv_1/w_0_6# CMOSP w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1240 ffipg_2/ffi_1/nand_1/a_13_n26# ffipg_2/ffi_1/nand_1/a gnd Gnd nfet w=12 l=2
+M1240 ffipg_2/ffi_1/nand_1/a_13_n26# ffipg_2/ffi_1/nand_1/a gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1241 vdd ffipg_2/ffi_1/nand_1/b ffipg_2/ffi_1/nand_3/b ffipg_2/ffi_1/nand_1/w_0_0# pfet w=12 l=2
+M1241 vdd ffipg_2/ffi_1/nand_1/b ffipg_2/ffi_1/nand_3/b ffipg_2/ffi_1/nand_1/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1242 ffipg_2/ffi_1/nand_3/b ffipg_2/ffi_1/nand_1/a vdd ffipg_2/ffi_1/nand_1/w_0_0# pfet w=12 l=2
+M1242 ffipg_2/ffi_1/nand_3/b ffipg_2/ffi_1/nand_1/a vdd ffipg_2/ffi_1/nand_1/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1243 ffipg_2/ffi_1/nand_3/b ffipg_2/ffi_1/nand_1/b ffipg_2/ffi_1/nand_1/a_13_n26# Gnd nfet w=12 l=2
+M1243 ffipg_2/ffi_1/nand_3/b ffipg_2/ffi_1/nand_1/b ffipg_2/ffi_1/nand_1/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1244 ffipg_2/ffi_1/nand_0/a_13_n26# ffipg_2/ffi_1/inv_0/op gnd Gnd nfet w=12 l=2
+M1244 ffipg_2/ffi_1/nand_0/a_13_n26# ffipg_2/ffi_1/inv_0/op gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1245 vdd clk ffipg_2/ffi_1/nand_1/a ffipg_2/ffi_1/nand_0/w_0_0# pfet w=12 l=2
+M1245 vdd clk ffipg_2/ffi_1/nand_1/a ffipg_2/ffi_1/nand_0/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1246 ffipg_2/ffi_1/nand_1/a ffipg_2/ffi_1/inv_0/op vdd ffipg_2/ffi_1/nand_0/w_0_0# pfet w=12 l=2
+M1246 ffipg_2/ffi_1/nand_1/a ffipg_2/ffi_1/inv_0/op vdd ffipg_2/ffi_1/nand_0/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1247 ffipg_2/ffi_1/nand_1/a clk ffipg_2/ffi_1/nand_0/a_13_n26# Gnd nfet w=12 l=2
+M1247 ffipg_2/ffi_1/nand_1/a clk ffipg_2/ffi_1/nand_0/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1248 ffipg_2/ffi_1/nand_2/a_13_n26# x3in gnd Gnd nfet w=12 l=2
+M1248 ffipg_2/ffi_1/nand_2/a_13_n26# x3in gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1249 vdd clk ffipg_2/ffi_1/nand_3/a ffipg_2/ffi_1/nand_2/w_0_0# pfet w=12 l=2
+M1249 vdd clk ffipg_2/ffi_1/nand_3/a ffipg_2/ffi_1/nand_2/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1250 ffipg_2/ffi_1/nand_3/a x3in vdd ffipg_2/ffi_1/nand_2/w_0_0# pfet w=12 l=2
+M1250 ffipg_2/ffi_1/nand_3/a x3in vdd ffipg_2/ffi_1/nand_2/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1251 ffipg_2/ffi_1/nand_3/a clk ffipg_2/ffi_1/nand_2/a_13_n26# Gnd nfet w=12 l=2
+M1251 ffipg_2/ffi_1/nand_3/a clk ffipg_2/ffi_1/nand_2/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1252 ffipg_2/ffi_1/nand_3/a_13_n26# ffipg_2/ffi_1/nand_3/a gnd Gnd nfet w=12 l=2
+M1252 ffipg_2/ffi_1/nand_3/a_13_n26# ffipg_2/ffi_1/nand_3/a gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1253 vdd ffipg_2/ffi_1/nand_3/b ffipg_2/ffi_1/nand_1/b ffipg_2/ffi_1/nand_3/w_0_0# pfet w=12 l=2
+M1253 vdd ffipg_2/ffi_1/nand_3/b ffipg_2/ffi_1/nand_1/b ffipg_2/ffi_1/nand_3/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1254 ffipg_2/ffi_1/nand_1/b ffipg_2/ffi_1/nand_3/a vdd ffipg_2/ffi_1/nand_3/w_0_0# pfet w=12 l=2
+M1254 ffipg_2/ffi_1/nand_1/b ffipg_2/ffi_1/nand_3/a vdd ffipg_2/ffi_1/nand_3/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1255 ffipg_2/ffi_1/nand_1/b ffipg_2/ffi_1/nand_3/b ffipg_2/ffi_1/nand_3/a_13_n26# Gnd nfet w=12 l=2
+M1255 ffipg_2/ffi_1/nand_1/b ffipg_2/ffi_1/nand_3/b ffipg_2/ffi_1/nand_3/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1256 ffipg_2/ffi_1/nand_4/a_13_n26# ffipg_2/ffi_1/nand_3/b gnd Gnd nfet w=12 l=2
+M1256 ffipg_2/ffi_1/nand_4/a_13_n26# ffipg_2/ffi_1/nand_3/b gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1257 vdd ffipg_2/ffi_1/inv_1/op ffipg_2/ffi_1/nand_6/a ffipg_2/ffi_1/nand_4/w_0_0# pfet w=12 l=2
+M1257 vdd ffipg_2/ffi_1/inv_1/op ffipg_2/ffi_1/nand_6/a ffipg_2/ffi_1/nand_4/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1258 ffipg_2/ffi_1/nand_6/a ffipg_2/ffi_1/nand_3/b vdd ffipg_2/ffi_1/nand_4/w_0_0# pfet w=12 l=2
+M1258 ffipg_2/ffi_1/nand_6/a ffipg_2/ffi_1/nand_3/b vdd ffipg_2/ffi_1/nand_4/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1259 ffipg_2/ffi_1/nand_6/a ffipg_2/ffi_1/inv_1/op ffipg_2/ffi_1/nand_4/a_13_n26# Gnd nfet w=12 l=2
+M1259 ffipg_2/ffi_1/nand_6/a ffipg_2/ffi_1/inv_1/op ffipg_2/ffi_1/nand_4/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1260 ffipg_2/ffi_1/nand_5/a_13_n26# ffipg_2/ffi_1/inv_1/op gnd Gnd nfet w=12 l=2
+M1260 ffipg_2/ffi_1/nand_5/a_13_n26# ffipg_2/ffi_1/inv_1/op gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1261 vdd ffipg_2/ffi_1/nand_1/b ffipg_2/ffi_1/nand_7/a ffipg_2/ffi_1/nand_5/w_0_0# pfet w=12 l=2
+M1261 vdd ffipg_2/ffi_1/nand_1/b ffipg_2/ffi_1/nand_7/a ffipg_2/ffi_1/nand_5/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1262 ffipg_2/ffi_1/nand_7/a ffipg_2/ffi_1/inv_1/op vdd ffipg_2/ffi_1/nand_5/w_0_0# pfet w=12 l=2
+M1262 ffipg_2/ffi_1/nand_7/a ffipg_2/ffi_1/inv_1/op vdd ffipg_2/ffi_1/nand_5/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1263 ffipg_2/ffi_1/nand_7/a ffipg_2/ffi_1/nand_1/b ffipg_2/ffi_1/nand_5/a_13_n26# Gnd nfet w=12 l=2
+M1263 ffipg_2/ffi_1/nand_7/a ffipg_2/ffi_1/nand_1/b ffipg_2/ffi_1/nand_5/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1264 ffipg_2/ffi_1/nand_6/a_13_n26# ffipg_2/ffi_1/nand_6/a gnd Gnd nfet w=12 l=2
+M1264 ffipg_2/ffi_1/nand_6/a_13_n26# ffipg_2/ffi_1/nand_6/a gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1265 vdd ffipg_2/ffi_1/q ffipg_2/ffi_1/qbar ffipg_2/ffi_1/nand_6/w_0_0# pfet w=12 l=2
+M1265 vdd ffipg_2/ffi_1/q ffipg_2/ffi_1/qbar ffipg_2/ffi_1/nand_6/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1266 ffipg_2/ffi_1/qbar ffipg_2/ffi_1/nand_6/a vdd ffipg_2/ffi_1/nand_6/w_0_0# pfet w=12 l=2
+M1266 ffipg_2/ffi_1/qbar ffipg_2/ffi_1/nand_6/a vdd ffipg_2/ffi_1/nand_6/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1267 ffipg_2/ffi_1/qbar ffipg_2/ffi_1/q ffipg_2/ffi_1/nand_6/a_13_n26# Gnd nfet w=12 l=2
+M1267 ffipg_2/ffi_1/qbar ffipg_2/ffi_1/q ffipg_2/ffi_1/nand_6/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1268 ffipg_2/ffi_1/nand_7/a_13_n26# ffipg_2/ffi_1/nand_7/a gnd Gnd nfet w=12 l=2
+M1268 ffipg_2/ffi_1/nand_7/a_13_n26# ffipg_2/ffi_1/nand_7/a gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1269 vdd ffipg_2/ffi_1/qbar ffipg_2/ffi_1/q ffipg_2/ffi_1/nand_7/w_0_0# pfet w=12 l=2
+M1269 vdd ffipg_2/ffi_1/qbar ffipg_2/ffi_1/q ffipg_2/ffi_1/nand_7/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1270 ffipg_2/ffi_1/q ffipg_2/ffi_1/nand_7/a vdd ffipg_2/ffi_1/nand_7/w_0_0# pfet w=12 l=2
+M1270 ffipg_2/ffi_1/q ffipg_2/ffi_1/nand_7/a vdd ffipg_2/ffi_1/nand_7/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1271 ffipg_2/ffi_1/q ffipg_2/ffi_1/qbar ffipg_2/ffi_1/nand_7/a_13_n26# Gnd nfet w=12 l=2
+M1271 ffipg_2/ffi_1/q ffipg_2/ffi_1/qbar ffipg_2/ffi_1/nand_7/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1272 ffipg_2/ffi_1/inv_0/op x3in gnd Gnd nfet w=6 l=2
+M1272 ffipg_2/ffi_1/inv_0/op x3in gnd Gnd CMOSN w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1273 ffipg_2/ffi_1/inv_0/op x3in vdd ffipg_2/ffi_1/inv_0/w_0_6# pfet w=12 l=2
+M1273 ffipg_2/ffi_1/inv_0/op x3in vdd ffipg_2/ffi_1/inv_0/w_0_6# CMOSP w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1274 ffipg_2/ffi_1/inv_1/op clk gnd Gnd nfet w=6 l=2
+M1274 ffipg_2/ffi_1/inv_1/op clk gnd Gnd CMOSN w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1275 ffipg_2/ffi_1/inv_1/op clk vdd ffipg_2/ffi_1/inv_1/w_0_6# pfet w=12 l=2
+M1275 ffipg_2/ffi_1/inv_1/op clk vdd ffipg_2/ffi_1/inv_1/w_0_6# CMOSP w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1276 ffi_0/nand_1/a_13_n26# ffi_0/nand_1/a gnd Gnd nfet w=12 l=2
+M1276 ffi_0/nand_1/a_13_n26# ffi_0/nand_1/a gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1277 vdd ffi_0/nand_1/b ffi_0/nand_3/b ffi_0/nand_1/w_0_0# pfet w=12 l=2
+M1277 vdd ffi_0/nand_1/b ffi_0/nand_3/b ffi_0/nand_1/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1278 ffi_0/nand_3/b ffi_0/nand_1/a vdd ffi_0/nand_1/w_0_0# pfet w=12 l=2
+M1278 ffi_0/nand_3/b ffi_0/nand_1/a vdd ffi_0/nand_1/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1279 ffi_0/nand_3/b ffi_0/nand_1/b ffi_0/nand_1/a_13_n26# Gnd nfet w=12 l=2
+M1279 ffi_0/nand_3/b ffi_0/nand_1/b ffi_0/nand_1/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1280 ffi_0/nand_0/a_13_n26# ffi_0/inv_0/op gnd Gnd nfet w=12 l=2
+M1280 ffi_0/nand_0/a_13_n26# ffi_0/inv_0/op gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1281 vdd clk ffi_0/nand_1/a ffi_0/nand_0/w_0_0# pfet w=12 l=2
+M1281 vdd clk ffi_0/nand_1/a ffi_0/nand_0/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1282 ffi_0/nand_1/a ffi_0/inv_0/op vdd ffi_0/nand_0/w_0_0# pfet w=12 l=2
+M1282 ffi_0/nand_1/a ffi_0/inv_0/op vdd ffi_0/nand_0/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1283 ffi_0/nand_1/a clk ffi_0/nand_0/a_13_n26# Gnd nfet w=12 l=2
+M1283 ffi_0/nand_1/a clk ffi_0/nand_0/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1284 ffi_0/nand_2/a_13_n26# cinin gnd Gnd nfet w=12 l=2
+M1284 ffi_0/nand_2/a_13_n26# cinin gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1285 vdd clk ffi_0/nand_3/a ffi_0/nand_2/w_0_0# pfet w=12 l=2
+M1285 vdd clk ffi_0/nand_3/a ffi_0/nand_2/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1286 ffi_0/nand_3/a cinin vdd ffi_0/nand_2/w_0_0# pfet w=12 l=2
+M1286 ffi_0/nand_3/a cinin vdd ffi_0/nand_2/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1287 ffi_0/nand_3/a clk ffi_0/nand_2/a_13_n26# Gnd nfet w=12 l=2
+M1287 ffi_0/nand_3/a clk ffi_0/nand_2/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1288 ffi_0/nand_3/a_13_n26# ffi_0/nand_3/a gnd Gnd nfet w=12 l=2
+M1288 ffi_0/nand_3/a_13_n26# ffi_0/nand_3/a gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1289 vdd ffi_0/nand_3/b ffi_0/nand_1/b ffi_0/nand_3/w_0_0# pfet w=12 l=2
+M1289 vdd ffi_0/nand_3/b ffi_0/nand_1/b ffi_0/nand_3/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1290 ffi_0/nand_1/b ffi_0/nand_3/a vdd ffi_0/nand_3/w_0_0# pfet w=12 l=2
+M1290 ffi_0/nand_1/b ffi_0/nand_3/a vdd ffi_0/nand_3/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1291 ffi_0/nand_1/b ffi_0/nand_3/b ffi_0/nand_3/a_13_n26# Gnd nfet w=12 l=2
+M1291 ffi_0/nand_1/b ffi_0/nand_3/b ffi_0/nand_3/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1292 ffi_0/nand_4/a_13_n26# ffi_0/nand_3/b gnd Gnd nfet w=12 l=2
+M1292 ffi_0/nand_4/a_13_n26# ffi_0/nand_3/b gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1293 vdd ffi_0/inv_1/op ffi_0/nand_6/a ffi_0/nand_4/w_0_0# pfet w=12 l=2
+M1293 vdd ffi_0/inv_1/op ffi_0/nand_6/a ffi_0/nand_4/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1294 ffi_0/nand_6/a ffi_0/nand_3/b vdd ffi_0/nand_4/w_0_0# pfet w=12 l=2
+M1294 ffi_0/nand_6/a ffi_0/nand_3/b vdd ffi_0/nand_4/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1295 ffi_0/nand_6/a ffi_0/inv_1/op ffi_0/nand_4/a_13_n26# Gnd nfet w=12 l=2
+M1295 ffi_0/nand_6/a ffi_0/inv_1/op ffi_0/nand_4/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1296 ffi_0/nand_5/a_13_n26# ffi_0/inv_1/op gnd Gnd nfet w=12 l=2
+M1296 ffi_0/nand_5/a_13_n26# ffi_0/inv_1/op gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1297 vdd ffi_0/nand_1/b ffi_0/nand_7/a ffi_0/nand_5/w_0_0# pfet w=12 l=2
+M1297 vdd ffi_0/nand_1/b ffi_0/nand_7/a ffi_0/nand_5/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1298 ffi_0/nand_7/a ffi_0/inv_1/op vdd ffi_0/nand_5/w_0_0# pfet w=12 l=2
+M1298 ffi_0/nand_7/a ffi_0/inv_1/op vdd ffi_0/nand_5/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1299 ffi_0/nand_7/a ffi_0/nand_1/b ffi_0/nand_5/a_13_n26# Gnd nfet w=12 l=2
+M1299 ffi_0/nand_7/a ffi_0/nand_1/b ffi_0/nand_5/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1300 ffi_0/nand_6/a_13_n26# ffi_0/nand_6/a gnd Gnd nfet w=12 l=2
+M1300 ffi_0/nand_6/a_13_n26# ffi_0/nand_6/a gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1301 vdd cin cinbar ffi_0/nand_6/w_0_0# pfet w=12 l=2
+M1301 vdd cin cinbar ffi_0/nand_6/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1302 cinbar ffi_0/nand_6/a vdd ffi_0/nand_6/w_0_0# pfet w=12 l=2
+M1302 cinbar ffi_0/nand_6/a vdd ffi_0/nand_6/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1303 cinbar cin ffi_0/nand_6/a_13_n26# Gnd nfet w=12 l=2
+M1303 cinbar cin ffi_0/nand_6/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1304 ffi_0/nand_7/a_13_n26# ffi_0/nand_7/a gnd Gnd nfet w=12 l=2
+M1304 ffi_0/nand_7/a_13_n26# ffi_0/nand_7/a gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1305 vdd cinbar cin ffi_0/nand_7/w_0_0# pfet w=12 l=2
+M1305 vdd cinbar cin ffi_0/nand_7/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1306 cin ffi_0/nand_7/a vdd ffi_0/nand_7/w_0_0# pfet w=12 l=2
+M1306 cin ffi_0/nand_7/a vdd ffi_0/nand_7/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1307 cin cinbar ffi_0/nand_7/a_13_n26# Gnd nfet w=12 l=2
+M1307 cin cinbar ffi_0/nand_7/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1308 ffi_0/inv_0/op cinin gnd Gnd nfet w=6 l=2
+M1308 ffi_0/inv_0/op cinin gnd Gnd CMOSN w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1309 ffi_0/inv_0/op cinin vdd ffi_0/inv_0/w_0_6# pfet w=12 l=2
+M1309 ffi_0/inv_0/op cinin vdd ffi_0/inv_0/w_0_6# CMOSP w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1310 ffi_0/inv_1/op clk gnd Gnd nfet w=6 l=2
+M1310 ffi_0/inv_1/op clk gnd Gnd CMOSN w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1311 ffi_0/inv_1/op clk vdd ffi_0/inv_1/w_0_6# pfet w=12 l=2
+M1311 ffi_0/inv_1/op clk vdd ffi_0/inv_1/w_0_6# CMOSP w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1312 ffipg_3/pggen_0/nand_0/a_13_n26# ffipg_3/ffi_1/q gnd Gnd nfet w=12 l=2
+M1312 ffipg_3/pggen_0/nand_0/a_13_n26# ffipg_3/ffi_1/q gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1313 vdd ffipg_3/ffi_0/q g4 ffipg_3/pggen_0/nand_0/w_0_0# pfet w=12 l=2
+M1313 vdd ffipg_3/ffi_0/q g4 ffipg_3/pggen_0/nand_0/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1314 g4 ffipg_3/ffi_1/q vdd ffipg_3/pggen_0/nand_0/w_0_0# pfet w=12 l=2
+M1314 g4 ffipg_3/ffi_1/q vdd ffipg_3/pggen_0/nand_0/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1315 g4 ffipg_3/ffi_0/q ffipg_3/pggen_0/nand_0/a_13_n26# Gnd nfet w=12 l=2
+M1315 g4 ffipg_3/ffi_0/q ffipg_3/pggen_0/nand_0/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1316 ffipg_3/pggen_0/xor_0/inv_0/op ffipg_3/ffi_1/q gnd Gnd nfet w=6 l=2
+M1316 ffipg_3/pggen_0/xor_0/inv_0/op ffipg_3/ffi_1/q gnd Gnd CMOSN w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1317 ffipg_3/pggen_0/xor_0/inv_0/op ffipg_3/ffi_1/q vdd ffipg_3/pggen_0/xor_0/inv_0/w_0_6# pfet w=12 l=2
+M1317 ffipg_3/pggen_0/xor_0/inv_0/op ffipg_3/ffi_1/q vdd ffipg_3/pggen_0/xor_0/inv_0/w_0_6# CMOSP w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1318 ffipg_3/pggen_0/xor_0/inv_1/op ffipg_3/ffi_0/q gnd Gnd nfet w=6 l=2
+M1318 ffipg_3/pggen_0/xor_0/inv_1/op ffipg_3/ffi_0/q gnd Gnd CMOSN w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1319 ffipg_3/pggen_0/xor_0/inv_1/op ffipg_3/ffi_0/q vdd ffipg_3/pggen_0/xor_0/inv_1/w_0_6# pfet w=12 l=2
+M1319 ffipg_3/pggen_0/xor_0/inv_1/op ffipg_3/ffi_0/q vdd ffipg_3/pggen_0/xor_0/inv_1/w_0_6# CMOSP w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1320 vdd ffipg_3/ffi_0/q ffipg_3/pggen_0/xor_0/a_10_10# ffipg_3/pggen_0/xor_0/w_n3_4# pfet w=24 l=2
+M1320 vdd ffipg_3/ffi_0/q ffipg_3/pggen_0/xor_0/a_10_10# ffipg_3/pggen_0/xor_0/w_n3_4# CMOSP w=24 l=2
 +  ad=0 pd=0 as=432 ps=180
-M1321 k4 ffipg_3/ffi_0/q ffipg_3/pggen_0/xor_0/a_10_n43# Gnd nfet w=12 l=2
+M1321 k4 ffipg_3/ffi_0/q ffipg_3/pggen_0/xor_0/a_10_n43# Gnd CMOSN w=12 l=2
 +  ad=120 pd=68 as=96 ps=40
-M1322 gnd ffipg_3/pggen_0/xor_0/inv_1/op ffipg_3/pggen_0/xor_0/a_38_n43# Gnd nfet w=12 l=2
+M1322 gnd ffipg_3/pggen_0/xor_0/inv_1/op ffipg_3/pggen_0/xor_0/a_38_n43# Gnd CMOSN w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1323 ffipg_3/pggen_0/xor_0/a_10_10# ffipg_3/pggen_0/xor_0/inv_1/op k4 ffipg_3/pggen_0/xor_0/w_n3_4# pfet w=24 l=2
+M1323 ffipg_3/pggen_0/xor_0/a_10_10# ffipg_3/pggen_0/xor_0/inv_1/op k4 ffipg_3/pggen_0/xor_0/w_n3_4# CMOSP w=24 l=2
 +  ad=0 pd=0 as=192 ps=64
-M1324 ffipg_3/pggen_0/xor_0/a_10_n43# ffipg_3/ffi_1/q gnd Gnd nfet w=12 l=2
+M1324 ffipg_3/pggen_0/xor_0/a_10_n43# ffipg_3/ffi_1/q gnd Gnd CMOSN w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1325 ffipg_3/pggen_0/xor_0/a_38_n43# ffipg_3/pggen_0/xor_0/inv_0/op k4 Gnd nfet w=12 l=2
+M1325 ffipg_3/pggen_0/xor_0/a_38_n43# ffipg_3/pggen_0/xor_0/inv_0/op k4 Gnd CMOSN w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1326 ffipg_3/pggen_0/xor_0/a_10_10# ffipg_3/ffi_1/q vdd ffipg_3/pggen_0/xor_0/w_n3_4# pfet w=24 l=2
+M1326 ffipg_3/pggen_0/xor_0/a_10_10# ffipg_3/ffi_1/q vdd ffipg_3/pggen_0/xor_0/w_n3_4# CMOSP w=24 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1327 k4 ffipg_3/pggen_0/xor_0/inv_0/op ffipg_3/pggen_0/xor_0/a_10_10# ffipg_3/pggen_0/xor_0/w_n3_4# pfet w=24 l=2
+M1327 k4 ffipg_3/pggen_0/xor_0/inv_0/op ffipg_3/pggen_0/xor_0/a_10_10# ffipg_3/pggen_0/xor_0/w_n3_4# CMOSP w=24 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1328 p4 ffipg_3/ffi_1/q ffipg_3/pggen_0/nor_0/a_13_6# ffipg_3/pggen_0/nor_0/w_0_0# pfet w=24 l=2
+M1328 p4 ffipg_3/ffi_1/q ffipg_3/pggen_0/nor_0/a_13_6# ffipg_3/pggen_0/nor_0/w_0_0# CMOSP w=24 l=2
 +  ad=120 pd=58 as=192 ps=64
-M1329 ffipg_3/pggen_0/nor_0/a_13_6# ffipg_3/ffi_0/q vdd ffipg_3/pggen_0/nor_0/w_0_0# pfet w=24 l=2
+M1329 ffipg_3/pggen_0/nor_0/a_13_6# ffipg_3/ffi_0/q vdd ffipg_3/pggen_0/nor_0/w_0_0# CMOSP w=24 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1330 gnd ffipg_3/ffi_1/q p4 Gnd nfet w=6 l=2
+M1330 gnd ffipg_3/ffi_1/q p4 Gnd CMOSN w=6 l=2
 +  ad=0 pd=0 as=48 ps=28
-M1331 p4 ffipg_3/ffi_0/q gnd Gnd nfet w=6 l=2
+M1331 p4 ffipg_3/ffi_0/q gnd Gnd CMOSN w=6 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1332 ffipg_3/ffi_0/nand_1/a_13_n26# ffipg_3/ffi_0/nand_1/a gnd Gnd nfet w=12 l=2
+M1332 ffipg_3/ffi_0/nand_1/a_13_n26# ffipg_3/ffi_0/nand_1/a gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1333 vdd ffipg_3/ffi_0/nand_1/b ffipg_3/ffi_0/nand_3/b ffipg_3/ffi_0/nand_1/w_0_0# pfet w=12 l=2
+M1333 vdd ffipg_3/ffi_0/nand_1/b ffipg_3/ffi_0/nand_3/b ffipg_3/ffi_0/nand_1/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1334 ffipg_3/ffi_0/nand_3/b ffipg_3/ffi_0/nand_1/a vdd ffipg_3/ffi_0/nand_1/w_0_0# pfet w=12 l=2
+M1334 ffipg_3/ffi_0/nand_3/b ffipg_3/ffi_0/nand_1/a vdd ffipg_3/ffi_0/nand_1/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1335 ffipg_3/ffi_0/nand_3/b ffipg_3/ffi_0/nand_1/b ffipg_3/ffi_0/nand_1/a_13_n26# Gnd nfet w=12 l=2
+M1335 ffipg_3/ffi_0/nand_3/b ffipg_3/ffi_0/nand_1/b ffipg_3/ffi_0/nand_1/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1336 ffipg_3/ffi_0/nand_0/a_13_n26# ffipg_3/ffi_0/inv_0/op gnd Gnd nfet w=12 l=2
+M1336 ffipg_3/ffi_0/nand_0/a_13_n26# ffipg_3/ffi_0/inv_0/op gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1337 vdd clk ffipg_3/ffi_0/nand_1/a ffipg_3/ffi_0/nand_0/w_0_0# pfet w=12 l=2
+M1337 vdd clk ffipg_3/ffi_0/nand_1/a ffipg_3/ffi_0/nand_0/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1338 ffipg_3/ffi_0/nand_1/a ffipg_3/ffi_0/inv_0/op vdd ffipg_3/ffi_0/nand_0/w_0_0# pfet w=12 l=2
+M1338 ffipg_3/ffi_0/nand_1/a ffipg_3/ffi_0/inv_0/op vdd ffipg_3/ffi_0/nand_0/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1339 ffipg_3/ffi_0/nand_1/a clk ffipg_3/ffi_0/nand_0/a_13_n26# Gnd nfet w=12 l=2
+M1339 ffipg_3/ffi_0/nand_1/a clk ffipg_3/ffi_0/nand_0/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1340 ffipg_3/ffi_0/nand_2/a_13_n26# y4in gnd Gnd nfet w=12 l=2
+M1340 ffipg_3/ffi_0/nand_2/a_13_n26# y4in gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1341 vdd clk ffipg_3/ffi_0/nand_3/a ffipg_3/ffi_0/nand_2/w_0_0# pfet w=12 l=2
+M1341 vdd clk ffipg_3/ffi_0/nand_3/a ffipg_3/ffi_0/nand_2/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1342 ffipg_3/ffi_0/nand_3/a y4in vdd ffipg_3/ffi_0/nand_2/w_0_0# pfet w=12 l=2
+M1342 ffipg_3/ffi_0/nand_3/a y4in vdd ffipg_3/ffi_0/nand_2/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1343 ffipg_3/ffi_0/nand_3/a clk ffipg_3/ffi_0/nand_2/a_13_n26# Gnd nfet w=12 l=2
+M1343 ffipg_3/ffi_0/nand_3/a clk ffipg_3/ffi_0/nand_2/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1344 ffipg_3/ffi_0/nand_3/a_13_n26# ffipg_3/ffi_0/nand_3/a gnd Gnd nfet w=12 l=2
+M1344 ffipg_3/ffi_0/nand_3/a_13_n26# ffipg_3/ffi_0/nand_3/a gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1345 vdd ffipg_3/ffi_0/nand_3/b ffipg_3/ffi_0/nand_1/b ffipg_3/ffi_0/nand_3/w_0_0# pfet w=12 l=2
+M1345 vdd ffipg_3/ffi_0/nand_3/b ffipg_3/ffi_0/nand_1/b ffipg_3/ffi_0/nand_3/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1346 ffipg_3/ffi_0/nand_1/b ffipg_3/ffi_0/nand_3/a vdd ffipg_3/ffi_0/nand_3/w_0_0# pfet w=12 l=2
+M1346 ffipg_3/ffi_0/nand_1/b ffipg_3/ffi_0/nand_3/a vdd ffipg_3/ffi_0/nand_3/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1347 ffipg_3/ffi_0/nand_1/b ffipg_3/ffi_0/nand_3/b ffipg_3/ffi_0/nand_3/a_13_n26# Gnd nfet w=12 l=2
+M1347 ffipg_3/ffi_0/nand_1/b ffipg_3/ffi_0/nand_3/b ffipg_3/ffi_0/nand_3/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1348 ffipg_3/ffi_0/nand_4/a_13_n26# ffipg_3/ffi_0/nand_3/b gnd Gnd nfet w=12 l=2
+M1348 ffipg_3/ffi_0/nand_4/a_13_n26# ffipg_3/ffi_0/nand_3/b gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1349 vdd ffipg_3/ffi_0/inv_1/op ffipg_3/ffi_0/nand_6/a ffipg_3/ffi_0/nand_4/w_0_0# pfet w=12 l=2
+M1349 vdd ffipg_3/ffi_0/inv_1/op ffipg_3/ffi_0/nand_6/a ffipg_3/ffi_0/nand_4/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1350 ffipg_3/ffi_0/nand_6/a ffipg_3/ffi_0/nand_3/b vdd ffipg_3/ffi_0/nand_4/w_0_0# pfet w=12 l=2
+M1350 ffipg_3/ffi_0/nand_6/a ffipg_3/ffi_0/nand_3/b vdd ffipg_3/ffi_0/nand_4/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1351 ffipg_3/ffi_0/nand_6/a ffipg_3/ffi_0/inv_1/op ffipg_3/ffi_0/nand_4/a_13_n26# Gnd nfet w=12 l=2
+M1351 ffipg_3/ffi_0/nand_6/a ffipg_3/ffi_0/inv_1/op ffipg_3/ffi_0/nand_4/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1352 ffipg_3/ffi_0/nand_5/a_13_n26# ffipg_3/ffi_0/inv_1/op gnd Gnd nfet w=12 l=2
+M1352 ffipg_3/ffi_0/nand_5/a_13_n26# ffipg_3/ffi_0/inv_1/op gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1353 vdd ffipg_3/ffi_0/nand_1/b ffipg_3/ffi_0/nand_7/a ffipg_3/ffi_0/nand_5/w_0_0# pfet w=12 l=2
+M1353 vdd ffipg_3/ffi_0/nand_1/b ffipg_3/ffi_0/nand_7/a ffipg_3/ffi_0/nand_5/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1354 ffipg_3/ffi_0/nand_7/a ffipg_3/ffi_0/inv_1/op vdd ffipg_3/ffi_0/nand_5/w_0_0# pfet w=12 l=2
+M1354 ffipg_3/ffi_0/nand_7/a ffipg_3/ffi_0/inv_1/op vdd ffipg_3/ffi_0/nand_5/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1355 ffipg_3/ffi_0/nand_7/a ffipg_3/ffi_0/nand_1/b ffipg_3/ffi_0/nand_5/a_13_n26# Gnd nfet w=12 l=2
+M1355 ffipg_3/ffi_0/nand_7/a ffipg_3/ffi_0/nand_1/b ffipg_3/ffi_0/nand_5/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1356 ffipg_3/ffi_0/nand_6/a_13_n26# ffipg_3/ffi_0/nand_6/a gnd Gnd nfet w=12 l=2
+M1356 ffipg_3/ffi_0/nand_6/a_13_n26# ffipg_3/ffi_0/nand_6/a gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1357 vdd ffipg_3/ffi_0/q ffipg_3/ffi_0/qbar ffipg_3/ffi_0/nand_6/w_0_0# pfet w=12 l=2
+M1357 vdd ffipg_3/ffi_0/q ffipg_3/ffi_0/qbar ffipg_3/ffi_0/nand_6/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1358 ffipg_3/ffi_0/qbar ffipg_3/ffi_0/nand_6/a vdd ffipg_3/ffi_0/nand_6/w_0_0# pfet w=12 l=2
+M1358 ffipg_3/ffi_0/qbar ffipg_3/ffi_0/nand_6/a vdd ffipg_3/ffi_0/nand_6/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1359 ffipg_3/ffi_0/qbar ffipg_3/ffi_0/q ffipg_3/ffi_0/nand_6/a_13_n26# Gnd nfet w=12 l=2
+M1359 ffipg_3/ffi_0/qbar ffipg_3/ffi_0/q ffipg_3/ffi_0/nand_6/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1360 ffipg_3/ffi_0/nand_7/a_13_n26# ffipg_3/ffi_0/nand_7/a gnd Gnd nfet w=12 l=2
+M1360 ffipg_3/ffi_0/nand_7/a_13_n26# ffipg_3/ffi_0/nand_7/a gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1361 vdd ffipg_3/ffi_0/qbar ffipg_3/ffi_0/q ffipg_3/ffi_0/nand_7/w_0_0# pfet w=12 l=2
+M1361 vdd ffipg_3/ffi_0/qbar ffipg_3/ffi_0/q ffipg_3/ffi_0/nand_7/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1362 ffipg_3/ffi_0/q ffipg_3/ffi_0/nand_7/a vdd ffipg_3/ffi_0/nand_7/w_0_0# pfet w=12 l=2
+M1362 ffipg_3/ffi_0/q ffipg_3/ffi_0/nand_7/a vdd ffipg_3/ffi_0/nand_7/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1363 ffipg_3/ffi_0/q ffipg_3/ffi_0/qbar ffipg_3/ffi_0/nand_7/a_13_n26# Gnd nfet w=12 l=2
+M1363 ffipg_3/ffi_0/q ffipg_3/ffi_0/qbar ffipg_3/ffi_0/nand_7/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1364 ffipg_3/ffi_0/inv_0/op y4in gnd Gnd nfet w=6 l=2
+M1364 ffipg_3/ffi_0/inv_0/op y4in gnd Gnd CMOSN w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1365 ffipg_3/ffi_0/inv_0/op y4in vdd ffipg_3/ffi_0/inv_0/w_0_6# pfet w=12 l=2
+M1365 ffipg_3/ffi_0/inv_0/op y4in vdd ffipg_3/ffi_0/inv_0/w_0_6# CMOSP w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1366 ffipg_3/ffi_0/inv_1/op clk gnd Gnd nfet w=6 l=2
+M1366 ffipg_3/ffi_0/inv_1/op clk gnd Gnd CMOSN w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1367 ffipg_3/ffi_0/inv_1/op clk vdd ffipg_3/ffi_0/inv_1/w_0_6# pfet w=12 l=2
+M1367 ffipg_3/ffi_0/inv_1/op clk vdd ffipg_3/ffi_0/inv_1/w_0_6# CMOSP w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1368 ffipg_3/ffi_1/nand_1/a_13_n26# ffipg_3/ffi_1/nand_1/a gnd Gnd nfet w=12 l=2
+M1368 ffipg_3/ffi_1/nand_1/a_13_n26# ffipg_3/ffi_1/nand_1/a gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1369 vdd ffipg_3/ffi_1/nand_1/b ffipg_3/ffi_1/nand_3/b ffipg_3/ffi_1/nand_1/w_0_0# pfet w=12 l=2
+M1369 vdd ffipg_3/ffi_1/nand_1/b ffipg_3/ffi_1/nand_3/b ffipg_3/ffi_1/nand_1/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1370 ffipg_3/ffi_1/nand_3/b ffipg_3/ffi_1/nand_1/a vdd ffipg_3/ffi_1/nand_1/w_0_0# pfet w=12 l=2
+M1370 ffipg_3/ffi_1/nand_3/b ffipg_3/ffi_1/nand_1/a vdd ffipg_3/ffi_1/nand_1/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1371 ffipg_3/ffi_1/nand_3/b ffipg_3/ffi_1/nand_1/b ffipg_3/ffi_1/nand_1/a_13_n26# Gnd nfet w=12 l=2
+M1371 ffipg_3/ffi_1/nand_3/b ffipg_3/ffi_1/nand_1/b ffipg_3/ffi_1/nand_1/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1372 ffipg_3/ffi_1/nand_0/a_13_n26# ffipg_3/ffi_1/inv_0/op gnd Gnd nfet w=12 l=2
+M1372 ffipg_3/ffi_1/nand_0/a_13_n26# ffipg_3/ffi_1/inv_0/op gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1373 vdd clk ffipg_3/ffi_1/nand_1/a ffipg_3/ffi_1/nand_0/w_0_0# pfet w=12 l=2
+M1373 vdd clk ffipg_3/ffi_1/nand_1/a ffipg_3/ffi_1/nand_0/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1374 ffipg_3/ffi_1/nand_1/a ffipg_3/ffi_1/inv_0/op vdd ffipg_3/ffi_1/nand_0/w_0_0# pfet w=12 l=2
+M1374 ffipg_3/ffi_1/nand_1/a ffipg_3/ffi_1/inv_0/op vdd ffipg_3/ffi_1/nand_0/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1375 ffipg_3/ffi_1/nand_1/a clk ffipg_3/ffi_1/nand_0/a_13_n26# Gnd nfet w=12 l=2
+M1375 ffipg_3/ffi_1/nand_1/a clk ffipg_3/ffi_1/nand_0/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1376 ffipg_3/ffi_1/nand_2/a_13_n26# x4in gnd Gnd nfet w=12 l=2
+M1376 ffipg_3/ffi_1/nand_2/a_13_n26# x4in gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1377 vdd clk ffipg_3/ffi_1/nand_3/a ffipg_3/ffi_1/nand_2/w_0_0# pfet w=12 l=2
+M1377 vdd clk ffipg_3/ffi_1/nand_3/a ffipg_3/ffi_1/nand_2/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1378 ffipg_3/ffi_1/nand_3/a x4in vdd ffipg_3/ffi_1/nand_2/w_0_0# pfet w=12 l=2
+M1378 ffipg_3/ffi_1/nand_3/a x4in vdd ffipg_3/ffi_1/nand_2/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1379 ffipg_3/ffi_1/nand_3/a clk ffipg_3/ffi_1/nand_2/a_13_n26# Gnd nfet w=12 l=2
+M1379 ffipg_3/ffi_1/nand_3/a clk ffipg_3/ffi_1/nand_2/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1380 ffipg_3/ffi_1/nand_3/a_13_n26# ffipg_3/ffi_1/nand_3/a gnd Gnd nfet w=12 l=2
+M1380 ffipg_3/ffi_1/nand_3/a_13_n26# ffipg_3/ffi_1/nand_3/a gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1381 vdd ffipg_3/ffi_1/nand_3/b ffipg_3/ffi_1/nand_1/b ffipg_3/ffi_1/nand_3/w_0_0# pfet w=12 l=2
+M1381 vdd ffipg_3/ffi_1/nand_3/b ffipg_3/ffi_1/nand_1/b ffipg_3/ffi_1/nand_3/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1382 ffipg_3/ffi_1/nand_1/b ffipg_3/ffi_1/nand_3/a vdd ffipg_3/ffi_1/nand_3/w_0_0# pfet w=12 l=2
+M1382 ffipg_3/ffi_1/nand_1/b ffipg_3/ffi_1/nand_3/a vdd ffipg_3/ffi_1/nand_3/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1383 ffipg_3/ffi_1/nand_1/b ffipg_3/ffi_1/nand_3/b ffipg_3/ffi_1/nand_3/a_13_n26# Gnd nfet w=12 l=2
+M1383 ffipg_3/ffi_1/nand_1/b ffipg_3/ffi_1/nand_3/b ffipg_3/ffi_1/nand_3/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1384 ffipg_3/ffi_1/nand_4/a_13_n26# ffipg_3/ffi_1/nand_3/b gnd Gnd nfet w=12 l=2
+M1384 ffipg_3/ffi_1/nand_4/a_13_n26# ffipg_3/ffi_1/nand_3/b gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1385 vdd ffipg_3/ffi_1/inv_1/op ffipg_3/ffi_1/nand_6/a ffipg_3/ffi_1/nand_4/w_0_0# pfet w=12 l=2
+M1385 vdd ffipg_3/ffi_1/inv_1/op ffipg_3/ffi_1/nand_6/a ffipg_3/ffi_1/nand_4/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1386 ffipg_3/ffi_1/nand_6/a ffipg_3/ffi_1/nand_3/b vdd ffipg_3/ffi_1/nand_4/w_0_0# pfet w=12 l=2
+M1386 ffipg_3/ffi_1/nand_6/a ffipg_3/ffi_1/nand_3/b vdd ffipg_3/ffi_1/nand_4/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1387 ffipg_3/ffi_1/nand_6/a ffipg_3/ffi_1/inv_1/op ffipg_3/ffi_1/nand_4/a_13_n26# Gnd nfet w=12 l=2
+M1387 ffipg_3/ffi_1/nand_6/a ffipg_3/ffi_1/inv_1/op ffipg_3/ffi_1/nand_4/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1388 ffipg_3/ffi_1/nand_5/a_13_n26# ffipg_3/ffi_1/inv_1/op gnd Gnd nfet w=12 l=2
+M1388 ffipg_3/ffi_1/nand_5/a_13_n26# ffipg_3/ffi_1/inv_1/op gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1389 vdd ffipg_3/ffi_1/nand_1/b ffipg_3/ffi_1/nand_7/a ffipg_3/ffi_1/nand_5/w_0_0# pfet w=12 l=2
+M1389 vdd ffipg_3/ffi_1/nand_1/b ffipg_3/ffi_1/nand_7/a ffipg_3/ffi_1/nand_5/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1390 ffipg_3/ffi_1/nand_7/a ffipg_3/ffi_1/inv_1/op vdd ffipg_3/ffi_1/nand_5/w_0_0# pfet w=12 l=2
+M1390 ffipg_3/ffi_1/nand_7/a ffipg_3/ffi_1/inv_1/op vdd ffipg_3/ffi_1/nand_5/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1391 ffipg_3/ffi_1/nand_7/a ffipg_3/ffi_1/nand_1/b ffipg_3/ffi_1/nand_5/a_13_n26# Gnd nfet w=12 l=2
+M1391 ffipg_3/ffi_1/nand_7/a ffipg_3/ffi_1/nand_1/b ffipg_3/ffi_1/nand_5/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1392 ffipg_3/ffi_1/nand_6/a_13_n26# ffipg_3/ffi_1/nand_6/a gnd Gnd nfet w=12 l=2
+M1392 ffipg_3/ffi_1/nand_6/a_13_n26# ffipg_3/ffi_1/nand_6/a gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1393 vdd ffipg_3/ffi_1/q ffipg_3/ffi_1/qbar ffipg_3/ffi_1/nand_6/w_0_0# pfet w=12 l=2
+M1393 vdd ffipg_3/ffi_1/q ffipg_3/ffi_1/qbar ffipg_3/ffi_1/nand_6/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1394 ffipg_3/ffi_1/qbar ffipg_3/ffi_1/nand_6/a vdd ffipg_3/ffi_1/nand_6/w_0_0# pfet w=12 l=2
+M1394 ffipg_3/ffi_1/qbar ffipg_3/ffi_1/nand_6/a vdd ffipg_3/ffi_1/nand_6/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1395 ffipg_3/ffi_1/qbar ffipg_3/ffi_1/q ffipg_3/ffi_1/nand_6/a_13_n26# Gnd nfet w=12 l=2
+M1395 ffipg_3/ffi_1/qbar ffipg_3/ffi_1/q ffipg_3/ffi_1/nand_6/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1396 ffipg_3/ffi_1/nand_7/a_13_n26# ffipg_3/ffi_1/nand_7/a gnd Gnd nfet w=12 l=2
+M1396 ffipg_3/ffi_1/nand_7/a_13_n26# ffipg_3/ffi_1/nand_7/a gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=0 ps=0
-M1397 vdd ffipg_3/ffi_1/qbar ffipg_3/ffi_1/q ffipg_3/ffi_1/nand_7/w_0_0# pfet w=12 l=2
+M1397 vdd ffipg_3/ffi_1/qbar ffipg_3/ffi_1/q ffipg_3/ffi_1/nand_7/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=96 ps=40
-M1398 ffipg_3/ffi_1/q ffipg_3/ffi_1/nand_7/a vdd ffipg_3/ffi_1/nand_7/w_0_0# pfet w=12 l=2
+M1398 ffipg_3/ffi_1/q ffipg_3/ffi_1/nand_7/a vdd ffipg_3/ffi_1/nand_7/w_0_0# CMOSP w=12 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1399 ffipg_3/ffi_1/q ffipg_3/ffi_1/qbar ffipg_3/ffi_1/nand_7/a_13_n26# Gnd nfet w=12 l=2
+M1399 ffipg_3/ffi_1/q ffipg_3/ffi_1/qbar ffipg_3/ffi_1/nand_7/a_13_n26# Gnd CMOSN w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1400 ffipg_3/ffi_1/inv_0/op x4in gnd Gnd nfet w=6 l=2
+M1400 ffipg_3/ffi_1/inv_0/op x4in gnd Gnd CMOSN w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1401 ffipg_3/ffi_1/inv_0/op x4in vdd ffipg_3/ffi_1/inv_0/w_0_6# pfet w=12 l=2
+M1401 ffipg_3/ffi_1/inv_0/op x4in vdd ffipg_3/ffi_1/inv_0/w_0_6# CMOSP w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
-M1402 ffipg_3/ffi_1/inv_1/op clk gnd Gnd nfet w=6 l=2
+M1402 ffipg_3/ffi_1/inv_1/op clk gnd Gnd CMOSN w=6 l=2
 +  ad=30 pd=22 as=0 ps=0
-M1403 ffipg_3/ffi_1/inv_1/op clk vdd ffipg_3/ffi_1/inv_1/w_0_6# pfet w=12 l=2
+M1403 ffipg_3/ffi_1/inv_1/op clk vdd ffipg_3/ffi_1/inv_1/w_0_6# CMOSP w=12 l=2
 +  ad=60 pd=34 as=0 ps=0
 C0 ffipg_0/ffi_1/q ffipg_0/pggen_0/nor_0/w_0_0# 0.06fF
 C1 vdd ffipg_3/ffi_0/nand_7/w_0_0# 0.10fF
@@ -1983,3 +2013,32 @@ C1169 g1 Gnd 0.14fF
 C1170 ffipg_0/ffi_0/q Gnd 2.68fF
 C1171 ffipg_0/ffi_1/q Gnd 2.93fF
 C1172 ffipg_0/pggen_0/nand_0/w_0_0# Gnd 0.82fF
+
+.tran 1n 100n
+
+* .ic v(x1in) 0 
+* .ic v(x2in) 0 
+* .ic v(x3in) 0 
+* .ic v(x4in) 0 
+* .ic v(y1in) 0
+* .ic v(y2in) 0
+* .ic v(y3in) 0
+* .ic v(y4in) 0 
+* .ic v(z1o) 0 
+* .ic v(z2o) 0 
+* .ic v(z3o) 0 
+* .ic v(z4o) 0 
+* .ic v(cinin) 0 
+* .ic v(couto) 0 
+
+.control
+set hcopypscolor = 0 
+set color0=white 
+set color1=black 
+
+run
+set curplottitle="Adithya-2019102005-ffipgarr"
+
+hardcopy p.eps x(x1in) v(y1in)+2 v(p1)+4 v(g1)+6 v(k1)+8 c(clk)+10
+
+.endc
