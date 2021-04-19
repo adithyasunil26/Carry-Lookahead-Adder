@@ -1,10 +1,11 @@
-timestamp 1618841365
+timestamp 1618841631
 version 8.2
 tech scmos
 style TSMC0.18um(tsmc18)from:t11b
 scale 1000 1 9
 resistclasses 6700 7500 929000 929000 1 7700 7700 80 80 80 70 70 40
 use ffipgarr ffipgarr_0 1 0 19 0 1 846
+node "gnd!" 17 1813.81 -2 -8 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1723 1152 25 20 175 120 0 0 0 0 0 0
 node "y4in" 0 14.8671 -2 30 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 12 0 0 0 0 0 0 0 0 0 0
 node "x4in" 0 14.8671 -3 237 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 12 0 0 0 0 0 0 0 0 0 0
 node "y3in" 0 14.8671 -3 314 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 12 0 0 0 0 0 0 0 0 0 0
@@ -16,12 +17,27 @@ node "x1in" 0 14.8671 -3 1083 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 12 0 0 0 0 0 0 0 
 node "cinin" 0 14.8671 -3 1153 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 12 0 0 0 0 0 0 0 0 0 0
 node "clk" 0 14.8671 -3 1252 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 12 0 0 0 0 0 0 0 0 0 0
 node "m1_3_1256#" 6 690.806 3 1256 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 696 470 0 0 0 0 0 0 0 0 0 0
-cap "m1_3_1256#" "ffipgarr_0/ffi_0/nand_5/a" 29.4557
+node "vdd!" 26 2916.63 -3 1270 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2866 1914 25 20 100 70 0 0 0 0 0 0
+cap "vdd!" "m1_3_1256#" 2359.54
+subcap "gnd!" -783.999
+cap "ffipgarr_0/ffipg_3/ffi_0/inv_0/op" "gnd!" 234.398
+cap "ffipgarr_0/ffipg_3/ffi_0/inv_0/w_0_6#" "gnd!" 9.486
+cap "ffipgarr_0/ffipg_3/ffi_0/inv_0/vdd!" "gnd!" 541.63
+cap "gnd!" "ffipgarr_0/ffipg_3/ffi_0/nand_1/vdd!" 694.173
+cap "gnd!" "ffipgarr_0/ffipg_3/ffi_0/nand_6/vdd!" 247.428
+subcap "y2in" -89.2269
+subcap "x1in" -107.196
+subcap "vdd!" -2480.43
+cap "ffipgarr_0/ffi_0/nand_5/a" "ffipgarr_0/ffi_0/nand_3/vdd!" 39.9006
+cap "ffipgarr_0/ffi_0/nand_5/a" "m1_3_1256#" 29.4557
+merge "ffipgarr_0/ffi_0/nand_3/vdd!" "ffipgarr_0/ffi_0/inv_1/vdd!" -3.7197 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0 0 0
+merge "ffipgarr_0/ffi_0/inv_1/vdd!" "vdd!"
 merge "ffipgarr_0/y3in" "y3in" -6.012 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0
 merge "ffipgarr_0/x1in" "x1in" -6.012 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0
 merge "ffipgarr_0/x4in" "x4in" -6.012 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0
 merge "ffipgarr_0/y4in" "y4in" -6.012 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0
 merge "ffipgarr_0/y2in" "y2in" -6.012 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0
+merge "ffipgarr_0/ffipg_3/ffi_0/inv_0/gnd!" "gnd!" -1210.26 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1200 -800 0 0 0 -6 0 0 0 0 0 0
 merge "ffipgarr_0/x3in" "x3in" -6.012 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0
 merge "ffipgarr_0/clk" "clk" -374.978 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -262 -276 0 0 0 0 0 0 0 0 0 0
 merge "clk" "m1_3_1256#"

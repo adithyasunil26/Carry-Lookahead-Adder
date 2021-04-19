@@ -1,7 +1,9 @@
 magic
 tech scmos
-timestamp 1618841365
+timestamp 1618841631
 << metal1 >>
+rect -3 1270 97 1273
+rect 102 1270 949 1273
 rect 3 1263 228 1266
 rect 3 1256 6 1263
 rect -3 1252 0 1255
@@ -14,6 +16,14 @@ rect -3 521 0 524
 rect -3 314 0 317
 rect -3 237 0 240
 rect -2 30 1 33
+rect -2 -8 40 -5
+rect 45 -8 569 -5
+<< m123contact >>
+rect 97 1270 102 1275
+rect 40 -9 45 -4
+<< metal3 >>
+rect 98 1245 101 1270
+rect 41 -4 44 46
 use ffipgarr  ffipgarr_0
 timestamp 1618827105
 transform 1 0 19 0 1 846
@@ -29,4 +39,6 @@ rlabel metal1 -3 521 -3 524 3 x3in
 rlabel metal1 -3 237 -3 240 3 x4in
 rlabel metal1 -2 30 -2 33 3 y4in
 rlabel metal1 -3 1252 -3 1255 3 clk
+rlabel metal1 71 1271 71 1271 5 vdd!
+rlabel metal1 19 -7 19 -7 1 gnd!
 << end >>
