@@ -6,6 +6,7 @@
 .param length={2*LAMBDA}
 .param w={6*LAMBDA}
 .global gnd vdd
+.option scale=0.09u
 
 Vdd vdd gnd 'SUPPLY'
 
