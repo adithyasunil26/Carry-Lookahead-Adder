@@ -1,4 +1,4 @@
-timestamp 1618844863
+timestamp 1618845222
 version 8.2
 tech scmos
 style TSMC0.18um(tsmc18)from:t11b
@@ -25,7 +25,8 @@ node "m1_12_718#" 0 20.7705 12 718 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 15 16 0 0 0 0 
 node "x2in" 0 14.8671 -3 802 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 12 0 0 0 0 0 0 0 0 0 0
 node "y1in" 0 14.8671 -3 876 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 12 0 0 0 0 0 0 0 0 0 0
 node "m1_479_735#" 9 1018.45 479 735 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1029 692 0 0 0 0 0 0 0 0 0 0
-node "m1_490_963#" 9 697.255 490 963 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 401 274 50 40 530 354 0 0 0 0 0 0
+node "m1_537_970#" 6 373.515 537 970 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 71 54 50 40 530 354 0 0 0 0 0 0
+node "m1_490_963#" 3 321.844 490 963 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 321 220 0 0 0 0 0 0 0 0 0 0
 node "m1_490_989#" 0 50.2875 490 989 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 45 36 0 0 0 0 0 0 0 0 0 0
 node "m1_606_993#" 0 41.4324 606 993 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36 30 0 0 0 0 0 0 0 0 0 0
 node "m1_563_994#" 0 32.5773 563 994 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 27 24 0 0 0 0 0 0 0 0 0 0
@@ -41,65 +42,66 @@ node "m1_241_1212#" 10 1112.9 241 1212 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1125 756 0
 node "clk" 0 14.8671 -3 1252 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 12 0 0 0 0 0 0 0 0 0 0
 node "m1_3_1256#" 29 2620.93 3 1256 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2094 1406 75 60 1074 714 0 0 0 0 0 0
 node "vdd!" 24 2628.43 -3 1270 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2450 1634 50 40 245 170 0 0 0 0 0 0
-cap "m2_479_1014#" "m1_479_1014#" 22.6125
-cap "m1_3_1256#" "vdd!" 6926.65
-cap "m1_241_1212#" "m2_479_1014#" 63.1773
-cap "m1_241_1156#" "m2_479_1014#" 63.1773
-cap "m2_479_1014#" "m1_539_1026#" 54.6102
-cap "m1_241_1156#" "m1_490_989#" 151.206
-cap "m1_241_1156#" "m1_539_1026#" 39.9006
-cap "m1_12_718#" "m2_12_718#" 4.4955
 cap "m1_479_735#" "m2_479_735#" 19.6155
-cap "m1_490_963#" "m1_563_994#" 82.476
+cap "m1_563_994#" "m1_490_963#" 82.476
+cap "m2_479_1014#" "m1_241_1212#" 63.1773
+cap "vdd!" "m1_3_1256#" 6926.65
+cap "m2_479_1014#" "m1_241_1156#" 63.1773
+cap "m1_537_970#" "m1_490_963#" 163.374
+cap "m1_241_1156#" "m1_490_989#" 151.206
+cap "m2_479_1014#" "m1_479_1014#" 22.6125
+cap "m1_241_1156#" "m1_539_1026#" 39.9006
+cap "m2_12_718#" "m1_12_718#" 4.4955
+cap "m2_479_1014#" "m1_539_1026#" 54.6102
 subcap "gnd!" -783.999
+cap "gnd!" "ffipgarr_0/ffipg_3/ffi_0/inv_0/op" 234.398
 cap "ffipgarr_0/ffipg_3/ffi_0/inv_0/vdd!" "gnd!" 541.63
-cap "ffipgarr_0/ffipg_3/ffi_0/inv_0/op" "gnd!" 234.398
 cap "ffipgarr_0/ffipg_3/ffi_0/inv_0/w_0_6#" "gnd!" 9.486
 cap "ffipgarr_0/ffipg_3/ffi_0/nand_1/vdd!" "gnd!" 694.173
 cap "ffipgarr_0/ffipg_3/ffi_0/nand_6/vdd!" "gnd!" 247.428
 subcap "y2in" -89.2269
 subcap "m1_479_735#" -169.878
-subcap "m1_490_963#" -554.191
-cap "ffipgarr_0/g1" "nand_0/out" -2.66454e-15
-cap "ffipgarr_0/p1" "nor_0/b" -7.10543e-15
-cap "ffipgarr_0/g1" "nor_0/out" -2.84217e-14
-cap "inv_0/op" "ffipgarr_0/g1" -2.84217e-14
-cap "sumffo_1/ffo_0/inv_0/gnd!" "sumffo_1/ffo_0/nand_0/b" 40.014
+subcap "m1_490_963#" -178.78
+cap "nor_0/gnd!" "ffipgarr_0/g1" 378.997
+cap "inv_0/op" "ffipgarr_0/g1" 2.84217e-14
+cap "nor_0/b" "ffipgarr_0/p1" -7.10543e-15
+cap "nor_0/gnd!" "nor_0/out" -2.84217e-14
+cap "sumffo_1/ffo_0/nand_0/b" "sumffo_1/ffo_0/inv_0/gnd!" 40.014
 subcap "m2_479_1014#" -1295.26
 subcap "m1_490_989#" -22.5978
-cap "nor_0/b" "ffipgarr_0/k1" 30.9285
-cap "ffipgarr_0/ffipg_0/pggen_0/nor_0/vdd!" "ffipgarr_0/k1" -7.10543e-15
 cap "ffipgarr_0/ffipg_0/pggen_0/nor_0/vdd!" "ffipgarr_0/ffipg_0/pggen_0/m1_3_69#" 39.9006
-cap "inv_0/op" "nor_0/vdd!" 2.84217e-14
-cap "nor_0/b" "ffipgarr_0/p1" -1.42109e-14
-cap "nor_0/out" "nor_0/vdd!" 48.111
+cap "ffipgarr_0/ffipg_0/pggen_0/nor_0/vdd!" "ffipgarr_0/k1" -7.10543e-15
+cap "nor_0/b" "ffipgarr_0/k1" 30.9285
+cap "nor_0/vdd!" "nor_0/out" 48.111
+cap "nor_0/vdd!" "inv_0/op" 2.84217e-14
+cap "ffipgarr_0/p1" "nor_0/b" -1.42109e-14
 cap "nor_0/out" "nor_0/w_0_0#" -2.84217e-14
 cap "nor_0/vdd!" "nor_0/w_0_0#" 13.026
 subcap "m3_699_1053#" -207.753
 subcap "m3_757_1069#" -72.1749
 subcap "m3_699_1053#" -93.4941
+cap "m3_699_1053#" "sumffo_1/clk" 39.9006
 cap "sumffo_1/ffo_0/inv_1/vdd!" "m3_699_1053#" 39.9006
-cap "m3_699_1053#" "sumffo_1/ffo_0/inv_1/w_0_6#" 9.486
-cap "sumffo_1/clk" "m3_699_1053#" 39.9006
-cap "sumffo_1/ffo_0/inv_1/op" "m3_699_1053#" 200.864
-cap "sumffo_1/ffo_0/nand_5/a" "sumffo_1/ffo_0/nand_2/vdd!" 39.9006
+cap "m3_699_1053#" "sumffo_1/ffo_0/inv_1/op" 200.864
+cap "sumffo_1/ffo_0/inv_1/w_0_6#" "m3_699_1053#" 9.486
+cap "sumffo_1/ffo_0/nand_2/vdd!" "sumffo_1/ffo_0/nand_5/a" 39.9006
 subcap "x1in" -107.196
 subcap "m1_241_1156#" -873.537
 cap "sumffo_0/clk" "sumffo_0/xor_0/gnd!" 63.3102
-cap "sumffo_0/xor_0/op" "sumffo_0/clk" 195.421
-cap "sumffo_0/ffo_0/nand_0/b" "sumffo_0/ffo_0/inv_0/gnd!" 234.398
-cap "sumffo_0/ffo_0/inv_1/vdd!" "sumffo_0/ffo_0/inv_0/gnd!" 39.9006
-cap "sumffo_0/ffo_0/inv_0/gnd!" "sumffo_0/ffo_0/clk" 39.9006
-cap "sumffo_0/ffo_0/inv_1/w_0_6#" "sumffo_0/ffo_0/inv_0/gnd!" 9.486
+cap "sumffo_0/clk" "sumffo_0/xor_0/op" 195.421
 cap "sumffo_0/ffo_0/inv_1/vdd!" "sumffo_0/ffo_0/clk" 39.9006
+cap "sumffo_0/ffo_0/inv_0/gnd!" "sumffo_0/ffo_0/inv_1/vdd!" 39.9006
+cap "sumffo_0/ffo_0/inv_0/gnd!" "sumffo_0/ffo_0/nand_0/b" 234.398
+cap "sumffo_0/ffo_0/inv_0/gnd!" "sumffo_0/ffo_0/clk" 39.9006
+cap "sumffo_0/ffo_0/inv_0/gnd!" "sumffo_0/ffo_0/inv_1/w_0_6#" 9.486
 subcap "z1o" -34.5636
 subcap "m1_3_1256#" -1058.51
 subcap "vdd!" -2192.24
-cap "m1_3_1256#" "ffipgarr_0/ffi_0/nand_5/a" 29.4557
 cap "ffipgarr_0/ffi_0/nand_3/vdd!" "ffipgarr_0/ffi_0/nand_5/a" 39.9006
+cap "ffipgarr_0/ffi_0/nand_5/a" "m1_3_1256#" 29.4557
 subcap "m1_241_1212#" -583.813
-cap "m1_3_1256#" "sumffo_0/xor_0/vdd!" 39.9006
 cap "sumffo_0/ffo_0/d" "m1_3_1256#" 51.84
+cap "sumffo_0/xor_0/vdd!" "m1_3_1256#" 39.9006
 merge "sumffo_0/k" "ffipgarr_0/k1" -178.856 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 -10 -32 0 0 0 0 0 0 0 0
 merge "ffipgarr_0/k1" "m1_479_1014#"
 merge "m1_479_1014#" "m2_479_1014#"
@@ -130,12 +132,10 @@ merge "sumffo_0/s" "z1o" -12.024 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12 0 0 0 0 0 0 0
 merge "sumffo_0/ffo_0/inv_0/gnd!" "sumffo_0/xor_0/gnd!" -66.6651 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5 -22 0 0 0 0 0 0
 merge "sumffo_0/xor_0/gnd!" "sumffo_1/ffo_0/inv_0/gnd!"
 merge "sumffo_1/ffo_0/inv_0/gnd!" "m3_699_1053#"
-merge "nand_0/gnd!" "nand_0/b" -122.701 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -11 -54 0 0 0 -6 0 0 0 0 0 0
-merge "nand_0/b" "inv_0/gnd!"
+merge "nand_0/gnd!" "inv_0/gnd!" -117.311 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -42 0 0 0 -6 0 0 0 0 0 0
 merge "inv_0/gnd!" "nor_0/gnd!"
 merge "nor_0/gnd!" "ffipgarr_0/ffipg_0/pggen_0/nor_0/gnd!"
-merge "ffipgarr_0/ffipg_0/pggen_0/nor_0/gnd!" "ffipgarr_0/g1"
-merge "ffipgarr_0/g1" "m1_490_963#"
+merge "ffipgarr_0/ffipg_0/pggen_0/nor_0/gnd!" "m1_537_970#"
 merge "ffipgarr_0/y2in" "y2in" -6.012 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0
 merge "ffipgarr_0/ffipg_3/ffi_0/inv_0/gnd!" "gnd!" -1210.26 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1200 -800 0 0 0 -6 0 0 0 0 0 0
 merge "ffipgarr_0/x3in" "x3in" -6.012 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0
@@ -156,3 +156,5 @@ merge "sumffo_1/s" "z2o" -6.012 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0 0 0 0 0
 merge "ffipgarr_0/y1in" "y1in" -6.012 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0
 merge "ffipgarr_0/x2in" "x2in" -6.012 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0
 merge "ffipgarr_0/cinin" "cinin" -6.012 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0
+merge "nand_0/b" "ffipgarr_0/g1" -5.3901 0 0 0 0 0 0 0 0 0 0 0 0 0 0 21 -12 0 0 0 0 0 0 0 0 0 0
+merge "ffipgarr_0/g1" "m1_490_963#"
