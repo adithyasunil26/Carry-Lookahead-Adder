@@ -37,33 +37,34 @@ node "m1_156_87#" 0 41.4324 156 87 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36 30 0 0 0 0 
 node "m1_61_n31#" 6 354.047 61 -31 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 101 74 50 40 521 348 0 0 0 0 0 0
 node "m1_61_87#" 0 41.4324 61 87 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36 30 0 0 0 0 0 0 0 0 0 0
 node "m1_18_87#" 0 32.5773 18 87 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 27 24 0 0 0 0 0 0 0 0 0 0
-cap "m1_68_4#" "m1_61_n2#" 68.73
-cap "m1_68_50#" "m1_61_28#" 63.1773
-cap "m1_18_5#" "m1_9_21#" 78.3514
-cap "m1_61_n31#" "m1_68_50#" 30.1806
+cap "m1_61_n31#" "m1_107_28#" 30.1806
+cap "m1_156_57#" "q" 68.73
+cap "m1_18_58#" "m1_18_5#" 82.476
+cap "m1_9_21#" "d" 105.692
+cap "m1_68_50#" "m1_61_n31#" 30.1806
+cap "qbar" "m1_156_n2#" 68.73
+cap "m1_61_57#" "m1_68_50#" 68.73
+cap "qbar" "q" 60.1506
 cap "m1_68_4#" "clk" 96.222
+cap "qbar" "m1_156_28#" 9.72
+cap "clk" "m1_18_n24#" 47.1291
+cap "clk" "m1_107_28#" 63.1773
+cap "m1_9_21#" "m1_18_5#" 78.3514
+cap "m1_68_4#" "m1_68_50#" 61.074
+cap "m1_68_50#" "clk" 208.094
+cap "m1_68_4#" "m1_61_28#" 25.92
 cap "clk" "m1_107_n31#" 144.671
 cap "q" "m1_156_28#" 48.0573
-cap "clk" "m1_107_28#" 63.1773
-cap "d" "m1_18_5#" 162.632
-cap "m1_61_57#" "m1_68_50#" 68.73
-cap "d" "m1_9_21#" 105.692
-cap "m1_156_57#" "q" 68.73
-cap "clk" "m1_18_n24#" 47.1291
-cap "m1_18_58#" "m1_18_5#" 82.476
-cap "qbar" "m1_156_28#" 9.72
-cap "qbar" "q" 60.1506
-cap "m1_68_4#" "m1_61_28#" 25.92
 cap "m1_61_n31#" "clk" 836.252
-cap "m1_61_n31#" "m1_68_4#" 91.5756
-cap "qbar" "m1_156_n2#" 68.73
-cap "m1_68_50#" "clk" 208.094
-cap "m1_61_n31#" "m1_107_28#" 30.1806
-cap "m1_68_4#" "m1_68_50#" 61.074
+cap "m1_68_4#" "m1_61_n31#" 91.5756
+cap "m1_68_4#" "m1_61_n2#" 68.73
+cap "d" "m1_18_5#" 162.632
+cap "m1_68_50#" "m1_61_28#" 63.1773
 subcap "clk" -1076.67
 subcap "m1_68_50#" -667.131
 subcap "m1_68_4#" -373.584
 subcap "m1_61_n31#" -43.2873
+cap "inv_0/gnd!" "nand_0/b" 88.3671
 cap "inv_0/gnd!" "nand_1/b" 63.1773
 cap "nand_2/out" "nand_3/b" 1.42109e-14
 cap "nand_0/out" "nand_1/b" -2.13163e-14
@@ -75,44 +76,43 @@ cap "clk" "inv_1/vdd!" 306.339
 cap "nand_1/b" "nand_2/out" 2.504
 cap "nand_0/out" "nand_3/b" 0.928
 cap "d" "nand_0/b" 2.84217e-14
-cap "inv_0/gnd!" "nand_0/b" 88.3671
 subcap "q" -632.639
 subcap "qbar" -182.144
-cap "nand_3/vdd!" "m1_61_n31#" 39.9006
-cap "nand_4/out" "nand_6/b" 7.10543e-15
-cap "nand_4/b" "nand_3/vdd!" 123.714
-cap "nand_1/out" "nand_4/b" 1.42109e-14
-cap "nand_5/out" "nand_3/vdd!" -5.68434e-14
-cap "nand_1/out" "nand_1/gnd!" 136.08
-cap "nand_4/out" "nand_7/b" 0.928
-cap "nand_1/gnd!" "nand_6/b" 229.497
 cap "nand_4/b" "nand_3/out" 2.84217e-14
 cap "nand_3/a" "m1_61_n31#" -2.088
-cap "nand_4/b" "nand_1/gnd!" 7.10543e-15
-cap "nand_6/b" "nand_5/out" 1.512
+cap "nand_1/out" "nand_4/b" 1.42109e-14
 cap "nand_1/gnd!" "nand_3/out" -3.55271e-15
+cap "nand_1/out" "nand_1/gnd!" 136.08
 cap "nand_3/b" "m1_61_n31#" 2.14
-cap "nand_3/a" "nand_3/out" -3.402
-cap "nand_1/gnd!" "nand_7/b" 146.821
-cap "nand_3/w_0_0#" "m1_61_n31#" 9.325
-cap "nand_3/b" "nand_3/out" 2.504
-cap "nand_1/b" "nand_1/out" 0.928
 cap "nand_5/out" "nand_7/b" 4.26326e-14
-cap "q" "nand_6/gnd!" 161.28
+cap "nand_3/a" "nand_3/out" -3.402
+cap "nand_4/b" "nand_1/gnd!" 7.10543e-15
+cap "nand_3/w_0_0#" "m1_61_n31#" 9.325
+cap "nand_1/gnd!" "nand_7/b" 146.821
+cap "nand_3/vdd!" "m1_61_n31#" 39.9006
+cap "nand_3/b" "nand_3/out" 2.504
+cap "nand_4/out" "nand_7/b" 0.928
+cap "nand_6/b" "nand_5/out" 1.512
+cap "nand_1/b" "nand_1/out" 0.928
+cap "nand_1/gnd!" "nand_6/b" 229.497
+cap "nand_5/out" "nand_3/vdd!" -5.68434e-14
+cap "nand_4/b" "nand_3/vdd!" 123.714
+cap "nand_4/out" "nand_6/b" 7.10543e-15
 cap "nand_6/b" "qbar" 0.928
-cap "q" "nand_7/b" 1.512
 cap "qbar" "nand_6/gnd!" 103.68
+cap "q" "nand_6/gnd!" 161.28
+cap "q" "nand_7/b" 1.512
 subcap "m1_68_50#" -1166.4
 subcap "d" -946.918
-cap "inv_0/op" "nand_0/b" 1.42109e-14
-cap "inv_0/op" "inv_0/vdd!" 2.84217e-14
 cap "nand_0/out" "nand_1/b" 7.10543e-15
 cap "nand_0/out" "inv_0/vdd!" -5.68434e-14
+cap "inv_0/op" "nand_0/b" 1.42109e-14
+cap "inv_0/op" "inv_0/vdd!" 2.84217e-14
 subcap "q" -1145.42
+cap "nand_4/b" "nand_1/out" 1.42109e-14
 cap "nand_1/out" "nand_1/vdd!" 2.84217e-14
 cap "nand_6/b" "nand_4/out" 7.10543e-15
 cap "nand_4/out" "nand_1/vdd!" -5.68434e-14
-cap "nand_4/b" "nand_1/out" 1.42109e-14
 merge "nand_4/a" "nand_1/out" -70.0158 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -9 -24 0 0 0 0 0 0 0 0 0 0
 merge "nand_1/out" "nand_3/b"
 merge "nand_3/b" "m1_68_4#"
