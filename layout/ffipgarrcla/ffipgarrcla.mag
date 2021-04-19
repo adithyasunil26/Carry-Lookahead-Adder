@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1618832345
+timestamp 1618832564
 << metal1 >>
 rect 0 1270 97 1273
 rect 102 1270 525 1273
@@ -10,6 +10,7 @@ rect 241 1212 423 1215
 rect 420 1165 423 1212
 rect 420 1162 514 1165
 rect 639 1160 643 1163
+rect 866 1154 869 1157
 rect 490 989 498 992
 rect 490 963 491 966
 rect 518 732 519 735
@@ -58,4 +59,6 @@ use cla  cla_2
 timestamp 1618627066
 transform 1 0 527 0 1 121
 box -9 -46 112 95
+<< labels >>
+rlabel metal1 869 1154 869 1157 7 z1o
 << end >>
