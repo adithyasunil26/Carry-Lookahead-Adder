@@ -32,16 +32,28 @@ vclk clk gnd pulse 0 1.8 0ns 10ps 10ps 10ns 20ns
 * vx4 x4in gnd 0
 * vcin cinin gnd 1.8
 
-vy1 y1in gnd pwl (0 0V 20ns 0V 20.01ns 1.8V 40ns 1.8V 40.01ns 0V)
-* * vy1 y1in gnd 0
-vy2 y2in gnd 0
-vy3 y3in gnd 0
-vy4 y4in gnd 0
-vx1 x1in gnd 0
-vx2 x2in gnd 0
-vx3 x3in gnd 0
-vx4 x4in gnd 0
+
+vy1 y1in gnd   pwl (0 0V 20ns 0V 20.01ns 1.8V 40ns 1.8V 40.01ns 0V)
+vy2 y2in gnd   0
+vy3 y3in gnd   0
+vy4 y4in gnd   0
+vx1 x1in gnd   pwl (0 0V 20ns 0V 20.01ns 1.8V 40ns 1.8V 40.01ns 0V)
+vx2 x2in gnd   pwl (0 0V 20ns 0V 20.01ns 1.8V 40ns 1.8V 40.01ns 0V)
+vx3 x3in gnd   pwl (0 0V 20ns 0V 20.01ns 1.8V 40ns 1.8V 40.01ns 0V)
+vx4 x4in gnd   pwl (0 0V 20ns 0V 20.01ns 1.8V 40ns 1.8V 40.01ns 0V)
 vcin cinin gnd 0
+
+
+* vy1 y1in gnd pwl (0 0V 20ns 0V 20.01ns 1.8V 40ns 1.8V 40.01ns 0V)
+* vy1 y1in gnd 1.8
+* vy2 y2in gnd 0
+* vy3 y3in gnd 0
+* vy4 y4in gnd 0
+* vx1 x1in gnd 0
+* vx2 x2in gnd 0
+* vx3 x3in gnd 0
+* vx4 x4in gnd 0
+* vcin cinin gnd 0
 
 
 M1000 nand_1/a_13_n26# cla_0/l gnd Gnd CMOSN w=12 l=2
