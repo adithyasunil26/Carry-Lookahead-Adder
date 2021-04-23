@@ -20,15 +20,16 @@ vclk clk gnd pulse 0 1.8 0ns 10ps 10ps 10ns 20ns
 * vx3 x3in   gnd pulse 1.8 0 0ns 10ps 10ps 2560ns 5120ns
 * vx4 x4in   gnd pulse 1.8 0 0ns 10ps 10ps 5120ns 10240ns
 
-vy1 y1in gnd 1.8
+vy1 y1in gnd pwl (0 0V 20ns 0V 20.01ns 1.8V 40ns 1.8V 40.01ns 0V)
+* vy1 y1in gnd 0
 vy2 y2in gnd 0
-vy3 y3in gnd 1.8
+vy3 y3in gnd 0
 vy4 y4in gnd 0
 vx1 x1in gnd 0
-vx2 x2in gnd 1.8
+vx2 x2in gnd 0
 vx3 x3in gnd 0
-vx4 x4in gnd 1.8
-vcin cinin gnd 1.8
+vx4 x4in gnd 0
+vcin cinin gnd 0
 
 .subckt nand_ckt y a b w vdd gnd
   M1 y a vdd vdd CMOSP W={2*w} L={length} AS={5*2*w*LAMBDA} 
@@ -203,7 +204,8 @@ C2 z2o gnd 4ff
 C3 z3o gnd 4ff
 C4 z4o gnd 4ff
 
-.tran 1n 700n
+* .tran 1n 700n
+.tran 100p 100n
 
 .ic v(x1) 0 
 .ic v(x2) 0 
@@ -230,16 +232,18 @@ C4 z4o gnd 4ff
 .ic v(z3o) 0 
 .ic v(z4o) 0 
 .ic v(cin) 0 
+.ic v(cout) 0 
+.ic v(cinin) 0 
 .ic v(couto) 0 
 
 
 
-* .measure tran tpdr1
-* +TRIG v(x1) VAL='0.50*SUPPLY' RISE=2 TARG v(z1o) VAL='0.50*SUPPLY' RISE=2
-* .measure tran tpdf1
-* +TRIG v(x1) VAL='0.50*SUPPLY' FALL=2 TARG v(z1o) VAL='0.50*SUPPLY' FALL=2
-* .measure tran tpd1 
-* +param='(tpdr1+tpdf1)/2' goal=0
+.measure tran tpdr1
++TRIG v(y1in) VAL='0.50*SUPPLY' RISE=1 TARG v(z1o) VAL='0.50*SUPPLY' RISE=1
+.measure tran tpdf1
++TRIG v(y1in) VAL='0.50*SUPPLY' FALL=1 TARG v(z1o) VAL='0.50*SUPPLY' FALL=1
+.measure tran tpd1 
++param='(tpdr1+tpdf1)/2' goal=0
 
 .control
 set hcopypscolor = 0 

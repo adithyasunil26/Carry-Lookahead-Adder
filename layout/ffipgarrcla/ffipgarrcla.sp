@@ -12,15 +12,15 @@ Vdd vdd gnd 'SUPPLY'
 
 vclk clk gnd pulse 0 1.8 0ns 10ps 10ps 10ns 20ns
 
-vcin cinin gnd pulse 1.8 0 0ns 10ps 10ps 20ns 40ns
-vy1 y1in   gnd pulse 1.8 0 0ns 10ps 10ps 40ns 80ns
-vy2 y2in   gnd pulse 1.8 0 0ns 10ps 10ps 80ns 160ns
-vy3 y3in   gnd pulse 1.8 0 0ns 10ps 10ps 160ns 320ns
-vy4 y4in   gnd pulse 1.8 0 0ns 10ps 10ps 320ns 640ns
-vx1 x1in   gnd pulse 1.8 0 0ns 10ps 10ps 640ns 1280ns
-vx2 x2in   gnd pulse 1.8 0 0ns 10ps 10ps 1280ns 2560ns
-vx3 x3in   gnd pulse 1.8 0 0ns 10ps 10ps 2560ns 5120ns
-vx4 x4in   gnd pulse 1.8 0 0ns 10ps 10ps 5120ns 10240ns
+* vcin cinin gnd pulse 1.8 0 0ns 10ps 10ps 20ns 40ns
+* vy1 y1in   gnd pulse 1.8 0 0ns 10ps 10ps 40ns 80ns
+* vy2 y2in   gnd pulse 1.8 0 0ns 10ps 10ps 80ns 160ns
+* vy3 y3in   gnd pulse 1.8 0 0ns 10ps 10ps 160ns 320ns
+* vy4 y4in   gnd pulse 1.8 0 0ns 10ps 10ps 320ns 640ns
+* vx1 x1in   gnd pulse 1.8 0 0ns 10ps 10ps 640ns 1280ns
+* vx2 x2in   gnd pulse 1.8 0 0ns 10ps 10ps 1280ns 2560ns
+* vx3 x3in   gnd pulse 1.8 0 0ns 10ps 10ps 2560ns 5120ns
+* vx4 x4in   gnd pulse 1.8 0 0ns 10ps 10ps 5120ns 10240ns
 
 * vy1 y1in gnd 1.8
 * vy2 y2in gnd 1.8
@@ -31,6 +31,19 @@ vx4 x4in   gnd pulse 1.8 0 0ns 10ps 10ps 5120ns 10240ns
 * vx3 x3in gnd 0
 * vx4 x4in gnd 0
 * vcin cinin gnd 0
+
+vy1 y1in gnd pwl (0 0V 20ns 0V 20.01ns 1.8V 40ns 1.8V 40.01ns 0V)
+* vy1 y1in gnd 0
+vy2 y2in gnd 0
+vy3 y3in gnd 0
+vy4 y4in gnd 0
+vx1 x1in gnd 0
+vx2 x2in gnd 0
+vx3 x3in gnd 0
+vx4 x4in gnd 0
+vcin cinin gnd 0
+
+
 * SPICE3 file created from ffipgarrcla.ext - technology: scmos
 
 .option scale=0.09u
@@ -3682,7 +3695,16 @@ C2167 inv_0/op Gnd 0.26fF
 C2168 nand_0/w_0_0# Gnd 0.82fF
 
 
-.tran 1n 700n
+* .tran 1n 700n
+.tran 100p 100n
+
+.measure tran tpdr1
++TRIG v(y1in) VAL='0.50*SUPPLY' RISE=1 TARG v(z1o) VAL='0.50*SUPPLY' RISE=1
+.measure tran tpdf1
++TRIG v(y1in) VAL='0.50*SUPPLY' FALL=1 TARG v(z1o) VAL='0.50*SUPPLY' FALL=1
+
+.measure tran tpd1 
++param='(tpdr1+tpdf1)/2' goal=0
 
 .control
 set hcopypscolor = 0 
@@ -3694,7 +3716,8 @@ set curplottitle="Adithya-2019102005-full-circuit"
 
 hardcopy x.eps v(x1in) v(x2in)+2 v(x3in)+4 v(x4in)+6 v(clk)+8
 hardcopy y.eps v(y1in) v(y2in)+2 v(y3in)+4 v(y4in)+6 v(clk)+8 
-hardcopy z.eps v(z1o) v(z2o)+2 v(z3o)+4 v(z4o)+6 v(couto)+8 v(clk)+10
-
+hardcopy z.eps v(z1o) v(z2o)+2 v(z3o)+4 v(z4o)+6 v(clk)+8
+hardcopy cin.eps  v(cinin)  v(clk)+2
+hardcopy cout.eps v(couto)  v(clk)+2
 
 .endc
