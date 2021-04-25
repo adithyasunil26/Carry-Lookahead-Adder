@@ -6,15 +6,24 @@ module flipfloptb;
 
   reg D;
   reg clk;
+	
+  wire Q1;
+  wire Qbar1;
+  wire Q2;
+  wire Qbar2;
 
-  wire Q;
-  wire Qbar;
-
-  ff d0 (
+  ffi d0 (
     .D(D),
     .clk(clk),
-    .Q(Q),
-    .Qbar(Qbar)
+    .Q(Q1),
+    .Qbar(Qbar1)
+  );
+
+  ffo d1 (
+    .D(D),
+    .clk(clk),
+    .Q(Q2),
+    .Qbar(Qbar2)
   );
   
   initial begin 
@@ -46,5 +55,5 @@ module flipfloptb;
   end 
   
   initial 
-		$monitor("D=%d clk=%d Q=%d Qbar=%d",D,clk,Q,Qbar);
+		$monitor("D=%d clk=%d Q1=%d Qbar1=%d Q2=%d Qbar2=%d",D,clk,Q1,Qbar1,Q2,Qbar2);
 endmodule
