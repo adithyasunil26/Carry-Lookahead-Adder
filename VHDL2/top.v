@@ -10,17 +10,8 @@ module toplevel(clk,x,y,cin,cout,z);
   input [4:1] y;
   input cin;
   
-  output reg cout;
-  output reg [4:1] z;
-
-  reg x1;
-  reg x2;
-  reg x3;
-  reg x4;
-  reg y1;
-  reg y2;
-  reg y3;
-  reg y4;
+  output cout;
+  output [4:1] z;
 
   wire x1in;
   wire x2in;
@@ -32,29 +23,13 @@ module toplevel(clk,x,y,cin,cout,z);
   wire y4in;
 
   wire coutoo;
-  wire couto;
 
   wire z1o;
   wire z2o;
   wire z3o;
-  wire z4o; 
+  wire z4o;
 
-  wire z1;
-  wire z2;
-  wire z3;
-  wire z4;
 
-  // always@(*)
-  // begin
-  //   x1=x[1];
-  //   x2=x[2];
-  //   x3=x[3];
-  //   x4=x[4];
-  //   y1=y[1];
-  //   y2=y[2];
-  //   y3=y[3];
-  //   y4=y[4];
-  // end
   ffi  ffcin(
     .D  (cin),
     .clk(clk),
@@ -130,39 +105,31 @@ module toplevel(clk,x,y,cin,cout,z);
   ffo  ffz1(
     .D  (z1o),
     .clk(clk),
-    .Q  (z1)
+    .Q  (z[1])
   );
 
   ffo  ffz2(
     .D  (z2o),
     .clk(clk),
-    .Q  (z2)
+    .Q  (z[2])
   );
 
   ffo  ffz3(
     .D  (z3o),
     .clk(clk),
-    .Q  (z3)
+    .Q  (z[3])
   );
 
   ffo  ffz4(
     .D  (z4o),
     .clk(clk),
-    .Q  (z4)
+    .Q  (z[4])
   );
 
   ffo ffcout(
     .D  (coutoo),
     .clk(clk),
-    .Q  (couto)
+    .Q  (cout)
   );
   
-  always@(*)
-  begin
-    z[1] = z1;
-    z[2] = z2;
-    z[3] = z3;
-    z[4] = z4;
-    cout=couto;
-  end
 endmodule
