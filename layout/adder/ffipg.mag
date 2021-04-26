@@ -1,0 +1,20 @@
+magic
+tech scmos
+timestamp 1619450786
+<< metal1 >>
+rect 469 170 470 173
+rect 247 152 249 155
+rect 469 143 470 146
+rect 469 117 470 120
+rect 248 98 249 101
+use pggen  pggen_0
+timestamp 1618621484
+transform 1 0 250 0 1 82
+box -1 -6 219 111
+<< labels >>
+rlabel metal1 470 170 470 173 7 k
+rlabel metal1 470 117 470 120 7 g
+rlabel metal1 470 143 470 146 7 p
+rlabel metal1 247 152 247 155 3 x
+rlabel metal1 248 98 248 101 3 y
+<< end >>

@@ -1,0 +1,57 @@
+magic
+tech scmos
+timestamp 1619451169
+<< metal1 >>
+rect 244 152 245 155
+rect 245 98 246 101
+rect 244 -129 245 -126
+rect 245 -183 246 -180
+rect 244 -410 245 -407
+rect 245 -464 246 -461
+rect 244 -694 245 -691
+rect 245 -748 246 -745
+<< m123contact >>
+rect 259 129 264 134
+rect 259 -99 264 -94
+rect 259 -152 264 -147
+rect 259 -380 264 -375
+rect 259 -433 264 -428
+rect 259 -664 264 -659
+rect 347 -668 352 -663
+<< metal3 >>
+rect 259 -94 262 129
+rect 294 88 322 91
+rect 259 -375 262 -152
+rect 319 -190 322 88
+rect 294 -193 322 -190
+rect 259 -659 262 -433
+rect 319 -471 322 -193
+rect 293 -474 322 -471
+rect 319 -755 322 -474
+rect 293 -758 322 -755
+use ffipg  ffipg_0
+timestamp 1619450786
+transform 1 0 -2 0 1 0
+box 247 76 470 193
+use ffipg  ffipg_1
+timestamp 1619450786
+transform 1 0 -2 0 1 -281
+box 247 76 470 193
+use ffipg  ffipg_2
+timestamp 1619450786
+transform 1 0 -2 0 1 -562
+box 247 76 470 193
+use ffipg  ffipg_3
+timestamp 1619450786
+transform 1 0 -2 0 1 -846
+box 247 76 470 193
+<< labels >>
+rlabel metal1 244 152 244 155 3 x1in
+rlabel metal1 245 98 245 101 3 y1in
+rlabel metal1 244 -129 244 -126 3 x2in
+rlabel metal1 245 -183 245 -180 3 y2in
+rlabel metal1 244 -410 244 -407 3 x3in
+rlabel metal1 245 -464 245 -461 3 y3in
+rlabel metal1 244 -694 244 -691 3 x4in
+rlabel metal1 245 -748 245 -745 3 y4in
+<< end >>

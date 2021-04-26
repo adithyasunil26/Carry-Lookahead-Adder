@@ -1,0 +1,105 @@
+timestamp 1619451169
+version 8.2
+tech scmos
+style TSMC0.18um(tsmc18)from:t11b
+scale 1000 1 9
+resistclasses 6700 7500 929000 929000 1 7700 7700 80 80 80 70 70 40
+use ffipg ffipg_0 1 0 -2 0 1 0
+use ffipg ffipg_1 1 0 -2 0 1 -281
+use ffipg ffipg_2 1 0 -2 0 1 -562
+use ffipg ffipg_3 1 0 -2 0 1 -846
+node "m3_293_n758#" 25 741.169 293 -758 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2853 1908 0 0 0 0 0 0
+node "y4in" 0 8.9637 245 -748 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 8 0 0 0 0 0 0 0 0 0 0
+node "x4in" 0 8.9637 244 -694 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 8 0 0 0 0 0 0 0 0 0 0
+node "m1_347_n668#" 0 136.957 347 -668 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 25 20 0 0 0 0 0 0
+node "y3in" 0 8.9637 245 -464 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 8 0 0 0 0 0 0 0 0 0 0
+node "m1_259_n664#" 7 448.334 259 -664 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 50 40 50 40 728 486 0 0 0 0 0 0
+node "x3in" 0 8.9637 244 -410 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 8 0 0 0 0 0 0 0 0 0 0
+node "y2in" 0 8.9637 245 -183 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 8 0 0 0 0 0 0 0 0 0 0
+node "m1_259_n380#" 7 446.001 259 -380 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 50 40 50 40 719 480 0 0 0 0 0 0
+node "x2in" 0 8.9637 244 -129 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 8 0 0 0 0 0 0 0 0 0 0
+node "y1in" 0 8.9637 245 98 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 8 0 0 0 0 0 0 0 0 0 0
+node "m1_259_n99#" 7 446.001 259 -99 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 50 40 50 40 719 480 0 0 0 0 0 0
+node "x1in" 0 8.9637 244 152 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 8 0 0 0 0 0 0 0 0 0 0
+subcap "m3_293_n758#" -160.155
+subcap "m1_347_n668#" -75.6153
+subcap "m1_259_n664#" -386.992
+cap "ffipg_3/pggen_0/xor_0/inv_1/op" "ffipg_3/pggen_0/xor_0/gnd!" 72.8676
+cap "ffipg_3/pggen_0/xor_0/a_10_10#" "ffipg_3/pggen_0/xor_0/gnd!" 45.4446
+cap "ffipg_3/pggen_0/xor_0/gnd!" "y4in" 231.772
+cap "ffipg_3/pggen_0/xor_0/gnd!" "ffipg_3/pggen_0/xor_0/inv_0/op" 30.1806
+cap "ffipg_3/pggen_0/xor_0/gnd!" "ffipg_3/pggen_0/xor_0/vdd!" 158.04
+cap "ffipg_3/pggen_0/xor_0/gnd!" "ffipg_3/pggen_0/xor_0/op" 79.02
+cap "ffipg_3/pggen_0/xor_0/gnd!" "ffipg_3/pggen_0/xor_0/w_n3_4#" 3.873
+cap "ffipg_3/pggen_0/xor_0/a_10_n43#" "ffipg_3/pggen_0/xor_0/gnd!" 2.772
+subcap "m1_347_n668#" -54.8997
+subcap "m1_259_n664#" -185.285
+cap "m3_293_n758#" "ffipg_3/pggen_0/m1_3_69#" 39.9006
+cap "m3_293_n758#" "ffipg_3/pggen_0/xor_0/w_n3_4#" 1.35
+cap "ffipg_3/pggen_0/xor_0/vdd!" "ffipg_3/pggen_0/xor_0/inv_0/w_0_6#" -1.42109e-14
+cap "ffipg_3/pggen_0/xor_0/vdd!" "m3_293_n758#" 39.9006
+cap "ffipg_3/pggen_0/xor_0/vdd!" "ffipg_3/pggen_0/m1_3_69#" 39.9006
+cap "y3in" "ffipg_2/pggen_0/xor_0/gnd!" 39.9006
+cap "y3in" "m1_259_n664#" 39.9006
+cap "m1_259_n664#" "ffipg_2/pggen_0/xor_0/gnd!" 30.1806
+subcap "m1_259_n380#" -10.7235
+cap "ffipg_2/pggen_0/xor_0/a_10_10#" "ffipg_2/pggen_0/xor_0/gnd!" 45.4446
+cap "ffipg_2/pggen_0/xor_0/inv_0/op" "ffipg_2/pggen_0/xor_0/gnd!" 30.1806
+cap "ffipg_2/pggen_0/xor_0/gnd!" "ffipg_2/pggen_0/xor_0/vdd!" 197.941
+cap "ffipg_2/pggen_0/xor_0/vdd!" "ffipg_2/pggen_0/xor_0/inv_0/w_0_6#" -1.42109e-14
+cap "ffipg_2/pggen_0/xor_0/gnd!" "ffipg_2/pggen_0/xor_0/op" 79.02
+cap "ffipg_2/pggen_0/xor_0/gnd!" "ffipg_2/pggen_0/xor_0/a_10_n43#" 2.772
+cap "ffipg_2/pggen_0/xor_0/gnd!" "ffipg_2/pggen_0/xor_0/inv_1/op" 72.8676
+cap "ffipg_2/pggen_0/xor_0/gnd!" "x3in" 33.0804
+cap "x3in" "ffipg_2/pggen_0/xor_0/vdd!" 33.0804
+cap "ffipg_2/pggen_0/xor_0/inv_1/w_0_6#" "ffipg_2/pggen_0/xor_0/vdd!" 9.324
+cap "y3in" "ffipg_2/pggen_0/xor_0/gnd!" 231.772
+cap "ffipg_2/pggen_0/xor_0/gnd!" "ffipg_2/pggen_0/xor_0/w_n3_4#" 5.223
+cap "y3in" "ffipg_2/pggen_0/xor_0/vdd!" 94.5108
+cap "m3_293_n758#" "ffipg_2/pggen_0/m1_3_69#" 26.2602
+cap "ffipg_2/pggen_0/xor_0/inv_0/vdd!" "ffipg_2/pggen_0/m1_3_69#" 26.2602
+cap "y2in" "m1_259_n380#" 79.8012
+cap "ffipg_1/pggen_0/xor_0/b" "ffipg_1/pggen_0/xor_0/gnd!" 7.57
+cap "y2in" "ffipg_1/pggen_0/xor_0/gnd!" 39.9006
+cap "ffipg_1/pggen_0/xor_0/gnd!" "m1_259_n380#" 30.1806
+cap "ffipg_1/pggen_0/xor_0/a_10_n43#" "ffipg_1/pggen_0/xor_0/gnd!" 2.772
+cap "ffipg_1/pggen_0/xor_0/inv_1/w_0_6#" "m1_259_n380#" 3.552
+cap "ffipg_1/pggen_0/xor_0/gnd!" "ffipg_1/pggen_0/xor_0/op" 79.02
+subcap "m1_259_n99#" -15.1086
+cap "m3_293_n758#" "ffipg_1/pggen_0/xor_0/a_45_n22#" 72.8676
+cap "ffipg_1/pggen_0/xor_0/vdd!" "ffipg_1/pggen_0/xor_0/b" 54.6102
+cap "m3_293_n758#" "ffipg_1/pggen_0/xor_0/w_n3_4#" 5.223
+cap "m3_293_n758#" "x2in" 39.9006
+cap "m3_293_n758#" "ffipg_1/pggen_0/xor_0/vdd!" 197.941
+cap "m3_293_n758#" "ffipg_1/pggen_0/xor_0/inv_0/op" 30.1806
+cap "m3_293_n758#" "ffipg_1/pggen_0/xor_0/b" 224.202
+cap "m3_293_n758#" "ffipg_1/pggen_0/xor_0/a_10_10#" 45.4446
+cap "ffipg_1/pggen_0/xor_0/vdd!" "ffipg_1/pggen_0/xor_0/inv_1/w_0_6#" 5.772
+cap "x2in" "ffipg_1/pggen_0/xor_0/vdd!" 39.9006
+cap "ffipg_1/pggen_0/xor_0/vdd!" "ffipg_1/pggen_0/xor_0/inv_0/w_0_6#" -1.42109e-14
+cap "ffipg_0/pggen_0/xor_0/gnd!" "y1in" 39.9006
+cap "ffipg_0/pggen_0/xor_0/gnd!" "ffipg_0/pggen_0/xor_0/inv_1/vdd!" 30.1806
+cap "y1in" "ffipg_0/pggen_0/xor_0/inv_1/vdd!" 134.411
+cap "ffipg_0/pggen_0/xor_0/inv_1/w_0_6#" "ffipg_0/pggen_0/xor_0/inv_1/vdd!" 9.324
+merge "ffipg_2/y" "y3in" -6.012 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0
+merge "ffipg_0/pggen_0/xor_0/vdd!" "ffipg_0/pggen_0/xor_0/inv_1/vdd!" -1025.13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -101 -140 -101 -140 -308 -284 0 0 0 0 0 0
+merge "ffipg_0/pggen_0/xor_0/inv_1/vdd!" "ffipg_1/pggen_0/xor_0/vdd!"
+merge "ffipg_1/pggen_0/xor_0/vdd!" "m1_259_n99#"
+merge "m1_259_n99#" "ffipg_2/pggen_0/xor_0/inv_0/vdd!"
+merge "ffipg_2/pggen_0/xor_0/inv_0/vdd!" "ffipg_2/pggen_0/xor_0/vdd!"
+merge "ffipg_2/pggen_0/xor_0/vdd!" "m1_259_n380#"
+merge "m1_259_n380#" "ffipg_3/pggen_0/nor_0/vdd!"
+merge "ffipg_3/pggen_0/nor_0/vdd!" "ffipg_3/pggen_0/xor_0/vdd!"
+merge "ffipg_3/pggen_0/xor_0/vdd!" "m1_259_n664#"
+merge "m1_259_n664#" "m1_347_n668#"
+merge "ffipg_3/x" "x4in" -6.012 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0
+merge "ffipg_0/pggen_0/xor_0/gnd!" "ffipg_1/pggen_0/xor_0/gnd!" -277.433 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -408 -307 0 0 0 0 0 0
+merge "ffipg_1/pggen_0/xor_0/gnd!" "ffipg_2/pggen_0/xor_0/gnd!"
+merge "ffipg_2/pggen_0/xor_0/gnd!" "ffipg_3/pggen_0/xor_0/gnd!"
+merge "ffipg_3/pggen_0/xor_0/gnd!" "m3_293_n758#"
+merge "ffipg_3/y" "y4in" -6.012 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0
+merge "ffipg_1/y" "y2in" -6.012 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0
+merge "ffipg_2/x" "x3in" -6.012 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0
+merge "ffipg_0/y" "y1in" -6.012 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0
+merge "ffipg_1/x" "x2in" -6.012 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0
+merge "ffipg_0/x" "x1in" -6.012 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0
