@@ -23,7 +23,7 @@ vclk clk gnd pulse 0 1.8 0ns 10ps 10ps 10ns 20ns
   + PS={10*LAMBDA+2*w} AD={5*w*LAMBDA} PD={10*LAMBDA+2*w}
 .ends inv
 
-.subckt flipflopo q d clk clknot w vdd gnd  
+.subckt flipflopin q d clk clknot w vdd gnd  
   M1 l1 d vdd vdd CMOSP W={2*w} L={length} AS={5*2*w*LAMBDA} 
   + PS={10*LAMBDA+2*2*w} AD={5*2*w*LAMBDA} PD={10*LAMBDA+2*2*w}
 
@@ -47,9 +47,9 @@ vclk clk gnd pulse 0 1.8 0ns 10ps 10ps 10ns 20ns
 
   M8 l4 y gnd gnd CMOSN W={2*w} L={length} AS={5*2*w*LAMBDA} 
   + PS={10*LAMBDA+2*2*w} AD={5*2*w*LAMBDA} PD={10*LAMBDA+2*2*w}
-.ends flipflopo
+.ends flipflopin
 
-.subckt flipflopin q d clk clknot w vdd gnd  
+.subckt flipflopo q d clk clknot w vdd gnd  
   M1 l1 d vdd vdd CMOSP W={2*w} L={length} AS={5*2*w*LAMBDA} 
   + PS={10*LAMBDA+2*2*w} AD={5*2*w*LAMBDA} PD={10*LAMBDA+2*2*w}
 
@@ -73,7 +73,7 @@ vclk clk gnd pulse 0 1.8 0ns 10ps 10ps 10ns 20ns
 
   M8 l4 y gnd gnd CMOSN W={2*w} L={length} AS={5*2*w*LAMBDA} 
   + PS={10*LAMBDA+2*2*w} AD={5*2*w*LAMBDA} PD={10*LAMBDA+2*2*w}
-.ends flipflopin
+.ends flipflopo
 
 x3 clknot clk w vdd gnd inv
 
@@ -89,7 +89,7 @@ C2 q2 gnd 100ff
 .ic v(q2) 0
 
 .control
-set hcopypscolor = 0 
+set hcopypscolor = 1 
 set color0=white 
 set color1=black 
 

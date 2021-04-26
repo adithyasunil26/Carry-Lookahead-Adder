@@ -9,8 +9,8 @@
 Vdd vdd gnd 'SUPPLY'
 
 vd1 d1 gnd pulse 1.8 0 0ns 10ps 10ps 20ns 40ns
-vd2 d2 gnd pulse 1.8 0 0ns 10ps 10ps 30ns 60ns
-vclk clk gnd pulse 1.8 0 0ns 10ps 10ps 10ns 20ns
+vd2 d2 gnd pulse 1.8 0 0ns 10ps 10ps 20ns 40ns
+vclk clk gnd pulse 0 1.8 0ns 10ps 10ps 10ns 20ns
 
 * va a gnd 0
 * va a gnd 0
@@ -69,13 +69,15 @@ x1 q1 qnot1 d1 clk w vdd gnd flipflopo
 
 x2 q2 qnot2 d2 clk w vdd gnd flipflopin
 
+C1 q1 gnd 4ff
+C2 q2 gnd 4ff
 
 .tran 100p 200n
 .ic v(q1) 0
 .ic v(q2) 0
 
 .control
-set hcopypscolor = 0 
+set hcopypscolor = 1 
 set color0=white 
 set color1=black 
 

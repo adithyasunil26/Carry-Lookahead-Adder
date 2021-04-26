@@ -113,7 +113,7 @@ C2 q2 gnd 100ff
 .ic v(q2) 0
 
 .control
-set hcopypscolor = 0 
+set hcopypscolor = 1
 set color0=white 
 set color1=black 
 
