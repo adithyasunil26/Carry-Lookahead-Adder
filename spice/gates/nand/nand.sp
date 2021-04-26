@@ -30,14 +30,12 @@ x1 y a b w vdd gnd nand_ckt
 .tran 100p 40n
 
 .control
-set hcopypscolor = 1 
+set hcopypscolor = 1
 set color0=white 
 set color1=black 
 
 run
 set curplottitle="Adithya-2019102005-nand"
 
-hardcopy nand.eps v(y) 
-hardcopy a.eps v(a) 
-hardcopy b.eps v(b)
+hardcopy nand.eps v(y) b(b)+2 v(a)+4
 .endc
