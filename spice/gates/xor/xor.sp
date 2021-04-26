@@ -54,7 +54,7 @@ x1 y a b w vdd gnd xor_ckt
 .tran 100p 40n
 
 .control
-set hcopypscolor = 0
+set hcopypscolor = 1
 set color0=white 
 set color1=black 
 

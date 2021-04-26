@@ -37,7 +37,6 @@ set color1=black
 run
 set curplottitle="Adithya-2019102005-nor"
 
-hardcopy nor.eps v(y) 
-hardcopy a.eps v(a) 
-hardcopy b.eps v(b)
+hardcopy nor.eps v(y) v(b)+2 v(a)+4 
+
 .endc
