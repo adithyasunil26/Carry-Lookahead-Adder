@@ -42,12 +42,12 @@ C15 w_0_0# Gnd 1.23fF
 .tran 100p 40n
 
 .control
-set hcopypscolor = 0
+set hcopypscolor = 1
 set color0=white 
 set color1=black 
 
 run
-set curplottitle="Adithya-2019102005-nand-layout"
+set curplottitle="Adithya-2019102005-nor-layout"
 
-hardcopy nor.eps v(a)+4 v(b)+2 v(out)
+hardcopy nor.eps v(a) v(b)+2 v(out)+4
 .endc

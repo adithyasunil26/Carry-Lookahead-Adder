@@ -89,12 +89,12 @@ C44 inv_0/w_0_6# Gnd 0.58fF
 .tran 100p 40n
 
 .control
-set hcopypscolor = 0
+set hcopypscolor = 1
 set color0=white 
 set color1=black 
 
 run
 set curplottitle="Adithya-2019102005-xor"
 
-hardcopy xor.eps v(op) v(a)+4 v(b)+2
+hardcopy xor.eps v(op)+4 v(a) v(b)+2
 .endc

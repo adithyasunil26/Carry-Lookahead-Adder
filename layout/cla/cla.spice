@@ -111,6 +111,6 @@ set color1=black
 run
 set curplottitle="Adithya-2019102005-cla"
 
-hardcopy cla.eps v(n) v(l)+2 v(g1)+4 v(p1)+6 v(g0)+8 v(p0)+10  
+hardcopy cla.eps v(n)+8 v(g1)+6 v(p1)+4 v(g0)+2 v(p0)  
 
 .endc

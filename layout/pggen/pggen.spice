@@ -127,13 +127,13 @@ C69 nand_0/w_0_0# Gnd 0.82fF
 .tran 1n 100n
 
 .control
-set hcopypscolor = 0 
+set hcopypscolor = 0
 set color0=white 
 set color1=black 
 
 run
 set curplottitle="Adithya-2019102005-pggen"
 
-hardcopy pg.eps v(k) v(p)+2 v(g)+4 v(x)+6 v(y)+8
+hardcopy pg.eps v(k)+8 v(p)+4 v(g)+6 v(x) v(y)+2
 
 .endc

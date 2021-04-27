@@ -195,12 +195,12 @@ C104 nand_1/w_0_0# Gnd 0.82fF
 .ic v(q) 0
 
 .control
-set hcopypscolor = 0 
+set hcopypscolor = 1
 set color0=white 
 set color1=black 
 
 run
-set curplottitle="Adithya-2019102005-flipflopi"
+set curplottitle="Adithya-2019102005-flipflop"
 
-hardcopy ffi.eps v(clk)+4 v(d)+2 v(q) 
+hardcopy ffi.eps v(clk)+4 v(d) v(q)+2 
 .endc

@@ -17,14 +17,14 @@ M1000 op in gnd Gnd CMOSN w=6 l=2
 +  ad=30 pd=22 as=30 ps=22
 M1001 op in vdd w_0_6# CMOSP w=12 l=2
 +  ad=60 pd=34 as=60 ps=34
-C0 gnd op 0.10fF
-C1 gnd in 0.05fF
-C2 op vdd 0.15fF
-C3 op in 0.04fF
-C4 vdd in 0.02fF
-C5 op w_0_6# 0.03fF
-C6 vdd w_0_6# 0.06fF
-C7 in w_0_6# 0.06fF
+C0 w_0_6# in 0.06fF
+C1 vdd op 0.15fF
+C2 op gnd 0.10fF
+C3 w_0_6# vdd 0.06fF
+C4 in vdd 0.02fF
+C5 w_0_6# op 0.03fF
+C6 in op 0.04fF
+C7 in gnd 0.05fF
 C8 gnd Gnd 0.09fF
 C9 op Gnd 0.05fF
 C10 vdd Gnd 0.03fF
