@@ -24,8 +24,8 @@ Vdd vdd gnd 'SUPPLY'
 vy1 y1in gnd pwl (0 0V 5ns 0V 5.001ns 1.8V 10ns 1.8V 10.001ns 0V)
 vy2 y2in gnd pwl (0 0V 5ns 0V 5.001ns 1.8V 10ns 1.8V 10.001ns 0V)
 vy3 y3in gnd pwl (0 0V 5ns 0V 5.001ns 1.8V 10ns 1.8V 10.001ns 0V)
-vy4 y4in gnd 0
-vx1 x1in gnd pwl (0 0V 5ns 0V 5.001ns 1.8V 10ns 1.8V 10.001ns 0V)
+vy4 y4in gnd pwl (0 0V 5ns 0V 5.001ns 1.8V 10ns 1.8V 10.001ns 0V)
+vx1 x1in gnd 0
 vx2 x2in gnd 0
 vx3 x3in gnd 0
 vx4 x4in gnd 0
@@ -1306,9 +1306,9 @@ C1004 s4 gnd 100ff
 .tran 1n 400n
 
 .measure tran tpdr1
-+TRIG v(y1in) VAL='0.50*SUPPLY' RISE=1 TARG v(s4) VAL='0.50*SUPPLY' RISE=1
++TRIG v(y2in) VAL='0.50*SUPPLY' RISE=1 TARG v(s4) VAL='0.50*SUPPLY' RISE=1
 .measure tran tpdf1
-+TRIG v(y1in) VAL='0.50*SUPPLY' FALL=1 TARG v(s4) VAL='0.50*SUPPLY' FALL=1
++TRIG v(y2in) VAL='0.50*SUPPLY' FALL=1 TARG v(s4) VAL='0.50*SUPPLY' FALL=1
 .measure tran tpd1 
 +param='(tpdr1+tpdf1)/2' goal=0
 

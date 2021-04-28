@@ -11,25 +11,25 @@ Vdd vdd gnd 'SUPPLY'
 * vd    d  gnd pulse 0 1.8 0ns 10ps 10ps 10ns 20ns
 * vclk clk gnd pulse 0 1.8 0ns 10ps 10ps 20ns 40ns
 
-* vcin cin gnd pulse 1.8 0 0ns 10ps 10ps 10ns 20ns
-* vy1 y1 gnd pulse 1.8 0 0ns 10ps 10ps 20ns 40ns
-* vy2 y2 gnd pulse 1.8 0 0ns 10ps 10ps 40ns 80ns
-* vy3 y3 gnd pulse 1.8 0 0ns 10ps 10ps 80ns 160ns
-* vy4 y4 gnd pulse 1.8 0 0ns 10ps 10ps 160ns 320ns
-* vx1 x1 gnd pulse 1.8 0 0ns 10ps 10ps 320ns 740ns
-* vx2 x2 gnd pulse 1.8 0 0ns 10ps 10ps 1080ns 2160ns
-* vx3 x3 gnd pulse 1.8 0 0ns 10ps 10ps 2160ns 4320ns
-* vx4 x4 gnd pulse 1.8 0 0ns 10ps 10ps 4320ns 8640ns
+vcin cin gnd pulse 1.8 0 0ns 10ps 10ps 1.5ns 3ns
+vy1 y1 gnd pulse 1.8 0 0ns 10ps 10ps 3ns 6ns
+vy2 y2 gnd pulse 1.8 0 0ns 10ps 10ps 6ns 12ns
+vy3 y3 gnd pulse 1.8 0 0ns 10ps 10ps 80ns 160ns
+vy4 y4 gnd pulse 1.8 0 0ns 10ps 10ps 160ns 320ns
+vx1 x1 gnd pulse 1.8 0 0ns 10ps 10ps 320ns 740ns
+vx2 x2 gnd pulse 1.8 0 0ns 10ps 10ps 1080ns 2160ns
+vx3 x3 gnd pulse 1.8 0 0ns 10ps 10ps 2160ns 4320ns
+vx4 x4 gnd pulse 1.8 0 0ns 10ps 10ps 4320ns 8640ns
 
-vy1 y1 gnd 0
-vy2 y2 gnd pwl (0 0V 5ns 0V 5.001ns 1.8V 10ns 1.8V 10.001ns 0V)
-vy3 y3 gnd pwl (0 0V 5ns 0V 5.001ns 1.8V 10ns 1.8V 10.001ns 0V)
-vy4 y4 gnd 0
-vx1 x1 gnd 0
-vx2 x2 gnd pwl (0 0V 5ns 0V 5.001ns 1.8V 10ns 1.8V 10.001ns 0V)
-vx3 x3 gnd 0
-vx4 x4 gnd 0
-vcin cin gnd 0
+* vy1 y1 gnd 0
+* vy2 y2 gnd pwl (0 0V 5ns 0V 5.001ns 1.8V 10ns 1.8V 10.001ns 0V)
+* vy3 y3 gnd pwl (0 0V 5ns 0V 5.001ns 1.8V 10ns 1.8V 10.001ns 0V)
+* vy4 y4 gnd 0
+* vx1 x1 gnd 0
+* vx2 x2 gnd pwl (0 0V 5ns 0V 5.001ns 1.8V 10ns 1.8V 10.001ns 0V)
+* vx3 x3 gnd 0
+* vx4 x4 gnd 0
+* vcin cin gnd 0
 
 .subckt nand_ckt y a b w vdd gnd
   M1 y a vdd vdd CMOSP W={2*w} L={length} AS={5*2*w*LAMBDA} 
