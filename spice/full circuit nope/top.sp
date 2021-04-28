@@ -22,10 +22,10 @@ vclk clk gnd pulse 0 1.8 0ns 10ps 10ps 10ns 20ns
 
 vy1 y1in gnd pwl (0 0V 20ns 0V 20.01ns 1.8V 40ns 1.8V 40.01ns 0V)
 * vy1 y1in gnd 0
-vy2 y2in gnd 0
-vy3 y3in gnd 0
-vy4 y4in gnd 0
-vx1 x1in gnd 0
+vy2 y2in gnd pwl (0 0V 20ns 0V 20.01ns 1.8V 40ns 1.8V 40.01ns 0V)
+vy3 y3in gnd pwl (0 0V 20ns 0V 20.01ns 1.8V 40ns 1.8V 40.01ns 0V)
+vy4 y4in gnd pwl (0 0V 20ns 0V 20.01ns 1.8V 40ns 1.8V 40.01ns 0V)
+vx1 x1in gnd pwl (0 0V 20ns 0V 20.01ns 1.8V 40ns 1.8V 40.01ns 0V)
 vx2 x2in gnd 0
 vx3 x3in gnd 0
 vx4 x4in gnd 0
@@ -225,10 +225,10 @@ x113 z3o z3 clk clknot w vdd gnd flipflopo
 x114 z4o z4 clk clknot w vdd gnd flipflopo
 x115 couto cout clk clknot w vdd gnd flipflopo
 
-C1 z1o gnd 4ff
-C2 z2o gnd 4ff
-C3 z3o gnd 4ff
-C4 z4o gnd 4ff
+C1 z1o gnd 100ff
+C2 z2o gnd 100ff
+C3 z3o gnd 100ff
+C4 z4o gnd 100ff
 
 * .tran 1n 700n
 .tran 100p 100n
@@ -265,9 +265,9 @@ C4 z4o gnd 4ff
 
 
 .measure tran tpdr1
-+TRIG v(y1in) VAL='0.50*SUPPLY' RISE=1 TARG v(z1o) VAL='0.50*SUPPLY' RISE=1
++TRIG v(clk) VAL='0.50*SUPPLY' RISE=1 TARG v(couto) VAL='0.50*SUPPLY' RISE=1
 .measure tran tpdf1
-+TRIG v(y1in) VAL='0.50*SUPPLY' FALL=1 TARG v(z1o) VAL='0.50*SUPPLY' FALL=1
++TRIG v(clk) VAL='0.50*SUPPLY' FALL=1 TARG v(couto) VAL='0.50*SUPPLY' FALL=1
 .measure tran tpd1 
 +param='(tpdr1+tpdf1)/2' goal=0
 
@@ -289,10 +289,10 @@ set curplottitle="Adithya-2019102005-full-circuit"
 * hardcopy z4.eps v(z4o)
 * hardcopy cout.eps v(cout)
 
-hardcopy x.eps v(x1in) v(x2in)+2 v(x3in)+4 v(x4in)+6 v(clk)+8
-hardcopy y.eps v(y1in) v(y2in)+2 v(y3in)+4 v(y4in)+6 v(clk)+8 
-hardcopy z.eps v(z1o) v(z2o)+2 v(z3o)+4 v(z4o)+6 v(clk)+8
-hardcopy cin.eps  v(cinin)  v(clk)+2
-hardcopy cout.eps v(couto)  v(clk)+2
+* hardcopy x.eps v(x1in) v(x2in)+2 v(x3in)+4 v(x4in)+6 v(clk)+8
+* hardcopy y.eps v(y1in) v(y2in)+2 v(y3in)+4 v(y4in)+6 v(clk)+8 
+* hardcopy z.eps v(z1o) v(z2o)+2 v(z3o)+4 v(z4o)+6 v(clk)+8
+* hardcopy cin.eps  v(cinin)  v(clk)+2
+* hardcopy cout.eps v(couto)  v(clk)+2
 
 .endc

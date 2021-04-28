@@ -8,9 +8,13 @@
 
 Vdd vdd gnd 'SUPPLY'
 
-vd1 d1 gnd pulse 1.8 0 0ns 10ps 10ps 20ns 40ns
-vd2 d2 gnd pulse 1.8 0 0ns 10ps 10ps 20ns 40ns
-vclk clk gnd pulse 0 1.8 0ns 10ps 10ps 10ns 20ns
+* vd1 d1 gnd pulse 1.8 0 0ns 10ps 10ps 20ns 40ns
+* vd2 d2 gnd pulse 1.8 0 0ns 10ps 10ps 20ns 40ns
+* vclk clk gnd pulse 1.8 0 0ns 10ps 10ps 10ns 20ns
+
+vd1 d1 gnd pwl (0 0V 9.90ns 0V 9.91ns 1.8V 10.01ns 1.8V 10.011ns 0V)
+vd2 d2 gnd pwl (0 0V 19.9ns 0V 19.91ns 1.8V 20.04ns 1.8V 20.041ns 0V)
+vclk clk gnd pulse 1.8 0 0ns 10ps 10ps 10ns 20ns
 
 * va a gnd 0
 * va a gnd 0
@@ -76,10 +80,24 @@ C2 q2 gnd 4ff
 .ic v(q1) 0
 .ic v(q2) 0
 
+* .measure tran tsu
+* +TRIG v(d2) VAL='SUPPLY' RISE=2 TARG v(q2) VAL='0.50*SUPPLY' RISE=2
+
+.measure tran tpdr1
++TRIG v(clk) VAL='0.50*SUPPLY' RISE=2 TARG v(q2) VAL='0.50*SUPPLY' RISE=2
+.measure tran tpdf1
++TRIG v(clk) VAL='0.50*SUPPLY' FALL=1 TARG v(q1) VAL='0.50*SUPPLY' FALL=1
+.measure tran tpd1 
++param='(tpdr1+tpdf1)/2' goal=0
+
+* .measure tran delay
+* + TRIG v(clk) VAL='0.5*SUPPLY' RISE=1
+* + TARG v(q2) VAL='0.5*SUPPLY' RISE=1
+
 .control
-set hcopypscolor = 1 
-set color0=white 
-set color1=black 
+set hcopypscolor = 1
+set color0=white
+set color1=black
 
 run
 set curplottitle="Adithya-2019102005-flipflopo"

@@ -12,15 +12,15 @@ Vdd vdd gnd 'SUPPLY'
 
 vclk clk gnd pulse 0 1.8 0ns 10ps 10ps 10ns 20ns
 
-* vcin cinin gnd pulse 1.8 0 0ns 10ps 10ps 20ns 40ns
-* vy1 y1in   gnd pulse 1.8 0 0ns 10ps 10ps 40ns 80ns
-* vy2 y2in   gnd pulse 1.8 0 0ns 10ps 10ps 80ns 160ns
-* vy3 y3in   gnd pulse 1.8 0 0ns 10ps 10ps 160ns 320ns
-* vy4 y4in   gnd pulse 1.8 0 0ns 10ps 10ps 320ns 640ns
-* vx1 x1in   gnd pulse 1.8 0 0ns 10ps 10ps 640ns 1280ns
-* vx2 x2in   gnd pulse 1.8 0 0ns 10ps 10ps 1280ns 2560ns
-* vx3 x3in   gnd pulse 1.8 0 0ns 10ps 10ps 2560ns 5120ns
-* vx4 x4in   gnd pulse 1.8 0 0ns 10ps 10ps 5120ns 10240ns
+vcin cinin gnd pulse 1.8 0 0ns 10ps 10ps 20ns 40ns
+vy1 y1in   gnd pulse 1.8 0 0ns 10ps 10ps 40ns 80ns
+vy2 y2in   gnd pulse 1.8 0 0ns 10ps 10ps 80ns 160ns
+vy3 y3in   gnd pulse 1.8 0 0ns 10ps 10ps 160ns 320ns
+vy4 y4in   gnd pulse 1.8 0 0ns 10ps 10ps 320ns 640ns
+vx1 x1in   gnd pulse 1.8 0 0ns 10ps 10ps 640ns 1280ns
+vx2 x2in   gnd pulse 1.8 0 0ns 10ps 10ps 1280ns 2560ns
+vx3 x3in   gnd pulse 1.8 0 0ns 10ps 10ps 2560ns 5120ns
+vx4 x4in   gnd pulse 1.8 0 0ns 10ps 10ps 5120ns 10240ns
 
 * vy1 y1in gnd 1.8
 * vy2 y2in gnd 1.8
@@ -33,15 +33,15 @@ vclk clk gnd pulse 0 1.8 0ns 10ps 10ps 10ns 20ns
 * vcin cinin gnd 1.8
 
 
-vy1 y1in gnd   pwl (0 0V 20ns 0V 20.01ns 1.8V 40ns 1.8V 40.01ns 0V)
-vy2 y2in gnd   0
-vy3 y3in gnd   0
-vy4 y4in gnd   0
-vx1 x1in gnd   pwl (0 0V 20ns 0V 20.01ns 1.8V 40ns 1.8V 40.01ns 0V)
-vx2 x2in gnd   pwl (0 0V 20ns 0V 20.01ns 1.8V 40ns 1.8V 40.01ns 0V)
-vx3 x3in gnd   pwl (0 0V 20ns 0V 20.01ns 1.8V 40ns 1.8V 40.01ns 0V)
-vx4 x4in gnd   pwl (0 0V 20ns 0V 20.01ns 1.8V 40ns 1.8V 40.01ns 0V)
-vcin cinin gnd 0
+* vy1 y1in gnd   0
+* vy2 y2in gnd   pwl (0 0V 20ns 0V 20.01ns 1.8V 40ns 1.8V 40.01ns 0V)
+* vy3 y3in gnd   pwl (0 0V 20ns 0V 20.01ns 1.8V 40ns 1.8V 40.01ns 0V)
+* vy4 y4in gnd   0
+* vx1 x1in gnd   0
+* vx2 x2in gnd   pwl (0 0V 20ns 0V 20.01ns 1.8V 40ns 1.8V 40.01ns 0V)
+* vx3 x3in gnd   0
+* vx4 x4in gnd   0
+* vcin cinin gnd 0
 
 
 * vy1 y1in gnd pwl (0 0V 20ns 0V 20.01ns 1.8V 40ns 1.8V 40.01ns 0V)
@@ -3750,16 +3750,25 @@ C2214 nand_2/b Gnd 0.25fF
 C2215 inv_0/op Gnd 0.26fF
 C2216 nand_0/w_0_0# Gnd 0.82fF
 
+C10001 z1o gnd 4ff
+C10002 z2o gnd 4ff
+C10003 z3o gnd 4ff
+C10004 z4o gnd 4ff
 
-* .tran 1n 700n
+
+.tran 1n 1400n
 * .tran 100p 100n
-.tran 100p 100n
+* .tran 100p 100n
+.ic v(z1o) 0 
+.ic v(z2o) 0 
+.ic v(z3o) 0 
+.ic v(z4o) 0 
+.ic v(couto) 0 
 
 .measure tran tpdr1
-+TRIG v(y1in) VAL='0.50*SUPPLY' RISE=1 TARG v(z1o) VAL='0.50*SUPPLY' RISE=1
++TRIG v(y2in) VAL='0.50*SUPPLY' RISE=1 TARG v(z4o) VAL='0.50*SUPPLY' RISE=1
 .measure tran tpdf1
-+TRIG v(y1in) VAL='0.50*SUPPLY' FALL=1 TARG v(z1o) VAL='0.50*SUPPLY' FALL=1
-
++TRIG v(y2in) VAL='0.50*SUPPLY' FALL=1 TARG v(z4o) VAL='0.50*SUPPLY' FALL=1
 .measure tran tpd1 
 +param='(tpdr1+tpdf1)/2' goal=0
 
