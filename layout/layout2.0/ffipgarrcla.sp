@@ -10,17 +10,17 @@
 
 Vdd vdd gnd 'SUPPLY'
 
-vclk clk gnd pulse 0 1.8 0ns 10ps 10ps 10ns 20ns
+* vclk clk gnd pulse 0 1.8 0ns 10ps 10ps 10ns 20ns
 
-vcin cinin gnd pulse 1.8 0 0ns 10ps 10ps 20ns 40ns
-vy1 y1in   gnd pulse 1.8 0 0ns 10ps 10ps 40ns 80ns
-vy2 y2in   gnd pulse 1.8 0 0ns 10ps 10ps 80ns 160ns
-vy3 y3in   gnd pulse 1.8 0 0ns 10ps 10ps 160ns 320ns
-vy4 y4in   gnd pulse 1.8 0 0ns 10ps 10ps 320ns 640ns
-vx1 x1in   gnd pulse 1.8 0 0ns 10ps 10ps 640ns 1280ns
-vx2 x2in   gnd pulse 1.8 0 0ns 10ps 10ps 1280ns 2560ns
-vx3 x3in   gnd pulse 1.8 0 0ns 10ps 10ps 2560ns 5120ns
-vx4 x4in   gnd pulse 1.8 0 0ns 10ps 10ps 5120ns 10240ns
+* vcin cinin gnd pulse 1.8 0 0ns 10ps 10ps 20ns 40ns
+* vy1 y1in   gnd pulse 1.8 0 0ns 10ps 10ps 40ns 80ns
+* vy2 y2in   gnd pulse 1.8 0 0ns 10ps 10ps 80ns 160ns
+* vy3 y3in   gnd pulse 1.8 0 0ns 10ps 10ps 160ns 320ns
+* vy4 y4in   gnd pulse 1.8 0 0ns 10ps 10ps 320ns 640ns
+* vx1 x1in   gnd pulse 1.8 0 0ns 10ps 10ps 640ns 1280ns
+* vx2 x2in   gnd pulse 1.8 0 0ns 10ps 10ps 1280ns 2560ns
+* vx3 x3in   gnd pulse 1.8 0 0ns 10ps 10ps 2560ns 5120ns
+* vx4 x4in   gnd pulse 1.8 0 0ns 10ps 10ps 5120ns 10240ns
 
 * vy1 y1in gnd 1.8
 * vy2 y2in gnd 1.8
@@ -55,6 +55,18 @@ vx4 x4in   gnd pulse 1.8 0 0ns 10ps 10ps 5120ns 10240ns
 * vx4 x4in gnd 0
 * vcin cinin gnd 0
 
+
+vclk clk gnd pulse 0 1.8 0ns 10ps 10ps 1ns 2ns
+
+vcin cinin gnd pulse 1.8 0 0ns 10ps 10ps 2ns 4ns
+vy1 y1in   gnd pulse 1.8 0 0ns 10ps 10ps 4ns 8ns
+vy2 y2in   gnd pulse 1.8 0 0ns 10ps 10ps 8ns 16ns
+vy3 y3in   gnd pulse 1.8 0 0ns 10ps 10ps 16ns 32ns
+vy4 y4in   gnd pulse 1.8 0 0ns 10ps 10ps 32ns 64ns
+vx1 x1in   gnd pulse 1.8 0 0ns 10ps 10ps 64ns 128ns
+vx2 x2in   gnd pulse 1.8 0 0ns 10ps 10ps 128ns 256ns
+vx3 x3in   gnd pulse 1.8 0 0ns 10ps 10ps 256ns 512ns
+vx4 x4in   gnd pulse 1.8 0 0ns 10ps 10ps 512ns 1024ns
 
 M1000 nand_1/a_13_n26# cla_0/l gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=11070 ps=6708
@@ -3756,7 +3768,7 @@ C10003 z3o gnd 4ff
 C10004 z4o gnd 4ff
 
 
-.tran 1n 1400n
+.tran 100p 100n
 * .tran 100p 100n
 * .tran 100p 100n
 .ic v(z1o) 0 
