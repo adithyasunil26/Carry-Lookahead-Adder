@@ -10,8 +10,9 @@
 
 Vdd vdd gnd 'SUPPLY'
 
-vd d gnd pulse 1.8 0 0ns 10ps 10ps 20ns 40ns
+* vd d gnd pulse 0 1.8 0ns 10ps 10ps 20ns 40ns
 vclk clk gnd pulse 1.8 0 0ns 10ps 10ps 10ns 20ns
+vd d gnd pwl (0 0V 19.87ns 0V 19.88ns 1.8V 20.02ns 1.8V 20.021ns 0V)
 
 M1000 nand_1/a_13_n26# nand_1/a gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=540 ps=316
@@ -191,8 +192,12 @@ C102 nand_0/w_0_0# Gnd 0.82fF
 C103 nand_1/a Gnd 0.30fF
 C104 nand_1/w_0_0# Gnd 0.82fF
 
-.tran 100p 200n
+.tran 100p 100n
 .ic v(q) 0
+
+.measure tran delay
++ TRIG v(clk) VAL='0.5*SUPPLY' RISE=1
++ TARG v(q) VAL='0.5*SUPPLY' RISE=1
 
 .control
 set hcopypscolor = 1
