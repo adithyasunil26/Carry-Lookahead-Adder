@@ -3,25 +3,15 @@
 `include "cla.v"
 `include "ff.v"
 
-module toplevel(clk,res,x,y,cin,cout,z);
+module toplevel(clk,x,y,cin,cout,z);
   
   input clk;
-  input res;
   input [4:1] x;
   input [4:1] y;
   input cin;
   
   output cout;
-  output reg [4:1] z;
-
-  reg x1;
-  reg x2;
-  reg x3;
-  reg x4;
-  reg y1;
-  reg y2;
-  reg y3;
-  reg y4;
+  output [4:1] z;
 
   wire x1in;
   wire x2in;
@@ -32,83 +22,65 @@ module toplevel(clk,res,x,y,cin,cout,z);
   wire y3in;
   wire y4in;
 
-  wire couto;
+  wire coutoo;
 
   wire z1o;
   wire z2o;
   wire z3o;
-  wire z4o; 
+  wire z4o;
 
-  wire z1;
-  wire z2;
-  wire z3;
-  wire z4;
 
-  // always@(*)
-  // begin
-  //   x1=x[1];
-  //   x2=x[2];
-  //   x3=x[3];
-  //   x4=x[4];
-  //   y1=y[1];
-  //   y2=y[2];
-  //   y3=y[3];
-  //   y4=y[4];
-  // end
+  ffi  ffcin(
+    .D  (cin),
+    .clk(clk),
+    .Q  (cinin)
+  );
 
-  ff  ffx1(
+  ffi  ffx1(
     .D  (x[1]),
     .clk(clk),
-    .res(res),
     .Q  (x1in)
   );
 
-  ff  ffx2(
+  ffi  ffx2(
     .D  (x[2]),
     .clk(clk),
-    .res(res),
     .Q  (x2in)
   );
 
-  ff  ffx3(
+  ffi  ffx3(
     .D  (x[3]),
     .clk(clk),
-    .res(res),
     .Q  (x3in)
   );
 
-  ff  ffx4(
+  ffi  ffx4(
     .D  (x[4]),
     .clk(clk),
-    .res(res),
     .Q  (x4in)
   );
 
-  ff  ffy1(
+  ffi  ffy1(
     .D  (y[1]),
     .clk(clk),
-    .res(res),
     .Q  (y1in)
   );
 
-  ff  ffy2(
+  ffi  ffy2(
     .D  (y[2]),
     .clk(clk),
-    .res(res),
     .Q  (y2in)
   );
 
-  ff  ffy3(
+  ffi  ffy3(
     .D  (y[3]),
     .clk(clk),
-    .res(res),
     .Q  (y3in)
   );
 
-  ff  ffy4(
+  ffi  ffy4(
     .D  (y[4]),
     .clk(clk),
-    .res(res),
     .Q  (y4in)
   );
   
@@ -122,47 +94,42 @@ module toplevel(clk,res,x,y,cin,cout,z);
     .y2  (y2in),
     .y3  (y3in),
     .y4  (y4in),
-    .cin (cin ),
+    .cin (cinin),
     .z1  (z1o ),
     .z2  (z2o ),
     .z3  (z3o ),
     .z4  (z4o ),
-    .cout(cout)
+    .cout(coutoo)
   );
 
-  ff  ffz1(
+  ffo  ffz1(
     .D  (z1o),
     .clk(clk),
-    .res(res),
-    .Q  (z1)
+    .Q  (z[1])
   );
 
-  ff  ffz2(
+  ffo  ffz2(
     .D  (z2o),
     .clk(clk),
-    .res(res),
-    .Q  (z2)
+    .Q  (z[2])
   );
 
-  ff  ffz3(
+  ffo  ffz3(
     .D  (z3o),
     .clk(clk),
-    .res(res),
-    .Q  (z3)
+    .Q  (z[3])
   );
 
-  ff  ffz4(
+  ffo  ffz4(
     .D  (z4o),
     .clk(clk),
-    .res(res),
-    .Q  (z4)
+    .Q  (z[4])
+  );
+
+  ffo ffcout(
+    .D  (coutoo),
+    .clk(clk),
+    .Q  (cout)
   );
   
-  always@(*)
-  begin
-    z[1] = z1;
-    z[2] = z2;
-    z[3] = z3;
-    z[4] = z4;
-  end
 endmodule

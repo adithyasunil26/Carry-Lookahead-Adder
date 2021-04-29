@@ -1,29 +1,35 @@
 `timescale 1ns / 1ps
 
-`include "../flipflop.v"
+`include "ff.v"
 
 module flipfloptb;
 
   reg D;
   reg clk;
-  reg reset;
+	
+  wire Q1;
+  wire Qbar1;
+  wire Q2;
+  wire Qbar2;
 
-  wire Q;
-  wire Qbar;
-
-  flip_flop d0 (
+  ffi d0 (
     .D(D),
     .clk(clk),
-    .sync_reset(reset),
-    .Q(Q),
-    .Qbar(Qbar)
+    .Q(Q1),
+    .Qbar(Qbar1)
+  );
+
+  ffo d1 (
+    .D(D),
+    .clk(clk),
+    .Q(Q2),
+    .Qbar(Qbar2)
   );
   
   initial begin 
     $dumpfile("flipflop.vcd");
     $dumpvars(0,flipfloptb);
     clk=0;
-    reset=0;
     D=0;
 
     #10 clk  =~clk;
@@ -38,13 +44,16 @@ module flipfloptb;
     #10 clk  =~clk;
         D=1;
     #10 clk  =~clk;
+        D=0;
     #10 clk  =~clk;
         D=1;
-        reset=1;
+    #10 clk  =~clk;
+    #10 clk  =~clk;
+    #10 clk  =~clk;
     #10 clk  =~clk;
 
   end 
   
   initial 
-		$monitor("D=%d clk=%d sync_reset=%d Q=%d Qbar=%d",D,clk,reset,Q,Qbar);
+		$monitor("D=%d clk=%d Q1=%d Qbar1=%d Q2=%d Qbar2=%d",D,clk,Q1,Qbar1,Q2,Qbar2);
 endmodule
