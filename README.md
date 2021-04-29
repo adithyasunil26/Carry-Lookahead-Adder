@@ -1,4 +1,4 @@
-# 4-Bit-CLA
+# 4-bit Carry Lookahead Adder
 
 The top level design of the carry lookahead adder is as follows
 
