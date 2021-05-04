@@ -22,26 +22,26 @@ vclk clk gnd pulse 0 1.8 0ns 10ps 10ps 10ns 20ns
 * vx3 x3in   gnd pulse 1.8 0 0ns 10ps 10ps 2560ns 5120ns
 * vx4 x4in   gnd pulse 1.8 0 0ns 10ps 10ps 5120ns 10240ns
 
-* vy1 y1in gnd 1.8
-* vy2 y2in gnd 1.8
-* vy3 y3in gnd 1.8
-* vy4 y4in gnd 1.8
-* vx1 x1in gnd 0
-* vx2 x2in gnd 0
-* vx3 x3in gnd 0
-* vx4 x4in gnd 0
-* vcin cinin gnd 1.8
-
-
-vy1 y1in gnd   pwl (0 0V 20ns 0V 20.01ns 1.8V 40ns 1.8V 40.01ns 0V)
-vy2 y2in gnd   0
-vy3 y3in gnd   0
-vy4 y4in gnd   0
-vx1 x1in gnd   pwl (0 0V 20ns 0V 20.01ns 1.8V 40ns 1.8V 40.01ns 0V)
-vx2 x2in gnd   pwl (0 0V 20ns 0V 20.01ns 1.8V 40ns 1.8V 40.01ns 0V)
-vx3 x3in gnd   pwl (0 0V 20ns 0V 20.01ns 1.8V 40ns 1.8V 40.01ns 0V)
-vx4 x4in gnd   pwl (0 0V 20ns 0V 20.01ns 1.8V 40ns 1.8V 40.01ns 0V)
+vy1 y1in gnd 1.8
+vy2 y2in gnd 1.8
+vy3 y3in gnd 1.8
+vy4 y4in gnd 0
+vx1 x1in gnd 1.8
+vx2 x2in gnd 0
+vx3 x3in gnd 1.8
+vx4 x4in gnd 0
 vcin cinin gnd 0
+
+
+* vy1 y1in gnd   0
+* vy2 y2in gnd   pwl (0 0V 20ns 0V 20.01ns 1.8V 40ns 1.8V 40.01ns 0V)
+* vy3 y3in gnd   pwl (0 0V 20ns 0V 20.01ns 1.8V 40ns 1.8V 40.01ns 0V)
+* vy4 y4in gnd   0
+* vx1 x1in gnd   0
+* vx2 x2in gnd   pwl (0 0V 20ns 0V 20.01ns 1.8V 40ns 1.8V 40.01ns 0V)
+* vx3 x3in gnd   0
+* vx4 x4in gnd   0
+* vcin cinin gnd 0
 
 
 * vy1 y1in gnd pwl (0 0V 20ns 0V 20.01ns 1.8V 40ns 1.8V 40.01ns 0V)
@@ -55,6 +55,18 @@ vcin cinin gnd 0
 * vx4 x4in gnd 0
 * vcin cinin gnd 0
 
+
+* vclk clk gnd pulse 0 1.8 0ns 10ps 10ps 1ns 2ns
+
+* vcin cinin gnd pulse 1.8 0 0ns 10ps 10ps 2ns 4ns
+* vy1 y1in   gnd pulse 1.8 0 0ns 10ps 10ps 4ns 8ns
+* vy2 y2in   gnd pulse 1.8 0 0ns 10ps 10ps 8ns 16ns
+* vy3 y3in   gnd pulse 1.8 0 0ns 10ps 10ps 16ns 32ns
+* vy4 y4in   gnd pulse 1.8 0 0ns 10ps 10ps 32ns 64ns
+* vx1 x1in   gnd pulse 1.8 0 0ns 10ps 10ps 64ns 128ns
+* vx2 x2in   gnd pulse 1.8 0 0ns 10ps 10ps 128ns 256ns
+* vx3 x3in   gnd pulse 1.8 0 0ns 10ps 10ps 256ns 512ns
+* vx4 x4in   gnd pulse 1.8 0 0ns 10ps 10ps 512ns 1024ns
 
 M1000 nand_1/a_13_n26# cla_0/l gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=11070 ps=6708
@@ -3750,18 +3762,27 @@ C2214 nand_2/b Gnd 0.25fF
 C2215 inv_0/op Gnd 0.26fF
 C2216 nand_0/w_0_0# Gnd 0.82fF
 
+C10001 z1o gnd 4ff
+C10002 z2o gnd 4ff
+C10003 z3o gnd 4ff
+C10004 z4o gnd 4ff
 
-* .tran 1n 700n
+
+.tran 100p 50n
 * .tran 100p 100n
-.tran 100p 100n
+* .tran 100p 100n
+.ic v(z1o) 0 
+.ic v(z2o) 0 
+.ic v(z3o) 0 
+.ic v(z4o) 0 
+.ic v(couto) 0 
 
-.measure tran tpdr1
-+TRIG v(y1in) VAL='0.50*SUPPLY' RISE=1 TARG v(z1o) VAL='0.50*SUPPLY' RISE=1
-.measure tran tpdf1
-+TRIG v(y1in) VAL='0.50*SUPPLY' FALL=1 TARG v(z1o) VAL='0.50*SUPPLY' FALL=1
-
-.measure tran tpd1 
-+param='(tpdr1+tpdf1)/2' goal=0
+* .measure tran tpdr1
+* +TRIG v(y2in) VAL='0.50*SUPPLY' RISE=1 TARG v(z4o) VAL='0.50*SUPPLY' RISE=1
+* .measure tran tpdf1
+* +TRIG v(y2in) VAL='0.50*SUPPLY' FALL=1 TARG v(z4o) VAL='0.50*SUPPLY' FALL=1
+* .measure tran tpd1 
+* +param='(tpdr1+tpdf1)/2' goal=0
 
 .control
 set hcopypscolor = 0 
@@ -3771,10 +3792,12 @@ set color1=black
 run
 set curplottitle="Adithya-2019102005-full-circuit"
 
-hardcopy x.eps v(x1in) v(x2in)+2 v(x3in)+4 v(x4in)+6 v(clk)+8
-hardcopy y.eps v(y1in) v(y2in)+2 v(y3in)+4 v(y4in)+6 v(clk)+8 
-hardcopy z.eps v(z1o) v(z2o)+2 v(z3o)+4 v(z4o)+6 v(clk)+8
-hardcopy cin.eps  v(cinin)  v(clk)+2
-hardcopy cout.eps v(couto)  v(clk)+2
+* hardcopy x.eps v(x1in) v(x2in)+2 v(x3in)+4 v(x4in)+6 v(clk)+8
+* hardcopy y.eps v(y1in) v(y2in)+2 v(y3in)+4 v(y4in)+6 v(clk)+8 
+* hardcopy z.eps v(z1o) v(z2o)+2 v(z3o)+4 v(z4o)+6 v(clk)+8
+* hardcopy cin.eps  v(cinin)  v(clk)+2
+* hardcopy cout.eps v(couto)  v(clk)+2
 
+hardcopy inputs.eps v(x1in) v(x2in)+2 v(x3in)+4 v(x4in)+6 v(y1in)+8 v(y2in)+10 v(y3in)+12 v(y4in)+14 v(clk)+16
+hardcopy outputs.eps v(z1o) v(z2o)+2 v(z3o)+4 v(z4o)+6 v(couto)+8 v(clk)+10
 .endc

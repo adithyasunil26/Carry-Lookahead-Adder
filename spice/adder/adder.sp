@@ -11,15 +11,25 @@ Vdd vdd gnd 'SUPPLY'
 * vd    d  gnd pulse 0 1.8 0ns 10ps 10ps 10ns 20ns
 * vclk clk gnd pulse 0 1.8 0ns 10ps 10ps 20ns 40ns
 
-vcin cin gnd pulse 1.8 0 0ns 10ps 10ps 10ns 20ns
-vy1 y1 gnd pulse 1.8 0 0ns 10ps 10ps 20ns 40ns
-vy2 y2 gnd pulse 1.8 0 0ns 10ps 10ps 40ns 80ns
+vcin cin gnd pulse 1.8 0 0ns 10ps 10ps 1.5ns 3ns
+vy1 y1 gnd pulse 1.8 0 0ns 10ps 10ps 3ns 6ns
+vy2 y2 gnd pulse 1.8 0 0ns 10ps 10ps 6ns 12ns
 vy3 y3 gnd pulse 1.8 0 0ns 10ps 10ps 80ns 160ns
 vy4 y4 gnd pulse 1.8 0 0ns 10ps 10ps 160ns 320ns
 vx1 x1 gnd pulse 1.8 0 0ns 10ps 10ps 320ns 740ns
 vx2 x2 gnd pulse 1.8 0 0ns 10ps 10ps 1080ns 2160ns
 vx3 x3 gnd pulse 1.8 0 0ns 10ps 10ps 2160ns 4320ns
 vx4 x4 gnd pulse 1.8 0 0ns 10ps 10ps 4320ns 8640ns
+
+* vy1 y1 gnd 0
+* vy2 y2 gnd pwl (0 0V 5ns 0V 5.001ns 1.8V 10ns 1.8V 10.001ns 0V)
+* vy3 y3 gnd pwl (0 0V 5ns 0V 5.001ns 1.8V 10ns 1.8V 10.001ns 0V)
+* vy4 y4 gnd 0
+* vx1 x1 gnd 0
+* vx2 x2 gnd pwl (0 0V 5ns 0V 5.001ns 1.8V 10ns 1.8V 10.001ns 0V)
+* vx3 x3 gnd 0
+* vx4 x4 gnd 0
+* vcin cin gnd 0
 
 .subckt nand_ckt y a b w vdd gnd
   M1 y a vdd vdd CMOSP W={2*w} L={length} AS={5*2*w*LAMBDA} 
@@ -150,18 +160,26 @@ C1 z1 gnd 10ff
 C2 z2 gnd 10ff
 C3 z3 gnd 10ff
 C4 z4 gnd 10ff
+C5 cout gnd 10ff
 
-.tran 1n 100n
+.tran 10p 12n
+
+.measure tran tpdr1
++TRIG v(y2) VAL='0.50*SUPPLY' RISE=1 TARG v(z4) VAL='0.50*SUPPLY' RISE=1
+.measure tran tpdf1
++TRIG v(y2) VAL='0.50*SUPPLY' FALL=1 TARG v(z4) VAL='0.50*SUPPLY' FALL=1
+.measure tran tpd1 
++param='(tpdr1+tpdf1)/2' goal=0
 
 .control
-set hcopypscolor = 1
+set hcopypscolor = 0
 set color0=white 
 set color1=black 
 
 run
 set curplottitle="Adithya-2019102005-cla"
 
-hardcopy in.eps v(x1) v(x2)+2 v(x3)+4 v(x4)+6 v(y1)+8 v(y2)+10 v(y3)+12 v(y4)+14 v(cin)+16
+hardcopy in.eps v(y1) v(y2)+2 v(y3)+4 v(y4)+6 v(x1)+8 v(x2)+10 v(x3)+12 v(x4)+14 v(cin)+16
 hardcopy out.eps v(z1) v(z2)+2 v(z3)+4 v(z4)+6 v(cout)+8
 
 

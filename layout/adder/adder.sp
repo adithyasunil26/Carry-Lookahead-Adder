@@ -10,19 +10,28 @@
 
 Vdd vdd gnd 'SUPPLY'
 
-* vd    d  gnd pulse 0 1.8 0ns 10ps 10ps 10ns 20ns
-* vclk clk gnd pulse 0 1.8 0ns 10ps 10ps 20ns 40ns
+* vcin cin gnd pulse 1.8 0 0ns 10ps 10ps 10ns 20ns
+* vci cinbar gnd pulse 0 1.8 0ns 10ps 10ps 10ns 20ns
+* vy1 y1in gnd pulse 1.8 0 0ns 10ps 10ps 20ns 40ns
+* vy2 y2in gnd pulse 1.8 0 0ns 10ps 10ps 40ns 80ns
+* vy3 y3in gnd pulse 1.8 0 0ns 10ps 10ps 80ns 160ns
+* vy4 y4in gnd pulse 1.8 0 0ns 10ps 10ps 160ns 320ns
+* vx1 x1in gnd pulse 1.8 0 0ns 10ps 10ps 320ns 740ns
+* vx2 x2in gnd pulse 1.8 0 0ns 10ps 10ps 1080ns 2160ns
+* vx3 x3in gnd pulse 1.8 0 0ns 10ps 10ps 2160ns 4320ns
+* vx4 x4in gnd pulse 1.8 0 0ns 10ps 10ps 4320ns 8640ns
 
-vcin cin gnd pulse 1.8 0 0ns 10ps 10ps 10ns 20ns
-vci cinbar gnd pulse 0 1.8 0ns 10ps 10ps 10ns 20ns
-vy1 y1in gnd pulse 1.8 0 0ns 10ps 10ps 20ns 40ns
-vy2 y2in gnd pulse 1.8 0 0ns 10ps 10ps 40ns 80ns
-vy3 y3in gnd pulse 1.8 0 0ns 10ps 10ps 80ns 160ns
-vy4 y4in gnd pulse 1.8 0 0ns 10ps 10ps 160ns 320ns
-vx1 x1in gnd pulse 1.8 0 0ns 10ps 10ps 320ns 740ns
-vx2 x2in gnd pulse 1.8 0 0ns 10ps 10ps 1080ns 2160ns
-vx3 x3in gnd pulse 1.8 0 0ns 10ps 10ps 2160ns 4320ns
-vx4 x4in gnd pulse 1.8 0 0ns 10ps 10ps 4320ns 8640ns
+vy1 y1in gnd pwl (0 0V 5ns 0V 5.001ns 1.8V 10ns 1.8V 10.001ns 0V)
+vy2 y2in gnd pwl (0 0V 5ns 0V 5.001ns 1.8V 10ns 1.8V 10.001ns 0V)
+vy3 y3in gnd pwl (0 0V 5ns 0V 5.001ns 1.8V 10ns 1.8V 10.001ns 0V)
+vy4 y4in gnd pwl (0 0V 5ns 0V 5.001ns 1.8V 10ns 1.8V 10.001ns 0V)
+vx1 x1in gnd 0
+vx2 x2in gnd 0
+vx3 x3in gnd 0
+vx4 x4in gnd 0
+vcin cin gnd 0
+vci cinbar gnd 1.8
+
 
 M1000 nand_1/a_13_n26# cla_0/l gnd Gnd CMOSN w=12 l=2
 +  ad=96 pd=40 as=3510 ps=2284
@@ -1295,6 +1304,13 @@ C1003 s3 gnd 100ff
 C1004 s4 gnd 100ff
 
 .tran 1n 400n
+
+.measure tran tpdr1
++TRIG v(y2in) VAL='0.50*SUPPLY' RISE=1 TARG v(s4) VAL='0.50*SUPPLY' RISE=1
+.measure tran tpdf1
++TRIG v(y2in) VAL='0.50*SUPPLY' FALL=1 TARG v(s4) VAL='0.50*SUPPLY' FALL=1
+.measure tran tpd1 
++param='(tpdr1+tpdf1)/2' goal=0
 
 .control
 set hcopypscolor = 0
