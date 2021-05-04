@@ -1,0 +1,36 @@
+* SPICE3 file created from tspc.ext - technology: scmos
+
+.option scale=0.09u
+
+M1000 q a_13_34# vdd w_0_28# pfet w=14 l=2
++  ad=210 pd=58 as=140 ps=76
+M1001 a_13_2# d gnd Gnd nfet w=12 l=2
++  ad=72 pd=36 as=120 ps=68
+M1002 a_13_34# d vdd w_0_28# pfet w=14 l=2
++  ad=210 pd=58 as=0 ps=0
+M1003 a_13_34# clk a_13_2# Gnd nfet w=12 l=2
++  ad=84 pd=38 as=0 ps=0
+M1004 a_47_2# a_13_34# gnd Gnd nfet w=12 l=2
++  ad=72 pd=36 as=0 ps=0
+M1005 q clk a_47_2# Gnd nfet w=12 l=2
++  ad=84 pd=38 as=0 ps=0
+C0 w_0_28# a_13_34# 0.10fF
+C1 gnd q 0.03fF
+C2 clk q 0.04fF
+C3 w_0_28# vdd 0.14fF
+C4 w_0_28# q 0.04fF
+C5 d vdd 0.02fF
+C6 a_13_34# vdd 0.05fF
+C7 vdd q 0.03fF
+C8 gnd clk 0.11fF
+C9 gnd a_13_34# 0.03fF
+C10 clk d 0.27fF
+C11 w_0_28# d 0.06fF
+C12 clk a_13_34# 0.46fF
+C13 gnd Gnd 0.26fF
+C14 clk Gnd 0.55fF
+C15 q Gnd 0.08fF
+C16 vdd Gnd 0.11fF
+C17 a_13_34# Gnd 0.24fF
+C18 d Gnd 0.18fF
+C19 w_0_28# Gnd 1.78fF
