@@ -1,79 +1,162 @@
 magic
 tech scmos
-timestamp 1620140018
+timestamp 1620140860
 << nwell >>
-rect 0 28 68 54
+rect -82 29 -14 55
+rect 0 29 68 55
 << ntransistor >>
-rect 11 2 13 14
-rect 19 2 21 14
-rect 45 2 47 14
-rect 53 2 55 14
+rect -71 1 -69 13
+rect -63 1 -61 13
+rect -37 1 -35 13
+rect -29 1 -27 13
+rect 11 1 13 13
+rect 19 1 21 13
+rect 45 1 47 13
+rect 53 1 55 13
 << ptransistor >>
-rect 11 34 13 48
-rect 45 34 47 48
+rect -71 35 -69 49
+rect -37 35 -35 49
+rect 11 35 13 49
+rect 45 35 47 49
 << ndiffusion >>
-rect 10 2 11 14
-rect 13 2 19 14
-rect 21 2 24 14
-rect 44 2 45 14
-rect 47 2 53 14
-rect 55 2 58 14
+rect -72 1 -71 13
+rect -69 1 -63 13
+rect -61 1 -58 13
+rect -38 1 -37 13
+rect -35 1 -29 13
+rect -27 1 -24 13
+rect 10 1 11 13
+rect 13 1 19 13
+rect 21 1 24 13
+rect 44 1 45 13
+rect 47 1 53 13
+rect 55 1 58 13
 << pdiffusion >>
-rect 10 34 11 48
-rect 13 34 24 48
-rect 44 34 45 48
-rect 47 34 58 48
+rect -72 35 -71 49
+rect -69 35 -58 49
+rect -38 35 -37 49
+rect -35 35 -24 49
+rect 10 35 11 49
+rect 13 35 24 49
+rect 44 35 45 49
+rect 47 35 58 49
 << ndcontact >>
-rect 6 2 10 14
-rect 24 2 28 14
-rect 40 2 44 14
-rect 58 2 62 14
+rect -76 1 -72 13
+rect -58 1 -54 13
+rect -42 1 -38 13
+rect -24 1 -20 13
+rect 6 1 10 13
+rect 24 1 28 13
+rect 40 1 44 13
+rect 58 1 62 13
 << pdcontact >>
-rect 6 34 10 48
-rect 24 34 28 48
-rect 40 34 44 48
-rect 58 34 62 48
+rect -76 35 -72 49
+rect -58 35 -54 49
+rect -42 35 -38 49
+rect -24 35 -20 49
+rect 6 35 10 49
+rect 24 35 28 49
+rect 40 35 44 49
+rect 58 35 62 49
 << polysilicon >>
-rect 11 48 13 51
-rect 45 48 47 51
-rect 11 14 13 34
-rect 19 14 21 17
-rect 45 14 47 34
-rect 53 14 55 17
-rect 11 -1 13 2
-rect 19 -1 21 2
-rect 45 -1 47 2
-rect 53 -1 55 2
+rect -71 49 -69 52
+rect -37 49 -35 52
+rect 11 49 13 52
+rect 45 49 47 52
+rect -71 13 -69 35
+rect -63 13 -61 17
+rect -37 13 -35 35
+rect -29 13 -27 17
+rect 11 13 13 35
+rect 19 13 21 17
+rect 45 13 47 35
+rect 53 13 55 17
+rect -71 -2 -69 1
+rect -63 -2 -61 1
+rect -37 -2 -35 1
+rect -29 -2 -27 1
+rect 11 -2 13 1
+rect 19 -2 21 1
+rect 45 -2 47 1
+rect 53 -2 55 1
 << polycontact >>
+rect -75 23 -71 27
+rect -41 23 -37 27
 rect 7 23 11 27
+rect -31 17 -27 21
 rect 41 23 45 27
 rect 51 17 55 21
 << metal1 >>
-rect -3 54 71 57
-rect 6 48 9 54
-rect 40 48 43 54
-rect 25 27 28 34
-rect -3 24 7 27
+rect -90 55 71 58
+rect -90 41 -87 55
+rect -92 38 -87 41
+rect -76 49 -73 55
+rect -42 49 -39 55
+rect 6 49 9 55
+rect 40 49 43 55
+rect -129 25 -124 28
+rect -57 27 -54 35
+rect -82 24 -75 27
+rect -57 24 -41 27
+rect -129 16 -124 19
+rect -79 19 -65 20
+rect -123 12 -120 15
+rect -81 17 -65 19
+rect -81 16 -76 17
+rect -57 13 -54 24
+rect -23 23 -20 35
+rect 25 27 28 35
+rect -11 24 7 27
+rect -11 23 -8 24
 rect 25 24 41 27
-rect -3 17 17 20
-rect 25 14 28 24
-rect 59 23 62 34
+rect -45 17 -31 20
+rect -23 20 -8 23
+rect -23 13 -20 20
+rect 1 17 17 20
+rect 25 13 28 24
+rect 59 23 62 35
 rect 37 17 51 20
 rect 59 20 71 23
-rect 59 14 62 20
-rect 6 -3 9 2
-rect 40 -3 43 2
-rect -3 -6 71 -3
+rect 59 13 62 20
+rect -123 9 -116 12
+rect -76 -4 -73 1
+rect -42 -4 -39 1
+rect 6 -4 9 1
+rect 40 -4 43 1
+rect -92 -7 71 -4
 << m2contact >>
+rect -124 24 -119 29
+rect -87 23 -82 28
+rect -124 15 -119 20
+rect -86 14 -81 19
+rect -50 16 -45 21
+rect -4 15 1 20
 rect 32 16 37 21
+rect -95 7 -90 12
 << pm12contact >>
+rect -65 17 -60 22
 rect 17 17 22 22
 << metal2 >>
+rect -119 24 -87 27
+rect -119 16 -86 19
+rect -60 17 -50 20
 rect 22 17 32 20
+rect -3 10 0 15
+rect -90 7 0 10
+use inv  inv_0
+timestamp 1618579805
+transform 1 0 -116 0 1 8
+box 0 -15 24 33
 << labels >>
-rlabel metal1 13 55 13 55 5 vdd!
-rlabel metal1 15 -5 15 -5 1 gnd!
-rlabel metal1 -3 17 -3 20 3 clk
+rlabel m2contact -3 17 -3 20 3 clk
 rlabel metal1 -3 24 -3 27 3 d
 rlabel metal1 71 20 71 23 7 q
+rlabel metal1 -11 20 -11 23 7 q
+rlabel metal1 15 -6 15 -6 1 gnd!
+rlabel metal1 -67 -6 -67 -6 1 gnd!
+rlabel metal1 13 56 13 56 5 vdd!
+rlabel metal1 -69 56 -69 56 5 vdd!
+rlabel m2contact -83 16 -83 19 3 clk
+rlabel metal1 -129 25 -129 28 3 d
+rlabel metal1 -129 16 -129 19 3 clk
 << end >>

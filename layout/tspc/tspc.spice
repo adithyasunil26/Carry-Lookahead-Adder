@@ -1,36 +1,62 @@
 * SPICE3 file created from tspc.ext - technology: scmos
 
-.option scale=0.09u
+.option scale=0.01u
 
-M1000 q a_13_34# vdd w_0_28# pfet w=14 l=2
-+  ad=210 pd=58 as=140 ps=76
-M1001 a_13_2# d gnd Gnd nfet w=12 l=2
-+  ad=72 pd=36 as=120 ps=68
-M1002 a_13_34# d vdd w_0_28# pfet w=14 l=2
-+  ad=210 pd=58 as=0 ps=0
-M1003 a_13_34# clk a_13_2# Gnd nfet w=12 l=2
-+  ad=84 pd=38 as=0 ps=0
-M1004 a_47_2# a_13_34# gnd Gnd nfet w=12 l=2
-+  ad=72 pd=36 as=0 ps=0
-M1005 q clk a_47_2# Gnd nfet w=12 l=2
-+  ad=84 pd=38 as=0 ps=0
-C0 w_0_28# a_13_34# 0.10fF
-C1 gnd q 0.03fF
-C2 clk q 0.04fF
-C3 w_0_28# vdd 0.14fF
-C4 w_0_28# q 0.04fF
-C5 d vdd 0.02fF
-C6 a_13_34# vdd 0.05fF
-C7 vdd q 0.03fF
-C8 gnd clk 0.11fF
-C9 gnd a_13_34# 0.03fF
-C10 clk d 0.27fF
-C11 w_0_28# d 0.06fF
-C12 clk a_13_34# 0.46fF
-C13 gnd Gnd 0.26fF
-C14 clk Gnd 0.55fF
-C15 q Gnd 0.08fF
-C16 vdd Gnd 0.11fF
-C17 a_13_34# Gnd 0.24fF
-C18 d Gnd 0.18fF
-C19 w_0_28# Gnd 1.78fF
+M1000 clk clk gnd Gnd nfet w=54 l=18
++  ad=2430 pd=198 as=12150 ps=810
+M1001 clk clk vdd inv_0/w_0_6# pfet w=108 l=18
++  ad=4860 pd=306 as=16200 ps=990
+M1002 a_n69_1# d gnd Gnd nfet w=108 l=18
++  ad=5832 pd=324 as=0 ps=0
+M1003 d a_13_35# vdd w_0_29# pfet w=126 l=18
++  ad=34020 pd=1044 as=0 ps=0
+M1004 a_13_1# d gnd Gnd nfet w=108 l=18
++  ad=5832 pd=324 as=0 ps=0
+M1005 d clk a_n35_1# Gnd nfet w=108 l=18
++  ad=13608 pd=684 as=5832 ps=324
+M1006 a_13_35# d vdd w_0_29# pfet w=126 l=18
++  ad=17010 pd=522 as=0 ps=0
+M1007 a_13_35# clk a_13_1# Gnd nfet w=108 l=18
++  ad=6804 pd=342 as=0 ps=0
+M1008 a_n35_1# a_n69_35# gnd Gnd nfet w=108 l=18
++  ad=0 pd=0 as=0 ps=0
+M1009 a_n69_35# d vdd w_n82_29# pfet w=126 l=18
++  ad=17010 pd=522 as=0 ps=0
+M1010 a_47_1# a_13_35# gnd Gnd nfet w=108 l=18
++  ad=5832 pd=324 as=0 ps=0
+M1011 a_n69_35# clk a_n69_1# Gnd nfet w=108 l=18
++  ad=6804 pd=342 as=0 ps=0
+M1012 d clk a_47_1# Gnd nfet w=108 l=18
++  ad=0 pd=0 as=0 ps=0
+M1013 d a_n69_35# vdd w_n82_29# pfet w=126 l=18
++  ad=0 pd=0 as=0 ps=0
+C0 a_13_35# vdd 0.03fF
+C1 a_n69_35# clk 0.54fF
+C2 d inv_0/w_0_6# 0.13fF
+C3 a_n69_35# vdd 0.03fF
+C4 w_0_29# vdd 0.14fF
+C5 w_n82_29# vdd 0.14fF
+C6 gnd clk 0.47fF
+C7 a_n35_1# clk 0.01fF
+C8 d w_0_29# 0.10fF
+C9 a_n69_1# clk 0.01fF
+C10 clk vdd 0.17fF
+C11 d w_n82_29# 0.10fF
+C12 a_13_35# w_0_29# 0.10fF
+C13 d gnd 0.07fF
+C14 d clk 0.99fF
+C15 clk inv_0/w_0_6# 0.31fF
+C16 a_n69_35# w_n82_29# 0.10fF
+C17 a_13_35# gnd 0.03fF
+C18 d vdd 0.13fF
+C19 vdd inv_0/w_0_6# 0.06fF
+C20 a_13_35# clk 0.46fF
+C21 a_n69_35# gnd 0.03fF
+C22 d Gnd 0.89fF
+C23 a_13_35# Gnd 0.26fF
+C24 w_0_29# Gnd 1.78fF
+C25 w_n82_29# Gnd 0.39fF
+C26 gnd Gnd 0.29fF
+C27 clk Gnd 2.16fF
+C28 vdd Gnd 0.18fF
+C29 inv_0/w_0_6# Gnd 0.58fF
