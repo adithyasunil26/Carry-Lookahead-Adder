@@ -6,10 +6,11 @@ description: 4-bit carry lookahead adder
 filesets:
   rtl:
     files:
-      - verilog/ff.v
-      - verilog/cla.v
-      - verilog/pggen.v
-      - verilog/clg.v
+      - verilog/ff.v: {is_include_file : true}
+      - verilog/cla.v: {is_include_file : true}
+      - verilog/pggen.v: {is_include_file : true}
+      - verilog/clg.v: {is_include_file : true}
+      - verilog/top.v: {is_include_file : true}
     file_type: verilogSource
   
   ff_tb:
@@ -50,4 +51,3 @@ provider :
   name : github
   user : adithyasunil26
   repo : Carry-Lookahead-Adder
-  version : fusesoc-core
