@@ -6,9 +6,7 @@ This project is a 4-bit carry lookahead adder. The RTL implementation in Verilog
 
 For more information about the design and implementation check out the [project report](Report.md)
 
-```
-In order to run the spice netlists and view the layouts in their original form, you will need access to the TSMC180 tech files which were used in the making of this project. Place the tech files in the spice and layout directories.
-```
+> **_NOTE:_** In order to run the spice netlists and view the layouts in their original form, you will need access to the TSMC180 tech files which were used in the making of this project. Place the tech files in the `spice` and `layout` directories.
 
 ## Run instructions
 
