@@ -1,6 +1,8 @@
 # 4-bit Carry Lookahead Adder
 
-This project is a simple 4-bit carry lookahead adder. The RTL implementation in Verilog, SPICE netlist and MAGIC layouts are present in this repository.
+[ Course project for VLSI Design ]
+
+This project is a 4-bit carry lookahead adder. The RTL implementation in Verilog, SPICE netlist and MAGIC layouts are present in this repository.
 
 For more information about the design and implementation check out the [project report](Report.md)
 
