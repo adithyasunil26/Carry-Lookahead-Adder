@@ -1,0 +1,4 @@
+*.sp linguist-detectable=false
+*.eps linguist-detectable=false 
+*.ext linguist-detectable=false 
+*.mag linguist-detectable=false 
