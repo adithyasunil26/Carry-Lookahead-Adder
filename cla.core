@@ -1,0 +1,53 @@
+CAPI=2:
+
+name: ::cla:0-r1
+description: 4-bit carry lookahead adder
+
+filesets:
+  rtl:
+    files:
+      - verilog/ff.v: {is_include_file : true}
+      - verilog/cla.v: {is_include_file : true}
+      - verilog/pggen.v: {is_include_file : true}
+      - verilog/clg.v: {is_include_file : true}
+      - verilog/top.v: {is_include_file : true}
+    file_type: verilogSource
+  
+  ff_tb:
+    files:
+      - verilog/ff_tb.v
+    file_type: verilogSource
+
+  cla_tb:
+    files:
+      - verilog/cla_tb.v
+    file_type: verilogSource
+
+  tb:
+    files:
+      - verilog/tb.v
+    file_type: verilogSource
+
+targets:
+  default:
+    filesets: [rtl]
+  
+  ff_tb:
+    default_tool: icarus
+    filesets: [rtl, ff_tb]
+    toplevel: flipfloptb
+  
+  cla_tb:
+    default_tool: icarus
+    filesets: [rtl, cla_tb]
+    toplevel: clatb
+  
+  tb:
+    default_tool: icarus
+    filesets: [rtl, tb]
+    toplevel: tb
+
+provider :
+  name : github
+  user : adithyasunil26
+  repo : Carry-Lookahead-Adder
